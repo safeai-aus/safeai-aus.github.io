@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SafeAI-Aus: Australia’s AI Safety Knowledge Hub
-description: Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely and responsibly.
+title: "SafeAI-Aus: Australia’s AI Safety Knowledge Hub"
+description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
 permalink: /
 ---
 > Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business.
