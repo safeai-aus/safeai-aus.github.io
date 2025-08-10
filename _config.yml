@@ -13,7 +13,7 @@ markdown: kramdown
 #   baseurl: ""
 #
 # We'll start blank so the site builds now; we can fill these after the repo is created.
-url: ""
+url: "https://safeai-aus.github.io"
 baseurl: ""
 
 # Show the homepage in the header
