@@ -55,7 +55,6 @@ plugins:
   - sitemap:
       changefreq: weekly
       priority: 0.5
-      sitemap_url: https://safeai-aus.github.io/sitemap.xml
 
 nav:
   - Home: index.md
