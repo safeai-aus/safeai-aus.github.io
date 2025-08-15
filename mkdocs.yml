@@ -1,0 +1,84 @@
+site_name: SafeAI-Aus
+site_description: Australian AI Safety Knowledge Hub — practical tools, open standards, and trusted guidance for responsible AI adoption.
+site_url: https://safeai-aus.github.io/
+repo_url: https://github.com/safeai-aus/safeai-aus.github.io
+repo_name: SafeAI-Aus
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/safeai-aus/safeai-aus.github.io
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+
+plugins:
+  - search
+  - tags
+  - social
+  - minify:
+      minify_html: true
+  - sitemap:
+      changefreq: weekly
+      priority: 0.5
+      sitemap_url: https://safeai-aus.github.io/sitemap.xml
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - AI Safety & Standards:
+      - Australian Guidelines & Legislation: australian-guidelines-legislation.md
+      - Relevant Australian Legislation (AI‑Related): relevant-australian-legislation-airelated.md
+      - Upcoming Trends & Global Insights: upcoming-trends-global-insights.md
+      - Upcoming Trends & Global Insights: upcoming-trends-global-insights-2.md
+      - Voluntary AI Safety Standard (10 Guardrails): voluntary-ai-safety-standard-10-guardrails.md
+  - Governance Templates:
+      - AI Deployment Readiness Checklist (Detailed): ai-deployment-readiness-checklist-detailed.md
+      - AI Incident Report Form (Detailed): ai-incident-report-form-detailed.md
+      - AI Risk Assessment Checklist (Detailed): ai-risk-assessment-checklist-detailed.md
+      - AI Vendor Evaluation Checklist (Detailed): ai-vendor-evaluation-checklist-detailed.md
+  - Practical Business Resources:
+      - AI Readiness Checklist: ai-readiness-checklist.md
+      - Policy & Template Library: policy-template-library.md
+      - Responsible AI Implementation Guide: responsible-ai-implementation-guide.md
+      - Tools & Frameworks: tools-frameworks.md
+      - Vendor & Technology Directory: vendor-technology-directory.md
+  - AI Opportunities & Trends:
+      - AI & Productivity Growth: ai-productivity-growth.md
+      - Getting Started with AI (Guardrail‑Aligned): getting-started-with-ai-guardrailaligned.md
+      - Industry‑Specific Opportunities: industryspecific-opportunities.md
+      - Innovation Case Studies (Australia): innovation-case-studies-australia.md

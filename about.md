@@ -37,4 +37,3 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 **Attribution Example:**  
 > Content from SafeAI-Aus, licensed under CC BY 4.0. Adapted from the original at [https://github.com/your-repo-link](https://github.com/your-repo-link).
-
