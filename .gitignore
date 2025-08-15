@@ -1,0 +1,4 @@
+/site/
+/.venv/
+.env
+.DS_Store
