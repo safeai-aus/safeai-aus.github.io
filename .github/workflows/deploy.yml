@@ -34,13 +34,18 @@ jobs:
       - name: Generate sitemap.xml
         run: |
           python - << 'PY'
-          import os
+          import os, re
           import xml.etree.ElementTree as ET
-          import yaml
 
+          # Extract site_url without parsing YAML (handles Material emoji tags)
+          site_url = ''
           with open('mkdocs.yml', 'r', encoding='utf-8') as f:
-              cfg = yaml.safe_load(f)
-          base_url = (cfg.get('site_url') or '').rstrip('/') + '/'
+              for line in f:
+                  m = re.match(r"\s*site_url:\s*(\S+)", line)
+                  if m:
+                      site_url = m.group(1)
+                      break
+          base_url = (site_url or '').rstrip('/') + '/'
           site_dir = 'site'
 
           urlset = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
