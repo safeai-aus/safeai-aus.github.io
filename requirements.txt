@@ -2,4 +2,3 @@ mkdocs>=1.6
 mkdocs-material[imaging]>=9.5
 mkdocs-minify-plugin>=0.8
 mkdocs-redirects>=1.2
-mkdocs-sitemap-plugin>=0.5

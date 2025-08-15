@@ -51,9 +51,7 @@ plugins:
   - tags
   - minify:
       minify_html: true
-  - sitemap:
-      changefreq: weekly
-      priority: 0.5
+  - sitemap
 
 nav:
   - Home: index.md
