@@ -19,7 +19,7 @@ theme:
     - content.action.edit
   icon:
     repo: fontawesome/brands/github
-  logo: assets/logo.svg
+  logo: assets/safeaiaus-logo-600px.png
   favicon: assets/favicon.png
 
 extra:
