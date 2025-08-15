@@ -51,7 +51,6 @@ plugins:
   - tags
   - minify:
       minify_html: true
-  - sitemap
 
 nav:
   - Home: index.md
