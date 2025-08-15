@@ -1,0 +1,5 @@
+mkdocs>=1.6
+mkdocs-material>=9.5
+mkdocs-minify-plugin>=0.8
+mkdocs-redirects>=1.2
+mkdocs-sitemap>=1.0
