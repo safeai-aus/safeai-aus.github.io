@@ -31,6 +31,40 @@ jobs:
           pip install -r requirements.txt
       - name: Build site
         run: mkdocs build --strict --site-dir site
+      - name: Generate sitemap.xml
+        run: |
+          python - << 'PY'
+          import os
+          import xml.etree.ElementTree as ET
+          import yaml
+
+          with open('mkdocs.yml', 'r', encoding='utf-8') as f:
+              cfg = yaml.safe_load(f)
+          base_url = (cfg.get('site_url') or '').rstrip('/') + '/'
+          site_dir = 'site'
+
+          urlset = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+
+          for root, _, files in os.walk(site_dir):
+              for name in files:
+                  if not name.endswith('.html'):
+                      continue
+                  rel_path = os.path.relpath(os.path.join(root, name), site_dir)
+                  if rel_path == '404.html':
+                      continue
+                  loc = base_url
+                  if rel_path == 'index.html':
+                      pass
+                  else:
+                      rel_url = rel_path.replace(os.sep, '/')
+                      if rel_url.endswith('/index.html'):
+                          rel_url = rel_url[:-10]
+                      loc += rel_url
+                  url = ET.SubElement(urlset, 'url')
+                  ET.SubElement(url, 'loc').text = loc
+
+          ET.ElementTree(urlset).write(os.path.join(site_dir, 'sitemap.xml'), encoding='utf-8', xml_declaration=True)
+          PY
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
