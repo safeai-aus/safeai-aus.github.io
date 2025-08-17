@@ -56,8 +56,7 @@ nav:
   - Home: index.md
   - About: about.md
   - AI Safety & Standards:
-      - Relevant Australian Legislation: relevant-australian-legislation-airelated.md
-      - Upcoming Trends & Global Insights: upcoming-trends-global-insights.md
+      - Relevant Australian Legislation: ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): voluntary-ai-safety-standard-10-guardrails.md
   - Governance Templates:
       - AI Deployment Readiness Checklist (Detailed): ai-deployment-readiness-checklist-detailed.md
