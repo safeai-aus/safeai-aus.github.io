@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Current Legal Landscape for AI in Australia"
+description: Overview of the current legislation application relevant for Australian business for AI adoption.
+---
+
 # Current Legal Landscape for AI in Australia
 
 While Australia doesn’t yet have AI-specific legislation, AI use is already governed by existing laws. Australian law is technology-neutral: obligations around privacy, consumer protection, discrimination, and intellectual property apply regardless of whether a decision is made by a human or an AI system.  

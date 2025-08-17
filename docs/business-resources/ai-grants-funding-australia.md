@@ -1,3 +1,9 @@
+---
+layout: page
+title: "AI Grants and Funding Opportunities for Australian Businesses"
+description: Overview of the AI related grants and funding programs for Australian business.
+---
+
 # AI Grants and Funding Opportunities for Australian Businesses
 
 Artificial Intelligence (AI) is reshaping industries across Australia. To support businesses in responsibly adopting and scaling AI, a mix of government grants, research programs, and industry‑backed accelerators are available. This article provides a consolidated overview of the most relevant opportunities for Australian businesses today.

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Voluntary AI Safety Standard (10 Guardrails)"
+description: Overview of the Voluntary AI Safety Standard (10 Guardrails) for Australian business.
+---
+
 # Voluntary AI Safety Standard (10 Guardrails)
 
 Australia’s **Voluntary AI Safety Standard** provides ten practical guardrails organisations can adopt now to deploy and use AI safely and responsibly.  
