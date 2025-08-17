@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI Readiness Checklist for Australian Businesses"
-description: AI Readiness Checklist for Australian Businesses — guidance for Australian businesses.
+description: AI Readiness Checklist for Australian Businesses - guidance for Australian businesses.
 ---
 
 # AI Readiness Checklist
@@ -48,8 +48,8 @@ Tick the boxes that apply to your organisation. A higher score means greater rea
 ---
 
 ## Scoring (quick read)
-- **0–10**: Early stage — build governance and staff skills first  
-- **11–20**: Mid stage — ready for pilots with strong oversight  
-- **21–30**: Advanced — ready to scale with continuous improvement  
+- **0–10**: Early stage - build governance and staff skills first  
+- **11–20**: Mid stage - ready for pilots with strong oversight  
+- **21–30**: Advanced - ready to scale with continuous improvement  
 
 > Use alongside the **Voluntary AI Safety Standard (10 Guardrails)** for best practice adoption in Australia.  

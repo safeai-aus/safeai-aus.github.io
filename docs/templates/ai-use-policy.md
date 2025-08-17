@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI Use Policy Template"
-description: AI Use Policy Template — guidance for Australian businesses.
+description: AI Use Policy Template - guidance for Australian businesses.
 ---
 
 # AI Use Policy Template

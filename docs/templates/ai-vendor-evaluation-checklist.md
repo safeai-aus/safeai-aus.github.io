@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI Vendor Evaluation Checklist Template"
-description: AI Vendor Evaluation Checklist Template — guidance for Australian businesses.
+description: AI Vendor Evaluation Checklist Template - guidance for Australian businesses.
 ---
 
 # AI Vendor Evaluation Checklist Template
@@ -12,7 +12,7 @@ This template will provide a comprehensive checklist for evaluating third-party 
 
 ## Planned Content
 
-**Purpose:** Evaluate third‑party AI suppliers for safety, compliance, and performance.  
+**Purpose:** Evaluate third-party AI suppliers for safety, compliance, and performance.  
 **Includes:** Security posture - Privacy/IP handling - Testing & assurance - Model update transparency - Data location
 **Guardrails:** 1, 4, 6, 7, 9, 10
 
