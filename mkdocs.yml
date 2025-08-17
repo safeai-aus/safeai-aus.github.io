@@ -64,6 +64,7 @@ nav:
       - AI Use Policy: ai-use-policy.md
       - AI Incident Report Form: ai-incident-report-form.md
       - AI Risk Assessment Checklist: ai-risk-assessment-checklist.md
+      - AI Vendor Evaluation Checklist: ai-vendor-evaluation-checklist.md
   - Practical Business Resources:
       - AI Grants & Funding: ai-grants-funding-australia.md
       - AI Readiness Checklist: ai-readiness-checklist.md
@@ -72,6 +73,6 @@ nav:
       - Tools & Frameworks: ai-aus-tools-frameworks.md
   - AI Opportunities & Trends:
       - AI & Productivity Growth: ai-productivity-growth.md
-      - Getting Started with AI: getting-started-with-ai-guardrailaligned.md
+      - Getting Started with AI: getting-started-with-ai.md
       - Industry‑Specific Opportunities: industryspecific-opportunities.md
       - Innovation Case Studies (Australia): innovation-case-studies-australia.md
