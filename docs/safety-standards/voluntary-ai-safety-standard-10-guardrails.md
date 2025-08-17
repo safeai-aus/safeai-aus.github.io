@@ -137,11 +137,11 @@ An AI application may be considered *high-risk* if it has a high likelihood of c
 - Broader societal impacts  
 
 Risk is assessed based on **context, severity, and scale**, rather than a predetermined list of application types.  
-Source: [Australian Human Rights Commission – Mandatory Guardrails for AI in High-Risk Settings (PDF)](https://humanrights.gov.au/sites/default/files/mandatory_guardrails_for_ai_in_high_risk_settings_0.pdf?utm_source=chatgpt.com)
+Source: [Australian Human Rights Commission – Mandatory Guardrails for AI in High-Risk Settings (PDF)](https://humanrights.gov.au/sites/default/files/mandatory_guardrails_for_ai_in_high_risk_settings_0.pdf)
 
 ### Illustrative examples from public commentary
 The following examples are **not part of the official government definition**. They are drawn from media, legal analyses, and the 2024 Senate inquiry into AI, which recommended that certain AI systems and general-purpose models be treated as high risk.  
-Senate Inquiry report: [“Australian Government should regulate generative AI” – The Guardian, 27 Nov 2024](https://www.theguardian.com/technology/2024/nov/27/amazon-google-and-meta-are-pillaging-culture-data-and-creativity-to-train-ai-australian-inquiry-finds?utm_source=chatgpt.com)
+Senate Inquiry report: [“Australian Government should regulate generative AI” – The Guardian, 27 Nov 2024](https://www.theguardian.com/technology/2024/nov/27/amazon-google-and-meta-are-pillaging-culture-data-and-creativity-to-train-ai-australian-inquiry-finds)
 
 **Examples often cited as potentially high-risk in public discussions:**  
 - Healthcare diagnosis or treatment  

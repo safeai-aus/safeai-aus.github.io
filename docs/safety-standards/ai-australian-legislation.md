@@ -22,7 +22,7 @@ Understanding the current legal landscape helps organisations:
 ## Key Laws That Apply Today
 
 ### Privacy Act 1988 & Australian Privacy Principles (APPs)
-The **Privacy Act 1988** is the principal legislation that regulates how personal information is collected, stored, used, and disclosed in Australia, including by government and private sector organisations ([ag.gov.au](https://www.ag.gov.au/rights-and-protections/privacy?utm_source=chatgpt.com)). It establishes the **Australian Privacy Principles (APPs)**, which apply to most organisations and agencies.  
+The **Privacy Act 1988** is the principal legislation that regulates how personal information is collected, stored, used, and disclosed in Australia, including by government and private sector organisations ([ag.gov.au](https://www.ag.gov.au/rights-and-protections/privacy)). It establishes the **Australian Privacy Principles (APPs)**, which apply to most organisations and agencies.  
 
 **Relevance to AI:**  
 - Customers must be informed when AI systems process personal information  
