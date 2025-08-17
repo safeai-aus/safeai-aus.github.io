@@ -6,7 +6,7 @@ As of August 2025, the Government is also considering new AI-specific regulation
 
 ### Why this matters
 Understanding the current legal landscape helps organisations:  
-- Avoid **legal and reputational risks from misuse of AI  
+- Avoid legal and reputational risks from misuse of AI  
 - Demonstrate compliance and accountability to regulators and customers  
 - Build trust by applying the same standards to AI as to human decision-making  
 - Prepare for upcoming AI-specific laws and reforms in Australia  
