@@ -13,7 +13,7 @@ This template will provide a comprehensive checklist for evaluating third-party 
 ## Planned Content
 
 **Purpose:** Evaluate third‑party AI suppliers for safety, compliance, and performance.  
-**Includes:** Security posture • Privacy/IP handling • Testing & assurance • Model update transparency • Data location
+**Includes:** Security posture - Privacy/IP handling - Testing & assurance - Model update transparency - Data location
 **Guardrails:** 1, 4, 6, 7, 9, 10
 
 ---

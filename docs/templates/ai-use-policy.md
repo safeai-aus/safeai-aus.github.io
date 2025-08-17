@@ -13,7 +13,7 @@ This template will provide a comprehensive policy framework for governing AI use
 ## Planned Content
 
 **Purpose:** Define acceptable AI uses, governance structures, and oversight requirements.  
-**Includes:** Scope/definitions • Acceptable/unacceptable uses • Oversight & roles • Privacy/IP protection • Incident escalation • Training
+**Includes:** Scope/definitions - Acceptable/unacceptable uses - Oversight & roles - Privacy/IP protection - Incident escalation - Training
 **Guardrails:** 1, 3, 5, 8, 9, 10
 
 ---
