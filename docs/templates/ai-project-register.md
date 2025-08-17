@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI Project Register Template"
-description: AI Project Register Template — guidance for Australian businesses.
+description: AI Project Register Template - guidance for Australian businesses.
 ---
 
 # AI Project Register Template
@@ -13,7 +13,7 @@ This template will provide a structured way to maintain a central record of all 
 ## Planned Content
 
 **Purpose:** Maintain a central record of all AI initiatives.  
-**Includes:** Project name - Owner - Guardrail status - Data sources - Model details - Version history - Go/No‑Go
+**Includes:** Project name - Owner - Guardrail status - Data sources - Model details - Version history - Go/No-Go
 **Guardrails:** 1, 2, 9, 10
 
 ## What This Template Will Include
