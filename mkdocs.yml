@@ -59,19 +59,18 @@ nav:
       - Relevant Australian Legislation: ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): voluntary-ai-safety-standard-10-guardrails.md
   - Governance Templates:
-      - AI Deployment Readiness Checklist (Detailed): ai-deployment-readiness-checklist-detailed.md
-      - AI Incident Report Form (Detailed): ai-incident-report-form-detailed.md
-      - AI Risk Assessment Checklist (Detailed): ai-risk-assessment-checklist-detailed.md
-      - AI Vendor Evaluation Checklist (Detailed): ai-vendor-evaluation-checklist-detailed.md
+      - AI Deployment Readiness Checklist: ai-deployment-readiness-checklist-detailed.md
+      - AI Incident Report Form: ai-incident-report-form-detailed.md
+      - AI Risk Assessment Checklist: ai-risk-assessment-checklist-detailed.md
+      - AI Vendor Evaluation Checklist: ai-vendor-evaluation-checklist-detailed.md
   - Practical Business Resources:
       - AI Grants & Funding: ai-grants-funding-australia.md
       - AI Readiness Checklist: ai-readiness-checklist.md
       - Policy & Template Library: policy-template-library.md
       - Responsible AI Implementation Guide: responsible-ai-implementation-guide.md
-      - Tools & Frameworks: tools-frameworks.md
-      - Vendor & Technology Directory: vendor-technology-directory.md
+      - Tools & Frameworks: ai-aus-tools-frameworks.md
   - AI Opportunities & Trends:
       - AI & Productivity Growth: ai-productivity-growth.md
-      - Getting Started with AI (Guardrail‑Aligned): getting-started-with-ai-guardrailaligned.md
+      - Getting Started with AI: getting-started-with-ai-guardrailaligned.md
       - Industry‑Specific Opportunities: industryspecific-opportunities.md
       - Innovation Case Studies (Australia): innovation-case-studies-australia.md
