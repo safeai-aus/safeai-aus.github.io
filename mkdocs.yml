@@ -12,7 +12,8 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.top
-    - toc.integrate
+    - navigation.prune
+    # - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -59,10 +60,10 @@ nav:
       - Relevant Australian Legislation: ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): voluntary-ai-safety-standard-10-guardrails.md
   - Governance Templates:
-      - AI Deployment Readiness Checklist: ai-deployment-readiness-checklist-detailed.md
-      - AI Incident Report Form: ai-incident-report-form-detailed.md
-      - AI Risk Assessment Checklist: ai-risk-assessment-checklist-detailed.md
-      - AI Vendor Evaluation Checklist: ai-vendor-evaluation-checklist-detailed.md
+      - AI Deployment Readiness Checklist: ai-deployment-readiness-checklist.md
+      - AI Use Policy: ai-use-policy.md
+      - AI Incident Report Form: ai-incident-report-form.md
+      - AI Risk Assessment Checklist: ai-risk-assessment-checklist.md
   - Practical Business Resources:
       - AI Grants & Funding: ai-grants-funding-australia.md
       - AI Readiness Checklist: ai-readiness-checklist.md
