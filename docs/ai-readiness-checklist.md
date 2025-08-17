@@ -6,81 +6,50 @@ description: AI Readiness Checklist for Australian Businesses — guidance for A
 
 # AI Readiness Checklist
 
-This checklist helps Australian businesses determine if they are ready to adopt AI safely, responsibly, and effectively.  
-It is aligned with the **Voluntary AI Safety Standard** (Department of Industry, 2023; updated 2024) and its 10 Guardrails, as well as international standards such as ISO/IEC 42001:2023 and the NIST AI Risk Management Framework 1.0.  
+This checklist helps Australian businesses decide if they are ready to adopt AI safely, responsibly, and effectively.  
+It reflects the **Voluntary AI Safety Standard (10 Guardrails)** released by the Australian Government and is consistent with international frameworks such as **ISO/IEC 42001:2023** and the **NIST AI Risk Management Framework**.
 
-Use it as a self-assessment tool before launching pilots or scaling AI solutions.
+Tick the boxes that apply to your organisation. A higher score means greater readiness.
 
 ---
 
 ## 1) Strategy & Governance
-- [ ] Clear AI vision linked to business objectives  
-- [ ] Named accountable AI owner (senior sponsor)  
-- [ ] Published AI Use Policy (acceptable use, oversight, privacy/IP)  
-- [ ] Approval process for AI initiatives (pre-launch review)  
+- [ ] Clear AI vision linked to business goals  
+- [ ] A named senior owner for AI (accountable leader)  
+- [ ] An AI Use Policy covering acceptable use, privacy, and IP  
+- [ ] Approval process for new AI initiatives  
 
-## 2) Data, Privacy & IP
-- [ ] Data inventory and data quality baseline established  
-- [ ] Compliance with Privacy Act 1988 (APPs) and readiness for upcoming reforms  
+## 2) Data & Privacy
+- [ ] Up-to-date data inventory and quality checks  
+- [ ] Compliance with the Privacy Act 1988 (APPs)  
 - [ ] Protections for business IP (Copyright Act 1968)  
-- [ ] Data governance for collection, retention, deletion, and access control  
-- [ ] Ability to anonymise/pseudonymise personal data where needed  
+- [ ] Ability to anonymise or pseudonymise personal data  
 
 ## 3) Risk & Impact
-- [ ] Documented risk and impact assessments (bias, safety, rights, environment)  
-- [ ] Mitigations and sign-offs recorded before deployment  
-- [ ] Controls for high-risk use cases defined  
-- [ ] Reference to **Work Health and Safety Act 2011** where workplace risks may apply  
+- [ ] Risk and impact assessments completed (bias, safety, rights)  
+- [ ] High-risk use cases identified and controlled  
+- [ ] Sign-offs recorded before deployment  
 
-## 4) Human Oversight & Skills
-- [ ] Human-in-the-loop for consequential decisions  
-- [ ] Staff training on safe AI use, privacy/IP, escalation procedures  
-- [ ] Clear escalation paths for incidents or unexpected outcomes  
-- [ ] Ongoing workforce upskilling in AI literacy and critical thinking  
+## 4) People & Skills
+- [ ] Human oversight for important decisions  
+- [ ] Staff trained on safe AI use and escalation paths  
+- [ ] Clear process for reporting incidents or issues  
 
-## 5) Testing, Monitoring & Records
-- [ ] Pre-deployment testing & assurance (performance, robustness, fairness)  
-- [ ] Ongoing monitoring for drift, errors, and safety issues  
-- [ ] Central **records**: model versions, prompts, decisions, incidents  
-- [ ] Independent or external assurance where risks are high  
+## 5) Testing & Monitoring
+- [ ] Pre-deployment testing (performance, fairness, robustness)  
+- [ ] Ongoing monitoring for errors, drift, and safety  
+- [ ] Records kept of models, prompts, and key decisions  
 
-## 6) Suppliers & Third Parties
-- [ ] Vendors aligned to the 10 Guardrails  
-- [ ] Contracts include privacy, IP, testing/assurance, and update transparency  
-- [ ] Regular reassessment of vendor security and change practices  
-- [ ] Disclosure of third-party data sources and licensing  
-
-## 7) Transparency & Explainability
-- [ ] Documented model purpose, limitations, and training data sources  
-- [ ] Explanations for outputs provided in business-friendly language  
-- [ ] Users informed when interacting with AI vs. humans  
-- [ ] Records of decision rationale available for audits  
-
-## 8) Security & Resilience
-- [ ] AI systems included in broader **cyber security frameworks**  
-- [ ] Protection against adversarial attacks and prompt injection  
-- [ ] Business continuity and incident response plans in place  
-- [ ] Alignment with **Critical Infrastructure Security obligations** if relevant  
-
-## 9) Fairness & Inclusion
-- [ ] Bias and fairness testing conducted before and after deployment  
-- [ ] AI systems designed for accessibility (WCAG, inclusive language)  
-- [ ] Impacts on vulnerable groups assessed and mitigated  
-- [ ] Regular stakeholder and community input considered  
-
-## 10) Accountability & Redress
-- [ ] Clear accountability lines for AI decisions and outcomes  
-- [ ] Mechanisms for customers and employees to raise complaints  
-- [ ] Processes for review, correction, or redress where harm occurs  
-- [ ] External reporting or independent oversight where required (e.g. regulators)  
+## 6) Suppliers & Partners
+- [ ] Vendors align with Australia’s 10 Guardrails  
+- [ ] Contracts cover privacy, IP, and security requirements  
+- [ ] Regular review of vendor practices and updates  
 
 ---
 
 ## Scoring (quick read)
-- **0–15**: Early stage — focus on governance, legal compliance, and staff literacy before pilots  
-- **16–30**: Developing — ready for low-risk pilots with strong oversight  
-- **31–40**: Established — capable of scaling, with robust monitoring and controls  
-- **41–50**: Advanced — industry-leading, continuously improving, and externally assured  
+- **0–10**: Early stage — build governance and staff skills first  
+- **11–20**: Mid stage — ready for pilots with strong oversight  
+- **21–30**: Advanced — ready to scale with continuous improvement  
 
-> Use this checklist with **Getting Started** guidance and the **Voluntary AI Safety Standard (10 Guardrails)**.  
-> It complements Australian legal obligations under the **Privacy Act**, **Copyright Act**, **Competition and Consumer Act**, and **Work Health and Safety Act**.  
+> Use alongside the **Voluntary AI Safety Standard (10 Guardrails)** for best practice adoption in Australia.  
