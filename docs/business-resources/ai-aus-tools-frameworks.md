@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Tools & Frameworks"
+description: Overview of the AI related tools and frameworks to assist in safe and scaleable AI implementations for Australian business.
+---
+
 # Tools & Frameworks
 
 A curated list of practical tools, frameworks, and resources to help Australian businesses implement AI safely and responsibly.

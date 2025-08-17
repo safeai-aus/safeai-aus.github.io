@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI Readiness Checklist for Australian Businesses
+title: "AI Readiness Checklist for Australian Businesses"
 description: AI Readiness Checklist for Australian Businesses — guidance for Australian businesses.
 ---
 

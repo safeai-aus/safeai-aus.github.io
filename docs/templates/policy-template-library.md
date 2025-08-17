@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Safe AI Policy & Template Library
+title: "Safe AI Policy & Template Library"
 description: Safe AI Policy & Template Library — guidance for Australian businesses.
 ---
 
