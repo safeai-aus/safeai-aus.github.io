@@ -16,9 +16,9 @@ Last updated: 2025-08-16 · Owner: SafeAI Aus
 
 ## 1) AI Risk & Ethics Frameworks
 - **Australian Government AI Ethics Principles** – 8 principles guiding ethical AI use. ([industry.gov.au](https://industry.gov.au/ai-ethics))
-**Voluntary AI Safety Standard (10 Guardrails)** – published 2024, aligns with ISO/IEC 42001 and NIST AI RMF. (https://www.industry.gov.au/publications/voluntary-ai-safety-standard)
+- **Voluntary AI Safety Standard (10 Guardrails)** – published 2024, aligns with ISO/IEC 42001 and NIST AI RMF. ([industry.gov.au](https://www.industry.gov.au/publications/voluntary-ai-safety-standard))
   - Note: The Guardrails explicitly align with ISO/IEC 42001:2023 and the NIST AI Risk Management Framework 1.0.
-**National framework for the assurance of AI in government (DTA)** – how agencies assure AI systems. (https://www.dta.gov.au/guidance-and-tools/assurance/national-framework-assurance-ai-government)
+- **National framework for the assurance of AI in government (DTA)** – how agencies assure AI systems. ([dta.gov.au](https://www.dta.gov.au/guidance-and-tools/assurance/national-framework-assurance-ai-government))
 - **NIST AI Risk Management Framework (AI RMF 1.0)** – comprehensive, sector-agnostic guidance. ([nist.gov](https://www.nist.gov/itl/ai-risk-management-framework))
 - **NIST Generative AI Risk Management Profile** – profile for GenAI use cases. ([nist.gov](https://www.nist.gov/itl/ai-risk-management-framework/generative-ai-profile))
 - **ISO/IEC 23894** – AI risk management guidance. ([iso.org](https://www.iso.org/standard/77304.html))
@@ -27,8 +27,8 @@ Last updated: 2025-08-16 · Owner: SafeAI Aus
 - **Singapore Model AI Governance Framework** – practical implementation guidance. ([pdpc.gov.sg](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework))
 
 ## 2) Governance & Policy Tools
-**Privacy Impact Assessments (PIAs)** – OAIC guidance on conducting PIAs. (https://www.oaic.gov.au/privacy/privacy-guidance-and-resources/privacy-impact-assessments)
-**NSW Artificial Intelligence Assessment Framework** – NSW’s method for assessing AI; assurance is now embedded in the Digital Assurance Framework. (https://www.digital.nsw.gov.au/policy/artificial-intelligence/ai-assessment-framework)
+- **Privacy Impact Assessments (PIAs)** – OAIC guidance on conducting PIAs. ([oaic.gov.au](https://www.oaic.gov.au/privacy/privacy-guidance-and-resources/privacy-impact-assessments))
+- **NSW Artificial Intelligence Assessment Framework** – NSW's method for assessing AI; assurance is now embedded in the Digital Assurance Framework. ([digital.nsw.gov.au](https://www.digital.nsw.gov.au/policy/artificial-intelligence/ai-assessment-framework))
 - **ASD Essential Eight** – baseline mitigation strategies. ([cyber.gov.au](https://www.cyber.gov.au/resources-business-and-government/essential-eight))
 - **Notifiable Data Breaches (NDB) Scheme** – reporting obligations. ([oaic.gov.au](https://www.oaic.gov.au/privacy/notifiable-data-breaches))
 - **Australian Privacy Principles (APPs)** – core privacy obligations. ([oaic.gov.au](https://www.oaic.gov.au/privacy/australian-privacy-principles))
@@ -38,7 +38,7 @@ Last updated: 2025-08-16 · Owner: SafeAI Aus
 - **Datasheets for Datasets** – dataset transparency and quality control. ([arXiv](https://arxiv.org/abs/1803.09010))
 - **Aequitas** – open-source bias/fairness audit toolkit. ([github.com](https://github.com/dssg/aequitas))
 - **Fairlearn** – open-source fairness assessment and mitigation. ([fairlearn.org](https://fairlearn.org/))
-**NIST AI RMF Playbook (TEVV)** – testing, evaluation, verification, and validation resources. (https://airc.nist.gov/Playbook)
+- **NIST AI RMF Playbook (TEVV)** – testing, evaluation, verification, and validation resources. ([airc.nist.gov](https://airc.nist.gov/Playbook))
 
 ## 4) Privacy & Security
 - **Differential Privacy** – OpenDP, OpenMined community resources. ([opendp.org](https://opendp.org/), [OpenMined](https://github.com/OpenMined))
