@@ -57,22 +57,16 @@ nav:
   - Home: index.md
   - About: about.md
   - AI Safety & Standards:
-      - Relevant Australian Legislation: ai-australian-legislation.md
-      - Voluntary AI Safety Standard (10 Guardrails): voluntary-ai-safety-standard-10-guardrails.md
+      - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
+      - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md
   - Governance Templates:
-      - AI Deployment Readiness Checklist: ai-deployment-readiness-checklist.md
-      - AI Use Policy: ai-use-policy.md
-      - AI Incident Report Form: ai-incident-report-form.md
-      - AI Risk Assessment Checklist: ai-risk-assessment-checklist.md
-      - AI Vendor Evaluation Checklist: ai-vendor-evaluation-checklist.md
+      - AI Deployment Readiness Checklist: templates/ai-readiness-checklist.md
+      - AI Use Policy: templates/ai-use-policy.md
+      - AI Incident Report Form: templates/ai-incident-report-form.md
+      - AI Risk Assessment Checklist: templates/ai-risk-assessment-checklist.md
+      - AI Vendor Evaluation Checklist: templates/ai-vendor-evaluation-checklist.md
+      - Policy & Template Library: templates/policy-template-library.md
   - Practical Business Resources:
-      - AI Grants & Funding: ai-grants-funding-australia.md
-      - AI Readiness Checklist: ai-readiness-checklist.md
-      - Policy & Template Library: policy-template-library.md
-      - Responsible AI Implementation Guide: responsible-ai-implementation-guide.md
-      - Tools & Frameworks: ai-aus-tools-frameworks.md
-  - AI Opportunities & Trends:
-      - AI & Productivity Growth: ai-productivity-growth.md
-      - Getting Started with AI: getting-started-with-ai.md
-      - Industry‑Specific Opportunities: industryspecific-opportunities.md
-      - Innovation Case Studies (Australia): innovation-case-studies-australia.md
+      - AI Grants & Funding: business-resources/ai-grants-funding-australia.md
+      - Tools & Frameworks: business-resources/ai-aus-tools-frameworks.md
+  
