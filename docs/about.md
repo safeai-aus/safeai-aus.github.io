@@ -1,8 +1,20 @@
 ---
 layout: page
 title: "About SafeAI-Aus: Mission, Values & Licence"
-permalink: /about/
 description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing. The Australian knowledge hub for safe, responsible, and growth-focused AI adoption."
+keywords: "SafeAI-Aus mission, AI safety values, Australian AI community, open source AI tools, AI governance Australia, AI safety mission, Australian AI standards, AI ethics Australia"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "About SafeAI-Aus: Mission, Values & Licence"
+og_description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing"
+og_type: "website"
+og_url: "https://safeai-aus.github.io/about/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "About SafeAI-Aus: Mission, Values & Licence"
+twitter_description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing"
+canonical_url: "https://safeai-aus.github.io/about/"
+permalink: /about/
 ---
 
 # About SafeAI-Aus 

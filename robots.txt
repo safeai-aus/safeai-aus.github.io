@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://safeai-aus.github.io/sitemap.xml
+
+# Crawl delay (optional, helps with server load)
+Crawl-delay: 1

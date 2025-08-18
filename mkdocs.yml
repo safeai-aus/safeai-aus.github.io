@@ -4,6 +4,10 @@ site_url: https://safeai-aus.github.io/
 repo_url: https://github.com/safeai-aus/safeai-aus.github.io
 repo_name: SafeAI-Aus
 edit_uri: edit/main/docs/
+
+# SEO-friendly URL structure
+use_directory_urls: true
+
 theme:
   name: material
   features:
@@ -22,12 +26,43 @@ theme:
     repo: fontawesome/brands/github
   logo: assets/safeaiaus-logo-600px.png
   favicon: assets/favicon.png
-
-extra:
+  
+  # SEO and social media optimization
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/safeai-aus/safeai-aus.github.io
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/safeai_aus
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+extra:
+  # SEO and social media optimization
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/safeai-aus/safeai-aus.github.io
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/safeai_aus
   generator: false
+
+# Add custom CSS for SEO and UX improvements
+extra_css:
+  - assets/extra.css
+
+# Add custom JavaScript for SEO and social media optimization
+extra_javascript:
+  - assets/extra.js
 
 markdown_extensions:
   - admonition
@@ -70,4 +105,5 @@ nav:
   - Practical Business Resources:
       - AI Grants & Funding: business-resources/ai-grants-funding-australia.md
       - Tools & Frameworks: business-resources/ai-aus-tools-frameworks.md
+      - State & Territory AI Resources: business-resources/state-territory-ai-resources.md
   
