@@ -59,8 +59,14 @@ nav:
   - AI Safety & Standards:
       - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md
-  - Test:
-      - Test Template: test-template.md
+  - Governance Templates:
+      - Policy & Template Library: governance-templates/policy-template-library.md
+      - AI Readiness Checklist: governance-templates/ai-readiness-checklist.md
+      - AI Use Policy: governance-templates/ai-use-policy.md
+      - AI Incident Report Form: governance-templates/ai-incident-report-form.md
+      - AI Risk Assessment Checklist: governance-templates/ai-risk-assessment-checklist.md
+      - AI Vendor Evaluation Checklist: governance-templates/ai-vendor-evaluation-checklist.md
+      - AI Project Register: governance-templates/ai-project-register.md
   - Practical Business Resources:
       - AI Grants & Funding: business-resources/ai-grants-funding-australia.md
       - Tools & Frameworks: business-resources/ai-aus-tools-frameworks.md
