@@ -60,6 +60,7 @@ nav:
       - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md
   - Governance Templates:
+      - Test Template: templates/test-template.md
       - Policy & Template Library: templates/policy-template-library.md
       - AI Readiness Checklist: templates/ai-readiness-checklist.md
       - AI Use Policy: templates/ai-use-policy.md
