@@ -1,0 +1,133 @@
+/* SEO and UX improvements for SafeAI-Aus */
+
+/* Improve heading hierarchy and readability */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #2c3e50;
+}
+
+/* Improve content readability */
+.md-content {
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+/* Better link styling for SEO */
+.md-content a {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.md-content a:hover {
+    border-bottom: 1px solid #3498db;
+}
+
+/* Improve list readability */
+.md-content ul, .md-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.md-content li {
+    margin-bottom: 0.5rem;
+}
+
+/* Better table styling */
+.md-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.md-content th, .md-content td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.md-content th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Improve code block readability */
+.md-content code {
+    background-color: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.md-content pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Better blockquote styling */
+.md-content blockquote {
+    border-left: 4px solid #3498db;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    font-style: italic;
+}
+
+/* Improve navigation visibility */
+.md-nav__title {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Better search results */
+.md-search__input {
+    border-radius: 20px;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.6em; }
+    h3 { font-size: 1.3em; }
+    
+    .md-content {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+}
+
+/* Print-friendly styles */
+@media print {
+    .md-content {
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+    
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    
+    .md-nav, .md-header {
+        display: none;
+    }
+}

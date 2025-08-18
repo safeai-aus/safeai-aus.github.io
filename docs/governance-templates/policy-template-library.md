@@ -10,7 +10,7 @@ Practical, open-source templates to help Australian businesses implement safe, r
 
 ## Templates
 
-- [AI Use Policy](ai-use-policy.md) - Coming Soon
+- [AI Use Policy](ai-use-policy.md)
 - [AI Risk Assessment Form](ai-risk-assessment-checklist.md) - Coming Soon
 - [AI Incident Report Form](ai-incident-report-form.md) - Coming Soon
 - [Vendor Assessment Checklist](ai-vendor-evaluation-checklist.md) - Coming Soon

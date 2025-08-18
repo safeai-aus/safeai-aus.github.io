@@ -1,7 +1,19 @@
 ---
 layout: page
 title: "Current Legal Landscape for AI in Australia"
-description: Overview of the current legislation application relevant for Australian business for AI adoption.
+description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business. Learn about Privacy Act, Consumer Law, Anti-Discrimination laws, and IP regulations affecting AI use."
+keywords: "AI legislation Australia, Australian AI law, AI privacy law, AI consumer law, AI discrimination law, AI intellectual property, AI legal compliance, Australian AI regulations, AI legal framework"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "Current Legal Landscape for AI in Australia"
+og_description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business"
+og_type: "article"
+og_url: "https://safeai-aus.github.io/safety-standards/ai-australian-legislation/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "Current Legal Landscape for AI in Australia"
+twitter_description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business"
+canonical_url: "https://safeai-aus.github.io/safety-standards/ai-australian-legislation/"
 ---
 
 # Current Legal Landscape for AI in Australia

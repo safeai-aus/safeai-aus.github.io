@@ -1,7 +1,19 @@
 ---
 layout: page
 title: "AI Readiness Checklist for Australian Businesses"
-description: AI Readiness Checklist for Australian Businesses - guidance for Australian businesses.
+description: "Comprehensive AI readiness checklist for Australian businesses. Assess your organization's preparedness for safe, responsible, and effective AI adoption with our step-by-step evaluation tool."
+keywords: "AI readiness checklist, Australian business AI, AI adoption checklist, AI governance checklist, AI safety checklist, AI risk assessment, AI readiness assessment, Australian AI standards, AI implementation checklist"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "AI Readiness Checklist for Australian Businesses"
+og_description: "Comprehensive AI readiness checklist for Australian businesses"
+og_type: "article"
+og_url: "https://safeai-aus.github.io/governance-templates/ai-readiness-checklist/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "AI Readiness Checklist for Australian Businesses"
+twitter_description: "Comprehensive AI readiness checklist for Australian businesses"
+canonical_url: "https://safeai-aus.github.io/governance-templates/ai-readiness-checklist/"
 ---
 
 # AI Readiness Checklist
