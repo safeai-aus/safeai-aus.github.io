@@ -1,7 +1,19 @@
 ---
 layout: page
 title: "Voluntary AI Safety Standard (10 Guardrails)"
-description: Overview of the Voluntary AI Safety Standard (10 Guardrails) for Australian business.
+description: "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails for safe AI adoption. Includes implementation guidance for SMEs and large organizations."
+keywords: "Australian AI safety standard, AI guardrails, AI safety framework, voluntary AI standards, AI risk management, AI governance Australia, AI safety compliance, AI safety guardrails, Australian AI standards, AI safety best practices"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "Voluntary AI Safety Standard (10 Guardrails)"
+og_description: "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails"
+og_type: "article"
+og_url: "https://safeai-aus.github.io/safety-standards/voluntary-ai-safety-standard-10-guardrails/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "Voluntary AI Safety Standard (10 Guardrails)"
+twitter_description: "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails"
+canonical_url: "https://safeai-aus.github.io/safety-standards/voluntary-ai-safety-standard-10-guardrails/"
 ---
 
 # Voluntary AI Safety Standard (10 Guardrails)

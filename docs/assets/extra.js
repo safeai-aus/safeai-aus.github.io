@@ -101,6 +101,9 @@
     
     // Add structured data for better search results
     function addStructuredData() {
+        const currentUrl = window.location.href;
+        
+        // Enhanced organization schema for the main site
         const structuredData = {
             "@context": "https://schema.org",
             "@type": "Organization",
@@ -113,7 +116,45 @@
             ],
             "foundingDate": "2025",
             "areaServed": "Australia",
-            "serviceType": "AI Safety Resources"
+            "serviceType": "AI Safety Resources",
+            "knowsAbout": [
+                "Artificial Intelligence Safety",
+                "AI Governance",
+                "AI Risk Management",
+                "Australian AI Standards",
+                "AI Compliance",
+                "AI Ethics"
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "AI Safety Resources",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI Governance Templates",
+                            "description": "Comprehensive templates for AI policies, risk assessments, and compliance"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI Safety Standards",
+                            "description": "Guidance on Australian AI safety standards and voluntary guardrails"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Business Resources",
+                            "description": "Tools, frameworks, and funding information for AI adoption"
+                        }
+                    }
+                ]
+            }
         };
         
         const script = document.createElement('script');
@@ -122,11 +163,171 @@
         document.head.appendChild(script);
     }
     
+    // Add AI-specific structured data
+    function addAISchemaData() {
+        // Get page-specific content
+        const pageTitle = document.querySelector('h1')?.textContent || '';
+        const pageDescription = document.querySelector('meta[name="description"]')?.content || '';
+        const currentUrl = window.location.href;
+        
+        // Determine page type based on URL structure
+        let pageType = "WebPage";
+        let mainEntityType = "TechArticle";
+        
+        if (currentUrl.includes('/governance-templates/')) {
+            pageType = "WebPage";
+            mainEntityType = "TechArticle";
+        } else if (currentUrl.includes('/safety-standards/')) {
+            pageType = "WebPage";
+            mainEntityType = "TechArticle";
+        } else if (currentUrl.includes('/business-resources/')) {
+            pageType = "WebPage";
+            mainEntityType = "TechArticle";
+        }
+        
+        const aiSchema = {
+            "@context": "https://schema.org",
+            "@type": pageType,
+            "name": pageTitle,
+            "description": pageDescription,
+            "url": currentUrl,
+            "mainEntity": {
+                "@type": mainEntityType,
+                "headline": pageTitle,
+                "about": {
+                    "@type": "Thing",
+                    "name": "Artificial Intelligence Safety"
+                },
+                "audience": {
+                    "@type": "Audience",
+                    "audienceType": "Australian Businesses"
+                },
+                "keywords": "AI safety, Australian AI standards, AI governance, AI risk assessment, AI compliance",
+                "author": {
+                    "@type": "Organization",
+                    "name": "SafeAI-Aus",
+                    "url": "https://safeai-aus.github.io/"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "SafeAI-Aus",
+                    "url": "https://safeai-aus.github.io/"
+                },
+                "datePublished": "2025-01-27",
+                "dateModified": new Date().toISOString().split('T')[0]
+            }
+        };
+        
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.textContent = JSON.stringify(aiSchema);
+        document.head.appendChild(script);
+    }
+    
+    // Add FAQ schema for pages with FAQ content
+    function addFAQSchema() {
+        const faqElements = document.querySelectorAll('h3, h4');
+        const faqItems = [];
+        
+        faqElements.forEach((element, index) => {
+            if (index < 5) { // Limit to first 5 for schema
+                const question = element.textContent;
+                const nextElement = element.nextElementSibling;
+                let answer = '';
+                
+                if (nextElement && nextElement.tagName === 'P') {
+                    answer = nextElement.textContent;
+                } else if (nextElement && nextElement.tagName === 'UL') {
+                    answer = nextElement.textContent;
+                }
+                
+                if (answer) {
+                    faqItems.push({
+                        "@type": "Question",
+                        "name": question,
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": answer
+                        }
+                    });
+                }
+            }
+        });
+        
+        if (faqItems.length > 0) {
+            const faqSchema = {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": faqItems
+            };
+            
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.textContent = JSON.stringify(faqSchema);
+            document.head.appendChild(script);
+        }
+    }
+    
+    // Add HowTo schema for template and checklist pages
+    function addHowToSchema() {
+        const currentUrl = window.location.href;
+        
+        if (currentUrl.includes('/governance-templates/') || currentUrl.includes('/checklist')) {
+            const pageTitle = document.querySelector('h1')?.textContent || '';
+            const pageDescription = document.querySelector('meta[name="description"]')?.content || '';
+            
+            const howToSchema = {
+                "@context": "https://schema.org",
+                "@type": "HowTo",
+                "name": pageTitle,
+                "description": pageDescription,
+                "about": {
+                    "@type": "Thing",
+                    "name": "AI Safety Implementation"
+                },
+                "audience": {
+                    "@type": "Audience",
+                    "audienceType": "Australian Businesses"
+                },
+                "step": [
+                    {
+                        "@type": "HowToStep",
+                        "name": "Review Template",
+                        "text": "Review the provided template structure and requirements"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "name": "Customize Content",
+                        "text": "Adapt the template to your organization's specific needs"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "name": "Implement",
+                        "text": "Apply the template in your AI governance framework"
+                    }
+                ]
+            };
+            
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.textContent = JSON.stringify(howToSchema);
+            document.head.appendChild(script);
+        }
+    }
+    
     // Add structured data when page loads
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', addStructuredData);
+        document.addEventListener('DOMContentLoaded', function() {
+            addStructuredData();
+            addAISchemaData();
+            addFAQSchema();
+            addHowToSchema();
+        });
     } else {
         addStructuredData();
+        addAISchemaData();
+        addFAQSchema();
+        addHowToSchema();
     }
     
 })();
