@@ -50,8 +50,8 @@ markdown_extensions:
 plugins:
   - search
   - tags
-  - minify:
-      minify_html: true
+  # - minify:
+  #     minify_html: true
 
 nav:
   - Home: index.md
@@ -59,14 +59,8 @@ nav:
   - AI Safety & Standards:
       - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md
-  - Governance Templates:
+  - Test:
       - Test Template: templates/test-template.md
-      - Policy & Template Library: templates/policy-template-library.md
-      - AI Readiness Checklist: templates/ai-readiness-checklist.md
-      - AI Use Policy: templates/ai-use-policy.md
-      - AI Incident Report Form: templates/ai-incident-report-form.md
-      - AI Risk Assessment Checklist: templates/ai-risk-assessment-checklist.md
-      - AI Vendor Evaluation Checklist: templates/ai-vendor-evaluation-checklist.md
   - Practical Business Resources:
       - AI Grants & Funding: business-resources/ai-grants-funding-australia.md
       - Tools & Frameworks: business-resources/ai-aus-tools-frameworks.md
