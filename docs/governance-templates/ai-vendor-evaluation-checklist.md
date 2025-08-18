@@ -1,7 +1,19 @@
 ---
 layout: page
 title: "AI Vendor Evaluation Checklist Template"
-description: AI Vendor Evaluation Checklist Template - guidance for Australian businesses.
+description: "Comprehensive AI vendor evaluation checklist for Australian businesses. Assess third-party AI suppliers for safety, compliance, security, and alignment with Australian AI standards."
+keywords: "AI vendor evaluation, AI supplier checklist, AI vendor assessment, AI procurement checklist, AI vendor compliance, Australian AI standards, AI vendor safety"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "AI Vendor Evaluation Checklist Template"
+og_description: "Comprehensive AI vendor evaluation checklist for Australian businesses"
+og_type: "article"
+og_url: "https://safeai-aus.github.io/governance-templates/ai-vendor-evaluation-checklist/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "AI Vendor Evaluation Checklist Template"
+twitter_description: "Comprehensive AI vendor evaluation checklist for Australian businesses"
+canonical_url: "https://safeai-aus.github.io/governance-templates/ai-vendor-evaluation-checklist/"
 ---
 
 # AI Vendor Evaluation Checklist Template

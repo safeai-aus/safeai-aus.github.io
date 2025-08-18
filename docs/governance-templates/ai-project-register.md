@@ -1,7 +1,19 @@
 ---
 layout: page
 title: "AI Project Register Template"
-description: AI Project Register Template - guidance for Australian businesses.
+description: "Comprehensive AI project register template for Australian businesses. Centralized tracking of AI initiatives, compliance status, and governance oversight aligned with safety standards."
+keywords: "AI project register template, AI project tracking, AI governance tracking, AI compliance register, AI project management, Australian AI safety, AI project oversight"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "AI Project Register Template"
+og_description: "Comprehensive AI project register template for Australian businesses"
+og_type: "article"
+og_url: "https://safeai-aus.github.io/governance-templates/ai-project-register/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "AI Project Register Template"
+twitter_description: "Comprehensive AI project register template for Australian businesses"
+canonical_url: "https://safeai-aus.github.io/governance-templates/ai-project-register/"
 ---
 
 # AI Project Register Template

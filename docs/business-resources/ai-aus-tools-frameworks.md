@@ -1,7 +1,19 @@
 ---
 layout: page
-title: "Tools & Frameworks"
-description: Overview of the AI related tools and frameworks to assist in safe and scaleable AI implementations for Australian business.
+title: "AI Tools & Frameworks for Australian Businesses"
+description: "Curated collection of AI tools, frameworks, and resources for Australian businesses implementing AI safely and responsibly. Includes risk management, governance, and technical testing tools."
+keywords: "AI tools Australia, AI frameworks Australia, AI risk management tools, AI governance tools, AI testing tools, Australian AI resources, AI safety tools, AI compliance tools"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "AI Tools & Frameworks for Australian Businesses"
+og_description: "Curated collection of AI tools, frameworks, and resources for Australian businesses"
+og_type: "article"
+og_url: "https://safeai-aus.github.io/business-resources/ai-aus-tools-frameworks/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "AI Tools & Frameworks for Australian Businesses"
+twitter_description: "Curated collection of AI tools, frameworks, and resources for Australian businesses"
+canonical_url: "https://safeai-aus.github.io/business-resources/ai-aus-tools-frameworks/"
 ---
 
 # Tools & Frameworks

@@ -1,7 +1,19 @@
 ---
 layout: page
 title: "AI Use Policy Template"
-description: AI Use Policy Template - guidance for Australian businesses.
+description: "Comprehensive AI Use Policy template for Australian businesses. Includes governance, risk management, privacy protection, and compliance with Australian AI safety standards."
+keywords: "AI use policy template, AI governance template, Australian AI policy, AI safety policy, AI compliance template, AI risk management policy, AI governance Australia"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "AI Use Policy Template"
+og_description: "Comprehensive AI Use Policy template for Australian businesses"
+og_type: "article"
+og_url: "https://safeai-aus.github.io/governance-templates/ai-use-policy/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "AI Use Policy Template"
+twitter_description: "Comprehensive AI Use Policy template for Australian businesses"
+canonical_url: "https://safeai-aus.github.io/governance-templates/ai-use-policy/"
 ---
 
 # AI Use Policy

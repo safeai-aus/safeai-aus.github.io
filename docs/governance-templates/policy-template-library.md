@@ -1,7 +1,19 @@
 ---
 layout: page
 title: "Safe AI Policy & Template Library"
-description: "Safe AI Policy & Template Library - guidance for Australian businesses."
+description: "Comprehensive collection of AI governance templates and policies for Australian businesses. Includes risk assessments, incident reporting, vendor evaluation, and project management tools."
+keywords: "AI policy templates, AI governance templates, AI safety templates, Australian AI templates, AI policy library, AI governance tools, AI compliance templates"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "Safe AI Policy & Template Library"
+og_description: "Comprehensive collection of AI governance templates and policies for Australian businesses"
+og_type: "article"
+og_url: "https://safeai-aus.github.io/governance-templates/policy-template-library/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "Safe AI Policy & Template Library"
+twitter_description: "Comprehensive collection of AI governance templates and policies for Australian businesses"
+canonical_url: "https://safeai-aus.github.io/governance-templates/policy-template-library/"
 ---
 
 # Policy & Template Library
