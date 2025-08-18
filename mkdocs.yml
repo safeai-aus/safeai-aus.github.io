@@ -86,10 +86,9 @@ plugins:
   - search
   - tags
   - git-revision-date-localized:
-      enable_creation_date: true
-      enable_modification_date: true
       type: datetime
       locale: en
+  - print-site
   # - minify:
   #     minify_html: true
 
