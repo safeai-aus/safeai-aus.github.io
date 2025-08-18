@@ -23,6 +23,20 @@ h3 {
     color: #2c3e50;
 }
 
+/* Dark mode support for headings */
+[data-md-color-scheme="slate"] h1 {
+    color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] h2 {
+    color: #e8e8e8;
+    border-bottom-color: #64b5f6;
+}
+
+[data-md-color-scheme="slate"] h3 {
+    color: #e0e0e0;
+}
+
 /* Improve content readability */
 .md-content {
     line-height: 1.7;
@@ -69,6 +83,17 @@ h3 {
     font-weight: 600;
 }
 
+/* Dark mode support for tables */
+[data-md-color-scheme="slate"] .md-content th,
+[data-md-color-scheme="slate"] .md-content td {
+    border-color: #555;
+    color: #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] .md-content th {
+    background-color: #424242;
+}
+
 /* Improve code block readability */
 .md-content code {
     background-color: #f8f9fa;
@@ -84,6 +109,17 @@ h3 {
     overflow-x: auto;
 }
 
+/* Dark mode support for code elements */
+[data-md-color-scheme="slate"] .md-content code {
+    background-color: #424242;
+    color: #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] .md-content pre {
+    background-color: #424242;
+    color: #e0e0e0;
+}
+
 /* Better blockquote styling */
 .md-content blockquote {
     border-left: 4px solid #3498db;
@@ -93,10 +129,22 @@ h3 {
     font-style: italic;
 }
 
+/* Dark mode support for blockquotes */
+[data-md-color-scheme="slate"] .md-content blockquote {
+    background-color: #424242;
+    border-left-color: #64b5f6;
+    color: #e0e0e0;
+}
+
 /* Improve navigation visibility */
 .md-nav__title {
     font-weight: 600;
     color: #2c3e50;
+}
+
+/* Dark mode support for navigation */
+[data-md-color-scheme="slate"] .md-nav__title {
+    color: #e8e8e8;
 }
 
 /* Better search results */
