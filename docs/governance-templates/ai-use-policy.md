@@ -37,7 +37,8 @@ This page provides a reusable **AI Use Policy** for Australian businesses seekin
 ## 1. Purpose
 The purpose of this policy is to ensure the safe, responsible, and effective use of Artificial Intelligence (AI) within [Organisation Name]. It establishes clear expectations for how AI should support organisational goals, protect people, and align with applicable standards and laws.  
 
-This policy aims to:  
+This policy aims to: 
+ 
 - Support organisational objectives.  
 - Comply with Australian laws and standards.  
 - Protect privacy, data, and intellectual property (IP).  
@@ -50,6 +51,7 @@ This policy aims to:
 This policy applies across the organisation wherever AI technologies are developed, purchased, or used. It covers both internal and external use cases, ensuring that all applications of AI are appropriately governed.  
 
 In scope are:  
+
 - All AI projects, pilots, and procurements.  
 - All AI-generated outputs used for decision-making or external publication.  
 - Any third-party AI services or APIs integrated into organisational workflows.  
@@ -182,10 +184,12 @@ SafeAI-Aus provides this template without warranty or liability.
 This AI Use Policy template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
 
 You are free to:  
+
 - **Share** — copy and redistribute the material in any medium or format.  
 - **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
 
 Under the following terms:  
+
 - **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
 
 **Attribution statement for reuse:**  

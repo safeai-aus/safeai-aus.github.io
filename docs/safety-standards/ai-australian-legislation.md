@@ -24,6 +24,7 @@ As of August 2025, the Government is also considering new AI-specific regulation
 
 ### Why this matters
 Understanding the current legal landscape helps organisations:  
+
 - Avoid legal and reputational risks from misuse of AI  
 - Demonstrate compliance and accountability to regulators and customers  
 - Build trust by applying the same standards to AI as to human decision-making  
@@ -37,12 +38,14 @@ Understanding the current legal landscape helps organisations:
 The **Privacy Act 1988** is the principal legislation that regulates how personal information is collected, stored, used, and disclosed in Australia, including by government and private sector organisations ([ag.gov.au](https://www.ag.gov.au/rights-and-protections/privacy)). It establishes the **Australian Privacy Principles (APPs)**, which apply to most organisations and agencies.  
 
 **Relevance to AI:**  
+
 - Customers must be informed when AI systems process personal information  
 - AI-derived insights about individuals are considered personal information  
 - Consent may be required for analyzing personal data by AI  
 - AI training datasets must comply with the APPs  
 
 **Actions required:**  
+
 - Update privacy policies to mention AI use  
 - Display “We use AI” notices where relevant  
 - Ensure AI vendors are APP-compliant  
@@ -56,12 +59,14 @@ The **Privacy Act 1988** is the principal legislation that regulates how persona
 The **Australian Consumer Law (ACL)** is a national law embedded in the Competition and Consumer Act 2010. It protects consumers from unfair trading, misleading conduct, and unsafe products or services across all states and territories ([consumer.gov.au](https://consumer.gov.au/about/australian-consumer-law)).  
 
 **Relevance to AI:**  
+
 - AI-generated content and claims must not be inaccurate or misleading  
 - Chatbots must clearly communicate their nature and authority  
 - AI-driven pricing must avoid deception  
 - Recommendations should be based on reasonable grounds  
 
 **Actions required:**  
+
 - Review all AI-generated marketing and promotional content  
 - Implement disclaimers where chatbot responses could mislead  
 - Monitor AI output quality and accuracy  
@@ -75,12 +80,14 @@ The **Australian Consumer Law (ACL)** is a national law embedded in the Competit
 Australia maintains a federal anti‑discrimination framework, including acts like the **Sex Discrimination Act 1984**, **Racial Discrimination Act 1975**, and **Disability Discrimination Act 1992**. These laws prohibit unfair treatment across public life based on protected characteristics ([ag.gov.au](https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/australias-anti-discrimination-law)).  
 
 **Relevance to AI:**  
+
 - AI must not discriminate against protected groups (e.g., based on gender, race, age, disability)  
 - Recruitment or HR AI tools must mitigate bias  
 - Services powered by AI must treat all users equitably  
 - Credit and insurance AI must comply with anti-discrimination obligations  
 
 **Actions required:**  
+
 - Regularly audit AI systems for bias and discriminatory outcomes  
 - Document actions taken to ensure fairness  
 - Maintain human oversight for high-impact AI decisions  
@@ -94,12 +101,14 @@ Australia maintains a federal anti‑discrimination framework, including acts li
 Australia’s **IP laws**—covering copyright, patents, trademarks, and design rights—aim to protect creators and innovators while balancing access to creative content and knowledge ([ipaustralia.gov.au](https://www.ipaustralia.gov.au/about-us/ip-legislation-in-australia)).  
 
 **Relevance to AI:**  
+
 - Training AI models on copyrighted data may pose legal risk  
 - AI-generated outputs might not qualify for copyright protection  
 - Using client data without permission could breach confidentiality or IP rights  
 - Using competitors’ content for training may contravene IP laws  
 
 **Actions required:**  
+
 - Audit datasets for copyright compliance  
 - Include AI use and ownership clauses in contracts  
 - Avoid relying solely on AI-generated content for IP claims  
@@ -142,6 +151,7 @@ Australia’s **IP laws**—covering copyright, patents, trademarks, and design 
 
 ## Why This Matters
 Even before new AI laws are introduced, **existing legislation creates clear compliance obligations**. Businesses deploying AI should:  
+
 - Treat AI as subject to the same laws as human decision-making  
 - Document AI-related policies and processes  
 - Engage legal review for higher-risk applications  
