@@ -50,4 +50,4 @@ By combining responsible innovation with a pro-business approach, SafeAI-Aus aim
 This work is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
 
 **Attribution Example:**  
-> Content from SafeAI-Aus, licensed under CC BY 4.0. Adapted from the original at [https://github.com/your-repo-link](https://github.com/your-repo-link).
+> Content from SafeAI-Aus, licensed under CC BY 4.0. Adapted from the original at [https://github.com/safeai-aus/safeai-aus.github.io](https://github.com/safeai-aus/safeai-aus.github.io).

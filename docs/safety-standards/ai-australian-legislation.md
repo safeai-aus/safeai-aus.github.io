@@ -20,7 +20,7 @@ canonical_url: "https://safeai-aus.github.io/safety-standards/ai-australian-legi
 
 While Australia doesn’t yet have AI-specific legislation, AI use is already governed by existing laws. Australian law is technology-neutral: obligations around privacy, consumer protection, discrimination, and intellectual property apply regardless of whether a decision is made by a human or an AI system.  
 
-As of August 2025, the Government is also considering new AI-specific regulation, including mandatory guardrails for high-risk applications, but outcomes remain politically uncertain.  
+As of 2025-01-27, the Government is also considering new AI-specific regulation, including mandatory guardrails for high-risk applications, but outcomes remain politically uncertain.  
 
 ### Why this matters
 Understanding the current legal landscape helps organisations:  
@@ -117,7 +117,7 @@ Australia’s **IP laws**—covering copyright, patents, trademarks, and design 
 
 ---
 
-## Emerging Reforms (2025–2026 to watch)
+## Emerging Reforms (2025-2026 to watch)
 - **Privacy Act reforms** – stronger consent rules, right to explanation of AI-driven decisions, direct rights of action, and higher penalties  
 - **Mandatory AI guardrails** – under consultation, could apply in high-risk applications (healthcare, employment, finance, infrastructure)  
 - **Potential AI-specific legislation** – Government has signalled a possible AI Act (similar to EU), with algorithm auditing and liability frameworks  

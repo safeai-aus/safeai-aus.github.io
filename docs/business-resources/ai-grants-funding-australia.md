@@ -60,11 +60,11 @@ Artificial Intelligence (AI) is reshaping industries across Australia. To suppor
 
 ## State-Level Opportunities
 
-### South Australia: $28 Million AI Initiative (2025–29)  
+### South Australia: $28 Million AI Initiative (2025-2029)  
 - **$7 million annually** for proof‑of‑value trials.  
 - Focused on **healthcare, policing, allied health, social work, and legal/financial services**.  
 - Supports public sector AI adoption while safeguarding jobs.  
-- Program is **active** (2025–2029).  
+- Program is **active** (2025-2029).  
 ➡️ [Read more](https://www.news.com.au/technology/innovation/south-australian-treasurer-stephen-mullighan-announces-new-28m-ai-program-in-state-budget/news-story/97fe39eeff3224d0eb3857c7169ce8c2)
 
 ### AIML (Australian Institute for Machine Learning) Programs  
@@ -133,7 +133,7 @@ Artificial Intelligence (AI) is reshaping industries across Australia. To suppor
 | Catalysing AI in Regions | Federal Grant | $250k–$500k | Regional AI solutions | Concluded |
 | R&D Tax Incentive | Tax Offset | 38.5–43.5% | AI R&D projects | Active |
 | ARC Discovery & Linkage | Competitive grants | $30k–$500k annually | University–industry research | Active |
-| SA AI Initiative | State Program | $28m over 4 years | Healthcare, policing, services | Active (2025–29) |
+| SA AI Initiative | State Program | $28m over 4 years | Healthcare, policing, services | Active (2025-2029) |
 | AIML Industrial AI SME Grant | SME Grant | Expert access | Industrial AI adoption | Active (to 2028) |
 | NSW Early Adopter Program | State Grant | $2.7m+ (2024) | Planning system AI trials | Active (2024) |
 | AWS AI Accelerator | Corporate | US$230m pool | Generative AI startups | Active |

@@ -20,7 +20,7 @@ canonical_url: "https://safeai-aus.github.io/business-resources/state-territory-
 
 This page curates official, state/territory-level resources on artificial intelligence (AI) for public sector use in Australia. It focuses on whole-of-government strategies and policies, AI assurance frameworks, information/privacy guidance from statutory bodies (e.g., information commissioners, ombudsmen), and records management directives. Where education-specific positions exist, they’re included because they are often the most mature sector guidance.
 
-> **Last verified:** 18 August 2025 (ACST). Links point only to official government or statutory sources.
+> **Last verified:** 2025-01-27 (ACST). Links point only to official government or statutory sources.
 
 ---
 
