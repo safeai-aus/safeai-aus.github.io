@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://safeai-aus.github.io/</loc>
+    <loc>https://safeaiaus.org/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/about/</loc>
+    <loc>https://safeaiaus.org/about/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/safety-standards/ai-australian-legislation/</loc>
+    <loc>https://safeaiaus.org/safety-standards/ai-australian-legislation/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/safety-standards/voluntary-ai-safety-standard-10-guardrails/</loc>
+    <loc>https://safeaiaus.org/safety-standards/voluntary-ai-safety-standard-10-guardrails/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/governance-templates/policy-template-library/</loc>
+    <loc>https://safeaiaus.org/governance-templates/policy-template-library/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/governance-templates/ai-readiness-checklist/</loc>
+    <loc>https://safeaiaus.org/governance-templates/ai-readiness-checklist/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/governance-templates/ai-use-policy/</loc>
+    <loc>https://safeaiaus.org/governance-templates/ai-use-policy/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/governance-templates/ai-incident-report-form/</loc>
+    <loc>https://safeaiaus.org/governance-templates/ai-incident-report-form/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/governance-templates/ai-risk-assessment-checklist/</loc>
+    <loc>https://safeaiaus.org/governance-templates/ai-risk-assessment-checklist/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/governance-templates/ai-vendor-evaluation-checklist/</loc>
+    <loc>https://safeaiaus.org/governance-templates/ai-vendor-evaluation-checklist/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/governance-templates/ai-project-register/</loc>
+    <loc>https://safeaiaus.org/governance-templates/ai-project-register/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/business-resources/ai-grants-funding-australia/</loc>
+    <loc>https://safeaiaus.org/business-resources/ai-grants-funding-australia/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/business-resources/ai-aus-tools-frameworks/</loc>
+    <loc>https://safeaiaus.org/business-resources/ai-aus-tools-frameworks/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://safeai-aus.github.io/business-resources/state-territory-ai-resources/</loc>
+    <loc>https://safeaiaus.org/business-resources/state-territory-ai-resources/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
