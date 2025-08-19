@@ -26,13 +26,6 @@ theme:
     repo: fontawesome/brands/github
   logo: assets/safeaiaus-logo-600px.png
   favicon: assets/favicon.png
-  
-  # SEO and social media optimization
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/safeai-aus/safeai-aus.github.io
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/safeai_aus
   palette:
     - scheme: default
       primary: indigo
