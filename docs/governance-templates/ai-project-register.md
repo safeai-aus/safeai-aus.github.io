@@ -20,11 +20,13 @@ canonical_url: "https://safeaiaus.org/governance-templates/ai-project-register/"
 
 **Purpose**  
 This register provides a structured way to maintain a central record of all AI initiatives within your organisation. It is designed to:  
+
 - Ensure visibility across all AI-related projects.  
 - Provide a single source of truth for governance, risk, and compliance monitoring.  
 - Support decision-making through consistent project documentation and guardrail alignment.  
 
 **When to Use**  
+
 - At project initiation: create a new entry for each AI initiative.  
 - During project lifecycle: update details as the project evolves (e.g., risks, model versions).  
 - At review points: use the register to assess Go/No-Go criteria and ensure guardrail compliance.  
@@ -86,10 +88,12 @@ SafeAI-Aus provides this template without warranty or liability.
 This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
 
 You are free to:  
+
 - **Share** — copy and redistribute the material in any medium or format.  
 - **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
 
 Under the following terms:  
+
 - **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
 
 **Attribution statement for reuse:**  

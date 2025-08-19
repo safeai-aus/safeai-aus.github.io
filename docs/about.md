@@ -44,10 +44,26 @@ By combining responsible innovation with a pro-business approach, SafeAI-Aus aim
 6. **Alignment with Standards** – Promote compliance with Australian regulations and alignment with leading global AI safety frameworks.
 
 ---
-
 ## Attribution & Licence
 [![CC BY 4.0 License](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)  
 This work is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
 
+### Why CC BY 4.0?  
+SafeAI-Aus has adopted the CC BY 4.0 licence to maximise accessibility, reuse, and impact of our resources. This licence allows anyone to:  
+
+- **Use** the content freely, including for commercial purposes.  
+- **Adapt and build upon** the content to suit specific business or community needs.  
+- **Share** the material in any format.  
+
+The only requirement is **attribution** — recognising SafeAI-Aus as the source and linking back to this site.  
+
+This choice reflects our commitment to:  
+
+- **Openness and collaboration** – encouraging businesses, researchers, and policymakers to reuse and improve on our work.  
+- **Practical adoption** – removing barriers to use, even in commercial contexts, so that safe AI practices spread quickly and effectively.  
+- **Credibility and trust** – ensuring attribution helps maintain a clear chain of custody and authenticity for shared knowledge.  
+
 **Attribution Example:**  
-> Content from SafeAI-Aus, licensed under CC BY 4.0. Adapted from the original at [https://github.com/safeai-aus/safeai-aus.github.io](https://github.com/safeai-aus/safeai-aus.github.io).
+> Content from SafeAI-Aus, licensed under CC BY 4.0. Adapted from the original at [https://github.com/safeai-aus/safeai-aus.github.io](https://github.com/safeai-aus/safeai-aus.github.io).  
+
+---

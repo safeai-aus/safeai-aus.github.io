@@ -30,6 +30,7 @@ Importantly, the 10 guardrails are consistent with leading international standar
 
 ### Why this matters
 Adopting the guardrails early helps organisations build **trust, resilience, and regulatory readiness**. By embedding these practices now, businesses can:  
+
 - Reduce risks from bias, errors, and misuse of AI  
 - Strengthen transparency and customer confidence  
 - Position themselves ahead of future mandatory compliance requirements
@@ -65,52 +66,62 @@ Adopting the guardrails early helps organisations build **trust, resilience, and
 
 While the 10 guardrails apply to all organisations, SMEs can adopt them at different maturity levels:
 
-**Guardrail 1: Establish accountability**  
+**Guardrail 1: Establish accountability** 
+
 - *Minimum:* Designate an AI responsible person  
 - *Better:* Create simple AI governance policy  
 - *Best:* Regular board/leadership AI updates  
 
 **Guardrail 2: Implement risk management**  
+
 - *Minimum:* Use SAAM risk assessment tool  
 - *Better:* Quarterly risk reviews  
 - *Best:* Integrated risk management system  
 
-**Guardrail 3: Protect data**  
+**Guardrail 3: Protect data** 
+
 - *Minimum:* Follow existing cybersecurity practices  
 - *Better:* AI-specific data controls  
 - *Best:* Enhanced encryption and access controls  
 
-**Guardrail 4: Ensure transparency**  
+**Guardrail 4: Ensure transparency** 
+
 - *Minimum:* "Powered by AI" labels  
 - *Better:* Explain AI role in decisions  
 - *Best:* Full algorithmic transparency  
 
-**Guardrail 5: Enable human control**  
+**Guardrail 5: Enable human control** 
+
 - *Minimum:* Override capability for all AI decisions  
 - *Better:* Human review of significant decisions  
 - *Best:* Human-in-the-loop for all critical processes  
 
-**Guardrail 6: Test reliability**  
+**Guardrail 6: Test reliability**
+
 - *Minimum:* Pre-deployment testing  
 - *Better:* Monthly performance monitoring  
 - *Best:* Continuous testing and validation  
 
-**Guardrail 7: Monitor impacts**  
+**Guardrail 7: Monitor impacts**
+
 - *Minimum:* Track errors and complaints  
 - *Better:* Proactive impact assessment  
 - *Best:* Real-time monitoring dashboard  
 
-**Guardrail 8: Ensure accountability in supply chain**  
+**Guardrail 8: Ensure accountability in supply chain**
+
 - *Minimum:* Vendor compliance check  
 - *Better:* Contractual AI requirements  
 - *Best:* Regular vendor audits  
 
-**Guardrail 9: Maintain records**  
+**Guardrail 9: Maintain records**
+
 - *Minimum:* Keep AI decision logs  
 - *Better:* Comprehensive documentation  
 - *Best:* Automated compliance reporting  
 
-**Guardrail 10: Support human autonomy**  
+**Guardrail 10: Support human autonomy**
+
 - *Minimum:* Opt-out options  
 - *Better:* User control preferences  
 - *Best:* Full user agency over AI interactions  
@@ -141,6 +152,7 @@ While the 10 guardrails apply to all organisations, SMEs can adopt them at diffe
 ### Government's principles-based definition of "high-risk AI"
 In its consultation on mandatory guardrails for AI in high-risk settings, the Australian Government proposes a principles-based approach.  
 An AI application may be considered *high-risk* if it has a high likelihood of causing material harm in one or more of the following areas:
+
 - Human rights or freedoms  
 - Health and safety  
 - Legal rights or obligations  
@@ -156,6 +168,7 @@ The following examples are **not part of the official government definition**. T
 Senate Inquiry report: [“Australian Government should regulate generative AI” – The Guardian, 27 Nov 2024](https://www.theguardian.com/technology/2024/nov/27/amazon-google-and-meta-are-pillaging-culture-data-and-creativity-to-train-ai-australian-inquiry-finds)
 
 **Examples often cited as potentially high-risk in public discussions:**  
+
 - Healthcare diagnosis or treatment  
 - Employment decisions (hiring, firing, promotion)  
 - Financial services (loans, insurance)  
@@ -164,6 +177,7 @@ Senate Inquiry report: [“Australian Government should regulate generative AI�
 - Legal decisions  
 
 **General-purpose applications** (likely to remain voluntary under current proposals):  
+
 - Marketing automation  
 - Customer service chatbots  
 - Internal productivity tools  

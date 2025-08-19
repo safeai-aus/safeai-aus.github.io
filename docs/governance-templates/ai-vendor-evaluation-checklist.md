@@ -20,12 +20,14 @@ canonical_url: "https://safeaiaus.org/governance-templates/ai-vendor-evaluation-
 
 Selecting the right AI vendor is a critical step in managing risk and ensuring safe, ethical, and productive use of AI in your business. This checklist helps Australian organisations assess potential AI vendors against industry standards, legal requirements, and best practices.  
 
-Using this evaluation process supports stronger AI governance by:  
+Using this evaluation process supports stronger AI governance by: 
+
 - Reducing risks from unverified or non-compliant AI products.  
 - Ensuring transparency, accountability, and security in AI procurement.  
 - Building trust with customers, regulators, and partners.  
 
-This checklist can be used as part of your organisation’s AI governance framework when:  
+This checklist can be used as part of your organisation’s AI governance framework when: 
+
 - Onboarding a new AI vendor.  
 - Renewing or extending existing vendor contracts.  
 - Reviewing AI products that have undergone significant updates.  
@@ -106,6 +108,7 @@ Check customer references, case studies, and the vendor’s history of regulator
 
 ## Documenting & Storing Results
 To ensure accountability and provide an audit trail:  
+
 - Record all responses and supporting evidence provided by the vendor.  
 - Capture notes on any identified risks or gaps and how they will be managed.  
 - Store completed checklists in a secure repository (e.g. risk register, governance system, or procurement file).  
@@ -130,10 +133,12 @@ SafeAI-Aus provides this template without warranty or liability.
 This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
 
 You are free to:  
+
 - **Share** — copy and redistribute the material in any medium or format.  
 - **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
 
 Under the following terms:  
+
 - **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
 
 **Attribution statement for reuse:**  
