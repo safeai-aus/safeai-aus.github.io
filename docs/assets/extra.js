@@ -177,10 +177,153 @@
             }
         };
         
-        const script = document.createElement('script');
-        script.type = 'application/ld+json';
-        script.textContent = JSON.stringify(structuredData);
-        document.head.appendChild(script);
+        // Add Local Business Schema for better local SEO
+        const localBusinessSchema = {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "SafeAI-Aus",
+            "alternateName": "Safe AI Australia",
+            "description": "Australian AI Safety Knowledge Hub providing practical tools, open standards, and trusted guidance for responsible AI adoption.",
+            "url": "https://safeaiaus.org/",
+            "logo": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png",
+            "image": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "AU",
+                "addressRegion": "Australia",
+                "addressLocality": "Australia"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "-25.2744",
+                "longitude": "133.7751"
+            },
+            "serviceArea": {
+                "@type": "Country",
+                "name": "Australia"
+            },
+            "areaServed": [
+                {
+                    "@type": "Country",
+                    "name": "Australia"
+                },
+                {
+                    "@type": "State",
+                    "name": "New South Wales"
+                },
+                {
+                    "@type": "State",
+                    "name": "Victoria"
+                },
+                {
+                    "@type": "State",
+                    "name": "Queensland"
+                },
+                {
+                    "@type": "State",
+                    "name": "Western Australia"
+                },
+                {
+                    "@type": "State",
+                    "name": "South Australia"
+                },
+                {
+                    "@type": "State",
+                    "name": "Tasmania"
+                },
+                {
+                    "@type": "State",
+                    "name": "Northern Territory"
+                },
+                {
+                    "@type": "State",
+                    "name": "Australian Capital Territory"
+                }
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "AI Safety Resources and Services",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI Governance Templates",
+                            "description": "Comprehensive templates for AI policies, risk assessments, and compliance",
+                            "category": "AI Governance"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI Safety Standards",
+                            "description": "Guidance on Australian AI safety standards and voluntary guardrails",
+                            "category": "AI Safety Standards"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Business Resources",
+                            "description": "Tools, frameworks, and funding information for AI adoption",
+                            "category": "Business Resources"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI Risk Assessment",
+                            "description": "Risk assessment checklists and frameworks for AI implementation",
+                            "category": "Risk Management"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI Vendor Evaluation",
+                            "description": "Vendor selection and evaluation criteria for AI solutions",
+                            "category": "Vendor Management"
+                        }
+                    }
+                ]
+            },
+            "knowsAbout": [
+                "Artificial Intelligence Safety",
+                "AI Governance",
+                "AI Risk Management",
+                "Australian AI Standards",
+                "AI Compliance",
+                "AI Ethics",
+                "AI Legislation Australia",
+                "AI Safety Guardrails",
+                "AI Incident Management",
+                "AI Vendor Management"
+            ],
+            "keywords": "AI safety, Australian AI standards, AI governance, AI risk assessment, AI compliance, AI safety templates, Australian business AI, AI safety Australia, AI governance templates, AI risk management",
+            "foundingDate": "2025",
+            "slogan": "Safe AI, Stronger Australia",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "availableLanguage": "English",
+                "areaServed": "AU"
+            }
+        };
+        
+        // Add both schemas to the page
+        const schemas = [structuredData, localBusinessSchema];
+        
+        schemas.forEach((schema, index) => {
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.textContent = JSON.stringify(schema);
+            script.id = `structured-data-${index}`;
+            document.head.appendChild(script);
+        });
     }
     
     // Add AI-specific structured data
