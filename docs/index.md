@@ -15,6 +15,7 @@ twitter_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
 twitter_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
 canonical_url: "https://safeaiaus.org/"
 permalink: /
+security: "high"
 ---
 > Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business.
 

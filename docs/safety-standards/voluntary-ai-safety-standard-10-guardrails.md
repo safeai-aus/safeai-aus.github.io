@@ -25,6 +25,7 @@ The standard was developed by the Department of Industry, Science and Resources 
 The standard is **voluntary** and complements existing Australian law. It provides a practical framework for organisations to manage AI safely while future regulation is considered.  
 
 Importantly, the 10 guardrails are consistent with leading international standards and frameworks, including:  
+
 - [**ISO/IEC 42001:2023** – AI Management System Standard](https://www.iso.org/standard/81230.html)  
 - [**NIST AI Risk Management Framework 1.0**](https://www.nist.gov/itl/ai-risk-management-framework)  
 

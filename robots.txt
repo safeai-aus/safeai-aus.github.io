@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 
+# Security files
+Allow: /.well-known/security.txt
+
 # Sitemap location
 Sitemap: https://safeaiaus.org/sitemap.xml
 
