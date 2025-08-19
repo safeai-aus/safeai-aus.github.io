@@ -8,12 +8,12 @@ robots: "index, follow"
 og_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
 og_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
 og_type: "website"
-og_url: "https://safeai-aus.github.io/"
+og_url: "https://safeaiaus.org/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
 twitter_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
-canonical_url: "https://safeai-aus.github.io/"
+canonical_url: "https://safeaiaus.org/"
 permalink: /
 ---
 > Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business.
@@ -29,7 +29,7 @@ To enable safe, ethical, and growth-oriented AI adoption in Australian businesse
 
 ## What You'll Find Here
 - **Guidelines** — Best practices aligned with the Australian Voluntary AI Safety Standard.
-- **Governance Templates** — Risk assessments, incident forms, vendor evaluation tools, and readiness checklists.
+- **Governance Templates** — AI use policies, risk assessments, incident forms, vendor evaluation tools, and readiness checklists.
 - **Resources** — Reports, whitepapers, and case studies relevant to AI adoption in Australia.
 - **Trends** — Insights into AI developments, including decentralised AI and blockchain.
 
@@ -45,7 +45,7 @@ To enable safe, ethical, and growth-oriented AI adoption in Australian businesse
 ### Governance Templates
 - [Policy & Template Library](governance-templates/policy-template-library.md) - Central repository of all governance templates
 - [AI Readiness Checklist](governance-templates/ai-readiness-checklist.md) - Step-by-step readiness assessment for AI implementation
-- [AI Use Policy](governance-templates/ai-use-policy.md) - Comprehensive policy template for AI usage in organizations
+- [AI Use Policy](governance-templates/ai-use-policy.md) - Comprehensive policy template for AI usage in organisations
 - [AI Incident Report Form](governance-templates/ai-incident-report-form.md) - Standardized incident reporting and response template
 - [AI Risk Assessment Checklist](governance-templates/ai-risk-assessment-checklist.md) - Systematic risk evaluation framework
 - [AI Vendor Evaluation Checklist](governance-templates/ai-vendor-evaluation-checklist.md) - Vendor selection and evaluation criteria

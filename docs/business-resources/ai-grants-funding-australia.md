@@ -8,17 +8,17 @@ robots: "index, follow"
 og_title: "AI Grants and Funding Opportunities for Australian Businesses"
 og_description: "Comprehensive guide to AI grants, funding programs, and financial support for Australian businesses"
 og_type: "article"
-og_url: "https://safeai-aus.github.io/business-resources/ai-grants-funding-australia/"
+og_url: "https://safeaiaus.org/business-resources/ai-grants-funding-australia/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Grants and Funding Opportunities for Australian Businesses"
 twitter_description: "Comprehensive guide to AI grants, funding programs, and financial support for Australian businesses"
-canonical_url: "https://safeai-aus.github.io/business-resources/ai-grants-funding-australia/"
+canonical_url: "https://safeaiaus.org/business-resources/ai-grants-funding-australia/"
 ---
 
 # AI Grants and Funding Opportunities for Australian Businesses
 
-Artificial Intelligence (AI) is reshaping industries across Australia. To support businesses in responsibly adopting and scaling AI, a mix of government grants, research programs, and industry‑backed accelerators are available. This article provides a consolidated overview of the most relevant opportunities for Australian businesses today.
+AI is reshaping industries across Australia. To support businesses in responsibly adopting and scaling AI, a mix of government grants, research programs, and industry‑backed accelerators are available. This article provides a consolidated overview of the most relevant opportunities for Australian businesses today.
 
 ---
 

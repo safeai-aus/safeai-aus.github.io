@@ -2,6 +2,15 @@
 (function() {
     'use strict';
     
+    // Goat Counter Analytics
+    (function() {
+        const script = document.createElement('script');
+        script.setAttribute('data-goatcounter', 'https://safeaiaus.goatcounter.com/count');
+        script.async = true;
+        script.src = '//gc.zgo.at/count.js';
+        document.head.appendChild(script);
+    })();
+    
     // Function to add meta tags
     function addMetaTag(name, content) {
         if (!document.querySelector(`meta[name="${name}"]`)) {
@@ -28,7 +37,7 @@
         const description = document.querySelector('meta[name="description"]')?.content || 
                           'Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely';
         const url = window.location.href;
-        const image = 'https://safeai-aus.github.io/assets/safeaiaus-logo-600px.png';
+        const image = 'https://safeaiaus.org/assets/safeaiaus-logo-600px.png';
         
         return { title, description, url, image };
     }
@@ -108,8 +117,8 @@
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "SafeAI-Aus",
-            "url": "https://safeai-aus.github.io/",
-            "logo": "https://safeai-aus.github.io/assets/safeaiaus-logo-600px.png",
+            "url": "https://safeaiaus.org/",
+            "logo": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png",
             "description": "Australian AI Safety Knowledge Hub — practical tools, open standards, and trusted guidance for responsible AI adoption.",
             "sameAs": [
                 "https://github.com/safeai-aus/safeai-aus.github.io"
@@ -206,12 +215,12 @@
                 "author": {
                     "@type": "Organization",
                     "name": "SafeAI-Aus",
-                    "url": "https://safeai-aus.github.io/"
+                    "url": "https://safeaiaus.org/"
                 },
                 "publisher": {
                     "@type": "Organization",
                     "name": "SafeAI-Aus",
-                    "url": "https://safeai-aus.github.io/"
+                    "url": "https://safeaiaus.org/"
                 },
                 "datePublished": "2025-01-27",
                 "dateModified": new Date().toISOString().split('T')[0]

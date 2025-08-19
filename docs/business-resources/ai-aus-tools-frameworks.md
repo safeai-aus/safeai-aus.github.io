@@ -8,12 +8,12 @@ robots: "index, follow"
 og_title: "AI Tools & Frameworks for Australian Businesses"
 og_description: "Curated collection of AI tools, frameworks, and resources for Australian businesses"
 og_type: "article"
-og_url: "https://safeai-aus.github.io/business-resources/ai-aus-tools-frameworks/"
+og_url: "https://safeaiaus.org/business-resources/ai-aus-tools-frameworks/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Tools & Frameworks for Australian Businesses"
 twitter_description: "Curated collection of AI tools, frameworks, and resources for Australian businesses"
-canonical_url: "https://safeai-aus.github.io/business-resources/ai-aus-tools-frameworks/"
+canonical_url: "https://safeaiaus.org/business-resources/ai-aus-tools-frameworks/"
 ---
 
 # Tools & Frameworks
@@ -21,8 +21,6 @@ canonical_url: "https://safeai-aus.github.io/business-resources/ai-aus-tools-fra
 A curated list of practical tools, frameworks, and resources to help Australian businesses implement AI safely and responsibly.
 
 Scope: Non-commercial resources only (government, standards bodies, nonprofits, and open-source). How to use: Start with frameworks, set governance, then implement technical controls and monitoring.
-
-Last updated: 2025-08-16 · Owner: SafeAI Aus
 
 ---
 
