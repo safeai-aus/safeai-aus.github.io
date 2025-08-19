@@ -17,6 +17,7 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.prune
+    - navigation.breadcrumbs
     # - toc.integrate
     - search.suggest
     - search.highlight
