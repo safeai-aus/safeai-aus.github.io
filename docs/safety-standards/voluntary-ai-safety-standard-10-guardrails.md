@@ -8,12 +8,12 @@ robots: "index, follow"
 og_title: "Voluntary AI Safety Standard (10 Guardrails)"
 og_description: "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails"
 og_type: "article"
-og_url: "https://safeai-aus.github.io/safety-standards/voluntary-ai-safety-standard-10-guardrails/"
+og_url: "https://safeaiaus.org/safety-standards/voluntary-ai-safety-standard-10-guardrails/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Voluntary AI Safety Standard (10 Guardrails)"
 twitter_description: "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails"
-canonical_url: "https://safeai-aus.github.io/safety-standards/voluntary-ai-safety-standard-10-guardrails/"
+canonical_url: "https://safeaiaus.org/safety-standards/voluntary-ai-safety-standard-10-guardrails/"
 ---
 
 # Voluntary AI Safety Standard (10 Guardrails)

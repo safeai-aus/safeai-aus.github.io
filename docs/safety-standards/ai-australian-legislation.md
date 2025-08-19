@@ -8,12 +8,12 @@ robots: "index, follow"
 og_title: "Current Legal Landscape for AI in Australia"
 og_description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business"
 og_type: "article"
-og_url: "https://safeai-aus.github.io/safety-standards/ai-australian-legislation/"
+og_url: "https://safeaiaus.org/safety-standards/ai-australian-legislation/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Current Legal Landscape for AI in Australia"
 twitter_description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business"
-canonical_url: "https://safeai-aus.github.io/safety-standards/ai-australian-legislation/"
+canonical_url: "https://safeaiaus.org/safety-standards/ai-australian-legislation/"
 ---
 
 # Current Legal Landscape for AI in Australia

@@ -8,12 +8,12 @@ robots: "index, follow"
 og_title: "State & Territory AI Resources (Government & Statutory Bodies)"
 og_description: "Comprehensive guide to AI resources published by Australian states and territories"
 og_type: "article"
-og_url: "https://safeai-aus.github.io/business-resources/state-territory-ai-resources/"
+og_url: "https://safeaiaus.org/business-resources/state-territory-ai-resources/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "State & Territory AI Resources (Government & Statutory Bodies)"
 twitter_description: "Comprehensive guide to AI resources published by Australian states and territories"
-canonical_url: "https://safeai-aus.github.io/business-resources/state-territory-ai-resources/"
+canonical_url: "https://safeaiaus.org/business-resources/state-territory-ai-resources/"
 ---
 
 # State & Territory AI Resources (Government & Statutory Bodies)

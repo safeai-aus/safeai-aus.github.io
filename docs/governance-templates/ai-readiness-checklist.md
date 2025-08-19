@@ -8,17 +8,18 @@ robots: "index, follow"
 og_title: "AI Readiness Checklist for Australian Businesses"
 og_description: "Comprehensive AI readiness checklist for Australian businesses"
 og_type: "article"
-og_url: "https://safeai-aus.github.io/governance-templates/ai-readiness-checklist/"
+og_url: "https://safeaiaus.org/governance-templates/ai-readiness-checklist/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Readiness Checklist for Australian Businesses"
 twitter_description: "Comprehensive AI readiness checklist for Australian businesses"
-canonical_url: "https://safeai-aus.github.io/governance-templates/ai-readiness-checklist/"
+canonical_url: "https://safeaiaus.org/governance-templates/ai-readiness-checklist/"
 ---
 
 # AI Readiness Checklist
 
 This checklist helps Australian businesses decide if they are ready to adopt AI safely, responsibly, and effectively.  
+
 It reflects the **Voluntary AI Safety Standard (10 Guardrails)** released by the Australian Government and is consistent with international frameworks such as **ISO/IEC 42001:2023** and the **NIST AI Risk Management Framework**.
 
 Tick the boxes that apply to your organisation. A higher score means greater readiness.

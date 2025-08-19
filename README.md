@@ -3,7 +3,7 @@
 **Safe AI. Strong Australia.**  
 An open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption.  
 
-- Live site: [safeai-aus.github.io](https://safeai-aus.github.io/)  
+- Live site: [safeaiaus.org](https://safeaiaus.org/)  
 - About: [`docs/about.md`](docs/about.md)  
 
 ---
@@ -38,7 +38,7 @@ Contributions are welcome — from fixing typos to adding new resources.
 ---
 
 ## How to use this site  
-- **Browse**: Visit [safeai-aus.github.io](https://safeai-aus.github.io/) to explore articles, frameworks, and tools.  
+- **Browse**: Visit [safeaiaus.org](https://safeaiaus.org/) to explore articles, frameworks, and tools.  
 - **Search**: Use the search bar (top right) to find topics quickly.  
 - **Learn**: Each section is written in plain English, with references and practical resources for Australian organisations.  
 - **Contribute**: If you spot gaps, errors, or opportunities, you can suggest edits through GitHub (see below).  

@@ -8,12 +8,12 @@ robots: "index, follow"
 og_title: "About SafeAI-Aus: Mission, Values & Licence"
 og_description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing"
 og_type: "website"
-og_url: "https://safeai-aus.github.io/about/"
+og_url: "https://safeaiaus.org/about/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "About SafeAI-Aus: Mission, Values & Licence"
 twitter_description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing"
-canonical_url: "https://safeai-aus.github.io/about/"
+canonical_url: "https://safeaiaus.org/about/"
 permalink: /about/
 ---
 
