@@ -47,13 +47,8 @@
             commentsHeading.textContent = 'Comments & Feedback';
             commentsHeading.id = 'comments';
             
-            // Add some spacing
-            const spacer = document.createElement('div');
-            spacer.style.marginBottom = '2rem';
-            
             // Insert the comments section
             insertPoint.appendChild(commentsHeading);
-            insertPoint.appendChild(spacer);
             insertPoint.appendChild(cusdisContainer);
             insertPoint.appendChild(cusdisScript);
             
@@ -105,18 +100,36 @@
         style.textContent = `
             /* Main comments container */
             #cusdis_thread {
-                margin-top: 3rem;
-                padding-top: 2rem;
-                border-top: 1px solid var(--md-default-fg-color--lightest);
+                margin-top: 1rem;
+                padding-top: 0;
+                border-top: none;
                 font-family: var(--md-text-font-family);
                 font-size: var(--md-typeset-font-size);
                 line-height: var(--md-typeset-line-height);
+                max-height: none !important;
+                overflow: visible !important;
+                height: auto !important;
             }
             
             /* Comments list styling */
             #cusdis_thread .cusdis-comments {
                 font-family: var(--md-text-font-family);
                 color: var(--md-default-fg-color);
+                max-height: none !important;
+                overflow: visible !important;
+            }
+            
+            /* Individual comment styling */
+            #cusdis_thread .cusdis-comment {
+                border: 1px solid var(--md-default-fg-color--lightest);
+                border-radius: 8px;
+                margin-bottom: 1.5rem;
+                padding: 1.5rem;
+                background: var(--md-default-bg-color);
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                transition: box-shadow 0.2s ease;
+                max-height: none !important;
+                overflow: visible !important;
             }
             
             /* Individual comment styling */
@@ -195,6 +208,33 @@
                 line-height: 1.5 !important;
                 transition: all 0.2s ease !important;
                 box-sizing: border-box !important;
+                min-height: 120px !important;
+                resize: vertical !important;
+            }
+            
+            /* Fix height constraints on all Cusdis containers */
+            #cusdis_thread * {
+                max-height: none !important;
+                overflow: visible !important;
+            }
+            
+            /* Specific height fixes for common Cusdis elements */
+            #cusdis_thread .cusdis-comment-form,
+            #cusdis_thread .cusdis-comments,
+            #cusdis_thread .cusdis-comment,
+            #cusdis_thread .cusdis-loading,
+            #cusdis_thread .cusdis-error {
+                max-height: none !important;
+                overflow: visible !important;
+                height: auto !important;
+            }
+            
+            /* Ensure textarea has proper height */
+            #cusdis_thread .cusdis-comment-form textarea {
+                min-height: 120px !important;
+                max-height: none !important;
+                overflow-y: auto !important;
+                resize: vertical !important;
             }
             
             #cusdis_thread .cusdis-comment-form textarea:focus,
@@ -278,49 +318,65 @@
                 border-color: var(--md-primary-fg-color);
             }
             
-            /* Reaction buttons styling */
-            #cusdis_thread .cusdis-reaction {
+            /* Reaction buttons styling - more specific selectors */
+            #cusdis_thread .cusdis-reaction,
+            #cusdis_thread [class*="reaction"],
+            #cusdis_thread .cusdis-reaction-button {
                 display: inline-flex !important;
                 align-items: center !important;
                 gap: 0.25rem !important;
                 margin-right: 0.5rem !important;
                 margin-bottom: 0.5rem !important;
-                padding: 0.25rem 0.5rem !important;
+                padding: 0.5rem 0.75rem !important;
                 background: var(--md-default-bg-color) !important;
-                border: 1px solid var(--md-default-fg-color--lightest) !important;
-                border-radius: 16px !important;
+                border: 2px solid var(--md-default-fg-color--lightest) !important;
+                border-radius: 20px !important;
                 cursor: pointer !important;
                 transition: all 0.2s ease !important;
-                font-size: 0.875em !important;
+                font-size: 1em !important;
                 color: var(--md-default-fg-color) !important;
+                min-height: 36px !important;
+                min-width: 60px !important;
+                justify-content: center !important;
             }
             
-            #cusdis_thread .cusdis-reaction:hover {
+            #cusdis_thread .cusdis-reaction:hover,
+            #cusdis_thread [class*="reaction"]:hover,
+            #cusdis_thread .cusdis-reaction-button:hover {
                 background: var(--md-primary-fg-color) !important;
                 color: var(--md-primary-bg-color) !important;
                 border-color: var(--md-primary-fg-color) !important;
                 transform: translateY(-1px) !important;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
             }
             
-            #cusdis_thread .cusdis-reaction.active {
+            #cusdis_thread .cusdis-reaction.active,
+            #cusdis_thread [class*="reaction"].active,
+            #cusdis_thread .cusdis-reaction-button.active {
                 background: var(--md-primary-fg-color) !important;
                 color: var(--md-primary-bg-color) !important;
                 border-color: var(--md-primary-fg-color) !important;
             }
             
-            #cusdis_thread .cusdis-reaction-count {
+            #cusdis_thread .cusdis-reaction-count,
+            #cusdis_thread [class*="reaction-count"] {
                 font-weight: 600 !important;
-                margin-left: 0.25rem !important;
+                margin-left: 0.5rem !important;
+                font-size: 0.9em !important;
             }
             
-            /* Ensure reaction container is visible */
-            #cusdis_thread .cusdis-reactions {
+            /* Ensure reaction container is visible - multiple selector variations */
+            #cusdis_thread .cusdis-reactions,
+            #cusdis_thread [class*="reactions"],
+            #cusdis_thread .reactions-container {
                 display: flex !important;
                 flex-wrap: wrap !important;
-                gap: 0.5rem !important;
-                margin-top: 0.75rem !important;
-                margin-bottom: 0.75rem !important;
-                padding: 0.5rem 0 !important;
+                gap: 0.75rem !important;
+                margin-top: 1rem !important;
+                margin-bottom: 1rem !important;
+                padding: 0.75rem 0 !important;
+                border-top: 1px solid var(--md-default-fg-color--lightest) !important;
+                padding-top: 1rem !important;
             }
             
             /* Responsive design */
@@ -347,8 +403,8 @@
     }
     
     function checkReactions() {
-        // Check if reactions are visible
-        const reactions = document.querySelectorAll('.cusdis-reaction');
+        // Check if reactions are visible with multiple selector variations
+        const reactions = document.querySelectorAll('.cusdis-reaction, [class*="reaction"], .cusdis-reaction-button');
         if (reactions.length === 0) {
             console.log('Cusdis: No reaction buttons found, checking configuration...');
             
@@ -356,10 +412,21 @@
             const cusdisThread = document.getElementById('cusdis_thread');
             if (cusdisThread) {
                 cusdisThread.setAttribute('data-reaction', 'true');
+                cusdisThread.setAttribute('data-theme', 'auto');
                 console.log('Cusdis: Reactions should be enabled');
+                
+                // Check again after a short delay
+                setTimeout(() => {
+                    const retryReactions = document.querySelectorAll('.cusdis-reaction, [class*="reaction"], .cusdis-reaction-button');
+                    console.log(`Cusdis: Retry found ${retryReactions.length} reaction buttons`);
+                }, 1000);
             }
         } else {
             console.log(`Cusdis: Found ${reactions.length} reaction buttons`);
         }
+        
+        // Also check for reaction containers
+        const reactionContainers = document.querySelectorAll('.cusdis-reactions, [class*="reactions"], .reactions-container');
+        console.log(`Cusdis: Found ${reactionContainers.length} reaction containers`);
     }
 })();
