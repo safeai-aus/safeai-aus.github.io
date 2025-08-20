@@ -28,9 +28,7 @@
         cusdisContainer.setAttribute('data-page-url', window.location.href);
         cusdisContainer.setAttribute('data-page-title', currentTitle);
         cusdisContainer.setAttribute('data-lang', 'en');
-        cusdisContainer.setAttribute('data-reaction', 'true');
         cusdisContainer.setAttribute('data-theme', 'auto');
-        cusdisContainer.setAttribute('data-version', '2');
         
         // Create the Cusdis script
         const cusdisScript = document.createElement('script');
@@ -55,13 +53,9 @@
             // Add some styling
             addCommentsStyling();
             
-            // Check if reactions are working after a delay
-            setTimeout(checkReactions, 2000);
-            
-            // Also check when Cusdis is fully loaded
+            // Log when Cusdis is fully loaded
             cusdisScript.onload = function() {
-                console.log('Cusdis script loaded, checking for reactions...');
-                setTimeout(checkReactions, 1000);
+                console.log('Cusdis script loaded successfully');
             };
         }
     }
@@ -222,6 +216,7 @@
             #cusdis_thread * {
                 max-height: none !important;
                 overflow: visible !important;
+                height: auto !important;
             }
             
             /* Specific height fixes for common Cusdis elements */
@@ -241,6 +236,20 @@
                 max-height: none !important;
                 overflow-y: auto !important;
                 resize: vertical !important;
+            }
+            
+            /* Force the page to expand to fit content */
+            .md-content__inner {
+                height: auto !important;
+                min-height: auto !important;
+                overflow: visible !important;
+            }
+            
+            /* Ensure the main content area expands */
+            [data-md-component="content"] {
+                height: auto !important;
+                min-height: auto !important;
+                overflow: visible !important;
             }
             
             #cusdis_thread .cusdis-comment-form textarea:focus,
@@ -324,76 +333,7 @@
                 border-color: var(--md-primary-fg-color);
             }
             
-            /* Reaction buttons styling - more specific selectors */
-            #cusdis_thread .cusdis-reaction,
-            #cusdis_thread [class*="reaction"],
-            #cusdis_thread .cusdis-reaction-button {
-                display: inline-flex !important;
-                align-items: center !important;
-                gap: 0.25rem !important;
-                margin-right: 0.5rem !important;
-                margin-bottom: 0.5rem !important;
-                padding: 0.5rem 0.75rem !important;
-                background: var(--md-default-bg-color) !important;
-                border: 2px solid var(--md-default-fg-color--lightest) !important;
-                border-radius: 20px !important;
-                cursor: pointer !important;
-                transition: all 0.2s ease !important;
-                font-size: 1em !important;
-                color: var(--md-default-fg-color) !important;
-                min-height: 36px !important;
-                min-width: 60px !important;
-                justify-content: center !important;
-            }
-            
-            #cusdis_thread .cusdis-reaction:hover,
-            #cusdis_thread [class*="reaction"]:hover,
-            #cusdis_thread .cusdis-reaction-button:hover {
-                background: var(--md-primary-fg-color) !important;
-                color: var(--md-primary-bg-color) !important;
-                border-color: var(--md-primary-fg-color) !important;
-                transform: translateY(-1px) !important;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
-            }
-            
-            #cusdis_thread .cusdis-reaction.active,
-            #cusdis_thread [class*="reaction"].active,
-            #cusdis_thread .cusdis-reaction-button.active {
-                background: var(--md-primary-fg-color) !important;
-                color: var(--md-primary-bg-color) !important;
-                border-color: var(--md-primary-fg-color) !important;
-            }
-            
-            #cusdis_thread .cusdis-reaction-count,
-            #cusdis_thread [class*="reaction-count"] {
-                font-weight: 600 !important;
-                margin-left: 0.5rem !important;
-                font-size: 0.9em !important;
-            }
-            
-            /* Ensure reaction container is visible - multiple selector variations */
-            #cusdis_thread .cusdis-reactions,
-            #cusdis_thread [class*="reactions"],
-            #cusdis_thread .reactions-container,
-            #cusdis_thread .reactions {
-                display: flex !important;
-                flex-wrap: wrap !important;
-                gap: 0.75rem !important;
-                margin-top: 1rem !important;
-                margin-bottom: 1rem !important;
-                padding: 0.75rem 0 !important;
-                border-top: 1px solid var(--md-default-fg-color--lightest) !important;
-                padding-top: 1rem !important;
-                visibility: visible !important;
-                opacity: 1 !important;
-            }
-            
-            /* Force show any hidden reaction elements */
-            #cusdis_thread [style*="display: none"],
-            #cusdis_thread [style*="visibility: hidden"] {
-                display: flex !important;
-                visibility: visible !important;
-            }
+
             
             /* Responsive design */
             @media (max-width: 768px) {
@@ -409,57 +349,10 @@
                     width: 100%;
                     margin-top: 1rem;
                 }
-                
-                #cusdis_thread .cusdis-reactions {
-                    gap: 0.25rem !important;
-                }
             }
         `;
         document.head.appendChild(style);
     }
     
-    function checkReactions() {
-        console.log('Cusdis: Checking for reactions...');
-        
-        // Check if reactions are visible with multiple selector variations
-        const reactions = document.querySelectorAll('.cusdis-reaction, [class*="reaction"], .cusdis-reaction-button, .reaction-btn');
-        if (reactions.length === 0) {
-            console.log('Cusdis: No reaction buttons found, checking configuration...');
-            
-            // Try to force reactions to show
-            const cusdisThread = document.getElementById('cusdis_thread');
-            if (cusdisThread) {
-                cusdisThread.setAttribute('data-reaction', 'true');
-                cusdisThread.setAttribute('data-theme', 'auto');
-                console.log('Cusdis: Reactions should be enabled');
-                
-                // Check again after a short delay
-                setTimeout(() => {
-                    const retryReactions = document.querySelectorAll('.cusdis-reaction, [class*="reaction"], .cusdis-reaction-button, .reaction-btn');
-                    console.log(`Cusdis: Retry found ${retryReactions.length} reaction buttons`);
-                }, 1000);
-            }
-        } else {
-            console.log(`Cusdis: Found ${reactions.length} reaction buttons`);
-        }
-        
-        // Also check for reaction containers
-        const reactionContainers = document.querySelectorAll('.cusdis-reactions, [class*="reactions"], .reactions-container, .reactions');
-        console.log(`Cusdis: Found ${reactionContainers.length} reaction containers`);
-        
-        // Check if there are any comments at all
-        const comments = document.querySelectorAll('.cusdis-comment, [class*="comment"]');
-        console.log(`Cusdis: Found ${comments.length} comments`);
-        
-        // Log the current Cusdis configuration
-        const cusdisThread = document.getElementById('cusdis_thread');
-        if (cusdisThread) {
-            console.log('Cusdis configuration:', {
-                'data-reaction': cusdisThread.getAttribute('data-reaction'),
-                'data-theme': cusdisThread.getAttribute('data-theme'),
-                'data-version': cusdisThread.getAttribute('data-version'),
-                'data-lang': cusdisThread.getAttribute('data-lang')
-            });
-        }
-    }
+
 })();
