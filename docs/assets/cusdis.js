@@ -219,6 +219,15 @@
                 height: auto !important;
             }
             
+            /* Aggressively override any Cusdis inline styles */
+            #cusdis_thread [style*="height"],
+            #cusdis_thread [style*="max-height"],
+            #cusdis_thread [style*="overflow"] {
+                height: auto !important;
+                max-height: none !important;
+                overflow: visible !important;
+            }
+            
             /* Specific height fixes for common Cusdis elements */
             #cusdis_thread .cusdis-comment-form,
             #cusdis_thread .cusdis-comments,
@@ -231,11 +240,24 @@
             }
             
             /* Ensure textarea has proper height */
-            #cusdis_thread .cusdis-comment-form textarea {
+            #cusdis_thread .cusdis-comment-form textarea,
+            #cusdis_thread textarea,
+            #cusdis_thread [class*="textarea"],
+            #cusdis_thread [class*="input"] {
                 min-height: 120px !important;
                 max-height: none !important;
-                overflow-y: auto !important;
+                height: auto !important;
+                overflow: visible !important;
                 resize: vertical !important;
+            }
+            
+            /* Override any inline styles that Cusdis might add */
+            #cusdis_thread .cusdis-comment-form textarea[style*="height"],
+            #cusdis_thread .cusdis-comment-form textarea[style*="max-height"],
+            #cusdis_thread .cusdis-comment-form textarea[style*="overflow"] {
+                height: auto !important;
+                max-height: none !important;
+                overflow: visible !important;
             }
             
             /* Force the page to expand to fit content */
