@@ -59,9 +59,12 @@
             // Add some styling
             addCommentsStyling();
             
-            // Log when Cusdis is fully loaded
+            // Log when Cusdis is fully loaded and force textarea expansion
             cusdisScript.onload = function() {
                 console.log('Cusdis script loaded successfully');
+                
+                // Wait a bit for Cusdis to initialize, then force textarea expansion
+                setTimeout(forceTextareaExpansion, 1000);
             };
         }
     }
@@ -394,5 +397,43 @@
         document.head.appendChild(style);
     }
     
-
+    function forceTextareaExpansion() {
+        console.log('Forcing textarea expansion...');
+        
+        // Find all textareas in the Cusdis thread
+        const textareas = document.querySelectorAll('#cusdis_thread textarea');
+        console.log(`Found ${textareas.length} textareas`);
+        
+        textareas.forEach((textarea, index) => {
+            console.log(`Processing textarea ${index + 1}`);
+            
+            // Remove any inline styles that might be constraining height
+            textarea.style.height = 'auto';
+            textarea.style.maxHeight = 'none';
+            textarea.style.overflow = 'visible';
+            textarea.style.minHeight = '120px';
+            
+            // Set a larger initial height
+            textarea.style.height = '200px';
+            
+            // Add event listener to expand as user types
+            textarea.addEventListener('input', function() {
+                this.style.height = 'auto';
+                this.style.height = Math.max(200, this.scrollHeight) + 'px';
+            });
+            
+            // Force immediate expansion
+            textarea.style.height = Math.max(200, this.scrollHeight) + 'px';
+            
+            console.log(`Textarea ${index + 1} expanded to height: ${textarea.style.height}`);
+        });
+        
+        // Also try to find and expand any Cusdis comment containers
+        const commentContainers = document.querySelectorAll('#cusdis_thread .cusdis-comment, #cusdis_thread .cusdis-comments');
+        commentContainers.forEach(container => {
+            container.style.height = 'auto';
+            container.style.maxHeight = 'none';
+            container.style.overflow = 'visible';
+        });
+    }
 })();
