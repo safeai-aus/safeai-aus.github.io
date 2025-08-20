@@ -61,6 +61,7 @@ extra_css:
 extra_javascript:
   - assets/performance-safe.js
   - assets/extra.js
+  - assets/cusdis.js
 
 markdown_extensions:
   - admonition
@@ -86,6 +87,9 @@ plugins:
   - git-revision-date-localized:
       type: datetime
       locale: en
+  - autolinks
+  - section-index
+  - mkdocs-newsletter
   # - minify:
   #     minify_html: true
 

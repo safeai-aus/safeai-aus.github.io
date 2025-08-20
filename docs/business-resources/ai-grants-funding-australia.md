@@ -152,3 +152,5 @@ For Australian businesses, the AI funding landscape is broad and diverse. SMEs c
 Larger ventures and scale‑ups may find opportunities in NRFC co‑investment or ARC research partnerships. Niche initiatives, such as the Fearless Innovator Grant, highlight inclusivity and grassroots innovation.
 
 With both government and industry partners investing in AI capability, now is the time for Australian businesses to explore these programs, align with responsible AI practices, and position themselves for future growth.
+
+

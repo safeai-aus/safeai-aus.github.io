@@ -79,6 +79,7 @@ SafeAI-Aus has exercised care and skill in the preparation of this material. How
 The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
 
 This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
+
 ---
 
 ## Licence

@@ -1,6 +1,6 @@
 # SafeAI-Aus  
 
-**Safe AI. Strong Australia.**  
+**Safe AI. Stronger Australia.**  
 An open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption.  
 
 - Live site: [safeaiaus.org](https://safeaiaus.org/)  

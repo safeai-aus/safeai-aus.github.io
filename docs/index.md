@@ -19,7 +19,7 @@ security: "high"
 ---
 > Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business.
 
-# SafeAI-Aus: Safe AI, Stronger Australia.
+# SafeAI-Aus: Safe AI. Stronger Australia.
 
 **SafeAI-Aus** is an open-source, community-led body of knowledge for AI risk, safety, and growth in Australia.
 
@@ -62,6 +62,9 @@ To enable safe, ethical, and growth-oriented AI adoption in Australian businesse
 
 !!! note "Quick Navigation"
     Use the navigation menu on the left to jump directly to any section, or browse all content below.
+
+!!! info "Feedback & Comments"
+    We've integrated Cusdis comments on all pages to gather your feedback and suggestions. Look for the comments section at the bottom of each page to share your thoughts on our content, templates, and resources.
 
 ## License
 This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
