@@ -57,6 +57,12 @@
             
             // Check if reactions are working after a delay
             setTimeout(checkReactions, 2000);
+            
+            // Also check when Cusdis is fully loaded
+            cusdisScript.onload = function() {
+                console.log('Cusdis script loaded, checking for reactions...');
+                setTimeout(checkReactions, 1000);
+            };
         }
     }
     
@@ -368,7 +374,8 @@
             /* Ensure reaction container is visible - multiple selector variations */
             #cusdis_thread .cusdis-reactions,
             #cusdis_thread [class*="reactions"],
-            #cusdis_thread .reactions-container {
+            #cusdis_thread .reactions-container,
+            #cusdis_thread .reactions {
                 display: flex !important;
                 flex-wrap: wrap !important;
                 gap: 0.75rem !important;
@@ -377,6 +384,15 @@
                 padding: 0.75rem 0 !important;
                 border-top: 1px solid var(--md-default-fg-color--lightest) !important;
                 padding-top: 1rem !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+            
+            /* Force show any hidden reaction elements */
+            #cusdis_thread [style*="display: none"],
+            #cusdis_thread [style*="visibility: hidden"] {
+                display: flex !important;
+                visibility: visible !important;
             }
             
             /* Responsive design */
@@ -403,8 +419,10 @@
     }
     
     function checkReactions() {
+        console.log('Cusdis: Checking for reactions...');
+        
         // Check if reactions are visible with multiple selector variations
-        const reactions = document.querySelectorAll('.cusdis-reaction, [class*="reaction"], .cusdis-reaction-button');
+        const reactions = document.querySelectorAll('.cusdis-reaction, [class*="reaction"], .cusdis-reaction-button, .reaction-btn');
         if (reactions.length === 0) {
             console.log('Cusdis: No reaction buttons found, checking configuration...');
             
@@ -417,7 +435,7 @@
                 
                 // Check again after a short delay
                 setTimeout(() => {
-                    const retryReactions = document.querySelectorAll('.cusdis-reaction, [class*="reaction"], .cusdis-reaction-button');
+                    const retryReactions = document.querySelectorAll('.cusdis-reaction, [class*="reaction"], .cusdis-reaction-button, .reaction-btn');
                     console.log(`Cusdis: Retry found ${retryReactions.length} reaction buttons`);
                 }, 1000);
             }
@@ -426,7 +444,22 @@
         }
         
         // Also check for reaction containers
-        const reactionContainers = document.querySelectorAll('.cusdis-reactions, [class*="reactions"], .reactions-container');
+        const reactionContainers = document.querySelectorAll('.cusdis-reactions, [class*="reactions"], .reactions-container, .reactions');
         console.log(`Cusdis: Found ${reactionContainers.length} reaction containers`);
+        
+        // Check if there are any comments at all
+        const comments = document.querySelectorAll('.cusdis-comment, [class*="comment"]');
+        console.log(`Cusdis: Found ${comments.length} comments`);
+        
+        // Log the current Cusdis configuration
+        const cusdisThread = document.getElementById('cusdis_thread');
+        if (cusdisThread) {
+            console.log('Cusdis configuration:', {
+                'data-reaction': cusdisThread.getAttribute('data-reaction'),
+                'data-theme': cusdisThread.getAttribute('data-theme'),
+                'data-version': cusdisThread.getAttribute('data-version'),
+                'data-lang': cusdisThread.getAttribute('data-lang')
+            });
+        }
     }
 })();
