@@ -20,9 +20,10 @@ canonical_url: "https://safeaiaus.org/governance-templates/ai-incident-report-fo
 
 AI systems can create new opportunities for businesses, but they also introduce risks — from unexpected errors and harmful outputs to privacy breaches and security incidents.  
 
-Having a clear process for recording and reporting AI incidents is an essential part of your organisation’s **risk management** and **security management** practices. This ensures that issues are identified quickly, lessons are learned, and safeguards are improved.  
+Having a clear process for recording and reporting AI incidents is an essential part of your organisation’s risk and security management practices. This ensures that issues are identified quickly, lessons are learned, and safeguards are improved.  
 
 Use this form whenever an AI-related incident occurs in your business. The information you capture will help:  
+
 - Contain and mitigate risks early.  
 - Protect staff, customers, and your organisation’s reputation.  
 - Meet your obligations under Australian law and AI guardrails.  
@@ -80,6 +81,7 @@ Reviewer/approver name, role, signature.
 
 ### Standards Alignment
 This form aligns with:
+
 - Australian AI Guardrails (2024)  
 - Privacy Act 1988 (APPs)  
 - International standards (ISO/IEC 42001, ISO/IEC 23894, NIST AI RMF)
@@ -94,13 +96,13 @@ This form aligns with:
 # Template Disclaimer & Licence
 
 ## Disclaimer
-This AI Incident Report Form template is provided as an open source resource by SafeAI-Aus to support responsible AI adoption in Australian businesses.  
+The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
 
-The content reflects best practice principles but is intended as a starting point only.  
+SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
 
-Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
+The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
 
-SafeAI-Aus provides this template without warranty or liability.  
+This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
 
 ---
 

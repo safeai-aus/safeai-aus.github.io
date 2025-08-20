@@ -25,13 +25,15 @@ It can be used both as a **project planning tool** (to assess risks before deplo
 ---
 
 ## How to Use This Checklist
-- **When to use:**  
+**When to use:**  
+
   - Before starting an AI project (planning and design stage).  
   - Before deploying a new AI system into live use.  
   - During regular reviews of an existing AI system.  
   - As part of routine compliance checks within your organisation’s risk management framework.  
 
-- **How to use:**  
+**How to use:**  
+
   - Work through each section and record your responses.  
   - Treat the depth of responses as proportional to the impact: higher-risk projects need more detailed consideration.  
   - Use plain language—responses don’t need to be long, but they should show how the risk has been thought about and addressed.  
@@ -125,13 +127,13 @@ It can be used both as a **project planning tool** (to assess risks before deplo
 # Template Disclaimer & Licence
 
 ## Disclaimer
-This AI Risk Assessment Checklist template is provided as an open source resource by SafeAI-Aus to support responsible AI adoption in Australian businesses.  
+The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
 
-The content reflects best practice principles (including the Australian Government’s Voluntary AI Safety Standard) but is intended as a starting point only.  
+SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
 
-Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
+The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
 
-SafeAI-Aus provides this template without warranty or liability.  
+This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
 
 ---
 
