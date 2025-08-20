@@ -20,7 +20,9 @@ canonical_url: "https://safeaiaus.org/business-resources/ai-aus-tools-frameworks
 
 A curated list of practical tools, frameworks, and resources to help Australian businesses implement AI safely and responsibly.
 
-Scope: Non-commercial resources only (government, standards bodies, nonprofits, and open-source). How to use: Start with frameworks, set governance, then implement technical controls and monitoring.
+Scope: Non-commercial resources only (government, standards bodies, nonprofits, and open-source). 
+
+How to use: Start with frameworks, set governance, then implement technical controls and monitoring.
 
 ---
 

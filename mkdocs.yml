@@ -27,6 +27,9 @@ theme:
     repo: fontawesome/brands/github
   logo: assets/safeaiaus-logo-600px.png
   favicon: assets/favicon.png
+  footer: |
+    © SafeAI-Aus — Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
+    See our [full licence and disclaimer](https://safeai-aus.github.io/about/#attribution--licence) for details.
   palette:
     - scheme: default
       primary: indigo
@@ -92,6 +95,7 @@ nav:
   - AI Safety & Standards:
       - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md
+      - International AI Legal Overview: safety-standards/international-ai-legal-overview.md
   - Governance Templates:
       - Policy & Template Library: governance-templates/policy-template-library.md
       - AI Readiness Checklist: governance-templates/ai-readiness-checklist.md
@@ -104,4 +108,5 @@ nav:
       - AI Grants & Funding: business-resources/ai-grants-funding-australia.md
       - Tools & Frameworks: business-resources/ai-aus-tools-frameworks.md
       - State & Territory AI Resources: business-resources/state-territory-ai-resources.md
+      - AI Learning & Development Directory: business-resources/ai-learning-development-directory.md
   

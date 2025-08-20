@@ -119,13 +119,13 @@ To ensure accountability and provide an audit trail:
 # Template Disclaimer & Licence
 
 ## Disclaimer
-This AI Vendor Evaluation Checklist template is provided as an open source resource by SafeAI-Aus to support responsible AI adoption in Australian businesses.  
+The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
 
-The content reflects best practice principles but is intended as a starting point only.  
+SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
 
-Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
+The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
 
-SafeAI-Aus provides this template without warranty or liability.  
+This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.    
 
 ---
 

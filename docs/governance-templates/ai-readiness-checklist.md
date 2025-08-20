@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI Readiness Checklist for Australian Businesses"
-description: "Comprehensive AI readiness checklist for Australian businesses. Assess your organization's preparedness for safe, responsible, and effective AI adoption with our step-by-step evaluation tool."
+description: "Comprehensive AI readiness checklist for Australian businesses. Assess your organisation's preparedness for safe, responsible, and effective AI adoption with our step-by-step evaluation tool."
 keywords: "AI readiness checklist, Australian business AI, AI adoption checklist, AI governance checklist, AI safety checklist, AI risk assessment, AI readiness assessment, Australian AI standards, AI implementation checklist"
 author: "SafeAI-Aus"
 robots: "index, follow"
@@ -66,3 +66,34 @@ Tick the boxes that apply to your organisation. A higher score means greater rea
 - **21–30**: Advanced - ready to scale with continuous improvement  
 
 > Use alongside the **Voluntary AI Safety Standard (10 Guardrails)** for best practice adoption in Australia.  
+
+---
+
+# Template Disclaimer & Licence
+
+## Disclaimer
+The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
+
+SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
+
+The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
+
+This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
+---
+
+## Licence
+This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
+
+You are free to:  
+
+- **Share** — copy and redistribute the material in any medium or format.  
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
+
+Under the following terms:  
+
+- **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
+
+**Attribution statement for reuse:**  
+“This template was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeaiaus.org/).”  
+
+Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)  

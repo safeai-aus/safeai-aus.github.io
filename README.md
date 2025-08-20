@@ -12,17 +12,30 @@ An open-source Australian knowledge hub for safe, responsible, and growth-focuse
 SafeAI-Aus provides practical resources, frameworks, and insights to help Australian businesses, policymakers, and communities adopt AI in a way that is:  
 - **Safe** — aligned with ethical and regulatory standards  
 - **Responsible** — transparent, fair, and accountable  
-- **Growth-focused** — unlocking productivity and innovation for Australia’s future  
+- **Growth-focused** — unlocking productivity and innovation for Australia's future  
 
 This repository powers the SafeAI-Aus knowledge hub, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).  
 
 ---
 
-## What’s inside  
+## What's inside  
 - **`mkdocs.yml`** — site configuration (theme, navigation, metadata, search, sitemap)  
-- **`docs/`** — all content in Markdown (flattened for clean URLs)  
+- **`docs/`** — all content in Markdown organized into three main areas:
+  - **AI Safety & Standards** — Australian legislation, voluntary safety standards, international legal overview
+  - **Governance Templates** — practical policy templates, checklists, and forms for AI implementation
+  - **Business Resources** — grants, funding, tools, frameworks, and state/territory resources
 - **`.github/workflows/deploy.yml`** — GitHub Actions workflow to build & publish the site  
 - **`requirements.txt`** — Python dependencies for local preview and CI  
+- **Custom assets** — CSS, JavaScript, and performance optimizations for enhanced UX
+
+---
+
+## Content Highlights  
+Our knowledge hub includes:  
+- **AI Safety Standards** — Voluntary 10-guardrail framework and regulatory guidance  
+- **Governance Tools** — Ready-to-use templates for AI policies, risk assessments, and incident reporting  
+- **Business Resources** — Comprehensive directory of AI grants, tools, and learning resources across Australia  
+- **State & Territory Guides** — Localised AI resources and support networks  
 
 ---
 
@@ -33,7 +46,7 @@ Contributions are welcome — from fixing typos to adding new resources.
 - Sidebar structure is defined in `mkdocs.yml` under `nav:`.  
 - Page titles come from the first `# Heading` in each file.  
 
-👉 Please keep content aligned with the project’s mission: *safe, responsible, and growth-focused AI for Australia.*  
+👉 Please keep content aligned with the project's mission: *safe, responsible, and growth-focused AI for Australia.*  
 
 ---
 
@@ -66,6 +79,12 @@ Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
 ---
 
+## Connect with us  
+- **GitHub**: [safeai-aus/safeai-aus.github.io](https://github.com/safeai-aus/safeai-aus.github.io)
+- **Website**: [safeaiaus.org](https://safeaiaus.org/)
+
+---
+
 ## Licence  
 This project is licensed under the **Creative Commons Attribution 4.0 International Licence (CC BY 4.0)**.  
-You are free to share and adapt the material with appropriate credit.  
+You are free to share and adapt the material with appropriate credit.

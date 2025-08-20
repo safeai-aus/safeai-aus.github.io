@@ -24,12 +24,14 @@ permalink: /about/
 To enable safe, ethical, and growth-oriented AI adoption in Australian businesses through open standards, practical tools, and collaborative knowledge-sharing.
 
 **Purpose:**  
-SafeAI-Aus is a community-led, open-source body of knowledge designed to help Australian businesses embed, integrate, and scale AI in ways that are responsible, secure, and compliant — while driving national productivity and economic growth.
+SafeAI-Aus is a community-led, open-source body of knowledge designed to help Australian businesses embed, integrate, and scale AI in ways that are responsible, secure, and compliant - while driving national productivity and economic growth.
 
 ## What We Do
 SafeAI-Aus is an open-source, community-driven initiative focused on AI risk, safety, and growth in the Australian context.  
 
 We provide practical tools, resources, and guidelines to help businesses of all sizes adopt AI responsibly, safeguard privacy and intellectual property, and align with both Australian and global best practices.  
+
+We strongly believe in the importance of open-source knowledge that is accessible and available for implementation by business. 
 
 By combining responsible innovation with a pro-business approach, SafeAI-Aus aims to boost productivity, strengthen competitiveness, and position Australia as a leader in ethical AI adoption.
 
@@ -46,7 +48,7 @@ By combining responsible innovation with a pro-business approach, SafeAI-Aus aim
 ---
 ## Attribution & Licence
 [![CC BY 4.0 License](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)  
-This work is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+This work is licensed under a [Creative Commons Attribution 4.0 International Licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
 
 ### Why CC BY 4.0?  
 SafeAI-Aus has adopted the CC BY 4.0 licence to maximise accessibility, reuse, and impact of our resources. This licence allows anyone to:  

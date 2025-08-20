@@ -101,7 +101,8 @@ AI technologies may be used where they support the organisation’s objectives, 
 ## 6. Prohibited Use
 To manage risks and maintain compliance, certain uses of AI are not permitted under any circumstances. These restrictions help safeguard the organisation and its stakeholders.  
 
-The following are strictly prohibited:  
+The following are strictly prohibited: 
+
 - Any illegal activity or violation of Australian law.  
 - Automated decision-making without required human oversight.  
 - Using unapproved or unvetted AI vendors.  
@@ -113,7 +114,8 @@ The following are strictly prohibited:
 ## 7. Privacy, Intellectual Property & Data Rights
 Respecting privacy and protecting intellectual property are central to responsible AI adoption. AI use must safeguard both personal information and organisational assets, while also respecting the rights of third parties.  
 
-The organisation requires that:  
+The organisation requires that: 
+
 - All AI systems comply with the Privacy Act 1988 (Cth).  
 - Both personal information and organisational IP are protected at all times.  
 - Third-party IP rights are respected when using datasets, models, or outputs.  
@@ -154,12 +156,14 @@ This policy is guided by relevant standards and legislation that inform responsi
 To support day-to-day use, the following quick guide summarises acceptable and unacceptable practices:  
 
 **Do:**  
+
 - Use only approved AI systems.  
 - Keep sensitive data secure.  
 - Double-check AI outputs before sharing externally.  
 - Disclose AI use when interacting with customers if relevant.  
 
 **Don’t:**  
+
 - Paste confidential or client data into public AI tools.  
 - Rely on AI for final decisions without human oversight.  
 - Use unapproved AI vendors or unlicensed data.  
@@ -170,13 +174,13 @@ To support day-to-day use, the following quick guide summarises acceptable and u
 # Template Disclaimer & Licence
 
 ## Disclaimer
-This AI Use Policy template is provided as an open source resource by SafeAI-Aus to support responsible AI adoption in Australian businesses.  
+The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
 
-The content reflects best practice principles (including the Australian Government’s Voluntary AI Safety Standard) but is intended as a starting point only.  
+SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
 
-Organisations should adapt this policy to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
+The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
 
-SafeAI-Aus provides this template without warranty or liability.  
+This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.   
 
 ---
 
