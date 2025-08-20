@@ -50,6 +50,12 @@
             insertPoint.appendChild(cusdisContainer);
             insertPoint.appendChild(cusdisScript);
             
+            // Add extra spacing at the bottom
+            const bottomSpacer = document.createElement('div');
+            bottomSpacer.style.height = '4rem';
+            bottomSpacer.style.marginBottom = '2rem';
+            insertPoint.appendChild(bottomSpacer);
+            
             // Add some styling
             addCommentsStyling();
             
@@ -102,6 +108,8 @@
             #cusdis_thread {
                 margin-top: 1rem;
                 padding-top: 0;
+                padding-bottom: 3rem;
+                margin-bottom: 2rem;
                 border-top: none;
                 font-family: var(--md-text-font-family);
                 font-size: var(--md-typeset-font-size);
@@ -265,6 +273,7 @@
                 height: auto !important;
                 min-height: auto !important;
                 overflow: visible !important;
+                padding-bottom: 2rem !important;
             }
             
             /* Ensure the main content area expands */
@@ -272,6 +281,15 @@
                 height: auto !important;
                 min-height: auto !important;
                 overflow: visible !important;
+                padding-bottom: 2rem !important;
+            }
+            
+            /* Add extra space after the entire content */
+            .md-content__inner:after {
+                content: '';
+                display: block;
+                height: 3rem;
+                clear: both;
             }
             
             #cusdis_thread .cusdis-comment-form textarea:focus,
