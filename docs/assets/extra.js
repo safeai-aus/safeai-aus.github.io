@@ -5,21 +5,13 @@
     // Security: Prevent prototype pollution and enhance object security
     Object.freeze(Object.prototype);
     
-    // Goat Counter Analytics (with security validation)
+    // Umami Cloud Analytics
     (function() {
-        // Validate analytics domain before loading
-        const allowedDomains = ['gc.zgo.at', 'safeaiaus.goatcounter.com'];
-        const analyticsUrl = '//gc.zgo.at/count.js';
-        const domain = analyticsUrl.split('//')[1];
-        
-        if (allowedDomains.includes(domain)) {
-            const script = document.createElement('script');
-            script.setAttribute('data-goatcounter', 'https://safeaiaus.goatcounter.com/count');
-            script.async = true;
-            script.src = analyticsUrl;
-            script.crossOrigin = 'anonymous';
-            document.head.appendChild(script);
-        }
+        const script = document.createElement('script');
+        script.defer = true;
+        script.src = 'https://cloud.umami.is/script.js';
+        script.setAttribute('data-website-id', 'f228fe92-e13d-456d-92f8-018fac9d587c');
+        document.head.appendChild(script);
     })();
     
     // Function to add meta tags
