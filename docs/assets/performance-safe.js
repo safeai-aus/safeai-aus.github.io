@@ -30,8 +30,7 @@
         const externalDomains = [
             'fonts.googleapis.com',
             'fonts.gstatic.com',
-            'gc.zgo.at',
-            'safeaiaus.goatcounter.com'
+            'cloud.umami.is'
         ];
         
         externalDomains.forEach(domain => {
