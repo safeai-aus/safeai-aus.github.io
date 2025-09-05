@@ -28,6 +28,18 @@ We help Australian businesses adopt AI responsibly, safely, and in compliance wi
 ## Our Mission
 To enable safe, ethical, and growth-oriented AI adoption in Australian businesses through open standards, practical tools, and collaborative knowledge-sharing.
 
+## Stay Updated
+Subscribe today for practical tools to make AI safe — and work for your growth.
+
+<form method="post" action="https://lists.safeaiaus.org/subscription/form" class="listmonk-form" style="margin: 20px 0;">
+  <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+    <input type="hidden" name="nonce" />
+    <input type="email" name="email" required placeholder="Enter your email" style="flex: 1; min-width: 200px; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+    <input type="hidden" name="l" value="48a923d4-0865-49f1-9c94-67a234cbcae3" />
+    <input type="submit" value="Subscribe" style="padding: 8px 16px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;" />
+  </div>
+</form>
+
 ## What You'll Find Here
 - **Guidelines** — Best practices aligned with the Australian Voluntary AI Safety Standard.
 - **Governance Templates** — AI use policies, risk assessments, incident forms, vendor evaluation tools, and readiness checklists.
