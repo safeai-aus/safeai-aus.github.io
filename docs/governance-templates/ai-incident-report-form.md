@@ -37,28 +37,48 @@ Use this form whenever an AI-related incident occurs in your business. The infor
 **Reported By:** ____________________  
 **Contact Details:** ____________________  
 
+**Incident Severity:** [ ] Critical  [ ] High  [ ] Medium  [ ] Low  
+
+Severity Definitions:  
+- Critical: Immediate threat to safety, major data breach, or system-wide failure  
+- High: Significant impact on operations or multiple users affected  
+- Medium: Limited impact, workaround available  
+- Low: Minor issue, minimal impact  
+
 ## 1. Incident ID & Date
-Unique number and date of occurrence.  
+Incident identification number and date/time of occurrence  
 ☐ Evidence attached
 
+Time of Discovery: __________  
+Time of Occurrence (if different): __________  
+Reporting Timeline:  
+[ ] Within 4 hours (Critical)  
+[ ] Within 24 hours (High)  
+[ ] Within 72 hours (Medium/Low)  
+
 ## 2. Reporter Details
-Name, role, and contact information.  
+Name, role, and contact information of person reporting the incident  
 ☐ Evidence attached
 
 ## 3. AI System Details
-System name, version, vendor, environment.  
+System name, version, vendor, and deployment environment  
 ☐ Evidence attached
 
 ## 4. Incident Description
-What happened? Include inputs, outputs, and observed issues.  
+Description of what happened, including inputs, outputs, and observed issues  
 ☐ Evidence attached
 
 ## 5. Impact Assessment
 Actual or potential harm (individuals, organisation, or public).  
 ☐ Evidence attached
 
+Number of Users/Customers Affected: __________  
+Estimated Financial Impact: $__________  
+Regulatory Reporting Required: [ ] Yes  [ ] No  [ ] Under Review  
+Media/Reputation Risk: [ ] High  [ ] Medium  [ ] Low  [ ] None  
+
 ## 6. Data Involved
-Personal data, sensitive info, or IP affected.  
+Personal data, sensitive information, or intellectual property affected  
 ☐ Evidence attached
 
 ## 7. Immediate Actions Taken
@@ -66,7 +86,7 @@ Containment, mitigation, or workaround steps.
 ☐ Evidence attached
 
 ## 8. Root Cause (if known)
-Likely cause: model error, data bias, misuse, etc.  
+Likely cause (e.g., model error, data bias, misuse)  
 ☐ Evidence attached
 
 ## 9. Follow-up Actions
@@ -74,7 +94,13 @@ Steps to prevent recurrence or improve safeguards.
 ☐ Evidence attached
 
 ## 10. Review & Approval
-Reviewer/approver name, role, signature.  
+Reviewer/approver name, role, and signature  
+☐ Evidence attached
+
+## 11. Lessons Learned
+What worked well in the response: __________  
+What could be improved: __________  
+Preventive measures identified: __________  
 ☐ Evidence attached
 
 ---
@@ -90,6 +116,12 @@ This form aligns with:
 - Submit this report to your designated AI governance officer, IT/security team, or senior manager.  
 - Review lessons learned and update safeguards.  
 - Notify regulators if required (e.g., OAIC for privacy breaches).
+
+### Escalation Matrix
+- Critical: Immediate notification to CEO, Board, and regulators as required  
+- High: Notification to CIO/CTO and Risk Committee within 4 hours  
+- Medium: Notification to Department Head within 24 hours  
+- Low: Logged and reviewed in weekly operations meeting  
 
 ---
 

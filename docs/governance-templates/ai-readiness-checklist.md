@@ -28,15 +28,17 @@ Tick the boxes that apply to your organisation. A higher score means greater rea
 
 ## 1) Strategy & Governance
 - [ ] Clear AI vision linked to business goals  
-- [ ] A named senior owner for AI (accountable leader)  
+- [ ] A designated senior executive accountable for AI initiatives  
 - [ ] An AI Use Policy covering acceptable use, privacy, and IP  
 - [ ] Approval process for new AI initiatives  
+- [ ] Change management plan for AI adoption  
+- [ ] Stakeholder communication strategy defined  
 
 ## 2) Data & Privacy
 - [ ] Up-to-date data inventory and quality checks  
 - [ ] Compliance with the Privacy Act 1988 (APPs)  
 - [ ] Protections for business IP (Copyright Act 1968)  
-- [ ] Ability to anonymise or pseudonymise personal data  
+- [ ] Processes to anonymise or pseudonymise personal data  
 
 ## 3) Risk & Impact
 - [ ] Risk and impact assessments completed (bias, safety, rights)  
@@ -58,12 +60,21 @@ Tick the boxes that apply to your organisation. A higher score means greater rea
 - [ ] Contracts cover privacy, IP, and security requirements  
 - [ ] Regular review of vendor practices and updates  
 
+## 7) Financial & Resource Readiness
+- [ ] AI budget allocated and approved  
+- [ ] ROI expectations and success metrics defined  
+- [ ] Resources identified for ongoing maintenance and updates  
+- [ ] Cost-benefit analysis completed  
+
 ---
 
 ## Scoring (quick read)
-- **0–10**: Early stage - build governance and staff skills first  
-- **11–20**: Mid stage - ready for pilots with strong oversight  
-- **21–30**: Advanced - ready to scale with continuous improvement  
+- **0–10**: Early stage — build governance and staff skills first  
+- Example: Organisation exploring AI but lacking formal processes  
+- **11–20**: Mid stage — ready for pilots with strong oversight  
+- Example: Organisation with basic governance running controlled AI trials  
+- **21–30**: Advanced — ready to scale with continuous improvement  
+- Example: Organisation with mature AI governance deploying multiple systems  
 
 > Use alongside the **Voluntary AI Safety Standard (10 Guardrails)** for best practice adoption in Australia.  
 

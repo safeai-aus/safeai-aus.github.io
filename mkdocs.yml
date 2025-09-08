@@ -29,7 +29,7 @@ theme:
   favicon: assets/favicon.png
   footer: |
     © SafeAI-Aus — Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
-    See our [full licence and disclaimer](https://safeai-aus.github.io/about/#attribution--licence) for details.
+    See our [full licence and disclaimer](https://safeaiaus.org/about/#attribution--licence) for details.
   palette:
     - scheme: default
       primary: indigo
@@ -96,6 +96,7 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
+  - Contact: contact.md
   - AI Safety & Standards:
       - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md

@@ -18,7 +18,7 @@ canonical_url: "https://safeaiaus.org/governance-templates/ai-vendor-evaluation-
 
 # AI Vendor Evaluation Checklist 
 
-Selecting the right AI vendor is a critical step in managing risk and ensuring safe, ethical, and productive use of AI in your business. This checklist helps Australian organisations assess potential AI vendors against industry standards, legal requirements, and best practices.  
+Selecting the right AI vendor is critical for managing risk and ensuring safe, ethical, and productive use of AI in your business. This checklist helps Australian organisations assess potential AI vendors against industry standards, legal requirements, and best practices.  
 
 Using this evaluation process supports stronger AI governance by: 
 
@@ -58,14 +58,24 @@ Work through each section, seek evidence from the vendor, and record your findin
 | **Overall Risk Rating**     |             |                  |
 
 **Scoring guidance:**  
-- **1 = Very weak / not demonstrated**  
-- **3 = Adequate but with gaps**  
-- **5 = Strong evidence, fully compliant**  
+- **1 = Very weak or not demonstrated**  
+- **3 = Adequate with some gaps**  
+- **5 = Strong evidence and fully compliant**  
+
+Additional Evaluation Criteria:  
+| Category | Score (1–5) | Notes / Evidence |
+|----------|-------------|------------------|
+| Financial Stability |             |                  |
+| Vendor Lock-in Risk |             |                  |
+| Integration Capabilities |             |                  |
+| Total Cost of Ownership |             |                  |
+| Proof of Concept Results |             |                  |
+| Exit Strategy Feasibility |             |                  |
 
 ---
 
 ## 1. Vendor Information
-Provide vendor details including name, ABN/ACN, headquarters, key contacts, and years in operation.  
+Record vendor details including name, ABN/ACN, headquarters, key contacts, and years in operation.  
 *Sources: ASIC requirements; Supplier Due Diligence Standards*  
 
 ## 2. Product/Service Description
@@ -116,6 +126,34 @@ To ensure accountability and provide an audit trail:
 - Cross-reference this checklist with your organisation’s AI Risk Assessment and Incident Reporting processes for a complete governance record.  
 
 ---
+## 11. Financial & Commercial Assessment
+- Vendor financial health verified (credit check, annual reports)  
+- Total cost of ownership calculated (licensing, implementation, maintenance)  
+- ROI projections documented  
+- Payment terms and conditions reviewed  
+- Penalties for non-performance defined  
+
+## 12. Technical Integration
+- API documentation quality and completeness  
+- Compatibility with existing systems verified  
+- Data migration requirements assessed  
+- Performance benchmarks established  
+- Scalability limitations understood  
+
+## Automatic Disqualifiers (Red Flags)
+[ ] No evidence of data protection measures  
+[ ] Unwilling to provide security certifications  
+[ ] No liability acceptance in contracts  
+[ ] Previous regulatory violations  
+[ ] Inability to demonstrate compliance with Australian law  
+
+## Proof of Concept / Pilot Phase
+[ ] Pilot success criteria defined  
+[ ] Limited data set for testing prepared  
+[ ] Evaluation timeline established (typically 30–90 days)  
+[ ] Rollback plan documented  
+[ ] Cost of pilot agreed (if applicable)  
+
 # Template Disclaimer & Licence
 
 ## Disclaimer

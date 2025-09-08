@@ -61,7 +61,7 @@ In scope are:
 ## 3. Terms & Definitions
 To ensure consistency and clarity, the following definitions apply within this policy:  
 
-- **Artificial Intelligence (AI):** Computer systems that perform tasks normally requiring human intelligence (e.g. text generation, decision support).  
+- **Artificial Intelligence (AI):** Computer systems that perform tasks normally requiring human intelligence (e.g., text generation, decision support).  
 - **AI System:** Any software, service, or model that uses AI to produce outputs or assist in decisions.  
 - **Human Oversight:** A human must review and remain accountable for consequential decisions informed by AI.  
 - **Personal Information:** Information about an identifiable individual, as defined under the Privacy Act 1988 (Cth).  
@@ -112,7 +112,7 @@ The following are strictly prohibited:
 ---
 
 ## 7. Privacy, Intellectual Property & Data Rights
-Respecting privacy and protecting intellectual property are central to responsible AI adoption. AI use must safeguard both personal information and organisational assets, while also respecting the rights of third parties.  
+Respecting privacy and protecting intellectual property is central to responsible AI adoption. AI use must safeguard both personal information and organisational assets, while also respecting the rights of third parties.  
 
 The organisation requires that: 
 
@@ -123,36 +123,49 @@ The organisation requires that:
 
 ---
 
-## 8. Roles & Responsibilities
+## 8. Environmental & Sustainability Considerations
+The organisation commits to considering the environmental impact of AI systems:
+
+- Energy consumption of AI models will be monitored  
+- Preference for energy-efficient AI solutions where feasible  
+- Regular review of computational resource usage  
+- Documentation of sustainability measures in AI projects  
+
+---
+
+## 9. Roles & Responsibilities
 Effective governance requires clear accountabilities. Different roles within the organisation carry specific responsibilities for AI oversight and use.  
 
 - **Board/Executive:** Provide oversight of AI risk and ensure alignment to strategy.  
 - **AI Governance Lead:** Maintain the AI register, policies, and guardrail compliance.  
 - **Project Owners:** Conduct risk assessments, testing, and monitoring.  
 - **All Staff:** Complete AI literacy and security awareness training; follow this policy.  
+- **Procurement Team:** Ensure AI vendor evaluation follows approved processes.  
+- **Training Coordinator:** Schedule and track mandatory AI training completion.  
+- **Insurance/Legal:** Review liability and insurance coverage for AI deployments.  
 
 ---
 
-## 9. Compliance & Review
+## 10. Compliance & Review
 Compliance with this policy is mandatory. Breaches will be addressed in line with organisational disciplinary procedures or contractual terms.  
 
 This policy will be reviewed at least annually, or sooner if required by law, organisational change, or updates to standards (e.g. ISO/IEC 42001:2023).  
 
 ---
 
-## 10. Related Standards & References
+## 11. Related Standards & References
 This policy is guided by relevant standards and legislation that inform responsible AI practice. These include:  
 
-- Australian Government Voluntary AI Safety Standard (2024) – 10 Guardrails.  
-- ISO/IEC 42001:2023 – AI Management System (AIMS).  
-- ISO/IEC 23894:2023 – AI Risk Management.  
-- NIST AI Risk Management Framework 1.0 (2023) – U.S. AI risk guidance.  
-- Privacy Act 1988 (Cth) – Australian Privacy Principles (APPs).  
-- Fair Work Act 2009 (Cth) – Employee data and workplace rights considerations.  
+- Australian Government Voluntary AI Safety Standard (2024) – 10 Guardrails  
+- ISO/IEC 42001:2023 – AI Management System (AIMS)  
+- ISO/IEC 23894:2023 – AI Risk Management  
+- NIST AI Risk Management Framework 1.0 (2023) – U.S. AI risk guidance  
+- Privacy Act 1988 (Cth) – Australian Privacy Principles (APPs)  
+- Fair Work Act 2009 (Cth) – Employee data and workplace rights considerations  
 
 ---
 
-## 11. Quick Guide – Do’s & Don’ts
+## 12. Quick Guide – Do’s & Don’ts
 To support day-to-day use, the following quick guide summarises acceptable and unacceptable practices:  
 
 **Do:**  
@@ -161,6 +174,9 @@ To support day-to-day use, the following quick guide summarises acceptable and u
 - Keep sensitive data secure.  
 - Double-check AI outputs before sharing externally.  
 - Disclose AI use when interacting with customers if relevant.  
+- Complete mandatory AI awareness training before using AI tools.  
+- Follow approved procurement processes for new AI tools.  
+- Consider cross-border data transfer requirements when using cloud-based AI.  
 
 **Don’t:**  
 
@@ -168,6 +184,14 @@ To support day-to-day use, the following quick guide summarises acceptable and u
 - Rely on AI for final decisions without human oversight.  
 - Use unapproved AI vendors or unlicensed data.  
 - Assume AI-generated content is automatically free of copyright.  
+
+Common Scenarios:
+✓ Using AI for draft emails: OK with review before sending  
+✗ Customer data in ChatGPT: Never without approval  
+✓ AI for research summaries: OK with fact-checking  
+✗ Automated hiring decisions: Not without human review  
+✓ AI for code suggestions: OK with security testing  
+✗ Medical or legal advice via AI: Not without professional oversight  
 
 ---
 
