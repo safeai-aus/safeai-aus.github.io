@@ -2,7 +2,7 @@
 
 Stay informed with news, resources, and practical tools on safe and responsible AI adoption in Australia.
 
-<form method="post" action="http://localhost:9000/subscription/form" class="listmonk-form">
+<form method="post" action="https://lists.safeaiaus.org/subscription/form" class="listmonk-form">
   <div>
     <h3>Subscribe</h3>
     <input type="hidden" name="nonce" />

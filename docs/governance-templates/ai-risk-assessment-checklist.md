@@ -53,14 +53,20 @@ It can be used both as a **project planning tool** (to assess risks before deplo
 ## 2. Risk Classification
 - [ ] If the AI fails or gives wrong results, could it cause harm (e.g. financial, reputational, safety)?  
 - [ ] Based on that, is the **project or system** **Low / Medium / High** impact?  
-*(Example: a website chatbot = low; staff rostering = medium; automated loan approvals = high).*  
+*(For example: website chatbot = low risk; staff rostering = medium risk; automated loan approvals = high risk)*  
+
+Additional considerations for risk level:  
+- [ ] Number of users potentially affected: ___  
+- [ ] Financial exposure if system fails: $___  
+- [ ] Regulatory compliance implications assessed  
+- [ ] Reputational impact evaluated  
 
 *Sources: Guardrail 3; EU AI Act classification (adapted)*  
 
 ---
 
 ## 3. Data Governance & Privacy/IP
-- [ ] Does the system use personal data? If yes, are you complying with the **Privacy Act 1988 (APPs)**?  
+- [ ] Does the system use personal data? If so, are you complying with the **Privacy Act 1988 (APPs)**?  
 - [ ] Do you know who owns the training data and outputs (IP rights)?  
 - [ ] Are you keeping only the data you really need (data minimisation)?  
 - [ ] Can you track where the data came from (provenance)?  
@@ -82,7 +88,7 @@ It can be used both as a **project planning tool** (to assess risks before deplo
 - [ ] Is a specific person responsible for this AI system?  
 - [ ] Have you identified **human-in-the-loop checkpoints** where oversight is required?  
 - [ ] Can staff override or contest AI decisions if needed?  
-- [ ] Can customers or staff raise concerns easily?  
+- [ ] Can customers and staff raise concerns easily?  
 
 *Sources: Guardrail 8; Australian AI Ethics Principle: Accountability*  
 
@@ -98,7 +104,7 @@ It can be used both as a **project planning tool** (to assess risks before deplo
 ---
 
 ## 7. Transparency & Explainability
-- [ ] Can you explain, in plain English, how the system works and why it gives certain results?  
+- [ ] Can you explain in plain English how the system works and why it produces certain results?  
 - [ ] Have you told staff or customers when they are interacting with AI (not a human)?  
 - [ ] Are user instructions or limitations clearly documented?  
 
@@ -107,11 +113,42 @@ It can be used both as a **project planning tool** (to assess risks before deplo
 ---
 
 ## 8. Ongoing Monitoring & Review
-- [ ] How often will you review the system? (e.g. monthly, quarterly)  
+- [ ] How often will you review the system? (e.g., monthly, quarterly)  
 - [ ] Do you have a way to track problems or incidents?  
 - [ ] Will you retrain or update the system when data or business needs change?  
 
 *Sources: Guardrail 10; ISO/IEC 42001*  
+
+---
+
+## 9. Quantitative Risk Scoring
+- [ ] Probability of risk occurring (1–5 scale): ___  
+- [ ] Impact if risk occurs (1–5 scale): ___  
+- [ ] Risk Score (Probability × Impact): ___  
+- [ ] Risk tolerance threshold defined: ___  
+- [ ] Mitigation reduces score to acceptable level: Yes/No  
+
+---
+
+## 10. Dependencies & Supply Chain
+- [ ] Third-party dependencies identified and documented  
+- [ ] Vendor risk assessments completed  
+- [ ] Fallback options available if vendor fails  
+- [ ] Model degradation monitoring plan in place  
+- [ ] Update and patching schedule defined  
+
+---
+
+## Risk Matrix Guide
+Impact →     Low (1)  Medium (2)  High (3)  Critical (4)  Severe (5)  
+Likelihood ↓  
+Almost Certain (5)   5      10        15        20           25  
+Likely (4)           4       8        12        16           20  
+Possible (3)         3       6         9        12           15  
+Unlikely (2)         2       4         6         8           10  
+Rare (1)             1       2         3         4            5  
+
+Risk Scores: 1–5 (Low) | 6–10 (Medium) | 11–15 (High) | 16–25 (Critical)  
 
 ---
 
