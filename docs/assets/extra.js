@@ -39,7 +39,11 @@
         const title = document.title || 'SafeAI-Aus: Australia\'s AI Safety Knowledge Hub';
         const description = document.querySelector('meta[name="description"]')?.content || 
                           'Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely';
-        const url = window.location.href;
+        let pathname = window.location.pathname;
+        if (pathname !== '/' && pathname.endsWith('/')) {
+            pathname = pathname.slice(0, -1);
+        }
+        const url = window.location.origin + pathname;
         const image = 'https://safeaiaus.org/assets/safeaiaus-logo-600px.png';
         
         return { title, description, url, image };
