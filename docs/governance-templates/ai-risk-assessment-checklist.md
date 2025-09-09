@@ -56,8 +56,9 @@ It can be used both as a **project planning tool** (to assess risks before deplo
 *(For example: website chatbot = low risk; staff rostering = medium risk; automated loan approvals = high risk)*  
 
 Additional considerations for risk level:  
+
 - [ ] Number of users potentially affected: ___  
-- [ ] Financial exposure if system fails: $___  
+- [ ] Financial exposure if system fails: $ ___  
 - [ ] Regulatory compliance implications assessed  
 - [ ] Reputational impact evaluated  
 
