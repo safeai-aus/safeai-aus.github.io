@@ -1,18 +1,18 @@
 ---
 layout: page
 title: "AI & Emerging Tech Learning Directory for SMEs"
-description: "Directory of government-backed and open-source learning resources to help Australian SMEs build AI and emerging technology capability."
+description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability and stay competitive."
 keywords: "AI learning, SME training, AI resources Australia, safe AI adoption, government AI courses, open source AI learning"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI & Emerging Tech Learning Directory for SMEs"
-og_description: "Comprehensive directory of AI and emerging tech learning resources for Australian SMEs, from government programs to open-source Creative Commons courses."
+og_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
 og_type: "article"
 og_url: "https://safeai-aus.github.io/business-resources/ai-learning-development-directory/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI & Emerging Tech Learning Directory for SMEs"
-twitter_description: "Comprehensive directory of AI and emerging tech learning resources for Australian SMEs, from government programs to open-source Creative Commons courses."
+twitter_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
 canonical_url: "https://safeai-aus.github.io/business-resources/ai-learning-development-directory/"
 ---
 
@@ -26,9 +26,11 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-## Section 1: Government-Backed Programs
+## Government-Backed Programs
 
-### 1. [AI 101 Course for Small & Medium Businesses](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-education-small-and-medium-businesses)  
+### Federal Programs
+
+#### 1. [AI 101 Course for Small & Medium Businesses](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-education-small-and-medium-businesses)  
 *Department of Industry, Science and Resources (DISR)*
 
 - **Description:** Builds foundational understanding of AI concepts and real-world productivity use cases tailored for SMEs.  
@@ -40,7 +42,7 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-### 2. [AI Adopt Centres](https://business.gov.au/expertise-and-advice/ai-adopt-centres)  
+#### 2. [AI Adopt Centres](https://business.gov.au/expertise-and-advice/ai-adopt-centres)  
 *Business.gov.au – National Network*
 
 - **Description:** Provides tailored diagnostics, hands-on piloting, and AI adoption roadmapping through expert guidance.  
@@ -52,7 +54,7 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-### 3. [Digital Transformation – Manufacturing AI Support](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-training-and-advice-small-medium-businesses)  
+#### 3. [Digital Transformation – Manufacturing AI Support](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-training-and-advice-small-medium-businesses)  
 *Advanced Robotics Manufacturing Hub & partners*
 
 - **Description:** Sector-focused advisory addressing AI-driven workflow optimization, robotics integration, and governance for manufacturing, energy, or agri SMEs.  
@@ -64,7 +66,7 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-### 4. [IATD Fee-Free Courses (Microcredentials)](https://statedevelopment.sa.gov.au/news/free-ai-education-for-smes)  
+#### 4. [IATD Fee-Free Courses (Microcredentials)](https://statedevelopment.sa.gov.au/news/free-ai-education-for-smes)  
 *SA Government + TAFE NSW, Microsoft, UTS, Macquarie University*
 
 - **Description:** Stackable microcredentials in AI, cybersecurity, data, software, and cloud—designed with industry partners for practical skill-building.  
@@ -76,7 +78,7 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-### 5. [TAFE NSW + National AI Centre “Introduction to AI” Microskill](https://www.nsw.gov.au/media-releases/one-million-introduction-to-ai-scholarships-available-to-australians)  
+#### 5. [TAFE NSW + National AI Centre "Introduction to AI" Microskill](https://www.nsw.gov.au/media-releases/one-million-introduction-to-ai-scholarships-available-to-australians)  
 
 - **Description:** A concise, non-technical introduction to AI, covering basics, benefits, limitations, and ethical considerations.  
 - **Format:** 2–3 hour online module.  
@@ -87,7 +89,7 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-### 6. [APS Academy – “AI in Government Fundamentals”](https://www.apsacademy.gov.au/course-sessions/ai-government-fundamentals)  
+#### 6. [APS Academy – "AI in Government Fundamentals"](https://www.apsacademy.gov.au/course-sessions/ai-government-fundamentals)  
 
 - **Description:** Covers ethical, governance, and risk aspects of AI deployment in brief, accessible form.  
 - **Format:** 20–30 minute self-paced module.  
@@ -98,9 +100,23 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-## Section 2: Open-Source / Creative Commons Programs
+### State-Level Programs
 
-### 7. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu)  
+#### 7. [South Australia AI Initiative](https://www.news.com.au/technology/innovation/south-australian-treasurer-stephen-mullighan-announces-new-28m-ai-program-in-state-budget/news-story/97fe39eeff3224d0eb3857c7169ce8c2)
+*SA Government*
+
+- **Description:** $28 million AI initiative (2025-2029) with $7 million annually for proof-of-value trials
+- **Format:** Government-funded programs and trials
+- **Eligibility:** Healthcare, policing, allied health, social work, and legal/financial services
+- **Cost:** **Free** (government-funded)
+- **Difficulty:** Intermediate–Advanced
+- **Integration:** Ideal for public sector AI adoption and job protection initiatives
+
+---
+
+## Open-Source / Creative Commons Programs
+
+#### 8. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu)  
 *MIT*
 
 - **Description:** Deep-dive curriculum including lectures, notes, and problem sets on foundational AI and ML techniques.  
@@ -112,9 +128,9 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-### 8. [AI Pedagogy Project](https://aipedagogy.org/using-our-content/)  
+#### 9. [AI Pedagogy Project](https://aipedagogy.org/using-our-content/)  
 
-- **Description:** Curated assignments and tutorials promoting critical thinking about AI’s ethics, limitations, and societal impact.  
+- **Description:** Curated assignments and tutorials promoting critical thinking about AI's ethics, limitations, and societal impact.  
 - **Format:** Adaptable classroom exercises, prompts, and tutorials.  
 - **License:** CC BY-NC-SA 4.0.  
 - **Cost:** **Free**.  
@@ -124,9 +140,9 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-### 9. [MIT “How to AI (Almost) Anything”](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)  
+#### 10. [MIT "How to AI (Almost) Anything"](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)  
 
-- **Description:** Explores multimodal AI applications across vision, sound, sensors, and creativity—building intuition for AI’s broader capabilities.  
+- **Description:** Explores multimodal AI applications across vision, sound, sensors, and creativity—building intuition for AI's broader capabilities.  
 - **Format:** Lectures, readings, and research projects.  
 - **License:** CC BY.  
 - **Cost:** **Free**.  
@@ -136,7 +152,7 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-### 10. [Dive into Deep Learning](https://d2l.ai/)  
+#### 11. [Dive into Deep Learning](https://d2l.ai/)  
 
 - **Description:** Hands-on, open-source textbook with runnable code, blending theory, math, and implementation in Jupyter notebooks.  
 - **Format:** Interactive book using PyTorch, TensorFlow, JAX, with live examples.  

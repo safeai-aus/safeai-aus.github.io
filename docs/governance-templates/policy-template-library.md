@@ -1,18 +1,18 @@
 ---
 layout: page
 title: "Safe AI Policy & Template Library"
-description: "Comprehensive collection of AI governance templates and policies for Australian businesses. Includes risk assessments, incident reporting, vendor evaluation, and project management tools."
+description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, vendor evaluations, and project management tools. Start implementing safe AI practices today."
 keywords: "AI policy templates, AI governance templates, AI safety templates, Australian AI templates, AI policy library, AI governance tools, AI compliance templates"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "Safe AI Policy & Template Library"
-og_description: "Comprehensive collection of AI governance templates and policies for Australian businesses"
+og_description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, and project management tools."
 og_type: "article"
 og_url: "https://safeaiaus.org/governance-templates/policy-template-library/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Safe AI Policy & Template Library"
-twitter_description: "Comprehensive collection of AI governance templates and policies for Australian businesses"
+twitter_description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, and project management tools."
 canonical_url: "https://safeaiaus.org/governance-templates/policy-template-library/"
 ---
 
@@ -93,12 +93,6 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 - **Integrate:** Templates should sit within existing governance, risk, and compliance processes (e.g. risk registers, change management).  
 - **Iterate:** AI is fast-moving. Review and update these documents regularly as your AI maturity grows.  
 
----
-
-## Licensing
-
-All templates are published under a **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** licence. You are free to use, adapt, and share them, with attribution.  
-
 
 <script type="application/ld+json">
 {
@@ -148,3 +142,67 @@ All templates are published under a **[Creative Commons Attribution 4.0 Internat
   ]
 }
 </script>
+
+---
+
+## Licensing
+
+All templates are published under a **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** licence. You are free to use, adapt, and share them, with attribution.  
+
+---
+
+<!-- JSON-LD: Article schema for crawlers and LLMs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Safe AI Policy & Template Library - Free Governance Templates for Australian Businesses",
+  "description": "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, vendor evaluations, and project management tools. Start implementing safe AI practices today.",
+  "author": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
+    }
+  },
+  "datePublished": "2025-01-27",
+  "dateModified": "2025-01-27",
+  "inLanguage": "en-AU",
+  "url": "https://safeaiaus.org/governance-templates/policy-template-library/",
+  "mainEntityOfPage": "https://safeaiaus.org/governance-templates/policy-template-library/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "AI Governance Templates",
+      "description": "Practical templates for implementing AI governance in Australian businesses"
+    },
+    {
+      "@type": "Thing",
+      "name": "AI Policy Templates",
+      "description": "Ready-to-use policy templates for AI adoption and management"
+    },
+    {
+      "@type": "Thing",
+      "name": "AI Compliance Tools",
+      "description": "Tools and checklists for ensuring AI compliance with Australian standards"
+    }
+  ],
+  "keywords": "AI policy templates, AI governance templates, AI safety templates, Australian AI templates, AI policy library, AI governance tools, AI compliance templates",
+  "articleSection": "Governance Templates",
+  "wordCount": "1800"
+}
+</script>
+

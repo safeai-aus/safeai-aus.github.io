@@ -69,3 +69,79 @@ This choice reflects our commitment to:
 > Content from SafeAI-Aus, licensed under CC BY 4.0. Adapted from the original at [https://github.com/safeai-aus/safeai-aus.github.io](https://github.com/safeai-aus/safeai-aus.github.io).  
 
 ---
+
+<!-- JSON-LD: Organization schema for crawlers and LLMs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SafeAI-Aus",
+  "alternateName": "SafeAI Australia",
+  "url": "https://safeaiaus.org",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
+  },
+  "description": "Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business. We provide practical tools, open standards, and trusted guidance for responsible AI adoption.",
+  "foundingDate": "2025",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Australia"
+  },
+  "knowsAbout": [
+    "AI Safety",
+    "AI Governance",
+    "AI Risk Assessment", 
+    "AI Compliance",
+    "Australian AI Standards",
+    "AI Policy Templates",
+    "AI Safety Guardrails",
+    "AI Ethics",
+    "Responsible AI"
+  ],
+  "sameAs": [
+    "https://github.com/safeai-aus/safeai-aus.github.io",
+    "https://twitter.com/safeai_aus",
+    "https://www.linkedin.com/company/safeai-aus"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "contact@safeai-aus.org",
+    "contactType": "General Inquiry"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "AI Safety Resources",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI Risk Assessment Checklist",
+          "description": "Free downloadable checklist for AI risk assessment"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI Governance Templates",
+          "description": "Free downloadable AI policy and governance templates"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "AI Safety Standards Guide",
+          "description": "Comprehensive guide to Australian AI safety standards"
+        }
+      }
+    ]
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-AU"
+}
+</script>
+
+---
