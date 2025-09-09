@@ -161,6 +161,11 @@ Risk Scores: 1–5 (Low) | 6–10 (Medium) | 11–15 (High) | 16–25 (Critical)
 - **NIST AI Risk Management Framework**  
 
 ---
+## Next Steps
+**Need to prepare for AI incidents?** → [AI Incident Report Form](ai-incident-report-form.md)
+
+---
+
 # Template Disclaimer & Licence
 
 ## Disclaimer

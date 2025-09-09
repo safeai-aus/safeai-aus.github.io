@@ -3,6 +3,7 @@ site_description: Australian AI Safety Knowledge Hub — practical tools, open s
 site_url: https://safeaiaus.org/
 repo_url: https://github.com/safeai-aus/safeai-aus.github.io
 repo_name: SafeAI-Aus
+site_author: SafeAI-Aus
 edit_uri: edit/main/docs/
 
 # SEO-friendly URL structure
@@ -97,6 +98,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Contact: contact.md
+  - Glossary: glossary.md
   - AI Safety & Standards:
       - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
       - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md

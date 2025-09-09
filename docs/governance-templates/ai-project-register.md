@@ -103,6 +103,11 @@ Health Indicators:
 
 ---
 
+## Next Steps
+**Need to establish AI governance policies?** → [AI Use Policy](ai-use-policy.md)
+
+---
+
 # Template Disclaimer & Licence
 
 ## Disclaimer

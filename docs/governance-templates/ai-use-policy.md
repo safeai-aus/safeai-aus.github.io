@@ -195,6 +195,11 @@ Common Scenarios:
 
 ---
 
+## Next Steps
+**Ready to assess your AI risks?** → [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)
+
+---
+
 # Template Disclaimer & Licence
 
 ## Disclaimer
