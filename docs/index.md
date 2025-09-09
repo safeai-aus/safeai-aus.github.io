@@ -82,4 +82,60 @@ Subscribe today for practical tools to make AI safe — and work for your growth
 This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 ---
+
+<!-- JSON-LD: WebSite schema for crawlers and LLMs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SafeAI-Aus",
+  "alternateName": "SafeAI Australia",
+  "url": "https://safeaiaus.org/",
+  "description": "Australian AI Safety Knowledge Hub — practical tools, open standards, and trusted guidance for responsible AI adoption.",
+  "inLanguage": "en-AU",
+  "publisher": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://safeaiaus.org/search/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  },
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org",
+    "description": "Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business.",
+    "foundingDate": "2025",
+    "sameAs": [
+      "https://github.com/safeai-aus/safeai-aus.github.io",
+      "https://twitter.com/safeai_aus",
+      "https://www.linkedin.com/company/safeai-aus"
+    ],
+    "areaServed": {
+      "@type": "Country",
+      "name": "Australia"
+    },
+    "knowsAbout": [
+      "AI Safety",
+      "AI Governance", 
+      "AI Risk Assessment",
+      "AI Compliance",
+      "Australian AI Standards",
+      "AI Policy Templates"
+    ]
+  }
+}
+</script>
+
+---
 © 2025 SafeAI-Aus

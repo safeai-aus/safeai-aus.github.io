@@ -1,18 +1,18 @@
 ---
 layout: page
 title: "AI Risk Assessment Checklist"
-description: "Comprehensive AI risk assessment checklist for Australian businesses. Identify, evaluate, and mitigate AI risks before deployment while ensuring compliance with safety standards."
+description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment. Ensure compliance with safety standards and reduce legal risks."
 keywords: "AI risk assessment, AI risk checklist, AI risk management, AI safety assessment, AI risk mitigation, Australian AI safety, AI risk evaluation"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Risk Assessment Checklist"
-og_description: "Comprehensive AI risk assessment checklist for Australian businesses"
+og_description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment."
 og_type: "article"
 og_url: "https://safeaiaus.org/governance-templates/ai-risk-assessment-checklist/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Risk Assessment Checklist"
-twitter_description: "Comprehensive AI risk assessment checklist for Australian businesses"
+twitter_description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment."
 canonical_url: "https://safeaiaus.org/governance-templates/ai-risk-assessment-checklist/"
 ---
 
@@ -139,16 +139,38 @@ Additional considerations for risk level:
 
 ---
 
-## Risk Matrix Guide
-Impact →     Low (1)  Medium (2)  High (3)  Critical (4)  Severe (5)  
-Likelihood ↓  
-Almost Certain (5)   5      10        15        20           25  
-Likely (4)           4       8        12        16           20  
-Possible (3)         3       6         9        12           15  
-Unlikely (2)         2       4         6         8           10  
-Rare (1)             1       2         3         4            5  
+## Risk Assessment Framework
 
-Risk Scores: 1–5 (Low) | 6–10 (Medium) | 11–15 (High) | 16–25 (Critical)  
+### Risk Matrix Guide
+#### Impact Levels
+- **Low (1)**: Minimal impact on operations
+- **Medium (2)**: Moderate impact, manageable consequences  
+- **High (3)**: Significant impact, requires immediate attention
+- **Critical (4)**: Major impact, business disruption
+- **Severe (5)**: Catastrophic impact, severe consequences
+
+#### Likelihood Levels
+- **Rare (1)**: Very unlikely to occur
+- **Unlikely (2)**: Low probability
+- **Possible (3)**: Moderate probability
+- **Likely (4)**: High probability
+- **Almost Certain (5)**: Very high probability
+
+#### Risk Score Calculation
+| Impact → | Low (1) | Medium (2) | High (3) | Critical (4) | Severe (5) |
+|----------|---------|------------|----------|--------------|------------|
+| **Likelihood ↓** | | | | | |
+| Almost Certain (5) | 5 | 10 | 15 | 20 | 25 |
+| Likely (4) | 4 | 8 | 12 | 16 | 20 |
+| Possible (3) | 3 | 6 | 9 | 12 | 15 |
+| Unlikely (2) | 2 | 4 | 6 | 8 | 10 |
+| Rare (1) | 1 | 2 | 3 | 4 | 5 |
+
+#### Risk Score Interpretation
+- **1–5 (Low)**: Acceptable risk level
+- **6–10 (Medium)**: Monitor and manage
+- **11–15 (High)**: Requires mitigation
+- **16–25 (Critical)**: Immediate action required  
 
 ---
 
@@ -195,3 +217,60 @@ Under the following terms:
 “This template was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeaiaus.org/).”  
 
 Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)  
+
+---
+
+<!-- JSON-LD: Article schema for crawlers and LLMs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "AI Risk Assessment Checklist for Australian Businesses",
+  "description": "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment. Ensure compliance with safety standards and reduce legal risks.",
+  "author": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
+    }
+  },
+  "datePublished": "2025-01-27",
+  "dateModified": "2025-01-27",
+  "inLanguage": "en-AU",
+  "url": "https://safeaiaus.org/governance-templates/ai-risk-assessment-checklist/",
+  "mainEntityOfPage": "https://safeaiaus.org/governance-templates/ai-risk-assessment-checklist/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "AI Risk Assessment",
+      "description": "Systematic evaluation of risks associated with AI system deployment"
+    },
+    {
+      "@type": "Thing", 
+      "name": "AI Safety",
+      "description": "Practices and standards for safe AI implementation"
+    },
+    {
+      "@type": "Thing",
+      "name": "Australian AI Standards",
+      "description": "Compliance with Australian AI safety and governance requirements"
+    }
+  ],
+  "keywords": "AI risk assessment, AI risk checklist, AI risk management, AI safety assessment, AI risk mitigation, Australian AI safety, AI risk evaluation",
+  "articleSection": "Governance Templates",
+  "wordCount": "2200"
+}
+</script>

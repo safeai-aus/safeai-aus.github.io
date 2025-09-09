@@ -243,3 +243,60 @@ Senate Inquiry report: [“Australian Government should regulate generative AI�
 - [The 10 guardrails – full guidance and examples (Department of Industry)](https://www.industry.gov.au/publications/voluntary-ai-safety-standard/10-guardrails)  
 - [Legal landscape for AI in Australia (Department of Industry)](https://www.industry.gov.au/publications/voluntary-ai-safety-standard/legal-landscape-ai-australia)  
 - [Consultation: Mandatory guardrails for high-risk settings (Australian Government)](https://consult.industry.gov.au/ai-mandatory-guardrails)  
+
+---
+
+<!-- JSON-LD: Article schema for crawlers and LLMs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Voluntary AI Safety Standard (10 Guardrails) - Australian AI Safety Framework",
+  "description": "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails for safe AI adoption. Includes implementation guidance for SMEs and large organisations.",
+  "author": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
+    }
+  },
+  "datePublished": "2025-01-27",
+  "dateModified": "2025-01-27",
+  "inLanguage": "en-AU",
+  "url": "https://safeaiaus.org/safety-standards/voluntary-ai-safety-standard-10-guardrails/",
+  "mainEntityOfPage": "https://safeaiaus.org/safety-standards/voluntary-ai-safety-standard-10-guardrails/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "AI Safety Standards",
+      "description": "Voluntary safety standards for AI implementation in Australia"
+    },
+    {
+      "@type": "Thing",
+      "name": "AI Guardrails",
+      "description": "Practical principles for safe and responsible AI use"
+    },
+    {
+      "@type": "Thing",
+      "name": "Australian AI Governance",
+      "description": "Governance frameworks for AI adoption in Australian businesses"
+    }
+  ],
+  "keywords": "Australian AI safety standard, AI guardrails, AI safety framework, voluntary AI standards, AI risk management, AI governance Australia, AI safety compliance, AI safety guardrails, Australian AI standards, AI safety best practices",
+  "articleSection": "Safety Standards",
+  "wordCount": "2800"
+}
+</script>

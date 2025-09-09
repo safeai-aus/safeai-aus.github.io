@@ -203,3 +203,60 @@ For Australian businesses, the AI funding landscape is broad and diverse. SMEs c
 Larger ventures and scale‑ups may find opportunities in NRFC co‑investment or ARC research partnerships. Niche initiatives, such as the Fearless Innovator Grant, highlight inclusivity and grassroots innovation.
 
 With both government and industry partners investing in AI capability, now is the time for Australian businesses to explore these programs, align with responsible AI practices, and position themselves for future growth.
+
+---
+
+<!-- JSON-LD: Article schema for crawlers and LLMs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "AI Grants and Funding Opportunities for Australian Businesses",
+  "description": "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability and stay competitive.",
+  "author": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
+    }
+  },
+  "datePublished": "2025-01-27",
+  "dateModified": "2025-01-27",
+  "inLanguage": "en-AU",
+  "url": "https://safeaiaus.org/business-resources/ai-grants-funding-australia/",
+  "mainEntityOfPage": "https://safeaiaus.org/business-resources/ai-grants-funding-australia/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "SafeAI-Aus",
+    "url": "https://safeaiaus.org"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "AI Funding",
+      "description": "Financial support programs for AI adoption in Australian businesses"
+    },
+    {
+      "@type": "Thing",
+      "name": "AI Grants Australia",
+      "description": "Government and industry grants for AI projects and development"
+    },
+    {
+      "@type": "Thing",
+      "name": "AI Business Support",
+      "description": "Resources and programs supporting AI implementation in Australian businesses"
+    }
+  ],
+  "keywords": "AI grants Australia, AI funding Australia, AI business grants, Australian AI funding, AI government grants, AI business support, AI investment Australia, AI startup funding",
+  "articleSection": "Business Resources",
+  "wordCount": "2500"
+}
+</script>
