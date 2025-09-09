@@ -154,6 +154,11 @@ To ensure accountability and provide an audit trail:
 [ ] Rollback plan documented  
 [ ] Cost of pilot agreed (if applicable)  
 
+## Next Steps
+**Ready to track your AI projects?** → [AI Project Register](ai-project-register.md)
+
+---
+
 # Template Disclaimer & Licence
 
 ## Disclaimer

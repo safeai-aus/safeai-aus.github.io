@@ -143,6 +143,57 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 | ICC (Adelaide) | Incubator | Varies | Startup incubation | Active |
 | Aus3C (Adelaide) | Cyber Hub | Varies | Cybersecurity & AI | Active |
 
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which AI grants are currently available to Australian SMEs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Availability changes through the year. We maintain a curated list of federal, state and industry grants relevant to AI adoption and R&D. Check the live directory for open rounds, deadlines, and eligibility notes specific to Australian businesses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What eligibility criteria do AI grants typically require?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common requirements include being an Australian-registered business (ABN), meeting SME size thresholds, having an eligible project scope (e.g., adoption, pilots, R&D), matched funding, and basic governance such as risk management and privacy safeguards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need AI risk and governance policies to apply for funding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many programs ask how you will manage AI risk and data privacy. Using an AI Use Policy, Risk Assessment, and Vendor Due Diligence checklist strengthens your application and reduces compliance risk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What costs are usually eligible under AI grants?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically: software licences, vendor services, implementation and integration, staff training, and sometimes hardware or data work. Ineligible costs often include ongoing BAU expenses and retrospective spending. Always confirm with the specific grant guidelines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I make a competitive AI grant application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Define a clear problem and outcomes, provide a realistic plan and budget, show organisational readiness (governance, skills, partners), include measures of impact, and reference relevant Australian standards or guardrails for responsible AI."
+      }
+    }
+  ]
+}
+</script>
+
 ---
 
 ## Final Thoughts for Businesses
@@ -152,5 +203,3 @@ For Australian businesses, the AI funding landscape is broad and diverse. SMEs c
 Larger ventures and scale‑ups may find opportunities in NRFC co‑investment or ARC research partnerships. Niche initiatives, such as the Fearless Innovator Grant, highlight inclusivity and grassroots innovation.
 
 With both government and industry partners investing in AI capability, now is the time for Australian businesses to explore these programs, align with responsible AI practices, and position themselves for future growth.
-
-

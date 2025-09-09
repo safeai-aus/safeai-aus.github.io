@@ -100,3 +100,51 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 All templates are published under a **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** licence. You are free to use, adapt, and share them, with attribution.  
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What AI governance templates are available from SafeAI Aus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide practical, Australia-focused templates including an AI Use Policy, AI Risk Assessment, AI Incident Report, AI Vendor Evaluation, AI Project Register, and related checklists to help Australian businesses start safely and quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the templates free to use and adapt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Templates are licensed under Creative Commons CC BY 4.0. You may copy, adapt, and use them commercially with attribution to SafeAI Aus (safeaiaus.org)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should I attribute SafeAI Aus when I reuse a template?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Include a short notice such as: “Source: SafeAI Aus (safeaiaus.org), licensed CC BY 4.0.” For PDFs or docs, place it in the header or footer; for web pages, add it near the template text."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do these templates meet Australian regulatory expectations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are designed to align with widely used frameworks and Australian context. Organisations should tailor them to their size, sector, and risk profile, and confirm legal obligations for privacy, safety, and industry rules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get started with the templates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the AI Use Policy and AI Risk Assessment. Then implement the Vendor Evaluation checklist before procuring tools, and add the Incident Report and Project Register for ongoing governance and learning."
+      }
+    }
+  ]
+}
+</script>

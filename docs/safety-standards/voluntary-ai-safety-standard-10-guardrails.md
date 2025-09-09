@@ -187,6 +187,57 @@ Senate Inquiry report: [“Australian Government should regulate generative AI�
 
 ---
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the Australian AI Guardrails and why do they matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are practical expectations for safe and responsible AI use in Australia. They help organisations reduce risk, build trust with customers, and prepare for emerging regulation and standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is ISO/IEC 42001 and how does it relate to my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ISO/IEC 42001 is a management system standard for AI. It provides a structured way to govern AI across policy, risk, lifecycle controls, and continual improvement. SMEs can adopt it progressively, starting with core controls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do we need certification to follow ISO/IEC 42001 practices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. You can apply the guidance without certification. Certification may be valuable later for assurance or procurement. Many organisations begin with gap analysis and phased implementation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do the Guardrails and ISO 42001 work together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guardrails provide accessible principles; ISO 42001 provides a formal management system. Use the Guardrails to frame goals and ISO 42001 to operationalise them across policy, risk, controls, and continuous improvement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are first steps to align with these standards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Define an AI Use Policy, run an AI Risk Assessment for priority use cases, implement vendor due diligence, and establish incident reporting. Then build toward ISO 42001 practices like governance roles, KPIs, and audits."
+      }
+    }
+  ]
+}
+</script>
+
+
 ### Further Reading & Official Resources
 - [Voluntary AI Safety Standard – Overview and guardrails (Department of Industry)](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)  
 - [The 10 guardrails – full guidance and examples (Department of Industry)](https://www.industry.gov.au/publications/voluntary-ai-safety-standard/10-guardrails)  

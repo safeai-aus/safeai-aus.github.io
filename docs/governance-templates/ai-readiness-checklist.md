@@ -80,6 +80,11 @@ Tick the boxes that apply to your organisation. A higher score means greater rea
 
 ---
 
+## Next Steps
+**Ready to establish AI governance policies?** → [AI Use Policy](ai-use-policy.md)
+
+---
+
 # Template Disclaimer & Licence
 
 ## Disclaimer

@@ -125,6 +125,11 @@ This form aligns with:
 
 ---
 
+## Next Steps
+**Ready to evaluate AI vendors?** → [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
+
+---
+
 # Template Disclaimer & Licence
 
 ## Disclaimer
