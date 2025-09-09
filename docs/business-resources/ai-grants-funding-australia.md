@@ -56,6 +56,34 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 - Program is **active and ongoing**.  
 - ➡️ [Discovery Projects](https://www.arc.gov.au/funding-research/discovery-linkage/discovery-program/discovery-projects) | [Linkage Projects](https://www.arc.gov.au/funding-research/funding-schemes/linkage-program/linkage-projects)
 
+### Medical Research Future Fund (MRFF) – AI in Health
+- $30 million for AI-driven healthcare research transforming Australian healthcare.
+- National Critical Research Infrastructure initiative supporting AI applications in health.
+- Multiple streams including digitisation of healthcare and AI-enabled health interventions.
+- Program is active with various grant rounds.
+- ➡️ [MRFF overview](https://www.health.gov.au/our-work/mrff)
+
+### CSIRO Next Generation Graduates Program
+- Supports businesses partnering with universities to bring AI/emerging tech graduate students into their teams.
+- Focus on building AI workforce capability through PhD, Masters and Honours students.
+- Industry-driven, multi-disciplinary program with regional focus in recent rounds.
+- Program is active with periodic rounds.
+- ➡️ [Program details](https://www.csiro.au/en/work-with-us/funding-programs/funding/next-generation-graduates-programs)
+
+### CSIRO-NSF (US) AI Research Collaboration
+- Joint Australia-US program for Responsible and Equitable AI research.
+- Combined AUD$9.6 million invested in six projects in 2023.
+- Focus on transformative AI research with societal impact.
+- Program is active.
+- ➡️ [More information](https://www.csiro.au/en/research/technology-space/ai/nsf-ai-research)
+
+### Cooperative Research Centres Projects (CRC-P) – AI Focus
+- Grants between $100,000 and $3 million for collaborative AI research projects.
+- Up to 3 years funding for industry-led AI collaborations.
+- Additional funding allocated specifically for AI projects in recent rounds.
+- Program is active with annual rounds.
+- ➡️ [CRC-P details](https://business.gov.au/grants-and-programs/cooperative-research-centres-projects-crcp-grants)
+
 ---
 
 ## State-Level Opportunities
@@ -80,6 +108,21 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 - In 2024, **16 councils received a collective $2.7 million+** to trial AI in planning systems, backed by a $5.6m commitment.  
 - Program **active in 2024**, future rounds uncertain. 
 - ➡️ [Source](https://www.nsw.gov.au/grants-and-funding/early-adopter-grant-program)
+
+### Queensland: Quantum and Advanced Technologies Programs
+- $53 million awarded under the Queensland Quantum and Advanced Technologies Strategy.
+- $28.1 million for Commercialisation Infrastructure Program.
+- $10 million for Quantum Decarbonisation Mission.
+- $3.8 million for student scholarships across six universities.
+- Programs are active.
+- ➡️ [Grant recipients](https://science.desi.qld.gov.au/industry/quantum/programs/grant-recipients)
+
+### Victoria: LaunchVic AI-Specific Programs
+- Funding for AI-focused accelerators and pre-accelerators.
+- Support for AI startups through sector-specific programs.
+- Investment in AI-focused angel networks and VC funds.
+- Programs are active and ongoing.
+- ➡️ [LaunchVic programs](https://launchvic.org/programs/)
 
 ---
 
@@ -136,6 +179,12 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 | SA AI Initiative | State Program | $28m over 4 years | Healthcare, policing, services | Active (2025-2029) |
 | AIML Industrial AI SME Grant | SME Grant | Expert access | Industrial AI adoption | Active (to 2028) |
 | NSW Early Adopter Program | State Grant | $2.7m+ (2024) | Planning system AI trials | Active (2024) |
+| QLD Quantum & Advanced Tech | State Program | $53m | Quantum/AI infrastructure | Active |
+| VIC LaunchVic AI Programs | State Support | Varies | AI startup ecosystem | Active |
+| MRFF AI in Health | Federal Grant | $30m | Healthcare AI transformation | Active |
+| CSIRO Next Gen Graduates | Federal Program | Varies | AI workforce development | Active |
+| CSIRO-NSF AI Collaboration | International Grant | $9.6m (2023) | Responsible AI research | Active |
+| CRC-P AI Projects | Federal Grant | $100k–$3m | Collaborative AI research | Active |
 | AWS AI Accelerator | Corporate | US$230m pool | Generative AI startups | Active |
 | NRFC | Co‑investment fund | $550m+ | Large-scale ventures | Active |
 | Fearless Innovator Grant | Micro‑grant | $100k | Female founders in AI | Completed (2024) |
@@ -198,9 +247,11 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 
 ## Final Thoughts for Businesses
 
-For Australian businesses, the AI funding landscape is broad and diverse. SMEs can tap into practical support like the R&D Tax Incentive, AIML’s SME grant program, or AWS accelerator credits. 
+For Australian businesses, the AI funding landscape is broad and diverse. SMEs can tap into practical support like the R&D Tax Incentive, AIML's SME grant program, or AWS accelerator credits. 
 
-Larger ventures and scale‑ups may find opportunities in NRFC co‑investment or ARC research partnerships. Niche initiatives, such as the Fearless Innovator Grant, highlight inclusivity and grassroots innovation.
+Larger ventures and scale‑ups may find opportunities in NRFC co‑investment, ARC research partnerships, or CRC-P collaborative projects. State-specific initiatives provide targeted support based on location, with Queensland focusing on quantum and advanced technologies, South Australia on public sector applications, and NSW on council planning systems.
+
+Niche initiatives, such as the Fearless Innovator Grant, highlight inclusivity and grassroots innovation.
 
 With both government and industry partners investing in AI capability, now is the time for Australian businesses to explore these programs, align with responsible AI practices, and position themselves for future growth.
 
