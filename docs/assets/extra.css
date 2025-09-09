@@ -224,6 +224,114 @@ h3 {
     }
 }
 
+/* Newsletter form styling */
+.listmonk-form {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    margin: 2rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.listmonk-form h3 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.4em;
+}
+
+.listmonk-form input[type="email"],
+.listmonk-form input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+}
+
+.listmonk-form input[type="email"]:focus,
+.listmonk-form input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.listmonk-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+}
+
+.listmonk-form label {
+    font-weight: 600;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+.listmonk-form span {
+    display: block;
+    margin-top: 0.5rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.listmonk-form input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 1rem;
+}
+
+.listmonk-form input[type="submit"]:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+.listmonk-form input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+/* Dark mode support for newsletter form */
+[data-md-color-scheme="slate"] .listmonk-form {
+    background-color: #424242;
+    border-color: #555;
+}
+
+[data-md-color-scheme="slate"] .listmonk-form h3 {
+    color: #e8e8e8;
+}
+
+[data-md-color-scheme="slate"] .listmonk-form input[type="email"],
+[data-md-color-scheme="slate"] .listmonk-form input[type="text"] {
+    background-color: #2d2d2d;
+    border-color: #555;
+    color: #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] .listmonk-form input[type="email"]:focus,
+[data-md-color-scheme="slate"] .listmonk-form input[type="text"]:focus {
+    border-color: #64b5f6;
+    box-shadow: 0 0 0 3px rgba(100, 181, 246, 0.1);
+}
+
+[data-md-color-scheme="slate"] .listmonk-form label {
+    color: #e8e8e8;
+}
+
+[data-md-color-scheme="slate"] .listmonk-form span {
+    color: #adb5bd;
+}
+
 /* Print-friendly styles */
 @media print {
     .md-content {
