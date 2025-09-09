@@ -186,6 +186,7 @@ To support day-to-day use, the following quick guide summarises acceptable and u
 - Assume AI-generated content is automatically free of copyright.  
 
 Common Scenarios:
+
 ✓ Using AI for draft emails: OK with review before sending  
 ✗ Customer data in ChatGPT: Never without approval  
 ✓ AI for research summaries: OK with fact-checking  

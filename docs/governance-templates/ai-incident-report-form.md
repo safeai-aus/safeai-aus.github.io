@@ -39,7 +39,8 @@ Use this form whenever an AI-related incident occurs in your business. The infor
 
 **Incident Severity:** [ ] Critical  [ ] High  [ ] Medium  [ ] Low  
 
-Severity Definitions:  
+Severity Definitions: 
+ 
 - Critical: Immediate threat to safety, major data breach, or system-wide failure  
 - High: Significant impact on operations or multiple users affected  
 - Medium: Limited impact, workaround available  
