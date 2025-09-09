@@ -253,7 +253,7 @@
             }
             
             /* Fix height constraints on all Cusdis containers */
-            #cusdis_thread * {
+            #cusdis_thread *:not(iframe) {
                 max-height: none !important;
                 overflow: visible !important;
                 height: auto !important;
