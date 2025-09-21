@@ -56,6 +56,9 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 - [AI Project Register](ai-project-register.md)  
   *Maintains a central record of all AI initiatives. Supports Guardrails 9 (Governance & Oversight) and 10 (Lifecycle Management).*  
 
+- [AI Risk Register](ai-risk-register.md)  
+  *Comprehensive register for identifying, assessing, and managing AI-related risks. Supports Guardrails 3 (Risk Assessment) and integrates with broader GRC processes.*  
+
 ---
 
 ## Coming Soon
@@ -76,7 +79,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 |-----------|------------|-----------------------|
 | 1. Transparency | Clear information on AI use | AI Use Policy |
 | 2. Accountability | Assigning responsibility | AI Use Policy, Human Oversight Plan *(coming soon)* |
-| 3. Risk Assessment | Evaluating risks before use | AI Risk Assessment Form |
+| 3. Risk Assessment | Evaluating risks before use | AI Risk Assessment Form, AI Risk Register |
 | 4. Data Governance | Data quality, bias, provenance | Data Management & Quality Checklist *(coming soon)* |
 | 5. Incident Response | Detecting and reporting issues | AI Incident Report Form |
 | 6. Security | Cyber and system safeguards | AI Risk Assessment Form |
@@ -104,7 +107,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
       "name": "What AI governance templates are available from SafeAI Aus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We provide practical, Australia-focused templates including an AI Use Policy, AI Risk Assessment, AI Incident Report, AI Vendor Evaluation, AI Project Register, and related checklists to help Australian businesses start safely and quickly."
+        "text": "We provide practical, Australia-focused templates including an AI Use Policy, AI Risk Assessment, AI Risk Register, AI Incident Report, AI Vendor Evaluation, AI Project Register, and related checklists to help Australian businesses start safely and quickly."
       }
     },
     {
@@ -136,7 +139,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
       "name": "How do I get started with the templates?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Start with the AI Use Policy and AI Risk Assessment. Then implement the Vendor Evaluation checklist before procuring tools, and add the Incident Report and Project Register for ongoing governance and learning."
+        "text": "Start with the AI Use Policy and AI Risk Assessment. Then implement the Vendor Evaluation checklist before procuring tools, and add the Risk Register, Incident Report and Project Register for ongoing governance and learning."
       }
     }
   ]
