@@ -20,15 +20,17 @@ permalink: /contact/
 # Connect with SafeAI-Aus  
 
 SafeAI-Aus is an open-source, community-driven initiative.  
+
 We share resources to help Australian organisations adopt AI safely, responsibly, and in line with global best practice.  
 
-We're not a company — just a group of contributors who believe in practical, open resources for AI governance.  
+We're not a company — just a group of contributors who believe in practical, open resources for AI governance. 
+
 If you'd like to contribute, suggest ideas, or just say hello, here's how you can reach us:  
 
 ---
 
 ## 📧 Email  
-Community inbox: [contact@safeai-aus.org](mailto:contact@safeai-aus.org)  
+Community inbox: [contact@safeaiaus.org](mailto:contact@safeaiaus.org)  
 
 ## 🧑‍🤝‍🧑 Join the community  
 - Contribute on GitHub: [SafeAI-Aus Repository](https://github.com/safeai-aus/safeai-aus.github.io)  
