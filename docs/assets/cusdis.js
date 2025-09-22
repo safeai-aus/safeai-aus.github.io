@@ -3,14 +3,24 @@
 
 (function() {
     'use strict';
-    
-    // Wait for DOM to be ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initCusdis);
+
+    if (typeof document$ !== 'undefined') {
+        document$.subscribe(() => {
+            removeExistingCusdis();
+            initCusdis();
+        });
     } else {
-        initCusdis();
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                removeExistingCusdis();
+                initCusdis();
+            });
+        } else {
+            removeExistingCusdis();
+            initCusdis();
+        }
     }
-    
+
     function initCusdis() {
         // Get current page information
         const currentPath = window.location.pathname;
@@ -68,6 +78,23 @@
             };
         }
     }
+
+    function removeExistingCusdis() {
+        const existingThread = document.getElementById('cusdis_thread');
+        if (existingThread) {
+            existingThread.remove();
+        }
+
+        const existingHeading = document.getElementById('comments');
+        if (existingHeading) {
+            existingHeading.remove();
+        }
+
+        const existingScript = document.querySelector('script[src="https://cusdis.com/js/cusdis.es.js"]');
+        if (existingScript) {
+            existingScript.remove();
+        }
+    }
     
     function generatePageId(path) {
         // Remove leading slash and convert to a safe ID
@@ -105,7 +132,9 @@
     }
     
     function addCommentsStyling() {
+        if (document.getElementById('cusdis-style')) return;
         const style = document.createElement('style');
+        style.id = 'cusdis-style';
         style.textContent = `
             /* Main comments container */
             #cusdis_thread {
@@ -224,7 +253,7 @@
             }
             
             /* Fix height constraints on all Cusdis containers */
-            #cusdis_thread * {
+            #cusdis_thread *:not(iframe) {
                 max-height: none !important;
                 overflow: visible !important;
                 height: auto !important;
