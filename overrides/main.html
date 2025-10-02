@@ -34,9 +34,12 @@
       {% endif %}
     {% endif %}
     {% if iso %}
-      <meta name="page:git-revision-date-iso" content="{{ iso }}">
+      <meta name="page:git-revision-date-iso" content="{{ iso | e }}">
       <script>
-        window.__SAFEAI_PAGE_REVISION__ = "{{ iso }}";
+        (function () {
+          var revisionMeta = document.querySelector('meta[name="page:git-revision-date-iso"]');
+          window.__SAFEAI_PAGE_REVISION__ = revisionMeta ? revisionMeta.content : undefined;
+        })();
       </script>
     {% endif %}
   {% endif %}
