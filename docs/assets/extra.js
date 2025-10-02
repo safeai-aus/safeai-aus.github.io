@@ -360,6 +360,8 @@
         const revisionDateISO = getRevisionDateISO();
         const fallbackDate = new Date(document.lastModified);
         const fallbackDateISO = Number.isNaN(fallbackDate.getTime()) ? new Date().toISOString() : fallbackDate.toISOString();
+        const publicationDateISO = revisionDateISO || fallbackDateISO;
+        const modificationDateISO = revisionDateISO || fallbackDateISO;
 
         const aiSchema = {
             "@context": "https://schema.org",
@@ -389,8 +391,8 @@
                     "name": "SafeAI-Aus",
                     "url": "https://safeaiaus.org/"
                 },
-                "datePublished": revisionDateISO || "2025-01-27",
-                "dateModified": revisionDateISO || fallbackDateISO
+                "datePublished": publicationDateISO,
+                "dateModified": modificationDateISO
             }
         };
         
