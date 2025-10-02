@@ -34,18 +34,38 @@
         }
     }
     
+    function getCanonicalBase() {
+        const meta = document.querySelector('meta[name="canonical-base"]');
+        if (meta?.content) {
+            return meta.content.replace(/\/+$/, '');
+        }
+
+        const canonicalLink = document.querySelector('link[rel="canonical"]');
+        if (canonicalLink?.href) {
+            try {
+                const canonicalUrl = new URL(canonicalLink.href);
+                return canonicalUrl.origin;
+            } catch (error) {
+                // Ignore invalid canonical link values
+            }
+        }
+
+        return window.location.origin;
+    }
+
     // Get page-specific data from front matter or defaults
     function getPageData() {
         const title = document.title || 'SafeAI-Aus: Australia\'s AI Safety Knowledge Hub';
-        const description = document.querySelector('meta[name="description"]')?.content || 
+        const description = document.querySelector('meta[name="description"]')?.content ||
                           'Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely';
         let pathname = window.location.pathname;
         if (pathname !== '/' && pathname.endsWith('/')) {
             pathname = pathname.slice(0, -1);
         }
-        const url = window.location.origin + pathname;
+        const canonicalBase = getCanonicalBase();
+        const url = canonicalBase + pathname;
         const image = 'https://safeaiaus.org/assets/safeaiaus-logo-600px.png';
-        
+
         return { title, description, url, image };
     }
     
