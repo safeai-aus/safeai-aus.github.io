@@ -23,6 +23,19 @@
             document.head.appendChild(meta);
         }
     }
+
+    function getRevisionDateISO() {
+        const meta = document.querySelector('meta[name="page:git-revision-date-iso"]');
+        if (meta && meta.content) {
+            return meta.content;
+        }
+
+        if (typeof window.__SAFEAI_PAGE_REVISION__ === 'string' && window.__SAFEAI_PAGE_REVISION__) {
+            return window.__SAFEAI_PAGE_REVISION__;
+        }
+
+        return null;
+    }
     
     // Function to add property meta tags (Open Graph)
     function addPropertyMetaTag(property, content) {
@@ -364,6 +377,12 @@
             mainEntityType = "TechArticle";
         }
         
+        const revisionDateISO = getRevisionDateISO();
+        const fallbackDate = new Date(document.lastModified);
+        const fallbackDateISO = Number.isNaN(fallbackDate.getTime()) ? new Date().toISOString() : fallbackDate.toISOString();
+        const publicationDateISO = revisionDateISO || fallbackDateISO;
+        const modificationDateISO = revisionDateISO || fallbackDateISO;
+
         const aiSchema = {
             "@context": "https://schema.org",
             "@type": pageType,
@@ -392,8 +411,8 @@
                     "name": "SafeAI-Aus",
                     "url": "https://safeaiaus.org/"
                 },
-                "datePublished": "2025-01-27",
-                "dateModified": new Date().toISOString().split('T')[0]
+                "datePublished": publicationDateISO,
+                "dateModified": modificationDateISO
             }
         };
         
