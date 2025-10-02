@@ -11,6 +11,7 @@ use_directory_urls: true
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tabs
@@ -47,6 +48,7 @@ theme:
 
 extra:
   # SEO and social media optimization
+  canonical_base: https://safeaiaus.org
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/safeai-aus/safeai-aus.github.io
