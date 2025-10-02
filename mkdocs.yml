@@ -94,6 +94,9 @@ plugins:
   # - minify:
   #     minify_html: true
 
+hooks:
+  - hooks/sitemap.py
+
 nav:
   - Home: index.md
   - About: about.md
