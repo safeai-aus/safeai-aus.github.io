@@ -2,11 +2,13 @@
 (function () {
     'use strict';
 
-    // Load Umami Cloud Analytics only once per page.
+    // Prevent the analytics script from being injected multiple times (for example, during page reloads)
+    // while preserving the behaviour introduced in the legacy script.
     (function loadAnalytics() {
         if (document.querySelector('script[src="https://cloud.umami.is/script.js"]')) {
             return;
         }
+
         const script = document.createElement('script');
         script.defer = true;
         script.src = 'https://cloud.umami.is/script.js';
@@ -32,8 +34,27 @@
         if (canonicalLink?.href) {
             return canonicalLink.href;
         }
+
         try {
             return window.location.href;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    function getSiteUrl() {
+        const canonical = getCanonicalUrl();
+        if (canonical) {
+            try {
+                const url = new URL(canonical);
+                return url.origin;
+            } catch (error) {
+                // ignore invalid canonical URLs and fall back to location
+            }
+        }
+
+        try {
+            return window.location.origin;
         } catch (error) {
             return null;
         }
@@ -43,11 +64,71 @@
         if (!data || document.getElementById(id)) {
             return;
         }
+
         const script = document.createElement('script');
         script.type = 'application/ld+json';
         script.id = id;
         script.textContent = JSON.stringify(data);
         document.head.appendChild(script);
+    }
+
+    function buildOfferCatalog() {
+        return {
+            '@type': 'OfferCatalog',
+            name: 'AI Safety Resources and Services',
+            itemListElement: [
+                {
+                    '@type': 'Offer',
+                    price: '0',
+                    priceCurrency: 'AUD',
+                    itemOffered: {
+                        '@type': 'CreativeWork',
+                        name: 'AI Governance Templates',
+                        description: 'Comprehensive templates for AI policies, risk assessments, and compliance.'
+                    }
+                },
+                {
+                    '@type': 'Offer',
+                    price: '0',
+                    priceCurrency: 'AUD',
+                    itemOffered: {
+                        '@type': 'CreativeWork',
+                        name: 'AI Safety Standards Guidance',
+                        description: 'Guidance on Australian AI safety standards and voluntary guardrails.'
+                    }
+                },
+                {
+                    '@type': 'Offer',
+                    price: '0',
+                    priceCurrency: 'AUD',
+                    itemOffered: {
+                        '@type': 'CreativeWork',
+                        name: 'Business Resources',
+                        description: 'Tools, frameworks, and funding information for responsible AI adoption.'
+                    }
+                },
+                {
+                    '@type': 'Offer',
+                    price: '0',
+                    priceCurrency: 'AUD',
+                    itemOffered: {
+                        '@type': 'Service',
+                        name: 'AI Risk Assessment Support',
+                        description: 'Risk assessment checklists and frameworks for AI implementation.'
+                    }
+                },
+                {
+                    '@type': 'Offer',
+                    price: '0',
+                    priceCurrency: 'AUD',
+                    itemOffered: {
+                        '@type': 'Service',
+                        name: 'AI Vendor Evaluation Guidance',
+                        description: 'Vendor selection and evaluation criteria for AI solutions.'
+                    }
+                }
+            ]
+        };
     }
 
     function addOrganizationSchemas() {
@@ -57,19 +138,27 @@
             return;
         }
 
+        const siteOrigin = (getSiteUrl() || 'https://safeaiaus.org').replace(/\/$/, '');
+        const siteUrl = `${siteOrigin}/`;
+        const logoUrl = `${siteOrigin}/assets/safeaiaus-logo-600px.png`;
+        const sameAs = [
+            'https://github.com/safeai-aus/safeai-aus.github.io',
+            'https://twitter.com/safeai_aus'
+        ];
+
+        const offerCatalog = buildOfferCatalog();
+
         const organization = {
             '@context': 'https://schema.org',
             '@type': 'Organization',
             name: 'SafeAI-Aus',
-            url: 'https://safeaiaus.org/',
-            logo: 'https://safeaiaus.org/assets/safeaiaus-logo-600px.png',
+            url: siteUrl,
+            logo: logoUrl,
             description: 'Australian AI Safety Knowledge Hub — practical tools, open standards, and trusted guidance for responsible AI adoption.',
-            sameAs: [
-                'https://github.com/safeai-aus/safeai-aus.github.io',
-                'https://twitter.com/safeai_aus'
-            ],
+            sameAs,
             foundingDate: '2025',
             areaServed: 'Australia',
+            serviceType: 'AI Safety Resources',
             knowsAbout: [
                 'Artificial Intelligence Safety',
                 'AI Governance',
@@ -77,7 +166,16 @@
                 'Australian AI Standards',
                 'AI Compliance',
                 'AI Ethics'
-            ]
+            ],
+            keywords: 'AI safety, Australian AI standards, AI governance, AI risk assessment, AI compliance, AI safety templates, Australian business AI, AI safety Australia, AI governance templates, AI risk management',
+            slogan: 'Safe AI, Stronger Australia',
+            contactPoint: {
+                '@type': 'ContactPoint',
+                contactType: 'customer service',
+                availableLanguage: 'English',
+                areaServed: 'AU'
+            },
+            hasOfferCatalog: offerCatalog
         };
 
         const localBusiness = {
@@ -85,22 +183,35 @@
             '@type': 'LocalBusiness',
             name: 'SafeAI-Aus',
             alternateName: 'Safe AI Australia',
+            url: siteUrl,
+            logo: logoUrl,
+            image: logoUrl,
             description: 'Australian AI Safety Knowledge Hub providing practical tools, open standards, and trusted guidance for responsible AI adoption.',
-            url: 'https://safeaiaus.org/',
-            logo: 'https://safeaiaus.org/assets/safeaiaus-logo-600px.png',
-            image: 'https://safeaiaus.org/assets/safeaiaus-logo-600px.png',
             address: {
                 '@type': 'PostalAddress',
                 addressCountry: 'AU'
             },
-            areaServed: {
-                '@type': 'Country',
-                name: 'Australia'
+            areaServed: [
+                { '@type': 'Country', name: 'Australia' },
+                { '@type': 'State', name: 'New South Wales' },
+                { '@type': 'State', name: 'Victoria' },
+                { '@type': 'State', name: 'Queensland' },
+                { '@type': 'State', name: 'Western Australia' },
+                { '@type': 'State', name: 'South Australia' },
+                { '@type': 'State', name: 'Tasmania' },
+                { '@type': 'State', name: 'Northern Territory' },
+                { '@type': 'State', name: 'Australian Capital Territory' }
+            ],
+            geo: {
+                '@type': 'GeoCoordinates',
+                latitude: '-25.2744',
+                longitude: '133.7751'
             },
             serviceArea: {
                 '@type': 'Country',
                 name: 'Australia'
-            }
+            },
+            hasOfferCatalog: offerCatalog
         };
 
         addJsonLd('structured-data-organization', organization);
@@ -120,6 +231,16 @@
         if (!currentUrl) {
             return;
         }
+
+        let siteOrigin = getSiteUrl();
+        if (!siteOrigin) {
+            try {
+                siteOrigin = new URL(currentUrl).origin;
+            } catch (error) {
+                siteOrigin = 'https://safeaiaus.org';
+            }
+        }
+        siteOrigin = siteOrigin.replace(/\/$/, '');
 
         const revisionDateISO = getRevisionDateISO();
         const fallbackDate = new Date(document.lastModified);
@@ -155,12 +276,12 @@
                 author: {
                     '@type': 'Organization',
                     name: 'SafeAI-Aus',
-                    url: 'https://safeaiaus.org/'
+                    url: siteOrigin
                 },
                 publisher: {
                     '@type': 'Organization',
                     name: 'SafeAI-Aus',
-                    url: 'https://safeaiaus.org/'
+                    url: siteOrigin
                 },
                 datePublished,
                 dateModified
