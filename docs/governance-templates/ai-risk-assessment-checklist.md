@@ -185,6 +185,7 @@ Additional considerations for risk level:
 
 ---
 ## Next Steps
+**Need to track and monitor risks over time?** → [AI Risk Register](ai-risk-register.md)
 **Need to prepare for AI incidents?** → [AI Incident Report Form](ai-incident-report-form.md)
 
 ---
