@@ -2,9 +2,6 @@
 (function() {
     'use strict';
     
-    // Security: Prevent prototype pollution and enhance object security
-    Object.freeze(Object.prototype);
-    
     // Umami Cloud Analytics
     (function() {
         const script = document.createElement('script');
