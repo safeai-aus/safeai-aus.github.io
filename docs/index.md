@@ -1,21 +1,15 @@
 ---
-layout: page
 title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
 description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely and responsibly. Free AI governance templates, risk assessments, and compliance checklists."
 keywords: "AI safety, Australian AI standards, AI governance, AI risk assessment, AI compliance, AI safety templates, Australian business AI, AI safety Australia, AI governance templates, AI risk management"
 author: "SafeAI-Aus"
-robots: "index, follow"
 og_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
 og_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
-og_type: "website"
 og_url: "https://safeaiaus.org/"
 og_image: "assets/safeaiaus-logo-600px.png"
-twitter_card: "summary_large_image"
 twitter_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
 twitter_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
 canonical_url: "https://safeaiaus.org/"
-permalink: /
-security: "high"
 ---
 > Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business.
 
