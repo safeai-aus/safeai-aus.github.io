@@ -156,6 +156,7 @@ To ensure accountability and provide an audit trail:
 
 ## Next Steps
 **Ready to track your AI projects?** → [AI Project Register](ai-project-register.md)
+**Need to log vendor-related risks and controls?** → [AI Risk Register](ai-risk-register.md)
 
 ---
 

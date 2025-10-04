@@ -104,6 +104,7 @@ Health Indicators:
 ---
 
 ## Next Steps
+**Need a central log of project-specific risks?** → [AI Risk Register](ai-risk-register.md)
 **Need to establish AI governance policies?** → [AI Use Policy](ai-use-policy.md)
 
 ---
