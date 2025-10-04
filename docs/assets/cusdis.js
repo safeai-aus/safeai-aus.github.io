@@ -4,6 +4,8 @@
 (function() {
     'use strict';
 
+    let cusdisScriptPromise = null;
+
     if (typeof document$ !== 'undefined') {
         document$.subscribe(() => {
             removeExistingCusdis();
@@ -40,15 +42,9 @@
         cusdisContainer.setAttribute('data-lang', 'en');
         cusdisContainer.setAttribute('data-theme', 'auto');
         
-        // Create the Cusdis script
-        const cusdisScript = document.createElement('script');
-        cusdisScript.async = true;
-        cusdisScript.defer = true;
-        cusdisScript.src = 'https://cusdis.com/js/cusdis.es.js';
-        
         // Find the best place to insert the comments
         const insertPoint = findInsertPoint();
-        
+
         if (insertPoint) {
             // Add a heading for the comments section
             const commentsHeading = document.createElement('h2');
@@ -58,24 +54,36 @@
             // Insert the comments section
             insertPoint.appendChild(commentsHeading);
             insertPoint.appendChild(cusdisContainer);
-            insertPoint.appendChild(cusdisScript);
-            
+
             // Add extra spacing at the bottom
             const bottomSpacer = document.createElement('div');
             bottomSpacer.style.height = '4rem';
             bottomSpacer.style.marginBottom = '2rem';
+            bottomSpacer.id = 'cusdis-bottom-spacer';
             insertPoint.appendChild(bottomSpacer);
-            
+
             // Add some styling
             addCommentsStyling();
-            
-            // Log when Cusdis is fully loaded and force textarea expansion
-            cusdisScript.onload = function() {
-                console.log('Cusdis script loaded successfully');
-                
+
+            // Load the Cusdis script once and render comments
+            ensureCusdisScript().then(cusdis => {
+                if (cusdis && typeof cusdis.renderTo === 'function') {
+                    cusdis.renderTo(cusdisContainer, {
+                        host: 'https://cusdis.com',
+                        appId: 'ba73617f-2ff4-4c7e-95cd-c27d72c41e8e',
+                        pageId,
+                        pageUrl: window.location.href,
+                        pageTitle: currentTitle,
+                        theme: 'auto',
+                        lang: 'en'
+                    });
+                }
+
                 // Wait a bit for Cusdis to initialize, then force textarea expansion
                 setTimeout(forceTextareaExpansion, 1000);
-            };
+            }).catch(error => {
+                console.error('Failed to load Cusdis script', error);
+            });
         }
     }
 
@@ -90,10 +98,49 @@
             existingHeading.remove();
         }
 
-        const existingScript = document.querySelector('script[src="https://cusdis.com/js/cusdis.es.js"]');
-        if (existingScript) {
-            existingScript.remove();
+        const existingSpacer = document.getElementById('cusdis-bottom-spacer');
+        if (existingSpacer) {
+            existingSpacer.remove();
         }
+    }
+
+    function ensureCusdisScript() {
+        if (window.CUSDIS && typeof window.CUSDIS.renderTo === 'function') {
+            return Promise.resolve(window.CUSDIS);
+        }
+
+        if (cusdisScriptPromise) {
+            return cusdisScriptPromise;
+        }
+
+        const existingScript = document.querySelector('script[data-cusdis-script]');
+        if (existingScript) {
+            if (existingScript.dataset.loaded === 'true') {
+                return Promise.resolve(window.CUSDIS);
+            }
+
+            cusdisScriptPromise = new Promise((resolve, reject) => {
+                existingScript.addEventListener('load', () => resolve(window.CUSDIS), { once: true });
+                existingScript.addEventListener('error', reject, { once: true });
+            });
+            return cusdisScriptPromise;
+        }
+
+        cusdisScriptPromise = new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.async = true;
+            script.defer = true;
+            script.src = 'https://cusdis.com/js/cusdis.es.js';
+            script.setAttribute('data-cusdis-script', 'true');
+            script.addEventListener('load', () => {
+                script.dataset.loaded = 'true';
+                resolve(window.CUSDIS);
+            }, { once: true });
+            script.addEventListener('error', reject, { once: true });
+            document.head.appendChild(script);
+        });
+
+        return cusdisScriptPromise;
     }
     
     function generatePageId(path) {
@@ -155,19 +202,6 @@
             #cusdis_thread .cusdis-comments {
                 font-family: var(--md-text-font-family);
                 color: var(--md-default-fg-color);
-                max-height: none !important;
-                overflow: visible !important;
-            }
-            
-            /* Individual comment styling */
-            #cusdis_thread .cusdis-comment {
-                border: 1px solid var(--md-default-fg-color--lightest);
-                border-radius: 8px;
-                margin-bottom: 1.5rem;
-                padding: 1.5rem;
-                background: var(--md-default-bg-color);
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-                transition: box-shadow 0.2s ease;
                 max-height: none !important;
                 overflow: visible !important;
             }
@@ -452,7 +486,7 @@
             });
             
             // Force immediate expansion
-            textarea.style.height = Math.max(200, this.scrollHeight) + 'px';
+            textarea.style.height = Math.max(200, textarea.scrollHeight) + 'px';
             
             console.log(`Textarea ${index + 1} expanded to height: ${textarea.style.height}`);
         });
