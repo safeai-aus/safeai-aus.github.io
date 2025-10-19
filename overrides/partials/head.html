@@ -21,7 +21,13 @@
 {# -- Basic metadata ------------------------------------------------------ #}
 {% set title = meta.og_title or meta.title or page.title or config.site_name %}
 {% set description = meta.og_description or meta.description or config.site_description %}
-{% set robots = meta.robots or 'index, follow' %}
+{% if meta.get is defined %}
+  {% set robots = meta.get('robots') %}
+{% elif meta.robots is defined %}
+  {% set robots = meta.robots %}
+{% else %}
+  {% set robots = none %}
+{% endif %}
 {% set keywords = meta.keywords %}
 {% set author = meta.author or config.site_author %}
 
@@ -31,7 +37,7 @@
 {% if author %}
   <meta name="author" content="{{ author | e }}">
 {% endif %}
-{% if robots %}
+{% if robots is not none %}
   <meta name="robots" content="{{ robots | e }}">
 {% endif %}
 {% if keywords %}
