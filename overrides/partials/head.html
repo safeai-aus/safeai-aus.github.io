@@ -1,7 +1,106 @@
 {{ super() }}
-{% if page and page.meta and page.meta.git_revision_date_localized %}
-  {% set revision = page.meta.git_revision_date_localized %}
-  {% set iso = page.meta.git_revision_date_localized_raw_iso_datetime | default(None, true) %}
+
+{% set meta = page.meta if page and page.meta else {} %}
+{% set site_url = config.site_url.rstrip('/') if config.site_url else None %}
+
+{# -- Canonical URL ------------------------------------------------------- #}
+{% if page and page.canonical_url %}
+  {% set canonical = page.canonical_url %}
+{% elif meta.canonical_url %}
+  {% set canonical = meta.canonical_url %}
+{% elif site_url and page and page.url %}
+  {% set canonical = site_url ~ '/' ~ page.url.lstrip('/') %}
+{% else %}
+  {% set canonical = None %}
+{% endif %}
+
+{% if canonical %}
+  <link rel="canonical" href="{{ canonical | e }}">
+{% endif %}
+
+{# -- Basic metadata ------------------------------------------------------ #}
+{% set title = meta.og_title or meta.title or page.title or config.site_name %}
+{% set description = meta.og_description or meta.description or config.site_description %}
+{% if meta.get is defined %}
+  {% set robots = meta.get('robots') %}
+{% elif meta.robots is defined %}
+  {% set robots = meta.robots %}
+{% else %}
+  {% set robots = none %}
+{% endif %}
+{% set keywords = meta.keywords %}
+{% set author = meta.author or config.site_author %}
+
+{% if description %}
+  <meta name="description" content="{{ description | e }}">
+{% endif %}
+{% if author %}
+  <meta name="author" content="{{ author | e }}">
+{% endif %}
+{% if robots is not none %}
+  <meta name="robots" content="{{ robots | e }}">
+{% endif %}
+{% if keywords %}
+  <meta name="keywords" content="{{ keywords | e }}">
+{% endif %}
+
+{# -- Open Graph metadata ------------------------------------------------- #}
+{% set og_type = meta.og_type or 'website' %}
+{% if canonical %}
+  {% set og_url = meta.og_url or canonical %}
+{% elif meta.og_url %}
+  {% set og_url = meta.og_url %}
+{% else %}
+  {% set og_url = None %}
+{% endif %}
+{% set image = meta.og_image %}
+{% if image and site_url and not image.startswith('http') %}
+  {% set image = site_url ~ '/' ~ image.lstrip('/') %}
+{% endif %}
+{% if not image and site_url and config.theme.logo %}
+  {% set image = site_url ~ '/' ~ config.theme.logo.lstrip('/') %}
+{% endif %}
+
+<meta property="og:site_name" content="{{ config.site_name | e }}">
+<meta property="og:title" content="{{ title | e }}">
+{% if description %}
+  <meta property="og:description" content="{{ description | e }}">
+{% endif %}
+<meta property="og:type" content="{{ og_type | e }}">
+{% if og_url %}
+  <meta property="og:url" content="{{ og_url | e }}">
+{% endif %}
+{% if image %}
+  <meta property="og:image" content="{{ image | e }}">
+{% endif %}
+
+{# -- Twitter metadata ---------------------------------------------------- #}
+{% set twitter_card = meta.twitter_card or 'summary_large_image' %}
+{% set twitter_title = meta.twitter_title or title %}
+{% set twitter_description = meta.twitter_description or description %}
+{% set twitter_image = meta.twitter_image or image %}
+{% set twitter_site = meta.twitter_site or '@safeai_aus' %}
+{% set twitter_creator = meta.twitter_creator or twitter_site %}
+
+<meta name="twitter:card" content="{{ twitter_card | e }}">
+<meta name="twitter:title" content="{{ twitter_title | e }}">
+{% if twitter_description %}
+  <meta name="twitter:description" content="{{ twitter_description | e }}">
+{% endif %}
+{% if twitter_image %}
+  <meta name="twitter:image" content="{{ twitter_image | e }}">
+{% endif %}
+{% if twitter_site %}
+  <meta name="twitter:site" content="{{ twitter_site | e }}">
+{% endif %}
+{% if twitter_creator %}
+  <meta name="twitter:creator" content="{{ twitter_creator | e }}">
+{% endif %}
+
+{# -- Git revision metadata (used by custom scripts) ---------------------- #}
+{% if meta.git_revision_date_localized %}
+  {% set revision = meta.git_revision_date_localized %}
+  {% set iso = meta.git_revision_date_localized_raw_iso_datetime | default(None, true) %}
   {% if iso %}
     {% set iso = iso | replace(' ', 'T') %}
     {% if 'T' in iso %}
@@ -11,7 +110,7 @@
       {% endif %}
     {% endif %}
   {% else %}
-    {% set iso = page.meta.git_revision_date_localized_raw_iso_date | default(None, true) %}
+    {% set iso = meta.git_revision_date_localized_raw_iso_date | default(None, true) %}
   {% endif %}
   {% if iso is none %}
     {% if revision is string %}
