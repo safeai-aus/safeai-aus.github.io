@@ -38,7 +38,6 @@ Subscribe today for practical tools to make AI safe — and work for your growth
 - **Guidelines** — Best practices aligned with the Australian Voluntary AI Safety Standard.
 - **Governance Templates** — AI use policies, risk assessments, incident forms, vendor evaluation tools, and readiness checklists.
 - **Resources** — Reports, whitepapers, and case studies relevant to AI adoption in Australia.
-- **Trends** — Insights into AI developments, including decentralised AI and blockchain.
 
 !!! tip "New here?"
     Read our [About: Mission, Values & Licence](about.md).
