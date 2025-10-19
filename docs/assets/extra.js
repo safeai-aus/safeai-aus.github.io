@@ -9,6 +9,9 @@
             return;
         }
 
+    
+    // Umami Cloud Analytics
+    (function() {
         const script = document.createElement('script');
         script.defer = true;
         script.src = 'https://cloud.umami.is/script.js';
