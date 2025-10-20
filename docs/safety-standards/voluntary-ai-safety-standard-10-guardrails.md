@@ -29,7 +29,7 @@ Importantly, the 10 guardrails are consistent with leading international standar
 - [**ISO/IEC 42001:2023** – AI Management System Standard](https://www.iso.org/standard/81230.html)  
 - [**NIST AI Risk Management Framework 1.0**](https://www.nist.gov/itl/ai-risk-management-framework)  
 
-### Why this matters
+## Why this matters
 Adopting the guardrails early helps organisations build **trust, resilience, and regulatory readiness**. By embedding these practices now, businesses can:  
 
 - Reduce risks from bias, errors, and misuse of AI  
