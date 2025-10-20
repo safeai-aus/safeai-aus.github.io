@@ -26,7 +26,7 @@ This page provides a reusable **AI Use Policy** for Australian businesses seekin
 
 ---
 
-# AI Use Policy (Template)
+## AI Use Policy (Template)
 
 **Effective date:** [Insert Date]  
 **Review cycle:** [e.g. Annually]  
@@ -34,7 +34,7 @@ This page provides a reusable **AI Use Policy** for Australian businesses seekin
 
 ---
 
-## 1. Purpose
+### 1. Purpose
 The purpose of this policy is to ensure the safe, responsible, and effective use of Artificial Intelligence (AI) within [Organisation Name]. It establishes clear expectations for how AI should support organisational goals, protect people, and align with applicable standards and laws.  
 
 This policy aims to: 
@@ -47,7 +47,7 @@ This policy aims to:
 
 ---
 
-## 2. Scope
+### 2. Scope
 This policy applies across the organisation wherever AI technologies are developed, purchased, or used. It covers both internal and external use cases, ensuring that all applications of AI are appropriately governed.  
 
 In scope are:  
@@ -58,7 +58,7 @@ In scope are:
 
 ---
 
-## 3. Terms & Definitions
+### 3. Terms & Definitions
 To ensure consistency and clarity, the following definitions apply within this policy:  
 
 - **Artificial Intelligence (AI):** Computer systems that perform tasks normally requiring human intelligence (e.g., text generation, decision support).  
@@ -70,7 +70,7 @@ To ensure consistency and clarity, the following definitions apply within this p
 
 ---
 
-## 4. Principles
+### 4. Principles
 The organisation is committed to using AI in a way that is safe, transparent, and aligned with community expectations. All AI systems and services must reflect the following principles:  
 
 - Have a clear purpose and benefit.  
@@ -86,7 +86,7 @@ The organisation is committed to using AI in a way that is safe, transparent, an
 
 ---
 
-## 5. Acceptable Use
+### 5. Acceptable Use
 AI technologies may be used where they support the organisation’s objectives, comply with relevant laws, and can be applied responsibly. Acceptable use requires staff to follow the conditions below:  
 
 - Align AI use with organisational goals and policies.  
@@ -98,7 +98,7 @@ AI technologies may be used where they support the organisation’s objectives, 
 
 ---
 
-## 6. Prohibited Use
+### 6. Prohibited Use
 To manage risks and maintain compliance, certain uses of AI are not permitted under any circumstances. These restrictions help safeguard the organisation and its stakeholders.  
 
 The following are strictly prohibited: 
@@ -111,7 +111,7 @@ The following are strictly prohibited:
 
 ---
 
-## 7. Privacy, Intellectual Property & Data Rights
+### 7. Privacy, Intellectual Property & Data Rights
 Respecting privacy and protecting intellectual property is central to responsible AI adoption. AI use must safeguard both personal information and organisational assets, while also respecting the rights of third parties.  
 
 The organisation requires that: 
@@ -123,7 +123,7 @@ The organisation requires that:
 
 ---
 
-## 8. Environmental & Sustainability Considerations
+### 8. Environmental & Sustainability Considerations
 The organisation commits to considering the environmental impact of AI systems:
 
 - Energy consumption of AI models will be monitored  
@@ -133,7 +133,7 @@ The organisation commits to considering the environmental impact of AI systems:
 
 ---
 
-## 9. Roles & Responsibilities
+### 9. Roles & Responsibilities
 Effective governance requires clear accountabilities. Different roles within the organisation carry specific responsibilities for AI oversight and use.  
 
 - **Board/Executive:** Provide oversight of AI risk and ensure alignment to strategy.  
@@ -146,14 +146,14 @@ Effective governance requires clear accountabilities. Different roles within the
 
 ---
 
-## 10. Compliance & Review
+### 10. Compliance & Review
 Compliance with this policy is mandatory. Breaches will be addressed in line with organisational disciplinary procedures or contractual terms.  
 
 This policy will be reviewed at least annually, or sooner if required by law, organisational change, or updates to standards (e.g. ISO/IEC 42001:2023).  
 
 ---
 
-## 11. Related Standards & References
+### 11. Related Standards & References
 This policy is guided by relevant standards and legislation that inform responsible AI practice. These include:  
 
 - Australian Government Voluntary AI Safety Standard (2024) – 10 Guardrails  
@@ -165,7 +165,7 @@ This policy is guided by relevant standards and legislation that inform responsi
 
 ---
 
-## 12. Quick Guide – Do’s & Don’ts
+### 12. Quick Guide – Do’s & Don’ts
 To support day-to-day use, the following quick guide summarises acceptable and unacceptable practices:  
 
 **Do:**  
@@ -201,9 +201,9 @@ Common Scenarios:
 
 ---
 
-# Template Disclaimer & Licence
+## Template Disclaimer & Licence
 
-## Disclaimer
+### Disclaimer
 The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
 
 SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
@@ -214,7 +214,7 @@ This publication does not indicate any commitment by SafeAI-Aus to a particular 
 
 ---
 
-## Licence
+### Licence
 This AI Use Policy template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
 
 You are free to:  
