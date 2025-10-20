@@ -35,13 +35,13 @@ This checklist can be used as part of your organisation’s AI governance framew
 Work through each section, seek evidence from the vendor, and record your findings. Where needed, consult legal, risk, or IT experts before approving an AI vendor.  
 
 ---
-# AI Vendor Evaluation Checklist (Template)
+## AI Vendor Evaluation Checklist (Template)
 
 **Vendor Name:** ____________________  
 **Product/Service:** ____________________  
 **Date of Evaluation:** ____________________  
 
-## Vendor Evaluation Summary (Quick Scoring Table)
+### Vendor Evaluation Summary (Quick Scoring Table)
 
 | Category                   | Score (1–5) | Notes / Evidence |
 |-----------------------------|-------------|------------------|
@@ -74,49 +74,49 @@ Additional Evaluation Criteria:
 
 ---
 
-## 1. Vendor Information
+### 1. Vendor Information
 Record vendor details including name, ABN/ACN, headquarters, key contacts, and years in operation.  
 *Sources: ASIC requirements; Supplier Due Diligence Standards*  
 
-## 2. Product/Service Description
+### 2. Product/Service Description
 Outline the AI products or services provided, including version numbers and intended use.  
 *Sources: Guardrail 1; Australian AI Ethics Principle: Transparency*  
 
-## 3. Compliance & Certifications
+### 3. Compliance & Certifications
 List certifications (ISO/IEC 23894, ISO/IEC 42001, SOC 2) and confirm regulatory compliance.  
 *Sources: Guardrail 7; ISO/IEC 42001*  
 
-## 4. Data Governance
+### 4. Data Governance
 Check vendor policies on data handling, privacy protection, IP safeguards, and data provenance.  
 *Sources: Privacy Act 1988 (APPs); Guardrails 4 & 7*  
 
-## 5. Security Practices
+### 5. Security Practices
 Assess cybersecurity measures, vulnerability management, and penetration testing frequency.  
 *Sources: Guardrail 5; ACSC Essential Eight*  
 
-## 6. Model Development & Testing
+### 6. Model Development & Testing
 Request information on training data, bias mitigation, validation, and explainability features.  
 *Sources: Guardrails 6 & 9; NIST AI RMF*  
 
-## 7. Human Oversight & Support
+### 7. Human Oversight & Support
 Review the level of human oversight in operations, escalation paths, and customer support availability.  
 *Sources: Guardrail 8; Australian AI Ethics Principle: Accountability*  
 
-## 8. Incident Management
+### 8. Incident Management
 Confirm the vendor’s process for incident reporting, investigation, and resolution timelines.  
 *Sources: Guardrail 10; ISO/IEC 27035*  
 
-## 9. Contractual Safeguards
+### 9. Contractual Safeguards
 Review liability clauses, service-level agreements, IP ownership terms, and termination rights.  
 *Sources: Australian Consumer Law; Contract Law*  
 
-## 10. References & Track Record
+### 10. References & Track Record
 Check customer references, case studies, and the vendor’s history of regulatory compliance.  
 *Sources: Supplier Risk Management Best Practice*  
 
 ---
 
-## Documenting & Storing Results
+### Documenting & Storing Results
 To ensure accountability and provide an audit trail:  
 
 - Record all responses and supporting evidence provided by the vendor.  
@@ -126,28 +126,28 @@ To ensure accountability and provide an audit trail:
 - Cross-reference this checklist with your organisation’s AI Risk Assessment and Incident Reporting processes for a complete governance record.  
 
 ---
-## 11. Financial & Commercial Assessment
+### 11. Financial & Commercial Assessment
 - Vendor financial health verified (credit check, annual reports)  
 - Total cost of ownership calculated (licensing, implementation, maintenance)  
 - ROI projections documented  
 - Payment terms and conditions reviewed  
 - Penalties for non-performance defined  
 
-## 12. Technical Integration
+### 12. Technical Integration
 - API documentation quality and completeness  
 - Compatibility with existing systems verified  
 - Data migration requirements assessed  
 - Performance benchmarks established  
 - Scalability limitations understood  
 
-## Automatic Disqualifiers (Red Flags)
+### Automatic Disqualifiers (Red Flags)
 [ ] No evidence of data protection measures  
 [ ] Unwilling to provide security certifications  
 [ ] No liability acceptance in contracts  
 [ ] Previous regulatory violations  
 [ ] Inability to demonstrate compliance with Australian law  
 
-## Proof of Concept / Pilot Phase
+### Proof of Concept / Pilot Phase
 [ ] Pilot success criteria defined  
 [ ] Limited data set for testing prepared  
 [ ] Evaluation timeline established (typically 30–90 days)  
@@ -160,9 +160,9 @@ To ensure accountability and provide an audit trail:
 
 ---
 
-# Template Disclaimer & Licence
+## Template Disclaimer & Licence
 
-## Disclaimer
+### Disclaimer
 The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
 
 SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
@@ -173,7 +173,7 @@ This publication does not indicate any commitment by SafeAI-Aus to a particular 
 
 ---
 
-## Licence
+### Licence
 This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
 
 You are free to:  

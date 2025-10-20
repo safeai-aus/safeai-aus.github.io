@@ -171,7 +171,7 @@ Assessing third-party AI tools for security, privacy, reliability and compliance
 
 ---
 
-# 🔗 Related Resources
+## 🔗 Related Resources
 - [Template Library](governance-templates/policy-template-library.md)  
 - [AI Safety Standards (Australia & International)](safety-standards/voluntary-ai-safety-standard-10-guardrails.md)  
 - [AI Project Register](governance-templates/ai-project-register.md)  

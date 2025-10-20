@@ -116,7 +116,9 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ## Open-Source / Creative Commons Programs
 
-#### 8. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu)  
+### Global & Open Access Courses
+
+#### 8. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu)
 *MIT*
 
 - **Description:** Deep-dive curriculum including lectures, notes, and problem sets on foundational AI and ML techniques.  

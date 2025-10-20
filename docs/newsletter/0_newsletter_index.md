@@ -25,10 +25,10 @@ Stay informed with news, resources, and practical tools on safe and responsible 
 
 If you want to follow the meaningful changes of this site, you can either:
 
-* [Subscribe to the RSS feed](#rss_feed)
-* [Browse the Newsletter section](#newsletter_section)
+* [Subscribe to the RSS feed](#rss-feed)
+* [Browse the Newsletter section](#newsletter-section)
 
-# RSS feed
+## RSS feed
 
 You can choose how often you want to see the site updates:
 
@@ -37,12 +37,12 @@ You can choose how often you want to see the site updates:
 * [Monthly](https://safeaiaus.org/monthly.xml)
 * [Yearly](https://safeaiaus.org/yearly.xml)
 
-# Newsletter section
+## Newsletter section
 
 We aggregate the changes by year, month, week and day. You can navigate this section to
 see the latest changes.
 
-# Credits
+## Credits
 
 The newsletters and the RSS feeds are automatically created from the message commits of
 the repository thanks to the

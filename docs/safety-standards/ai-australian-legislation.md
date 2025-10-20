@@ -22,7 +22,7 @@ While Australia doesn’t yet have AI-specific legislation, AI use is already go
 
 As of August 2025, the Government is also considering new AI-specific regulation, including mandatory guardrails for high-risk applications, but outcomes remain politically uncertain.  
 
-### Why this matters
+## Why this matters
 Understanding the current legal landscape helps organisations:  
 
 - Avoid legal and reputational risks from misuse of AI  

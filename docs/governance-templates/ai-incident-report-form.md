@@ -31,7 +31,7 @@ Use this form whenever an AI-related incident occurs in your business. The infor
 
 ---
 
-# AI Incident Report Form (Template)
+## AI Incident Report Form (Template)
 
 **Date of Report:** ____________________  
 **Reported By:** ____________________  
@@ -46,7 +46,7 @@ Severity Definitions:
 - Medium: Limited impact, workaround available  
 - Low: Minor issue, minimal impact  
 
-## 1. Incident ID & Date
+### 1. Incident ID & Date
 Incident identification number and date/time of occurrence  
 ☐ Evidence attached
 
@@ -57,19 +57,19 @@ Reporting Timeline:
 [ ] Within 24 hours (High)  
 [ ] Within 72 hours (Medium/Low)  
 
-## 2. Reporter Details
+### 2. Reporter Details
 Name, role, and contact information of person reporting the incident  
 ☐ Evidence attached
 
-## 3. AI System Details
+### 3. AI System Details
 System name, version, vendor, and deployment environment  
 ☐ Evidence attached
 
-## 4. Incident Description
+### 4. Incident Description
 Description of what happened, including inputs, outputs, and observed issues  
 ☐ Evidence attached
 
-## 5. Impact Assessment
+### 5. Impact Assessment
 Actual or potential harm (individuals, organisation, or public).  
 ☐ Evidence attached
 
@@ -78,27 +78,27 @@ Estimated Financial Impact: $__________
 Regulatory Reporting Required: [ ] Yes  [ ] No  [ ] Under Review  
 Media/Reputation Risk: [ ] High  [ ] Medium  [ ] Low  [ ] None  
 
-## 6. Data Involved
+### 6. Data Involved
 Personal data, sensitive information, or intellectual property affected  
 ☐ Evidence attached
 
-## 7. Immediate Actions Taken
+### 7. Immediate Actions Taken
 Containment, mitigation, or workaround steps.  
 ☐ Evidence attached
 
-## 8. Root Cause (if known)
+### 8. Root Cause (if known)
 Likely cause (e.g., model error, data bias, misuse)  
 ☐ Evidence attached
 
-## 9. Follow-up Actions
+### 9. Follow-up Actions
 Steps to prevent recurrence or improve safeguards.  
 ☐ Evidence attached
 
-## 10. Review & Approval
+### 10. Review & Approval
 Reviewer/approver name, role, and signature  
 ☐ Evidence attached
 
-## 11. Lessons Learned
+### 11. Lessons Learned
 What worked well in the response: __________  
 What could be improved: __________  
 Preventive measures identified: __________  
@@ -131,9 +131,9 @@ This form aligns with:
 
 ---
 
-# Template Disclaimer & Licence
+## Template Disclaimer & Licence
 
-## Disclaimer
+### Disclaimer
 The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
 
 SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
@@ -144,7 +144,7 @@ This publication does not indicate any commitment by SafeAI-Aus to a particular 
 
 ---
 
-## Licence
+### Licence
 This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
 
 You are free to: 
