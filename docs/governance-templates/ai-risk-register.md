@@ -92,9 +92,9 @@ The risk register process is not just a compliance exercise — it is a practica
 
 ---
 
-# Template Disclaimer & Licence
+## Template Disclaimer & Licence
 
-## Disclaimer
+### Disclaimer
 The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
 
 SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
@@ -105,7 +105,7 @@ This publication does not indicate any commitment by SafeAI-Aus to a particular 
 
 ---
 
-## Licence
+### Licence
 This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
 
 You are free to:  
