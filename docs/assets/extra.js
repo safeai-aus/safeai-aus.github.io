@@ -4,20 +4,28 @@
 
     // Prevent the analytics script from being injected multiple times (for example, during page reloads)
     // while preserving the behaviour introduced in the legacy script.
-    (function loadAnalytics() {
+    function loadAnalytics() {
         if (document.querySelector('script[src="https://cloud.umami.is/script.js"]')) {
             return;
         }
 
-    
-    // Umami Cloud Analytics
-    (function() {
+        // Umami Cloud Analytics. A previous merge dropped the IIFE invocation around this logic,
+        // leaving the loader unexecuted and analytics disabled. Keep the implementation explicit
+        // so it is harder for future edits to regress.
         const script = document.createElement('script');
         script.defer = true;
         script.src = 'https://cloud.umami.is/script.js';
         script.setAttribute('data-website-id', 'f228fe92-e13d-456d-92f8-018fac9d587c');
-        document.head.appendChild(script);
-    })();
+
+        const target = document.head || document.querySelector('head') || document.documentElement;
+        target.appendChild(script);
+    }
+
+    loadAnalytics();
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadAnalytics, { once: true });
+    }
 
     function getRevisionDateISO() {
         const revisionMeta = document.querySelector('meta[name="page:git-revision-date-iso"]');
