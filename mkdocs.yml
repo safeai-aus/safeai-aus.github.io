@@ -28,7 +28,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   logo: assets/safeaiaus-logo-600px.png
-  favicon: assets/favicon.png
+  favicon: assets/favicon.svg
   footer: |
     © SafeAI-Aus — Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
     See our [full licence and disclaimer](https://safeaiaus.org/about/#attribution--licence) for details.
