@@ -332,18 +332,38 @@
                 });
             }
         });
-
-        if (faqItems.length === 0) {
-            return;
+        
+        if (faqItems.length > 0) {
+            // Check if FAQPage schema already exists
+            const existingFaqSchemas = document.querySelectorAll('script[type="application/ld+json"]');
+            let faqSchemaExists = false;
+            
+            for (const script of existingFaqSchemas) {
+                try {
+                    const existingSchema = JSON.parse(script.textContent);
+                    if (existingSchema["@type"] === "FAQPage") {
+                        faqSchemaExists = true;
+                        break;
+                    }
+                } catch (e) {
+                    // If parsing fails, continue checking other scripts
+                }
+            }
+            
+            // Only create FAQPage schema if one doesn't already exist
+            if (!faqSchemaExists) {
+                const faqSchema = {
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": faqItems
+                };
+            
+                const script = document.createElement('script');
+                script.type = 'application/ld+json';
+                script.textContent = JSON.stringify(faqSchema);
+                document.head.appendChild(script);
+            }
         }
-
-        const schema = {
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: faqItems.slice(0, 5)
-        };
-
-        addJsonLd('structured-data-faq', schema);
     }
 
     function addHowToSchema() {
