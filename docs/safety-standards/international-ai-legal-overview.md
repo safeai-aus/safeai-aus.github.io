@@ -29,7 +29,7 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 ## Executive Snapshot
 
 - **EU** — The **EU AI Act** is in force with staged obligations. Bans on “unacceptable risk” uses started **2 Feb 2025**; **general-purpose AI (GPAI)** duties start **2 Aug 2025**; most remaining rules phase in through **2026–2027**. Expect documentation, transparency, risk management and post-market monitoring obligations if you sell into the EU or provide GPAI there.  
-- **US** — No single federal AI law. Federal direction runs through **NIST AI RMF 1.0** and public-sector guidance (**OMB M-24-10**). States are moving: **Colorado’s AI Act** (effective **30 June 2026**) requires risk programs, impact assessments and notices for “high-risk” AI. NYC mandates bias audits for automated hiring tools.
+- **US** — No single federal AI law. Federal direction runs through **NIST AI RMF 1.0** and public-sector guidance (**OMB M-24-10**). States are moving: **Colorado’s AI Act** (effective **30 June 2026**) requires risk programs, impact assessments and notices for “high-risk” AI. NYC mandates bias audits for automated hiring tools.  
 - **Canada** — The federal **Artificial Intelligence and Data Act (AIDA)** (within Bill C-27) has **not been enacted** as of Aug 2025; it may be revisited in a new parliamentary session. Draft guidance remains a good indicator of direction (risk-based duties for “high-impact” systems).  
 - **UK** — No single AI Act; **regulator-led, “pro-innovation”** model with central government coordination and the **UK AI Safety Institute**. Regulators are issuing sector guidance and pilots (assurance, sandboxes).  
 - **Japan** — Operates “**soft-law**” guidance (**AI Guidelines for Business**, 2024; updated thereafter). In **May 2025** Japan approved an **AI Promotion Act** focused on coordination and R&D; compliance is driven via guidelines and existing laws (e.g., privacy, consumer).  
@@ -56,15 +56,15 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 - For **GPAI/models**, prepare **training-data summaries**, technical documentation, and risk-mitigation processes (red-teaming, incident reporting).  
 
 ### United States (US)
-**Status & scope:** No omnibus federal AI law. Federal levers include **NIST AI RMF 1.0** (widely adopted) and **OMB M-24-10** (governance for US federal agencies). States and cities are active: **Colorado SB24-205** (effective **30 June 2026**, delayed from the original February 2026 date via SB 25B-004) mandates **risk management programs, impact assessments, consumer notices and appeal/human review** for “high-risk” AI; **NYC Local Law 144** requires **bias audits and notices** for automated hiring tools.
+**Status & scope:** No omnibus federal AI law. Federal levers include **NIST AI RMF 1.0** (widely adopted) and **OMB M-24-10** (governance for US federal agencies). States and cities are active: **Colorado SB24-205** (effective **30 June 2026, delayed from the original February 2026 date via SB 25B-004**) mandates **risk management programs, impact assessments, consumer notices and appeal/human review** for “high-risk” AI; **NYC Local Law 144** requires **bias audits and notices** for automated hiring tools.  
 **What to do:**
 
 - Align your program to **NIST AI RMF** (often accepted as a **defence/interoperability** baseline, including in Colorado’s framework).  
 - If serving US customers/employers, build **impact assessment** and **bias-audit** capability into your lifecycle.  
 
 ### Canada
-**Status & scope:** Bill C-27 (which included the federal Artificial Intelligence and Data Act, AIDA) died on the Order Paper on 6 January 2025 when Parliament was prorogued. The bill would need to be completely re-introduced in a future parliamentary session. In June 2025, Minister Evan Solomon confirmed AIDA will not return in its original form, signaling a "light, tight, right" approach to any future AI regulation. Status remains highly uncertain as of October 2025.
-**What to do:** No federal AI-specific law is imminent. Continue monitoring for potential re-introduction under a new government. Organizations can still reference AIDA's former companion guidance for voluntary best practices (risk-based duties for "high-impact" systems, impact assessments, incident reporting), but recognize any future legislation may differ substantially.
+**Status & scope:** Bill C-27 (which included the federal Artificial Intelligence and Data Act, AIDA) died on the Order Paper on 6 January 2025 when Parliament was prorogued. The bill would need to be completely re-introduced in a future parliamentary session. In June 2025, Minister Evan Solomon confirmed AIDA will not return in its original form, signaling a "light, tight, right" approach to any future AI regulation. Status remains highly uncertain as of October 2025.  
+**What to do:** No federal AI-specific law is imminent. Continue monitoring for potential re-introduction under a new government. Organizations can still reference AIDA's former companion guidance for voluntary best practices (risk-based duties for "high-impact" systems, impact assessments, incident reporting), but recognize any future legislation may differ substantially.  
 
 ### United Kingdom (UK)
 **Status & scope:** **No single AI Act**; the UK follows a **contextual, regulator-led** approach under the **Government Response (Feb 2024)** to its AI White Paper. Central functions coordinate regulators; the **UK AI Safety Institute** evaluates advanced systems and supports guidance/testing.  
@@ -90,7 +90,7 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 |---|---|---|---|---|
 | **EU** | Binding, phased | EU AI Act | Feb 2025 (bans); **Aug 2025 (GPAI)**; 2026–27 (high-risk) | Risk-tiered duties, GPAI transparency/docs, post-market monitoring, penalties up to 7% turnover |
 | **US** | Patchwork + federal guidance | NIST AI RMF; OMB M-24-10; **Colorado AI Act**; NYC AEDT law | **CO:** 30 June 2026; **NYC AEDT:** in force | Risk programs, **impact assessments**, notices, bias audits (hiring), consumer appeal/human review |
-| **Canada** | Dead (died Jan 2025) | **AIDA (Bill C-27)** – terminated | No timeline; re-introduction uncertain | Bill C-27 died on Order Paper; any future legislation may differ substantially from original AIDA proposal |
+| **Canada** | Proposed (not enacted) | **AIDA (Bill C-27)** + companion doc | Status uncertain | Anticipated risk-based regime for “high-impact” systems; monitor for re-intro |
 | **UK** | Regulator-led framework | Gov’t Response (Feb 2024); AI Safety Institute | Ongoing | Sector regulators issue guidance; evaluation & assurance focus (frontier/GPAI) |
 | **Japan** | Soft-law + promotion act | **AI Guidelines for Business**; **AI Promotion Act (2025)** | Guidelines ongoing; Act passed May 2025 | Lifecycle governance guidance; coordination/R&D focus under Act |
 | **Korea** | Binding (framework) | **AI Basic/Framework Act** | **Effective Jan 2026** | National governance; trust/safety foundations; further rules expected |
@@ -121,7 +121,7 @@ This page should be read together with our governance tools:
 ### Key References
 - **EU AI Act** timelines & GPAI guidance: European Commission / EU AI Office  
 - **US**: NIST AI RMF 1.0; OMB M-24-10; Colorado SB24-205; NYC Local Law 144  
-- **Canada**: Bill C-27 (terminated 6 Jan 2025); former ISED AIDA companion docs remain as reference materials only
+- **Canada**: Bill C-27 (terminated 6 Jan 2025); former ISED AIDA companion docs remain as reference materials only  
 - **UK**: Government Response (Feb 2024); UK AI Safety Institute  
 - **Japan**: METI/MIC AI Guidelines for Business; Japan AI Promotion Act overview  
 - **South Korea**: MSIT press release; AI Basic Act analysis  
