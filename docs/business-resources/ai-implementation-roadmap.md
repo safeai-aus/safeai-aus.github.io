@@ -1,0 +1,373 @@
+---
+layout: page
+title: "AI Implementation Roadmap"
+description: "Step-by-step guidance for running AI pilots, scaling what works, and building ongoing assurance into your AI adoption."
+keywords: "AI implementation roadmap, AI pilot guidance, AI scaling, AI assurance, AI governance, Australian business AI"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "AI Implementation Roadmap"
+og_description: "A practical roadmap for planning pilots, scaling successful AI use cases, and embedding assurance into business-as-usual."
+og_type: "article"
+og_url: "https://safeaiaus.org/business-resources/ai-implementation-roadmap/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "AI Implementation Roadmap"
+twitter_description: "A practical roadmap for planning pilots, scaling successful AI use cases, and embedding assurance into business-as-usual."
+canonical_url: "https://safeaiaus.org/business-resources/ai-implementation-roadmap/"
+---
+
+# AI Implementation Roadmap
+
+You've identified good first use cases. You understand the importance of change management. You've evaluated vendors carefully.
+
+Now you need a practical roadmap for actually implementing AI: running pilots that generate real learning, making sound scale decisions, and building assurance practices that become business-as-usual.
+
+This page provides that roadmap with specific guidance on sizing, timeframes, success criteria, and what "done" looks like at each stage.
+
+---
+
+## Who this page is for
+
+This page is for:
+
+- Project managers running AI pilots
+- Transformation teams planning AI rollouts
+- Business owners moving from pilot to production
+- Anyone asking "what do we actually do, and in what order?"
+
+If you're ready to move from planning to doing, this is for you.
+
+---
+
+## The four-stage roadmap
+
+This roadmap is intentionally lightweight. The goal is to **move forward deliberately**, not to stall waiting for perfection.
+
+Each stage has clear objectives, typical timeframes, and "what done looks like" criteria.
+
+### Overview
+
+1. **Explore and pilot** (2-4 months) – Learn what works in your environment
+2. **Standardise and embed guardrails** (3-6 months) – Make safety and governance routine
+3. **Scale what works** (6-12 months) – Expand successful patterns
+4. **Continuously assure and improve** (ongoing) – Refine based on experience
+
+---
+
+## Stage 1: Explore and pilot (2-4 months)
+
+**Objective:** Run small, focused pilots that generate real learning about what AI can and can't do in your specific environment.
+
+### What to do
+
+**Identify 2-3 low-risk, high-learning use cases:**
+- Review [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started) for good first uses
+- Choose cases that are reversible and low-stakes
+- Pick at least one that builds resilience, not just cuts cost
+
+**Set up your AI System Register:**
+- Use the [AI System Register Template](/templates/ai-system-register) to track pilots
+- Even a simple spreadsheet is fine at this stage
+- Key fields: use case, owner, risk rating, status, decisions made
+
+**Run small pilots with clear parameters:**
+
+**Pilot group size:** 5-15 people
+- **Why this size:** Large enough to generate meaningful data, small enough to support intensively
+- **Too small (1-3 people):** Doesn't reveal process or workflow issues
+- **Too large (30+ people):** Support burden becomes overwhelming, problems scale quickly
+
+**Pilot duration:** 4-8 weeks for initial learning
+- **Week 1-2:** Setup, training, initial use with high support
+- **Week 3-5:** Regular use, feedback collection, issue resolution
+- **Week 6-8:** Evaluation, decision preparation
+- **Longer pilots (8-12 weeks):** Appropriate for defensive/security use cases or complex workflows
+
+**Success criteria examples:**
+- "Reduces document drafting time by 20% while maintaining quality"
+- "Maintains 90% accuracy with human review required for all outputs"
+- "Staff report tool is helpful, not frustrating, in week 4 survey"
+- "Zero security incidents during pilot period"
+- "80% of pilot participants want to continue using the tool"
+
+**Exit conditions (when to stop):**
+- "If error rate exceeds 15% after 4 weeks of tuning"
+- "If staff satisfaction score below 3/5 after training period"
+- "If integration issues remain unresolved after 6 weeks"
+- "If cost per task exceeds current manual process cost"
+
+**Complete AI Readiness Checklists:**
+- Use the [AI Readiness Checklist](/templates/ai-readiness-checklist) for each pilot
+- Document risk assessment, privacy considerations, approval
+- Lightweight but systematic
+
+**Capture lessons learned:**
+- Weekly pilot review meetings (30 minutes)
+- End-of-pilot retrospective (document what worked, what didn't, what surprised you)
+- Feed insights back into system register and planning
+
+### What "done" looks like
+
+At the end of Stage 1, you should have:
+
+✓ **Data on whether pilots met success criteria** (yes/no with supporting metrics)  
+✓ **Documented lessons learned** (what worked, what didn't, what you'd do differently)  
+✓ **Clear recommendation** for each pilot (scale / adjust and retry / stop)  
+✓ **Updated system register** with pilot outcomes and decisions  
+✓ **Staff feedback** on actual experience vs expectations  
+✓ **Initial view of cost vs benefit** for each use case
+
+**Common reasons to stop a pilot:**
+- Tool doesn't fit actual workflow (looked good in demo, awkward in practice)
+- Error rate remains too high despite tuning
+- Staff find it more frustrating than helpful
+- Integration problems too complex to resolve quickly
+- Cost exceeds benefit even at best-case adoption
+
+**Common reasons to scale:**
+- Meets or exceeds success criteria
+- Staff want to keep using it
+- Clear path to broader adoption
+- Cost-benefit case holds at larger scale
+- Manageable support and governance requirements
+
+**Common reasons to adjust and retry:**
+- Core value is there but implementation needs refinement
+- Different use case or workflow would work better
+- Tool configuration needs adjustment
+- Training approach needs improvement
+
+---
+
+## Stage 2: Standardise and embed guardrails (3-6 months)
+
+**Objective:** Make AI governance and safety part of business-as-usual, not special projects.
+
+### What to do
+
+**Introduce approval and risk checks for new AI projects:**
+- Expand the [AI Readiness Checklist](/templates/ai-readiness-checklist) into standard project approval process
+- New AI initiatives can't start without basic documentation and risk assessment
+- Keep it lightweight – appropriate to risk level, not bureaucratic
+
+**Make the system register part of business-as-usual:**
+- Assign an owner for the register (someone senior enough to have authority)
+- Quarterly review of all active AI systems (more frequently for high-risk ones)
+- Clear process for adding new systems and updating status
+
+**Establish incident reporting:**
+- Deploy [AI Incident Report Form](/templates/ai-incident-report-form)
+- Make it clear this is learning-focused, not blame-focused
+- Review incidents quarterly to identify patterns and improvement opportunities
+- Feed lessons back into training, documentation, and tool configuration
+
+**Publish AI use guidelines for staff:**
+- Dos and don'ts for common use cases
+- When to use AI vs when not to
+- How to review AI outputs (what to look for)
+- Where to report problems or concerns
+- Keep it to 1-2 pages, practical not theoretical
+
+**Example guidelines snippet:**
+- ✓ DO use AI for first drafts of routine documents
+- ✓ DO review all AI outputs before using them
+- ✓ DO report errors or concerning outputs
+- ✗ DON'T use AI for decisions about people without human review
+- ✗ DON'T copy-paste AI outputs without checking for accuracy
+- ✗ DON'T put confidential or sensitive data into unapproved AI tools
+
+**Set up review cadences:**
+- Monthly: Review active pilot metrics and issues
+- Quarterly: Review system register, incident reports, update risk assessments
+- Annually: Review AI use guidelines, governance framework, vendor relationships
+
+### What "done" looks like
+
+At the end of Stage 2, you should have:
+
+✓ **Clear approval process** – new AI initiatives require documented risk assessment  
+✓ **Maintained system register** – single source of truth for all AI use  
+✓ **Working incident reporting** – staff know how to report issues, reports are actually reviewed  
+✓ **Published guidelines** – staff know what's expected when using AI tools  
+✓ **Regular review cadence** – governance isn't "set and forget"  
+✓ **Systematic risk management** – you can answer "where do we use AI and what are the risks?"
+
+**You should be able to answer:**
+- What AI systems are we using and who owns each one?
+- What risks have been identified and how are we managing them?
+- How many AI incidents have we had and what did we learn?
+- What are staff allowed and not allowed to do with AI tools?
+- When was each system last reviewed?
+
+---
+
+## Stage 3: Scale what works (6-12 months)
+
+**Objective:** Expand successful patterns while maintaining safety and learning from experience.
+
+### What to do
+
+**Expand successful pilots to broader teams:**
+- Don't scale everything – focus on what clearly worked
+- Plan for 2-3x more training and support time than pilots required
+- Identify team-level champions (not just organisation-level)
+- Expect slower adoption in scaling phase than pilot phase
+
+**Invest in training and enablement:**
+- Develop self-service resources (written guides, video tutorials, FAQs)
+- Regular training sessions for new users (monthly or as new teams onboard)
+- "Office hours" or drop-in support sessions
+- Update training based on common issues and questions
+
+**Prioritise defensive and resilience use cases:**
+- Now that you've learned from productivity use cases, consider defensive ones
+- Security operations support, fraud detection, risk and compliance assistance
+- See [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started) for resilience-focused uses
+
+**Track organisation-level metrics:**
+
+Monitor across four dimensions:
+- **Adoption:** How many staff are actively using tools? What percentage of eligible workflows?
+- **Value:** Time saved, quality improvements, cost savings
+- **Risk:** Incident rates and severity, staff confidence in outputs
+- **Support:** Request volumes, common issues, user satisfaction
+
+Track these monthly and look for trends rather than snapshots.
+
+### What "done" looks like
+
+At the end of Stage 3, you should have:
+
+✓ **Multiple teams using AI tools confidently** – not just pilot volunteers  
+✓ **Clear metrics on value delivered** – can articulate ROI and benefits  
+✓ **Risk managed systematically** – incidents tracked and learned from  
+✓ **Training embedded** – part of onboarding and team practices  
+✓ **Balanced portfolio** – productivity AND resilience use cases  
+✓ **Shared knowledge** – lessons learned documented and accessible
+
+**Warning signs to watch for:**
+- High support burden not decreasing over time (indicates training or tool issues)
+- Low adoption rates despite availability (change management problems)
+- Increasing incident rates (inadequate controls or risky use cases)
+- Staff finding workarounds (tool doesn't fit real workflow)
+
+---
+
+## Stage 4: Continuously assure and improve (ongoing)
+
+**Objective:** Maintain safety and effectiveness as AI use matures and evolves.
+
+### What to do
+
+**Schedule periodic assurance activities:**
+
+**Quarterly reviews for high-risk systems:**
+- Review incident reports and near misses
+- Check compliance with risk controls
+- Verify system performance vs expectations
+- Update risk assessment if context changes
+
+**Annual reviews for low-risk systems:**
+- Confirm system still appropriate for use case
+- Review vendor relationship and costs
+- Check for regulatory or technology changes
+- Update documentation
+
+**Ad-hoc reviews when triggered:**
+- Significant incidents or near misses
+- Major system updates from vendor
+- Regulatory changes
+- Workflow or organisational changes
+
+**Refine guardrails based on experience:**
+- What controls are working well? What's pure overhead?
+- Where are gaps emerging?
+- What have incidents taught you?
+- Update guidelines, checklists, and processes accordingly
+
+**Adjust roadmap as context evolves:**
+- New regulations (track Australian AI legislation development)
+- New technology capabilities (AI is evolving rapidly)
+- Changed organisational priorities or risk appetite
+- Lessons from your experience and others'
+
+**Share lessons learned:**
+- Internally: cross-team learning from experiences
+- Externally: consider contributing to industry knowledge
+- Help others avoid your mistakes, learn from your successes
+
+### What "ongoing success" looks like
+
+In the continuous improvement stage, you should have:
+
+✓ **Mature governance** – safety and assurance are routine, not special effort  
+✓ **Learning culture** – incidents lead to improvement, not blame  
+✓ **Adaptive approach** – adjusting to new regulations, technology, experience  
+✓ **Balanced adoption** – moving forward deliberately, not recklessly or too cautiously  
+✓ **Clear accountability** – everyone knows their role in safe AI use  
+✓ **Documented track record** – can demonstrate responsible AI adoption
+
+---
+
+## Your next steps based on where you are
+
+### If you haven't started pilots yet:
+
+1. Review [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started) and complete [AI Readiness Checklist](/templates/ai-readiness-checklist)
+2. Set up your [AI System Register](/templates/ai-system-register)
+3. Evaluate 2-3 vendors using [AI Vendor Selection Guide](/guides/ai-vendor-selection)
+4. Design pilot: 5-15 people, 4-8 weeks, clear success criteria and exit conditions
+
+### If you're running pilots now:
+
+1. Confirm you have clear success criteria, exit conditions, and a decision timeline
+2. Collect feedback weekly and document lessons as you go
+3. Review change management against [AI Change Management](/guides/ai-change-management)
+4. Update your system register with pilot status and findings
+
+### If you're ready to scale:
+
+1. Confirm pilot met success criteria with evidence (don't scale based on enthusiasm alone)
+2. Review guardrails from [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started)
+3. Develop training materials and identify team-level champions
+4. Set up [incident reporting](/templates/ai-incident-report-form) and plan for 2-3x more support
+
+---
+
+## Key takeaways
+
+**The roadmap:**
+- Four stages: Explore → Standardise → Scale → Assure
+- Each stage has clear objectives and "done" criteria
+- Don't skip stages to move faster – each builds on the previous
+
+**Pilot design:**
+- 5-15 people, 4-8 weeks
+- Clear success criteria and exit conditions
+- Weekly feedback, documented lessons
+- Be prepared to stop pilots that aren't working
+
+**Scaling decisions:**
+- Scale based on evidence, not enthusiasm
+- Plan for more support than pilots required
+- Expand gradually, don't try to scale everything at once
+
+**Ongoing assurance:**
+- Regular reviews (quarterly for high-risk, annual for low-risk)
+- Learn from incidents, refine controls
+- Adjust to regulatory and technology changes
+
+**Remember:**  
+Perfect is the enemy of good. The goal is deliberate progress with appropriate safeguards, not flawless execution. Start small, learn fast, scale what works, and build assurance into your routine.
+
+---
+
+## Further resources
+
+- [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started)
+- [AI Change Management](/guides/ai-change-management)
+- [AI Vendor Selection Guide](/guides/ai-vendor-selection)
+- [AI System Register Template](/templates/ai-system-register)
+- [AI Readiness Checklist](/templates/ai-readiness-checklist)
+- [AI Incident Report Form](/templates/ai-incident-report-form)
+- [AI Assurance – Transparency, Auditing & Reporting](/guides/ai-assurance)
