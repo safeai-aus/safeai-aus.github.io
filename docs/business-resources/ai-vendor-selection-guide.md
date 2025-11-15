@@ -183,7 +183,7 @@ Before committing to a vendor, get clear answers to these questions:
 
 ## Using the SafeAI-Aus vendor evaluation template
 
-The [AI Vendor Evaluation Template](/templates/ai-vendor-evaluation) helps you score vendors consistently, track your evaluation process, document decisions, and share assessments across your team.
+The [AI Vendor Evaluation Template](../governance-templates/ai-vendor-evaluation-checklist.md) helps you score vendors consistently, track your evaluation process, document decisions, and share assessments across your team.
 
 The template covers technical capability, Australian compliance, integration and support, transparency, costs, and references. Customize the weighting based on your priorities – not all criteria matter equally for every use case.
 
@@ -191,11 +191,11 @@ The template covers technical capability, Australian compliance, integration and
 
 ## Connecting vendor selection to broader adoption work
 
-**Before selecting vendors:** Review [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started) to confirm you're choosing appropriate first use cases.
+**Before selecting vendors:** Review [Safe AI Adoption - Getting Started](./safe-ai-adoption-getting-started.md) to confirm you're choosing appropriate first use cases.
 
-**During evaluation:** See [AI Change Management](/guides/ai-change-management) – vendor support quality affects adoption success enormously.
+**During evaluation:** See [AI Change Management](./ai-change-management.md) – vendor support quality affects adoption success enormously.
 
-**After selecting a vendor:** See [AI Implementation Roadmap](/guides/ai-implementation-roadmap) for guidance on running pilots and scaling.
+**After selecting a vendor:** See [AI Implementation Roadmap](./ai-implementation-roadmap.md) for guidance on running pilots and scaling.
 
 ---
 
@@ -230,9 +230,9 @@ Vendor selection is not just about features and price. Support quality, transpar
 
 ## Further resources
 
-- [AI Vendor Evaluation Template](/templates/ai-vendor-evaluation)
-- [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started)
-- [AI Change Management](/guides/ai-change-management)
-- [AI Implementation Roadmap](/guides/ai-implementation-roadmap)
+- [AI Vendor Evaluation Template](../governance-templates/ai-vendor-evaluation-checklist.md)
+- [Safe AI Adoption - Getting Started](./safe-ai-adoption-getting-started.md)
+- [AI Change Management](./ai-change-management.md)
+- [AI Implementation Roadmap](./ai-implementation-roadmap.md)
 - [Australian Government Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)
 - [Office of the Australian Information Commissioner – AI and Privacy](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations/artificial-intelligence-and-privacy)
