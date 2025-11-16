@@ -116,7 +116,7 @@ Examples:
 
 Don't aim for perfection on day one. Most Australian organisations discover AI already running in their business—often in SaaS tools staff adopted without formal approval. Start by registering what you know about, then expand as you find more. You'll be surprised what turns up.
 
-> **SafeAI-Aus resource:** Use the [AI Project Register Template](../governance-templates/ai-project-register.md) as a ready-made AI system register with a simple risk rating guide.
+> **SafeAI-Aus resource:** Use the [AI Project Register Template](ai-project-register.md) as a ready-made AI system register with a simple risk rating guide.
 
 ### 1.2 AI safety note
 
@@ -134,7 +134,7 @@ This is the document you'd be comfortable sharing with:
 - Internal audit  
 - A regulator asking about a specific system  
 
-> **SafeAI-Aus resource:** Combine the [AI Project Register Template](../governance-templates/ai-project-register.md) with the [AI Risk Assessment Checklist](../governance-templates/ai-risk-assessment-checklist.md) to generate AI safety notes aligned to the Voluntary AI Safety Standard guardrails.
+> **SafeAI-Aus resource:** Combine the [AI Project Register Template](ai-project-register.md) with the [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md) to generate AI safety notes aligned to the Voluntary AI Safety Standard guardrails.
 
 ### 1.3 Vendor transparency expectations
 
@@ -148,7 +148,7 @@ Most organisations consume AI via vendors. Build a basic **AI transparency check
 
 You don't need to become a model evaluation lab. You *do* need to ask clear questions and record the answers.
 
-> **SafeAI-Aus resource:** Plug the [AI Vendor Evaluation Checklist](../governance-templates/ai-vendor-evaluation-checklist.md) into your procurement workflow to standardise transparency questions.
+> **SafeAI-Aus resource:** Plug the [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md) into your procurement workflow to standardise transparency questions.
 
 ---
 
@@ -206,7 +206,7 @@ The checklist below isn't exhaustive, but it covers the critical questions most 
 - How does the system align with internal policies and relevant laws?  
 - How does it map to key guardrails in the Voluntary AI Safety Standard?  
 
-> **SafeAI-Aus resource:** Pair the [AI Risk Assessment Checklist](../governance-templates/ai-risk-assessment-checklist.md) with your internal audit program to create consistent AI assurance workpapers.
+> **SafeAI-Aus resource:** Pair the [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md) with your internal audit program to create consistent AI assurance workpapers.
 
 ---
 
@@ -236,7 +236,7 @@ Then:
 
 Connect this to existing whistleblower / speak-up channels so people feel safe reporting issues.
 
-> **SafeAI-Aus resource:** Use the [AI Incident Report Form](../governance-templates/ai-incident-report-form.md) to log incidents and near misses consistently.
+> **SafeAI-Aus resource:** Use the [AI Incident Report Form](ai-incident-report-form.md) to log incidents and near misses consistently.
 
 ### 3.2 Board and executive reporting
 
@@ -248,7 +248,7 @@ Boards don't need every detail. They do need a **clear, repeatable view** of AI 
 - **Incidents** – number and severity of AI-related incidents / near misses  
 - **Forward look** – upcoming projects and planned assurance work
 
-> **SafeAI-Aus resource:** The [AI Project Register Template](../governance-templates/ai-project-register.md) captures the inventory, risk levels, and change history you can summarise for executives.
+> **SafeAI-Aus resource:** The [AI Project Register Template](ai-project-register.md) captures the inventory, risk levels, and change history you can summarise for executives.
 
 ### 3.3 Learning and iteration
 
@@ -307,10 +307,10 @@ You can adapt these artefacts to your own context, policy stack and risk appetit
 
 This page is part of SafeAI-Aus's governance framework. Related resources:
 
-- [**AI Readiness Checklist**](../governance-templates/ai-readiness-checklist.md) – Are you ready for AI assurance?
-- [**AI Use Policy Template**](../governance-templates/ai-use-policy.md) – Clear rules for staff using AI
-- [**AI Incident Reporting Template**](../governance-templates/ai-incident-report-form.md) – How to capture and learn from AI issues
-- [**Risk Assessment Guide**](../governance-templates/ai-risk-assessment-checklist.md) – Practical risk rating for AI systems
+- [**AI Readiness Checklist**](ai-readiness-checklist.md) – Are you ready for AI assurance?
+- [**AI Use Policy Template**](ai-use-policy.md) – Clear rules for staff using AI
+- [**AI Incident Reporting Template**](ai-incident-report-form.md) – How to capture and learn from AI issues
+- [**Risk Assessment Guide**](ai-risk-assessment-checklist.md) – Practical risk rating for AI systems
 - [**Legislation & Compliance Overview**](../safety-standards/ai-australian-legislation.md) – Understanding Australian AI regulation
 
 ### External resources
