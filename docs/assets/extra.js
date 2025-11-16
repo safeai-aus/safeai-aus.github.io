@@ -83,66 +83,7 @@
         document.head.appendChild(script);
     }
 
-    function buildOfferCatalog() {
-        return {
-            '@type': 'OfferCatalog',
-            name: 'AI Safety Resources and Services',
-            itemListElement: [
-                {
-                    '@type': 'Offer',
-                    price: '0',
-                    priceCurrency: 'AUD',
-                    itemOffered: {
-                        '@type': 'CreativeWork',
-                        name: 'AI Governance Templates',
-                        description: 'Comprehensive templates for AI policies, risk assessments, and compliance.'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    price: '0',
-                    priceCurrency: 'AUD',
-                    itemOffered: {
-                        '@type': 'CreativeWork',
-                        name: 'AI Safety Standards Guidance',
-                        description: 'Guidance on Australian AI safety standards and voluntary guardrails.'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    price: '0',
-                    priceCurrency: 'AUD',
-                    itemOffered: {
-                        '@type': 'CreativeWork',
-                        name: 'Business Resources',
-                        description: 'Tools, frameworks, and funding information for responsible AI adoption.'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    price: '0',
-                    priceCurrency: 'AUD',
-                    itemOffered: {
-                        '@type': 'Service',
-                        name: 'AI Risk Assessment Support',
-                        description: 'Risk assessment checklists and frameworks for AI implementation.'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    price: '0',
-                    priceCurrency: 'AUD',
-                    itemOffered: {
-                        '@type': 'Service',
-                        name: 'AI Vendor Evaluation Guidance',
-                        description: 'Vendor selection and evaluation criteria for AI solutions.'
-                    }
-                }
-            ]
-        };
-    }
-
-    function addOrganizationSchemas() {
+    function addOrganizationSchema() {
         const path = window.location.pathname.replace(/index\.html$/, '');
         const isHome = path === '/' || path === '';
         if (!isHome) {
@@ -152,81 +93,43 @@
         const siteOrigin = (getSiteUrl() || 'https://safeaiaus.org').replace(/\/$/, '');
         const siteUrl = `${siteOrigin}/`;
         const logoUrl = `${siteOrigin}/assets/safeaiaus-logo-600px.png`;
-        const sameAs = [
-            'https://github.com/safeai-aus/safeai-aus.github.io',
-            'https://twitter.com/safeai_aus'
-        ];
-
-        const offerCatalog = buildOfferCatalog();
 
         const organization = {
             '@context': 'https://schema.org',
             '@type': 'Organization',
             name: 'SafeAI-Aus',
-            url: siteUrl,
-            logo: logoUrl,
-            description: 'Australian AI Safety Knowledge Hub — practical tools, open standards, and trusted guidance for responsible AI adoption.',
-            sameAs,
-            foundingDate: '2025',
-            areaServed: 'Australia',
-            serviceType: 'AI Safety Resources',
-            knowsAbout: [
-                'Artificial Intelligence Safety',
-                'AI Governance',
-                'AI Risk Management',
-                'Australian AI Standards',
-                'AI Compliance',
-                'AI Ethics'
-            ],
-            keywords: 'AI safety, Australian AI standards, AI governance, AI risk assessment, AI compliance, AI safety templates, Australian business AI, AI safety Australia, AI governance templates, AI risk management',
-            slogan: 'Safe AI, Stronger Australia',
-            contactPoint: {
-                '@type': 'ContactPoint',
-                contactType: 'customer service',
-                availableLanguage: 'English',
-                areaServed: 'AU'
-            },
-            hasOfferCatalog: offerCatalog
-        };
-
-        const localBusiness = {
-            '@context': 'https://schema.org',
-            '@type': 'LocalBusiness',
-            name: 'SafeAI-Aus',
             alternateName: 'Safe AI Australia',
             url: siteUrl,
             logo: logoUrl,
-            image: logoUrl,
-            description: 'Australian AI Safety Knowledge Hub providing practical tools, open standards, and trusted guidance for responsible AI adoption.',
-            address: {
-                '@type': 'PostalAddress',
-                addressCountry: 'AU'
-            },
-            areaServed: [
-                { '@type': 'Country', name: 'Australia' },
-                { '@type': 'State', name: 'New South Wales' },
-                { '@type': 'State', name: 'Victoria' },
-                { '@type': 'State', name: 'Queensland' },
-                { '@type': 'State', name: 'Western Australia' },
-                { '@type': 'State', name: 'South Australia' },
-                { '@type': 'State', name: 'Tasmania' },
-                { '@type': 'State', name: 'Northern Territory' },
-                { '@type': 'State', name: 'Australian Capital Territory' }
+            description: 'Australian AI Safety Knowledge Hub — practical tools, open standards, and trusted guidance for responsible AI adoption.',
+            sameAs: [
+                'https://github.com/safeai-aus/safeai-aus.github.io',
+                'https://twitter.com/safeai_aus'
             ],
-            geo: {
-                '@type': 'GeoCoordinates',
-                latitude: '-25.2744',
-                longitude: '133.7751'
-            },
-            serviceArea: {
+            foundingDate: '2025',
+            areaServed: {
                 '@type': 'Country',
                 name: 'Australia'
             },
-            hasOfferCatalog: offerCatalog
+            contactPoint: [
+                {
+                    '@type': 'ContactPoint',
+                    contactType: 'customer support',
+                    email: 'contact@safeai-aus.org',
+                    availableLanguage: 'English',
+                    areaServed: 'AU'
+                }
+            ],
+            keywords: [
+                'AI safety',
+                'AI governance',
+                'AI risk management',
+                'Australian AI standards',
+                'Responsible AI'
+            ]
         };
 
         addJsonLd('structured-data-organization', organization);
-        addJsonLd('structured-data-local-business', localBusiness);
     }
 
     function addAISchemaData() {
@@ -302,103 +205,9 @@
         addJsonLd('structured-data-ai-page', aiSchema);
     }
 
-    function addFAQSchema() {
-        const faqElements = Array.from(document.querySelectorAll('.md-content h3, .md-content h4'));
-        const faqItems = [];
-
-        faqElements.forEach((element) => {
-            const question = element.textContent?.trim();
-            if (!question) {
-                return;
-            }
-
-            let answer = '';
-            let next = element.nextElementSibling;
-            while (next && answer === '') {
-                if (next.matches('p, ul, ol')) {
-                    answer = next.textContent.trim();
-                }
-                next = next.nextElementSibling;
-            }
-
-            if (answer) {
-                faqItems.push({
-                    '@type': 'Question',
-                    name: question,
-                    acceptedAnswer: {
-                        '@type': 'Answer',
-                        text: answer
-                    }
-                });
-            }
-        });
-
-        if (faqItems.length === 0) {
-            return;
-        }
-
-        const schema = {
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: faqItems.slice(0, 5)
-        };
-
-        addJsonLd('structured-data-faq', schema);
-    }
-
-    function addHowToSchema() {
-        const path = window.location.pathname;
-        const isTemplate = /governance-templates\//.test(path) || /checklist/.test(path);
-        if (!isTemplate) {
-            return;
-        }
-
-        const pageTitle = document.querySelector('h1')?.textContent?.trim();
-        const pageDescription = document.querySelector('meta[name="description"]')?.content?.trim();
-        if (!pageTitle || !pageDescription) {
-            return;
-        }
-
-        const howToSchema = {
-            '@context': 'https://schema.org',
-            '@type': 'HowTo',
-            name: pageTitle,
-            description: pageDescription,
-            about: {
-                '@type': 'Thing',
-                name: 'AI Safety Implementation'
-            },
-            audience: {
-                '@type': 'Audience',
-                audienceType: 'Australian Businesses'
-            },
-            step: [
-                {
-                    '@type': 'HowToStep',
-                    name: 'Review Template',
-                    text: 'Review the provided template structure and requirements.'
-                },
-                {
-                    '@type': 'HowToStep',
-                    name: 'Customise Content',
-                    text: 'Adapt the template to your organisation’s specific needs.'
-                },
-                {
-                    '@type': 'HowToStep',
-                    name: 'Implement',
-                    text: 'Apply the template within your AI governance framework.'
-                }
-            ]
-        };
-
-        addJsonLd('structured-data-howto', howToSchema);
-    }
-
     function initialiseStructuredData() {
-        addOrganizationSchemas();
+        addOrganizationSchema();
         addAISchemaData();
-        addFAQSchema();
-        addHowToSchema();
     }
 
     if (document.readyState === 'loading') {

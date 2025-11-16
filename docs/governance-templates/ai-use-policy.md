@@ -14,6 +14,23 @@ twitter_card: "summary_large_image"
 twitter_title: "AI Use Policy Template"
 twitter_description: "Comprehensive AI Use Policy template for Australian businesses"
 canonical_url: "https://safeaiaus.org/governance-templates/ai-use-policy/"
+howto:
+  name: "Implement the AI Use Policy Template"
+  description: "Practical steps for adapting and rolling out the SafeAI-Aus AI Use Policy Template inside your organisation."
+  steps:
+    - name: "Review the template"
+      text: "Read the policy in full, noting sections that require custom context like review cycles and accountable roles."
+    - name: "Customise for your organisation"
+      text: "Insert organisational names, governance owners, and control requirements based on your existing risk posture."
+    - name: "Approve and publish"
+      text: "Seek executive/legal endorsement, communicate the policy to staff, and store it in your governance repository."
+faq:
+  - question: "Who should own the AI Use Policy?"
+    answer: "Assign ownership to an executive sponsor or AI governance lead who can coordinate updates and compliance reviews."
+  - question: "How often should the policy be reviewed?"
+    answer: "Schedule a review at least annually or whenever Australian AI regulations, ISO/IEC standards, or internal risk thresholds change."
+  - question: "Can we share this template externally?"
+    answer: "Yes. The template is published under CC BY 4.0, so you can adapt and redistribute it with attribution to SafeAI-Aus."
 ---
 
 # AI Use Policy Template

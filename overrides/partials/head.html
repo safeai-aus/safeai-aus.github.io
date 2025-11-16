@@ -139,3 +139,51 @@
     </script>
   {% endif %}
 {% endif %}
+
+{# -- FAQ structured data (curated per page) ------------------------------ #}
+{% if meta.faq %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in meta.faq %}
+      {
+        "@type": "Question",
+        "name": {{ item.question | tojson }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ item.answer | tojson }}
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+{% endif %}
+
+{# -- HowTo structured data (opt-in per page) ----------------------------- #}
+{% if meta.howto %}
+  {% set howto_name = meta.howto.name or title %}
+  {% set howto_description = meta.howto.description or description %}
+  {% set howto_steps = meta.howto.steps or [] %}
+  {% if howto_steps and howto_name and howto_description %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": {{ howto_name | tojson }},
+      "description": {{ howto_description | tojson }},
+      "step": [
+        {% for step in howto_steps %}
+        {
+          "@type": "HowToStep",
+          "name": {{ step.name | default(step.title) | default("Step " ~ loop.index) | tojson }},
+          "text": {{ step.text | default(step.description) | tojson }}
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    </script>
+  {% endif %}
+{% endif %}
