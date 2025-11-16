@@ -1,3 +1,9 @@
+---
+title: "Newsletter Archive & RSS Subscriptions"
+description: "Browse the SafeAI-Aus newsletter changelog and RSS feeds. This archive is available for transparency but is set to noindex."
+robots: "noindex, follow"
+---
+
 # Subscribe to Our Newsletter
 
 Stay informed with news, resources, and practical tools on safe and responsible AI adoption in Australia.
