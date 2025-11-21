@@ -86,9 +86,12 @@ The risk register process is not just a compliance exercise — it is a practica
 ## Next Steps
 **Ready to assess specific AI risks?** → [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)
 
+**Looking for industry-specific risks?** → [AI Industry-Specific Risks](ai-risks-by-industry.md)
+
 ### Related Governance Templates
 - [AI Project Register](ai-project-register.md) — keep oversight of the AI initiatives that feed into this risk register.
 - [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md) — evaluate third-party tools before adding them to the register.
+- [AI Industry-Specific Risks](ai-risks-by-industry.md) — explore context-specific risks by industry to help populate this register.
 
 ---
 

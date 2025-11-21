@@ -59,6 +59,9 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 - [AI Risk Register](ai-risk-register.md)  
   *Comprehensive register for identifying, assessing, and managing AI-related risks. Supports Guardrails 3 (Risk Assessment) and integrates with broader GRC processes.*  
 
+- [AI Industry-Specific Risks](ai-risks-by-industry.md)  
+  *Provides context-specific AI risk examples for ten major Australian industries to help organizations identify relevant risks for their risk register.*  
+
 ---
 
 ## Coming Soon
@@ -79,7 +82,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 |-----------|------------|-----------------------|
 | 1. Transparency | Clear information on AI use | AI Use Policy |
 | 2. Accountability | Assigning responsibility | AI Use Policy, Human Oversight Plan *(coming soon)* |
-| 3. Risk Assessment | Evaluating risks before use | AI Risk Assessment Form, AI Risk Register |
+| 3. Risk Assessment | Evaluating risks before use | AI Risk Assessment Form, AI Risk Register, AI Industry-Specific Risks |
 | 4. Data Governance | Data quality, bias, provenance | Data Management & Quality Checklist *(coming soon)* |
 | 5. Incident Response | Detecting and reporting issues | AI Incident Report Form |
 | 6. Security | Cyber and system safeguards | AI Risk Assessment Form |
@@ -107,7 +110,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
       "name": "What AI governance templates are available from SafeAI Aus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We provide practical, Australia-focused templates including an AI Use Policy, AI Risk Assessment, AI Risk Register, AI Incident Report, AI Vendor Evaluation, AI Project Register, and related checklists to help Australian businesses start safely and quickly."
+        "text": "We provide practical, Australia-focused templates including an AI Use Policy, AI Risk Assessment, AI Risk Register, AI Industry-Specific Risks, AI Incident Report, AI Vendor Evaluation, AI Project Register, and related checklists to help Australian businesses start safely and quickly."
       }
     },
     {
