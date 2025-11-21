@@ -106,7 +106,7 @@ This choice reflects our commitment to:
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "email": "contact@safeai-aus.org",
+    "email": "contact@safeaiaus.org",
     "contactType": "General Inquiry"
   },
   "hasOfferCatalog": {
