@@ -42,12 +42,12 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 - Program **concluded**.  
 - ➡️ [Program details](https://business.gov.au/grants-and-programs/catalysing-the-artificial-intelligence-opportunity-in-our-regions-round-1?)
 
-### R&D Tax Incentive  
-- Ongoing tax relief for businesses conducting R&D, including AI:  
-  - **43.5% refundable offset** for SMEs (<$20m turnover).  
-  - **38.5% non‑refundable offset** for larger firms.  
-- Program is **active and ongoing**.  
-- ➡️ [More information](https://en.wikipedia.org/wiki/Research_and_Development_Tax_Incentive)
+### R&D Tax Incentive
+- Provides **tax offsets to encourage companies to conduct eligible R&D activities that might not otherwise happen**.
+  - **43.5% refundable offset** for R&D entities with aggregated turnover under $20m (not controlled by exempt entities).
+  - **Non‑refundable R&D intensity‑based offset** for larger companies (company tax rate plus a premium tied to R&D intensity).
+- Program is **active and ongoing**; the business.gov.au page does not state a last updated date.
+- ➡️ [Program overview](https://business.gov.au/grants-and-programs/research-and-development-tax-incentive)
 
 ### Australian Research Council (ARC) Programs  
 - Competitive grants supporting research between universities and businesses.  
