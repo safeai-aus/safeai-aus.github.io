@@ -115,7 +115,7 @@
                 {
                     '@type': 'ContactPoint',
                     contactType: 'customer support',
-                    email: 'contact@safeai-aus.org',
+                    email: 'contact@safeaiaus.org',
                     availableLanguage: 'English',
                     areaServed: 'AU'
                 }
