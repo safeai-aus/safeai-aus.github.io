@@ -64,7 +64,6 @@ extra_css:
 extra_javascript:
   - assets/performance-safe.js
   - assets/extra.js
-  - assets/cusdis.js
 
 markdown_extensions:
   - admonition
