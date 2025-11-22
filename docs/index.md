@@ -68,8 +68,8 @@ Subscribe today for practical tools to make AI safe — and work for your growth
 !!! note "Quick Navigation"
     Use the navigation menu on the left to jump directly to any section, or browse all content below.
 
-!!! info "Feedback & Comments"
-    We've integrated Cusdis comments on all pages to gather your feedback and suggestions. Look for the comments section at the bottom of each page to share your thoughts on our content, templates, and resources.
+!!! info "Feedback"
+    Share your suggestions via the [Contact page](contact.md) or by replying to our newsletter — we read every message.
 
 ## License
 This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
