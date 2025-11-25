@@ -59,8 +59,8 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 - [AI Risk Register](ai-risk-register.md)  
   *Comprehensive register for identifying, assessing, and managing AI-related risks. Supports Guardrails 3 (Risk Assessment) and integrates with broader GRC processes.*  
 
-- [AI Industry-Specific Risks](ai-risks-by-industry.md)  
-  *Provides context-specific AI risk examples for ten major Australian industries to help organizations identify relevant risks for their risk register.*  
+- [AI Industry-Specific Risks](ai-risks-by-industry.md)
+  *Provides context-specific AI risk examples for ten major Australian industries to help organisations identify relevant risks for their risk register.*
 
 ---
 
