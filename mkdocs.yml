@@ -54,6 +54,8 @@ extra:
       link: https://github.com/safeai-aus/safeai-aus.github.io
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/safeai_aus
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/safeai-aus
   generator: false
 
 # Add custom CSS for SEO and UX improvements
