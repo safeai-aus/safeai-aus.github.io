@@ -118,10 +118,10 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ### Global & Open Access Courses
 
-#### 8. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu)
+#### 8. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu/search/?d=Course&q=artificial%20intelligence%20machine%20learning)
 *MIT*
 
-- **Description:** Deep-dive curriculum including lectures, notes, and problem sets on foundational AI and ML techniques.  
+- **Description:** Search results listing MIT OCW courses tagged with artificial intelligence and machine learning, including lectures, notes, and problem sets, with filters for course level and department.
 - **Format:** Full university course materials.  
 - **License:** CC BY-NC-SA.  
 - **Cost:** **Free**.  
