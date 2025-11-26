@@ -134,35 +134,32 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 - **Description:** Curated assignments and tutorials promoting critical thinking about AI's ethics, limitations, and societal impact.  
 - **Format:** Adaptable classroom exercises, prompts, and tutorials.  
-- **License:** CC BY-NC-SA 4.0.  
-- **Cost:** **Free**.  
-- **Difficulty:** Beginner–Intermediate  
-- **Integration:** Remix into internal training on AI literacy and responsible use; great for leadership/HR sessions.  
-  :contentReference[oaicite:1]{index=1}  
+- **License:** CC BY-NC-SA 4.0.
+- **Cost:** **Free**.
+- **Difficulty:** Beginner–Intermediate
+- **Integration:** Remix into internal training on AI literacy and responsible use; great for leadership/HR sessions.
 
 ---
 
-#### 10. [MIT "How to AI (Almost) Anything"](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)  
+#### 10. [MIT "How to AI (Almost) Anything"](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)
 
 - **Description:** Explores multimodal AI applications across vision, sound, sensors, and creativity—building intuition for AI's broader capabilities.  
 - **Format:** Lectures, readings, and research projects.  
-- **License:** CC BY.  
-- **Cost:** **Free**.  
-- **Difficulty:** Beginner–Intermediate  
-- **Integration:** Use for ideation workshops or innovation sprints; inspires cross-functional understanding.  
-  :contentReference[oaicite:2]{index=2}  
+- **License:** CC BY.
+- **Cost:** **Free**.
+- **Difficulty:** Beginner–Intermediate
+- **Integration:** Use for ideation workshops or innovation sprints; inspires cross-functional understanding.
 
 ---
 
-#### 11. [Dive into Deep Learning](https://d2l.ai/)  
+#### 11. [Dive into Deep Learning](https://d2l.ai/)
 
 - **Description:** Hands-on, open-source textbook with runnable code, blending theory, math, and implementation in Jupyter notebooks.  
 - **Format:** Interactive book using PyTorch, TensorFlow, JAX, with live examples.  
-- **License:** Open source (Apache 2.0).  
-- **Cost:** **Free**.  
-- **Difficulty:** Advanced  
-- **Integration:** Ideal for developers or data teams; use as core resource for self-learning cohorts.  
-  :contentReference[oaicite:3]{index=3}  
+- **License:** Open source (Apache 2.0).
+- **Cost:** **Free**.
+- **Difficulty:** Advanced
+- **Integration:** Ideal for developers or data teams; use as core resource for self-learning cohorts.
 
 ---
 
