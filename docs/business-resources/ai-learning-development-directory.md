@@ -8,12 +8,12 @@ robots: "index, follow"
 og_title: "AI & Emerging Tech Learning Directory for SMEs"
 og_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
 og_type: "article"
-og_url: "https://safeai-aus.github.io/business-resources/ai-learning-development-directory/"
-og_image: "assets/safeaiaus-logo-600px.png"
+og_url: "https://safeaiaus.org/business-resources/ai-learning-development-directory/"
+og_image: "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI & Emerging Tech Learning Directory for SMEs"
 twitter_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
-canonical_url: "https://safeai-aus.github.io/business-resources/ai-learning-development-directory/"
+canonical_url: "https://safeaiaus.org/business-resources/ai-learning-development-directory/"
 ---
 
 # AI & Emerging Tech Learning Directory for SMEs
@@ -220,8 +220,8 @@ Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
 - **Exclusions** — This licence does not apply to the SafeAI-Aus name, logo, or any third-party material referenced in this document.  
 
-**Attribution statement for reuse:**  
-“This resource was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeai-aus.github.io/).”  
+**Attribution statement for reuse:**
+“This resource was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus – AI & Emerging Tech Learning Directory for SMEs](https://safeaiaus.org/business-resources/ai-learning-development-directory/).”
 
 Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
