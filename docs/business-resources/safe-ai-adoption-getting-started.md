@@ -87,6 +87,7 @@ These are usually **reversible**, low-stakes, and create quick learning.
 - Suggesting tags, titles or brief descriptions for human approval  
 
 **Typical costs and timeframes:**
+
 - **Pilot phase:** 4-8 weeks, $500-5,000 depending on tool complexity
 - **Scale decision point:** 3-6 months after pilot start
 - **Expected ROI timeframe:** 6-12 months for productivity benefits
@@ -167,6 +168,7 @@ AI can help security and fraud teams by:
 
 ### Operational risk and safety
 
+
 AI can reveal weak signals across:
 
 - Incident and near-miss reports  
@@ -230,6 +232,7 @@ For each new AI use, you should be able to answer:
 These questions link directly to the upcoming AI assurance guidance on transparency, auditing, and reporting.
 
 **Connection to Voluntary AI Safety Standard:** The Australian Government's Voluntary AI Safety Standard emphasises transparency, fairness, and accountability. Your guardrails should demonstrate how you're meeting these principles:
+
 - **Transparency:** Clear documentation in your system register
 - **Fairness:** Risk assessment processes that consider bias and discrimination
 - **Accountability:** Named owners and incident reporting procedures

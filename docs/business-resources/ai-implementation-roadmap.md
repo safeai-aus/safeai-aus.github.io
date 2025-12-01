@@ -60,51 +60,50 @@ Each stage has clear objectives, typical timeframes, and "what done looks like" 
 
 ### What to do
 
-**Identify 2-3 low-risk, high-learning use cases:**
-- Review [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started) for good first uses
-- Choose cases that are reversible and low-stakes
-- Pick at least one that builds resilience, not just cuts cost
+- **Identify 2-3 low-risk, high-learning use cases:**
+  - Review [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md) for good first uses
+  - Choose cases that are reversible and low-stakes
+  - Pick at least one that builds resilience, not just cuts cost
 
-**Set up your AI System Register:**
-- Use the [AI System Register Template](/templates/ai-system-register) to track pilots
-- Even a simple spreadsheet is fine at this stage
-- Key fields: use case, owner, risk rating, status, decisions made
+- **Set up your AI System Register:**
+  - Use the [AI Project Register Template](../governance-templates/ai-project-register.md) to track pilots
+  - Even a simple spreadsheet is fine at this stage
+  - Key fields: use case, owner, risk rating, status, decisions made
 
-**Run small pilots with clear parameters:**
+- **Run small pilots with clear parameters:**
+  - **Pilot group size:** 5-15 people
+    - **Why this size:** Large enough to generate meaningful data, small enough to support intensively
+    - **Too small (1-3 people):** Doesn't reveal process or workflow issues
+    - **Too large (30+ people):** Support burden becomes overwhelming, problems scale quickly
 
-**Pilot group size:** 5-15 people
-- **Why this size:** Large enough to generate meaningful data, small enough to support intensively
-- **Too small (1-3 people):** Doesn't reveal process or workflow issues
-- **Too large (30+ people):** Support burden becomes overwhelming, problems scale quickly
+  - **Pilot duration:** 4-8 weeks for initial learning
+    - **Week 1-2:** Setup, training, initial use with high support
+    - **Week 3-5:** Regular use, feedback collection, issue resolution
+    - **Week 6-8:** Evaluation, decision preparation
+    - **Longer pilots (8-12 weeks):** Appropriate for defensive/security use cases or complex workflows
 
-**Pilot duration:** 4-8 weeks for initial learning
-- **Week 1-2:** Setup, training, initial use with high support
-- **Week 3-5:** Regular use, feedback collection, issue resolution
-- **Week 6-8:** Evaluation, decision preparation
-- **Longer pilots (8-12 weeks):** Appropriate for defensive/security use cases or complex workflows
+  - **Success criteria examples:**
+    - "Reduces document drafting time by 20% while maintaining quality"
+    - "Maintains 90% accuracy with human review required for all outputs"
+    - "Staff report tool is helpful, not frustrating, in week 4 survey"
+    - "Zero security incidents during pilot period"
+    - "80% of pilot participants want to continue using the tool"
 
-**Success criteria examples:**
-- "Reduces document drafting time by 20% while maintaining quality"
-- "Maintains 90% accuracy with human review required for all outputs"
-- "Staff report tool is helpful, not frustrating, in week 4 survey"
-- "Zero security incidents during pilot period"
-- "80% of pilot participants want to continue using the tool"
+  - **Exit conditions (when to stop):**
+    - "If error rate exceeds 15% after 4 weeks of tuning"
+    - "If staff satisfaction score below 3/5 after training period"
+    - "If integration issues remain unresolved after 6 weeks"
+    - "If cost per task exceeds current manual process cost"
 
-**Exit conditions (when to stop):**
-- "If error rate exceeds 15% after 4 weeks of tuning"
-- "If staff satisfaction score below 3/5 after training period"
-- "If integration issues remain unresolved after 6 weeks"
-- "If cost per task exceeds current manual process cost"
+- **Complete AI Readiness Checklists:**
+  - Use the [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md) for each pilot
+  - Document risk assessment, privacy considerations, approval
+  - Lightweight but systematic
 
-**Complete AI Readiness Checklists:**
-- Use the [AI Readiness Checklist](/templates/ai-readiness-checklist) for each pilot
-- Document risk assessment, privacy considerations, approval
-- Lightweight but systematic
-
-**Capture lessons learned:**
-- Weekly pilot review meetings (30 minutes)
-- End-of-pilot retrospective (document what worked, what didn't, what surprised you)
-- Feed insights back into system register and planning
+- **Capture lessons learned:**
+  - Weekly pilot review meetings (30 minutes)
+  - End-of-pilot retrospective (document what worked, what didn't, what surprised you)
+  - Feed insights back into system register and planning
 
 ### What "done" looks like
 
@@ -145,41 +144,41 @@ At the end of Stage 1, you should have:
 
 ### What to do
 
-**Introduce approval and risk checks for new AI projects:**
-- Expand the [AI Readiness Checklist](/templates/ai-readiness-checklist) into standard project approval process
-- New AI initiatives can't start without basic documentation and risk assessment
-- Keep it lightweight – appropriate to risk level, not bureaucratic
+- **Introduce approval and risk checks for new AI projects:**
+  - Expand the [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md) into standard project approval process
+  - New AI initiatives can't start without basic documentation and risk assessment
+  - Keep it lightweight – appropriate to risk level, not bureaucratic
 
-**Make the system register part of business-as-usual:**
-- Assign an owner for the register (someone senior enough to have authority)
-- Quarterly review of all active AI systems (more frequently for high-risk ones)
-- Clear process for adding new systems and updating status
+- **Make the system register part of business-as-usual:**
+  - Assign an owner for the register (someone senior enough to have authority)
+  - Quarterly review of all active AI systems (more frequently for high-risk ones)
+  - Clear process for adding new systems and updating status
 
-**Establish incident reporting:**
-- Deploy [AI Incident Report Form](/templates/ai-incident-report-form)
-- Make it clear this is learning-focused, not blame-focused
-- Review incidents quarterly to identify patterns and improvement opportunities
-- Feed lessons back into training, documentation, and tool configuration
+- **Establish incident reporting:**
+  - Deploy [AI Incident Report Form](../governance-templates/ai-incident-report-form.md)
+  - Make it clear this is learning-focused, not blame-focused
+  - Review incidents quarterly to identify patterns and improvement opportunities
+  - Feed lessons back into training, documentation, and tool configuration
 
-**Publish AI use guidelines for staff:**
-- Dos and don'ts for common use cases
-- When to use AI vs when not to
-- How to review AI outputs (what to look for)
-- Where to report problems or concerns
-- Keep it to 1-2 pages, practical not theoretical
+- **Publish AI use guidelines for staff:**
+  - Dos and don'ts for common use cases
+  - When to use AI vs when not to
+  - How to review AI outputs (what to look for)
+  - Where to report problems or concerns
+  - Keep it to 1-2 pages, practical not theoretical
 
-**Example guidelines snippet:**
-- ✓ DO use AI for first drafts of routine documents
-- ✓ DO review all AI outputs before using them
-- ✓ DO report errors or concerning outputs
-- ✗ DON'T use AI for decisions about people without human review
-- ✗ DON'T copy-paste AI outputs without checking for accuracy
-- ✗ DON'T put confidential or sensitive data into unapproved AI tools
+- **Example guidelines snippet:**
+  - ✓ DO use AI for first drafts of routine documents
+  - ✓ DO review all AI outputs before using them
+  - ✓ DO report errors or concerning outputs
+  - ✗ DON'T use AI for decisions about people without human review
+  - ✗ DON'T copy-paste AI outputs without checking for accuracy
+  - ✗ DON'T put confidential or sensitive data into unapproved AI tools
 
-**Set up review cadences:**
-- Monthly: Review active pilot metrics and issues
-- Quarterly: Review system register, incident reports, update risk assessments
-- Annually: Review AI use guidelines, governance framework, vendor relationships
+- **Set up review cadences:**
+  - Monthly: Review active pilot metrics and issues
+  - Quarterly: Review system register, incident reports, update risk assessments
+  - Annually: Review AI use guidelines, governance framework, vendor relationships
 
 ### What "done" looks like
 
@@ -207,32 +206,30 @@ At the end of Stage 2, you should have:
 
 ### What to do
 
-**Expand successful pilots to broader teams:**
-- Don't scale everything – focus on what clearly worked
-- Plan for 2-3x more training and support time than pilots required
-- Identify team-level champions (not just organisation-level)
-- Expect slower adoption in scaling phase than pilot phase
+- **Expand successful pilots to broader teams:**
+  - Don't scale everything – focus on what clearly worked
+  - Plan for 2-3x more training and support time than pilots required
+  - Identify team-level champions (not just organisation-level)
+  - Expect slower adoption in scaling phase than pilot phase
 
-**Invest in training and enablement:**
-- Develop self-service resources (written guides, video tutorials, FAQs)
-- Regular training sessions for new users (monthly or as new teams onboard)
-- "Office hours" or drop-in support sessions
-- Update training based on common issues and questions
+- **Invest in training and enablement:**
+  - Develop self-service resources (written guides, video tutorials, FAQs)
+  - Regular training sessions for new users (monthly or as new teams onboard)
+  - "Office hours" or drop-in support sessions
+  - Update training based on common issues and questions
 
-**Prioritise defensive and resilience use cases:**
-- Now that you've learned from productivity use cases, consider defensive ones
-- Security operations support, fraud detection, risk and compliance assistance
-- See [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started) for resilience-focused uses
+- **Prioritise defensive and resilience use cases:**
+  - Now that you've learned from productivity use cases, consider defensive ones
+  - Security operations support, fraud detection, risk and compliance assistance
+  - See [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md) for resilience-focused uses
 
-**Track organisation-level metrics:**
-
-Monitor across four dimensions:
-- **Adoption:** How many staff are actively using tools? What percentage of eligible workflows?
-- **Value:** Time saved, quality improvements, cost savings
-- **Risk:** Incident rates and severity, staff confidence in outputs
-- **Support:** Request volumes, common issues, user satisfaction
-
-Track these monthly and look for trends rather than snapshots.
+- **Track organisation-level metrics:**
+  - Monitor across four dimensions:
+    - **Adoption:** How many staff are actively using tools? What percentage of eligible workflows?
+    - **Value:** Time saved, quality improvements, cost savings
+    - **Risk:** Incident rates and severity, staff confidence in outputs
+    - **Support:** Request volumes, common issues, user satisfaction
+  - Track these monthly and look for trends rather than snapshots.
 
 ### What "done" looks like
 
@@ -259,42 +256,41 @@ At the end of Stage 3, you should have:
 
 ### What to do
 
-**Schedule periodic assurance activities:**
+- **Schedule periodic assurance activities:**
+  - **Quarterly reviews for high-risk systems:**
+    - Review incident reports and near misses
+    - Check compliance with risk controls
+    - Verify system performance vs expectations
+    - Update risk assessment if context changes
 
-**Quarterly reviews for high-risk systems:**
-- Review incident reports and near misses
-- Check compliance with risk controls
-- Verify system performance vs expectations
-- Update risk assessment if context changes
+  - **Annual reviews for low-risk systems:**
+    - Confirm system still appropriate for use case
+    - Review vendor relationship and costs
+    - Check for regulatory or technology changes
+    - Update documentation
 
-**Annual reviews for low-risk systems:**
-- Confirm system still appropriate for use case
-- Review vendor relationship and costs
-- Check for regulatory or technology changes
-- Update documentation
+  - **Ad-hoc reviews when triggered:**
+    - Significant incidents or near misses
+    - Major system updates from vendor
+    - Regulatory changes
+    - Workflow or organisational changes
 
-**Ad-hoc reviews when triggered:**
-- Significant incidents or near misses
-- Major system updates from vendor
-- Regulatory changes
-- Workflow or organisational changes
+- **Refine guardrails based on experience:**
+  - What controls are working well? What's pure overhead?
+  - Where are gaps emerging?
+  - What have incidents taught you?
+  - Update guidelines, checklists, and processes accordingly
 
-**Refine guardrails based on experience:**
-- What controls are working well? What's pure overhead?
-- Where are gaps emerging?
-- What have incidents taught you?
-- Update guidelines, checklists, and processes accordingly
+- **Adjust roadmap as context evolves:**
+  - New regulations (track Australian AI legislation development)
+  - New technology capabilities (AI is evolving rapidly)
+  - Changed organisational priorities or risk appetite
+  - Lessons from your experience and others'
 
-**Adjust roadmap as context evolves:**
-- New regulations (track Australian AI legislation development)
-- New technology capabilities (AI is evolving rapidly)
-- Changed organisational priorities or risk appetite
-- Lessons from your experience and others'
-
-**Share lessons learned:**
-- Internally: cross-team learning from experiences
-- Externally: consider contributing to industry knowledge
-- Help others avoid your mistakes, learn from your successes
+- **Share lessons learned:**
+  - Internally: cross-team learning from experiences
+  - Externally: consider contributing to industry knowledge
+  - Help others avoid your mistakes, learn from your successes
 
 ### What "ongoing success" looks like
 
@@ -313,24 +309,24 @@ In the continuous improvement stage, you should have:
 
 ### If you haven't started pilots yet:
 
-1. Review [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started) and complete [AI Readiness Checklist](/templates/ai-readiness-checklist)
-2. Set up your [AI System Register](/templates/ai-system-register)
-3. Evaluate 2-3 vendors using [AI Vendor Selection Guide](/guides/ai-vendor-selection)
+1. Review [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md) and complete [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)
+2. Set up your [AI System Register](../governance-templates/ai-project-register.md)
+3. Evaluate 2-3 vendors using [AI Vendor Selection Guide](ai-vendor-selection-guide.md)
 4. Design pilot: 5-15 people, 4-8 weeks, clear success criteria and exit conditions
 
 ### If you're running pilots now:
 
 1. Confirm you have clear success criteria, exit conditions, and a decision timeline
 2. Collect feedback weekly and document lessons as you go
-3. Review change management against [AI Change Management](/guides/ai-change-management)
+3. Review change management against [AI Change Management](ai-change-management.md)
 4. Update your system register with pilot status and findings
 
 ### If you're ready to scale:
 
 1. Confirm pilot met success criteria with evidence (don't scale based on enthusiasm alone)
-2. Review guardrails from [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started)
+2. Review guardrails from [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
 3. Develop training materials and identify team-level champions
-4. Set up [incident reporting](/templates/ai-incident-report-form) and plan for 2-3x more support
+4. Set up [incident reporting](../governance-templates/ai-incident-report-form.md) and plan for 2-3x more support
 
 ---
 
@@ -364,10 +360,10 @@ Perfect is the enemy of good. The goal is deliberate progress with appropriate s
 
 ## Further resources
 
-- [Safe AI Adoption - Getting Started](/guides/safe-ai-adoption-getting-started)
-- [AI Change Management](/guides/ai-change-management)
-- [AI Vendor Selection Guide](/guides/ai-vendor-selection)
-- [AI System Register Template](/templates/ai-system-register)
-- [AI Readiness Checklist](/templates/ai-readiness-checklist)
-- [AI Incident Report Form](/templates/ai-incident-report-form)
-- [AI Assurance – Transparency, Auditing & Reporting](/guides/ai-assurance)
+- [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
+- [AI Change Management](ai-change-management.md)
+- [AI Vendor Selection Guide](ai-vendor-selection-guide.md)
+- [AI Project Register Template](../governance-templates/ai-project-register.md)
+- [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)
+- [AI Incident Report Form](../governance-templates/ai-incident-report-form.md)
+- [AI Assurance – Transparency, Auditing & Reporting](../governance-templates/ai-assurance-transparency-auditing-reporting.md)
