@@ -53,6 +53,7 @@ AI adoption fails for predictable reasons:
 The result: Low adoption rates, workarounds, and abandoned tools despite significant investment.
 
 **The data is clear:** Organisations that invest in change management see:
+
 - 7x higher likelihood of meeting AI project objectives
 - Faster time to value (months vs years)
 - Higher sustained adoption rates
@@ -119,17 +120,20 @@ This is where good change management separates successful pilots from abandoned 
 ### Communicate regularly
 
 **Weekly check-ins** with pilot participants, not just monthly surveys:
+
 - What's working well?
 - What's frustrating?
 - What questions have come up?
 - What would you change?
 
 **Share progress transparently:**
+
 - "This week, 8 of 12 participants used the tool at least 3 times. We're seeing 25% time savings on document drafting."
 - "We've identified three common errors the AI makes. Here's what we're doing about it."
 - "Several people asked about X – here's the answer."
 
 **Celebrate quick wins openly:**
+
 - Share specific examples where the tool saved time or improved quality
 - Highlight creative uses participants discovered
 - Show how feedback led to changes
@@ -137,12 +141,14 @@ This is where good change management separates successful pilots from abandoned 
 ### Make feedback easy and act on it
 
 **Create low-friction feedback mechanisms:**
+
 - Dedicated Slack channel or Teams chat for quick questions
 - Simple weekly feedback form (3-5 questions, takes 2 minutes)
 - Regular coffee chats (informal, 15-30 minutes)
 - Anonymous option for sensitive concerns
 
 **More importantly, act on feedback visibly:**
+
 - If people raise issues, show what changed as a result
 - If you can't address a concern, explain why and what alternatives you're considering
 - Close the loop: "Last week three people mentioned X – here's what we did about it"
@@ -154,16 +160,19 @@ Nothing kills engagement faster than collecting feedback that disappears into a 
 People learn differently. Provide multiple support options:
 
 **Written guides** for people who prefer self-directed learning:
+
 - Step-by-step instructions with screenshots
 - FAQ document that grows based on real questions
 - Tips and tricks document
 
 **Hands-on practice sessions** for people who learn by doing:
+
 - Weekly "office hours" where people can drop in with questions
 - Pair-up sessions where experienced users help newer ones
 - Real work sessions where a facilitator is present to help
 
 **Peer support and champions:**
+
 - Identify who picks up the tool quickly and ask them to help others
 - Create a "buddy system" pairing confident users with hesitant ones
 - Recognize and thank people who help their peers
@@ -217,12 +226,14 @@ Focus on strategic benefits, risk mitigation, and organisational learning
 **Tool is installed ≠ tool is being used effectively**
 
 Monitor:
+
 - **Usage patterns:** Who's using it? How often? For what tasks?
 - **Quality of outputs:** Are people reviewing AI outputs or blindly accepting them?
 - **Support requests:** What are common issues? Are the same people repeatedly asking for help?
 - **Sentiment:** How do people feel about the tool? (surveys, informal check-ins)
 
 **Be prepared to adjust:**
+
 - If adoption is low, dig into why (training gaps? tool doesn't fit workflow? concerns not addressed?)
 - If quality issues emerge, don't just add more training – examine if the tool is actually suitable
 - If certain teams thrive while others struggle, learn from the differences
@@ -236,6 +247,7 @@ Regional Australian businesses face specific challenges when adopting AI tools. 
 ### Infrastructure realities
 
 **Internet connectivity:**
+
 - Cloud-based AI tools may perform poorly in areas with limited bandwidth
 - Test tools with your actual regional infrastructure before committing
 - Consider hybrid solutions where some processing happens locally
@@ -247,11 +259,13 @@ A regional aged care provider tested an AI documentation tool with their slowest
 ### Remote team coordination
 
 **Challenges:**
+
 - Pilot groups might be geographically distributed
 - In-person training and support is difficult
 - Different teams may have different infrastructure quality
 
 **Approaches that work:**
+
 - Schedule video training sessions that work across time zones
 - Record training sessions for asynchronous access
 - Create strong written documentation since in-person support is harder
@@ -261,11 +275,13 @@ A regional aged care provider tested an AI documentation tool with their slowest
 ### Finding support
 
 **Local expertise may be limited:**
+
 - Regional areas may have fewer AI consultants or technical specialists
 - Remote support and online training may be primary options
 - Consider partnering with city-based providers who offer remote support
 
 **Peer learning can fill gaps:**
+
 - Connect with other regional businesses in your industry
 - Local business chambers or regional development organisations may facilitate connections
 - Online communities and forums can supplement local networks
@@ -273,6 +289,7 @@ A regional aged care provider tested an AI documentation tool with their slowest
 ### Regional advantages
 
 **Don't overlook benefits:**
+
 - Smaller, tighter teams may adopt new tools more cohesively
 - Stronger relationships with suppliers may mean more hands-on support
 - Less complex systems might make pilots simpler to coordinate
@@ -298,22 +315,26 @@ See [AI Implementation Roadmap](ai-implementation-roadmap.md) for practical guid
 ## Key takeaways
 
 **Before pilots:**
+
 - Get buy-in through conversation, not announcement
 - Address concerns proactively with honest, specific answers
 - Set clear expectations about timeline, commitment, and success criteria
 
 **During pilots:**
+
 - Communicate weekly, not monthly
 - Make feedback easy and act on it visibly
 - Support different learning styles
 
 **When scaling:**
+
 - Plan for 2-3x more support than pilots required
 - Tailor messages to different stakeholder groups
 - Track actual adoption, not just deployment
 - Be prepared to adjust based on real usage patterns
 
 **Regional context matters:**
+
 - Test tools with actual infrastructure before committing
 - Build strong documentation for remote support
 - Leverage peer networks when local expertise is limited

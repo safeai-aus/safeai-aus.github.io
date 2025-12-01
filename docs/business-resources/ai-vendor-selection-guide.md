@@ -55,6 +55,7 @@ Before you evaluate vendors, confirm that buying is the right approach.
 - **Proven in market:** Other organisations have tested and refined the approach
 
 **Typical cost comparison:**
+
 - **Buy:** $200-3,000/month subscription + setup fees ($500-5,000)
 - **Build:** $30,000-100,000+ development + ongoing maintenance costs
 
@@ -87,6 +88,7 @@ Be cautious if a vendor exhibits these warning signs:
 ### 2. Makes unrealistic promises
 
 **Red flags:**
+
 - "100% accuracy"
 - "Fully automated from day one"
 - "No human oversight needed"
@@ -98,6 +100,7 @@ Be cautious if a vendor exhibits these warning signs:
 ### 3. Dismisses your concerns
 
 **Red flags:**
+
 - Brushes off questions about bias with "our AI is unbiased"
 - Treats privacy concerns as paranoia
 - Dismisses error rates as "not a real problem"
@@ -114,6 +117,7 @@ Be cautious if a vendor exhibits these warning signs:
 ### 5. Unclear about data handling
 
 **Red flags:**
+
 - Vague about where data is stored
 - Can't clearly explain who can access your data
 - Unclear how your data is used (training their models? shared with others?)
@@ -124,6 +128,7 @@ Be cautious if a vendor exhibits these warning signs:
 ### 6. Heavy lock-in with no trial period
 
 **Red flags:**
+
 - Requires 12+ month contracts with no trial option
 - High switching costs or data export fees
 - Proprietary data formats that make leaving difficult
@@ -202,22 +207,26 @@ The template covers technical capability, Australian compliance, integration and
 ## Key takeaways
 
 **Build vs buy:**
+
 - Almost always buy for first AI uses
 - Building makes sense only in specific circumstances
 - Pre-built solutions are faster, cheaper, and lower risk
 
 **Red flags to watch for:**
+
 - Can't explain how AI works or makes unrealistic promises
 - No Australian customers or unclear data handling
 - Heavy lock-in or missing security certifications
 
 **Critical questions:**
+
 - Functionality, limitations, and error handling
 - Australian compliance and data sovereignty
 - Integration, support, and transparency
 - Total costs and contract terms
 
 **Use the template:**
+
 - Score vendors consistently
 - Document your evaluation
 - Share assessments across team
