@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "International AI Legal Landscape (2025) — What Australian Businesses Should Know"
 twitter_description: "Comprehensive overview of international AI regulations and legal frameworks for Australian businesses"
-canonical_url: "https://safeai-aus.github.io/safety-standards/international-ai-legal-overview/"
 ---
 
 # International AI Legal Landscape (2025) — What Australian Businesses Should Know

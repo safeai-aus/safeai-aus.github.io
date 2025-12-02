@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Vendor Evaluation Checklist Template"
 twitter_description: "Comprehensive AI vendor evaluation checklist for Australian businesses"
-canonical_url: "https://safeaiaus.org/governance-templates/ai-vendor-evaluation-checklist/"
 ---
 
 # AI Vendor Evaluation Checklist 
@@ -153,6 +152,23 @@ To ensure accountability and provide an audit trail:
 [ ] Evaluation timeline established (typically 30–90 days)  
 [ ] Rollback plan documented  
 [ ] Cost of pilot agreed (if applicable)  
+
+## How this template implements AI6 and the Voluntary AI Safety Standard
+
+### AI6 practices supported by this template
+
+- **Share essential information** – Section 1 ("Vendor Information") and Section 2 ("Product/Service Description") ensure essential information about external AI systems is captured.
+- **Measure and manage risks** – Section 5 ("Security Practices") and Section 11 ("Financial & Commercial Assessment") help measure specific vendor-related risks.
+- **Test and monitor** – Section 6 ("Model Development & Testing") asks for evidence of the vendor's own testing and validation processes.
+
+### VAISS guardrails supported by this template
+
+- **Guardrail 8 – Supply chain accountability** – This entire checklist is the primary mechanism for implementing supply chain accountability, ensuring vendors meet safety standards.
+- **Guardrail 3 – Data protection & security** – Sections 4 ("Data Governance") and 5 ("Security Practices") verify that vendors have appropriate data and security controls.
+- **Guardrail 6 – Testing & assurance** – Section 6 checks that the vendor has adequately tested their model for bias, robustness, and accuracy.
+- **Guardrail 1 – Accountability** – Section 9 ("Contractual Safeguards") ensures legal and operational accountability is defined in vendor contracts.
+
+---
 
 ## Next Steps
 **Ready to track your AI projects?** → [AI Project Register](ai-project-register.md)

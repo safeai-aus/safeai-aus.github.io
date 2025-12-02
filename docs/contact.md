@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Contact SafeAI-Aus"
 twitter_description: "How to connect with the SafeAI-Aus community and get involved in our open-source AI safety initiative"
-canonical_url: "https://safeaiaus.org/contact/"
 permalink: /contact/
 ---
 
