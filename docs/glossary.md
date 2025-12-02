@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Glossary (Australia)"
 twitter_description: "A practical glossary of key AI terms in the Australian context"
-canonical_url: "https://safeaiaus.org/glossary/"
 ---
 
 # AI Glossary (Australia)

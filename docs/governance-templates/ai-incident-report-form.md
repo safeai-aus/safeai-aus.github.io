@@ -1,19 +1,18 @@
 ---
 layout: page
 title: "AI Incident Report Form Template"
-description: "Standardized AI incident report form template for Australian businesses. Helps document, track, and respond to AI-related incidents while maintaining compliance with safety standards."
+description: "Standardised AI incident report form template for Australian businesses. Helps document, track, and respond to AI-related incidents while maintaining compliance with safety standards."
 keywords: "AI incident report form, AI incident template, AI safety incident, AI risk reporting, AI incident documentation, Australian AI safety, AI incident management"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Incident Report Form Template"
-og_description: "Standardized AI incident report form template for Australian businesses"
+og_description: "Standardised AI incident report form template for Australian businesses"
 og_type: "article"
 og_url: "https://safeaiaus.org/governance-templates/ai-incident-report-form/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Incident Report Form Template"
-twitter_description: "Standardized AI incident report form template for Australian businesses"
-canonical_url: "https://safeaiaus.org/governance-templates/ai-incident-report-form/"
+twitter_description: "Standardised AI incident report form template for Australian businesses"
 ---
 
 # AI Incident Report Form 
@@ -123,6 +122,23 @@ This form aligns with:
 - High: Notification to CIO/CTO and Risk Committee within 4 hours  
 - Medium: Notification to Department Head within 24 hours  
 - Low: Logged and reviewed in weekly operations meeting  
+
+---
+
+## How this template implements AI6 and the Voluntary AI Safety Standard
+
+### AI6 practices supported by this template
+
+- **Measure and manage risks** – This form provides a structured way to capture and manage risks when they materialise as incidents, ensuring they are documented and addressed.
+- **Test and monitor** – By logging "Time of Discovery" and "Incident Description", this template supports the monitoring practice by creating a feedback loop from real-world operation.
+- **Maintain human control** – The "Review & Approval" section (10) ensures that human oversight is applied to the resolution and closure of AI incidents.
+
+### VAISS guardrails supported by this template
+
+- **Guardrail 7 – Monitoring impacts** – This form is the primary tool for capturing adverse impacts (Section 5 "Impact Assessment") on individuals, the organisation, or the public.
+- **Guardrail 2 – Risk management** – The "Immediate Actions Taken" (7) and "Follow-up Actions" (9) sections support active risk mitigation and control improvement.
+- **Guardrail 5 – Human control** – The requirement for a "Reviewer/approver" (Section 10) ensures human accountability for incident resolution.
+- **Guardrail 9 – Record-keeping** – This form serves as the formal record for all AI-related incidents, supporting compliance and audit trails.
 
 ---
 

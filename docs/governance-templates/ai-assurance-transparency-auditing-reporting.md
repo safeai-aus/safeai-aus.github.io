@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Assurance – Transparency, Auditing & Reporting"
 twitter_description: "Simple patterns Australian teams can use to make AI systems transparent, auditable, and well reported."
-canonical_url: "https://safeaiaus.org/governance-templates/ai-assurance-transparency-auditing-reporting/"
 ---
 
 # AI Assurance – Transparency, Auditing & Reporting

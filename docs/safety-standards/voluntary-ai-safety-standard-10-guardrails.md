@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Voluntary AI Safety Standard (10 Guardrails)"
 twitter_description: "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails"
-canonical_url: "https://safeaiaus.org/safety-standards/voluntary-ai-safety-standard-10-guardrails/"
 ---
 
 # Voluntary AI Safety Standard (10 Guardrails)
@@ -24,10 +23,15 @@ The standard was developed by the Department of Industry, Science and Resources 
 
 The standard is **voluntary** and complements existing Australian law. It provides a practical framework for organisations to manage AI safely while future regulation is considered.  
 
-Importantly, the 10 guardrails are consistent with leading international standards and frameworks, including:  
+Importantly, the 10 guardrails are consistent with leading international standards and frameworks, including:
 
-- [**ISO/IEC 42001:2023** – AI Management System Standard](https://www.iso.org/standard/81230.html)  
-- [**NIST AI Risk Management Framework 1.0**](https://www.nist.gov/itl/ai-risk-management-framework)  
+- [**ISO/IEC 42001:2023** – AI Management System Standard](https://www.iso.org/standard/81230.html)
+- [**NIST AI Risk Management Framework 1.0**](https://www.nist.gov/itl/ai-risk-management-framework)
+
+> **Status update (October 2025):**
+> In October 2025 the National AI Centre released the **Guidance for AI Adoption**, which sets out 6 essential practices (AI6) for responsible AI governance and adoption. This guidance is described as the **first update of the Voluntary AI Safety Standard (VAISS)** and is now the primary reference for organisations using AI in Australia.
+>
+> The 10 guardrails on this page remain fully integrated into the new guidance and are best used as a **detailed control set** and historical reference, especially where contracts, risk registers or external frameworks still refer to the original VAISS guardrails.
 
 ## Why this matters
 Adopting the guardrails early helps organisations build **trust, resilience, and regulatory readiness**. By embedding these practices now, businesses can:  
@@ -50,10 +54,32 @@ Adopting the guardrails early helps organisations build **trust, resilience, and
 10. Support human autonomy  
 
 ## What the guardrails do
-- Encourage **transparency and accountability** for AI systems.  
-- Require **risk assessment, testing, and human oversight** before and after deployment.  
-- Promote **record-keeping** and **supplier due-diligence** across the AI supply chain.  
+- Encourage **transparency and accountability** for AI systems.
+- Require **risk assessment, testing, and human oversight** before and after deployment.
+- Promote **record-keeping** and **supplier due-diligence** across the AI supply chain.
 - Emphasise **stakeholder engagement** and ongoing monitoring as systems evolve.
+
+## How this maps to the 6 essential practices (AI6)
+
+The Guidance for AI Adoption condenses the 10 VAISS guardrails into 6 essential practices. At a high level:
+
+| AI6 practice                         | Closest VAISS guardrails and themes                            |
+|-------------------------------------|-----------------------------------------------------------------|
+| Decide who is accountable           | 1. Establish accountability; 9. Maintain records                |
+| Understand impacts and plan accordingly | 2. Implement risk management; 7. Monitor impacts; 10. Support human autonomy |
+| Measure and manage risks            | 2. Implement risk management; 3. Protect data                   |
+| Share essential information         | 4. Ensure transparency; 8. Ensure accountability in the supply chain; elements of 7 and 10 |
+| Test and monitor                    | 6. Test reliability; 7. Monitor impacts                         |
+| Maintain human control              | 5. Enable human control; 10. Support human autonomy             |
+
+**How to use this mapping**
+
+- Use **AI6** as your top-level framework when explaining AI governance to boards, executives and regulators.
+- Use the **10 guardrails** in this page as a **control library** when:
+  - building or updating AI policies and standards
+  - designing AI risk assessments and risk registers
+  - writing contractual clauses and supplier questionnaires.
+- Where you see references to the "Voluntary AI Safety Standard" or "guardrails" in external documents, you can confidently interpret them through this AI6 lens.
 
 ## How to use this in your business
 1. Adopt the 10 guardrails as acceptance criteria for any AI initiative.  
@@ -146,97 +172,55 @@ While the 10 guardrails apply to all organisations, SMEs can adopt them at diffe
 
 ---
 
-## When guardrails could become mandatory  
+## Regulatory outlook and the future of the guardrails
 
-*Disclaimer: As of August 2025, it remains uncertain if, when, and how the Voluntary AI Safety Standard will become mandatory. This is subject to an ongoing political and legislative process in Australia, and requirements may change.*
+As at December 2025, the position on AI-specific regulation in Australia has shifted.
+
+The **National AI Plan** confirms that the Government will, for now, rely on **existing technology-neutral laws and sector regulators** (for example, privacy, consumer law, financial services, safety, anti-discrimination) to manage AI-related harms. Earlier proposals to introduce standalone mandatory guardrails and a dedicated AI Act for high-risk AI applications have been **paused**.
+
+Instead:
+
+- the **Guidance for AI Adoption (AI6)** provides voluntary but strongly endorsed governance expectations
+- a new **AI Safety Institute** will be established from 2026 to monitor, test and advise on emerging AI capabilities, risks and harms
+- regulators will continue to apply and, where necessary, adapt existing frameworks to AI use cases.
+
+The 2024 consultation on mandatory guardrails and high-risk AI remains an important signal of how future regulation might be framed if the Government decides that existing laws are not sufficient. The principles-based definition of "high-risk AI" and the examples of sensitive domains (healthcare, employment, financial services, critical infrastructure, government decision-making, etc.) remain useful reference points for organisations when they assess and prioritise their own AI risk.
+
+In practical terms, organisations should:
+
+- treat the **10 guardrails + AI6** as **best-practice voluntary standards** rather than imminent hard law
+- focus on integrating these controls into existing privacy, risk, safety, security and compliance processes
+- monitor future updates from the AI Safety Institute, NAIC and sector regulators, which may influence how strongly certain guardrails are expected in particular industries.
 
 ### Government's principles-based definition of "high-risk AI"
-In its consultation on mandatory guardrails for AI in high-risk settings, the Australian Government proposes a principles-based approach.  
-An AI application may be considered *high-risk* if it has a high likelihood of causing material harm in one or more of the following areas:
 
-- Human rights or freedoms  
-- Health and safety  
-- Legal rights or obligations  
-- Democratic processes  
-- Environmental outcomes  
-- Broader societal impacts  
+In its earlier consultation on mandatory guardrails for high-risk settings, the Australian Government proposed a principles-based definition of "high-risk AI".
 
-Risk is assessed based on **context, severity, and scale**, rather than a predetermined list of application types.  
-Source: [Australian Human Rights Commission – Mandatory Guardrails for AI in High-Risk Settings (PDF)](https://humanrights.gov.au/sites/default/files/mandatory_guardrails_for_ai_in_high_risk_settings_0.pdf)
+An AI application may be considered high-risk if it has a high likelihood of causing material harm in one or more of the following areas:
+
+- human rights or freedoms
+- health and safety
+- legal rights or obligations
+- democratic processes
+- environmental outcomes
+- broader societal impacts.
+
+Risk was to be assessed based on context, severity and scale, rather than a static list of application types.
 
 ### Illustrative examples from public commentary
-The following examples are **not part of the official government definition**. They are drawn from media, legal analyses, and the 2024 Senate inquiry into AI, which recommended that certain AI systems and general-purpose models be treated as high risk.  
-Senate Inquiry report: [“Australian Government should regulate generative AI” – The Guardian, 27 Nov 2024](https://www.theguardian.com/technology/2024/nov/27/amazon-google-and-meta-are-pillaging-culture-data-and-creativity-to-train-ai-australian-inquiry-finds)
 
-**Examples often cited as potentially high-risk in public discussions:**  
+The following examples are not part of any official legal definition. They are drawn from media, legal analyses, and the 2024 Senate inquiry into AI, which suggested that some systems and general-purpose models might warrant stronger oversight:
 
-- Healthcare diagnosis or treatment  
-- Employment decisions (hiring, firing, promotion)  
-- Financial services (loans, insurance)  
-- Government service delivery  
-- Critical infrastructure  
-- Legal decisions  
+- healthcare diagnosis or treatment
+- employment decisions (hiring, firing, promotion)
+- financial services (loans, insurance, credit scoring)
+- government service delivery and eligibility assessments
+- critical infrastructure operation and security
+- legal or quasi-legal decisions.
 
-**General-purpose applications** (likely to remain voluntary under current proposals):  
-
-- Marketing automation  
-- Customer service chatbots  
-- Internal productivity tools  
-- Content generation  
-- Basic data analysis  
+By contrast, many common "everyday" uses of AI (marketing automation, customer service chatbots, internal productivity tools, content generation and basic analytics) are generally treated as **lower-risk**, but must still comply with existing law and good-practice governance.
 
 ---
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the Australian AI Guardrails and why do they matter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They are practical expectations for safe and responsible AI use in Australia. They help organisations reduce risk, build trust with customers, and prepare for emerging regulation and standards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is ISO/IEC 42001 and how does it relate to my business?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ISO/IEC 42001 is a management system standard for AI. It provides a structured way to govern AI across policy, risk, lifecycle controls, and continual improvement. SMEs can adopt it progressively, starting with core controls."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do we need certification to follow ISO/IEC 42001 practices?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. You can apply the guidance without certification. Certification may be valuable later for assurance or procurement. Many organisations begin with gap analysis and phased implementation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do the Guardrails and ISO 42001 work together?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Guardrails provide accessible principles; ISO 42001 provides a formal management system. Use the Guardrails to frame goals and ISO 42001 to operationalise them across policy, risk, controls, and continuous improvement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are first steps to align with these standards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Define an AI Use Policy, run an AI Risk Assessment for priority use cases, implement vendor due diligence, and establish incident reporting. Then build toward ISO 42001 practices like governance roles, KPIs, and audits."
-      }
-    }
-  ]
-}
-</script>
-
 
 ### Further Reading & Official Resources
 - [Voluntary AI Safety Standard – Overview and guardrails (Department of Industry)](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)  

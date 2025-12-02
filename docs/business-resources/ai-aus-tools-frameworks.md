@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Tools & Frameworks for Australian Businesses"
 twitter_description: "Curated collection of AI tools, frameworks, and resources for Australian businesses"
-canonical_url: "https://safeaiaus.org/business-resources/ai-aus-tools-frameworks/"
 ---
 
 # Tools & Frameworks

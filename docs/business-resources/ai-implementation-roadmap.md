@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Implementation Roadmap"
 twitter_description: "A practical roadmap for planning pilots, scaling successful AI use cases, and embedding assurance into business-as-usual."
-canonical_url: "https://safeaiaus.org/business-resources/ai-implementation-roadmap/"
 ---
 
 # AI Implementation Roadmap

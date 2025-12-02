@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI Project Register Template"
-description: "Comprehensive AI project register template for Australian businesses. Centralized tracking of AI initiatives, compliance status, and governance oversight aligned with safety standards."
+description: "Comprehensive AI project register template for Australian businesses. Centralised tracking of AI initiatives, compliance status, and governance oversight aligned with safety standards."
 keywords: "AI project register template, AI project tracking, AI governance tracking, AI compliance register, AI project management, Australian AI safety, AI project oversight"
 author: "SafeAI-Aus"
 robots: "index, follow"
@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Project Register Template"
 twitter_description: "Comprehensive AI project register template for Australian businesses"
-canonical_url: "https://safeaiaus.org/governance-templates/ai-project-register/"
 ---
 
 # AI Project Register 
@@ -100,6 +99,23 @@ Health Indicators:
 - Incident Reports: [Document ID/Link]  
 - Ethics Review: [Document ID/Link]  
 - Business Case: [Document ID/Link]  
+
+---
+
+## How this template implements AI6 and the Voluntary AI Safety Standard
+
+### AI6 practices supported by this template
+
+- **Decide who is accountable** – The "Ownership & Governance" section explicitly requires a "Project Owner" and "Stakeholders" to be identified for every initiative.
+- **Understand impacts and plan accordingly** – The "Risk Assessment" section requires documentation of "Risk Level" and "Mitigations" before a project proceeds.
+- **Share essential information** – This register acts as the central source of truth, sharing essential project details (Objectives, Timeline, Status) across the organisation.
+
+### VAISS guardrails supported by this template
+
+- **Guardrail 1 – Accountability** – The "Project Owner" field ensures there is a specific individual accountable for the AI system's outputs and impacts.
+- **Guardrail 10 – Stakeholder engagement, safety, diversity, fairness** – The "Ethics" section (Ethics Review, Bias Testing) supports the verification of fairness and safety considerations.
+- **Guardrail 9 – Record-keeping** – The entire register implements the record-keeping guardrail by maintaining a history of all AI projects, their status, and key decisions.
+- **Guardrail 2 – Risk management** – The "Risk Assessment" fields (Risk Level, Mitigations) ensure risk management is integrated into the project lifecycle.
 
 ---
 
