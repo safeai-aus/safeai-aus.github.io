@@ -13,7 +13,6 @@ og_image: "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI & Emerging Tech Learning Directory for SMEs"
 twitter_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
-canonical_url: "https://safeaiaus.org/business-resources/ai-learning-development-directory/"
 ---
 
 # AI & Emerging Tech Learning Directory for SMEs

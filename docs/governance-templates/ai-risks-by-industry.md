@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Risks by Industry (Australia)"
 twitter_description: "Use these sector-specific AI risk examples to strengthen your AI governance."
-canonical_url: "https://safeaiaus.org/governance-templates/ai-risks-by-industry/"
 ---
 
 # AI Risks by Industry (Australia)

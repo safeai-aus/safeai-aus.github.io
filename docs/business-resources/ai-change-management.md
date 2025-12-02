@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Change Management"
 twitter_description: "Step-by-step guidance to secure buy-in, address concerns, and support teams through AI pilots and scaling."
-canonical_url: "https://safeaiaus.org/business-resources/ai-change-management/"
 ---
 
 # AI Change Management

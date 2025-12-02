@@ -9,7 +9,6 @@ og_url: "https://safeaiaus.org/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
 twitter_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
-canonical_url: "https://safeaiaus.org/"
 ---
 > Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business.
 

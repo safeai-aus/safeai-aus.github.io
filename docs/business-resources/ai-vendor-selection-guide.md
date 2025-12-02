@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Vendor Selection Guide"
 twitter_description: "Evaluate AI vendors with confidence using practical red flags, key questions, and Australian compliance considerations."
-canonical_url: "https://safeaiaus.org/business-resources/ai-vendor-selection-guide/"
 ---
 
 # AI Vendor Selection Guide
