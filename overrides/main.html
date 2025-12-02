@@ -19,7 +19,7 @@
   <meta name="msapplication-TileColor" content="#f7f1e6">
   <meta name="theme-color" content="#ffffff">
   <!-- JSON-LD for HowTo Schema -->
-  {% if page.meta.howto %}
+  {% if page and page.meta and page.meta.howto %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -40,7 +40,7 @@
   {% endif %}
 
   <!-- JSON-LD for FAQPage Schema -->
-  {% if page.meta.faq %}
+  {% if page and page.meta and page.meta.faq %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
