@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "About SafeAI-Aus: Mission, Values & Licence"
 twitter_description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing"
-canonical_url: "https://safeaiaus.org/about/"
 permalink: /about/
 ---
 

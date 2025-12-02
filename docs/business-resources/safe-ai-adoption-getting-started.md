@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Safe AI Adoption - Getting Started"
 twitter_description: "Practical guidance on safe AI adoption: where to start, what to avoid, and how to build organisational resilience."
-canonical_url: "https://safeaiaus.org/business-resources/safe-ai-adoption-getting-started/"
 ---
 
 # Safe AI Adoption - Getting Started

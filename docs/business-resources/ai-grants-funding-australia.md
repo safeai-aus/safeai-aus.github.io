@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Grants and Funding Opportunities for Australian Businesses"
 twitter_description: "Comprehensive guide to AI grants, funding programs, and financial support for Australian businesses"
-canonical_url: "https://safeaiaus.org/business-resources/ai-grants-funding-australia/"
 ---
 
 # AI Grants and Funding Opportunities for Australian Businesses
