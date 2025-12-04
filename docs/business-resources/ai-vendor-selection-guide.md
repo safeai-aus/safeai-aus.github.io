@@ -189,7 +189,7 @@ Before committing to a vendor, get clear answers to these questions:
 
 The [AI Vendor Evaluation Template](../governance-templates/ai-vendor-evaluation-checklist.md) helps you score vendors consistently, track your evaluation process, document decisions, and share assessments across your team.
 
-The template covers technical capability, Australian compliance, integration and support, transparency, costs, and references. Customize the weighting based on your priorities – not all criteria matter equally for every use case.
+The template covers technical capability, Australian compliance, integration and support, transparency, costs, and references. Customise the weighting based on your priorities – not all criteria matter equally for every use case.
 
 ---
 
@@ -229,7 +229,7 @@ The template covers technical capability, Australian compliance, integration and
 - Score vendors consistently
 - Document your evaluation
 - Share assessments across team
-- Customize weighting for your priorities
+- Customise weighting for your priorities
 
 **Remember:**
 Vendor selection is not just about features and price. Support quality, transparency, and alignment with Australian compliance requirements often matter more than marginal technical differences. Choose a partner who will help you succeed, not just a tool to license.

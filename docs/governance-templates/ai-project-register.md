@@ -64,7 +64,7 @@ This register provides a structured way to maintain a central record of all AI i
 |  | Sunset Date | Planned decommission | 1 Feb 2028 |
 | **Ethics** | Ethics Review | Status of ethical assessment | Completed - Low Risk |
 |  | Bias Testing | Results of bias evaluation | Passed all criteria |
-| **Benefits** | Benefits Realized | Actual vs planned benefits | 35% efficiency (target 40%) |
+| **Benefits** | Benefits Realised | Actual vs planned benefits | 35% efficiency (target 40%) |
 | **Monitoring & Updates** | Version History | Track model releases or changes | v1.0 (Aug 2025), v1.1 (Oct 2025) |
 |  | Performance Metrics | Agreed KPIs or benchmarks | Accuracy >85%, CSAT >90% |
 |  | Change Log | Notes of updates, retraining, risks | Retrained with new dataset Sep 2025 |
