@@ -51,7 +51,7 @@ Subscribe today for practical tools to make AI safe — and work for your growth
 - [Policy & Template Library](governance-templates/policy-template-library.md) - Central repository of all governance templates
 - [AI Readiness Checklist](governance-templates/ai-readiness-checklist.md) - Step-by-step readiness assessment for AI implementation
 - [AI Use Policy](governance-templates/ai-use-policy.md) - Comprehensive policy template for AI usage in organisations
-- [AI Incident Report Form](governance-templates/ai-incident-report-form.md) - Standardized incident reporting and response template
+- [AI Incident Report Form](governance-templates/ai-incident-report-form.md) - Standardised incident reporting and response template
 - [AI Risk Assessment Checklist](governance-templates/ai-risk-assessment-checklist.md) - Systematic risk evaluation framework
 - [AI Vendor Evaluation Checklist](governance-templates/ai-vendor-evaluation-checklist.md) - Vendor selection and evaluation criteria
 - [AI Project Register](governance-templates/ai-project-register.md) - Project tracking and governance oversight template
