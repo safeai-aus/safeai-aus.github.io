@@ -56,7 +56,7 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 #### 3. [Digital Transformation – Manufacturing AI Support](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-training-and-advice-small-medium-businesses)  
 *Advanced Robotics Manufacturing Hub & partners*
 
-- **Description:** Sector-focused advisory addressing AI-driven workflow optimization, robotics integration, and governance for manufacturing, energy, or agri SMEs.  
+- **Description:** Sector-focused advisory addressing AI-driven workflow optimisation, robotics integration, and governance for manufacturing, energy, or agri SMEs.  
 - **Format:** One-on-one advisory and hub-based support.  
 - **Eligibility:** Manufacturing, energy, agriculture SMEs.  
 - **Cost:** **Subsidised** (often free).  

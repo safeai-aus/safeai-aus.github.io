@@ -149,7 +149,7 @@ These examples help businesses identify context-specific risks before adapting t
 
 | **Risk ID** | **Risk Name** | **Description** | **Potential Impact** |
 |--------------|----------------|-----------------|----------------------|
-| TL1 | **Route Optimization Safety Failures** | AI routing algorithms prioritize efficiency over safety considerations or compliance. | Vehicle accidents, driver fatigue, Chain of Responsibility breaches, insurance claims. |
+| TL1 | **Route Optimisation Safety Failures** | AI routing algorithms prioritise efficiency over safety considerations or compliance. | Vehicle accidents, driver fatigue, Chain of Responsibility breaches, insurance claims. |
 | TL2 | **Predictive Maintenance Errors** | Incorrect AI predictions about vehicle or equipment maintenance needs. | Vehicle breakdowns, service disruption, safety incidents, increased repair costs. |
 | TL3 | **Driver Monitoring Privacy Issues** | AI systems monitoring driver behaviour breach privacy or workplace surveillance obligations. | Privacy complaints, employee relations issues, Fair Work concerns, trust erosion. |
 
