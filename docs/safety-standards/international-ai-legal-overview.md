@@ -63,7 +63,7 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 
 ### Canada
 **Status & scope:** Bill C-27 (which included the federal Artificial Intelligence and Data Act, AIDA) died on the Order Paper on 6 January 2025 when Parliament was prorogued. The bill would need to be completely re-introduced in a future parliamentary session. In June 2025, Minister Evan Solomon confirmed AIDA will not return in its original form, signaling a "light, tight, right" approach to any future AI regulation. Status remains highly uncertain as of October 2025.
-**What to do:** No federal AI-specific law is imminent. Continue monitoring for potential re-introduction under a new government. Organizations can still reference AIDA's former companion guidance for voluntary best practices (risk-based duties for "high-impact" systems, impact assessments, incident reporting), but recognize any future legislation may differ substantially.
+**What to do:** No federal AI-specific law is imminent. Continue monitoring for potential re-introduction under a new government. Organizations can still reference AIDA's former companion guidance for voluntary best practices (risk-based duties for "high-impact" systems, impact assessments, incident reporting), but recognise any future legislation may differ substantially.
 
 ### United Kingdom (UK)
 **Status & scope:** **No single AI Act**; the UK follows a **contextual, regulator-led** approach under the **Government Response (Feb 2024)** to its AI White Paper. Central functions coordinate regulators; the **UK AI Safety Institute** evaluates advanced systems and supports guidance/testing.  

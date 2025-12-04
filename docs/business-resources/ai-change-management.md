@@ -174,7 +174,7 @@ People learn differently. Provide multiple support options:
 
 - Identify who picks up the tool quickly and ask them to help others
 - Create a "buddy system" pairing confident users with hesitant ones
-- Recognize and thank people who help their peers
+- Recognise and thank people who help their peers
 
 ---
 
