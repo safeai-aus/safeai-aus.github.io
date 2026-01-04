@@ -14,8 +14,6 @@ HEADER
 packages=(
     mkdocs
     "mkdocs-material[imaging]"
-    mkdocs-minify-plugin
-    mkdocs-redirects
     mkdocs-git-revision-date-localized-plugin
     mkdocs-newsletter
     mkdocs-autolinks-plugin
