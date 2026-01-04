@@ -2,8 +2,6 @@
 # To refresh versions, run scripts/update-requirements.sh
 mkdocs==1.6.1
 mkdocs-material[imaging]==9.6.19
-mkdocs-minify-plugin==0.8.0
-mkdocs-redirects==1.2.2
 mkdocs-git-revision-date-localized-plugin==1.4.7
 mkdocs-newsletter==1.1.0
 mkdocs-autolinks-plugin==0.7.1
