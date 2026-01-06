@@ -28,16 +28,6 @@
         });
     }
 
-    // Safe font optimization - only adds font-display: swap to Google Fonts
-    function optimizeFonts() {
-        const fontLinks = document.querySelectorAll('link[href*="fonts.googleapis.com"]');
-        fontLinks.forEach(link => {
-            if (!link.href.includes('display=')) {
-                link.href += (link.href.includes('?') ? '&' : '?') + 'display=swap';
-            }
-        });
-    }
-
     function markLazyImages(images) {
         if (!images.length) {
             return;
@@ -145,7 +135,6 @@
     // Initialize only safe optimizations
     function init() {
         // Run immediately
-        optimizeFonts();
         addResourceHints();
 
         // Run after DOM is ready

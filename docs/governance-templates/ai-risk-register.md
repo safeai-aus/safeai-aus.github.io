@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Risk Register Template"
 twitter_description: "Comprehensive AI risk register template for Australian businesses"
-canonical_url: "https://safeaiaus.org/governance-templates/ai-risk-register/"
 ---
 
 # AI Risk Register Template
@@ -83,12 +82,32 @@ The risk register process is not just a compliance exercise — it is a practica
 
 ---
 
+## How this template implements AI6 and the Voluntary AI Safety Standard
+
+### AI6 practices supported by this template
+
+- **Measure and manage risks** – This register is the core tool for the ongoing management of identified risks, tracking their likelihood, impact, and control measures.
+- **Decide who is accountable** – The "Risk Owner" column ensures that every identified risk is assigned to a specific individual for management.
+- **Share essential information** – By documenting risks centrally, this register shares essential safety information with stakeholders and governance bodies.
+
+### VAISS guardrails supported by this template
+
+- **Guardrail 2 – Risk management** – The register provides the structure for documenting risk assessments and the effectiveness of mitigations (Example Control Measures).
+- **Guardrail 1 – Accountability** – The "Risk Owner" assignment supports clear accountability for risk outcomes.
+- **Guardrail 9 – Record-keeping** – This document serves as a formal record of the organisation's risk landscape and management efforts.
+- **Guardrail 7 – Monitoring impacts** – The "Residual Risk" and review columns support the ongoing monitoring of risk levels over time.
+
+---
+
 ## Next Steps
 **Ready to assess specific AI risks?** → [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)
+
+**Looking for industry-specific risks?** → [AI Industry-Specific Risks](ai-risks-by-industry.md)
 
 ### Related Governance Templates
 - [AI Project Register](ai-project-register.md) — keep oversight of the AI initiatives that feed into this risk register.
 - [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md) — evaluate third-party tools before adding them to the register.
+- [AI Industry-Specific Risks](ai-risks-by-industry.md) — explore context-specific risks by industry to help populate this register.
 
 ---
 

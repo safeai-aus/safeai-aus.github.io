@@ -54,6 +54,8 @@ extra:
       link: https://github.com/safeai-aus/safeai-aus.github.io
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/safeai_aus
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/safeai-aus
   generator: false
 
 # Add custom CSS for SEO and UX improvements
@@ -64,7 +66,6 @@ extra_css:
 extra_javascript:
   - assets/performance-safe.js
   - assets/extra.js
-  - assets/cusdis.js
 
 markdown_extensions:
   - admonition
@@ -106,6 +107,7 @@ nav:
   - Glossary: glossary.md
   - AI Safety & Standards:
       - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
+      - Guidance for AI Adoption (AI6): safety-standards/guidance-for-ai-adoption-ai6.md
       - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md
       - International AI Legal Overview: safety-standards/international-ai-legal-overview.md
   - Governance Templates:
@@ -115,9 +117,15 @@ nav:
       - AI Incident Report Form: governance-templates/ai-incident-report-form.md
       - AI Risk Assessment Checklist: governance-templates/ai-risk-assessment-checklist.md
       - AI Risk Register: governance-templates/ai-risk-register.md
+      - AI Risks by Industry (Australia): governance-templates/ai-risks-by-industry.md
       - AI Vendor Evaluation Checklist: governance-templates/ai-vendor-evaluation-checklist.md
       - AI Project Register: governance-templates/ai-project-register.md
+      - AI Assurance – Transparency, Auditing & Reporting: governance-templates/ai-assurance-transparency-auditing-reporting.md
   - Practical Business Resources:
+      - Safe AI Adoption - Getting Started: business-resources/safe-ai-adoption-getting-started.md
+      - AI Change Management: business-resources/ai-change-management.md
+      - AI Vendor Selection Guide: business-resources/ai-vendor-selection-guide.md
+      - AI Implementation Roadmap: business-resources/ai-implementation-roadmap.md
       - AI Grants & Funding: business-resources/ai-grants-funding-australia.md
       - Tools & Frameworks: business-resources/ai-aus-tools-frameworks.md
       - State & Territory AI Resources: business-resources/state-territory-ai-resources.md

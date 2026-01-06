@@ -13,22 +13,22 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Current Legal Landscape for AI in Australia"
 twitter_description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business"
-canonical_url: "https://safeaiaus.org/safety-standards/ai-australian-legislation/"
 ---
 
 # Current Legal Landscape for AI in Australia
 
-While Australia doesn’t yet have AI-specific legislation, AI use is already governed by existing laws. Australian law is technology-neutral: obligations around privacy, consumer protection, discrimination, and intellectual property apply regardless of whether a decision is made by a human or an AI system.  
+While Australia doesn't yet have AI-specific legislation, AI use is already governed by existing laws. Australian law is technology-neutral: obligations around privacy, consumer protection, discrimination, workplace safety and intellectual property apply regardless of whether a decision is made by a human or an AI system.
 
-In September 2024, the Government released proposals for mandatory guardrails for high-risk AI applications and introduced a Voluntary AI Safety Standard. Public consultation closed in October 2024, and the Government is now reviewing feedback. Implementation of mandatory requirements is not expected until 2026 at the earliest, though outcomes remain politically uncertain.  
+In 2024 the Government released proposals for mandatory guardrails for high-risk AI applications alongside a Voluntary AI Safety Standard. In October 2025 the National AI Centre (NAIC) published updated **Guidance for AI Adoption**, which sets out six essential practices (AI6) and is now the primary government guidance for responsible AI governance and adoption. In December 2025 the **National AI Plan** confirmed that, for now, Australia will rely on **existing laws and sector regulators, supported by voluntary guidance and a new AI Safety Institute**, rather than introducing a standalone AI Act or immediate mandatory guardrails.
 
 ## Why this matters
 Understanding the current legal landscape helps organisations:  
 
-- Avoid legal and reputational risks from misuse of AI  
-- Demonstrate compliance and accountability to regulators and customers  
-- Build trust by applying the same standards to AI as to human decision-making  
-- Prepare for upcoming AI-specific laws and reforms in Australia  
+- Avoid legal and reputational risks from misuse of AI
+- Demonstrate compliance and accountability to regulators and customers
+- Build trust by applying the same standards to AI as to human decision-making
+- Prepare for upcoming AI-related reforms and regulatory guidance in Australia
+- Align with the **Guidance for AI Adoption (AI6)** and, where helpful, the underlying **Voluntary AI Safety Standard**, to demonstrate best practice and readiness for any future mandatory requirements
 
 ---
 
@@ -126,12 +126,40 @@ Australia’s **IP laws**—covering copyright, patents, trademarks, and design 
 
 ---
 
-## Emerging Reforms (2025-2026 to watch)
-- **Voluntary AI Safety Standard (September 2024)** – now in effect, providing 10 voluntary guardrails for responsible AI development and deployment across all sectors. Organizations can adopt these standards immediately to demonstrate best practice and prepare for future mandatory requirements.  
-- **Mandatory AI guardrails** – proposed in September 2024 for high-risk applications (healthcare, employment, finance, infrastructure, education, housing, insurance, legal services). Public consultation closed October 2024; Government is reviewing feedback. The 10 proposed mandatory guardrails align closely with the voluntary standard and focus on accountability, risk management, data protection, testing, human oversight, transparency, and incident response. Implementation expected 2026 at earliest.  
-- **Regulatory approach** – Government considering three options: (1) domain-specific approach integrating guardrails into existing laws sector-by-sector; (2) framework legislation creating overarching AI requirements; or (3) whole-of-economy AI Act similar to the EU model with dedicated regulator.  
-- **Privacy Act reforms** – stronger consent rules, right to explanation of AI-driven decisions, direct rights of action, and higher penalties remain under consideration.  
-- **Copyright reforms** – clarifying use of training data, exceptions for text/data mining, rules on AI-generated content.  
+## Emerging Reforms (2025–2027 to watch)
+
+- **Guidance for AI Adoption (AI6) – in effect from October 2025**
+  NAIC's Guidance for AI Adoption sets out 6 essential practices for responsible AI governance and adoption, with two versions (Foundations and Implementation practices) and supporting tools (AI screening tool, AI policy guide and template, AI register template). It updates and replaces the Voluntary AI Safety Standard as the primary government reference point for organisations using AI in Australia.
+
+- **Voluntary AI Safety Standard (VAISS) – 10 guardrails now integrated into AI6**
+  The Voluntary AI Safety Standard, released in 2024, introduced 10 guardrails for safe and responsible AI. These guardrails remain relevant as a detailed control set and have been fully integrated into the Guidance for AI Adoption through an official "VAISS × implementation practices" crosswalk.
+
+- **National AI Plan and AI Safety Institute (from 2026)**
+  The National AI Plan (December 2025) sets a national roadmap to capture AI opportunities, spread benefits across the economy and keep Australians safe. The Government has paused work on standalone AI-specific legislation and mandatory guardrails, instead relying on existing "technology-neutral" laws and regulators, supported by a new **AI Safety Institute** from 2026 to monitor, test and advise on emerging AI risks.
+
+- **Privacy Act reforms**
+  Privacy reforms remain on the agenda, including stronger consent rules, potential rights to explanation for high-impact automated decisions, direct rights of action, and higher penalties. These reforms will significantly shape compliant AI data practices.
+
+- **Copyright and IP reforms**
+  Ongoing work is examining text and data-mining exceptions, the legality of using copyrighted works to train AI models, and how copyright applies to AI-generated content. These reforms are particularly important for organisations heavily relying on generative AI.
+
+## Government guidance for safe AI (AI6 and the Voluntary AI Safety Standard)
+
+In 2024 the Australian Government released the **Voluntary AI Safety Standard (VAISS)** as an interim framework consisting of 10 guardrails for safe and responsible AI development and deployment across all sectors.
+
+In October 2025 the National AI Centre released updated **Guidance for AI Adoption**, which:
+
+- condenses the 10 VAISS guardrails into **6 essential practices (AI6)**
+- expands guidance to cover both AI **deployers and developers**
+- provides more detailed, actionable implementation guidance and supporting tools.
+
+The Guidance for AI Adoption is now the **primary source of voluntary governance guidance** for Australian organisations. The 10 guardrails remain fully integrated into AI6 and are useful as a **detailed control catalogue**, especially when building AI policies, risk registers, and vendor due-diligence processes.
+
+Organisations developing or deploying AI systems should:
+
+- adopt **AI6** as their top-level framework for responsible AI governance
+- use the **10 guardrails** where more granular control statements are helpful or where external documents still refer to VAISS
+- link both to their existing privacy, consumer law, safety, IP and cyber security obligations.
 
 ---
 
@@ -147,29 +175,25 @@ Australia’s **IP laws**—covering copyright, patents, trademarks, and design 
 | **APRA**                        | AI in risk management and critical infrastructure                            | Meet prudential standards for AI oversight                                       |
 | **TGA**                         | AI in medical devices                                                        | Register & test AI systems, comply with TGA rules                                |
 | **Fair Work Commission**        | Algorithmic HR and recruitment                                               | Ensure compliance with employment and anti-discrimination laws                   |
-
-| Voluntary AI Safety Standard | 10 voluntary guardrails for all AI systems | Adopt voluntary guardrails now; prepare for mandatory requirements expected 2026+ |
+| **Guidance for AI Adoption (AI6)** | 6 essential practices for responsible AI governance and adoption; integrates the earlier Voluntary AI Safety Standard (10 guardrails) | Use AI6 as the primary reference for AI governance; map existing policies and risk registers to the 6 practices; use the guardrails as detailed controls where needed |
 
 ---
 
 ## Why This Matters
 Even before new AI laws are introduced, **existing legislation creates clear compliance obligations**. Businesses deploying AI should:  
 
-- Treat AI as subject to the same laws as human decision-making  
-- Document AI-related policies and processes  
-- Engage legal review for higher-risk applications  
-- Consider implementing the Voluntary AI Safety Standard (September 2024) to align with emerging best practices and prepare for mandatory guardrails expected in 2026  
+- Treat AI as subject to the same laws as human decision-making
+- Document AI-related policies and processes
+- Engage legal review for higher-risk applications
+- Consider implementing the **Guidance for AI Adoption (AI6)**, and where useful the underlying **Voluntary AI Safety Standard**, to align with emerging best practice and demonstrate responsible AI governance even in the absence of a dedicated AI Act
 
 ---
 
 ### Key References
-- [OAIC – Privacy Act & AI Guidance](https://www.oaic.gov.au)  
-- [ACCC – AI and Consumer Law](https://www.accc.gov.au)  
-- [Australian Human Rights Commission – Anti-Discrimination Guidance](https://humanrights.gov.au)  
-- [IP Australia – Intellectual Property and AI](https://www.ipaustralia.gov.au)  
-- [Australian Government – Privacy Act Reforms 2024](https://www.ag.gov.au)  
-
-### Key References (Australia)
-- Voluntary AI Safety Standard (September 2024): [Department of Industry, Science and Resources](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)  
-- Proposals Paper: Safe and Responsible AI - Mandatory Guardrails (September 2024): [Department of Industry, Science and Resources](https://consult.industry.gov.au/ai-mandatory-guardrails)  
-
+- [OAIC – Privacy Act & AI Guidance](https://www.oaic.gov.au)
+- [ACCC – AI and Consumer Law](https://www.accc.gov.au)
+- [Australian Human Rights Commission – Anti-Discrimination Guidance](https://humanrights.gov.au)
+- [IP Australia – Intellectual Property and AI](https://www.ipaustralia.gov.au)
+- [Australian Government – Privacy Act Reforms 2024](https://www.ag.gov.au)
+- Voluntary AI Safety Standard (September 2024): [Department of Industry, Science and Resources](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)
+- Proposals Paper: Safe and Responsible AI - Mandatory Guardrails (September 2024): [Department of Industry, Science and Resources](https://consult.industry.gov.au/ai-mandatory-guardrails)

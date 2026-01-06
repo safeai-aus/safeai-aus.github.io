@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Glossary (Australia)"
 twitter_description: "A practical glossary of key AI terms in the Australian context"
-canonical_url: "https://safeaiaus.org/glossary/"
 ---
 
 # AI Glossary (Australia)
@@ -172,12 +171,12 @@ Assessing third-party AI tools for security, privacy, reliability and compliance
 ---
 
 ## 🔗 Related Resources
-- [Template Library](governance-templates/policy-template-library.md)  
-- [AI Safety Standards (Australia & International)](safety-standards/voluntary-ai-safety-standard-10-guardrails.md)  
-- [AI Project Register](governance-templates/ai-project-register.md)  
-- [AI Use Policy Template](governance-templates/ai-use-policy.md)  
-- [AI Risk Assessment Template](governance-templates/ai-risk-assessment-checklist.md)  
-- [AI Incident Report Form](ai-incident-report-form.md)  
+- [Template Library](governance-templates/policy-template-library.md)
+- [AI Safety Standards (Australia & International)](safety-standards/voluntary-ai-safety-standard-10-guardrails.md)
+- [AI Project Register](governance-templates/ai-project-register.md)
+- [AI Use Policy Template](governance-templates/ai-use-policy.md)
+- [AI Risk Assessment Template](governance-templates/ai-risk-assessment-checklist.md)
+- [AI Incident Report Form](governance-templates/ai-incident-report-form.md)
 
 ---
 

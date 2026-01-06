@@ -8,12 +8,11 @@ robots: "index, follow"
 og_title: "AI & Emerging Tech Learning Directory for SMEs"
 og_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
 og_type: "article"
-og_url: "https://safeai-aus.github.io/business-resources/ai-learning-development-directory/"
-og_image: "assets/safeaiaus-logo-600px.png"
+og_url: "https://safeaiaus.org/business-resources/ai-learning-development-directory/"
+og_image: "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI & Emerging Tech Learning Directory for SMEs"
 twitter_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
-canonical_url: "https://safeai-aus.github.io/business-resources/ai-learning-development-directory/"
 ---
 
 # AI & Emerging Tech Learning Directory for SMEs
@@ -57,7 +56,7 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 #### 3. [Digital Transformation – Manufacturing AI Support](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-training-and-advice-small-medium-businesses)  
 *Advanced Robotics Manufacturing Hub & partners*
 
-- **Description:** Sector-focused advisory addressing AI-driven workflow optimization, robotics integration, and governance for manufacturing, energy, or agri SMEs.  
+- **Description:** Sector-focused advisory addressing AI-driven workflow optimisation, robotics integration, and governance for manufacturing, energy, or agri SMEs.  
 - **Format:** One-on-one advisory and hub-based support.  
 - **Eligibility:** Manufacturing, energy, agriculture SMEs.  
 - **Cost:** **Subsidised** (often free).  
@@ -118,10 +117,10 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ### Global & Open Access Courses
 
-#### 8. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu)
+#### 8. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu/search/?d=Course&q=artificial%20intelligence%20machine%20learning)
 *MIT*
 
-- **Description:** Deep-dive curriculum including lectures, notes, and problem sets on foundational AI and ML techniques.  
+- **Description:** Search results listing MIT OCW courses tagged with artificial intelligence and machine learning, including lectures, notes, and problem sets, with filters for course level and department.
 - **Format:** Full university course materials.  
 - **License:** CC BY-NC-SA.  
 - **Cost:** **Free**.  
@@ -134,35 +133,32 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 - **Description:** Curated assignments and tutorials promoting critical thinking about AI's ethics, limitations, and societal impact.  
 - **Format:** Adaptable classroom exercises, prompts, and tutorials.  
-- **License:** CC BY-NC-SA 4.0.  
-- **Cost:** **Free**.  
-- **Difficulty:** Beginner–Intermediate  
-- **Integration:** Remix into internal training on AI literacy and responsible use; great for leadership/HR sessions.  
-  :contentReference[oaicite:1]{index=1}  
+- **License:** CC BY-NC-SA 4.0.
+- **Cost:** **Free**.
+- **Difficulty:** Beginner–Intermediate
+- **Integration:** Remix into internal training on AI literacy and responsible use; great for leadership/HR sessions.
 
 ---
 
-#### 10. [MIT "How to AI (Almost) Anything"](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)  
+#### 10. [MIT "How to AI (Almost) Anything"](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)
 
 - **Description:** Explores multimodal AI applications across vision, sound, sensors, and creativity—building intuition for AI's broader capabilities.  
 - **Format:** Lectures, readings, and research projects.  
-- **License:** CC BY.  
-- **Cost:** **Free**.  
-- **Difficulty:** Beginner–Intermediate  
-- **Integration:** Use for ideation workshops or innovation sprints; inspires cross-functional understanding.  
-  :contentReference[oaicite:2]{index=2}  
+- **License:** CC BY.
+- **Cost:** **Free**.
+- **Difficulty:** Beginner–Intermediate
+- **Integration:** Use for ideation workshops or innovation sprints; inspires cross-functional understanding.
 
 ---
 
-#### 11. [Dive into Deep Learning](https://d2l.ai/)  
+#### 11. [Dive into Deep Learning](https://d2l.ai/)
 
 - **Description:** Hands-on, open-source textbook with runnable code, blending theory, math, and implementation in Jupyter notebooks.  
 - **Format:** Interactive book using PyTorch, TensorFlow, JAX, with live examples.  
-- **License:** Open source (Apache 2.0).  
-- **Cost:** **Free**.  
-- **Difficulty:** Advanced  
-- **Integration:** Ideal for developers or data teams; use as core resource for self-learning cohorts.  
-  :contentReference[oaicite:3]{index=3}  
+- **License:** Open source (Apache 2.0).
+- **Cost:** **Free**.
+- **Difficulty:** Advanced
+- **Integration:** Ideal for developers or data teams; use as core resource for self-learning cohorts.
 
 ---
 
@@ -220,8 +216,8 @@ Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
 - **Exclusions** — This licence does not apply to the SafeAI-Aus name, logo, or any third-party material referenced in this document.  
 
-**Attribution statement for reuse:**  
-“This resource was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeai-aus.github.io/).”  
+**Attribution statement for reuse:**
+“This resource was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus – AI & Emerging Tech Learning Directory for SMEs](https://safeaiaus.org/business-resources/ai-learning-development-directory/).”
 
 Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
