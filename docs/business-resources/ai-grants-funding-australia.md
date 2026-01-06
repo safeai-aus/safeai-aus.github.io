@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Grants and Funding Opportunities for Australian Businesses"
 twitter_description: "Comprehensive guide to AI grants, funding programs, and financial support for Australian businesses"
-canonical_url: "https://safeaiaus.org/business-resources/ai-grants-funding-australia/"
 ---
 
 # AI Grants and Funding Opportunities for Australian Businesses
@@ -42,12 +41,12 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 - Program **concluded**.  
 - ➡️ [Program details](https://business.gov.au/grants-and-programs/catalysing-the-artificial-intelligence-opportunity-in-our-regions-round-1?)
 
-### R&D Tax Incentive  
-- Ongoing tax relief for businesses conducting R&D, including AI:  
-  - **43.5% refundable offset** for SMEs (<$20m turnover).  
-  - **38.5% non‑refundable offset** for larger firms.  
-- Program is **active and ongoing**.  
-- ➡️ [More information](https://en.wikipedia.org/wiki/Research_and_Development_Tax_Incentive)
+### R&D Tax Incentive
+- Provides **tax offsets to encourage companies to conduct eligible R&D activities that might not otherwise happen**.
+  - **43.5% refundable offset** for R&D entities with aggregated turnover under $20m (not controlled by exempt entities).
+  - **Non‑refundable R&D intensity‑based offset** for larger companies (company tax rate plus a premium tied to R&D intensity).
+- Program is **active and ongoing**; the business.gov.au page does not state a last updated date.
+- ➡️ [Program overview](https://business.gov.au/grants-and-programs/research-and-development-tax-incentive)
 
 ### Australian Research Council (ARC) Programs  
 - Competitive grants supporting research between universities and businesses.  
@@ -88,12 +87,12 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 
 ## State-Level Opportunities
 
-### South Australia: $28 Million AI Initiative (2025-2029)  
-- **$7 million annually** for proof‑of‑value trials.  
-- Focused on **healthcare, policing, allied health, social work, and legal/financial services**.  
-- Supports public sector AI adoption while safeguarding jobs.  
-- Program is **active** (2025-2029).  
-- ➡️ [Read more](https://www.news.com.au/technology/innovation/south-australian-treasurer-stephen-mullighan-announces-new-28m-ai-program-in-state-budget/news-story/97fe39eeff3224d0eb3857c7169ce8c2)
+### South Australia: $28 Million AI Initiative (2025-2029)
+- **$7 million annually** for proof‑of‑value trials.
+- Focused on **healthcare, policing, allied health, social work, and legal/financial services**.
+- Supports public sector AI adoption while safeguarding jobs.
+- Program is **active** with funding profiled **from 2025–26 to 2028–29**, as set out in the **2024–25 South Australian State Budget** (Budget Paper 4: Agency Statements – Department of the Premier and Cabinet, released 6 May 2024).
+- ➡️ [Budget Paper 4: Agency Statements (2024–25 SA State Budget)](https://www.treasury.sa.gov.au/statebudget/2024-25/budget-papers)
 
 ### AIML (Australian Institute for Machine Learning) Programs  
 - **Centre for Augmented Reasoning**: $20m federal funding.  

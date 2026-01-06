@@ -8,6 +8,7 @@
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ base_url }}/assets/apple-touch-icon.png">
+  <link rel="icon" href="{{ base_url }}/favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ base_url }}/assets/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ base_url }}/assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="64x64" href="{{ base_url }}/assets/favicon-64x64.png">
@@ -17,4 +18,68 @@
   <link rel="mask-icon" href="{{ base_url }}/assets/safari-pinned-tab.svg" color="#0b6428">
   <meta name="msapplication-TileColor" content="#f7f1e6">
   <meta name="theme-color" content="#ffffff">
+  <!-- JSON-LD for HowTo Schema -->
+  {% if page and page.meta and page.meta.howto %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "{{ page.meta.howto.name }}",
+    "description": "{{ page.meta.howto.description }}",
+    "step": [
+      {% for step in page.meta.howto.steps %}
+      {
+        "@type": "HowToStep",
+        "name": "{{ step.name }}",
+        "text": "{{ step.text }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
+
+  <!-- JSON-LD for FAQPage Schema -->
+  {% if page and page.meta and page.meta.faq %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in page.meta.faq %}
+      {
+        "@type": "Question",
+        "name": "{{ item.question }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ item.answer }}"
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+
+  <!-- SafeAI-Aus Knowledge Assistant Chat Widget -->
+  <div id="airia-chat-root"></div>
+  <script type="module">
+    import AiriaChat from "https://prodaus.embed-api.airia.ai/get-chat-embed.js"
+    AiriaChat.init({
+      pipelineId: "082a8566-0662-4ce1-83fb-42503ac7fb64",
+      apiKey: "ak-MTk2NTI1MjYwNnwxNzY3MzUxOTcwNzczfHRpLWMybHRjR3hsWm5rdVlXa3R8MXw5MTE4ODgyMTQg",
+      apiUrl: "https://prodaus.embed-api.airia.ai",
+      greeting: "Hi! I can help you find AI safety resources and answer questions about Australian AI governance. What would you like to know?",
+      imagePath: "{{ base_url }}/assets/safeaiaus-logo-600px.png",
+      imageSize: "medium",
+      imageBgColor: "#FFFFFF",
+      imageBorderColor: "#0b6428",
+      imageBorderWidth: "3px",
+      autoOpen: false
+    })
+  </script>
 {% endblock %}

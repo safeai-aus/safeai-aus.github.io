@@ -9,7 +9,6 @@ og_url: "https://safeaiaus.org/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
 twitter_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
-canonical_url: "https://safeaiaus.org/"
 ---
 > Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business.
 
@@ -52,7 +51,7 @@ Subscribe today for practical tools to make AI safe — and work for your growth
 - [Policy & Template Library](governance-templates/policy-template-library.md) - Central repository of all governance templates
 - [AI Readiness Checklist](governance-templates/ai-readiness-checklist.md) - Step-by-step readiness assessment for AI implementation
 - [AI Use Policy](governance-templates/ai-use-policy.md) - Comprehensive policy template for AI usage in organisations
-- [AI Incident Report Form](governance-templates/ai-incident-report-form.md) - Standardized incident reporting and response template
+- [AI Incident Report Form](governance-templates/ai-incident-report-form.md) - Standardised incident reporting and response template
 - [AI Risk Assessment Checklist](governance-templates/ai-risk-assessment-checklist.md) - Systematic risk evaluation framework
 - [AI Vendor Evaluation Checklist](governance-templates/ai-vendor-evaluation-checklist.md) - Vendor selection and evaluation criteria
 - [AI Project Register](governance-templates/ai-project-register.md) - Project tracking and governance oversight template
@@ -68,8 +67,8 @@ Subscribe today for practical tools to make AI safe — and work for your growth
 !!! note "Quick Navigation"
     Use the navigation menu on the left to jump directly to any section, or browse all content below.
 
-!!! info "Feedback & Comments"
-    We've integrated Cusdis comments on all pages to gather your feedback and suggestions. Look for the comments section at the bottom of each page to share your thoughts on our content, templates, and resources.
+!!! info "Feedback"
+    Share your suggestions via the [Contact page](contact.md) or by replying to our newsletter — we read every message.
 
 ## License
 This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).

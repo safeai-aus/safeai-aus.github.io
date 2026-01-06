@@ -13,7 +13,23 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Use Policy Template"
 twitter_description: "Comprehensive AI Use Policy template for Australian businesses"
-canonical_url: "https://safeaiaus.org/governance-templates/ai-use-policy/"
+howto:
+  name: "Implement the AI Use Policy Template"
+  description: "Practical steps for adapting and rolling out the SafeAI-Aus AI Use Policy Template inside your organisation."
+  steps:
+    - name: "Review the template"
+      text: "Read the policy in full, noting sections that require custom context like review cycles and accountable roles."
+    - name: "Customise for your organisation"
+      text: "Insert organisational names, governance owners, and control requirements based on your existing risk posture."
+    - name: "Approve and publish"
+      text: "Seek executive/legal endorsement, communicate the policy to staff, and store it in your governance repository."
+faq:
+  - question: "Who should own the AI Use Policy?"
+    answer: "Assign ownership to an executive sponsor or AI governance lead who can coordinate updates and compliance reviews."
+  - question: "How often should the policy be reviewed?"
+    answer: "Schedule a review at least annually or whenever Australian AI regulations, ISO/IEC standards, or internal risk thresholds change."
+  - question: "Can we share this template externally?"
+    answer: "Yes. The template is published under CC BY 4.0, so you can adapt and redistribute it with attribution to SafeAI-Aus."
 ---
 
 # AI Use Policy Template
@@ -193,6 +209,23 @@ Common Scenarios:
 ✗ Automated hiring decisions: Not without human review  
 ✓ AI for code suggestions: OK with security testing  
 ✗ Medical or legal advice via AI: Not without professional oversight  
+
+---
+
+## How this template implements AI6 and the Voluntary AI Safety Standard
+
+### AI6 practices supported by this template
+
+- **Decide who is accountable** – Section 9 ("Roles & Responsibilities") explicitly assigns accountability to the Board, AI Governance Lead, and Project Owners.
+- **Maintain human control** – Section 5 ("Acceptable Use") and Section 6 ("Prohibited Use") mandate human oversight for consequential decisions.
+- **Share essential information** – Section 1 ("Purpose") and Section 4 ("Principles") share the organisation's commitment to safe AI with all staff.
+
+### VAISS guardrails supported by this template
+
+- **Guardrail 1 – Accountability** – Section 9 establishes clear lines of responsibility for AI governance.
+- **Guardrail 5 – Human control** – The policy explicitly prohibits "Automated decision-making without required human oversight" (Section 6).
+- **Guardrail 4 – Transparency** – Section 4 ("Principles") commits the organisation to using AI that is "transparent and explainable".
+- **Guardrail 3 – Data protection & security** – Section 7 ("Privacy, Intellectual Property & Data Rights") mandates compliance with the Privacy Act and protection of IP.
 
 ---
 

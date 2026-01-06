@@ -13,14 +13,13 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Readiness Checklist for Australian Businesses"
 twitter_description: "Comprehensive AI readiness checklist for Australian businesses"
-canonical_url: "https://safeaiaus.org/governance-templates/ai-readiness-checklist/"
 ---
 
 # AI Readiness Checklist
 
 This checklist helps Australian businesses decide if they are ready to adopt AI safely, responsibly, and effectively.  
 
-It reflects the **Voluntary AI Safety Standard (10 Guardrails)** released by the Australian Government and is consistent with international frameworks such as **ISO/IEC 42001:2023** and the **NIST AI Risk Management Framework**.
+It reflects the **AI6 Essential Practices** released by the Australian Government and is consistent with international frameworks such as **ISO/IEC 42001:2023** and the **NIST AI Risk Management Framework**.
 
 Tick the boxes that apply to your organisation. A higher score means greater readiness.
 
@@ -76,7 +75,22 @@ Tick the boxes that apply to your organisation. A higher score means greater rea
 - **21–30**: Advanced — ready to scale with continuous improvement  
 - Example: Organisation with mature AI governance deploying multiple systems  
 
-> Use alongside the **Voluntary AI Safety Standard (10 Guardrails)** for best practice adoption in Australia.  
+---
+
+## How this template implements AI6 and the Voluntary AI Safety Standard
+
+### AI6 practices supported by this template
+
+- **Understand impacts and plan accordingly** – Section 3 ("Risk & Impact") ensures organisations assess risks and impacts before deployment.
+- **Decide who is accountable** – Section 1 ("Strategy & Governance") checks for a designated senior executive accountable for AI.
+- **Test and monitor** – Section 5 ("Testing & Monitoring") verifies that pre-deployment testing and ongoing monitoring processes are in place.
+
+### VAISS guardrails supported by this template
+
+- **Guardrail 9 – Governance & oversight** – Section 1 ("Strategy & Governance") aligns with the requirement for clear governance structures and accountability.
+- **Guardrail 2 – Risk management** – Section 3 ("Risk & Impact") directly supports the establishment of risk management processes.
+- **Guardrail 6 – Testing & assurance** – Section 5 ("Testing & Monitoring") confirms the existence of testing protocols for performance and fairness.
+- **Guardrail 8 – Supply chain accountability** – Section 6 ("Suppliers & Partners") ensures vendor alignment with safety standards is checked.
 
 ---
 

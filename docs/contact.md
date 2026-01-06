@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Contact SafeAI-Aus"
 twitter_description: "How to connect with the SafeAI-Aus community and get involved in our open-source AI safety initiative"
-canonical_url: "https://safeaiaus.org/contact/"
 permalink: /contact/
 ---
 
@@ -30,7 +29,7 @@ If you'd like to contribute, suggest ideas, or just say hello, here's how you ca
 ---
 
 ## 📧 Email  
-Community inbox: [contact@safeaiaus.org](mailto:contact@safeaiaus.org)  
+Community inbox: [contact@safeaiaus.org](mailto:contact@safeaiaus.org)
 
 ## 🧑‍🤝‍🧑 Join the community  
 - Contribute on GitHub: [SafeAI-Aus Repository](https://github.com/safeai-aus/safeai-aus.github.io)  

@@ -13,7 +13,6 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Risk Assessment Checklist"
 twitter_description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment."
-canonical_url: "https://safeaiaus.org/governance-templates/ai-risk-assessment-checklist/"
 ---
 
 # AI Risk Assessment Checklist
@@ -184,8 +183,28 @@ Additional considerations for risk level:
 - **NIST AI Risk Management Framework**  
 
 ---
+## How this template implements AI6 and the Voluntary AI Safety Standard
+
+### AI6 practices supported by this template
+
+- **Measure and manage risks** – The entire checklist is a tool for measuring (Section 9 "Quantitative Risk Scoring") and managing risks across multiple dimensions.
+- **Understand impacts and plan accordingly** – Section 2 ("Risk Classification") helps organisations understand the potential severity of their AI systems.
+- **Maintain human control** – Section 5 ("Human Oversight & Accountability") specifically checks for human-in-the-loop mechanisms and contestability.
+
+### VAISS guardrails supported by this template
+
+- **Guardrail 2 – Risk management** – This template is a primary implementation tool for this guardrail, covering identification, assessment, and mitigation planning.
+- **Guardrail 5 – Human control** – Section 5 directly addresses the requirement for human oversight and intervention capabilities.
+- **Guardrail 6 – Testing & assurance** – Section 6 ("Testing & Evaluation") prompts for evidence of bias testing, accuracy checks, and real-world validation.
+- **Guardrail 3 – Data protection & security** – Sections 3 ("Data Governance") and 4 ("Security & Reliability") ensure these critical safeguards are evaluated.
+
+---
+
 ## Next Steps
 **Need to track and monitor risks over time?** → [AI Risk Register](ai-risk-register.md)
+
+**Looking for industry-specific risk examples?** → [AI Industry-Specific Risks](ai-risks-by-industry.md)
+
 **Need to prepare for AI incidents?** → [AI Incident Report Form](ai-incident-report-form.md)
 
 ---
