@@ -129,7 +129,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (VAISS
       "name": "What AI governance templates are available from SafeAI Aus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We provide practical, Australia-focused templates including an AI Readiness Checklist, AI Change Management guide, AI Implementation Roadmap, AI Vendor Selection Guide, AI Use Policy, AI Risk Assessment, AI Risk Register, AI Industry-Specific Risks, AI Incident Report, AI Vendor Evaluation Checklist, AI Project Register, and AI Assurance framework to help Australian businesses implement safe AI governance end-to-end."
+        "text": "We provide practical, Australia-focused templates including an AI Readiness Checklist, AI Change Management guide, AI Implementation Roadmap, AI Use Policy, AI Risk Assessment, AI Risk Register, AI Industry-Specific Risks, AI Incident Report, AI Vendor Evaluation Checklist, AI Project Register, and AI Assurance framework to help Australian businesses implement safe AI governance end-to-end."
       }
     },
     {
@@ -161,7 +161,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (VAISS
       "name": "How do I get started with the templates?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Start with the AI Readiness Checklist to assess your organisation's preparedness. Then implement the AI Use Policy and AI Risk Assessment. Use the AI Change Management guide and AI Implementation Roadmap when planning your first project, and the AI Vendor Selection Guide before procuring tools. Add the Risk Register, Incident Report, and Project Register for ongoing governance and learning."
+        "text": "Start with the AI Readiness Checklist to assess your organisation's preparedness. Then implement the AI Use Policy and AI Risk Assessment. Use the AI Change Management guide and AI Implementation Roadmap when planning your first project, and the AI Vendor Evaluation Checklist before procuring tools. Add the Risk Register, Incident Report, and Project Register for ongoing governance and learning."
       }
     }
   ]
