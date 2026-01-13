@@ -15,17 +15,17 @@ twitter_title: "Safe AI Policy & Template Library"
 twitter_description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, and project management tools."
 ---
 
-# Policy & Template Library
+# Governance Templates
 
 Practical, open-source templates to help Australian businesses implement safe, responsible, and effective AI.
 
 These documents are designed as a **baseline AI governance toolkit**: they provide a set of lightweight, practical policies and forms that can be adapted to your organisation’s context. 
 
-Together, they support compliance with the **Voluntary AI Safety Standard (10 Guardrails)** and align with international frameworks including:  
+Together, they support compliance with the **Voluntary AI Safety Standard (VAISS) - 10 Guardrails** and align with international frameworks including:  
 
-- [ISO/IEC 42001:2023 Artificial Intelligence Management System (AIMS)](https://www.iso.org/standard/81230.html)  
-- [NIST AI Risk Management Framework 1.0](https://www.nist.gov/itl/ai-risk-management-framework)  
-- Australian Government’s [Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)  
+- [ISO/IEC 42001:2023 Artificial Intelligence Management System (AIMS)](https://www.iso.org/standard/81230.html)
+- [NIST AI Risk Management Framework 1.0](https://www.nist.gov/itl/ai-risk-management-framework)
+- Australian Government's [Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)  
 
 ---
 
@@ -40,26 +40,46 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 
 ## Current Templates
 
-- [AI Use Policy](ai-use-policy.md)  
-  *Defines how AI can and cannot be used in your organisation. Aligns with Guardrails 1 (Transparency) and 2 (Accountability).*  
+### Getting Started
 
-- [AI Risk Assessment Form](ai-risk-assessment-checklist.md)  
-  *Structured way to evaluate risks before adoption. Aligns with Guardrail 3 (Risk Assessment) and Guardrail 6 (Security).*  
+- [AI Readiness Checklist](ai-readiness-checklist.md)
+  *Assesses your organisation's readiness to adopt AI safely. Covers governance, technical capability, risk management, and stakeholder engagement. Supports Guardrails 2 (Accountability), 3 (Risk Assessment), and 9 (Governance).*
 
-- [AI Incident Report Form](ai-incident-report-form.md)  
-  *Mechanism to capture, respond, and learn from AI-related issues. Supports Guardrail 5 (Incident Response).*  
+### Implementation Guides
 
-- [Vendor Assessment Checklist](ai-vendor-evaluation-checklist.md)  
-  *Evaluates third-party AI suppliers for compliance, security, and ethics. Supports Guardrail 7 (Supply Chain Risk).*  
+- [AI Change Management](ai-change-management.md)
+  *Comprehensive guide to managing the organisational and cultural changes that come with AI adoption. Covers stakeholder engagement, communication, workforce planning, and resistance management. Supports Guardrails 1 (Transparency), 2 (Accountability), and 8 (Human Oversight).*
 
-- [AI Project Register](ai-project-register.md)  
-  *Maintains a central record of all AI initiatives. Supports Guardrails 9 (Governance & Oversight) and 10 (Lifecycle Management).*  
+- [AI Implementation Roadmap](ai-implementation-roadmap.md)
+  *Step-by-step guide to planning and executing AI projects from pilot to production deployment. Includes pilot sizing, success criteria, scaling decisions, and ongoing monitoring. Supports Guardrails 2 (Accountability), 3 (Risk Assessment), 9 (Governance), and 10 (Lifecycle Management).*
 
-- [AI Risk Register](ai-risk-register.md)  
-  *Comprehensive register for identifying, assessing, and managing AI-related risks. Supports Guardrails 3 (Risk Assessment) and integrates with broader GRC processes.*  
+### Risk Management & Assurance
+
+- [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)
+  *Structured way to evaluate risks before adoption. Aligns with Guardrail 3 (Risk Assessment) and Guardrail 6 (Security).*
+
+- [AI Risk Register](ai-risk-register.md)
+  *Comprehensive register for identifying, assessing, and managing AI-related risks. Supports Guardrails 3 (Risk Assessment) and integrates with broader GRC processes.*
 
 - [AI Industry-Specific Risks](ai-risks-by-industry.md)
   *Provides context-specific AI risk examples for ten major Australian industries to help organisations identify relevant risks for their risk register.*
+
+- [AI Assurance – Transparency, Auditing & Reporting](ai-assurance-transparency-auditing-reporting.md)
+  *Framework for demonstrating responsible AI practices through transparency, independent audits, and structured reporting. Supports Guardrails 1 (Transparency), 3 (Risk Assessment), 5 (Incident Response), and 10 (Lifecycle Management).*
+
+### Policies & Forms
+
+- [AI Use Policy](ai-use-policy.md)
+  *Defines how AI can and cannot be used in your organisation. Aligns with Guardrails 1 (Transparency) and 2 (Accountability).*
+
+- [AI Project Register](ai-project-register.md)
+  *Maintains a central record of all AI initiatives. Supports Guardrails 9 (Governance & Oversight) and 10 (Lifecycle Management).*
+
+- [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
+  *Comprehensive framework for evaluating AI vendors including Build vs Buy guidance, critical red flags, and structured evaluation across compliance, security, data governance, and Australian context. Supports Guardrails 3 (Risk Assessment), 4 (Data Governance), 7 (Supply Chain), and 1 (Transparency).*
+
+- [AI Incident Report Form](ai-incident-report-form.md)
+  *Mechanism to capture, respond, and learn from AI-related issues. Supports Guardrail 5 (Incident Response).*
 
 ---
 
@@ -79,16 +99,16 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
 
 | Guardrail | Focus Area | Covered By Templates |
 |-----------|------------|-----------------------|
-| 1. Transparency | Clear information on AI use | AI Use Policy |
-| 2. Accountability | Assigning responsibility | AI Use Policy, Human Oversight Plan *(coming soon)* |
-| 3. Risk Assessment | Evaluating risks before use | AI Risk Assessment Form, AI Risk Register, AI Industry-Specific Risks |
-| 4. Data Governance | Data quality, bias, provenance | Data Management & Quality Checklist *(coming soon)* |
-| 5. Incident Response | Detecting and reporting issues | AI Incident Report Form |
+| 1. Transparency | Clear information on AI use | AI Use Policy, AI Change Management, AI Vendor Evaluation Checklist, AI Assurance |
+| 2. Accountability | Assigning responsibility | AI Use Policy, AI Readiness Checklist, AI Change Management, AI Implementation Roadmap, Human Oversight Plan *(coming soon)* |
+| 3. Risk Assessment | Evaluating risks before use | AI Risk Assessment Form, AI Risk Register, AI Industry-Specific Risks, AI Readiness Checklist, AI Implementation Roadmap, AI Vendor Evaluation Checklist |
+| 4. Data Governance | Data quality, bias, provenance | AI Vendor Evaluation Checklist, Data Management & Quality Checklist *(coming soon)* |
+| 5. Incident Response | Detecting and reporting issues | AI Incident Report Form, AI Assurance |
 | 6. Security | Cyber and system safeguards | AI Risk Assessment Form |
-| 7. Supply Chain | Vendor and third-party risk | Vendor Assessment Checklist |
-| 8. Human Oversight | Human-in-the-loop checks | Human Oversight Plan *(coming soon)* |
-| 9. Governance & Oversight | Strategic alignment, leadership | AI Project Register |
-| 10. Lifecycle Management | Monitoring, improvement, decommissioning | AI Project Register, AI Model Monitoring Log *(coming soon)* |
+| 7. Supply Chain | Vendor and third-party risk | AI Vendor Evaluation Checklist |
+| 8. Human Oversight | Human-in-the-loop checks | AI Change Management, Human Oversight Plan *(coming soon)* |
+| 9. Governance & Oversight | Strategic alignment, leadership | AI Project Register, AI Readiness Checklist, AI Implementation Roadmap |
+| 10. Lifecycle Management | Monitoring, improvement, decommissioning | AI Project Register, AI Implementation Roadmap, AI Assurance, AI Model Monitoring Log *(coming soon)* |
 
 ---
 
@@ -109,7 +129,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
       "name": "What AI governance templates are available from SafeAI Aus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We provide practical, Australia-focused templates including an AI Use Policy, AI Risk Assessment, AI Risk Register, AI Industry-Specific Risks, AI Incident Report, AI Vendor Evaluation, AI Project Register, and related checklists to help Australian businesses start safely and quickly."
+        "text": "We provide practical, Australia-focused templates including an AI Readiness Checklist, AI Change Management guide, AI Implementation Roadmap, AI Vendor Selection Guide, AI Use Policy, AI Risk Assessment, AI Risk Register, AI Industry-Specific Risks, AI Incident Report, AI Vendor Evaluation Checklist, AI Project Register, and AI Assurance framework to help Australian businesses implement safe AI governance end-to-end."
       }
     },
     {
@@ -141,7 +161,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (10 Gu
       "name": "How do I get started with the templates?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Start with the AI Use Policy and AI Risk Assessment. Then implement the Vendor Evaluation checklist before procuring tools, and add the Risk Register, Incident Report and Project Register for ongoing governance and learning."
+        "text": "Start with the AI Readiness Checklist to assess your organisation's preparedness. Then implement the AI Use Policy and AI Risk Assessment. Use the AI Change Management guide and AI Implementation Roadmap when planning your first project, and the AI Vendor Selection Guide before procuring tools. Add the Risk Register, Incident Report, and Project Register for ongoing governance and learning."
       }
     }
   ]

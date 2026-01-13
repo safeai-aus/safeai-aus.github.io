@@ -70,16 +70,8 @@ Each stage has clear objectives, typical timeframes, and "what done looks like" 
   - Key fields: use case, owner, risk rating, status, decisions made
 
 - **Run small pilots with clear parameters:**
-  - **Pilot group size:** 5-15 people
-    - **Why this size:** Large enough to generate meaningful data, small enough to support intensively
-    - **Too small (1-3 people):** Doesn't reveal process or workflow issues
-    - **Too large (30+ people):** Support burden becomes overwhelming, problems scale quickly
-
-  - **Pilot duration:** 4-8 weeks for initial learning
-    - **Week 1-2:** Setup, training, initial use with high support
-    - **Week 3-5:** Regular use, feedback collection, issue resolution
-    - **Week 6-8:** Evaluation, decision preparation
-    - **Longer pilots (8-12 weeks):** Appropriate for defensive/security use cases or complex workflows
+  - **Pilot group size:** 5-15 people (large enough for meaningful data, small enough to support intensively)
+  - **Pilot duration:** 4-8 weeks (setup/training → regular use/feedback → evaluation; 8-12 weeks for defensive/security use cases)
 
   - **Success criteria examples:**
     - "Reduces document drafting time by 20% while maintaining quality"
@@ -96,7 +88,7 @@ Each stage has clear objectives, typical timeframes, and "what done looks like" 
 
 - **Complete AI Readiness Checklists:**
   - Use the [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md) for each pilot
-  - Document risk assessment, privacy considerations, approval
+  - Document risk assessment (use [AI Risk Assessment Checklist](../governance-templates/ai-risk-assessment-checklist.md) for detailed evaluation), privacy considerations, approval
   - Lightweight but systematic
 
 - **Capture lessons learned:**
@@ -145,7 +137,7 @@ At the end of Stage 1, you should have:
 
 - **Introduce approval and risk checks for new AI projects:**
   - Expand the [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md) into standard project approval process
-  - New AI initiatives can't start without basic documentation and risk assessment
+  - New AI initiatives can't start without basic documentation and risk assessment (use [AI Risk Assessment Checklist](../governance-templates/ai-risk-assessment-checklist.md))
   - Keep it lightweight – appropriate to risk level, not bureaucratic
 
 - **Make the system register part of business-as-usual:**
@@ -160,6 +152,7 @@ At the end of Stage 1, you should have:
   - Feed lessons back into training, documentation, and tool configuration
 
 - **Publish AI use guidelines for staff:**
+  - Use the [AI Use Policy template](../governance-templates/ai-use-policy.md) as a starting point
   - Dos and don'ts for common use cases
   - When to use AI vs when not to
   - How to review AI outputs (what to look for)
@@ -187,15 +180,8 @@ At the end of Stage 2, you should have:
 ✓ **Maintained system register** – single source of truth for all AI use  
 ✓ **Working incident reporting** – staff know how to report issues, reports are actually reviewed  
 ✓ **Published guidelines** – staff know what's expected when using AI tools  
-✓ **Regular review cadence** – governance isn't "set and forget"  
+✓ **Regular review cadence** – governance isn't "set and forget"
 ✓ **Systematic risk management** – you can answer "where do we use AI and what are the risks?"
-
-**You should be able to answer:**
-- What AI systems are we using and who owns each one?
-- What risks have been identified and how are we managing them?
-- How many AI incidents have we had and what did we learn?
-- What are staff allowed and not allowed to do with AI tools?
-- When was each system last reviewed?
 
 ---
 
@@ -304,56 +290,27 @@ In the continuous improvement stage, you should have:
 
 ---
 
-## Your next steps based on where you are
+## Your next steps
 
-### If you haven't started pilots yet:
+**Haven't started pilots?** Review [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md), complete [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md), set up [AI System Register](../governance-templates/ai-project-register.md), and evaluate vendors using [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md).
 
-1. Review [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md) and complete [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)
-2. Set up your [AI System Register](../governance-templates/ai-project-register.md)
-3. Evaluate 2-3 vendors using [AI Vendor Selection Guide](ai-vendor-selection-guide.md)
-4. Design pilot: 5-15 people, 4-8 weeks, clear success criteria and exit conditions
+**Running pilots now?** Confirm clear success criteria and exit conditions. Collect feedback weekly. Review [AI Change Management](ai-change-management.md). Update your system register.
 
-### If you're running pilots now:
-
-1. Confirm you have clear success criteria, exit conditions, and a decision timeline
-2. Collect feedback weekly and document lessons as you go
-3. Review change management against [AI Change Management](ai-change-management.md)
-4. Update your system register with pilot status and findings
-
-### If you're ready to scale:
-
-1. Confirm pilot met success criteria with evidence (don't scale based on enthusiasm alone)
-2. Review guardrails from [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
-3. Develop training materials and identify team-level champions
-4. Set up [incident reporting](../governance-templates/ai-incident-report-form.md) and plan for 2-3x more support
+**Ready to scale?** Confirm pilot met success criteria with evidence. Develop training materials and identify champions. Set up [incident reporting](../governance-templates/ai-incident-report-form.md) and plan for 2-3x more support.
 
 ---
 
 ## Key takeaways
 
-**The roadmap:**
-- Four stages: Explore → Standardise → Scale → Assure
-- Each stage has clear objectives and "done" criteria
-- Don't skip stages to move faster – each builds on the previous
+**Four stages:** Explore → Standardise → Scale → Assure. Each has clear objectives and "done" criteria. Don't skip stages.
 
-**Pilot design:**
-- 5-15 people, 4-8 weeks
-- Clear success criteria and exit conditions
-- Weekly feedback, documented lessons
-- Be prepared to stop pilots that aren't working
+**Pilot design:** 5-15 people, 4-8 weeks. Clear success criteria and exit conditions. Be prepared to stop what isn't working.
 
-**Scaling decisions:**
-- Scale based on evidence, not enthusiasm
-- Plan for more support than pilots required
-- Expand gradually, don't try to scale everything at once
+**Scaling:** Scale based on evidence, not enthusiasm. Plan for 2-3x more support. Expand gradually.
 
-**Ongoing assurance:**
-- Regular reviews (quarterly for high-risk, annual for low-risk)
-- Learn from incidents, refine controls
-- Adjust to regulatory and technology changes
+**Ongoing:** Regular reviews (quarterly for high-risk, annual for low-risk). Learn from incidents. Adjust to regulatory changes.
 
-**Remember:**  
-Perfect is the enemy of good. The goal is deliberate progress with appropriate safeguards, not flawless execution. Start small, learn fast, scale what works, and build assurance into your routine.
+**Remember:** Perfect is the enemy of good. Start small, learn fast, scale what works, and build assurance into your routine.
 
 ---
 
@@ -361,7 +318,7 @@ Perfect is the enemy of good. The goal is deliberate progress with appropriate s
 
 - [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
 - [AI Change Management](ai-change-management.md)
-- [AI Vendor Selection Guide](ai-vendor-selection-guide.md)
+- [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
 - [AI Project Register Template](../governance-templates/ai-project-register.md)
 - [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)
 - [AI Incident Report Form](../governance-templates/ai-incident-report-form.md)
