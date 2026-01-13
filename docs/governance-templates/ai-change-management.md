@@ -41,24 +41,9 @@ If you're asking "How do we get people on board with AI?" or "Why isn't our AI p
 
 ## Why change management matters
 
-AI adoption fails for predictable reasons:
+AI adoption fails when staff don't understand the "why," concerns about job security go unaddressed, training focuses on clicking buttons rather than workflow changes, or feedback disappears into a void. The result: Low adoption, workarounds, and abandoned tools despite significant investment.
 
-- Staff don't understand why the change is happening or what's in it for them
-- Concerns about job security aren't addressed openly
-- Training focuses on "how to click buttons" rather than "how work will change"
-- Early adopters get no support when they hit problems
-- Feedback gets collected but nothing visibly changes
-
-The result: Low adoption rates, workarounds, and abandoned tools despite significant investment.
-
-**The data is clear:** Organisations that invest in change management see:
-
-- 7x higher likelihood of meeting AI project objectives
-- Faster time to value (months vs years)
-- Higher sustained adoption rates
-- Fewer incidents and quality issues
-
-Change management isn't "nice to have" – it's the difference between success and expensive failure.
+**Organisations with effective change management are 7x more likely to meet AI project objectives**, with faster time to value, higher sustained adoption, and fewer incidents. It's the difference between success and expensive failure.
 
 ---
 
@@ -241,58 +226,9 @@ Monitor:
 
 ## Regional and connectivity considerations
 
-Regional Australian businesses face specific challenges when adopting AI tools. Plan for these differences:
+**For regional Australian businesses**, test AI tools with your actual infrastructure before committing – cloud tools may perform poorly with limited bandwidth. Consider hybrid solutions with local processing. Video training across time zones, recorded sessions, and strong written documentation work better than relying on in-person support.
 
-### Infrastructure realities
-
-**Internet connectivity:**
-
-- Cloud-based AI tools may perform poorly in areas with limited bandwidth
-- Test tools with your actual regional infrastructure before committing
-- Consider hybrid solutions where some processing happens locally
-- Budget for connectivity upgrades if AI adoption is a strategic priority
-
-**What this looks like in practice:**  
-A regional aged care provider tested an AI documentation tool with their slowest internet connection before committing. They discovered unacceptable lag times and negotiated a hybrid solution with local caching.
-
-### Remote team coordination
-
-**Challenges:**
-
-- Pilot groups might be geographically distributed
-- In-person training and support is difficult
-- Different teams may have different infrastructure quality
-
-**Approaches that work:**
-
-- Schedule video training sessions that work across time zones
-- Record training sessions for asynchronous access
-- Create strong written documentation since in-person support is harder
-- Use regional champions who can provide local support
-- Build in extra time for remote troubleshooting
-
-### Finding support
-
-**Local expertise may be limited:**
-
-- Regional areas may have fewer AI consultants or technical specialists
-- Remote support and online training may be primary options
-- Consider partnering with city-based providers who offer remote support
-
-**Peer learning can fill gaps:**
-
-- Connect with other regional businesses in your industry
-- Local business chambers or regional development organisations may facilitate connections
-- Online communities and forums can supplement local networks
-
-### Regional advantages
-
-**Don't overlook benefits:**
-
-- Smaller, tighter teams may adopt new tools more cohesively
-- Stronger relationships with suppliers may mean more hands-on support
-- Less complex systems might make pilots simpler to coordinate
-- Culture of "making do" can mean creative problem-solving
+**Support challenges:** Regional areas may have limited AI expertise. Remote support, online training, and peer networks through business chambers can fill gaps. Regional advantages include tighter teams, stronger supplier relationships, and creative problem-solving cultures.
 
 ---
 
@@ -303,8 +239,8 @@ Change management doesn't happen in isolation. It needs to connect to:
 **Before you start:**  
 Review [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md) to choose appropriate first use cases and avoid common mistakes.
 
-**Vendor selection:**  
-See [AI Vendor Selection Guide](ai-vendor-selection-guide.md) – vendor support quality matters enormously for change management success.
+**Vendor selection:**
+See [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md) – vendor support quality matters enormously for change management success.
 
 **Pilot planning and scaling:**  
 See [AI Implementation Roadmap](ai-implementation-roadmap.md) for practical guidance on pilot sizing, timeframes, success criteria, and when to scale.
@@ -313,40 +249,22 @@ See [AI Implementation Roadmap](ai-implementation-roadmap.md) for practical guid
 
 ## Key takeaways
 
-**Before pilots:**
+**Before pilots:** Get buy-in through conversation, not announcement. Address concerns proactively. Set clear expectations.
 
-- Get buy-in through conversation, not announcement
-- Address concerns proactively with honest, specific answers
-- Set clear expectations about timeline, commitment, and success criteria
+**During pilots:** Communicate weekly. Act on feedback visibly. Support different learning styles.
 
-**During pilots:**
+**When scaling:** Plan for 2-3x more support. Tailor messages by stakeholder group. Track adoption, not just deployment.
 
-- Communicate weekly, not monthly
-- Make feedback easy and act on it visibly
-- Support different learning styles
+**Regional context:** Test with actual infrastructure. Build strong documentation. Leverage peer networks.
 
-**When scaling:**
-
-- Plan for 2-3x more support than pilots required
-- Tailor messages to different stakeholder groups
-- Track actual adoption, not just deployment
-- Be prepared to adjust based on real usage patterns
-
-**Regional context matters:**
-
-- Test tools with actual infrastructure before committing
-- Build strong documentation for remote support
-- Leverage peer networks when local expertise is limited
-
-**Most importantly:**  
-Remember the seven times multiplier. Time invested in change management delivers returns through higher adoption, faster value, and fewer problems. It's not overhead – it's the work.
+**Remember:** Organisations with effective change management are 7x more likely to meet objectives. Time invested delivers returns through higher adoption, faster value, and fewer problems.
 
 ---
 
 ## Further resources
 
 - [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
-- [AI Vendor Selection Guide](ai-vendor-selection-guide.md)
+- [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
 - [AI Implementation Roadmap](ai-implementation-roadmap.md)
 - [AI Project Register Template](../governance-templates/ai-project-register.md)
 - [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)

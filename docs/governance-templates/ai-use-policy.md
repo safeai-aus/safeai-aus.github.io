@@ -58,7 +58,7 @@ This policy aims to:
 - Support organisational objectives.  
 - Comply with Australian laws and standards.  
 - Protect privacy, data, and intellectual property (IP).  
-- Align with the Australian Government’s Voluntary AI Safety Standard (10 Guardrails).  
+- Align with the Australian Government's Voluntary AI Safety Standard (VAISS) - 10 Guardrails.  
 - Reference emerging international standards, including ISO/IEC 42001:2023 Artificial Intelligence Management System (AIMS).
 
 ---
@@ -170,7 +170,7 @@ This policy will be reviewed at least annually, or sooner if required by law, or
 ---
 
 ### 11. Related Standards & References
-This policy is guided by relevant standards and legislation that inform responsible AI practice. These include:  
+This policy is guided by relevant standards and legislation that inform responsible AI practice. These include:
 
 - Australian Government Voluntary AI Safety Standard (2024) – 10 Guardrails  
 - ISO/IEC 42001:2023 – AI Management System (AIMS)  
@@ -212,7 +212,7 @@ Common Scenarios:
 
 ---
 
-## How this template implements AI6 and the Voluntary AI Safety Standard
+## How this template implements AI6 and VAISS
 
 ### AI6 practices supported by this template
 
