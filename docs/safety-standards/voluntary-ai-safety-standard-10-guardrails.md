@@ -17,7 +17,7 @@ twitter_description: "Comprehensive guide to Australia's Voluntary AI Safety Sta
 
 # Voluntary AI Safety Standard (10 Guardrails)
 
-Australia’s **Voluntary AI Safety Standard** provides ten practical guardrails organisations can adopt now to deploy and use AI safely and responsibly.  
+Australia's **Voluntary AI Safety Standard (VAISS)** provides ten practical guardrails organisations can adopt now to deploy and use AI safely and responsibly.  
 
 The standard was developed by the Department of Industry, Science and Resources (DISR) and first published in November 2023. In 2024, the guardrails were updated following consultation to align more closely with the Government’s proposed mandatory guardrails for high-risk AI applications.  
 
@@ -79,7 +79,7 @@ The Guidance for AI Adoption condenses the 10 VAISS guardrails into 6 essential 
   - building or updating AI policies and standards
   - designing AI risk assessments and risk registers
   - writing contractual clauses and supplier questionnaires.
-- Where you see references to the "Voluntary AI Safety Standard" or "guardrails" in external documents, you can confidently interpret them through this AI6 lens.
+- Where you see references to "VAISS" or "guardrails" in external documents, you can confidently interpret them through this AI6 lens.
 
 ## How to use this in your business
 1. Adopt the 10 guardrails as acceptance criteria for any AI initiative.  

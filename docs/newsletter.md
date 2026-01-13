@@ -1,7 +1,6 @@
 ---
-title: "Newsletter Archive & RSS Subscriptions"
-description: "Browse the SafeAI-Aus newsletter changelog and RSS feeds. This archive is available for transparency but is set to noindex."
-robots: "noindex, follow"
+title: "Subscribe to Our Newsletter"
+description: "Stay informed with news, resources, and practical tools on safe and responsible AI adoption in Australia."
 ---
 
 # Subscribe to Our Newsletter
@@ -29,27 +28,16 @@ Stay informed with news, resources, and practical tools on safe and responsible 
 
 ---
 
-If you want to follow the meaningful changes of this site, you can either:
+## About This Newsletter
 
-* [Subscribe to the RSS feed](#rss-feed)
-* [Browse the Newsletter section](#newsletter-section)
+We share:
 
-## RSS feed
+- **Templates & Tools**: Practical governance templates, checklists, and frameworks
+- **Policy Updates**: Changes to Australian AI legislation and standards
+- **Research Highlights**: Key findings from AI safety and governance research
+- **Workshop Materials**: Resources from our community events and training sessions
+- **Curated Resources**: Carefully selected tools and frameworks for safe AI adoption
 
-You can choose how often you want to see the site updates:
+**Frequency**: Occasional updates (typically monthly) — we respect your inbox.
 
-* [Daily](https://safeaiaus.org/daily.xml)
-* [Weekly](https://safeaiaus.org/weekly.xml)
-* [Monthly](https://safeaiaus.org/monthly.xml)
-* [Yearly](https://safeaiaus.org/yearly.xml)
-
-## Newsletter section
-
-We aggregate the changes by year, month, week and day. You can navigate this section to
-see the latest changes.
-
-## Credits
-
-The newsletters and the RSS feeds are automatically created from the message commits of
-the repository thanks to the
-[mkdocs-newsletter](https://lyz-code.github.io/mkdocs-newsletter/) plugin.
+**Privacy**: We use [Listmonk](https://listmonk.app/) for newsletter management. Your email is only used for this newsletter and is never shared with third parties. You can unsubscribe at any time.
