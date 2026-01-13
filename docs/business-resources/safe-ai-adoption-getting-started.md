@@ -115,7 +115,7 @@ Learning from others' missteps can save you time and money:
 
 **Why it matters:** Organisations with effective change management are seven times more likely to meet AI project objectives.
 
-**What to do instead:** See our dedicated [AI Change Management](ai-change-management.md) page for comprehensive guidance.
+**What to do instead:** See our dedicated [AI Change Management](../governance-templates/ai-change-management.md) page for comprehensive guidance.
 
 ### 2. Piloting with too large a group
 
@@ -139,7 +139,7 @@ Learning from others' missteps can save you time and money:
 
 **The mistake:** Choosing the first tool that looks good or going with "whatever everyone else uses" without proper evaluation.
 
-**What to do instead:** Use our [AI Vendor Selection Guide](ai-vendor-selection-guide.md) to evaluate options systematically.
+**What to do instead:** Use our [AI Vendor Evaluation Checklist](../governance-templates/ai-vendor-evaluation-checklist.md) to evaluate options systematically.
 
 ---
 
@@ -230,7 +230,7 @@ For each new AI use, you should be able to answer:
 
 These questions link directly to the upcoming AI assurance guidance on transparency, auditing, and reporting.
 
-**Connection to Voluntary AI Safety Standard:** The Australian Government's Voluntary AI Safety Standard emphasises transparency, fairness, and accountability. Your guardrails should demonstrate how you're meeting these principles:
+**Connection to VAISS:** The Australian Government's Voluntary AI Safety Standard (VAISS) emphasises transparency, fairness, and accountability. Your guardrails should demonstrate how you're meeting these principles:
 
 - **Transparency:** Clear documentation in your system register
 - **Fairness:** Risk assessment processes that consider bias and discrimination
@@ -242,14 +242,14 @@ These questions link directly to the upcoming AI assurance guidance on transpare
 
 Once you understand where to start and what mistakes to avoid, you'll need practical guidance on:
 
-**Making it work with people:**  
-See [AI Change Management](ai-change-management.md) for detailed guidance on getting buy-in, addressing concerns, and supporting staff through AI adoption. This is critical – organisations with effective change management are seven times more likely to meet AI objectives.
+**Making it work with people:**
+See [AI Change Management](../governance-templates/ai-change-management.md) for detailed guidance on getting buy-in, addressing concerns, and supporting staff through AI adoption. This is critical – organisations with effective change management are seven times more likely to meet AI objectives.
 
-**Choosing the right tools:**  
-See [AI Vendor Selection Guide](ai-vendor-selection-guide.md) for red flags to watch for, key questions to ask vendors, and how to evaluate tools systematically.
+**Choosing the right tools:**
+See [AI Vendor Evaluation Checklist](../governance-templates/ai-vendor-evaluation-checklist.md) for red flags to watch for, key questions to ask vendors, and how to evaluate tools systematically.
 
-**Running pilots and scaling:**  
-See [AI Implementation Roadmap](ai-implementation-roadmap.md) for step-by-step guidance on pilot sizing, success criteria, when to scale (or stop), and ongoing assurance activities.
+**Running pilots and scaling:**
+See [AI Implementation Roadmap](../governance-templates/ai-implementation-roadmap.md) for step-by-step guidance on pilot sizing, success criteria, when to scale (or stop), and ongoing assurance activities.
 
 ---
 

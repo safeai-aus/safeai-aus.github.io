@@ -93,7 +93,6 @@ plugins:
       locale: en
   - autolinks
   - section-index
-  - mkdocs-newsletter
   # - minify:
   #     minify_html: true
 
@@ -102,32 +101,42 @@ hooks:
 
 nav:
   - Home: index.md
-  - About: about.md
-  - Contact: contact.md
-  - Glossary: glossary.md
-  - AI Safety & Standards:
-      - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
-      - Guidance for AI Adoption (AI6): safety-standards/guidance-for-ai-adoption-ai6.md
-      - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md
-      - International AI Legal Overview: safety-standards/international-ai-legal-overview.md
+  - AI Standards & Legislation:
+      - safety-standards/index.md
+      - Australian Standards:
+          - Relevant Australian Legislation: safety-standards/ai-australian-legislation.md
+          - Voluntary AI Safety Standard (10 Guardrails): safety-standards/voluntary-ai-safety-standard-10-guardrails.md
+          - Guidance for AI Adoption (AI6): safety-standards/guidance-for-ai-adoption-ai6.md
+      - International Context:
+          - International AI Legal Overview: safety-standards/international-ai-legal-overview.md
   - Governance Templates:
-      - Policy & Template Library: governance-templates/policy-template-library.md
-      - AI Readiness Checklist: governance-templates/ai-readiness-checklist.md
-      - AI Use Policy: governance-templates/ai-use-policy.md
-      - AI Incident Report Form: governance-templates/ai-incident-report-form.md
-      - AI Risk Assessment Checklist: governance-templates/ai-risk-assessment-checklist.md
-      - AI Risk Register: governance-templates/ai-risk-register.md
-      - AI Risks by Industry (Australia): governance-templates/ai-risks-by-industry.md
-      - AI Vendor Evaluation Checklist: governance-templates/ai-vendor-evaluation-checklist.md
-      - AI Project Register: governance-templates/ai-project-register.md
-      - AI Assurance – Transparency, Auditing & Reporting: governance-templates/ai-assurance-transparency-auditing-reporting.md
+      - Overview: governance-templates/policy-template-library.md
+      - Getting Started:
+          - AI Readiness Checklist: governance-templates/ai-readiness-checklist.md
+      - Implementation Guides:
+          - AI Change Management: governance-templates/ai-change-management.md
+          - AI Implementation Roadmap: governance-templates/ai-implementation-roadmap.md
+      - Risk Management & Assurance:
+          - AI Risk Assessment Checklist: governance-templates/ai-risk-assessment-checklist.md
+          - AI Risk Register: governance-templates/ai-risk-register.md
+          - AI Risks by Industry (Australia): governance-templates/ai-risks-by-industry.md
+          - AI Assurance – Transparency, Auditing & Reporting: governance-templates/ai-assurance-transparency-auditing-reporting.md
+      - Policies & Forms:
+          - AI Use Policy: governance-templates/ai-use-policy.md
+          - AI Project Register: governance-templates/ai-project-register.md
+          - AI Vendor Evaluation Checklist: governance-templates/ai-vendor-evaluation-checklist.md
+          - AI Incident Report Form: governance-templates/ai-incident-report-form.md
   - Practical Business Resources:
-      - Safe AI Adoption - Getting Started: business-resources/safe-ai-adoption-getting-started.md
-      - AI Change Management: business-resources/ai-change-management.md
-      - AI Vendor Selection Guide: business-resources/ai-vendor-selection-guide.md
-      - AI Implementation Roadmap: business-resources/ai-implementation-roadmap.md
-      - AI Grants & Funding: business-resources/ai-grants-funding-australia.md
-      - Tools & Frameworks: business-resources/ai-aus-tools-frameworks.md
-      - State & Territory AI Resources: business-resources/state-territory-ai-resources.md
-      - AI Learning & Development Directory: business-resources/ai-learning-development-directory.md
-  
+      - business-resources/index.md
+      - Getting Started:
+          - Safe AI Adoption - Getting Started: business-resources/safe-ai-adoption-getting-started.md
+      - Resources:
+          - AI Grants & Funding: business-resources/ai-grants-funding-australia.md
+          - Tools & Frameworks: business-resources/ai-aus-tools-frameworks.md
+          - State & Territory AI Resources: business-resources/state-territory-ai-resources.md
+          - AI Learning & Development Directory: business-resources/ai-learning-development-directory.md
+  - About:
+      - About: about.md
+      - Contact: contact.md
+      - Newsletter: newsletter.md
+      - Glossary: glossary.md
