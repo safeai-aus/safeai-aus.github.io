@@ -1,4 +1,4 @@
-name: Deploy MkDocs to GitHub Pages
+name: Deploy Zensical to GitHub Pages
 
 on:
   push:
@@ -24,27 +24,24 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install git+https://github.com/zensical/zensical.git
       - name: Build site
-        run: mkdocs build --strict --site-dir site
+        run: zensical build
       - name: Generate sitemap.xml
         run: |
           python - << 'PY'
-          import os, re
+          import os, re, tomllib
           import xml.etree.ElementTree as ET
 
-          # Extract site_url without parsing YAML (handles Material emoji tags)
+          # Extract site_url from zensical.toml
           site_url = ''
-          with open('mkdocs.yml', 'r', encoding='utf-8') as f:
-              for line in f:
-                  m = re.match(r"\s*site_url:\s*(\S+)", line)
-                  if m:
-                      site_url = m.group(1)
-                      break
+          with open('zensical.toml', 'rb') as f:
+              config = tomllib.load(f)
+              site_url = config.get('project', {}).get('site_url', '')
           base_url = (site_url or '').rstrip('/') + '/'
           site_dir = 'site'
 

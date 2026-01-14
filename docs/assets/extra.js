@@ -27,19 +27,6 @@
         document.addEventListener('DOMContentLoaded', loadAnalytics, { once: true });
     }
 
-    function getRevisionDateISO() {
-        const revisionMeta = document.querySelector('meta[name="page:git-revision-date-iso"]');
-        if (revisionMeta?.content) {
-            return revisionMeta.content;
-        }
-
-        if (typeof window.__SAFEAI_PAGE_REVISION__ === 'string' && window.__SAFEAI_PAGE_REVISION__) {
-            return window.__SAFEAI_PAGE_REVISION__;
-        }
-
-        return null;
-    }
-
     function getCanonicalUrl() {
         const canonicalLink = document.querySelector('link[rel="canonical"]');
         if (canonicalLink?.href) {
@@ -156,11 +143,11 @@
         }
         siteOrigin = siteOrigin.replace(/\/$/, '');
 
-        const revisionDateISO = getRevisionDateISO();
+        // Use document.lastModified as fallback for dates (git revision dates not available in Zensical yet)
         const fallbackDate = new Date(document.lastModified);
         const fallbackISO = Number.isNaN(fallbackDate.getTime()) ? new Date().toISOString() : fallbackDate.toISOString();
-        const datePublished = revisionDateISO || fallbackISO;
-        const dateModified = revisionDateISO || fallbackISO;
+        const datePublished = fallbackISO;
+        const dateModified = fallbackISO;
 
         const keywordMeta = document.querySelector('meta[name="keywords"]')?.content || '';
         const keywords = keywordMeta

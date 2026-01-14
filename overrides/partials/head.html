@@ -21,13 +21,7 @@
 {# -- Basic metadata ------------------------------------------------------ #}
 {% set title = meta.og_title or meta.title or page.title or config.site_name %}
 {% set description = meta.og_description or meta.description or config.site_description %}
-{% if meta.get is defined %}
-  {% set robots = meta.get('robots') %}
-{% elif meta.robots is defined %}
-  {% set robots = meta.robots %}
-{% else %}
-  {% set robots = none %}
-{% endif %}
+{% set robots = meta.robots if meta.robots is defined else none %}
 {% set keywords = meta.keywords %}
 {% set author = meta.author or config.site_author %}
 
@@ -97,48 +91,7 @@
   <meta name="twitter:creator" content="{{ twitter_creator | e }}">
 {% endif %}
 
-{# -- Git revision metadata (used by custom scripts) ---------------------- #}
-{% if meta.git_revision_date_localized %}
-  {% set revision = meta.git_revision_date_localized %}
-  {% set iso = meta.git_revision_date_localized_raw_iso_datetime | default(None, true) %}
-  {% if iso %}
-    {% set iso = iso | replace(' ', 'T') %}
-    {% if 'T' in iso %}
-      {% set time_part = iso.split('T')[1] %}
-      {% if 'Z' not in iso and '+' not in time_part and '-' not in time_part %}
-        {% set iso = iso ~ 'Z' %}
-      {% endif %}
-    {% endif %}
-  {% else %}
-    {% set iso = meta.git_revision_date_localized_raw_iso_date | default(None, true) %}
-  {% endif %}
-  {% if iso is none %}
-    {% if revision is string %}
-      {% set iso = revision %}
-    {% else %}
-      {% set iso_attr = revision | attr('isoformat') %}
-      {% if iso_attr is defined %}
-        {% if iso_attr is callable %}
-          {% set iso = iso_attr() %}
-        {% else %}
-          {% set iso = iso_attr %}
-        {% endif %}
-      {% endif %}
-      {% if iso is none %}
-        {% set iso = revision %}
-      {% endif %}
-    {% endif %}
-  {% endif %}
-  {% if iso %}
-    <meta name="page:git-revision-date-iso" content="{{ iso | e }}">
-    <script>
-      (function () {
-        var revisionMeta = document.querySelector('meta[name="page:git-revision-date-iso"]');
-        window.__SAFEAI_PAGE_REVISION__ = revisionMeta ? revisionMeta.content : undefined;
-      })();
-    </script>
-  {% endif %}
-{% endif %}
+{# Note: Git revision dates not yet supported in Zensical - will be re-enabled when available #}
 
 {# -- FAQ structured data (curated per page) ------------------------------ #}
 {% if meta.faq %}

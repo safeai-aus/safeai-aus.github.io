@@ -1,0 +1,161 @@
+# ============================================================================
+# SafeAI-Aus Zensical Configuration
+# Migrated from MkDocs Material to Zensical
+# ============================================================================
+
+[project]
+
+# Site metadata
+site_name = "SafeAI-Aus"
+site_description = "Australian AI Safety Knowledge Hub — practical tools, open standards, and trusted guidance for responsible AI adoption."
+site_author = "SafeAI-Aus"
+site_url = "https://safeaiaus.org/"
+
+# Repository settings
+repo_url = "https://github.com/safeai-aus/safeai-aus.github.io"
+repo_name = "SafeAI-Aus"
+edit_uri = "edit/main/docs/"
+
+# Copyright notice (appears in footer)
+copyright = """
+© SafeAI-Aus — Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+See our <a href="https://safeaiaus.org/about/#attribution--licence">full licence and disclaimer</a> for details.
+"""
+
+# Custom CSS and JavaScript
+# Note: CSS moved from assets/ to stylesheets/ per Zensical convention
+extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["assets/performance-safe.js", "assets/extra.js"]
+
+# Navigation structure
+nav = [
+  { "Home" = "index.md" },
+  { "AI Standards & Legislation" = [
+    { "Overview" = "safety-standards/index.md" },
+    { "Australian Standards" = [
+      { "Relevant Australian Legislation" = "safety-standards/ai-australian-legislation.md" },
+      { "Voluntary AI Safety Standard (10 Guardrails)" = "safety-standards/voluntary-ai-safety-standard-10-guardrails.md" },
+      { "Guidance for AI Adoption (AI6)" = "safety-standards/guidance-for-ai-adoption-ai6.md" },
+    ]},
+    { "International Context" = [
+      { "International AI Legal Overview" = "safety-standards/international-ai-legal-overview.md" },
+    ]},
+  ]},
+  { "Governance Templates" = [
+    { "Overview" = "governance-templates/policy-template-library.md" },
+    { "Getting Started" = [
+      { "AI Readiness Checklist" = "governance-templates/ai-readiness-checklist.md" },
+    ]},
+    { "Implementation Guides" = [
+      { "AI Change Management" = "governance-templates/ai-change-management.md" },
+      { "AI Implementation Roadmap" = "governance-templates/ai-implementation-roadmap.md" },
+    ]},
+    { "Risk Management & Assurance" = [
+      { "AI Risk Assessment Checklist" = "governance-templates/ai-risk-assessment-checklist.md" },
+      { "AI Risk Register" = "governance-templates/ai-risk-register.md" },
+      { "AI Risks by Industry (Australia)" = "governance-templates/ai-risks-by-industry.md" },
+      { "AI Assurance – Transparency, Auditing & Reporting" = "governance-templates/ai-assurance-transparency-auditing-reporting.md" },
+    ]},
+    { "Policies & Forms" = [
+      { "AI Use Policy" = "governance-templates/ai-use-policy.md" },
+      { "AI Project Register" = "governance-templates/ai-project-register.md" },
+      { "AI Vendor Evaluation Checklist" = "governance-templates/ai-vendor-evaluation-checklist.md" },
+      { "AI Incident Report Form" = "governance-templates/ai-incident-report-form.md" },
+    ]},
+  ]},
+  { "Practical Business Resources" = [
+    { "Overview" = "business-resources/index.md" },
+    { "Getting Started" = [
+      { "Safe AI Adoption - Getting Started" = "business-resources/safe-ai-adoption-getting-started.md" },
+    ]},
+    { "Resources" = [
+      { "AI Grants & Funding" = "business-resources/ai-grants-funding-australia.md" },
+      { "Tools & Frameworks" = "business-resources/ai-aus-tools-frameworks.md" },
+      { "State & Territory AI Resources" = "business-resources/state-territory-ai-resources.md" },
+      { "AI Learning & Development Directory" = "business-resources/ai-learning-development-directory.md" },
+    ]},
+  ]},
+  { "About" = [
+    { "About" = "about.md" },
+    { "Contact" = "contact.md" },
+    { "Newsletter" = "newsletter.md" },
+    { "Glossary" = "glossary.md" },
+  ]},
+]
+
+# ----------------------------------------------------------------------------
+# Theme configuration
+# ----------------------------------------------------------------------------
+[project.theme]
+
+# Custom template directory for Airia widget and SEO overrides
+custom_dir = "overrides"
+
+# Favicon and logo
+favicon = "assets/favicon.svg"
+logo = "assets/safeaiaus-logo-600px.png"
+
+# Language
+language = "en"
+
+# Feature toggles
+features = [
+    # Navigation features
+    "navigation.instant",           # XHR-based instant loading
+    "navigation.instant.prefetch",  # Prefetch pages on hover
+    "navigation.tabs",              # Top-level tabs
+    "navigation.tabs.sticky",       # Sticky navigation tabs
+    "navigation.indexes",           # Section index pages
+    "navigation.top",               # Back-to-top button
+    "navigation.path",              # Breadcrumb navigation
+    "navigation.footer",            # Footer navigation
+    "navigation.tracking",          # URL tracking for anchors
+
+    # Search features
+    "search.highlight",             # Highlight search results
+
+    # Content features
+    "content.code.copy",            # Code copy button
+    "content.action.edit",          # Edit button linking to GitHub
+]
+
+# Icon configuration
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+# ----------------------------------------------------------------------------
+# Color schemes (light and dark mode toggle)
+# ----------------------------------------------------------------------------
+[[project.theme.palette]]
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "material/brightness-auto"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to light mode"
+
+# ----------------------------------------------------------------------------
+# Extra configuration (SEO and social media)
+# ----------------------------------------------------------------------------
+[project.extra]
+canonical_base = "https://safeaiaus.org"
+generator = false
+
+# Social media links
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/safeai-aus/safeai-aus.github.io"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/twitter"
+link = "https://twitter.com/safeai_aus"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/company/safeai-aus"
