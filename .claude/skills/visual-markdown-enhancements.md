@@ -68,6 +68,8 @@ Use admonitions for callouts and important information:
 
 **Formatting Rules:**
 - **CRITICAL:** Add blank lines before list items inside admonitions for proper rendering
+- **CRITICAL:** Use 4-space indentation for sub-bullets (not 2-space) in Zensical
+- **CRITICAL:** Add blank line after bold headers before bullet lists
 - Use meaningful titles: `!!! tip "How to Use"` not `!!! tip`
 - Keep content indented (4 spaces)
 
@@ -196,8 +198,46 @@ Read the markdown file
 
 ### Step 3: Verify Formatting
 
-**Critical checks:**
+**MANDATORY automated check before committing:**
+```bash
+# Run this script to catch formatting issues
+cat > /tmp/check_formatting.sh <<'SCRIPT'
+#!/bin/bash
+file="$1"
+errors=0
+
+echo "Checking $file for formatting issues..."
+
+# Check for bold headers without blank line before lists
+bold_without_blank=$(awk '
+  /^\*\*[^*]+:\*\*$/ {
+    bold_line = NR
+    bold_text = $0
+    getline
+    if (/^-/) {
+      print "Line " bold_line ": Missing blank line after bold header"
+      errors++
+    }
+  }
+  END { print errors }
+' "$file")
+
+if [ "$bold_without_blank" -gt 0 ]; then
+  echo "❌ Found bold headers without blank lines before lists"
+  errors=$((errors + bold_without_blank))
+fi
+
+exit $errors
+SCRIPT
+
+chmod +x /tmp/check_formatting.sh
+/tmp/check_formatting.sh "docs/path/to/file.md"
+```
+
+**Critical manual checks:**
+- [ ] RAN automated formatting check (see above) - NO ERRORS
 - [ ] Blank lines before list items inside admonitions
+- [ ] Blank lines after ALL bold headers before bullet lists
 - [ ] Proper indentation (4 spaces in admonitions)
 - [ ] No tabs in "How to Use" sections
 - [ ] Australian English throughout
@@ -226,10 +266,73 @@ git commit -m "Apply visual enhancements to <section>
 - Fix formatting in admonition sections"
 ```
 
+## Common Formatting Issues in Zensical
+
+### Issue 1: Sub-bullets Rendering as Main Bullets
+
+**Problem:** Sub-bullets with 2-space indentation render as top-level bullets instead of nested bullets.
+
+**Example (incorrect - renders flat):**
+```markdown
+- **Main point:**
+  - Sub-point (2 spaces)
+  - Sub-point (2 spaces)
+```
+
+**Solution:** Use 4-space indentation for all sub-bullets.
+
+**Example (correct - renders nested):**
+```markdown
+- **Main point:**
+    - Sub-point (4 spaces)
+    - Sub-point (4 spaces)
+```
+
+**Fix command:** `perl -i -pe 's/^  - /    - /' filename.md`
+
+### Issue 2: Lists After Bold Headers Not Rendering
+
+**Problem:** Bullet lists immediately after bold text headers render as part of the header instead of as a list.
+
+**Example (incorrect):**
+```markdown
+**Common reasons:**
+- Point one
+- Point two
+```
+
+**Solution:** Add blank line after bold header.
+
+**Example (correct):**
+```markdown
+**Common reasons:**
+
+- Point one
+- Point two
+```
+
+### Issue 3: List Items in Admonitions Not Spacing
+
+**Problem:** List items inside admonitions run together without proper spacing.
+
+**Solution:** Add blank lines between list items in admonitions (especially for tick marks).
+
+**Example (correct):**
+```markdown
+!!! success "Standards"
+    ✓ **First standard** — Description
+
+    ✓ **Second standard** — Description
+
+    ✓ **Third standard** — Description
+```
+
 ## Common Mistakes to Avoid
 
 ❌ **Don't:**
 - Use tabs for quick vs thorough approaches (consolidate instead)
+- Use 2-space indentation for sub-bullets (use 4-space)
+- Forget blank lines after bold headers before lists
 - Forget blank lines before list items in admonitions
 - Over-use emojis (keep professional)
 - Create confusing navigation (duplicate section names)
@@ -238,6 +341,8 @@ git commit -m "Apply visual enhancements to <section>
 
 ✅ **Do:**
 - Consolidate multiple approaches into single best practice
+- Use 4-space indentation for all sub-bullets
+- Add blank lines after bold headers
 - Test build after changes
 - Keep visual enhancements consistent across similar pages
 - Use Australian English
