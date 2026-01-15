@@ -264,6 +264,7 @@ Check customer references, case studies, and the vendor's history of regulatory 
 ---
 
 ### 11. Integration & Technical Capability
+Evaluate the vendor's ability to integrate with your existing technology stack and assess technical documentation quality.
 
 **Key questions:**
 - How does this integrate with our existing systems? (Microsoft 365, Salesforce, etc.)
@@ -279,35 +280,49 @@ Check customer references, case studies, and the vendor's history of regulatory 
 - Performance benchmarks established
 - Scalability limitations understood
 
+*Sources: IT Integration Best Practice; Vendor Due Diligence Standards*
+
 ---
 
 ### 12. Financial & Commercial Assessment
+Verify vendor financial stability and evaluate total commercial impact of the partnership.
 
+**Key considerations:**
 - Vendor financial health verified (credit check, annual reports)
 - Total cost of ownership calculated (licensing, implementation, maintenance)
 - ROI projections documented
 - Payment terms and conditions reviewed
 - Penalties for non-performance defined
 
+*Sources: Financial Due Diligence; Procurement Best Practice*
+
 ---
 
-### Proof of Concept / Pilot Phase
+### 13. Proof of Concept / Pilot Phase
+Define success criteria and parameters for a time-limited pilot to validate vendor claims before full commitment.
+
+**Pilot checklist:**
 - [ ] Pilot success criteria defined
 - [ ] Limited data set for testing prepared
 - [ ] Evaluation timeline established (typically 30–90 days)
 - [ ] Rollback plan documented
 - [ ] Cost of pilot agreed (if applicable)
 
+*Sources: Change Management Best Practice; AI Implementation Guidelines*
+
 ---
 
-### Documenting & Storing Results
-To ensure accountability and provide an audit trail:
+### 14. Documenting & Storing Results
+Maintain an audit trail and governance record for all vendor evaluation decisions.
 
+**Documentation requirements:**
 - Record all responses and supporting evidence provided by the vendor
 - Capture notes on any identified risks or gaps and how they will be managed
 - Store completed checklists in a secure repository (e.g. risk register, governance system, or procurement file)
 - Review and update the checklist regularly, especially when vendors release new versions or change their business practices
 - Cross-reference this checklist with your organisation's AI Risk Assessment and Incident Reporting processes for a complete governance record
+
+*Sources: Governance and Compliance Standards; Record-Keeping Best Practice*
 
 ---
 
