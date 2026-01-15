@@ -83,12 +83,14 @@ This register provides a structured way to maintain a central record of all AI i
 ---
 
 ## Status Tracking
-Overall Status: [ ] On Track  [ ] At Risk  [ ] Delayed  [ ] On Hold  [ ] Cancelled  
 
-Health Indicators:  
-- Schedule: 🟢 Green / 🟡 Amber / 🔴 Red  
-- Budget: 🟢 Green / 🟡 Amber / 🔴 Red   
-- Risk: 🟢 Green / 🟡 Amber / 🔴 Red  
+**Overall Status:** [ ] On Track  [ ] At Risk  [ ] Delayed  [ ] On Hold  [ ] Cancelled
+
+**Health Indicators:**
+
+- Schedule: 🟢 Green / 🟡 Amber / 🔴 Red
+- Budget: 🟢 Green / 🟡 Amber / 🔴 Red
+- Risk: 🟢 Green / 🟡 Amber / 🔴 Red
 - Compliance: 🟢 Green / 🟡 Amber / 🔴 Red  
 
 ---
