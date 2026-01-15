@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Readiness Checklist for Australian Businesses"
 description: "Comprehensive AI readiness checklist for Australian businesses. Assess your organisation's preparedness for safe, responsible, and effective AI adoption with our step-by-step evaluation tool."
 keywords: "AI readiness checklist, Australian business AI, AI adoption checklist, AI governance checklist, AI safety checklist, AI risk assessment, AI readiness assessment, Australian AI standards, AI implementation checklist"
@@ -17,114 +16,146 @@ twitter_description: "Comprehensive AI readiness checklist for Australian busine
 
 # AI Readiness Checklist
 
-This checklist helps Australian businesses decide if they are ready to adopt AI safely, responsibly, and effectively.  
+> **Purpose:** Assess your organisation's preparedness for safe AI adoption
+> **Audience:** Leadership, governance, and technical teams | **Time:** 15-30 minutes
 
-It reflects the **AI6 Essential Practices** released by the Australian Government and is consistent with international frameworks such as **ISO/IEC 42001:2023** and the **NIST AI Risk Management Framework**.
+!!! tip "How to Use This Checklist"
+    === "Quick Assessment (15 min)"
+        1. Read through each section individually or as a team
+        2. Tick boxes that apply to your organisation
+        3. Tally your score using the guide below
+        4. Identify priority gaps to address
 
-Tick the boxes that apply to your organisation. A higher score means greater readiness.
+    === "Team Workshop (30 min)"
+        1. Print or share this checklist with stakeholders
+        2. Discuss each section as a group
+        3. Document evidence for each checked item
+        4. Create an action plan for unchecked items
+        5. Assign owners and timeframes for improvements
 
----
-
-## 1) Strategy & Governance
-- [ ] Clear AI vision linked to business goals  
-- [ ] A designated senior executive accountable for AI initiatives  
-- [ ] An AI Use Policy covering acceptable use, privacy, and IP  
-- [ ] Approval process for new AI initiatives  
-- [ ] Change management plan for AI adoption  
-- [ ] Stakeholder communication strategy defined  
-
-## 2) Data & Privacy
-- [ ] Up-to-date data inventory and quality checks  
-- [ ] Compliance with the Privacy Act 1988 (APPs)  
-- [ ] Protections for business IP (Copyright Act 1968)  
-- [ ] Processes to anonymise or pseudonymise personal data  
-
-## 3) Risk & Impact
-- [ ] Risk and impact assessments completed (bias, safety, rights)  
-- [ ] High-risk use cases identified and controlled  
-- [ ] Sign-offs recorded before deployment  
-
-## 4) People & Skills
-- [ ] Human oversight for important decisions  
-- [ ] Staff trained on safe AI use and escalation paths  
-- [ ] Clear process for reporting incidents or issues  
-
-## 5) Testing & Monitoring
-- [ ] Pre-deployment testing (performance, fairness, robustness)  
-- [ ] Ongoing monitoring for errors, drift, and safety  
-- [ ] Records kept of models, prompts, and key decisions  
-
-## 6) Suppliers & Partners
-- [ ] Vendors align with Australia’s 10 Guardrails  
-- [ ] Contracts cover privacy, IP, and security requirements  
-- [ ] Regular review of vendor practices and updates  
-
-## 7) Financial & Resource Readiness
-- [ ] AI budget allocated and approved  
-- [ ] ROI expectations and success metrics defined  
-- [ ] Resources identified for ongoing maintenance and updates  
-- [ ] Cost-benefit analysis completed  
+This checklist reflects the **AI6 Essential Practices** released by the Australian Government and aligns with international frameworks such as **ISO/IEC 42001:2023** and the **NIST AI Risk Management Framework**.
 
 ---
 
-## Scoring (quick read)
-- **0–10**: Early stage — build governance and staff skills first  
-- Example: Organisation exploring AI but lacking formal processes  
-- **11–20**: Mid stage — ready for pilots with strong oversight  
-- Example: Organisation with basic governance running controlled AI trials  
-- **21–30**: Advanced — ready to scale with continuous improvement  
-- Example: Organisation with mature AI governance deploying multiple systems  
+## Assessment Sections
+
+### 1️⃣ Strategy & Governance
+- [ ] Clear AI vision linked to business goals
+- [ ] A designated senior executive accountable for AI initiatives
+- [ ] An AI Use Policy covering acceptable use, privacy, and IP
+- [ ] Approval process for new AI initiatives
+- [ ] Change management plan for AI adoption
+- [ ] Stakeholder communication strategy defined
+
+### 2️⃣ Data & Privacy
+- [ ] Up-to-date data inventory and quality checks
+- [ ] Compliance with the Privacy Act 1988 (APPs)
+- [ ] Protections for business IP (Copyright Act 1968)
+- [ ] Processes to anonymise or pseudonymise personal data
+
+### 3️⃣ Risk & Impact
+- [ ] Risk and impact assessments completed (bias, safety, rights)
+- [ ] High-risk use cases identified and controlled
+- [ ] Sign-offs recorded before deployment
+
+### 4️⃣ People & Skills
+- [ ] Human oversight for important decisions
+- [ ] Staff trained on safe AI use and escalation paths
+- [ ] Clear process for reporting incidents or issues
+
+### 5️⃣ Testing & Monitoring
+- [ ] Pre-deployment testing (performance, fairness, robustness)
+- [ ] Ongoing monitoring for errors, drift, and safety
+- [ ] Records kept of models, prompts, and key decisions
+
+### 6️⃣ Suppliers & Partners
+- [ ] Vendors align with Australia's 10 Guardrails
+- [ ] Contracts cover privacy, IP, and security requirements
+- [ ] Regular review of vendor practices and updates
+
+### 7️⃣ Financial & Resource Readiness
+- [ ] AI budget allocated and approved
+- [ ] ROI expectations and success metrics defined
+- [ ] Resources identified for ongoing maintenance and updates
+- [ ] Cost-benefit analysis completed
 
 ---
 
-## How this template implements AI6 and the Voluntary AI Safety Standard
+## Interpreting Your Score
 
-### AI6 practices supported by this template
+!!! info "Early Stage (0–10 items checked)"
+    **Status:** Building foundations
+    **Recommendation:** Focus on governance and staff skills before deploying AI
 
-- **Understand impacts and plan accordingly** – Section 3 ("Risk & Impact") ensures organisations assess risks and impacts before deployment.
-- **Decide who is accountable** – Section 1 ("Strategy & Governance") checks for a designated senior executive accountable for AI.
-- **Test and monitor** – Section 5 ("Testing & Monitoring") verifies that pre-deployment testing and ongoing monitoring processes are in place.
+    **Priority actions:**
 
-### VAISS guardrails supported by this template
+    1. 📋 Draft an [AI Use Policy](ai-use-policy.md)
+    2. 👥 Identify a senior executive to lead AI initiatives
+    3. 🎯 Complete [AI Risk Assessment](ai-risk-assessment-checklist.md) training
 
-- **Guardrail 9 – Governance & oversight** – Section 1 ("Strategy & Governance") aligns with the requirement for clear governance structures and accountability.
-- **Guardrail 2 – Risk management** – Section 3 ("Risk & Impact") directly supports the establishment of risk management processes.
-- **Guardrail 6 – Testing & assurance** – Section 5 ("Testing & Monitoring") confirms the existence of testing protocols for performance and fairness.
-- **Guardrail 8 – Supply chain accountability** – Section 6 ("Suppliers & Partners") ensures vendor alignment with safety standards is checked.
+    **Example:** Organisation exploring AI but lacking formal processes
+
+!!! success "Mid Stage (11–20 items checked)"
+    **Status:** Ready for pilots
+    **Recommendation:** Run controlled AI trials with strong oversight
+
+    **Priority actions:**
+
+    1. 🧪 Start small-scale pilot projects
+    2. 📊 Set up [AI Project Register](ai-project-register.md)
+    3. ⚠️ Conduct risk assessments for each use case
+
+    **Example:** Organisation with basic governance running controlled AI trials
+
+!!! success "Advanced Stage (21–30 items checked)"
+    **Status:** Ready to scale
+    **Recommendation:** Deploy with continuous improvement processes
+
+    **Priority actions:**
+
+    1. 🚀 Scale successful pilots to production
+    2. 📈 Implement [AI Assurance](ai-assurance-transparency-auditing-reporting.md) framework
+    3. 🔄 Establish regular governance reviews
+
+    **Example:** Organisation with mature AI governance deploying multiple systems
+
+---
+
+## Alignment with Australian Standards
+
+This checklist helps you verify compliance with key Australian AI frameworks:
+
+!!! success "Standards Compliance"
+    === "AI6 Essential Practices"
+        ✓ **Understand impacts and plan accordingly** — Section 3 (Risk & Impact) ensures risk assessments are completed
+        ✓ **Decide who is accountable** — Section 1 (Strategy & Governance) verifies executive accountability
+        ✓ **Test and monitor** — Section 5 (Testing & Monitoring) confirms testing protocols exist
+
+    === "Voluntary AI Safety Standard (10 Guardrails)"
+        ✓ **Guardrail 9 – Governance & oversight** — Section 1 aligns with governance structure requirements
+        ✓ **Guardrail 2 – Risk management** — Section 3 supports risk management processes
+        ✓ **Guardrail 6 – Testing & assurance** — Section 5 verifies testing for performance and fairness
+        ✓ **Guardrail 8 – Supply chain accountability** — Section 6 ensures vendor alignment checks
 
 ---
 
 ## Next Steps
-**Ready to establish AI governance policies?** → [AI Use Policy](ai-use-policy.md)
+
+**Where to go from here:**
+
+- ✅ **Score 0–10?** Start with: [AI Use Policy](ai-use-policy.md)
+- ✅ **Score 11–20?** Set up: [AI Project Register](ai-project-register.md)
+- ✅ **Score 21–30?** Implement: [AI Implementation Roadmap](ai-implementation-roadmap.md)
+
+**Related templates:**
+
+- 📋 [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md) — Evaluate specific AI systems
+- 🔄 [AI Change Management](ai-change-management.md) — Plan organizational rollout
+- 📊 [AI Vendor Evaluation](ai-vendor-evaluation-checklist.md) — Assess third-party tools
 
 ---
 
-## Template Disclaimer & Licence
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-### Disclaimer
-The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
-
-SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
-
-The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
-
-This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
-
----
-
-### Licence
-This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
-
-You are free to:  
-
-- **Share** — copy and redistribute the material in any medium or format.  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
-
-Under the following terms:  
-
-- **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
-
-**Attribution statement for reuse:**  
-“This template was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeaiaus.org/).”  
-
-Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)  
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

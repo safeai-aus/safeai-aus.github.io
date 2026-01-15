@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Risk Assessment Checklist"
 description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment. Ensure compliance with safety standards and reduce legal risks."
 keywords: "AI risk assessment, AI risk checklist, AI risk management, AI safety assessment, AI risk mitigation, Australian AI safety, AI risk evaluation"
@@ -17,148 +16,182 @@ twitter_description: "Download our free AI risk assessment checklist for Austral
 
 # AI Risk Assessment Checklist
 
-This checklist helps Australian businesses consider key risks when planning, developing, or using AI systems. It aligns with national guardrails, ethical principles, and relevant international standards.  
+> **Purpose:** Systematically identify and evaluate AI risks before deployment
+> **Audience:** Project owners, risk teams, governance leads | **Time:** 1-2 hours per system
 
-It can be used both as a **project planning tool** (to assess risks before deployment) and as part of an organisation’s **risk management framework** (for routine compliance checks and ongoing oversight).  
+!!! tip "How to Use This Checklist"
+    === "Quick Assessment (30-45 min)"
+        **Best for:** Low-risk AI systems, routine compliance checks
 
----
+        1. Work through Sections 1-8 sequentially
+        2. Record brief responses to each checkbox
+        3. Calculate risk score in Section 9
+        4. Keep completed checklist in project records
 
-## How to Use This Checklist
-**When to use:**  
+    === "Thorough Assessment (1-2 hours)"
+        **Best for:** Medium to high-risk AI systems, new deployments
 
-  - Before starting an AI project (planning and design stage).  
-  - Before deploying a new AI system into live use.  
-  - During regular reviews of an existing AI system.  
-  - As part of routine compliance checks within your organisation’s risk management framework.  
+        1. Assemble cross-functional team (tech, legal, compliance)
+        2. Work through all sections with detailed documentation
+        3. Complete quantitative risk scoring (Section 9)
+        4. Develop mitigation plan for high-risk items
+        5. Obtain sign-off before deployment
+        6. Schedule regular review cadence
 
-**How to use:**  
+This checklist aligns with **Australian AI Safety Standard (VAISS)**, **ISO/IEC 42001:2023**, and **NIST AI Risk Management Framework**.
 
-  - Work through each section and record your responses.  
-  - Treat the depth of responses as proportional to the impact: higher-risk projects need more detailed consideration.  
-  - Use plain language—responses don’t need to be long, but they should show how the risk has been thought about and addressed.  
-  - Keep the completed checklist as part of your project records.  
-
----
-
-## 1. Project Overview & Purpose
-- [ ] Have you clearly described what the AI system will do?  
-- [ ] Does it provide a clear benefit (e.g. efficiency, customer service, staff support)?  
-- [ ] Is the benefit aligned with your organisation’s goals?  
-
-*Sources: Guardrail 1; Australian AI Ethics Principle: Beneficence*  
-
----
-
-## 2. Risk Classification
-- [ ] If the AI fails or gives wrong results, could it cause harm (e.g. financial, reputational, safety)?  
-- [ ] Based on that, is the **project or system** **Low / Medium / High** impact?  
-*(For example: website chatbot = low risk; staff rostering = medium risk; automated loan approvals = high risk)*  
-
-Additional considerations for risk level:  
-
-- [ ] Number of users potentially affected: ___  
-- [ ] Financial exposure if system fails: $ ___  
-- [ ] Regulatory compliance implications assessed  
-- [ ] Reputational impact evaluated  
-
-*Sources: Guardrail 3; EU AI Act classification (adapted)*  
+!!! info "When to Use This Checklist"
+    - ✅ **Before starting** an AI project (planning and design stage)
+    - ✅ **Before deploying** a new AI system into live use
+    - ✅ **During regular reviews** of existing AI systems
+    - ✅ **As part of compliance checks** within your risk management framework
 
 ---
 
-## 3. Data Governance & Privacy/IP
-- [ ] Does the system use personal data? If so, are you complying with the **Privacy Act 1988 (APPs)**?  
-- [ ] Do you know who owns the training data and outputs (IP rights)?  
-- [ ] Are you keeping only the data you really need (data minimisation)?  
-- [ ] Can you track where the data came from (provenance)?  
+## 1️⃣ Project Overview & Purpose
 
-*Sources: Privacy Act 1988 (APPs); Guardrails 4 & 7; ISO/IEC 23894*  
+- [ ] Have you clearly described what the AI system will do?
+- [ ] Does it provide a clear benefit (e.g. efficiency, customer service, staff support)?
+- [ ] Is the benefit aligned with your organisation's goals?
 
----
-
-## 4. Security & Reliability
-- [ ] Have you taken basic cybersecurity steps (e.g. strong passwords, access controls, software updates)?  
-- [ ] Is the system resilient (will it keep working under normal load)?  
-- [ ] Do you have a backup or manual process if the AI goes offline or makes repeated mistakes?  
-
-*Sources: Guardrail 5; ACSC Essential Eight*  
+*Aligns with: Guardrail 1; Australian AI Ethics Principle: Beneficence*
 
 ---
 
-## 5. Human Oversight & Accountability
-- [ ] Is a specific person responsible for this AI system?  
-- [ ] Have you identified **human-in-the-loop checkpoints** where oversight is required?  
-- [ ] Can staff override or contest AI decisions if needed?  
-- [ ] Can customers and staff raise concerns easily?  
+## 2️⃣ Risk Classification
 
-*Sources: Guardrail 8; Australian AI Ethics Principle: Accountability*  
+- [ ] If the AI fails or gives wrong results, could it cause harm (e.g. financial, reputational, safety)?
+- [ ] Based on that, is the **project or system** **Low / Medium / High** impact?
 
----
+**Examples by risk level:**
 
-## 6. Testing & Evaluation
-- [ ] Have you tested the AI on real-world examples before going live?  
-- [ ] Have you checked for bias, errors, or poor accuracy?  
-- [ ] Have you recorded your testing results (even in a simple log or spreadsheet)?  
+| Risk Level | Example Use Cases |
+|------------|-------------------|
+| 🟢 **Low** | Website chatbot, content summarization, internal research |
+| 🟡 **Medium** | Staff rostering, marketing automation, customer support triage |
+| 🔴 **High** | Automated loan approvals, hiring decisions, medical diagnosis |
 
-*Sources: Guardrail 6; NIST AI Risk Management Framework*  
+**Additional considerations for risk level:**
 
----
+- [ ] Number of users potentially affected: ___
+- [ ] Financial exposure if system fails: $ ___
+- [ ] Regulatory compliance implications assessed
+- [ ] Reputational impact evaluated
 
-## 7. Transparency & Explainability
-- [ ] Can you explain in plain English how the system works and why it produces certain results?  
-- [ ] Have you told staff or customers when they are interacting with AI (not a human)?  
-- [ ] Are user instructions or limitations clearly documented?  
-
-*Sources: Guardrail 9; OECD AI Principles*  
+*Aligns with: Guardrail 3; EU AI Act classification (adapted)*
 
 ---
 
-## 8. Ongoing Monitoring & Review
-- [ ] How often will you review the system? (e.g., monthly, quarterly)  
-- [ ] Do you have a way to track problems or incidents?  
-- [ ] Will you retrain or update the system when data or business needs change?  
+## 3️⃣ Data Governance & Privacy/IP
 
-*Sources: Guardrail 10; ISO/IEC 42001*  
+- [ ] Does the system use personal data? If so, are you complying with the **Privacy Act 1988 (APPs)**?
+- [ ] Do you know who owns the training data and outputs (IP rights)?
+- [ ] Are you keeping only the data you really need (data minimisation)?
+- [ ] Can you track where the data came from (provenance)?
 
----
-
-## 9. Quantitative Risk Scoring
-- [ ] Probability of risk occurring (1–5 scale): ___  
-- [ ] Impact if risk occurs (1–5 scale): ___  
-- [ ] Risk Score (Probability × Impact): ___  
-- [ ] Risk tolerance threshold defined: ___  
-- [ ] Mitigation reduces score to acceptable level: Yes/No  
+*Aligns with: Privacy Act 1988 (APPs); Guardrails 4 & 7; ISO/IEC 23894*
 
 ---
 
-## 10. Dependencies & Supply Chain
-- [ ] Third-party dependencies identified and documented  
-- [ ] Vendor risk assessments completed  
-- [ ] Fallback options available if vendor fails  
-- [ ] Model degradation monitoring plan in place  
-- [ ] Update and patching schedule defined  
+## 4️⃣ Security & Reliability
+
+- [ ] Have you taken basic cybersecurity steps (e.g. strong passwords, access controls, software updates)?
+- [ ] Is the system resilient (will it keep working under normal load)?
+- [ ] Do you have a backup or manual process if the AI goes offline or makes repeated mistakes?
+
+*Aligns with: Guardrail 5; ACSC Essential Eight*
+
+---
+
+## 5️⃣ Human Oversight & Accountability
+
+- [ ] Is a specific person responsible for this AI system?
+- [ ] Have you identified **human-in-the-loop checkpoints** where oversight is required?
+- [ ] Can staff override or contest AI decisions if needed?
+- [ ] Can customers and staff raise concerns easily?
+
+*Aligns with: Guardrail 8; Australian AI Ethics Principle: Accountability*
+
+---
+
+## 6️⃣ Testing & Evaluation
+
+- [ ] Have you tested the AI on real-world examples before going live?
+- [ ] Have you checked for bias, errors, or poor accuracy?
+- [ ] Have you recorded your testing results (even in a simple log or spreadsheet)?
+
+*Aligns with: Guardrail 6; NIST AI Risk Management Framework*
+
+---
+
+## 7️⃣ Transparency & Explainability
+
+- [ ] Can you explain in plain English how the system works and why it produces certain results?
+- [ ] Have you told staff or customers when they are interacting with AI (not a human)?
+- [ ] Are user instructions or limitations clearly documented?
+
+*Aligns with: Guardrail 9; OECD AI Principles*
+
+---
+
+## 8️⃣ Ongoing Monitoring & Review
+
+- [ ] How often will you review the system? (e.g., monthly, quarterly)
+- [ ] Do you have a way to track problems or incidents?
+- [ ] Will you retrain or update the system when data or business needs change?
+
+*Aligns with: Guardrail 10; ISO/IEC 42001*
+
+---
+
+## 9️⃣ Quantitative Risk Scoring
+
+**Calculate your risk score:**
+
+- [ ] **Probability** of risk occurring (1–5 scale): ___
+- [ ] **Impact** if risk occurs (1–5 scale): ___
+- [ ] **Risk Score** (Probability × Impact): ___
+- [ ] Risk tolerance threshold defined: ___
+- [ ] Mitigation reduces score to acceptable level: Yes/No
+
+---
+
+## 🔟 Dependencies & Supply Chain
+
+- [ ] Third-party dependencies identified and documented
+- [ ] Vendor risk assessments completed
+- [ ] Fallback options available if vendor fails
+- [ ] Model degradation monitoring plan in place
+- [ ] Update and patching schedule defined
 
 ---
 
 ## Risk Assessment Framework
 
-### Risk Matrix Guide
-#### Impact Levels
-- **Low (1)**: Minimal impact on operations
-- **Medium (2)**: Moderate impact, manageable consequences  
-- **High (3)**: Significant impact, requires immediate attention
-- **Critical (4)**: Major impact, business disruption
-- **Severe (5)**: Catastrophic impact, severe consequences
+### Impact Levels
 
-#### Likelihood Levels
-- **Rare (1)**: Very unlikely to occur
-- **Unlikely (2)**: Low probability
-- **Possible (3)**: Moderate probability
-- **Likely (4)**: High probability
-- **Almost Certain (5)**: Very high probability
+| Level | Score | Description | Example |
+|-------|:-----:|-------------|---------|
+| 🟢 Low | 1 | Minimal impact on operations | Typo in draft email |
+| 🟡 Medium | 2 | Moderate impact, manageable consequences | Delayed customer response |
+| 🟠 High | 3 | Significant impact, requires immediate attention | Incorrect pricing |
+| 🔴 Critical | 4 | Major impact, business disruption | Service outage |
+| ⚫ Severe | 5 | Catastrophic impact, severe consequences | Data breach, safety incident |
 
-#### Risk Score Calculation
+### Likelihood Levels
+
+| Level | Score | Description |
+|-------|:-----:|-------------|
+| Rare | 1 | Very unlikely to occur |
+| Unlikely | 2 | Low probability |
+| Possible | 3 | Moderate probability |
+| Likely | 4 | High probability |
+| Almost Certain | 5 | Very high probability |
+
+### Risk Score Matrix
+
 | Impact → | Low (1) | Medium (2) | High (3) | Critical (4) | Severe (5) |
-|----------|---------|------------|----------|--------------|------------|
+|----------|:-------:|:----------:|:--------:|:------------:|:----------:|
 | **Likelihood ↓** | | | | | |
 | Almost Certain (5) | 5 | 10 | 15 | 20 | 25 |
 | Likely (4) | 4 | 8 | 12 | 16 | 20 |
@@ -166,78 +199,78 @@ Additional considerations for risk level:
 | Unlikely (2) | 2 | 4 | 6 | 8 | 10 |
 | Rare (1) | 1 | 2 | 3 | 4 | 5 |
 
-#### Risk Score Interpretation
-- **1–5 (Low)**: Acceptable risk level
-- **6–10 (Medium)**: Monitor and manage
-- **11–15 (High)**: Requires mitigation
-- **16–25 (Critical)**: Immediate action required  
+### Risk Score Interpretation
+
+!!! success "Low Risk (1–5)"
+    **Status:** Acceptable risk level
+    **Action:** Document and proceed with standard monitoring
+
+!!! info "Medium Risk (6–10)"
+    **Status:** Monitor and manage
+    **Action:** Implement controls, regular reviews
+
+!!! warning "High Risk (11–15)"
+    **Status:** Requires mitigation
+    **Action:** Develop mitigation plan, obtain approval before proceeding
+
+!!! danger "Critical Risk (16–25)"
+    **Status:** Immediate action required
+    **Action:** Do not proceed until risk is reduced, executive sign-off required
 
 ---
 
-## References & Notes
-- **Australian AI Ethics Principles** (Department of Industry, Science & Resources)  
-- **Australian AI Guardrails (2023, updated 2024)**  
-- **Privacy Act 1988 (Cth)**  
-- **ACSC Essential Eight** (cybersecurity baseline)  
-- **ISO/IEC 42001:2023** – AI Management System standard  
-- **NIST AI Risk Management Framework**  
+## Alignment with Australian Standards
+
+This checklist implements key requirements from Australian AI frameworks:
+
+!!! success "Standards Compliance"
+    === "AI6 Essential Practices"
+        ✓ **Measure and manage risks** — Entire checklist provides structured risk measurement (Section 9)
+        ✓ **Understand impacts and plan accordingly** — Section 2 (Risk Classification) evaluates potential severity
+        ✓ **Maintain human control** — Section 5 checks for human-in-the-loop mechanisms
+
+    === "Voluntary AI Safety Standard (10 Guardrails)"
+        ✓ **Guardrail 2 – Risk management** — Primary implementation tool for identifying, assessing, and mitigating risks
+        ✓ **Guardrail 5 – Human control** — Section 5 addresses oversight and intervention requirements
+        ✓ **Guardrail 6 – Testing & assurance** — Section 6 prompts for bias testing and real-world validation
+        ✓ **Guardrail 3 – Data protection** — Sections 3-4 ensure privacy and security safeguards
 
 ---
-## How this template implements AI6 and the Voluntary AI Safety Standard
 
-### AI6 practices supported by this template
+## References & Standards
 
-- **Measure and manage risks** – The entire checklist is a tool for measuring (Section 9 "Quantitative Risk Scoring") and managing risks across multiple dimensions.
-- **Understand impacts and plan accordingly** – Section 2 ("Risk Classification") helps organisations understand the potential severity of their AI systems.
-- **Maintain human control** – Section 5 ("Human Oversight & Accountability") specifically checks for human-in-the-loop mechanisms and contestability.
+This checklist is guided by:
 
-### VAISS guardrails supported by this template
-
-- **Guardrail 2 – Risk management** – This template is a primary implementation tool for this guardrail, covering identification, assessment, and mitigation planning.
-- **Guardrail 5 – Human control** – Section 5 directly addresses the requirement for human oversight and intervention capabilities.
-- **Guardrail 6 – Testing & assurance** – Section 6 ("Testing & Evaluation") prompts for evidence of bias testing, accuracy checks, and real-world validation.
-- **Guardrail 3 – Data protection & security** – Sections 3 ("Data Governance") and 4 ("Security & Reliability") ensure these critical safeguards are evaluated.
+- **Australian AI Ethics Principles** (Department of Industry, Science & Resources)
+- **Australian Voluntary AI Safety Standard (2024)** – 10 Guardrails
+- **Privacy Act 1988 (Cth)** – Australian Privacy Principles (APPs)
+- **ACSC Essential Eight** – Cybersecurity baseline
+- **ISO/IEC 42001:2023** – AI Management System standard
+- **ISO/IEC 23894:2023** – AI Risk Management
+- **NIST AI Risk Management Framework 1.0**
 
 ---
 
 ## Next Steps
-**Need to track and monitor risks over time?** → [AI Risk Register](ai-risk-register.md)
 
-**Looking for industry-specific risk examples?** → [AI Industry-Specific Risks](ai-risks-by-industry.md)
+**Where to go from here:**
 
-**Need to prepare for AI incidents?** → [AI Incident Report Form](ai-incident-report-form.md)
+- 📊 **Track ongoing risks:** [AI Risk Register](ai-risk-register.md)
+- 🏭 **Industry-specific examples:** [AI Industry-Specific Risks](ai-risks-by-industry.md)
+- 🚨 **Prepare for incidents:** [AI Incident Report Form](ai-incident-report-form.md)
 
----
+**Related templates:**
 
-## Template Disclaimer & Licence
-
-### Disclaimer
-The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
-
-SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
-
-The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
-
-This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
+- 📋 [AI Readiness Checklist](ai-readiness-checklist.md) — Assess organizational preparedness
+- 📝 [AI Use Policy](ai-use-policy.md) — Establish governance framework
+- 🗺️ [AI Implementation Roadmap](ai-implementation-roadmap.md) — Plan deployment
 
 ---
 
-### Licence
-This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-You are free to:  
-
-- **Share** — copy and redistribute the material in any medium or format.  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
-
-Under the following terms:  
-
-- **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
-
-**Attribution statement for reuse:**  
-“This template was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeaiaus.org/).”  
-
-Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)  
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
 
 ---
 
@@ -280,7 +313,7 @@ Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creati
       "description": "Systematic evaluation of risks associated with AI system deployment"
     },
     {
-      "@type": "Thing", 
+      "@type": "Thing",
       "name": "AI Safety",
       "description": "Practices and standards for safe AI implementation"
     },

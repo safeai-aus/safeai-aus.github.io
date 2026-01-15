@@ -17,107 +17,227 @@ twitter_description: "Download free AI governance templates for Australian busin
 
 # Governance Templates
 
+> **Purpose:** Practical, ready-to-use templates for safe AI adoption in Australian organisations
+> **Audience:** Leadership, governance, compliance, and technical teams | **Status:** Free & open-source
+
 Practical, open-source templates to help Australian businesses implement safe, responsible, and effective AI.
 
-These documents are designed as a **baseline AI governance toolkit**: they provide a set of lightweight, practical policies and forms that can be adapted to your organisation’s context. 
+These documents are designed as a **baseline AI governance toolkit**: they provide a set of lightweight, practical policies and forms that can be adapted to your organisation's context.
 
-Together, they support compliance with the **Voluntary AI Safety Standard (VAISS) - 10 Guardrails** and align with international frameworks including:  
+!!! success "Standards Alignment"
+    Together, these templates support compliance with the **Voluntary AI Safety Standard (VAISS) - 10 Guardrails** and align with international frameworks:
 
-- [ISO/IEC 42001:2023 Artificial Intelligence Management System (AIMS)](https://www.iso.org/standard/81230.html)
-- [NIST AI Risk Management Framework 1.0](https://www.nist.gov/itl/ai-risk-management-framework)
-- Australian Government's [Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)  
+    - [ISO/IEC 42001:2023 Artificial Intelligence Management System (AIMS)](https://www.iso.org/standard/81230.html)
+    - [NIST AI Risk Management Framework 1.0](https://www.nist.gov/itl/ai-risk-management-framework)
+    - Australian Government's [Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)
 
 ---
 
 ## Why use these templates?
 
-- **Consistency:** A common set of documents reduces gaps and overlaps across projects.  
-- **Risk reduction:** Guardrail alignment ensures that risks (data, security, accountability, bias) are addressed.  
-- **Efficiency:** SMEs and larger organisations alike can use these without building frameworks from scratch.  
-- **Transparency:** Provides evidence of responsible AI practices to customers, partners, and regulators.  
+!!! tip "Benefits"
+    === "For Your Organisation"
+        - ✅ **Consistency** — Common set of documents reduces gaps and overlaps
+        - ✅ **Risk Reduction** — Guardrail alignment ensures compliance
+        - ✅ **Efficiency** — Use without building frameworks from scratch
+        - ✅ **Transparency** — Evidence of responsible AI practices
+
+    === "For Stakeholders"
+        - 📊 **Customers** — Demonstrates commitment to safe AI
+        - 🤝 **Partners** — Shows governance maturity
+        - 📋 **Regulators** — Provides audit trail and documentation
+        - 👥 **Staff** — Clear guidelines for safe AI use
+
+---
+
+## Getting Started
+
+!!! info "Recommended Implementation Path"
+    === "Week 1: Assessment (2-4 hours)"
+        **Goal:** Understand current state
+
+        1. 📋 Complete [AI Readiness Checklist](ai-readiness-checklist.md)
+        2. 🎯 Identify gaps and priorities
+        3. 👥 Engage key stakeholders
+
+        **Outcome:** Clear picture of readiness and requirements
+
+    === "Weeks 2-4: Foundation (8-12 hours)"
+        **Goal:** Establish core governance
+
+        1. 📄 Draft [AI Use Policy](ai-use-policy.md)
+        2. ⚠️ Complete [AI Risk Assessment](ai-risk-assessment-checklist.md)
+        3. ✅ Obtain executive sign-off
+
+        **Outcome:** Approved governance framework
+
+    === "Months 2-3: Implementation (20-40 hours)"
+        **Goal:** Deploy and operationalise
+
+        1. 🗺️ Follow [AI Implementation Roadmap](ai-implementation-roadmap.md)
+        2. 🔄 Use [AI Change Management](ai-change-management.md) guide
+        3. 📊 Set up [AI Project Register](ai-project-register.md)
+
+        **Outcome:** Active governance in practice
+
+    === "Ongoing: Operations (Monthly)"
+        **Goal:** Maintain and improve
+
+        1. 📋 Update risk register regularly
+        2. 🚨 Use [AI Incident Report Form](ai-incident-report-form.md) as needed
+        3. 📈 Track via [AI Assurance](ai-assurance-transparency-auditing-reporting.md)
+
+        **Outcome:** Continuous improvement
 
 ---
 
 ## Current Templates
 
-### Getting Started
+### 🎯 Getting Started
 
-- [AI Readiness Checklist](ai-readiness-checklist.md)
-  *Assesses your organisation's readiness to adopt AI safely. Covers governance, technical capability, risk management, and stakeholder engagement. Supports Guardrails 2 (Accountability), 3 (Risk Assessment), and 9 (Governance).*
+**[AI Readiness Checklist](ai-readiness-checklist.md)**
+Assesses your organisation's readiness to adopt AI safely. Covers governance, technical capability, risk management, and stakeholder engagement.
 
-### Implementation Guides
+- **Time:** 30-60 minutes
+- **Format:** Self-assessment checklist
+- **Supports:** Guardrails 2 (Accountability), 3 (Risk Assessment), 9 (Governance)
 
-- [AI Change Management](ai-change-management.md)
-  *Comprehensive guide to managing the organisational and cultural changes that come with AI adoption. Covers stakeholder engagement, communication, workforce planning, and resistance management. Supports Guardrails 1 (Transparency), 2 (Accountability), and 8 (Human Oversight).*
+---
 
-- [AI Implementation Roadmap](ai-implementation-roadmap.md)
-  *Step-by-step guide to planning and executing AI projects from pilot to production deployment. Includes pilot sizing, success criteria, scaling decisions, and ongoing monitoring. Supports Guardrails 2 (Accountability), 3 (Risk Assessment), 9 (Governance), and 10 (Lifecycle Management).*
+### 🗺️ Implementation Guides
 
-### Risk Management & Assurance
+**[AI Change Management](ai-change-management.md)**
+Comprehensive guide to managing the organisational and cultural changes that come with AI adoption. Covers stakeholder engagement, communication, workforce planning, and resistance management.
 
-- [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)
-  *Structured way to evaluate risks before adoption. Aligns with Guardrail 3 (Risk Assessment) and Guardrail 6 (Security).*
+- **Time:** 2-4 weeks to implement
+- **Format:** Step-by-step guide + templates
+- **Supports:** Guardrails 1 (Transparency), 2 (Accountability), 8 (Human Oversight)
 
-- [AI Risk Register](ai-risk-register.md)
-  *Comprehensive register for identifying, assessing, and managing AI-related risks. Supports Guardrails 3 (Risk Assessment) and integrates with broader GRC processes.*
+**[AI Implementation Roadmap](ai-implementation-roadmap.md)**
+Step-by-step guide to planning and executing AI projects from pilot to production deployment. Includes pilot sizing, success criteria, scaling decisions, and ongoing monitoring.
 
-- [AI Industry-Specific Risks](ai-risks-by-industry.md)
-  *Provides context-specific AI risk examples for ten major Australian industries to help organisations identify relevant risks for their risk register.*
+- **Time:** 3-6 month implementation timeline
+- **Format:** Phased roadmap + decision framework
+- **Supports:** Guardrails 2 (Accountability), 3 (Risk Assessment), 9 (Governance), 10 (Lifecycle Management)
 
-- [AI Assurance – Transparency, Auditing & Reporting](ai-assurance-transparency-auditing-reporting.md)
-  *Framework for demonstrating responsible AI practices through transparency, independent audits, and structured reporting. Supports Guardrails 1 (Transparency), 3 (Risk Assessment), 5 (Incident Response), and 10 (Lifecycle Management).*
+---
 
-### Policies & Forms
+### ⚠️ Risk Management & Assurance
 
-- [AI Use Policy](ai-use-policy.md)
-  *Defines how AI can and cannot be used in your organisation. Aligns with Guardrails 1 (Transparency) and 2 (Accountability).*
+**[AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)**
+Structured way to evaluate risks before adoption. Aligns with Guardrail 3 (Risk Assessment) and Guardrail 6 (Security).
 
-- [AI Project Register](ai-project-register.md)
-  *Maintains a central record of all AI initiatives. Supports Guardrails 9 (Governance & Oversight) and 10 (Lifecycle Management).*
+- **Time:** 1-2 hours per system
+- **Format:** Risk evaluation matrix
+- **Supports:** Guardrails 3 (Risk Assessment), 6 (Security)
 
-- [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
-  *Comprehensive framework for evaluating AI vendors including Build vs Buy guidance, critical red flags, and structured evaluation across compliance, security, data governance, and Australian context. Supports Guardrails 3 (Risk Assessment), 4 (Data Governance), 7 (Supply Chain), and 1 (Transparency).*
+**[AI Risk Register](ai-risk-register.md)**
+Comprehensive register for identifying, assessing, and managing AI-related risks. Supports Guardrail 3 (Risk Assessment) and integrates with broader GRC processes.
 
-- [AI Incident Report Form](ai-incident-report-form.md)
-  *Mechanism to capture, respond, and learn from AI-related issues. Supports Guardrail 5 (Incident Response).*
+- **Time:** 30 mins per risk entry
+- **Format:** Living document / database
+- **Supports:** Guardrail 3 (Risk Assessment)
+
+**[AI Industry-Specific Risks](ai-risks-by-industry.md)**
+Provides context-specific AI risk examples for ten major Australian industries to help organisations identify relevant risks for their risk register.
+
+- **Time:** 15-30 minutes to review
+- **Format:** Reference guide by industry
+- **Supports:** Guardrail 3 (Risk Assessment)
+
+**[AI Assurance – Transparency, Auditing & Reporting](ai-assurance-transparency-auditing-reporting.md)**
+Framework for demonstrating responsible AI practices through transparency, independent audits, and structured reporting.
+
+- **Time:** Ongoing reporting cadence
+- **Format:** Reporting framework + templates
+- **Supports:** Guardrails 1 (Transparency), 3 (Risk Assessment), 5 (Incident Response), 10 (Lifecycle Management)
+
+---
+
+### 📋 Policies & Forms
+
+**[AI Use Policy](ai-use-policy.md)**
+Defines how AI can and cannot be used in your organisation. Aligns with Guardrails 1 (Transparency) and 2 (Accountability).
+
+- **Time:** 2-4 hours to customize
+- **Format:** Policy document template
+- **Supports:** Guardrails 1 (Transparency), 2 (Accountability)
+
+**[AI Project Register](ai-project-register.md)**
+Maintains a central record of all AI initiatives. Supports Guardrails 9 (Governance & Oversight) and 10 (Lifecycle Management).
+
+- **Time:** 15 mins per project entry
+- **Format:** Register / tracking sheet
+- **Supports:** Guardrails 9 (Governance), 10 (Lifecycle Management)
+
+**[AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)**
+Comprehensive framework for evaluating AI vendors including Build vs Buy guidance, critical red flags, and structured evaluation across compliance, security, data governance, and Australian context.
+
+- **Time:** 2-4 hours per vendor
+- **Format:** Evaluation matrix + decision framework
+- **Supports:** Guardrails 3 (Risk Assessment), 4 (Data Governance), 7 (Supply Chain), 1 (Transparency)
+
+**[AI Incident Report Form](ai-incident-report-form.md)**
+Mechanism to capture, respond, and learn from AI-related issues. Supports Guardrail 5 (Incident Response).
+
+- **Time:** 15-30 mins per incident
+- **Format:** Incident report form
+- **Supports:** Guardrail 5 (Incident Response)
 
 ---
 
 ## Coming Soon
 
-- **Data Management & Quality Checklist**  
-  *To ensure data used in AI systems is high-quality, traceable, and bias-tested (Guardrail 4).*  
+!!! info "Roadmap"
+    **Data Management & Quality Checklist**
+    To ensure data used in AI systems is high-quality, traceable, and bias-tested (Guardrail 4).
 
-- **Human Oversight Plan**  
-  *Defines when and how human decision-making is required, including escalation paths (Guardrails 2 and 8).*  
+    **Human Oversight Plan**
+    Defines when and how human decision-making is required, including escalation paths (Guardrails 2 and 8).
 
-- **AI Model Monitoring Log**  
-  *Template for tracking performance, fairness, drift, and retraining across deployed models (Guardrail 10).*  
+    **AI Model Monitoring Log**
+    Template for tracking performance, fairness, drift, and retraining across deployed models (Guardrail 10).
 
 ---
+
 ## Guardrail-to-Template Mapping
 
 | Guardrail | Focus Area | Covered By Templates |
 |-----------|------------|-----------------------|
-| 1. Transparency | Clear information on AI use | AI Use Policy, AI Change Management, AI Vendor Evaluation Checklist, AI Assurance |
-| 2. Accountability | Assigning responsibility | AI Use Policy, AI Readiness Checklist, AI Change Management, AI Implementation Roadmap, Human Oversight Plan *(coming soon)* |
-| 3. Risk Assessment | Evaluating risks before use | AI Risk Assessment Form, AI Risk Register, AI Industry-Specific Risks, AI Readiness Checklist, AI Implementation Roadmap, AI Vendor Evaluation Checklist |
-| 4. Data Governance | Data quality, bias, provenance | AI Vendor Evaluation Checklist, Data Management & Quality Checklist *(coming soon)* |
-| 5. Incident Response | Detecting and reporting issues | AI Incident Report Form, AI Assurance |
-| 6. Security | Cyber and system safeguards | AI Risk Assessment Form |
-| 7. Supply Chain | Vendor and third-party risk | AI Vendor Evaluation Checklist |
-| 8. Human Oversight | Human-in-the-loop checks | AI Change Management, Human Oversight Plan *(coming soon)* |
-| 9. Governance & Oversight | Strategic alignment, leadership | AI Project Register, AI Readiness Checklist, AI Implementation Roadmap |
-| 10. Lifecycle Management | Monitoring, improvement, decommissioning | AI Project Register, AI Implementation Roadmap, AI Assurance, AI Model Monitoring Log *(coming soon)* |
+| **1. Transparency** | Clear information on AI use | AI Use Policy, AI Change Management, AI Vendor Evaluation, AI Assurance |
+| **2. Accountability** | Assigning responsibility | AI Use Policy, AI Readiness Checklist, AI Change Management, AI Implementation Roadmap, Human Oversight Plan *(coming)* |
+| **3. Risk Assessment** | Evaluating risks before use | AI Risk Assessment, AI Risk Register, AI Industry Risks, AI Readiness Checklist, AI Implementation Roadmap, AI Vendor Evaluation |
+| **4. Data Governance** | Data quality, bias, provenance | AI Vendor Evaluation, Data Management Checklist *(coming)* |
+| **5. Incident Response** | Detecting and reporting issues | AI Incident Report Form, AI Assurance |
+| **6. Security** | Cyber and system safeguards | AI Risk Assessment |
+| **7. Supply Chain** | Vendor and third-party risk | AI Vendor Evaluation |
+| **8. Human Oversight** | Human-in-the-loop checks | AI Change Management, Human Oversight Plan *(coming)* |
+| **9. Governance** | Strategic alignment, leadership | AI Project Register, AI Readiness Checklist, AI Implementation Roadmap |
+| **10. Lifecycle** | Monitoring, improvement, decommissioning | AI Project Register, AI Implementation Roadmap, AI Assurance, Model Monitoring Log *(coming)* |
 
 ---
 
-## How to use
+## How to Use These Templates
 
-- **Adapt locally:** These are starting points — adapt them to your organisation’s size, industry, and regulatory obligations.  
-- **Integrate:** Templates should sit within existing governance, risk, and compliance processes (e.g. risk registers, change management).  
-- **Iterate:** AI is fast-moving. Review and update these documents regularly as your AI maturity grows.  
+!!! tip "Implementation Best Practices"
+    **Adapt locally** — These are starting points. Tailor them to your organisation's size, industry, and regulatory obligations.
 
+    **Integrate** — Templates should sit within existing governance, risk, and compliance processes (e.g. risk registers, change management).
+
+    **Iterate** — AI is fast-moving. Review and update these documents regularly as your AI maturity grows.
+
+**Common questions:**
+
+??? question "Are these templates legally binding?"
+    No. These are guidance templates to help you establish your own policies. You should adapt them to your context and may wish to seek legal or compliance advice before formal adoption.
+
+??? question "Do I need all templates?"
+    Start with the Readiness Checklist, Use Policy, and Risk Assessment. Add others as your AI program matures.
+
+??? question "How do I know which template to use first?"
+    Follow the "Getting Started" implementation path above, or use the Readiness Checklist to identify your specific needs.
+
+---
 
 <script type="application/ld+json">
 {
@@ -145,7 +265,7 @@ Together, they support compliance with the **Voluntary AI Safety Standard (VAISS
       "name": "How should I attribute SafeAI Aus when I reuse a template?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Include a short notice such as: “Source: SafeAI Aus (safeaiaus.org), licensed CC BY 4.0.” For PDFs or docs, place it in the header or footer; for web pages, add it near the template text."
+        "text": "Include a short notice such as: "Source: SafeAI Aus (safeaiaus.org), licensed CC BY 4.0." For PDFs or docs, place it in the header or footer; for web pages, add it near the template text."
       }
     },
     {
@@ -167,14 +287,6 @@ Together, they support compliance with the **Voluntary AI Safety Standard (VAISS
   ]
 }
 </script>
-
----
-
-## Licensing
-
-All templates are published under a **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** licence. You are free to use, adapt, and share them, with attribution.  
-
----
 
 <!-- JSON-LD: Article schema for crawlers and LLMs -->
 <script type="application/ld+json">
@@ -231,3 +343,9 @@ All templates are published under a **[Creative Commons Attribution 4.0 Internat
 }
 </script>
 
+---
+
+??? note "Licence & Disclaimer"
+    **Licence:** All templates are published under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to use, adapt, and share them with attribution to SafeAI-Aus (safeaiaus.org).
+
+    **Disclaimer:** These templates provide best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
