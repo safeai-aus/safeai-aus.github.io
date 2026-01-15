@@ -40,14 +40,14 @@ faq:
     === "Quick Start (30 min)"
         1. Copy the policy text below into your document system
         2. Find and replace **[Organisation Name]** throughout
-        3. Customize Section 9 (Roles & Responsibilities) for your structure
+        3. Customise Section 9 (Roles & Responsibilities) for your structure
         4. Review Section 6 (Prohibited Use) with legal/compliance
         5. Publish and communicate to all staff
 
     === "Thorough Implementation (2-4 hours)"
         1. Complete [AI Readiness Checklist](ai-readiness-checklist.md) first
         2. Workshop all sections with stakeholders
-        3. Customize roles, review cycles, and approval processes
+        3. Customise roles, review cycles, and approval processes
         4. Obtain executive and legal sign-off
         5. Plan training and communication rollout
         6. Integrate with existing governance documentation
@@ -240,13 +240,18 @@ This policy implements key requirements from Australian AI frameworks:
 !!! success "Standards Compliance"
     === "AI6 Essential Practices"
         ✓ **Decide who is accountable** — Section 9 assigns clear responsibility to Board, AI Governance Lead, and Project Owners
+
         ✓ **Maintain human control** — Sections 5-6 mandate human oversight for consequential decisions
+
         ✓ **Share essential information** — Sections 1 and 4 communicate the organisation's AI commitments
 
     === "Voluntary AI Safety Standard (10 Guardrails)"
         ✓ **Guardrail 1 – Accountability** — Section 9 establishes clear lines of responsibility
+
         ✓ **Guardrail 5 – Human control** — Section 6 explicitly prohibits automated decision-making without oversight
+
         ✓ **Guardrail 4 – Transparency** — Section 4 commits to transparent and explainable AI
+
         ✓ **Guardrail 3 – Data protection** — Section 7 mandates Privacy Act compliance and IP protection
 
 ---
@@ -261,7 +266,7 @@ This policy implements key requirements from Australian AI frameworks:
 
 **Related templates:**
 
-- 🔄 [AI Change Management](ai-change-management.md) — Plan organizational rollout
+- 🔄 [AI Change Management](ai-change-management.md) — Plan organisational rollout
 - 🗺️ [AI Implementation Roadmap](ai-implementation-roadmap.md) — Deploy AI responsibly
 - 📝 [AI Vendor Evaluation](ai-vendor-evaluation-checklist.md) — Assess third-party tools
 

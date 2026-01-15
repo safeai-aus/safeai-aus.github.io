@@ -110,7 +110,7 @@ Framework for demonstrating responsible AI practices through transparency, indep
 **[AI Use Policy](ai-use-policy.md)**
 Defines how AI can and cannot be used in your organisation.
 
-- **Time:** 2-4 hours to customize
+- **Time:** 2-4 hours to customise
 - **Format:** Policy document template
 - **Supports:** Guardrails 1 (Transparency), 2 (Accountability)
 
