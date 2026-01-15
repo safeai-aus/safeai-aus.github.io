@@ -35,18 +35,10 @@ These documents are designed as a **baseline AI governance toolkit**: they provi
 
 ## Why use these templates?
 
-!!! tip "Benefits"
-    === "For Your Organisation"
-        - ✅ **Consistency** — Common set of documents reduces gaps and overlaps
-        - ✅ **Risk Reduction** — Guardrail alignment ensures compliance
-        - ✅ **Efficiency** — Use without building frameworks from scratch
-        - ✅ **Transparency** — Evidence of responsible AI practices
-
-    === "For Stakeholders"
-        - 📊 **Customers** — Demonstrates commitment to safe AI
-        - 🤝 **Partners** — Shows governance maturity
-        - 📋 **Regulators** — Provides audit trail and documentation
-        - 👥 **Staff** — Clear guidelines for safe AI use
+- ✅ **Consistency** — A common set of documents reduces gaps and overlaps across projects
+- ✅ **Risk reduction** — Guardrail alignment ensures that risks (data, security, accountability, bias) are addressed
+- ✅ **Efficiency** — SMEs and larger organisations alike can use these without building frameworks from scratch
+- ✅ **Transparency** — Provides evidence of responsible AI practices to customers, partners, and regulators
 
 ---
 
