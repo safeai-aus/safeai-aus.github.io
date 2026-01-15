@@ -20,18 +20,13 @@ twitter_description: "Comprehensive AI readiness checklist for Australian busine
 > **Audience:** Leadership, governance, and technical teams | **Time:** 15-30 minutes
 
 !!! tip "How to Use This Checklist"
-    === "Quick Assessment (15 min)"
-        1. Read through each section individually or as a team
-        2. Tick boxes that apply to your organisation
-        3. Tally your score using the guide below
-        4. Identify priority gaps to address
-
-    === "Team Workshop (30 min)"
-        1. Print or share this checklist with stakeholders
-        2. Discuss each section as a group
-        3. Document evidence for each checked item
-        4. Create an action plan for unchecked items
-        5. Assign owners and timeframes for improvements
+    1. Print or share this checklist with stakeholders
+    2. Read through each section individually or as a team
+    3. Discuss each section and tick boxes that apply to your organisation
+    4. Document evidence for each checked item
+    5. Tally your score using the guide below
+    6. Identify priority gaps to address
+    7. Create an action plan for unchecked items with owners and timeframes
 
 This checklist helps Australian businesses decide if they are ready to adopt AI safely, responsibly, and effectively.
 

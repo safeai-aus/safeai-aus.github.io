@@ -20,23 +20,14 @@ twitter_description: "Download our free AI risk assessment checklist for Austral
 > **Audience:** Project owners, risk teams, governance leads | **Time:** 1-2 hours per system
 
 !!! tip "How to Use This Checklist"
-    === "Quick Assessment (30-45 min)"
-        **Best for:** Low-risk AI systems, routine compliance checks
-
-        1. Work through Sections 1-8 sequentially
-        2. Record brief responses to each checkbox
-        3. Calculate risk score in Section 9
-        4. Keep completed checklist in project records
-
-    === "Thorough Assessment (1-2 hours)"
-        **Best for:** Medium to high-risk AI systems, new deployments
-
-        1. Assemble cross-functional team (tech, legal, compliance)
-        2. Work through all sections with detailed documentation
-        3. Complete quantitative risk scoring (Section 9)
-        4. Develop mitigation plan for high-risk items
-        5. Obtain sign-off before deployment
-        6. Schedule regular review cadence
+    1. Assemble cross-functional team (tech, legal, compliance) for medium to high-risk systems
+    2. Work through Sections 1-8 sequentially
+    3. Record responses to each checkbox with detailed documentation
+    4. Complete quantitative risk scoring (Section 9)
+    5. Develop mitigation plan for high-risk items
+    6. Obtain sign-off before deployment
+    7. Keep completed checklist in project records
+    8. Schedule regular review cadence
 
 This checklist aligns with **Australian AI Safety Standard (VAISS)**, **ISO/IEC 42001:2023**, and **NIST AI Risk Management Framework**.
 
