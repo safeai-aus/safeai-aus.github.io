@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Implementation Roadmap"
 description: "Step-by-step guidance for running AI pilots, scaling what works, and building ongoing assurance into your AI adoption."
 keywords: "AI implementation roadmap, AI pilot guidance, AI scaling, AI assurance, AI governance, Australian business AI"
@@ -17,6 +16,9 @@ twitter_description: "A practical roadmap for planning pilots, scaling successfu
 
 # AI Implementation Roadmap
 
+> **Purpose:** Practical roadmap for running pilots, scaling successful use cases, and building ongoing assurance
+> **Audience:** Project managers, transformation teams, business owners | **Time:** 20-25 minutes
+
 You've identified good first use cases. You understand the importance of change management. You've evaluated vendors carefully.
 
 Now you need a practical roadmap for actually implementing AI: running pilots that generate real learning, making sound scale decisions, and building assurance practices that become business-as-usual.
@@ -25,16 +27,15 @@ This page provides that roadmap with specific guidance on sizing, timeframes, su
 
 ---
 
-## Who this page is for
+!!! info "Who This Page Is For"
+    **Target audience:**
 
-This page is for:
+    - 📋 Project managers running AI pilots
+    - 🔄 Transformation teams planning AI rollouts
+    - 👨‍💼 Business owners moving from pilot to production
+    - ❓ Anyone asking "what do we actually do, and in what order?"
 
-- Project managers running AI pilots
-- Transformation teams planning AI rollouts
-- Business owners moving from pilot to production
-- Anyone asking "what do we actually do, and in what order?"
-
-If you're ready to move from planning to doing, this is for you.
+    **If you're ready to move from planning to doing, this is for you.**
 
 ---
 
@@ -46,14 +47,17 @@ Each stage has clear objectives, typical timeframes, and "what done looks like" 
 
 ### Overview
 
-1. **Explore and pilot** (2-4 months) – Learn what works in your environment
-2. **Standardise and embed guardrails** (3-6 months) – Make safety and governance routine
-3. **Scale what works** (6-12 months) – Expand successful patterns
-4. **Continuously assure and improve** (ongoing) – Refine based on experience
+1️⃣ **Explore and pilot** (2-4 months) – Learn what works in your environment
+
+2️⃣ **Standardise and embed guardrails** (3-6 months) – Make safety and governance routine
+
+3️⃣ **Scale what works** (6-12 months) – Expand successful patterns
+
+4️⃣ **Continuously assure and improve** (ongoing) – Refine based on experience
 
 ---
 
-## Stage 1: Explore and pilot (2-4 months)
+## 1️⃣ Stage 1: Explore and Pilot (2-4 months)
 
 **Objective:** Run small, focused pilots that generate real learning about what AI can and can't do in your specific environment.
 
@@ -129,7 +133,7 @@ At the end of Stage 1, you should have:
 
 ---
 
-## Stage 2: Standardise and embed guardrails (3-6 months)
+## 2️⃣ Stage 2: Standardise and Embed Guardrails (3-6 months)
 
 **Objective:** Make AI governance and safety part of business-as-usual, not special projects.
 
@@ -185,7 +189,7 @@ At the end of Stage 2, you should have:
 
 ---
 
-## Stage 3: Scale what works (6-12 months)
+## 3️⃣ Stage 3: Scale What Works (6-12 months)
 
 **Objective:** Expand successful patterns while maintaining safety and learning from experience.
 
@@ -235,7 +239,7 @@ At the end of Stage 3, you should have:
 
 ---
 
-## Stage 4: Continuously assure and improve (ongoing)
+## 4️⃣ Stage 4: Continuously Assure and Improve (Ongoing)
 
 **Objective:** Maintain safety and effectiveness as AI use matures and evolves.
 
@@ -300,26 +304,34 @@ In the continuous improvement stage, you should have:
 
 ---
 
-## Key takeaways
+## Key Takeaways
 
-**Four stages:** Explore → Standardise → Scale → Assure. Each has clear objectives and "done" criteria. Don't skip stages.
+!!! success "Implementation Principles"
+    **Four stages:** Explore → Standardise → Scale → Assure. Each has clear objectives and "done" criteria. Don't skip stages.
 
-**Pilot design:** 5-15 people, 4-8 weeks. Clear success criteria and exit conditions. Be prepared to stop what isn't working.
+    **Pilot design:** 5-15 people, 4-8 weeks. Clear success criteria and exit conditions. Be prepared to stop what isn't working.
 
-**Scaling:** Scale based on evidence, not enthusiasm. Plan for 2-3x more support. Expand gradually.
+    **Scaling:** Scale based on evidence, not enthusiasm. Plan for 2-3x more support. Expand gradually.
 
-**Ongoing:** Regular reviews (quarterly for high-risk, annual for low-risk). Learn from incidents. Adjust to regulatory changes.
+    **Ongoing:** Regular reviews (quarterly for high-risk, annual for low-risk). Learn from incidents. Adjust to regulatory changes.
 
-**Remember:** Perfect is the enemy of good. Start small, learn fast, scale what works, and build assurance into your routine.
+    **Remember:** Perfect is the enemy of good. Start small, learn fast, scale what works, and build assurance into your routine.
 
 ---
 
-## Further resources
+## Further Resources
 
-- [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
-- [AI Change Management](ai-change-management.md)
-- [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
-- [AI Project Register Template](../governance-templates/ai-project-register.md)
-- [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)
-- [AI Incident Report Form](../governance-templates/ai-incident-report-form.md)
-- [AI Assurance – Transparency, Auditing & Reporting](../governance-templates/ai-assurance-transparency-auditing-reporting.md)
+- 🎯 [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
+- 🔄 [AI Change Management](ai-change-management.md)
+- 📋 [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
+- 📊 [AI Project Register Template](../governance-templates/ai-project-register.md)
+- ✅ [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)
+- 🚨 [AI Incident Report Form](../governance-templates/ai-incident-report-form.md)
+- 📈 [AI Assurance – Transparency, Auditing & Reporting](../governance-templates/ai-assurance-transparency-auditing-reporting.md)
+
+---
+
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
+
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
