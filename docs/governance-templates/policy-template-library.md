@@ -42,50 +42,9 @@ These documents are designed as a **baseline AI governance toolkit**: they provi
 
 ---
 
-## Getting Started
-
-!!! info "Recommended Implementation Path"
-    === "Week 1: Assessment (2-4 hours)"
-        **Goal:** Understand current state
-
-        1. 📋 Complete [AI Readiness Checklist](ai-readiness-checklist.md)
-        2. 🎯 Identify gaps and priorities
-        3. 👥 Engage key stakeholders
-
-        **Outcome:** Clear picture of readiness and requirements
-
-    === "Weeks 2-4: Foundation (8-12 hours)"
-        **Goal:** Establish core governance
-
-        1. 📄 Draft [AI Use Policy](ai-use-policy.md)
-        2. ⚠️ Complete [AI Risk Assessment](ai-risk-assessment-checklist.md)
-        3. ✅ Obtain executive sign-off
-
-        **Outcome:** Approved governance framework
-
-    === "Months 2-3: Implementation (20-40 hours)"
-        **Goal:** Deploy and operationalise
-
-        1. 🗺️ Follow [AI Implementation Roadmap](ai-implementation-roadmap.md)
-        2. 🔄 Use [AI Change Management](ai-change-management.md) guide
-        3. 📊 Set up [AI Project Register](ai-project-register.md)
-
-        **Outcome:** Active governance in practice
-
-    === "Ongoing: Operations (Monthly)"
-        **Goal:** Maintain and improve
-
-        1. 📋 Update risk register regularly
-        2. 🚨 Use [AI Incident Report Form](ai-incident-report-form.md) as needed
-        3. 📈 Track via [AI Assurance](ai-assurance-transparency-auditing-reporting.md)
-
-        **Outcome:** Continuous improvement
-
----
-
 ## Current Templates
 
-### 🎯 Getting Started
+### Getting Started
 
 **[AI Readiness Checklist](ai-readiness-checklist.md)**
 Assesses your organisation's readiness to adopt AI safely. Covers governance, technical capability, risk management, and stakeholder engagement.
@@ -96,7 +55,7 @@ Assesses your organisation's readiness to adopt AI safely. Covers governance, te
 
 ---
 
-### 🗺️ Implementation Guides
+### Implementation Guides
 
 **[AI Change Management](ai-change-management.md)**
 Comprehensive guide to managing the organisational and cultural changes that come with AI adoption. Covers stakeholder engagement, communication, workforce planning, and resistance management.
@@ -114,7 +73,7 @@ Step-by-step guide to planning and executing AI projects from pilot to productio
 
 ---
 
-### ⚠️ Risk Management & Assurance
+### Risk Management & Assurance
 
 **[AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)**
 Structured way to evaluate risks before adoption. Aligns with Guardrail 3 (Risk Assessment) and Guardrail 6 (Security).
@@ -146,7 +105,7 @@ Framework for demonstrating responsible AI practices through transparency, indep
 
 ---
 
-### 📋 Policies & Forms
+### Policies & Forms
 
 **[AI Use Policy](ai-use-policy.md)**
 Defines how AI can and cannot be used in your organisation. Aligns with Guardrails 1 (Transparency) and 2 (Accountability).
