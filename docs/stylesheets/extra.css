@@ -1,5 +1,45 @@
 /* SEO and UX improvements for SafeAI-Aus */
 
+/* ============================================================================
+   Navigation Header Styling - Match logo background
+   ============================================================================ */
+
+/* Light mode: Match the warm light grey of the SafeAI-Aus logo */
+.md-header {
+    background-color: #eeeeee !important;
+}
+
+/* Dark mode: Use subtle dark grey that complements the logo when inverted */
+[data-md-color-scheme="slate"] .md-header {
+    background-color: #2d2d2d !important;
+}
+
+/* Ensure header text remains readable */
+.md-header__title,
+.md-header__button,
+.md-header__topic {
+    color: #2c3e50;
+}
+
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] .md-header__button,
+[data-md-color-scheme="slate"] .md-header__topic {
+    color: #ffffff;
+}
+
+/* Navigation tabs styling for consistency */
+.md-tabs {
+    background-color: #e8e8e8;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+    background-color: #252525;
+}
+
+/* ============================================================================
+   Heading Hierarchy and Readability
+   ============================================================================ */
+
 /* Improve heading hierarchy and readability */
 h1 {
     font-size: 2.5em;
