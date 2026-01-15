@@ -33,7 +33,11 @@ twitter_description: "Comprehensive AI readiness checklist for Australian busine
         4. Create an action plan for unchecked items
         5. Assign owners and timeframes for improvements
 
+This checklist helps Australian businesses decide if they are ready to adopt AI safely, responsibly, and effectively.
+
 This checklist reflects the **AI6 Essential Practices** released by the Australian Government and aligns with international frameworks such as **ISO/IEC 42001:2023** and the **NIST AI Risk Management Framework**.
+
+Tick the boxes that apply to your organisation. A higher score means greater readiness.
 
 ---
 
@@ -128,13 +132,18 @@ This checklist helps you verify compliance with key Australian AI frameworks:
 !!! success "Standards Compliance"
     === "AI6 Essential Practices"
         ✓ **Understand impacts and plan accordingly** — Section 3 (Risk & Impact) ensures risk assessments are completed
+
         ✓ **Decide who is accountable** — Section 1 (Strategy & Governance) verifies executive accountability
+
         ✓ **Test and monitor** — Section 5 (Testing & Monitoring) confirms testing protocols exist
 
     === "Voluntary AI Safety Standard (10 Guardrails)"
         ✓ **Guardrail 9 – Governance & oversight** — Section 1 aligns with governance structure requirements
+
         ✓ **Guardrail 2 – Risk management** — Section 3 supports risk management processes
+
         ✓ **Guardrail 6 – Testing & assurance** — Section 5 verifies testing for performance and fairness
+
         ✓ **Guardrail 8 – Supply chain accountability** — Section 6 ensures vendor alignment checks
 
 ---
@@ -150,7 +159,7 @@ This checklist helps you verify compliance with key Australian AI frameworks:
 **Related templates:**
 
 - 📋 [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md) — Evaluate specific AI systems
-- 🔄 [AI Change Management](ai-change-management.md) — Plan organizational rollout
+- 🔄 [AI Change Management](ai-change-management.md) — Plan organisational rollout
 - 📊 [AI Vendor Evaluation](ai-vendor-evaluation-checklist.md) — Assess third-party tools
 
 ---

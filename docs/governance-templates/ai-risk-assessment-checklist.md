@@ -226,13 +226,18 @@ This checklist implements key requirements from Australian AI frameworks:
 !!! success "Standards Compliance"
     === "AI6 Essential Practices"
         ✓ **Measure and manage risks** — Entire checklist provides structured risk measurement (Section 9)
+
         ✓ **Understand impacts and plan accordingly** — Section 2 (Risk Classification) evaluates potential severity
+
         ✓ **Maintain human control** — Section 5 checks for human-in-the-loop mechanisms
 
     === "Voluntary AI Safety Standard (10 Guardrails)"
         ✓ **Guardrail 2 – Risk management** — Primary implementation tool for identifying, assessing, and mitigating risks
+
         ✓ **Guardrail 5 – Human control** — Section 5 addresses oversight and intervention requirements
+
         ✓ **Guardrail 6 – Testing & assurance** — Section 6 prompts for bias testing and real-world validation
+
         ✓ **Guardrail 3 – Data protection** — Sections 3-4 ensure privacy and security safeguards
 
 ---
@@ -261,7 +266,7 @@ This checklist is guided by:
 
 **Related templates:**
 
-- 📋 [AI Readiness Checklist](ai-readiness-checklist.md) — Assess organizational preparedness
+- 📋 [AI Readiness Checklist](ai-readiness-checklist.md) — Assess organisational preparedness
 - 📝 [AI Use Policy](ai-use-policy.md) — Establish governance framework
 - 🗺️ [AI Implementation Roadmap](ai-implementation-roadmap.md) — Plan deployment
 
