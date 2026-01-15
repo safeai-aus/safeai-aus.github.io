@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Risks by Industry (Australia)"
 description: "Industry-specific AI risk examples for 14 major Australian sectors, helping organisations enrich their AI risk registers with sector-tailored threats."
 keywords: "AI risk examples, industry-specific AI risks, Australian AI governance, AI risk register support, sector AI risk tables, SME AI risks"
@@ -17,11 +16,15 @@ twitter_description: "Use these sector-specific AI risk examples to strengthen y
 
 # AI Risks by Industry (Australia)
 
+> **Purpose:** Industry-specific AI risk examples to help organisations identify sector-tailored threats
+> **Audience:** Risk managers, industry compliance officers, governance teams | **Time:** 10-15 minutes per industry
+
 This page provides example AI-related risks tailored to fourteen major Australian industries, with particular emphasis on sectors with significant SME representation.
 
 These examples help businesses identify context-specific risks before adapting them into their own AI risk registers. Each table includes example risks, brief descriptions, and potential impacts. Organisations can extend these tables with columns for control measures, likelihood, residual risk, and ownership to match the main [AI Risk Register Template](ai-risk-register.md).
 
-**Industry Selection:** The industries featured represent a mix of large enterprise sectors (mining, finance, energy) and SME-dominant sectors (retail, hospitality, professional services, construction) to reflect the diverse Australian business landscape. Priority has been given to sectors with active AI adoption and clear regulatory considerations.
+!!! info "Industry Selection"
+    The industries featured represent a mix of large enterprise sectors (mining, finance, energy) and SME-dominant sectors (retail, hospitality, professional services, construction) to reflect the diverse Australian business landscape. Priority has been given to sectors with active AI adoption and clear regulatory considerations.
 
 ---
 
@@ -167,20 +170,24 @@ These examples help businesses identify context-specific risks before adapting t
 
 ## Using These Risk Examples
 
-**For SMEs:**
-- Start with 3-5 risks most relevant to your current or planned AI use
-- Adapt the descriptions to your specific systems and context
-- Add your own control measures and assign ownership
-- Review quarterly as your AI use evolves
+!!! tip "For SMEs"
+    - Start with 3-5 risks most relevant to your current or planned AI use
+    - Adapt the descriptions to your specific systems and context
+    - Add your own control measures and assign ownership
+    - Review quarterly as your AI use evolves
 
-**For Larger Organisations:**
-- Use these as a starting point for comprehensive risk registers
-- Expand with additional columns (likelihood, controls, residual risk, review dates)
-- Integrate with existing enterprise risk management frameworks
-- Consider cross-referencing with the [Australian Voluntary AI Safety Standard](../safety-standards/voluntary-ai-safety-standard-10-guardrails.md)
+!!! tip "For Larger Organisations"
+    - Use these as a starting point for comprehensive risk registers
+    - Expand with additional columns (likelihood, controls, residual risk, review dates)
+    - Integrate with existing enterprise risk management frameworks
+    - Consider cross-referencing with the [Australian Voluntary AI Safety Standard](../safety-standards/voluntary-ai-safety-standard-10-guardrails.md)
 
-**Important Note:** These examples represent common risk patterns but are not exhaustive. Every organisation should conduct its own risk assessment considering its specific AI applications, data, stakeholders and regulatory environment.
+!!! warning "Important Note"
+    These examples represent common risk patterns but are not exhaustive. Every organisation should conduct its own risk assessment considering its specific AI applications, data, stakeholders and regulatory environment.
 
 ---
 
-*This content is for general guidance only and does not constitute legal or professional advice. Organisations should seek appropriate professional advice for their specific circumstances.*
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
+
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
