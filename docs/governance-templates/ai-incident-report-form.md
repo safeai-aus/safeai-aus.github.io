@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Incident Report Form Template"
 description: "Standardised AI incident report form template for Australian businesses. Helps document, track, and respond to AI-related incidents while maintaining compliance with safety standards."
 keywords: "AI incident report form, AI incident template, AI safety incident, AI risk reporting, AI incident documentation, Australian AI safety, AI incident management"
@@ -15,18 +14,22 @@ twitter_title: "AI Incident Report Form Template"
 twitter_description: "Standardised AI incident report form template for Australian businesses"
 ---
 
-# AI Incident Report Form 
+# AI Incident Report Form
 
-AI systems can create new opportunities for businesses, but they also introduce risks — from unexpected errors and harmful outputs to privacy breaches and security incidents.  
+> **Purpose:** Standardised form to document, track, and respond to AI-related incidents
+> **Audience:** All staff, IT teams, security officers, risk managers | **Time:** 10-30 minutes per incident
 
-Having a clear process for recording and reporting AI incidents is an essential part of your organisation’s risk and security management practices. This ensures that issues are identified quickly, lessons are learned, and safeguards are improved.  
+AI systems can create new opportunities for businesses, but they also introduce risks — from unexpected errors and harmful outputs to privacy breaches and security incidents.
 
-Use this form whenever an AI-related incident occurs in your business. The information you capture will help:  
+Having a clear process for recording and reporting AI incidents is an essential part of your organisation's risk and security management practices. This ensures that issues are identified quickly, lessons are learned, and safeguards are improved.
 
-- Contain and mitigate risks early.  
-- Protect staff, customers, and your organisation’s reputation.  
-- Meet your obligations under Australian law and AI guardrails.  
-- Build trust by showing responsible use of AI.  
+!!! info "When to Use This Form"
+    Use this form whenever an AI-related incident occurs in your business. The information you capture will help:
+
+    - ⚡ Contain and mitigate risks early
+    - 🛡️ Protect staff, customers, and your organisation's reputation
+    - ⚖️ Meet your obligations under Australian law and AI guardrails
+    - ✅ Build trust by showing responsible use of AI  
 
 ---
 
@@ -125,54 +128,38 @@ This form aligns with:
 
 ---
 
-## How this template implements AI6 and the Voluntary AI Safety Standard
+## Alignment with Australian Standards
 
-### AI6 practices supported by this template
+!!! success "Standards Compliance"
+    === "AI6 Essential Practices"
+        ✓ **Measure and manage risks** — Form provides structured way to capture and manage risks when they materialise as incidents
 
-- **Measure and manage risks** – This form provides a structured way to capture and manage risks when they materialise as incidents, ensuring they are documented and addressed.
-- **Test and monitor** – By logging "Time of Discovery" and "Incident Description", this template supports the monitoring practice by creating a feedback loop from real-world operation.
-- **Maintain human control** – The "Review & Approval" section (10) ensures that human oversight is applied to the resolution and closure of AI incidents.
+        ✓ **Test and monitor** — Logging "Time of Discovery" and "Incident Description" supports monitoring practice by creating feedback loop from real-world operation
 
-### VAISS guardrails supported by this template
+        ✓ **Maintain human control** — "Review & Approval" section ensures human oversight is applied to resolution and closure of AI incidents
 
-- **Guardrail 7 – Monitoring impacts** – This form is the primary tool for capturing adverse impacts (Section 5 "Impact Assessment") on individuals, the organisation, or the public.
-- **Guardrail 2 – Risk management** – The "Immediate Actions Taken" (7) and "Follow-up Actions" (9) sections support active risk mitigation and control improvement.
-- **Guardrail 5 – Human control** – The requirement for a "Reviewer/approver" (Section 10) ensures human accountability for incident resolution.
-- **Guardrail 9 – Record-keeping** – This form serves as the formal record for all AI-related incidents, supporting compliance and audit trails.
+    === "Voluntary AI Safety Standard (10 Guardrails)"
+        ✓ **Guardrail 7 – Monitoring impacts** — Primary tool for capturing adverse impacts (Section 5 "Impact Assessment") on individuals, organisation, or public
+
+        ✓ **Guardrail 2 – Risk management** — "Immediate Actions Taken" (7) and "Follow-up Actions" (9) support active risk mitigation and control improvement
+
+        ✓ **Guardrail 5 – Human control** — Requirement for "Reviewer/approver" (Section 10) ensures human accountability for incident resolution
+
+        ✓ **Guardrail 9 – Record-keeping** — Serves as formal record for all AI-related incidents, supporting compliance and audit trails
 
 ---
 
 ## Next Steps
-**Ready to evaluate AI vendors?** → [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
+
+**Where to go from here:**
+
+- 📋 **Ready to evaluate AI vendors?** → [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
+- 📊 **Log ongoing risks:** → [AI Risk Register](ai-risk-register.md)
+- 🔄 **Implement AI safely:** → [AI Implementation Roadmap](ai-implementation-roadmap.md)
 
 ---
 
-## Template Disclaimer & Licence
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-### Disclaimer
-The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
-
-SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
-
-The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
-
-This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
-
----
-
-### Licence
-This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
-
-You are free to: 
-
-- **Share** — copy and redistribute the material in any medium or format.  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
-
-Under the following terms:  
-
-- **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
-
-**Attribution statement for reuse:**  
-“This template was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeaiaus.org/).”  
-
-Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)  
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*  
