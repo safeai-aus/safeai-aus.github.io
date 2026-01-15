@@ -132,11 +132,13 @@ For Australian SMEs, buying pre-built AI solutions is usually the right choice:
 | **Overall Risk Rating**     |             |                  |
 
 **Scoring guidance:**
+
 - **1 = Very weak or not demonstrated**
 - **3 = Adequate with some gaps**
 - **5 = Strong evidence and fully compliant**
 
-Additional Evaluation Criteria:
+**Additional Evaluation Criteria:**
+
 | Category | Score (1–5) | Notes / Evidence |
 |----------|-------------|------------------|
 | Financial Stability |             |                  |
@@ -154,6 +156,7 @@ Additional Evaluation Criteria:
 Record vendor details including name, ABN/ACN, headquarters, key contacts, and years in operation.
 
 **Key questions:**
+
 - How long has the vendor been operating?
 - Do they have an Australian presence or local support?
 - Who are their key executives and technical contacts?
@@ -164,6 +167,7 @@ Record vendor details including name, ABN/ACN, headquarters, key contacts, and y
 Outline the AI products or services provided, including version numbers and intended use.
 
 **Key questions:**
+
 - What exactly does the AI do, and what are its limitations?
 - What decisions does it make, and which require human review?
 - What happens when it's uncertain or makes an error?
@@ -175,6 +179,7 @@ Outline the AI products or services provided, including version numbers and inte
 List certifications (ISO/IEC 23894, ISO/IEC 42001, SOC 2) and confirm regulatory compliance.
 
 **Key questions:**
+
 - What security and privacy certifications do you hold?
 - How does the tool comply with Australian Privacy Principles?
 - Do you have customers in [your sector] in Australia?
@@ -186,6 +191,7 @@ List certifications (ISO/IEC 23894, ISO/IEC 42001, SOC 2) and confirm regulatory
 Check vendor policies on data handling, privacy protection, IP safeguards, and data provenance.
 
 **Key questions:**
+
 - Where is data stored? (Australian data centres preferred for sensitive data)
 - Who can access our data?
 - How is our data used? (Training models? Shared with others?)
@@ -198,6 +204,7 @@ Check vendor policies on data handling, privacy protection, IP safeguards, and d
 Assess cybersecurity measures, vulnerability management, and penetration testing frequency.
 
 **Key questions:**
+
 - What security measures protect our data?
 - How often do you conduct security audits and penetration testing?
 - What's your incident response process for security breaches?
@@ -209,6 +216,7 @@ Assess cybersecurity measures, vulnerability management, and penetration testing
 Request information on training data, bias mitigation, validation, and explainability features.
 
 **Key questions:**
+
 - How was the AI model trained and on what data?
 - What testing have you done for bias, accuracy, and reliability?
 - Can we audit the AI's decisions or see how it reached a conclusion?
@@ -220,6 +228,7 @@ Request information on training data, bias mitigation, validation, and explainab
 Review the level of human oversight in operations, escalation paths, and customer support availability.
 
 **Key questions:**
+
 - What support do you offer for Australian customers? (Time zones and response times)
 - What's included in training and onboarding?
 - What human oversight is built into the system?
@@ -231,6 +240,7 @@ Review the level of human oversight in operations, escalation paths, and custome
 Confirm the vendor's process for incident reporting, investigation, and resolution timelines.
 
 **Key questions:**
+
 - What's your process for reporting and resolving incidents?
 - What are typical response and resolution times?
 - How do you communicate with customers during incidents?
@@ -242,6 +252,7 @@ Confirm the vendor's process for incident reporting, investigation, and resoluti
 Review liability clauses, service-level agreements, IP ownership terms, and termination rights.
 
 **Key questions:**
+
 - What's the total cost including setup, training, and ongoing fees?
 - What's the minimum contract term? Is there a trial period?
 - Can we pilot before committing to a long contract?
@@ -254,6 +265,7 @@ Review liability clauses, service-level agreements, IP ownership terms, and term
 Check customer references, case studies, and the vendor's history of regulatory compliance.
 
 **Key questions:**
+
 - Can you provide Australian customer references in our sector?
 - What case studies can you share of successful implementations?
 - Have you had any regulatory violations or serious incidents?
@@ -267,6 +279,7 @@ Check customer references, case studies, and the vendor's history of regulatory 
 Evaluate the vendor's ability to integrate with your existing technology stack and assess technical documentation quality.
 
 **Key questions:**
+
 - How does this integrate with our existing systems? (Microsoft 365, Salesforce, etc.)
 - What's the quality of your API documentation?
 - How long until we can run a pilot?
@@ -274,6 +287,7 @@ Evaluate the vendor's ability to integrate with your existing technology stack a
 - Can we adjust the AI's behaviour or rules?
 
 **Assessment criteria:**
+
 - API documentation quality and completeness
 - Compatibility with existing systems verified
 - Data migration requirements assessed
@@ -288,6 +302,7 @@ Evaluate the vendor's ability to integrate with your existing technology stack a
 Verify vendor financial stability and evaluate total commercial impact of the partnership.
 
 **Key considerations:**
+
 - Vendor financial health verified (credit check, annual reports)
 - Total cost of ownership calculated (licensing, implementation, maintenance)
 - ROI projections documented
@@ -302,6 +317,7 @@ Verify vendor financial stability and evaluate total commercial impact of the pa
 Define success criteria and parameters for a time-limited pilot to validate vendor claims before full commitment.
 
 **Pilot checklist:**
+
 - [ ] Pilot success criteria defined
 - [ ] Limited data set for testing prepared
 - [ ] Evaluation timeline established (typically 30–90 days)
@@ -316,6 +332,7 @@ Define success criteria and parameters for a time-limited pilot to validate vend
 Maintain an audit trail and governance record for all vendor evaluation decisions.
 
 **Documentation requirements:**
+
 - Record all responses and supporting evidence provided by the vendor
 - Capture notes on any identified risks or gaps and how they will be managed
 - Store completed checklists in a secure repository (e.g. risk register, governance system, or procurement file)
