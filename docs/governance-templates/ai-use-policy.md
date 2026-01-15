@@ -37,15 +37,14 @@ faq:
 > **Audience:** All staff, contractors, and third parties | **Format:** Policy document template
 
 !!! tip "How to Use This Template"
-    1. Complete [AI Readiness Checklist](ai-readiness-checklist.md) first
-    2. Copy the policy text below into your document system
-    3. Find and replace **[Organisation Name]** throughout
-    4. Customise Section 9 (Roles & Responsibilities) for your structure
-    5. Workshop key sections with stakeholders (especially Section 6: Prohibited Use)
-    6. Review with legal/compliance team
-    7. Obtain executive and legal sign-off
-    8. Plan training and communication rollout
-    9. Publish and integrate with existing governance documentation
+    1. Copy the policy text below into your document system
+    2. Find and replace **[Organisation Name]** throughout
+    3. Customise Section 9 (Roles & Responsibilities) for your structure
+    4. Workshop key sections with stakeholders (especially Section 6: Prohibited Use)
+    5. Review with legal/compliance team
+    6. Obtain executive and legal sign-off
+    7. Plan training and communication rollout
+    8. Publish and integrate with existing governance documentation
 
 This template provides a **complete AI Use Policy** for Australian businesses seeking to adopt AI responsibly. It aligns with the Australian Government's **Voluntary AI Safety Standard (VAISS)** and references **ISO/IEC 42001:2023**.
 
