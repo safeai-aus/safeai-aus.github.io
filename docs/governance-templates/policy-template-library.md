@@ -76,14 +76,14 @@ Step-by-step guide to planning and executing AI projects from pilot to productio
 ### Risk Management & Assurance
 
 **[AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)**
-Structured way to evaluate risks before adoption. Aligns with Guardrail 3 (Risk Assessment) and Guardrail 6 (Security).
+Structured way to evaluate risks before adoption.
 
 - **Time:** 1-2 hours per system
 - **Format:** Risk evaluation matrix
 - **Supports:** Guardrails 3 (Risk Assessment), 6 (Security)
 
 **[AI Risk Register](ai-risk-register.md)**
-Comprehensive register for identifying, assessing, and managing AI-related risks. Supports Guardrail 3 (Risk Assessment) and integrates with broader GRC processes.
+Comprehensive register for identifying, assessing, and managing AI-related risks. Integrates with broader GRC processes.
 
 - **Time:** 30 mins per risk entry
 - **Format:** Living document / database
@@ -108,14 +108,14 @@ Framework for demonstrating responsible AI practices through transparency, indep
 ### Policies & Forms
 
 **[AI Use Policy](ai-use-policy.md)**
-Defines how AI can and cannot be used in your organisation. Aligns with Guardrails 1 (Transparency) and 2 (Accountability).
+Defines how AI can and cannot be used in your organisation.
 
 - **Time:** 2-4 hours to customize
 - **Format:** Policy document template
 - **Supports:** Guardrails 1 (Transparency), 2 (Accountability)
 
 **[AI Project Register](ai-project-register.md)**
-Maintains a central record of all AI initiatives. Supports Guardrails 9 (Governance & Oversight) and 10 (Lifecycle Management).
+Maintains a central record of all AI initiatives.
 
 - **Time:** 15 mins per project entry
 - **Format:** Register / tracking sheet
@@ -129,7 +129,7 @@ Comprehensive framework for evaluating AI vendors including Build vs Buy guidanc
 - **Supports:** Guardrails 3 (Risk Assessment), 4 (Data Governance), 7 (Supply Chain), 1 (Transparency)
 
 **[AI Incident Report Form](ai-incident-report-form.md)**
-Mechanism to capture, respond, and learn from AI-related issues. Supports Guardrail 5 (Incident Response).
+Mechanism to capture, respond, and learn from AI-related issues.
 
 - **Time:** 15-30 mins per incident
 - **Format:** Incident report form
