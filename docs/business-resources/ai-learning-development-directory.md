@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI & Emerging Tech Learning Directory for SMEs"
 description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability and stay competitive."
 keywords: "AI learning, SME training, AI resources Australia, safe AI adoption, government AI courses, open source AI learning"
@@ -17,91 +16,100 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 # AI & Emerging Tech Learning Directory for SMEs
 
-Australian businesses often face barriers to adopting AI and other emerging technologies due to limited skills, budget, and time.
+> **Purpose:** Curated directory of free and low-cost AI learning resources for Australian businesses
+> **Audience:** SME owners, HR/L&D teams, AI champions, and technical staff | **Time:** 30-45 minutes
 
-This directory brings together the most relevant government-backed and open-source / Creative Commons licensed resources that businesses can freely embed into their learning and development programs.  
+!!! info "About This Directory"
+    Australian businesses often face barriers to adopting AI and other emerging technologies due to limited skills, budget, and time.
 
-Each resource includes details on **format, eligibility, cost, and difficulty level**, along with guidance for how business can integrate them.
+    This directory brings together the most relevant government-backed and open-source / Creative Commons licensed resources that businesses can freely embed into their learning and development programs.
+
+    Each resource includes details on **format, eligibility, cost, and difficulty level**, along with guidance for how business can integrate them.
 
 ---
 
-## Government-Backed Programs
+## 🏛️ Government-Backed Programs
 
 ### Federal Programs
 
-#### 1. [AI 101 Course for Small & Medium Businesses](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-education-small-and-medium-businesses)  
+#### 1. 🎓 [AI 101 Course for Small & Medium Businesses](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-education-small-and-medium-businesses)
+
 *Department of Industry, Science and Resources (DISR)*
 
-- **Description:** Builds foundational understanding of AI concepts and real-world productivity use cases tailored for SMEs.  
-- **Format:** Online, self-paced short course.  
-- **Eligibility:** Open to all SME owners and employees.  
-- **Cost:** **Free**.  
-- **Difficulty:** Beginner  
+- **Description:** Builds foundational understanding of AI concepts and real-world productivity use cases tailored for SMEs.
+- **Format:** Online, self-paced short course.
+- **Eligibility:** Open to all SME owners and employees.
+- **Cost:** **Free**.
+- **Difficulty:** Beginner
 - **Integration:** Serve as baseline training to align staff vocabulary and identify practical AI opportunities.  
 
 ---
 
-#### 2. [AI Adopt Centres](https://business.gov.au/expertise-and-advice/ai-adopt-centres)  
+#### 2. 🤝 [AI Adopt Centres](https://business.gov.au/expertise-and-advice/ai-adopt-centres)
+
 *Business.gov.au – National Network*
 
-- **Description:** Provides tailored diagnostics, hands-on piloting, and AI adoption roadmapping through expert guidance.  
-- **Format:** Workshops, consultations, demonstrations.  
-- **Eligibility:** SMEs in trade-exposed or NRF priority sectors.  
-- **Cost:** **Free** (government-funded).  
-- **Difficulty:** Intermediate  
-- **Integration:** Ideal for translating awareness into strategy; embed findings into SME operations or digital plans.  
+- **Description:** Provides tailored diagnostics, hands-on piloting, and AI adoption roadmapping through expert guidance.
+- **Format:** Workshops, consultations, demonstrations.
+- **Eligibility:** SMEs in trade-exposed or NRF priority sectors.
+- **Cost:** **Free** (government-funded).
+- **Difficulty:** Intermediate
+- **Integration:** Ideal for translating awareness into strategy; embed findings into SME operations or digital plans.
 
 ---
 
-#### 3. [Digital Transformation – Manufacturing AI Support](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-training-and-advice-small-medium-businesses)  
+#### 3. 🏭 [Digital Transformation – Manufacturing AI Support](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-training-and-advice-small-medium-businesses)
+
 *Advanced Robotics Manufacturing Hub & partners*
 
-- **Description:** Sector-focused advisory addressing AI-driven workflow optimisation, robotics integration, and governance for manufacturing, energy, or agri SMEs.  
-- **Format:** One-on-one advisory and hub-based support.  
-- **Eligibility:** Manufacturing, energy, agriculture SMEs.  
-- **Cost:** **Subsidised** (often free).  
-- **Difficulty:** Intermediate–Advanced  
-- **Integration:** Embed as capability uplift tied to process improvement or Lean transformation efforts.  
+- **Description:** Sector-focused advisory addressing AI-driven workflow optimisation, robotics integration, and governance for manufacturing, energy, or agri SMEs.
+- **Format:** One-on-one advisory and hub-based support.
+- **Eligibility:** Manufacturing, energy, agriculture SMEs.
+- **Cost:** **Subsidised** (often free).
+- **Difficulty:** Intermediate–Advanced
+- **Integration:** Embed as capability uplift tied to process improvement or Lean transformation efforts.
 
 ---
 
-#### 4. [IATD Fee-Free Courses (Microcredentials)](https://statedevelopment.sa.gov.au/news/free-ai-education-for-smes)  
+#### 4. 📜 [IATD Fee-Free Courses (Microcredentials)](https://statedevelopment.sa.gov.au/news/free-ai-education-for-smes)
+
 *SA Government + TAFE NSW, Microsoft, UTS, Macquarie University*
 
-- **Description:** Stackable microcredentials in AI, cybersecurity, data, software, and cloud—designed with industry partners for practical skill-building.  
-- **Format:** Blended and online.  
-- **Eligibility:** SME staff in SA; some availability nationally subject to scholarship.  
-- **Cost:** **Fee-free** if funded; otherwise ~$300–$600 per unit.  
-- **Difficulty:** Intermediate  
-- **Integration:** Develop internal "digital upskill pathway" for key staff or AI champions.  
+- **Description:** Stackable microcredentials in AI, cybersecurity, data, software, and cloud—designed with industry partners for practical skill-building.
+- **Format:** Blended and online.
+- **Eligibility:** SME staff in SA; some availability nationally subject to scholarship.
+- **Cost:** **Fee-free** if funded; otherwise ~$300–$600 per unit.
+- **Difficulty:** Intermediate
+- **Integration:** Develop internal "digital upskill pathway" for key staff or AI champions.
 
 ---
 
-#### 5. [TAFE NSW + National AI Centre "Introduction to AI" Microskill](https://www.nsw.gov.au/media-releases/one-million-introduction-to-ai-scholarships-available-to-australians)  
+#### 5. 🌟 [TAFE NSW + National AI Centre "Introduction to AI" Microskill](https://www.nsw.gov.au/media-releases/one-million-introduction-to-ai-scholarships-available-to-australians)
 
-- **Description:** A concise, non-technical introduction to AI, covering basics, benefits, limitations, and ethical considerations.  
-- **Format:** 2–3 hour online module.  
-- **Eligibility:** All Australians.  
-- **Cost:** **Free**.  
-- **Difficulty:** Beginner  
-- **Integration:** Use as induction or pre-engagement prep before deeper programs like AI Adopt Centres.  
+- **Description:** A concise, non-technical introduction to AI, covering basics, benefits, limitations, and ethical considerations.
+- **Format:** 2–3 hour online module.
+- **Eligibility:** All Australians.
+- **Cost:** **Free**.
+- **Difficulty:** Beginner
+- **Integration:** Use as induction or pre-engagement prep before deeper programs like AI Adopt Centres.
 
 ---
 
-#### 6. [APS Academy – "AI in Government Fundamentals"](https://www.apsacademy.gov.au/course-sessions/ai-government-fundamentals)  
+#### 6. 🏛️ [APS Academy – "AI in Government Fundamentals"](https://www.apsacademy.gov.au/course-sessions/ai-government-fundamentals)
 
-- **Description:** Covers ethical, governance, and risk aspects of AI deployment in brief, accessible form.  
-- **Format:** 20–30 minute self-paced module.  
-- **Eligibility:** Public servants (open access to all).  
-- **Cost:** **Free**.  
-- **Difficulty:** Beginner  
+- **Description:** Covers ethical, governance, and risk aspects of AI deployment in brief, accessible form.
+- **Format:** 20–30 minute self-paced module.
+- **Eligibility:** Public servants (open access to all).
+- **Cost:** **Free**.
+- **Difficulty:** Beginner
 - **Integration:** Embed to establish responsible AI awareness as training baseline before operational adoption.  
 
 ---
 
 ### State-Level Programs
 
-#### 7. [South Australia AI Initiative](https://www.news.com.au/technology/innovation/south-australian-treasurer-stephen-mullighan-announces-new-28m-ai-program-in-state-budget/news-story/97fe39eeff3224d0eb3857c7169ce8c2)
+#### 7. 🗺️ [South Australia AI Initiative](https://www.news.com.au/technology/innovation/south-australian-treasurer-stephen-mullighan-announces-new-28m-ai-program-in-state-budget/news-story/97fe39eeff3224d0eb3857c7169ce8c2)
+
 *SA Government*
 
 - **Description:** $28 million AI initiative (2025-2029) with $7 million annually for proof-of-value trials
@@ -113,26 +121,27 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-## Open-Source / Creative Commons Programs
+## 🌐 Open-Source / Creative Commons Programs
 
 ### Global & Open Access Courses
 
-#### 8. [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu/search/?d=Course&q=artificial%20intelligence%20machine%20learning)
+#### 8. 📚 [MIT OpenCourseWare – AI & ML Courses](https://ocw.mit.edu/search/?d=Course&q=artificial%20intelligence%20machine%20learning)
+
 *MIT*
 
 - **Description:** Search results listing MIT OCW courses tagged with artificial intelligence and machine learning, including lectures, notes, and problem sets, with filters for course level and department.
-- **Format:** Full university course materials.  
-- **License:** CC BY-NC-SA.  
-- **Cost:** **Free**.  
-- **Difficulty:** Intermediate–Advanced  
-- **Integration:** Ideal for upskilling tech-savvy staff; use as structured internal learning modules.  
+- **Format:** Full university course materials.
+- **License:** CC BY-NC-SA.
+- **Cost:** **Free**.
+- **Difficulty:** Intermediate–Advanced
+- **Integration:** Ideal for upskilling tech-savvy staff; use as structured internal learning modules.
 
 ---
 
-#### 9. [AI Pedagogy Project](https://aipedagogy.org/using-our-content/)  
+#### 9. 💡 [AI Pedagogy Project](https://aipedagogy.org/using-our-content/)
 
-- **Description:** Curated assignments and tutorials promoting critical thinking about AI's ethics, limitations, and societal impact.  
-- **Format:** Adaptable classroom exercises, prompts, and tutorials.  
+- **Description:** Curated assignments and tutorials promoting critical thinking about AI's ethics, limitations, and societal impact.
+- **Format:** Adaptable classroom exercises, prompts, and tutorials.
 - **License:** CC BY-NC-SA 4.0.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner–Intermediate
@@ -140,10 +149,10 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-#### 10. [MIT "How to AI (Almost) Anything"](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)
+#### 10. 🎨 [MIT "How to AI (Almost) Anything"](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)
 
-- **Description:** Explores multimodal AI applications across vision, sound, sensors, and creativity—building intuition for AI's broader capabilities.  
-- **Format:** Lectures, readings, and research projects.  
+- **Description:** Explores multimodal AI applications across vision, sound, sensors, and creativity—building intuition for AI's broader capabilities.
+- **Format:** Lectures, readings, and research projects.
 - **License:** CC BY.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner–Intermediate
@@ -151,10 +160,10 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-#### 11. [Dive into Deep Learning](https://d2l.ai/)
+#### 11. 🔬 [Dive into Deep Learning](https://d2l.ai/)
 
-- **Description:** Hands-on, open-source textbook with runnable code, blending theory, math, and implementation in Jupyter notebooks.  
-- **Format:** Interactive book using PyTorch, TensorFlow, JAX, with live examples.  
+- **Description:** Hands-on, open-source textbook with runnable code, blending theory, math, and implementation in Jupyter notebooks.
+- **Format:** Interactive book using PyTorch, TensorFlow, JAX, with live examples.
 - **License:** Open source (Apache 2.0).
 - **Cost:** **Free**.
 - **Difficulty:** Advanced
@@ -179,56 +188,29 @@ Each resource includes details on **format, eligibility, cost, and difficulty le
 
 ---
 
-## Business Learning Pathway Recommendations
+!!! success "Business Learning Pathway Recommendations"
+    **1. 🌱 Begin with Awareness (Beginner):**
 
-1. **Begin with Awareness (Beginner):**  
+    - Start all staff with *AI 101*, *TAFE Microskill*, and *APS Fundamentals* to build a common understanding and responsible mindset.
 
-   - Start all staff with *AI 101*, *TAFE Microskill*, and *APS Fundamentals* to build a common understanding and responsible mindset.
+    **2. 🎯 Next, Explore & Strategise (Intermediate):**
 
-2. **Next, Explore & Strategise (Intermediate):** 
+    - Engage with *AI Adopt Centres* for tailored planning.
+    - Empower team members towards *IATD microcredentials* to build internal AI capacity.
 
-   - Engage with *AI Adopt Centres* for tailored planning.  
-   - Empower team members towards *IATD microcredentials* to build internal AI capacity.
+    **3. 🔬 Dig Deeper (Advanced):**
 
-3. **Dig Deeper (Advanced):**  
+    - For technical roles, use *MIT OCW* and *Dive into Deep Learning* for structured, self-paced training.
+    - Use *MIT "How to AI (Almost) Anything"* as a creative catalyst; *AI Pedagogy Project* for ethical reflection.
 
-   - For technical roles, use *MIT OCW* and *Dive into Deep Learning* for structured, self-paced training.  
-   - Use *MIT “How to AI (Almost) Anything”* as a creative catalyst; *AI Pedagogy Project* for ethical reflection.
+    **4. 🔄 Adapt & Integrate:**
 
-4. **Adapt & Integrate:**  
-
-   - Remix CC-licensed materials into internal training, ensuring proper attribution.  
-   - Combine theory and ethics training with applied strategy and execution (e.g., run an internal AI pilot using insights from Adopt Centres).
-
----
-
-## Licence
-
-This page is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
-
-You are free to:  
-
-- **Share** — copy and redistribute the material in any medium or format.  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
-
-Under the following terms:  
-
-- **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
-- **Exclusions** — This licence does not apply to the SafeAI-Aus name, logo, or any third-party material referenced in this document.  
-
-**Attribution statement for reuse:**
-“This resource was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus – AI & Emerging Tech Learning Directory for SMEs](https://safeaiaus.org/business-resources/ai-learning-development-directory/).”
-
-Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+    - Remix CC-licensed materials into internal training, ensuring proper attribution.
+    - Combine theory and ethics training with applied strategy and execution (e.g., run an internal AI pilot using insights from Adopt Centres).
 
 ---
 
-## Disclaimer
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This directory provides links to external learning resources for Australian organisations. SafeAI-Aus has exercised care in curation but does not guarantee accuracy, currency, availability, or eligibility for any program. Organisations should confirm program details, eligibility requirements, funding conditions, and licensing terms directly with each provider before committing resources.
 
-The purpose of this resource is to provide practical guidance on AI and emerging tech learning options available to Australian SMEs.  
-
-It does not replace formal legal, financial, or training advice. 
-
-Organisations should confirm program eligibility, funding, and licensing conditions directly with the provider.
-
-
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
