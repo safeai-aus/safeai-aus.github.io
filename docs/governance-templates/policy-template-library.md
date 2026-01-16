@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Safe AI Policy & Template Library"
 description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, vendor evaluations, and project management tools. Start implementing safe AI practices today."
 keywords: "AI policy templates, AI governance templates, AI safety templates, Australian AI templates, AI policy library, AI governance tools, AI compliance templates"
@@ -33,20 +32,20 @@ These documents are designed as a **baseline AI governance toolkit**: they provi
 
 ---
 
-## Why use these templates?
-
-- ✅ **Consistency** — A common set of documents reduces gaps and overlaps across projects
-- ✅ **Risk reduction** — Guardrail alignment ensures that risks (data, security, accountability, bias) are addressed
-- ✅ **Efficiency** — SMEs and larger organisations alike can use these without building frameworks from scratch
-- ✅ **Transparency** — Provides evidence of responsible AI practices to customers, partners, and regulators
+!!! tip "Why Use These Templates?"
+    - ✅ **Consistency** — A common set of documents reduces gaps and overlaps across projects
+    - ✅ **Risk reduction** — Guardrail alignment ensures that risks (data, security, accountability, bias) are addressed
+    - ✅ **Efficiency** — SMEs and larger organisations alike can use these without building frameworks from scratch
+    - ✅ **Transparency** — Provides evidence of responsible AI practices to customers, partners, and regulators
 
 ---
 
-## Current Templates
+## 📋 Current Templates
 
-### Getting Started
+### 🚀 Getting Started
 
 **[AI Readiness Checklist](ai-readiness-checklist.md)**
+
 Assesses your organisation's readiness to adopt AI safely. Covers governance, technical capability, risk management, and stakeholder engagement.
 
 - **Time:** 30-60 minutes
@@ -55,9 +54,10 @@ Assesses your organisation's readiness to adopt AI safely. Covers governance, te
 
 ---
 
-### Implementation Guides
+### 🎯 Implementation Guides
 
 **[AI Change Management](ai-change-management.md)**
+
 Comprehensive guide to managing the organisational and cultural changes that come with AI adoption. Covers stakeholder engagement, communication, workforce planning, and resistance management.
 
 - **Time:** 2-4 weeks to implement
@@ -65,6 +65,7 @@ Comprehensive guide to managing the organisational and cultural changes that com
 - **Supports:** Guardrails 1 (Transparency), 2 (Accountability), 8 (Human Oversight)
 
 **[AI Implementation Roadmap](ai-implementation-roadmap.md)**
+
 Step-by-step guide to planning and executing AI projects from pilot to production deployment. Includes pilot sizing, success criteria, scaling decisions, and ongoing monitoring.
 
 - **Time:** 3-6 month implementation timeline
@@ -73,9 +74,10 @@ Step-by-step guide to planning and executing AI projects from pilot to productio
 
 ---
 
-### Risk Management & Assurance
+### ⚠️ Risk Management & Assurance
 
 **[AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)**
+
 Structured way to evaluate risks before adoption.
 
 - **Time:** 1-2 hours per system
@@ -83,6 +85,7 @@ Structured way to evaluate risks before adoption.
 - **Supports:** Guardrails 3 (Risk Assessment), 6 (Security)
 
 **[AI Risk Register](ai-risk-register.md)**
+
 Comprehensive register for identifying, assessing, and managing AI-related risks. Integrates with broader GRC processes.
 
 - **Time:** 30 mins per risk entry
@@ -90,6 +93,7 @@ Comprehensive register for identifying, assessing, and managing AI-related risks
 - **Supports:** Guardrail 3 (Risk Assessment)
 
 **[AI Industry-Specific Risks](ai-risks-by-industry.md)**
+
 Provides context-specific AI risk examples for ten major Australian industries to help organisations identify relevant risks for their risk register.
 
 - **Time:** 15-30 minutes to review
@@ -97,6 +101,7 @@ Provides context-specific AI risk examples for ten major Australian industries t
 - **Supports:** Guardrail 3 (Risk Assessment)
 
 **[AI Assurance – Transparency, Auditing & Reporting](ai-assurance-transparency-auditing-reporting.md)**
+
 Framework for demonstrating responsible AI practices through transparency, independent audits, and structured reporting.
 
 - **Time:** Ongoing reporting cadence
@@ -105,9 +110,10 @@ Framework for demonstrating responsible AI practices through transparency, indep
 
 ---
 
-### Policies & Forms
+### 📝 Policies & Forms
 
 **[AI Use Policy](ai-use-policy.md)**
+
 Defines how AI can and cannot be used in your organisation.
 
 - **Time:** 2-4 hours to customise
@@ -115,6 +121,7 @@ Defines how AI can and cannot be used in your organisation.
 - **Supports:** Guardrails 1 (Transparency), 2 (Accountability)
 
 **[AI Project Register](ai-project-register.md)**
+
 Maintains a central record of all AI initiatives.
 
 - **Time:** 15 mins per project entry
@@ -122,6 +129,7 @@ Maintains a central record of all AI initiatives.
 - **Supports:** Guardrails 9 (Governance), 10 (Lifecycle Management)
 
 **[AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)**
+
 Comprehensive framework for evaluating AI vendors including Build vs Buy guidance, critical red flags, and structured evaluation across compliance, security, data governance, and Australian context.
 
 - **Time:** 2-4 hours per vendor
@@ -129,6 +137,7 @@ Comprehensive framework for evaluating AI vendors including Build vs Buy guidanc
 - **Supports:** Guardrails 3 (Risk Assessment), 4 (Data Governance), 7 (Supply Chain), 1 (Transparency)
 
 **[AI Incident Report Form](ai-incident-report-form.md)**
+
 Mechanism to capture, respond, and learn from AI-related issues.
 
 - **Time:** 15-30 mins per incident
