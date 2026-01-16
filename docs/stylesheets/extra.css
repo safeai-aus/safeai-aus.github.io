@@ -4,9 +4,9 @@
    Navigation Header Styling - Match logo background
    ============================================================================ */
 
-/* Light mode: Match the warm light grey of the SafeAI-Aus logo */
+/* Light mode: Match the warm cream background of the SafeAI-Aus logo */
 .md-header {
-    background-color: #eeeeee !important;
+    background-color: #FBF8F4 !important;
 }
 
 /* Dark mode: Use subtle dark grey that complements the logo when inverted */
@@ -29,7 +29,7 @@
 
 /* Navigation tabs styling for consistency */
 .md-tabs {
-    background-color: #e8e8e8;
+    background-color: #F5F2ED;
 }
 
 [data-md-color-scheme="slate"] .md-tabs {
