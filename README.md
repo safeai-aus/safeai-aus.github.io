@@ -14,12 +14,12 @@ SafeAI-Aus provides practical resources, frameworks, and insights to help Austra
 - **Responsible** — transparent, fair, and accountable  
 - **Growth-focused** — unlocking productivity and innovation for Australia's future  
 
-This repository powers the SafeAI-Aus knowledge hub, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).  
+This repository powers the SafeAI-Aus knowledge hub, built with [Zensical](https://github.com/zensical/zensical).  
 
 ---
 
 ## What's inside  
-- **`mkdocs.yml`** — site configuration (theme, navigation, metadata, search, sitemap)  
+- **`zensical.toml`** — site configuration (theme, navigation, metadata, search, sitemap)  
 - **`docs/`** — all content in Markdown organized into three main areas:
   - **AI Safety & Standards** — Australian legislation, voluntary safety standards, international legal overview
   - **Governance Templates** — practical policy templates, checklists, and forms for AI implementation
@@ -43,7 +43,7 @@ Our knowledge hub includes:
 Contributions are welcome — from fixing typos to adding new resources.  
 
 - Add or edit pages in `docs/` (Markdown format).  
-- Sidebar structure is defined in `mkdocs.yml` under `nav:`.  
+- Sidebar structure is defined in `zensical.toml` under `nav:`.  
 - Page titles come from the first `# Heading` in each file.  
 
 👉 Please keep content aligned with the project's mission: *safe, responsible, and growth-focused AI for Australia.*  
@@ -65,7 +65,7 @@ To preview changes before pushing:
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-mkdocs serve
+zensical serve
 ```
 
 Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.  
@@ -74,8 +74,8 @@ Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
 ## Deployment  
 - Pushing to `main` automatically triggers a GitHub Actions build.  
-- The site is published to the `gh-pages` branch.  
-- GitHub Pages is configured to serve from `gh-pages`.  
+- The site is published via GitHub Actions (Pages deploy workflow).  
+- GitHub Pages is configured to deploy from GitHub Actions.  
 
 ---
 
