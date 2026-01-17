@@ -14,7 +14,7 @@ SafeAI-Aus provides practical resources, frameworks, and insights to help Austra
 - **Responsible** — transparent, fair, and accountable  
 - **Growth-focused** — unlocking productivity and innovation for Australia's future  
 
-This repository powers the SafeAI-Aus knowledge hub, built with [Zensical](https://github.com/zensical/zensical).  
+This repository powers the SafeAI-Aus knowledge hub, built with [Zensical](https://github.com/zensical/zensical) (Rust-based, pip-installable).  
 
 ---
 
