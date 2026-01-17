@@ -1,3 +1,3 @@
 # Zensical - Modern static site generator (Rust-based)
-# Migrated from MkDocs Material 9.7.1
+# Migrated to Zensical
 zensical
