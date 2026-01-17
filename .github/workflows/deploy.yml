@@ -24,17 +24,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.10'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install git+https://github.com/zensical/zensical.git
+          pip install -r requirements.txt
       - name: Build site
         run: zensical build
       - name: Generate sitemap.xml
         run: |
           python - << 'PY'
-          import os, re, tomllib
+          import os, re
+          try:
+              import tomllib
+          except ModuleNotFoundError:  # Python < 3.11
+              import tomli as tomllib
           import xml.etree.ElementTree as ET
 
           # Extract site_url from zensical.toml
