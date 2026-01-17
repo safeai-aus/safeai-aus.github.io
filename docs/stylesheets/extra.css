@@ -374,6 +374,19 @@ h3 {
     color: #adb5bd;
 }
 
+/* Airia chat widget tweaks */
+#airia-chat-root {
+    font-size: 16px;
+}
+
+#airia-chat-root *,
+#airia-chat-root button,
+#airia-chat-root input,
+#airia-chat-root textarea {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 /* Print-friendly styles */
 @media print {
     .md-content {
