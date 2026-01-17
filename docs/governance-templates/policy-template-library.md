@@ -40,9 +40,9 @@ These documents are designed as a **baseline AI governance toolkit**: they provi
 
 ---
 
-## 📋 Current Templates
+## Current Templates
 
-### 🚀 Getting Started
+### Getting Started
 
 **[AI Readiness Checklist](ai-readiness-checklist.md)**
 
@@ -54,7 +54,7 @@ Assesses your organisation's readiness to adopt AI safely. Covers governance, te
 
 ---
 
-### 🎯 Implementation Guides
+### Implementation Guides
 
 **[AI Change Management](ai-change-management.md)**
 
@@ -74,7 +74,7 @@ Step-by-step guide to planning and executing AI projects from pilot to productio
 
 ---
 
-### ⚠️ Risk Management & Assurance
+### Risk Management & Assurance
 
 **[AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)**
 
@@ -110,7 +110,7 @@ Framework for demonstrating responsible AI practices through transparency, indep
 
 ---
 
-### 📝 Policies & Forms
+### Policies & Forms
 
 **[AI Use Policy](ai-use-policy.md)**
 

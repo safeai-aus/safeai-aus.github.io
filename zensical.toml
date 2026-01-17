@@ -43,9 +43,7 @@ nav = [
   ]},
   { "Governance Templates" = [
     { "Overview" = "governance-templates/policy-template-library.md" },
-    { "Getting Started" = [
-      { "AI Readiness Checklist" = "governance-templates/ai-readiness-checklist.md" },
-    ]},
+    { "AI Readiness Checklist" = "governance-templates/ai-readiness-checklist.md" },
     { "Implementation Guides" = [
       { "AI Change Management" = "governance-templates/ai-change-management.md" },
       { "AI Implementation Roadmap" = "governance-templates/ai-implementation-roadmap.md" },
@@ -65,15 +63,11 @@ nav = [
   ]},
   { "Practical Business Resources" = [
     { "Overview" = "business-resources/index.md" },
-    { "Getting Started" = [
-      { "Safe AI Adoption - Getting Started" = "business-resources/safe-ai-adoption-getting-started.md" },
-    ]},
-    { "Resources" = [
-      { "AI Grants & Funding" = "business-resources/ai-grants-funding-australia.md" },
-      { "Tools & Frameworks" = "business-resources/ai-aus-tools-frameworks.md" },
-      { "State & Territory AI Resources" = "business-resources/state-territory-ai-resources.md" },
-      { "AI Learning & Development Directory" = "business-resources/ai-learning-development-directory.md" },
-    ]},
+    { "Safe AI Adoption - Getting Started" = "business-resources/safe-ai-adoption-getting-started.md" },
+    { "AI Grants & Funding" = "business-resources/ai-grants-funding-australia.md" },
+    { "Tools & Frameworks" = "business-resources/ai-aus-tools-frameworks.md" },
+    { "State & Territory AI Resources" = "business-resources/state-territory-ai-resources.md" },
+    { "AI Learning & Development Directory" = "business-resources/ai-learning-development-directory.md" },
   ]},
   { "About" = [
     { "About" = "about.md" },

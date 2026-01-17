@@ -112,7 +112,9 @@ For Australian SMEs, buying pre-built AI solutions is usually the right choice:
 ## AI Vendor Evaluation Checklist (Template)
 
 **Vendor Name:** ____________________
+
 **Product/Service:** ____________________
+
 **Date of Evaluation:** ____________________
 
 ### Vendor Evaluation Summary (Quick Scoring Table)

@@ -17,7 +17,7 @@ permalink: /about/
 
 # About SafeAI-Aus
 
-## 🎯 Mission & Purpose
+## Mission & Purpose
 
 **Mission:**
 
@@ -27,7 +27,7 @@ To enable safe, ethical, and growth-oriented AI adoption in Australian businesse
 
 SafeAI-Aus is a community-led, open-source body of knowledge designed to help Australian businesses embed, integrate, and scale AI in ways that are responsible, secure, and compliant - while driving national productivity and economic growth.
 
-## 📖 What We Do
+## What We Do
 
 SafeAI-Aus is an open-source, community-driven initiative focused on AI risk, safety, and growth in the Australian context.
 
@@ -39,7 +39,7 @@ By combining responsible innovation with a pro-business approach, SafeAI-Aus aim
 
 ---
 
-## ⭐ Core Values
+## Core Values
 
 1. **Safety & Responsibility** – Ensure AI is developed and deployed in ways that protect people, organisations, and the broader community.
 2. **Transparency & Accountability** – Foster trust through openness in AI systems, decisions, and governance.
@@ -50,7 +50,7 @@ By combining responsible innovation with a pro-business approach, SafeAI-Aus aim
 
 ---
 
-## 📄 Attribution & Licence
+## Attribution & Licence
 [![CC BY 4.0 License](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)  
 This work is licensed under a [Creative Commons Attribution 4.0 International Licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
 
