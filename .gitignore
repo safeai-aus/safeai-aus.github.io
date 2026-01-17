@@ -1,5 +1,6 @@
 /site/
 /.venv/
+.venv-py312/
 .env
 .DS_Store
 **/.DS_Store

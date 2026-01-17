@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Voluntary AI Safety Standard (10 Guardrails)"
 description: "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails for safe AI adoption. Includes implementation guidance for SMEs and large organisations."
 keywords: "Australian AI safety standard, AI guardrails, AI safety framework, voluntary AI standards, AI risk management, AI governance Australia, AI safety compliance, AI safety guardrails, Australian AI standards, AI safety best practices"
@@ -17,6 +16,9 @@ twitter_description: "Comprehensive guide to Australia's Voluntary AI Safety Sta
 
 # Voluntary AI Safety Standard (10 Guardrails)
 
+> **Purpose:** Detailed control catalogue for implementing Australia's 10 AI safety guardrails
+> **Audience:** Governance, risk, compliance, and technical teams | **Time:** 45-60 minutes for full review
+
 Australia's **Voluntary AI Safety Standard (VAISS)** provides ten practical guardrails organisations can adopt now to deploy and use AI safely and responsibly.  
 
 The standard was developed by the Department of Industry, Science and Resources (DISR) and first published in November 2023. In 2024, the guardrails were updated following consultation to align more closely with the Government’s proposed mandatory guardrails for high-risk AI applications.  
@@ -28,18 +30,19 @@ Importantly, the 10 guardrails are consistent with leading international standar
 - [**ISO/IEC 42001:2023** – AI Management System Standard](https://www.iso.org/standard/81230.html)
 - [**NIST AI Risk Management Framework 1.0**](https://www.nist.gov/itl/ai-risk-management-framework)
 
-> **Status update (October 2025):**
-> In October 2025 the National AI Centre released the **Guidance for AI Adoption**, which sets out 6 essential practices (AI6) for responsible AI governance and adoption. This guidance is described as the **first update of the Voluntary AI Safety Standard (VAISS)** and is now the primary reference for organisations using AI in Australia.
->
-> The 10 guardrails on this page remain fully integrated into the new guidance and are best used as a **detailed control set** and historical reference, especially where contracts, risk registers or external frameworks still refer to the original VAISS guardrails.
+!!! info "Status Update (October 2025)"
+    In October 2025 the National AI Centre released the **Guidance for AI Adoption**, which sets out 6 essential practices (AI6) for responsible AI governance and adoption. This guidance is described as the **first update of the Voluntary AI Safety Standard (VAISS)** and is now the primary reference for organisations using AI in Australia.
+
+    The 10 guardrails on this page remain fully integrated into the new guidance and are best used as a **detailed control set** and historical reference, especially where contracts, risk registers or external frameworks still refer to the original VAISS guardrails.
 
 ## Why this matters
-Adopting the guardrails early helps organisations build **trust, resilience, and regulatory readiness**. By embedding these practices now, businesses can:  
 
-- Reduce risks from bias, errors, and misuse of AI  
-- Strengthen transparency and customer confidence  
-- Position themselves ahead of future mandatory compliance requirements
-- Demonstrate leadership in responsible AI adoption  
+Adopting the guardrails early helps organisations build **trust, resilience, and regulatory readiness**. By embedding these practices now, businesses can:
+
+- 🛡️ Reduce risks from bias, errors, and misuse of AI
+- 🤝 Strengthen transparency and customer confidence
+- 🚀 Position themselves ahead of future mandatory compliance requirements
+- ⭐ Demonstrate leadership in responsible AI adoption  
 
 ## The 10 Guardrails
 1. Establish accountability  
@@ -53,11 +56,11 @@ Adopting the guardrails early helps organisations build **trust, resilience, and
 9. Maintain records  
 10. Support human autonomy  
 
-## What the guardrails do
-- Encourage **transparency and accountability** for AI systems.
-- Require **risk assessment, testing, and human oversight** before and after deployment.
-- Promote **record-keeping** and **supplier due-diligence** across the AI supply chain.
-- Emphasise **stakeholder engagement** and ongoing monitoring as systems evolve.
+!!! success "What the guardrails do"
+    - ✅ Encourage **transparency and accountability** for AI systems
+    - ✅ Require **risk assessment, testing, and human oversight** before and after deployment
+    - ✅ Promote **record-keeping** and **supplier due-diligence** across the AI supply chain
+    - ✅ Emphasise **stakeholder engagement** and ongoing monitoring as systems evolve
 
 ## How this maps to the 6 essential practices (AI6)
 
@@ -72,20 +75,19 @@ The Guidance for AI Adoption condenses the 10 VAISS guardrails into 6 essential 
 | Test and monitor                    | 6. Test reliability; 7. Monitor impacts                         |
 | Maintain human control              | 5. Enable human control; 10. Support human autonomy             |
 
-**How to use this mapping**
+!!! tip "How to use this mapping"
+    - 📊 Use **AI6** as your top-level framework when explaining AI governance to boards, executives and regulators
+    - 📋 Use the **10 guardrails** in this page as a **control library** when:
+        - building or updating AI policies and standards
+        - designing AI risk assessments and risk registers
+        - writing contractual clauses and supplier questionnaires
+    - 🔗 Where you see references to "VAISS" or "guardrails" in external documents, you can confidently interpret them through this AI6 lens
 
-- Use **AI6** as your top-level framework when explaining AI governance to boards, executives and regulators.
-- Use the **10 guardrails** in this page as a **control library** when:
-  - building or updating AI policies and standards
-  - designing AI risk assessments and risk registers
-  - writing contractual clauses and supplier questionnaires.
-- Where you see references to "VAISS" or "guardrails" in external documents, you can confidently interpret them through this AI6 lens.
-
-## How to use this in your business
-1. Adopt the 10 guardrails as acceptance criteria for any AI initiative.  
-2. Update policies and procurement to reflect supplier alignment with the guardrails.  
-3. Integrate testing, documentation, and oversight into your normal change-management.  
-4. Review systems at least annually or on material change.
+!!! tip "How to use this in your business"
+    1. ✅ Adopt the 10 guardrails as acceptance criteria for any AI initiative
+    2. 📝 Update policies and procurement to reflect supplier alignment with the guardrails
+    3. 🔄 Integrate testing, documentation, and oversight into your normal change-management
+    4. 📅 Review systems at least annually or on material change
 
 ---
 

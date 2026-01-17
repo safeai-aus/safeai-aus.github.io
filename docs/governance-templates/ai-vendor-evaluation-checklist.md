@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Vendor Evaluation Checklist"
 description: "Comprehensive AI vendor evaluation checklist for Australian businesses. Assess third-party AI suppliers for safety, compliance, security, and alignment with Australian AI standards."
 keywords: "AI vendor evaluation, AI supplier checklist, AI vendor assessment, AI procurement checklist, AI vendor compliance, Australian AI standards, AI vendor safety, build vs buy"
@@ -17,6 +16,9 @@ twitter_description: "Comprehensive AI vendor evaluation checklist for Australia
 
 # AI Vendor Evaluation Checklist
 
+> **Purpose:** Assess third-party AI suppliers for safety, compliance, security, and standards alignment
+> **Audience:** Procurement teams, IT leaders, risk managers, compliance officers | **Time:** 1-2 hours per vendor
+
 Selecting the right AI vendor is critical for managing risk and ensuring safe, ethical, and productive use of AI in your business. This checklist helps Australian organisations assess potential AI vendors against industry standards, legal requirements, and best practices.
 
 Using this evaluation process supports stronger AI governance by:
@@ -25,13 +27,12 @@ Using this evaluation process supports stronger AI governance by:
 - Ensuring transparency, accountability, and security in AI procurement
 - Building trust with customers, regulators, and partners
 
-This checklist can be used as part of your organisation's AI governance framework when:
+!!! info "When to Use This Checklist"
+    - 🆕 **Onboarding a new AI vendor**
+    - 🔄 **Renewing or extending existing vendor contracts**
+    - ⬆️ **Reviewing AI products that have undergone significant updates**
 
-- Onboarding a new AI vendor
-- Renewing or extending existing vendor contracts
-- Reviewing AI products that have undergone significant updates
-
-Work through each section, seek evidence from the vendor, and record your findings. Where needed, consult legal, risk, or IT experts before approving an AI vendor.
+    Work through each section, seek evidence from the vendor, and record your findings. Where needed, consult legal, risk, or IT experts before approving an AI vendor.
 
 ---
 
@@ -63,49 +64,57 @@ For Australian SMEs, buying pre-built AI solutions is usually the right choice:
 
 ## Critical Red Flags
 
-**Stop or proceed with extreme caution if a vendor:**
+!!! danger "Stop or Proceed with Extreme Caution If a Vendor:"
+    **1. Can't explain how their AI works**
 
-### 1. Can't explain how their AI works
-Gets defensive when asked about decision-making, hides behind "proprietary algorithms," or can't explain it in plain language.
+    Gets defensive when asked about decision-making, hides behind "proprietary algorithms," or can't explain it in plain language.
 
-**Why it matters:** You need to understand AI behaviour well enough to know when to trust it and how to explain it to regulators or customers.
+    **Why it matters:** You need to understand AI behaviour well enough to know when to trust it and how to explain it to regulators or customers.
 
-### 2. Makes unrealistic promises
-Claims "100% accuracy," "fully automated from day one," "no human oversight needed," "works perfectly out of the box," or "guaranteed ROI in 30 days."
+    **2. Makes unrealistic promises**
 
-**Why it matters:** AI systems have limitations and require tuning. Unrealistic promises indicate the vendor doesn't understand their own technology or is being deliberately misleading.
+    Claims "100% accuracy," "fully automated from day one," "no human oversight needed," "works perfectly out of the box," or "guaranteed ROI in 30 days."
 
-### 3. Dismisses your concerns
-Brushes off questions about bias, treats privacy concerns as paranoia, dismisses error rates as "not a real problem," or suggests your requirements are unreasonable.
+    **Why it matters:** AI systems have limitations and require tuning. Unrealistic promises indicate the vendor doesn't understand their own technology or is being deliberately misleading.
 
-**Why it matters:** If vendors won't take your concerns seriously during sales, they definitely won't during implementation or support.
+    **3. Dismisses your concerns**
 
-### 4. Has no Australian customer references
-Cannot provide Australian customers, especially in your sector. Only offers international references.
+    Brushes off questions about bias, treats privacy concerns as paranoia, dismisses error rates as "not a real problem," or suggests your requirements are unreasonable.
 
-**Why it matters:** Australian regulatory environment, business practices, and language nuances matter. Vendors without Australian experience may not understand local compliance requirements.
+    **Why it matters:** If vendors won't take your concerns seriously during sales, they definitely won't during implementation or support.
 
-### 5. Is unclear about data handling
-Vague about data storage location, can't explain who accesses your data, unclear about data usage (training models? sharing?), or has no clear data export/deletion process.
+    **4. Has no Australian customer references**
 
-**Why it matters:** Data sovereignty, privacy compliance, and vendor lock-in risks all depend on clear data handling terms.
+    Cannot provide Australian customers, especially in your sector. Only offers international references.
 
-### 6. Demands heavy lock-in with no trial
-Requires 12+ month contracts with no trial option, high switching costs or data export fees, proprietary data formats, or no clear cancellation process.
+    **Why it matters:** Australian regulatory environment, business practices, and language nuances matter. Vendors without Australian experience may not understand local compliance requirements.
 
-**Why it matters:** You need room to learn and adjust. Long lock-in periods create risk, especially for first AI uses.
+    **5. Is unclear about data handling**
 
-### 7. Lacks relevant certifications
-No ISO 27001, SOC 2, or industry-specific certifications relevant to your needs.
+    Vague about data storage location, can't explain who accesses your data, unclear about data usage (training models? sharing?), or has no clear data export/deletion process.
 
-**Why it matters:** These certifications indicate basic security and privacy practices are in place. For sectors like health or finance, specific certifications may be required.
+    **Why it matters:** Data sovereignty, privacy compliance, and vendor lock-in risks all depend on clear data handling terms.
+
+    **6. Demands heavy lock-in with no trial**
+
+    Requires 12+ month contracts with no trial option, high switching costs or data export fees, proprietary data formats, or no clear cancellation process.
+
+    **Why it matters:** You need room to learn and adjust. Long lock-in periods create risk, especially for first AI uses.
+
+    **7. Lacks relevant certifications**
+
+    No ISO 27001, SOC 2, or industry-specific certifications relevant to your needs.
+
+    **Why it matters:** These certifications indicate basic security and privacy practices are in place. For sectors like health or finance, specific certifications may be required.
 
 ---
 
 ## AI Vendor Evaluation Checklist (Template)
 
 **Vendor Name:** ____________________
+
 **Product/Service:** ____________________
+
 **Date of Evaluation:** ____________________
 
 ### Vendor Evaluation Summary (Quick Scoring Table)
@@ -125,11 +134,13 @@ No ISO 27001, SOC 2, or industry-specific certifications relevant to your needs.
 | **Overall Risk Rating**     |             |                  |
 
 **Scoring guidance:**
+
 - **1 = Very weak or not demonstrated**
 - **3 = Adequate with some gaps**
 - **5 = Strong evidence and fully compliant**
 
-Additional Evaluation Criteria:
+**Additional Evaluation Criteria:**
+
 | Category | Score (1–5) | Notes / Evidence |
 |----------|-------------|------------------|
 | Financial Stability |             |                  |
@@ -147,6 +158,7 @@ Additional Evaluation Criteria:
 Record vendor details including name, ABN/ACN, headquarters, key contacts, and years in operation.
 
 **Key questions:**
+
 - How long has the vendor been operating?
 - Do they have an Australian presence or local support?
 - Who are their key executives and technical contacts?
@@ -157,6 +169,7 @@ Record vendor details including name, ABN/ACN, headquarters, key contacts, and y
 Outline the AI products or services provided, including version numbers and intended use.
 
 **Key questions:**
+
 - What exactly does the AI do, and what are its limitations?
 - What decisions does it make, and which require human review?
 - What happens when it's uncertain or makes an error?
@@ -168,6 +181,7 @@ Outline the AI products or services provided, including version numbers and inte
 List certifications (ISO/IEC 23894, ISO/IEC 42001, SOC 2) and confirm regulatory compliance.
 
 **Key questions:**
+
 - What security and privacy certifications do you hold?
 - How does the tool comply with Australian Privacy Principles?
 - Do you have customers in [your sector] in Australia?
@@ -179,6 +193,7 @@ List certifications (ISO/IEC 23894, ISO/IEC 42001, SOC 2) and confirm regulatory
 Check vendor policies on data handling, privacy protection, IP safeguards, and data provenance.
 
 **Key questions:**
+
 - Where is data stored? (Australian data centres preferred for sensitive data)
 - Who can access our data?
 - How is our data used? (Training models? Shared with others?)
@@ -191,6 +206,7 @@ Check vendor policies on data handling, privacy protection, IP safeguards, and d
 Assess cybersecurity measures, vulnerability management, and penetration testing frequency.
 
 **Key questions:**
+
 - What security measures protect our data?
 - How often do you conduct security audits and penetration testing?
 - What's your incident response process for security breaches?
@@ -202,6 +218,7 @@ Assess cybersecurity measures, vulnerability management, and penetration testing
 Request information on training data, bias mitigation, validation, and explainability features.
 
 **Key questions:**
+
 - How was the AI model trained and on what data?
 - What testing have you done for bias, accuracy, and reliability?
 - Can we audit the AI's decisions or see how it reached a conclusion?
@@ -213,6 +230,7 @@ Request information on training data, bias mitigation, validation, and explainab
 Review the level of human oversight in operations, escalation paths, and customer support availability.
 
 **Key questions:**
+
 - What support do you offer for Australian customers? (Time zones and response times)
 - What's included in training and onboarding?
 - What human oversight is built into the system?
@@ -224,6 +242,7 @@ Review the level of human oversight in operations, escalation paths, and custome
 Confirm the vendor's process for incident reporting, investigation, and resolution timelines.
 
 **Key questions:**
+
 - What's your process for reporting and resolving incidents?
 - What are typical response and resolution times?
 - How do you communicate with customers during incidents?
@@ -235,6 +254,7 @@ Confirm the vendor's process for incident reporting, investigation, and resoluti
 Review liability clauses, service-level agreements, IP ownership terms, and termination rights.
 
 **Key questions:**
+
 - What's the total cost including setup, training, and ongoing fees?
 - What's the minimum contract term? Is there a trial period?
 - Can we pilot before committing to a long contract?
@@ -247,6 +267,7 @@ Review liability clauses, service-level agreements, IP ownership terms, and term
 Check customer references, case studies, and the vendor's history of regulatory compliance.
 
 **Key questions:**
+
 - Can you provide Australian customer references in our sector?
 - What case studies can you share of successful implementations?
 - Have you had any regulatory violations or serious incidents?
@@ -257,8 +278,10 @@ Check customer references, case studies, and the vendor's history of regulatory 
 ---
 
 ### 11. Integration & Technical Capability
+Evaluate the vendor's ability to integrate with your existing technology stack and assess technical documentation quality.
 
 **Key questions:**
+
 - How does this integrate with our existing systems? (Microsoft 365, Salesforce, etc.)
 - What's the quality of your API documentation?
 - How long until we can run a pilot?
@@ -266,15 +289,21 @@ Check customer references, case studies, and the vendor's history of regulatory 
 - Can we adjust the AI's behaviour or rules?
 
 **Assessment criteria:**
+
 - API documentation quality and completeness
 - Compatibility with existing systems verified
 - Data migration requirements assessed
 - Performance benchmarks established
 - Scalability limitations understood
 
+*Sources: IT Integration Best Practice; Vendor Due Diligence Standards*
+
 ---
 
 ### 12. Financial & Commercial Assessment
+Verify vendor financial stability and evaluate total commercial impact of the partnership.
+
+**Key considerations:**
 
 - Vendor financial health verified (credit check, annual reports)
 - Total cost of ownership calculated (licensing, implementation, maintenance)
@@ -282,19 +311,29 @@ Check customer references, case studies, and the vendor's history of regulatory 
 - Payment terms and conditions reviewed
 - Penalties for non-performance defined
 
+*Sources: Financial Due Diligence; Procurement Best Practice*
+
 ---
 
-### Proof of Concept / Pilot Phase
+### 13. Proof of Concept / Pilot Phase
+Define success criteria and parameters for a time-limited pilot to validate vendor claims before full commitment.
+
+**Pilot checklist:**
+
 - [ ] Pilot success criteria defined
 - [ ] Limited data set for testing prepared
 - [ ] Evaluation timeline established (typically 30–90 days)
 - [ ] Rollback plan documented
 - [ ] Cost of pilot agreed (if applicable)
 
+*Sources: Change Management Best Practice; AI Implementation Guidelines*
+
 ---
 
-### Documenting & Storing Results
-To ensure accountability and provide an audit trail:
+### 14. Documenting & Storing Results
+Maintain an audit trail and governance record for all vendor evaluation decisions.
+
+**Documentation requirements:**
 
 - Record all responses and supporting evidence provided by the vendor
 - Capture notes on any identified risks or gaps and how they will be managed
@@ -302,61 +341,43 @@ To ensure accountability and provide an audit trail:
 - Review and update the checklist regularly, especially when vendors release new versions or change their business practices
 - Cross-reference this checklist with your organisation's AI Risk Assessment and Incident Reporting processes for a complete governance record
 
+*Sources: Governance and Compliance Standards; Record-Keeping Best Practice*
+
 ---
 
-## How this template implements AI6 and VAISS
+## Alignment with Australian Standards
 
-### AI6 practices supported by this template
+!!! success "Standards Compliance"
+    === "AI6 Essential Practices"
+        ✓ **Share essential information** — Sections 1-2 ("Vendor Information" and "Product/Service Description") capture essential information about external AI systems
 
-- **Share essential information** – Sections 1-2 ("Vendor Information" and "Product/Service Description") ensure essential information about external AI systems is captured
-- **Measure and manage risks** – Sections 5 and 12 ("Security Practices" and "Financial & Commercial Assessment") help measure specific vendor-related risks
-- **Test and monitor** – Section 6 ("Model Development & Testing") asks for evidence of the vendor's own testing and validation processes
+        ✓ **Measure and manage risks** — Sections 5 and 12 ("Security Practices" and "Financial & Commercial Assessment") help measure vendor-related risks
 
-### VAISS guardrails supported by this template
+        ✓ **Test and monitor** — Section 6 ("Model Development & Testing") asks for evidence of vendor testing and validation processes
 
-- **Guardrail 8 – Supply chain accountability** – This entire checklist is the primary mechanism for implementing supply chain accountability, ensuring vendors meet safety standards
-- **Guardrail 3 – Data protection & security** – Sections 4 and 5 ("Data Governance" and "Security Practices") verify that vendors have appropriate data and security controls
-- **Guardrail 6 – Testing & assurance** – Section 6 checks that the vendor has adequately tested their model for bias, robustness, and accuracy
-- **Guardrail 1 – Accountability** – Section 9 ("Contractual Safeguards") ensures legal and operational accountability is defined in vendor contracts
+    === "Voluntary AI Safety Standard (10 Guardrails)"
+        ✓ **Guardrail 8 – Supply chain accountability** — Entire checklist implements supply chain accountability, ensuring vendors meet safety standards
+
+        ✓ **Guardrail 3 – Data protection & security** — Sections 4-5 ("Data Governance" and "Security Practices") verify vendors have appropriate data and security controls
+
+        ✓ **Guardrail 6 – Testing & assurance** — Section 6 checks vendors have adequately tested models for bias, robustness, and accuracy
+
+        ✓ **Guardrail 1 – Accountability** — Section 9 ("Contractual Safeguards") ensures legal and operational accountability is defined in vendor contracts
 
 ---
 
 ## Next Steps
 
 **Connect this evaluation to broader adoption work:**
-- **Before evaluating vendors:** [Safe AI Adoption - Getting Started](../business-resources/safe-ai-adoption-getting-started.md)
-- **During implementation:** [AI Change Management](ai-change-management.md) and [AI Implementation Roadmap](ai-implementation-roadmap.md)
-- **Track approved vendors:** [AI Project Register](ai-project-register.md)
-- **Log vendor risks:** [AI Risk Register](ai-risk-register.md)
+
+- 🎯 **Before evaluating vendors:** [Safe AI Adoption - Getting Started](../business-resources/safe-ai-adoption-getting-started.md)
+- 🔄 **During implementation:** [AI Change Management](ai-change-management.md) and [AI Implementation Roadmap](ai-implementation-roadmap.md)
+- 📊 **Track approved vendors:** [AI Project Register](ai-project-register.md)
+- 📋 **Log vendor risks:** [AI Risk Register](ai-risk-register.md)
 
 ---
 
-## Template Disclaimer & Licence
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-### Disclaimer
-The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.
-
-SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained.
-
-The content reflects best practice principles but is intended as a starting point only. Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.
-
-This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.
-
----
-
-### Licence
-This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.
-
-You are free to:
-
-- **Share** — copy and redistribute the material in any medium or format
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
-
-Under the following terms:
-
-- **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made
-
-**Attribution statement for reuse:**
-"This template was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeaiaus.org/)."
-
-Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

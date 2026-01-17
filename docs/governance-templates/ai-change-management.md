@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Change Management"
 description: "Practical guidance to get buy-in, address concerns, and support staff through AI adoption before, during, and after pilots."
 keywords: "AI change management, AI adoption, organisational change, AI pilot support, AI stakeholder engagement, Australian SMEs"
@@ -17,6 +16,9 @@ twitter_description: "Step-by-step guidance to secure buy-in, address concerns, 
 
 # AI Change Management
 
+> **Purpose:** Manage the people and process aspects of AI adoption for successful implementation
+> **Audience:** Change managers, HR teams, project managers, team leaders | **Time:** 15-20 minutes
+
 The technology is only part of the story. Getting people to actually use AI tools effectively requires deliberate change management.
 
 Research shows that organisations with effective change management are **seven times more likely** to meet AI project objectives. Yet many organisations skip this step, announcing AI tools and expecting enthusiastic adoption.
@@ -25,25 +27,33 @@ This page provides practical guidance on managing the people and process aspects
 
 ---
 
-## Who this page is for
+!!! info "Who This Page Is For"
+    **Target audience:**
 
-This page is for:
+    - 🔄 Transformation and change managers leading AI rollouts
+    - 👥 HR teams supporting organisational change
+    - 📋 Project managers running AI pilots
+    - 👨‍💼 Team leaders preparing their teams for AI tools
+    - ✅ Anyone responsible for making AI adoption actually work
 
-- Transformation and change managers leading AI rollouts
-- HR teams supporting organisational change
-- Project managers running AI pilots
-- Team leaders preparing their teams for AI tools
-- Anyone responsible for making AI adoption actually work
-
-If you're asking "How do we get people on board with AI?" or "Why isn't our AI pilot getting traction?", this is for you.
+    **If you're asking** "How do we get people on board with AI?" or "Why isn't our AI pilot getting traction?", this is for you.
 
 ---
 
-## Why change management matters
+## Why Change Management Matters
 
 AI adoption fails when staff don't understand the "why," concerns about job security go unaddressed, training focuses on clicking buttons rather than workflow changes, or feedback disappears into a void. The result: Low adoption, workarounds, and abandoned tools despite significant investment.
 
-**Organisations with effective change management are 7x more likely to meet AI project objectives**, with faster time to value, higher sustained adoption, and fewer incidents. It's the difference between success and expensive failure.
+!!! success "Research Shows"
+    **Organisations with effective change management are 7× more likely to meet AI project objectives**
+
+    **Benefits include:**
+
+    - ⚡ Faster time to value
+    - 📈 Higher sustained adoption
+    - 🛡️ Fewer incidents and problems
+
+    **It's the difference between success and expensive failure.**
 
 ---
 
@@ -247,26 +257,32 @@ See [AI Implementation Roadmap](ai-implementation-roadmap.md) for practical guid
 
 ---
 
-## Key takeaways
+## Key Takeaways
 
-**Before pilots:** Get buy-in through conversation, not announcement. Address concerns proactively. Set clear expectations.
+!!! success "Essential Principles"
+    **Before pilots:** Get buy-in through conversation, not announcement. Address concerns proactively. Set clear expectations.
 
-**During pilots:** Communicate weekly. Act on feedback visibly. Support different learning styles.
+    **During pilots:** Communicate weekly. Act on feedback visibly. Support different learning styles.
 
-**When scaling:** Plan for 2-3x more support. Tailor messages by stakeholder group. Track adoption, not just deployment.
+    **When scaling:** Plan for 2-3x more support. Tailor messages by stakeholder group. Track adoption, not just deployment.
 
-**Regional context:** Test with actual infrastructure. Build strong documentation. Leverage peer networks.
+    **Regional context:** Test with actual infrastructure. Build strong documentation. Leverage peer networks.
 
-**Remember:** Organisations with effective change management are 7x more likely to meet objectives. Time invested delivers returns through higher adoption, faster value, and fewer problems.
+    **Remember:** Organisations with effective change management are 7× more likely to meet objectives. Time invested delivers returns through higher adoption, faster value, and fewer problems.
+
+---
+
+## Further Resources
+
+- 🎯 [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
+- 📋 [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
+- 🗺️ [AI Implementation Roadmap](ai-implementation-roadmap.md)
+- 📊 [AI Project Register Template](../governance-templates/ai-project-register.md)
+- ✅ [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)
 
 ---
 
-## Further resources
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-- [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
-- [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)
-- [AI Implementation Roadmap](ai-implementation-roadmap.md)
-- [AI Project Register Template](../governance-templates/ai-project-register.md)
-- [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md)
-
----
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

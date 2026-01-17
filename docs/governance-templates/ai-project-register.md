@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Project Register Template"
 description: "Comprehensive AI project register template for Australian businesses. Centralised tracking of AI initiatives, compliance status, and governance oversight aligned with safety standards."
 keywords: "AI project register template, AI project tracking, AI governance tracking, AI compliance register, AI project management, Australian AI safety, AI project oversight"
@@ -15,22 +14,23 @@ twitter_title: "AI Project Register Template"
 twitter_description: "Comprehensive AI project register template for Australian businesses"
 ---
 
-# AI Project Register 
+# AI Project Register
 
-**Purpose¶**  
-This register provides a structured way to maintain a central record of all AI initiatives within your organisation. It is designed to:  
+> **Purpose:** Central record of all AI initiatives within your organisation for governance oversight
+> **Audience:** PMO, ICT, risk and governance teams | **Time:** 30 minutes setup, ongoing updates
 
-- Ensure visibility across all AI-related projects.  
-- Provide a single source of truth for governance, risk, and compliance monitoring.  
-- Support decision-making through consistent project documentation and guardrail alignment.  
+This register provides a structured way to maintain a central record of all AI initiatives within your organisation. It is designed to:
 
-**When to Use**  
+- Ensure visibility across all AI-related projects
+- Provide a single source of truth for governance, risk, and compliance monitoring
+- Support decision-making through consistent project documentation and guardrail alignment
 
-- At project initiation: Create a new entry for each AI initiative.  
-- During project lifecycle: Update details as the project evolves (e.g., risks, model versions).  
-- At review points: Use the register to assess go/no-go criteria and ensure guardrail compliance.  
+!!! info "When to Use"
+    - 🎯 **At project initiation:** Create a new entry for each AI initiative
+    - 🔄 **During project lifecycle:** Update details as the project evolves (e.g., risks, model versions)
+    - ✅ **At review points:** Use the register to assess go/no-go criteria and ensure guardrail compliance
 
-**Relevant Guardrails:** 1, 2, 9, 10 (from the Australian Voluntary AI Safety Standard).  
+    **Relevant Guardrails:** 1, 2, 9, 10 (from the Australian Voluntary AI Safety Standard)  
 
 ---
 
@@ -83,12 +83,14 @@ This register provides a structured way to maintain a central record of all AI i
 ---
 
 ## Status Tracking
-Overall Status: [ ] On Track  [ ] At Risk  [ ] Delayed  [ ] On Hold  [ ] Cancelled  
 
-Health Indicators:  
-- Schedule: 🟢 Green / 🟡 Amber / 🔴 Red  
-- Budget: 🟢 Green / 🟡 Amber / 🔴 Red   
-- Risk: 🟢 Green / 🟡 Amber / 🔴 Red  
+**Overall Status:** [ ] On Track  [ ] At Risk  [ ] Delayed  [ ] On Hold  [ ] Cancelled
+
+**Health Indicators:**
+
+- Schedule: 🟢 Green / 🟡 Amber / 🔴 Red
+- Budget: 🟢 Green / 🟡 Amber / 🔴 Red
+- Risk: 🟢 Green / 🟡 Amber / 🔴 Red
 - Compliance: 🟢 Green / 🟡 Amber / 🔴 Red  
 
 ---
@@ -102,55 +104,37 @@ Health Indicators:
 
 ---
 
-## How this template implements AI6 and the Voluntary AI Safety Standard
+## Alignment with Australian Standards
 
-### AI6 practices supported by this template
+!!! success "Standards Compliance"
+    === "AI6 Essential Practices"
+        ✓ **Decide who is accountable** — "Ownership & Governance" section requires "Project Owner" and "Stakeholders" for every initiative
 
-- **Decide who is accountable** – The "Ownership & Governance" section explicitly requires a "Project Owner" and "Stakeholders" to be identified for every initiative.
-- **Understand impacts and plan accordingly** – The "Risk Assessment" section requires documentation of "Risk Level" and "Mitigations" before a project proceeds.
-- **Share essential information** – This register acts as the central source of truth, sharing essential project details (Objectives, Timeline, Status) across the organisation.
+        ✓ **Understand impacts and plan accordingly** — "Risk Assessment" section requires documentation of "Risk Level" and "Mitigations" before proceeding
 
-### VAISS guardrails supported by this template
+        ✓ **Share essential information** — Register acts as central source of truth, sharing project details (Objectives, Timeline, Status) across the organisation
 
-- **Guardrail 1 – Accountability** – The "Project Owner" field ensures there is a specific individual accountable for the AI system's outputs and impacts.
-- **Guardrail 10 – Stakeholder engagement, safety, diversity, fairness** – The "Ethics" section (Ethics Review, Bias Testing) supports the verification of fairness and safety considerations.
-- **Guardrail 9 – Record-keeping** – The entire register implements the record-keeping guardrail by maintaining a history of all AI projects, their status, and key decisions.
-- **Guardrail 2 – Risk management** – The "Risk Assessment" fields (Risk Level, Mitigations) ensure risk management is integrated into the project lifecycle.
+    === "Voluntary AI Safety Standard (10 Guardrails)"
+        ✓ **Guardrail 1 – Accountability** — "Project Owner" field ensures specific individual accountable for AI system outputs and impacts
+
+        ✓ **Guardrail 10 – Stakeholder engagement, safety, diversity, fairness** — "Ethics" section (Ethics Review, Bias Testing) verifies fairness and safety
+
+        ✓ **Guardrail 9 – Record-keeping** — Register implements record-keeping by maintaining history of all AI projects, status, and key decisions
+
+        ✓ **Guardrail 2 – Risk management** — "Risk Assessment" fields (Risk Level, Mitigations) integrate risk management into project lifecycle
 
 ---
 
 ## Next Steps
-**Need a central log of project-specific risks?** → [AI Risk Register](ai-risk-register.md)
-**Need to establish AI governance policies?** → [AI Use Policy](ai-use-policy.md)
+
+**Where to go from here:**
+
+- 📊 **Need a central log of project-specific risks?** → [AI Risk Register](ai-risk-register.md)
+- 📋 **Need to establish AI governance policies?** → [AI Use Policy](ai-use-policy.md)
 
 ---
 
-## Template Disclaimer & Licence
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-### Disclaimer
-The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
-
-SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
-
-The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
-
-This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
-
----
-
-### Licence
-This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
-
-You are free to:  
-
-- **Share** — copy and redistribute the material in any medium or format.  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
-
-Under the following terms:  
-
-- **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
-
-**Attribution statement for reuse:**  
-“This template was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeaiaus.org/).”  
-
-Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)  
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*  

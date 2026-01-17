@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Risk Register Template"
 description: "Comprehensive AI risk register template for Australian businesses. Identify, assess, and manage AI-related risks with structured tracking aligned to safety standards."
 keywords: "AI risk register template, AI risk management, AI risk tracking, AI risk assessment, Australian AI safety, AI governance tracking, AI risk framework"
@@ -17,19 +16,21 @@ twitter_description: "Comprehensive AI risk register template for Australian bus
 
 # AI Risk Register Template
 
+> **Purpose:** Central tracking tool for identifying, assessing, and managing AI-related risks
+> **Audience:** Risk managers, governance teams, compliance officers | **Time:** 30-45 minutes setup, ongoing updates
+
 This register provides a starting point for organisations to identify, assess, and manage risks associated with the use of AI. Each entry includes example control measures, while columns for likelihood, residual risk, and risk owner are left blank for organisations to complete based on their context.
 
 ---
 
-## How to Use This Page
-
-1. **Connect to your broader risk framework** – This AI risk register should not stand alone. Integrate it into your organisation’s existing **Governance, Risk, and Compliance (GRC) processes**, enterprise risk register, and risk appetite statements.  
-2. **Review the example risks** – These are common AI-related risks relevant to many Australian businesses.  
-3. **Tailor to your organisation** – Add, remove, or adjust risks so the register reflects your industry, scale, and regulatory environment.  
-4. **Assess likelihood and residual risk** – Use your organisation’s established risk rating framework to complete the blank fields.  
-5. **Assign risk owners** – Allocate responsibility to relevant leaders or teams to ensure ongoing monitoring.  
-6. **Implement control measures** – Use the example measures provided as a starting point, and expand with your own policies, technologies, or oversight mechanisms.  
-7. **Update regularly** – As AI tools, regulations, and organisational use cases evolve, revisit this register to keep it accurate and effective.  
+!!! tip "How to Use This Template"
+    1. Connect this AI risk register to your organisation's existing Governance, Risk, and Compliance (GRC) processes and enterprise risk register
+    2. Review the example risks below (common AI-related risks for Australian businesses)
+    3. Tailor risks to your organisation's industry, scale, and regulatory environment
+    4. Assess likelihood and residual risk using your established risk rating framework
+    5. Assign risk owners to relevant leaders or teams for ongoing monitoring
+    6. Implement control measures starting with the examples provided, then expand with your own policies and oversight mechanisms
+    7. Update regularly as AI tools, regulations, and use cases evolve  
 
 ---
 
@@ -50,23 +51,25 @@ This register provides a starting point for organisations to identify, assess, a
 
 ## How to Assess AI Risk
 
-When assessing AI risks in your organisation, consider the following lenses:  
+!!! info "Assessment Lenses"
+    When assessing AI risks in your organisation, consider these dimensions:
 
-- **Business Context** – Where is AI being used (customer-facing, internal, back-office)? How critical are these processes to operations or reputation?  
-- **Legal & Regulatory Obligations** – Which laws, industry codes, or standards apply (e.g. Privacy Act, workplace law, consumer law, sector-specific regulators)?  
-- **Data Sensitivity** – What kind of data is being processed (personal, confidential, intellectual property)? Could exposure cause harm?  
-- **Human Impact** – How could staff, customers, or communities be affected by errors, bias, or automation decisions?  
-- **Technology Reliability** – What are the limits of the AI model? How often are errors or hallucinations likely to occur, and in what context?  
-- **Governance & Oversight** – Who is responsible for approving, monitoring, and reviewing AI systems? Are there escalation paths when risks materialise?  
-- **Reputation & Trust** – How might customers, employees, regulators, or the media react if something goes wrong?  
+    - 🏢 **Business Context** – Where is AI being used (customer-facing, internal, back-office)? How critical are these processes to operations or reputation?
+    - ⚖️ **Legal & Regulatory Obligations** – Which laws, industry codes, or standards apply (e.g. Privacy Act, workplace law, consumer law, sector-specific regulators)?
+    - 🔒 **Data Sensitivity** – What kind of data is being processed (personal, confidential, intellectual property)? Could exposure cause harm?
+    - 👥 **Human Impact** – How could staff, customers, or communities be affected by errors, bias, or automation decisions?
+    - 🤖 **Technology Reliability** – What are the limits of the AI model? How often are errors or hallucinations likely to occur, and in what context?
+    - 📊 **Governance & Oversight** – Who is responsible for approving, monitoring, and reviewing AI systems? Are there escalation paths when risks materialise?
+    - 🌐 **Reputation & Trust** – How might customers, employees, regulators, or the media react if something goes wrong?
 
-### A Practical Approach
-1. **Identify** the AI system, its purpose, and stakeholders impacted.  
-2. **Analyse** risks across the above dimensions.  
-3. **Rate** each risk using your organisation’s **existing risk rating framework** (likelihood × consequence), ensuring consistency with enterprise risk management.  
-4. **Mitigate** by implementing appropriate controls (technical, procedural, cultural).  
-5. **Monitor & Review** regularly, as both technology and regulation evolve rapidly.  
-6. **Integrate** into the broader **GRC processes** — AI risks should sit within the same governance and reporting mechanisms as other strategic, financial, and operational risks.  
+**A Practical Approach:**
+
+1. **Identify** the AI system, its purpose, and stakeholders impacted
+2. **Analyse** risks across the above dimensions
+3. **Rate** each risk using your organisation's existing risk rating framework (likelihood × consequence), ensuring consistency with enterprise risk management
+4. **Mitigate** by implementing appropriate controls (technical, procedural, cultural)
+5. **Monitor & Review** regularly, as both technology and regulation evolve rapidly
+6. **Integrate** into the broader GRC processes — AI risks should sit within the same governance and reporting mechanisms as other strategic, financial, and operational risks  
 
 ---
 
@@ -82,63 +85,43 @@ The risk register process is not just a compliance exercise — it is a practica
 
 ---
 
-## How this template implements AI6 and the Voluntary AI Safety Standard
+## Alignment with Australian Standards
 
-### AI6 practices supported by this template
+!!! success "Standards Compliance"
+    === "AI6 Essential Practices"
+        ✓ **Measure and manage risks** — This register is the core tool for ongoing risk management, tracking likelihood, impact, and control measures
 
-- **Measure and manage risks** – This register is the core tool for the ongoing management of identified risks, tracking their likelihood, impact, and control measures.
-- **Decide who is accountable** – The "Risk Owner" column ensures that every identified risk is assigned to a specific individual for management.
-- **Share essential information** – By documenting risks centrally, this register shares essential safety information with stakeholders and governance bodies.
+        ✓ **Decide who is accountable** — "Risk Owner" column ensures every risk is assigned to a specific individual
 
-### VAISS guardrails supported by this template
+        ✓ **Share essential information** — Central documentation shares safety information with stakeholders and governance bodies
 
-- **Guardrail 2 – Risk management** – The register provides the structure for documenting risk assessments and the effectiveness of mitigations (Example Control Measures).
-- **Guardrail 1 – Accountability** – The "Risk Owner" assignment supports clear accountability for risk outcomes.
-- **Guardrail 9 – Record-keeping** – This document serves as a formal record of the organisation's risk landscape and management efforts.
-- **Guardrail 7 – Monitoring impacts** – The "Residual Risk" and review columns support the ongoing monitoring of risk levels over time.
+    === "Voluntary AI Safety Standard (10 Guardrails)"
+        ✓ **Guardrail 2 – Risk management** — Provides structure for documenting risk assessments and mitigation effectiveness
+
+        ✓ **Guardrail 1 – Accountability** — "Risk Owner" assignment supports clear accountability for risk outcomes
+
+        ✓ **Guardrail 9 – Record-keeping** — Serves as formal record of the organisation's risk landscape and management efforts
+
+        ✓ **Guardrail 7 – Monitoring impacts** — "Residual Risk" and review columns support ongoing monitoring of risk levels
 
 ---
 
 ## Next Steps
-**Ready to assess specific AI risks?** → [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)
 
-**Looking for industry-specific risks?** → [AI Industry-Specific Risks](ai-risks-by-industry.md)
+**Where to go from here:**
 
-### Related Governance Templates
-- [AI Project Register](ai-project-register.md) — keep oversight of the AI initiatives that feed into this risk register.
-- [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md) — evaluate third-party tools before adding them to the register.
-- [AI Industry-Specific Risks](ai-risks-by-industry.md) — explore context-specific risks by industry to help populate this register.
+- 🎯 **Ready to assess specific AI risks?** → [AI Risk Assessment Checklist](ai-risk-assessment-checklist.md)
+- 🏭 **Looking for industry-specific risks?** → [AI Industry-Specific Risks](ai-risks-by-industry.md)
 
----
+**Related templates:**
 
-## Template Disclaimer & Licence
-
-### Disclaimer
-The purpose of this template is to provide best practice guidance on implementing safe and responsible AI governance in Australian organisations.   
-
-SafeAI-Aus has exercised care and skill in the preparation of this material. However, SafeAI-Aus does not guarantee the accuracy, reliability, or completeness of the information contained. 
-
-The content reflects best practice principles but is intended as a starting point only.  Organisations should adapt this template to their specific context and may wish to seek advice from legal counsel, governance, risk, or compliance officers before formal adoption.  
-
-This publication does not indicate any commitment by SafeAI-Aus to a particular course of action. SafeAI-Aus accepts no responsibility or liability for any loss, damage, or costs incurred as a result of the information contained in this template.  
+- 📊 [AI Project Register](ai-project-register.md) — Keep oversight of AI initiatives that feed into this risk register
+- 📋 [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md) — Evaluate third-party tools before adding to the register
+- 🔍 [AI Industry-Specific Risks](ai-risks-by-industry.md) — Explore context-specific risks by industry
 
 ---
 
-### Licence
-This template is made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-You are free to:  
-
-- **Share** — copy and redistribute the material in any medium or format.  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
-
-Under the following terms:  
-
-- **Attribution** — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
-
-**Attribution statement for reuse:**  
-"This template was developed by SafeAI-Aus and is licensed under CC BY 4.0. Source: [SafeAI-Aus](https://safeaiaus.org/)."  
-
-Full licence text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)  
-
----
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
