@@ -83,11 +83,13 @@ nav = [
 [project.theme]
 
 # Custom template directory for Airia widget and SEO overrides
-custom_dir = "overrides"
+# TEMPORARILY DISABLED: Zensical requires full Material theme structure in custom_dir
+# Re-enable once template structure is properly set up
+# custom_dir = "overrides"
 
 # Favicon and logo
-favicon = "assets/favicon.svg"
-logo = "assets/safeaiaus-logo-600px.png"
+favicon = "docs/assets/favicon.svg"
+logo = "docs/assets/safeaiaus-logo-600px.png"
 
 # Language
 language = "en"
