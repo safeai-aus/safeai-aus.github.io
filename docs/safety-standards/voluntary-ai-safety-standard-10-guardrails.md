@@ -45,16 +45,16 @@ Adopting the guardrails early helps organisations build **trust, resilience, and
 - ⭐ Demonstrate leadership in responsible AI adoption  
 
 ## The 10 Guardrails
-1. Establish accountability  
-2. Implement risk management  
-3. Protect data  
-4. Ensure transparency  
-5. Enable human control  
-6. Test reliability  
-7. Monitor impacts  
-8. Ensure accountability in the supply chain  
-9. Maintain records  
-10. Support human autonomy  
+1. Establish, implement and publish an accountability process
+2. Establish and implement a risk management process
+3. Protect AI systems, and implement data governance measures
+4. Test AI models and systems
+5. Enable human control or intervention
+6. Inform end-users regarding AI-enabled decisions
+7. Establish processes for people to challenge use or outcomes
+8. Be transparent with other organisations across the AI supply chain
+9. Keep and maintain records
+10. Engage your stakeholders and evaluate their needs  
 
 !!! success "What the guardrails do"
     - ✅ Encourage **transparency and accountability** for AI systems
@@ -95,65 +95,65 @@ The Guidance for AI Adoption condenses the 10 VAISS guardrails into 6 essential 
 
 While the 10 guardrails apply to all organisations, SMEs can adopt them at different maturity levels:
 
-**Guardrail 1: Establish accountability** 
+**Guardrail 1: Establish, implement and publish an accountability process** 
 
 - *Minimum:* Designate an AI responsible person  
 - *Better:* Create simple AI governance policy  
 - *Best:* Regular board/leadership AI updates  
 
-**Guardrail 2: Implement risk management**  
+**Guardrail 2: Establish and implement a risk management process**  
 
 - *Minimum:* Use SAAM risk assessment tool  
 - *Better:* Quarterly risk reviews  
 - *Best:* Integrated risk management system  
 
-**Guardrail 3: Protect data** 
+**Guardrail 3: Protect AI systems, and implement data governance measures** 
 
 - *Minimum:* Follow existing cybersecurity practices  
 - *Better:* AI-specific data controls  
 - *Best:* Enhanced encryption and access controls  
 
-**Guardrail 4: Ensure transparency** 
+**Guardrail 4: Test AI models and systems**
 
-- *Minimum:* "Powered by AI" labels  
-- *Better:* Explain AI role in decisions  
-- *Best:* Full algorithmic transparency  
+- *Minimum:* Pre-deployment testing
+- *Better:* Monthly performance monitoring
+- *Best:* Continuous testing and validation  
 
-**Guardrail 5: Enable human control** 
+**Guardrail 5: Enable human control or intervention** 
 
 - *Minimum:* Override capability for all AI decisions  
 - *Better:* Human review of significant decisions  
 - *Best:* Human-in-the-loop for all critical processes  
 
-**Guardrail 6: Test reliability**
+**Guardrail 6: Inform end-users regarding AI-enabled decisions**
 
-- *Minimum:* Pre-deployment testing  
-- *Better:* Monthly performance monitoring  
-- *Best:* Continuous testing and validation  
+- *Minimum:* "Powered by AI" labels
+- *Better:* Explain AI role in decisions
+- *Best:* Full algorithmic transparency  
 
-**Guardrail 7: Monitor impacts**
+**Guardrail 7: Establish processes for people to challenge use or outcomes**
 
-- *Minimum:* Track errors and complaints  
-- *Better:* Proactive impact assessment  
-- *Best:* Real-time monitoring dashboard  
+- *Minimum:* Complaint email or form
+- *Better:* Documented appeal process
+- *Best:* Independent review mechanism  
 
-**Guardrail 8: Ensure accountability in supply chain**
+**Guardrail 8: Be transparent with other organisations across the AI supply chain**
 
 - *Minimum:* Vendor compliance check  
 - *Better:* Contractual AI requirements  
 - *Best:* Regular vendor audits  
 
-**Guardrail 9: Maintain records**
+**Guardrail 9: Keep and maintain records**
 
 - *Minimum:* Keep AI decision logs  
 - *Better:* Comprehensive documentation  
 - *Best:* Automated compliance reporting  
 
-**Guardrail 10: Support human autonomy**
+**Guardrail 10: Engage your stakeholders and evaluate their needs**
 
-- *Minimum:* Opt-out options  
-- *Better:* User control preferences  
-- *Best:* Full user agency over AI interactions  
+- *Minimum:* Stakeholder consultation at design
+- *Better:* Regular stakeholder feedback loops
+- *Best:* Co-design with diverse stakeholder groups  
 
 ---
 
