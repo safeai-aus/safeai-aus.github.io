@@ -24,8 +24,8 @@ See our <a href="https://safeaiaus.org/about/#attribution--licence">full licence
 
 # Custom CSS and JavaScript
 # Note: CSS moved from assets/ to stylesheets/ per Zensical convention
-extra_css = ["docs/stylesheets/extra.css"]
-extra_javascript = ["docs/assets/performance-safe.js", "docs/assets/extra.js"]
+extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["assets/performance-safe.js", "assets/extra.js"]
 
 # Navigation structure
 nav = [
@@ -88,8 +88,8 @@ nav = [
 # custom_dir = "overrides"
 
 # Favicon and logo
-favicon = "docs/assets/favicon.svg"
-logo = "docs/assets/safeaiaus-logo-600px.png"
+favicon = "assets/favicon.svg"
+logo = "assets/safeaiaus-logo-600px.png"
 
 # Language
 language = "en"
