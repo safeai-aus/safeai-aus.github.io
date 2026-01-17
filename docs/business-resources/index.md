@@ -17,28 +17,20 @@ From getting started to vendor selection, funding opportunities to training reso
 
 ## What's In This Section
 
-### Getting Started
+**[Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)**
+Your first stop for AI adoption—practical guidance on where to start, what to avoid, and how to build resilience while managing risk.
 
-Essential guides for organisations beginning their AI adoption journey:
+**[AI Grants & Funding](ai-grants-funding-australia.md)**
+Current funding programs, grants, and financial support available across federal and state governments for Australian businesses adopting AI.
 
-- 🎯 **[Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)**
-  Where to start with AI in your organisation, what to avoid, and how to build resilience while managing risk.
+**[Tools & Frameworks](ai-aus-tools-frameworks.md)**
+Curated list of practical AI tools, frameworks, and platforms suitable for Australian organisations.
 
-### Resources
+**[State & Territory AI Resources](state-territory-ai-resources.md)**
+State and territory-specific AI initiatives, programs, and support services across all Australian jurisdictions.
 
-Support, funding, and learning opportunities:
-
-- 💰 **[AI Grants & Funding](ai-grants-funding-australia.md)**
-  Current funding programs, grants, and financial support available for Australian businesses adopting AI.
-
-- 🛠️ **[Tools & Frameworks](ai-aus-tools-frameworks.md)**
-  Curated list of practical AI tools, frameworks, and platforms suitable for Australian organisations.
-
-- 🗺️ **[State & Territory AI Resources](state-territory-ai-resources.md)**
-  State and territory-specific AI initiatives, programs, and support services across Australia.
-
-- 📚 **[AI Learning & Development Directory](ai-learning-development-directory.md)**
-  Training courses, certifications, workshops, and educational resources for building AI capability in your organisation.
+**[AI Learning & Development Directory](ai-learning-development-directory.md)**
+Training courses, certifications, workshops, and educational resources for building AI capability in your organisation.
 
 ---
 

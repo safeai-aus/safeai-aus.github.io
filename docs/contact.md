@@ -27,21 +27,21 @@ If you'd like to contribute, suggest ideas, or just say hello, here's how you ca
 
 ---
 
-## 📧 Email  
+## Email
 Community inbox: [contact@safeaiaus.org](mailto:contact@safeaiaus.org)
 
-## 🧑‍🤝‍🧑 Join the community  
-- Contribute on GitHub: [SafeAI-Aus Repository](https://github.com/safeai-aus/safeai-aus.github.io)  
-- Start or join a conversation in **GitHub Discussions**  
-- Open an **Issue** if you have feedback, find a bug, or want to suggest a new resource  
+## Join the community
+- Contribute on GitHub: [SafeAI-Aus Repository](https://github.com/safeai-aus/safeai-aus.github.io)
+- Start or join a conversation in **GitHub Discussions**
+- Open an **Issue** if you have feedback, find a bug, or want to suggest a new resource
 
-## 💬 Social  
-- LinkedIn: [SafeAI-Aus](https://www.linkedin.com/company/safeai-aus)  
-- Twitter/X: [@SafeAI_Aus](https://twitter.com/SafeAI_Aus)  
+## Social
+- LinkedIn: [SafeAI-Aus](https://www.linkedin.com/company/safeai-aus)
+- Twitter/X: [@SafeAI_Aus](https://twitter.com/SafeAI_Aus)
 
 ---
 
-## 🤝 How to get involved  
+## How to get involved  
 - Share improvements to our templates and guides  
 - Submit new resources or case studies  
 - Help us review emerging AI policy and standards  
