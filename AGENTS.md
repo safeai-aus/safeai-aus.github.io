@@ -6,7 +6,7 @@ This file is for AI coding and documentation agents working on this repository. 
 
 ## 1. Project overview
 
-- This repository powers the **SafeAI-Aus** static documentation site built with **Zensical** (Rust-based Material for MkDocs) and deployed via GitHub Pages.
+- This repository powers the **SafeAI-Aus** static documentation site built with **Zensical** and deployed via GitHub Pages.
 - Content lives primarily in `docs/`, with the Zensical configuration in `zensical.toml` and custom theme overrides in `overrides/`.
 - The focus is **practical AI safety, governance, and risk management for Australian organisations**.
 - Prefer small, incremental changes that keep the site easy for humans to maintain.
