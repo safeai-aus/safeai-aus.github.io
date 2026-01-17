@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "AI Assurance – Transparency, Auditing & Reporting"
 description: "Practical guide for Australian organisations to build AI assurance through transparency, auditing, and reporting patterns."
 keywords: "AI assurance, AI transparency, AI auditing, AI reporting, Australian AI governance, AI risk management, AI incident reporting"
@@ -17,52 +16,56 @@ twitter_description: "Simple patterns Australian teams can use to make AI system
 
 # AI Assurance – Transparency, Auditing & Reporting
 
+> **Purpose:** Build assurance practices to make AI systems transparent, auditable, and well-reported
+> **Audience:** Risk teams, compliance officers, internal audit, CIOs, governance leaders | **Time:** 25-30 minutes
+
 Most Australian organisations will never train a frontier model. But almost every organisation will **use** AI – through SaaS tools, internal projects, or vendor platforms.
 
 You can't control what happens inside the labs. You *can* control how clearly you explain:
 
-- What AI you're using  
-- How you tested it  
-- What could go wrong  
-- What you're doing about those risks  
+- What AI you're using
+- How you tested it
+- What could go wrong
+- What you're doing about those risks
 
 That's the job of **AI assurance**: transparency, auditing and reporting for the AI systems you deploy.
 
 ---
 
-## Who this page is for
+!!! info "Who This Page Is For"
+    **Target audience:**
 
-This page is for:
+    - 📊 Risk, compliance and internal audit teams
+    - 💻 CIOs, CTOs, CDOs and digital leaders
+    - 🛡️ Governance and safety leaders who need evidence, not slogans
 
-- Risk, compliance and internal audit teams  
-- CIOs, CTOs, CDOs and digital leaders  
-- Governance and safety leaders who need evidence, not slogans  
-
-If you've been asked "Where's our AI risk view?" or "How do we know these tools are safe enough?", this is for you.
+    **If you've been asked** "Where's our AI risk view?" or "How do we know these tools are safe enough?", this is for you.
 
 ---
 
 ## What this requires
 
-The level of effort scales with your AI risk profile:
+!!! tip "Effort Scales with Risk Profile"
+    **Very small teams (1-20 staff):**
 
-**Very small teams (1-20 staff):**
-- Start with a simple spreadsheet register (2-4 hours to set up)
-- One-page safety notes for critical systems (1-2 hours each)
-- Add AI questions to existing processes (minimal additional time)
+    - Start with a simple spreadsheet register (2-4 hours to set up)
+    - One-page safety notes for critical systems (1-2 hours each)
+    - Add AI questions to existing processes (minimal additional time)
 
-**Small-medium organisations (20-200 staff):**
-- Structured register with risk ratings (1-2 days initial setup)
-- Formal safety notes for medium+ risk systems (half day each)
-- Quarterly board reporting (2-4 hours per quarter)
-- Annual internal review of high-risk systems (1-2 days per system)
+    **Small-medium organisations (20-200 staff):**
 
-**Larger organisations (200+ staff):**
-- Integrated register with workflow automation
-- Regular audit program
-- Dedicated governance resources
+    - Structured register with risk ratings (1-2 days initial setup)
+    - Formal safety notes for medium+ risk systems (half day each)
+    - Quarterly board reporting (2-4 hours per quarter)
+    - Annual internal review of high-risk systems (1-2 days per system)
 
-Most Australian SMEs will sit in the first two categories. The key is starting simple and building systematically as your AI use matures.
+    **Larger organisations (200+ staff):**
+
+    - Integrated register with workflow automation
+    - Regular audit program
+    - Dedicated governance resources
+
+    Most Australian SMEs will sit in the first two categories. The key is starting simple and building systematically as your AI use matures.
 
 ---
 
@@ -70,19 +73,22 @@ Most Australian SMEs will sit in the first two categories. The key is starting s
 
 AI is already showing up in:
 
-- Productivity tools (copilots, summarisation, email drafting)  
-- Customer-facing services (chatbots, triage, recommendations)  
-- Decision support (risk scoring, prioritisation, forecasting)  
+- Productivity tools (copilots, summarisation, email drafting)
+- Customer-facing services (chatbots, triage, recommendations)
+- Decision support (risk scoring, prioritisation, forecasting)
 
 Most of this arrives quietly, bundled into platforms your staff already use. That creates three problems:
 
-1. **Hidden AI** – You're making decisions with AI in the loop, without a clear view of where or how.  
-2. **Unclear accountability** – It's not obvious who "owns" the outcome when an AI-assisted decision goes wrong.  
-3. **Thin evidence** – Boards and regulators ask "How do you know it's safe?", and teams have little to show.
+1. **Hidden AI** – You're making decisions with AI in the loop, without a clear view of where or how
+2. **Unclear accountability** – It's not obvious who "owns" the outcome when an AI-assisted decision goes wrong
+3. **Thin evidence** – Boards and regulators ask "How do you know it's safe?", and teams have little to show
 
 The Australian Voluntary AI Safety Standard and international frameworks (ISO/IEC 42001, NIST AI RMF) all point in the same direction: be transparent about your AI, subject it to independent checks, and report honestly on how it behaves in the real world.
 
-Recent research shows a significant gap between aspiration and practice: while 78% of Australian organisations believe they align with AI safety principles, only 29% have implemented the necessary practices. AI assurance helps close this gap by making your safety work visible and verifiable.
+!!! success "The Practice Gap"
+    Recent research shows a significant gap between aspiration and practice: **while 78% of Australian organisations believe they align with AI safety principles, only 29% have implemented the necessary practices.**
+
+    AI assurance helps close this gap by making your safety work visible and verifiable.
 
 The regulatory landscape is evolving. Version 2 of the Voluntary AI Safety Standard is in development (expected late 2025) with enhanced developer guidance, and the government is considering mandatory guardrails for high-risk AI uses. Building good assurance practices now means you're ready when regulations arrive.
 
@@ -278,15 +284,16 @@ Vendor transparency (section 1.3) helps you ask the right questions. But you sti
 
 ## Getting started this quarter
 
-You don't need a perfect framework to start. In the next 3 months, you could:
+!!! tip "Practical First Steps"
+    You don't need a perfect framework to start. In the next 3 months, you could:
 
-1. **Create a basic AI system register** and add your top 5–10 known systems.  
-2. **Draft a one-page AI safety note** for one critical system and test it with your executive team.  
-3. **Add AI questions** to project intake and procurement processes.  
-4. **Run a light assurance review** on one high-impact system using a simple checklist.  
-5. **Add an AI category** to your incident reporting system and communicate what to report.
+    1. **Create a basic AI system register** and add your top 5–10 known systems
+    2. **Draft a one-page AI safety note** for one critical system and test it with your executive team
+    3. **Add AI questions** to project intake and procurement processes
+    4. **Run a light assurance review** on one high-impact system using a simple checklist
+    5. **Add an AI category** to your incident reporting system and communicate what to report
 
-That's enough to move from "we don't know" to "we're starting to show our work". It won't be perfect—and that's fine. The point is demonstrating honest effort to understand and manage your AI risks, not achieving theoretical completeness on day one.
+    That's enough to move from "we don't know" to "we're starting to show our work". It won't be perfect—and that's fine. The point is demonstrating honest effort to understand and manage your AI risks, not achieving theoretical completeness on day one.
 
 ---
 
@@ -304,17 +311,24 @@ You can adapt these artefacts to your own context, policy stack and risk appetit
 
 ## Related resources
 
-This page is part of SafeAI-Aus's governance framework. Related resources:
+**SafeAI-Aus governance framework:**
 
-- [**AI Readiness Checklist**](ai-readiness-checklist.md) – Are you ready for AI assurance?
-- [**AI Use Policy Template**](ai-use-policy.md) – Clear rules for staff using AI
-- [**AI Incident Reporting Template**](ai-incident-report-form.md) – How to capture and learn from AI issues
-- [**Risk Assessment Guide**](ai-risk-assessment-checklist.md) – Practical risk rating for AI systems
-- [**Legislation & Compliance Overview**](../safety-standards/ai-australian-legislation.md) – Understanding Australian AI regulation
+- ✅ [AI Readiness Checklist](ai-readiness-checklist.md) — Are you ready for AI assurance?
+- 📋 [AI Use Policy Template](ai-use-policy.md) — Clear rules for staff using AI
+- 🚨 [AI Incident Reporting Template](ai-incident-report-form.md) — How to capture and learn from AI issues
+- 📊 [Risk Assessment Guide](ai-risk-assessment-checklist.md) — Practical risk rating for AI systems
+- ⚖️ [Legislation & Compliance Overview](../safety-standards/ai-australian-legislation.md) — Understanding Australian AI regulation
 
-### External resources
+**External resources:**
 
-- [Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard) – Australian Government
-- ISO/IEC 42001:2023 – AI Management Systems (available via Standards Australia)
-- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) – US National Institute of Standards and Technology
-- [Australian Responsible AI Index 2025](https://responsibleai.org.au/) – Annual benchmark of AI practice adoption
+- 🇦🇺 [Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard) — Australian Government
+- 📘 ISO/IEC 42001:2023 — AI Management Systems (available via Standards Australia)
+- 🇺🇸 [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — US National Institute of Standards and Technology
+- 📈 [Australian Responsible AI Index 2025](https://responsibleai.org.au/) — Annual benchmark of AI practice adoption
+
+---
+
+??? note "Disclaimer & Licence"
+    **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
+
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
