@@ -6,8 +6,8 @@ This file is for AI coding and documentation agents working on this repository. 
 
 ## 1. Project overview
 
-- This repository powers the **SafeAI-Aus** static documentation site built with **MkDocs Material** and deployed via GitHub Pages.
-- Content lives primarily in `docs/`, with the MkDocs configuration in `mkdocs.yml` and custom theme overrides in `overrides/`.
+- This repository powers the **SafeAI-Aus** static documentation site built with **Zensical** (Rust-based Material for MkDocs) and deployed via GitHub Pages.
+- Content lives primarily in `docs/`, with the Zensical configuration in `zensical.toml` and custom theme overrides in `overrides/`.
 - The focus is **practical AI safety, governance, and risk management for Australian organisations**.
 - Prefer small, incremental changes that keep the site easy for humans to maintain.
 
@@ -16,7 +16,7 @@ This file is for AI coding and documentation agents working on this repository. 
 ## 2. Dev environment & setup
 
 - Requires Python **3.10+**.
-- Dependencies are pinned in `requirements.txt`. To refresh them, use `scripts/update-requirements.sh` rather than editing pins manually.
+- Dependencies are pinned in `requirements.txt`. Zensical is the primary dependency (Rust-based but installable via pip).
 
 ### Setup commands
 
@@ -26,7 +26,6 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-- If MkDocs plugins complain about version constraints, check `requirements.txt` before updating anything.
 
 ---
 
@@ -37,7 +36,7 @@ pip install -r requirements.txt
 Use this before changing layout or navigation.
 
 ```bash
-mkdocs serve
+zensical serve
 ```
 
 Default URL: <http://127.0.0.1:8000/>
@@ -47,26 +46,24 @@ Default URL: <http://127.0.0.1:8000/>
 Build must pass cleanly before merging:
 
 ```bash
-mkdocs build --strict
+zensical build --strict
 ```
 
 ---
 
 ## 4. Repository layout
 
-- `mkdocs.yml` — Site configuration, navigation, theme, plugins.
+- `zensical.toml` — Site configuration, navigation, theme, and feature flags.
 - `docs/` — All published content (Markdown). Images and assets live under `docs/assets/`.
-- `overrides/` — Theme template and style overrides.
+- `overrides/` — Theme template and style overrides (for Airia chat widget and SEO meta tags).
 - `.github/workflows/deploy.yml` — GitHub Actions build and deploy pipeline.
-- `scripts/` — Helper scripts (e.g., dependency updates).
-- `hooks/` — Git hook scripts used by maintainers (avoid changing unless instructed).
 - `AGENTS.md` — This file.
 
 ### Navigation rules
 
-- **Source of truth:** `mkdocs.yml` under the `nav:` section.
+- **Source of truth:** `zensical.toml` under the `nav` array.
 - When adding, renaming, or moving docs:
-  - Update `mkdocs.yml` so pages remain reachable.
+  - Update `zensical.toml` so pages remain reachable.
   - Check for internal links to the changed page and update them.
   - Avoid breaking URLs unless necessary; note any changes in the PR description.
 - Keep navigation logical and not overly deep.
@@ -103,16 +100,16 @@ mkdocs build --strict
 
 ## 7. Code & config changes
 
-### MkDocs configuration (`mkdocs.yml`)
+### Zensical configuration (`zensical.toml`)
 
-- Maintain existing plugins and theme settings unless clearly unused or broken.
-- Keep indentation at 2 spaces.
+- Maintain existing theme settings and feature flags unless clearly unused or broken.
+- Use TOML syntax (not YAML).
 - When adding navigation entries, ensure the target paths under `docs/` exist and titles are meaningful.
 
 ### CI / workflows (`.github/workflows/`)
 
 - Avoid changing workflow triggers or deployment targets without explicit instruction.
-- If modifying workflows, ensure `mkdocs build --strict` succeeds locally.
+- If modifying workflows, ensure `zensical build --strict` succeeds locally.
 
 ---
 
@@ -124,7 +121,7 @@ mkdocs build --strict
 4. Preserve headings/anchors that might be linked elsewhere.
 5. Apply the style rules above.
 6. Verify or flag regulatory content with TODOs.
-7. Run `mkdocs build --strict` after changes.
+7. Run `zensical build --strict` after changes.
 8. Summarise updates in the PR description or commit message.
 
 ---
