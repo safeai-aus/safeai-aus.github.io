@@ -1,4 +1,5 @@
 ---
+icon: lucide/dollar-sign
 title: "AI Grants and Funding Opportunities for Australian Businesses"
 description: "Comprehensive guide to AI grants, funding programs, and financial support available for Australian businesses implementing AI responsibly. Includes federal, state, and industry programs."
 keywords: "AI grants Australia, AI funding Australia, AI business grants, Australian AI funding, AI government grants, AI business support, AI investment Australia, AI startup funding"
@@ -49,7 +50,7 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 ### R&D Tax Incentive
 
 - Provides **tax offsets to encourage companies to conduct eligible R&D activities that might not otherwise happen**.
-    - **43.5% refundable offset** for R&D entities with aggregated turnover under $20m (not controlled by exempt entities).
+    - **Refundable offset of 18.5% above the company tax rate** (e.g., 43.5% for companies paying 25% tax) for R&D entities with aggregated turnover under $20m (not controlled by exempt entities).
     - **Non‑refundable R&D intensity‑based offset** for larger companies (company tax rate plus a premium tied to R&D intensity).
 - Program is **active and ongoing**; the business.gov.au page does not state a last updated date.
 - ➡️ [Program overview](https://business.gov.au/grants-and-programs/research-and-development-tax-incentive)

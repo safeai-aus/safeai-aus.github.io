@@ -1,4 +1,5 @@
 ---
+icon: lucide/flag
 title: "Current Legal Landscape for AI in Australia"
 description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business. Learn about Privacy Act, Consumer Law, Anti-Discrimination laws, and IP regulations affecting AI use."
 keywords: "AI legislation Australia, Australian AI law, AI privacy law, AI consumer law, AI discrimination law, AI intellectual property, AI legal compliance, Australian AI regulations, AI legal framework"
@@ -138,8 +139,8 @@ Australia's **IP laws**—covering copyright, patents, trademarks, and design ri
 - 📋 **Voluntary AI Safety Standard (VAISS) – 10 guardrails now integrated into AI6**
   The Voluntary AI Safety Standard, released in 2024, introduced 10 guardrails for safe and responsible AI. These guardrails remain relevant as a detailed control set and have been fully integrated into the Guidance for AI Adoption through an official "VAISS × implementation practices" crosswalk.
 
-- 🏛️ **National AI Plan and AI Safety Institute (from 2026)**
-  The National AI Plan (December 2025) sets a national roadmap to capture AI opportunities, spread benefits across the economy and keep Australians safe. The Government has paused work on standalone AI-specific legislation and mandatory guardrails, instead relying on existing "technology-neutral" laws and regulators, supported by a new **AI Safety Institute** from 2026 to monitor, test and advise on emerging AI risks.
+- 🏛️ **National AI Plan and AI Safety Institute (announced November 2025)**
+  The National AI Plan (December 2025) sets a national roadmap to capture AI opportunities, spread benefits across the economy and keep Australians safe. The Government has paused work on standalone AI-specific legislation and mandatory guardrails, instead relying on existing "technology-neutral" laws and regulators, supported by a new **AI Safety Institute** (announced November 2025, rolling out from early 2026) to monitor, test and advise on emerging AI risks.
 
 - 🔒 **Privacy Act reforms**
   Privacy reforms remain on the agenda, including stronger consent rules, potential rights to explanation for high-impact automated decisions, direct rights of action, and higher penalties. These reforms will significantly shape compliant AI data practices.
