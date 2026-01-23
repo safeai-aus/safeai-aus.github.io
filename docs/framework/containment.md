@@ -1,0 +1,397 @@
+---
+icon: lucide/shield-ban
+tags:
+  - Framework
+  - Containment
+  - Safety
+  - Policy
+---
+
+
+# Containment: Preventing Dangerous AI Systems
+
+![Containment: Preventing Dangerous AI Systems](containment-hero.jpg)
+
+## What is containment?
+
+**Containment** is about stopping dangerous AI systems before they cause harm. This means:
+
+1. **Preventing dangerous systems from being built** in the first place (Layer 1)
+2. **Restricting deployment** of high-risk systems that do get built (Layer 2)
+3. **Maintaining technical controls** over powerful AI systems to limit what they can do
+
+Containment is the first line of defence. If we can prevent the most dangerous AI capabilities from being created or deployed, we don't need to rely solely on alignment, governance or resilience to protect us.
+
+---
+
+## Why containment matters
+
+Some AI capabilities are inherently dangerous—not because they're misaligned, but because the capability itself creates unacceptable risks if it exists at all or is widely accessible.
+
+Examples:
+
+- AI systems that can autonomously develop novel bioweapons
+- Systems that can find and exploit zero-day vulnerabilities faster than defenses can adapt
+- Highly capable systems that might be impossible to monitor or shut down once deployed
+
+For these cases, **prevention is more tractable than mitigation**. It's easier to prevent a dangerous system from being created than to defend against it once it exists.
+
+### The containment challenge
+
+Australia faces an asymmetric containment problem:
+
+- Most frontier AI training happens overseas (primarily US, China, UK)
+- We have limited leverage over what systems get trained
+- But we have significant influence over:
+
+  - Compute supply chains (hardware, data centres)
+  - What systems can be deployed in Australia
+  - Procurement requirements for government and critical infrastructure
+  - International norms and partnerships
+
+Containment is about maximising leverage where we have it, while contributing to international efforts where we don't.
+
+---
+
+## Four containment strategies
+
+### 1. Compute governance
+
+**What it is:** Oversight of the physical infrastructure (chips, data centres, compute clusters) used to train and run powerful AI systems.
+
+**Why it matters:** Training frontier AI systems requires massive amounts of specialised computing hardware. Unlike software (which can be copied instantly), advanced AI chips and data centres are:
+
+- Expensive and difficult to produce
+- Concentrated in a small number of supply chains
+- Physically trackable
+
+This makes compute a practical chokepoint for oversight.
+
+!!! warning "Compute governance limitations"
+    Compute governance is not a complete solution:
+
+    - **Algorithmic efficiency:** Better algorithms can reduce compute requirements, making oversight harder
+    - **Open-source proliferation:** Open model weights can be run on distributed hardware
+    - **Hardware advancement:** Smaller actors may eventually access sufficient compute
+
+    Compute governance is most effective as part of defence-in-depth, not a standalone solution.
+
+**Key approaches:**
+
+**Supply chain controls**
+
+- Track sales and deployment of advanced AI chips (GPUs, TPUs, specialised accelerators)
+- Know where large compute clusters exist and what they're being used for
+- Export controls to prevent advanced chips reaching adversaries or reckless actors
+
+**Data centre oversight**
+
+- Registration requirements for facilities above certain compute thresholds
+- Reporting requirements for very large training runs
+- Ability to audit or inspect high-risk training operations
+
+**Australian context**
+
+Australia hosts some significant data centres but isn't a major chip manufacturer. Our leverage comes through:
+
+  - Requiring reporting for large-scale compute used in Australia
+  - Setting procurement standards for government and critical infrastructure
+  - Supporting allies' compute governance efforts (especially US chip export controls)
+  - Demanding evidence about training methods for models deployed here
+
+---
+
+### 2. AI control methods
+
+**What it is:** Technical measures to monitor, restrict and contain AI systems that are already trained but potentially dangerous.
+
+**Why it matters:** Some systems will be trained despite Layer 1 prevention efforts. AI control methods provide a second layer—technical "walls" around dangerous systems to limit what they can do, even if they're not perfectly aligned.
+
+This is distinct from *alignment* (making systems want to do the right thing). Control assumes systems might be misaligned or deceptive, and builds technical constraints anyway.
+
+**Key approaches:**
+
+**Monitoring and oversight**
+
+- Continuous logging of system inputs, outputs and internal states
+- Anomaly detection for suspicious behaviour
+- "Honeypots" and tests to detect deception or goal misalignment
+- Multiple independent monitoring systems (don't rely on AI to monitor itself)
+
+**Usage restrictions**
+
+- Rate limiting and access controls
+- Restricting what resources systems can access (networks, APIs, actuators)
+- "Air-gapping" dangerous systems from the internet and critical infrastructure
+- Requiring human approval for high-stakes decisions or actions
+
+**Shutdown capability**
+
+- Maintaining ability to shut down systems quickly
+- "Kill switches" that can't be circumvented by the AI
+- Multiple independent shutdown mechanisms
+- Tested shutdown procedures (not just theoretical)
+
+**Red-teaming and adversarial testing**
+
+- Deliberately trying to make systems misbehave
+- Testing whether systems can circumvent restrictions
+- Checking for deceptive behaviour (systems that act aligned during testing but not in deployment)
+
+**Australian context**
+
+- AI control is where Australia has real leverage: we can require these measures as a condition of deployment
+- Critical infrastructure operators and government agencies should demand:
+
+  - Evidence that appropriate AI control methods are in place
+  - Independent verification, not just provider assurances
+  - Regular testing and updates as systems and threats evolve
+
+---
+
+### 3. Export controls and supply chain security
+
+**What it is:** Preventing advanced AI capabilities (and the means to create them) from reaching adversaries, reckless actors or unstable regions.
+
+**Why it matters:** Australia's security depends partly on maintaining technological advantage and preventing hostile actors from acquiring the most dangerous capabilities. Even for non-hostile actors, we want to ensure systems are developed responsibly.
+
+**Key approaches:**
+
+**Hardware export controls**
+
+- Restrict export of advanced AI chips to countries of concern
+- Multilateral coordination (esp. with US, allies) on chip restrictions
+- Balance security with legitimate international research collaboration
+
+**Model weight security**
+
+- Treat advanced model weights (the trained parameters of frontier AI) as sensitive assets
+- Prevent theft or unauthorized release
+- Understand that once weights leak, containment becomes much harder
+
+**Know-your-customer requirements**
+
+- Cloud providers and compute vendors should verify who's using large-scale compute and for what purpose
+- Red flags: unusual access patterns, attempts to obfuscate identity or purpose
+
+**Australian context**
+
+- Australia isn't a chip manufacturer, but we're part of allied supply chains
+- We benefit from US export controls and should support them
+- We can set security requirements for compute providers operating in Australia
+- We should contribute to multilateral efforts on model weight security
+
+---
+
+### 4. Licensing and safety evaluations
+
+**What it is:** Requiring permission before deploying high-risk AI systems, conditional on demonstrating safety properties.
+
+**Why it matters:** Not all AI systems are equally risky. Licensing allows proportionate oversight:
+
+- Low-risk systems: light touch or self-regulation
+- High-risk systems (critical infrastructure, public safety, national security): mandatory evaluation and approval
+- Frontier systems with dangerous capabilities: stringent requirements, possibly pre-deployment approval
+
+**Key approaches:**
+
+**Risk-based thresholds**
+
+Define what counts as "high-risk" or "frontier" based on:
+
+- Capabilities (cyber, bio, persuasion, autonomous action)
+- Deployment context (critical infrastructure, public services, sensitive domains)
+- Scale and autonomy
+
+**Mandatory evaluations**
+
+Before deployment, require evidence of:
+
+- Safety properties and alignment testing
+- Robustness to adversarial inputs
+- Bias and fairness audits for relevant domains
+- Appropriate AI control measures
+- Incident response and shutdown procedures
+
+**Independent evaluation**
+
+- Don't rely solely on developer assurances
+- Build Australian evaluation capacity or recognise international evaluation bodies
+- Consider whether Australian AI Safety Institute should play an evaluation role
+
+**Ongoing monitoring**
+
+- Licensing isn't one-time: systems change, are fine-tuned, or reveal new capabilities
+- Require ongoing reporting and re-evaluation triggers
+
+**Australian context**
+
+- This is where Australia has clear sovereignty: our laws govern what's deployed here
+- We can learn from emerging international models (UK, EU, US state-level) but tailor to Australian needs
+- Balance safety with avoiding over-regulation of low-risk systems
+- Use procurement as a lever: government won't buy systems that don't meet standards
+
+---
+
+## Who does what: containment across actors
+
+=== "Government & Public Institutions"
+
+    **Set the rules:**
+
+    - Develop compute governance framework (reporting, registration, oversight)
+    - Create risk-based licensing regime for high-risk and frontier AI
+    - Set evaluation standards and processes
+    - Support allied export control efforts
+
+    **Build capacity:**
+
+    - Fund evaluation capability (possibly through Australian AI Safety Institute)
+    - Maintain expertise in AI control methods and red-teaming
+    - Track international best practice
+
+    **Lead by example:**
+
+    - Require stringent containment measures for government procurement
+    - Apply high standards to critical infrastructure
+    - Support international coordination on compute governance
+
+=== "Business & Industry"
+
+    **Implement AI control methods:**
+
+    - Don't just trust provider claims—verify that appropriate monitoring, restrictions and shutdown capability exist
+    - Test systems adversarially before deployment
+    - Maintain audit trails and anomaly detection
+
+    **Comply with licensing and reporting:**
+
+    - Understand which regulations apply to your systems
+    - Engage early with regulators if deploying high-risk AI
+    - Report incidents and near-misses honestly
+
+    **Secure your systems:**
+
+    - Treat model weights and advanced systems as sensitive assets
+    - Verify compute providers and cloud services are trustworthy
+    - Implement know-your-customer for services that provide AI access
+
+    **Critical infrastructure operators:**
+
+    - Apply defence-in-depth: don't rely solely on AI alignment
+    - Maintain ability to operate without high-risk AI if containment fails
+    - Participate in information sharing on threats and failures
+
+=== "Communities & Households"
+
+    **Limited direct role in containment, but:**
+
+    - Understand that not all AI capabilities should be widely available
+    - Support appropriate regulation even if it limits some uses
+    - Advocate for transparency about what systems are being deployed in critical domains (health, public services, etc.)
+
+---
+
+## Practical checklist
+
+=== "Deploying High-Risk AI"
+
+    - [ ] Have you assessed whether this system requires licensing or regulatory approval?
+    - [ ] If trained overseas, do you understand the training process and have evidence of safety properties?
+    - [ ] Have you implemented appropriate AI control methods (monitoring, restrictions, shutdown)?
+    - [ ] Have you red-teamed the system to test for deception or unwanted behaviour?
+    - [ ] Do you have an incident response plan if the system behaves unexpectedly?
+    - [ ] Are model weights and system internals secured against theft or unauthorized access?
+    - [ ] Do you maintain capability to operate without this system if it needs to be shut down?
+
+=== "Procuring AI (Government/Critical Infrastructure)"
+
+    - [ ] Do procurement requirements include containment standards?
+    - [ ] Are you requiring evidence, not just assurances, of safety properties?
+    - [ ] Are you demanding appropriate AI control measures for high-risk systems?
+    - [ ] Do contracts include audit rights and shutdown obligations?
+    - [ ] Have you verified that systems meet Australian regulatory requirements?
+
+=== "Setting Policy"
+
+    - [ ] Does your framework include compute governance (reporting, oversight of large-scale compute)?
+    - [ ] Is there a clear licensing regime for high-risk and frontier systems?
+    - [ ] Are evaluation standards and processes defined?
+    - [ ] Are you coordinating with allies on export controls and supply chain security?
+    - [ ] Does the framework balance safety with avoiding over-regulation of low-risk systems?
+
+---
+
+## Common questions
+
+**"Isn't containment the same as governance?"**
+
+No. Containment includes technical measures (AI control methods, monitoring systems) and preventive measures (compute governance, export controls) that are distinct from laws and institutions. Governance creates the rules; containment includes both the rules and the technical enforcement.
+
+**"Won't compute governance and export controls just drive AI development underground or offshore?"**
+
+Possibly, but:
+1. Frontier AI training requires massive, visible compute infrastructure—it's hard to hide
+2. Export controls can be effective if coordinated among allies who control chip supply chains
+3. The alternative (no oversight) means we have zero visibility and zero leverage
+4. We can balance security with legitimate international research collaboration
+
+**"Can AI control methods really contain a sufficiently advanced AI?"**
+
+Maybe not indefinitely, especially for superintelligent systems. That's why containment includes Layer 1 (preventing dangerous systems from being built). For advanced but not superintelligent systems, AI control provides meaningful protection. For superintelligent systems, prevention becomes paramount—if we can't prevent them, we're relying heavily on alignment.
+
+**"Won't licensing slow down innovation?"**
+
+Risk-based licensing shouldn't burden low-risk systems. The goal is proportionate oversight: stringent for dangerous capabilities and critical deployments, light-touch elsewhere. Innovation in low-risk domains continues; high-risk domains get appropriate scrutiny.
+
+---
+
+## Key resources and further reading
+
+**Compute governance:**
+
+- CSET (Centre for Security and Emerging Technology) work on compute governance and chip supply chains
+- US CHIPS Act and export control policy
+
+**AI control (technical safety):**
+
+- AI Control paper (Redwood Research)
+- Buck Shlegeris and Ryan Greenblatt's work on control protocols
+- Adversarial testing and red-teaming methodologies
+
+**Export controls and supply chain:**
+
+- US Bureau of Industry and Security (BIS) AI chip export controls
+- Multilateral export control regimes (Wassenaar Arrangement)
+
+**Licensing and evaluation:**
+
+- UK AI Safety Institute approach to frontier AI evaluation
+- EU AI Act risk-based framework
+- California SB 1047 (frontier model regulation, even if not passed)
+
+---
+
+## See containment in practice
+
+These scenarios illustrate containment challenges and what happens when it succeeds or fails:
+
+- **[Loss of Control](../agi-scenarios/scenario-loss-of-control.md)** — what containment aims to prevent
+- **[Catastrophic Misuse](../agi-scenarios/scenario-catastrophic-misuse.md)** — containment of dangerous capabilities
+- **[Power Concentration](../agi-scenarios/scenario-power-concentration.md)** — why containment needs governance
+
+---
+
+## Where to next
+
+**Other framework pillars:**
+
+- [Framework Overview](index.md) — how containment fits with alignment, governance and resilience
+- [Alignment](alignment.md) — making systems safe by design, even when containment fails
+- [Governance](governance.md) — laws and institutions to implement containment measures
+- [Resilience](resilience.md) — withstanding failures when containment doesn't prevent them
+
+**Apply containment concepts:**
+
+- [National Security](../government-policy/national-security.md) — containment in defence and intelligence contexts
+- [AI Safety Policy](../government-policy/ai-safety-policy.md) — policy levers for containment (compute governance, licensing)

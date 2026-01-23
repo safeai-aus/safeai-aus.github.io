@@ -1,4 +1,5 @@
 ---
+icon: lucide/book-text
 title: "AI Glossary (Australia)"
 description: "A practical glossary of key AI terms in the Australian context. Comprehensive definitions for AI safety, governance, and compliance in Australia."
 keywords: "AI glossary Australia, AI terms, AI definitions, AI safety glossary, AI governance terms, Australian AI terminology, AI compliance glossary"

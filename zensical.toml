@@ -61,7 +61,7 @@ nav = [
       { "AI Incident Report Form" = "governance-templates/ai-incident-report-form.md" },
     ]},
   ]},
-  { "Practical Business Resources" = [
+  { "Business Resources" = [
     { "Overview" = "business-resources/index.md" },
     { "Safe AI Adoption - Getting Started" = "business-resources/safe-ai-adoption-getting-started.md" },
     { "AI Grants & Funding" = "business-resources/ai-grants-funding-australia.md" },
@@ -69,11 +69,56 @@ nav = [
     { "State & Territory AI Resources" = "business-resources/state-territory-ai-resources.md" },
     { "AI Learning & Development Directory" = "business-resources/ai-learning-development-directory.md" },
   ]},
-  { "About" = [
-    { "About" = "about.md" },
+  { "Advanced AI & AGI" = [
+    { "Overview" = "agi-tomorrow-index.md" },
+    { "AGI Scenarios" = [
+      { "Overview" = "agi-scenarios/index.md" },
+      { "Power Concentration & Governance Failure" = "agi-scenarios/scenario-power-concentration.md" },
+      { "Gradual Disempowerment" = "agi-scenarios/scenario-gradual-disempowerment.md" },
+      { "Information Ecosystems" = "agi-scenarios/scenario-information-ecosystems.md" },
+      { "Critical Infrastructure" = "agi-scenarios/scenario-critical-infrastructure.md" },
+      { "Catastrophic Misuse" = "agi-scenarios/scenario-catastrophic-misuse.md" },
+      { "Loss of Control" = "agi-scenarios/scenario-loss-of-control.md" },
+    ]},
+    { "C·A·G·R Framework" = [
+      { "Overview" = "framework/index.md" },
+      { "Containment" = "framework/containment.md" },
+      { "Alignment" = "framework/alignment.md" },
+      { "Governance" = "framework/governance.md" },
+      { "Resilience" = "framework/resilience.md" },
+    ]},
+    { "Sector Guidance" = [
+      { "Overview" = "sector-guidance/index.md" },
+      { "Government" = [
+        { "Overview" = "sector-guidance/government/index.md" },
+        { "AI Safety Policy" = "sector-guidance/government/ai-safety-policy.md" },
+        { "Institutions & Capability" = "sector-guidance/government/institutions-and-capability.md" },
+        { "Coordination" = "sector-guidance/government/coordination.md" },
+        { "Supporting Alternatives" = "sector-guidance/government/supporting-alternatives.md" },
+        { "National Security" = "sector-guidance/government/national-security.md" },
+      ]},
+      { "Business" = [
+        { "Overview" = "sector-guidance/business/index.md" },
+        { "AGI Preparedness Strategy" = "sector-guidance/business/agi-preparedness-strategy.md" },
+        { "Open-Source Alternatives" = "sector-guidance/business/open-source-alternatives.md" },
+      ]},
+      { "Communities" = [
+        { "Overview" = "sector-guidance/communities/index.md" },
+        { "Community Preparedness" = "sector-guidance/communities/community-preparedness.md" },
+        { "Community AI Infrastructure" = "sector-guidance/communities/community-ai-infrastructure.md" },
+        { "Defensive Home AI" = "sector-guidance/communities/defensive-home-ai.md" },
+      ]},
+    ]},
+  ]},
+  { "Resources & About" = [
+    { "For AI Safety Researchers" = "resources/for-researchers.md" },
+    { "External Resources" = "resources/external-resources.md" },
+    { "Decentralisation & Democratic Control" = "resources/decentralisation-and-democratic-control.md" },
+    { "Glossary" = "glossary.md" },
+    { "AGI Concepts" = "resources/concepts.md" },
+    { "About SafeAI-Aus" = "about.md" },
     { "Contact" = "contact.md" },
     { "Newsletter" = "newsletter.md" },
-    { "Glossary" = "glossary.md" },
   ]},
 ]
 

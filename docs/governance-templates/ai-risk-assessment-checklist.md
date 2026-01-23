@@ -1,4 +1,5 @@
 ---
+icon: lucide/alert-triangle
 title: "AI Risk Assessment Checklist"
 description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment. Ensure compliance with safety standards and reduce legal risks."
 keywords: "AI risk assessment, AI risk checklist, AI risk management, AI safety assessment, AI risk mitigation, Australian AI safety, AI risk evaluation"

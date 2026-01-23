@@ -1,4 +1,5 @@
 ---
+icon: lucide/newspaper
 title: "Subscribe to Our Newsletter"
 description: "Stay informed with news, resources, and practical tools on safe and responsible AI adoption in Australia."
 ---

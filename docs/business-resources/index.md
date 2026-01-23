@@ -1,12 +1,13 @@
 ---
-title: "Practical Business Resources"
+icon: lucide/briefcase
+title: "Business Resources"
 description: "Implementation guides, funding opportunities, tools, and training resources for Australian businesses adopting AI safely and effectively."
 keywords: "AI implementation, AI business resources, AI funding Australia, AI training, AI tools, AI adoption guide"
 author: "SafeAI-Aus"
 robots: "index, follow"
 ---
 
-# Practical Business Resources
+# Business Resources
 
 > **Purpose:** Practical guidance, tools, and support for Australian businesses implementing AI safely and effectively
 > **Audience:** Business leaders, executives, project managers, and implementation teams | **Time:** 15-20 minutes to review section

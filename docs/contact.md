@@ -1,4 +1,5 @@
 ---
+icon: lucide/mail
 title: "Contact SafeAI-Aus"
 description: "How to connect with the SafeAI-Aus community and get involved in our open-source AI safety initiative"
 keywords: "SafeAI-Aus contact, AI community Australia, open source AI governance, AI safety Australia, contribute AI safety, AI governance templates"

@@ -1,4 +1,5 @@
 ---
+icon: lucide/compass
 title: "Guidance for AI Adoption (AI6) – 6 Essential Practices"
 description: "How Australian organisations can implement the National AI Centre's updated guidance for responsible AI governance and adoption. Practical guide to the six essential practices replacing the Voluntary AI Safety Standard."
 keywords: "AI6 guidance Australia, Guidance for AI Adoption, AI essential practices, AI governance Australia, National AI Centre guidance, NAIC AI6, responsible AI adoption, AI6 vs VAISS, voluntary AI safety standard update, AI governance framework Australia"

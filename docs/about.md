@@ -1,17 +1,18 @@
 ---
+icon: lucide/info
 title: "About SafeAI-Aus: Mission, Values & Licence"
-description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing. The Australian knowledge hub for safe, responsible, and growth-focused AI adoption."
-keywords: "SafeAI-Aus mission, AI safety values, Australian AI community, open source AI tools, AI governance Australia, AI safety mission, Australian AI standards, AI ethics Australia"
+description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing. Australia's knowledge hub for safe AI adoption and AGI preparedness."
+keywords: "SafeAI-Aus mission, AI safety values, AGI preparedness, Australian AI community, open source AI tools, AI governance Australia, AI safety mission, Australian AI standards"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "About SafeAI-Aus: Mission, Values & Licence"
-og_description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing"
+og_description: "Australia's knowledge hub for safe AI adoption and AGI preparedness"
 og_type: "website"
 og_url: "https://safeaiaus.org/about/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "About SafeAI-Aus: Mission, Values & Licence"
-twitter_description: "Learn about SafeAI-Aus — mission, purpose, core values, and licensing"
+twitter_description: "Australia's knowledge hub for safe AI adoption and AGI preparedness"
 permalink: /about/
 ---
 
@@ -21,21 +22,38 @@ permalink: /about/
 
 **Mission:**
 
-To enable safe, ethical, and growth-oriented AI adoption in Australian businesses through open standards, practical tools, and collaborative knowledge-sharing.
+To enable safe, ethical, and growth-oriented AI adoption in Australian organisations while preparing Australia for advanced AI and potential AGI transformation.
 
 **Purpose:**
 
-SafeAI-Aus is a community-led, open-source body of knowledge designed to help Australian businesses embed, integrate, and scale AI in ways that are responsible, secure, and compliant - while driving national productivity and economic growth.
+SafeAI-Aus is Australia's open-source knowledge hub providing practical tools for safe AI implementation today, and strategic frameworks for AGI preparedness tomorrow.
+
+We help organisations of all sizes adopt AI responsibly, safely, and in compliance with Australian standards—while preparing for the long-term implications of increasingly capable AI systems.
 
 ## What We Do
 
-SafeAI-Aus is an open-source, community-driven initiative focused on AI risk, safety, and growth in the Australian context.
+SafeAI-Aus provides guidance across two horizons:
 
-We provide practical tools, resources, and guidelines to help businesses of all sizes adopt AI responsibly, safeguard privacy and intellectual property, and align with both Australian and global best practices.
+**For AI Implementation Today:**
 
-We strongly believe in the importance of open-source knowledge that is accessible and available for implementation by business.
+We provide practical tools, resources, and guidelines to help Australian businesses adopt current AI systems responsibly, safeguard privacy and intellectual property, and align with both Australian and global best practices.
 
-By combining responsible innovation with a pro-business approach, SafeAI-Aus aims to boost productivity, strengthen competitiveness, and position Australia as a leader in ethical AI adoption.
+**For AGI Preparedness:**
+
+We provide strategic frameworks, risk scenarios, and sector-specific guidance to help Australian organisations prepare for advanced AI and potential AGI transformation over the next 5-30 years.
+
+By combining practical implementation guidance with strategic preparation, SafeAI-Aus aims to position Australia as a leader in both safe AI adoption and AGI readiness.
+
+## Expanded Scope in 2026
+
+In early 2026, SafeAI-Aus expanded its mission to include comprehensive AGI preparedness content:
+
+- **C·A·G·R Framework** - Containment, Alignment, Governance, and Resilience strategies for advanced AI
+- **AGI Risk Scenarios** - Six detailed scenarios showing how AGI risks could unfold in Australian context
+- **Sector-Specific Guidance** - Strategic preparedness for government, business, and communities
+- **Research Resources** - Pathways and resources for AI safety researchers
+
+This expansion reflects the growing need for Australian organisations to prepare strategically for both current AI adoption and potential advanced AI transformation.
 
 ---
 
@@ -86,7 +104,7 @@ This choice reflects our commitment to:
     "@type": "ImageObject",
     "url": "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
   },
-  "description": "Open-source Australian knowledge hub for safe, responsible, and growth-focused AI adoption in business. We provide practical tools, open standards, and trusted guidance for responsible AI adoption.",
+  "description": "Australia's open-source knowledge hub for safe AI adoption and AGI preparedness. We provide practical tools for AI implementation today and strategic frameworks for AGI preparation tomorrow.",
   "foundingDate": "2025",
   "areaServed": {
     "@type": "Country",
@@ -94,11 +112,15 @@ This choice reflects our commitment to:
   },
   "knowsAbout": [
     "AI Safety",
+    "AGI Preparedness",
     "AI Governance",
-    "AI Risk Assessment", 
+    "AGI Risk Scenarios",
+    "AI Risk Assessment",
     "AI Compliance",
     "Australian AI Standards",
     "AI Policy Templates",
+    "AGI Framework",
+    "C·A·G·R Framework",
     "AI Safety Guardrails",
     "AI Ethics",
     "Responsible AI"

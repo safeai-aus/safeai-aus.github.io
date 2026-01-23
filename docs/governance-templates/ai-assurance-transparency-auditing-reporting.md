@@ -1,4 +1,5 @@
 ---
+icon: lucide/search-check
 title: "AI Assurance – Transparency, Auditing & Reporting"
 description: "Practical guide for Australian organisations to build AI assurance through transparency, auditing, and reporting patterns."
 keywords: "AI assurance, AI transparency, AI auditing, AI reporting, Australian AI governance, AI risk management, AI incident reporting"
