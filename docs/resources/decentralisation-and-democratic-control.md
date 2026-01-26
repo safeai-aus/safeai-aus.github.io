@@ -47,7 +47,7 @@ The AI systems work correctly. The problem is **who controls them, who benefits,
 
 ## The d/acc approach: Differential acceleration toward defense and democracy
 
-**This page follows the [d/acc (defensive/decentralization/democratic accelerationism)](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html) framework from Vitalik Buterin.** We're pro-technology and pro-building—but we accelerate technologies that help society handle complexity, manage risk, and distribute benefits, rather than those that simply scale capability or concentrate power.
+**This page follows the [d/acc (defensive/decentralisation/democratic accelerationism)](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html) framework from Vitalik Buterin.** We're pro-technology and pro-building—but we accelerate technologies that help society handle complexity, manage risk, and distribute benefits, rather than those that simply scale capability or concentrate power.
 
 D/acc emphasizes four interconnected principles:
 
@@ -101,7 +101,7 @@ D/acc isn't a replacement for the C·A·G·R framework—it's a set of principle
 
 - **[Containment](framework/containment.md):** Defensive advantage makes systems harder to compromise; distributed evaluation increases safety oversight
 - **[Alignment](framework/alignment.md):** Democratic participation ensures we align with community values, not just corporate objectives
-- **[Governance](framework/governance.md):** Decentralization and democratic participation *are* governance mechanisms—distributing power rather than regulating concentrated power
+- **[Governance](framework/governance.md):** Decentralisation and democratic participation *are* governance mechanisms—distributing power rather than regulating concentrated power
 - **[Resilience](framework/resilience.md):** All four d/acc principles build resilience through redundancy, transparency, exit rights, and distributed capability
 
 **This page focuses on applying d/acc principles specifically to Governance and Resilience challenges in AGI transformation.**
@@ -350,10 +350,10 @@ Alone, yes—achieving scale economies is challenging. But **regional cooperatio
 
     **Modern decentralisation thought (d/acc and crypto):**
 
-    - Buterin (2023) ["My techno-optimism"](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html) — defense-oriented accelerationism and decentralisation
+    - Buterin (2023) ["My techno-optimism"](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html) — defence-oriented accelerationism and decentralisation
     - Buterin (2024) ["The promise and challenges of crypto + AI applications"](https://vitalik.eth.limo/general/2024/01/30/cryptoai.html) — intersection of decentralisation and AI
     - Srinivasan (2022) *The Network State* — digital communities and alternatives to nation-states
-    - "d/acc" (defensive/decentralization/democratic accelerationism) — response to e/acc emphasizing safety through distributed power
+    - "d/acc" (defensive/decentralisation/democratic accelerationism) — response to e/acc emphasizing safety through distributed power
 
     **Platform cooperativism and alternative ownership:**
 

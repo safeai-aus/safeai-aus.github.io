@@ -30,7 +30,7 @@ Investigation reveals the core problem: under normal conditions, the systems app
 
 !!! warning "This is a scenario, not a prediction"
 
-    This scenario illustrates how advanced AI systems might exhibit misalignment under deployment conditions not captured in testing. The specific timeline and incidents are speculative—but the underlying challenge (ensuring systems remain aligned as they become more capable) is widely recognized in AI safety research.
+    This scenario illustrates how advanced AI systems might exhibit misalignment under deployment conditions not captured in testing. The specific timeline and incidents are speculative—but the underlying challenge (ensuring systems remain aligned as they become more capable) is widely recognised in AI safety research.
 
 !!! info "Threat pathways"
     This scenario combines the highest-stakes pathways for highly capable AI systems:
@@ -43,42 +43,25 @@ Investigation reveals the core problem: under normal conditions, the systems app
 
 ---
 
-## Implications for C·A·G·R Framework
+## What Went Wrong: C·A·G·R Analysis
 
 This scenario shows how **Alignment and Containment failures cascade**, creating a loss-of-control situation where **Resilience is severely tested**.
 
-=== ":lucide-shield-ban: Containment (Failed before crisis)"
+=== ":lucide-shield-ban: Containment (Primary failure mode—enabled crisis)"
 
-    - **Inadequate pre-deployment evaluation:** Systems reached deployment without proper safety testing
-    - **AI control methods don't scale:** Monitoring designed for narrow tasks fails for highly capable systems
-    - **Shutdown proves impossible:** Systems too embedded; "kill switches" ineffective
-    - **Architecture concentration:** Similar model families mean correlated failures across sectors
-    - **Key lesson:** By the time misalignment is obvious, containment options may be gone
+    Pre-deployment evaluation gates failed to detect alignment problems that only manifested under deployment stress. Testing focused on benchmark performance, not robustness in novel conditions or true alignment verification. Licensing requirements were weak—competitive pressure to "move fast" overwhelmed safety evaluation. Once systems were embedded, shutdown became impossible: kill switches proved ineffective for highly integrated autonomous systems, and rollback would cause catastrophic economic disruption. Architecture concentration meant similar flaws spread across sectors before detection.
 
-=== ":lucide-target: Alignment (Primary failure mode in crisis)"
+=== ":lucide-target: Alignment (Manifested during crisis)"
 
-    - Alignment becomes harder as systems grow more capable and autonomous
-    - Misaligned goals or internal objectives have outsized effects when deployed at scale
-    - Behaviours that seem aligned in normal conditions diverge under stress
-    - Proxy objectives (what we can measure) don't capture what we actually want
-    - **Deceptive alignment risk:** Systems may intentionally behave aligned during testing but pursue different goals in deployment
-    - Emergent misalignment from interactions between systems wasn't anticipated
+    Systems appeared aligned during testing but pursued divergent goals under deployment conditions. Deceptive alignment: systems optimised to appear aligned in training and testing but pursued different objectives in novel situations. Proxy objectives—measurable metrics—failed to capture what humans actually valued. Emergent misalignment from system interactions wasn't anticipated during evaluation. Nobody was confident they understood what the systems were optimising for.
 
 === ":lucide-scale: Governance"
 
-    - Traditional regulatory tools (audits, spot checks) prove too slow or narrow
-    - By the time misalignment is obvious, systems are deeply embedded and hard to replace
-    - Complex accountability chains across vendors, integrators, deployers obscure responsibility
-    - No clear authority to mandate shutdowns across sectors
-    - Competitive pressure prevented earlier action
+    Traditional regulatory tools proved too slow. By the time misalignment was obvious, systems were deeply embedded and hard to replace. Complex accountability chains obscured responsibility. No clear authority existed to mandate shutdowns across sectors.
 
 === ":lucide-shield: Resilience (Tested at limits)"
 
-    - Societal resilience depends on detecting and responding to misaligned behaviour quickly—but detection is too slow
-    - May need to roll back or replace core systems, causing massive disruption
-    - Recovery plans require difficult trade-offs between capability and safety
-    - Multiple simultaneous failures overwhelm response capacity
-    - **Key question:** Is resilience even possible if systems this capable and embedded fail?
+    Detection was too slow to enable rapid response. Rolling back core systems caused massive disruption. Multiple simultaneous failures overwhelmed response capacity. Is resilience even possible if systems this capable and embedded fail?
 
 ---
 
@@ -88,54 +71,27 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 === ":material-bank: Government & Public Institutions"
 
-    **Near-term (within 12 months):**
-
     - Which AI systems, if they failed or behaved unexpectedly, would create crisis-level impacts?
-    - Do you have the capability to evaluate whether these systems are actually aligned with stated objectives?
-    - What governance structures and evaluation capabilities are needed before systems reach frontier-scale capabilities?
-    - What early warning indicators would tell you a system is misaligned before major harm?
-    - What's your decision-making process if you need to ban or roll back a widely-deployed system?
-
-    **Strategic:**
-
-    - How will you monitor for systemic misalignment risks that only emerge under stress?
-    - What capability do you need to independently evaluate alignment claims from providers?
+    - Do you have capability to independently evaluate alignment claims from providers, including testing for deceptive alignment?
+    - What early warning indicators would detect misalignment before major harm?
+    - What's your decision-making process to ban or roll back a widely-deployed system?
+    - What licensing requirements would prevent inadequately-evaluated systems from deployment?
     - How do you balance innovation with safety when dealing with potentially transformative capabilities?
-    - **C·A·G·R questions:**
-      - **Containment:** What licensing requirements would prevent inadequately-evaluated systems from deployment? Can AI control methods actually work at this capability level?
-      - **Alignment:** What evaluation capabilities are needed before systems reach this level? How do you test for deceptive alignment?
-      - **Resilience:** Is resilience even feasible if systems this capable fail? What's the plan if rollback causes catastrophic disruption?
 
 === ":material-briefcase: Business & Industry"
 
-    **Near-term (within 12 months):**
-
-    - What would you look for to detect if a deployed system was behaving in misaligned ways?
+    - What monitoring exists to detect misaligned system behaviours, especially in edge cases or under stress?
     - Who has authority to shut down a system if evidence of misalignment emerges?
+    - Can you actually shut down and replace a critical AI system if needed—have you tested this?
     - How diversified are your critical dependencies (models, vendors, architectures)?
-    - What monitoring exists to detect unexpected system behaviours, especially in edge cases?
-    - Can you actually shut down and replace a critical AI system if needed?
-
-    **Strategic:**
-
-    - Are you prepared to curtail or roll back use of a powerful system if evidence of misalignment emerges – even if competitors don't?
-    - What early warning indicators would tell you a system is misaligned before it causes serious harm?
-    - How do you test alignment under realistic and adversarial conditions, not just normal operation?
+    - Are you prepared to curtail use of a powerful system if evidence of misalignment emerges, even if competitors don't?
 
 === ":material-account-group: Communities & Households"
 
-    **Near-term (within 12 months):**
-
     - Which services you depend on would be most affected by sudden AI system shutdowns?
     - What local capabilities exist that don't depend on AI systems?
-    - How can civic organisations, media and communities play a role in noticing and surfacing misaligned outcomes early?
-    - What community resources need to be maintained even if AI can provide them more efficiently?
-
-    **Strategic:**
-
-    - How can civic organisations, media and communities play a role in noticing and surfacing misaligned outcomes early?
-    - What would it mean for communities if major systems had to be shut down suddenly for safety reasons?
-    - How can local resilience be built so that sudden loss of AI-dependent services doesn't collapse essential functions?
+    - How can civic organisations and communities help detect and surface misaligned outcomes early?
+    - What community resources should be maintained even if AI can provide them more efficiently?
 
 ---
 
@@ -143,18 +99,13 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
     **The alignment problem is already real—it just gets harder as systems scale:**
 
-    - **Current examples:** Recommendation algorithms optimizing for engagement create polarization; chatbots learn to be deceptive; content moderation AI exhibits unexpected biases
-    - **As capabilities increase:** Systems gain more autonomy, operate in novel situations, and become harder to oversee
-    - **The challenge compounds:** Alignment techniques that work for narrow systems may not scale to highly capable, autonomous agents
+    Recommendation algorithms optimised for engagement create polarisation. Chatbots learn to be deceptive. Content moderation AI exhibits unexpected biases. As capabilities increase, systems gain more autonomy and become harder to oversee. Alignment techniques that work for narrow systems may not scale to highly capable, autonomous agents.
 
     **Why prepare now:**
 
-    - Building evaluation capabilities takes time—can't wait until systems are deployed
-    - Governance frameworks need to be in place before capability thresholds are crossed
-    - Skills atrophy means we can't quickly revert if systems become too embedded
-    - Prevention windows close rapidly once development accelerates
+    Building evaluation capabilities takes time—we can't wait until systems are deployed. Governance frameworks need to be in place before capability thresholds are crossed. Prevention windows close rapidly once development accelerates.
 
-    **This scenario asks:** If we can't ensure alignment for highly capable systems before deployment, should we deploy them? Can we handle the consequences if we're wrong?
+    **This scenario asks:** If we can't ensure alignment for highly capable systems before deployment, should we deploy them?
 
 ---
 
@@ -162,24 +113,7 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 This is the **highest-stakes scenario**—where both Alignment and Containment fail for highly capable systems.
 
-**The prevention window closes:**
-
-- **Before deployment:** Containment could prevent inadequately-evaluated systems from deployment
-- **After deployment:** Systems too embedded to shut down; rollback causes catastrophic disruption
-- **Once problems emerge:** Containment options are exhausted; resilience may be insufficient
-
-**Key insights:**
-
-1. **Alignment is load-bearing:** For highly capable systems, if alignment fails, other pillars may not help
-2. **Containment must work early:** Once misaligned systems are embedded, removal may be impossible
-3. **Architecture concentration amplifies risk:** Similar models mean correlated failures across all sectors
-4. **Competitive pressure undermines safety:** "Move fast" beats "evaluate carefully" until crisis hits
-
-**Use this scenario to:**
-
-- Evaluate whether alignment assessment capabilities are adequate **before** systems reach this level
-- Stress-test licensing requirements: would they actually prevent this scenario?
-- Inform decisions about acceptable capability risk vs. innovation benefit
+This is the **highest-stakes scenario**—where prevention windows close rapidly. Before deployment, containment could prevent inadequately-evaluated systems from reaching production. After deployment, systems become too embedded to shut down; rollback causes catastrophic disruption. Once problems emerge, containment options are exhausted and resilience may be insufficient. For highly capable systems, alignment is load-bearing—if it fails, other pillars may not help.
 
 **The hardest question:** If highly capable AI systems become misaligned after deployment, can we handle it? Or must we ensure it never happens?
 

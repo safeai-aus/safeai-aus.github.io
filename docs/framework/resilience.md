@@ -11,6 +11,9 @@ tags:
 
 ![Resilience: Withstanding and Recovering from Disruptions](resilience-hero.jpg)
 
+> **Purpose:** Build capacity to detect, respond to, and recover from AI-related harms while maintaining essential functions
+> **Audience:** Government, business, communities, and emergency planners | **Time:** 25-35 minutes
+
 ## What resilience means
 
 Resilience is the capability to detect, respond to, and recover from AI-related harms while maintaining essential functions and social cohesion.
@@ -218,22 +221,6 @@ Weak communities fragment under pressure, with cascade effects that overwhelm in
 
 ---
 
-## Resilience and the threat pathways
-
-Resilience addresses all the threat pathways, but particularly:
-
-**Critical infrastructure disruption:** Resilience is how we cope when cascading failures occur despite safeguards.
-
-**Catastrophic misuse:** Detection and response capabilities limit damage from AI-enabled attacks. Community resilience reduces panic and secondary harms.
-
-**Gradual disempowerment:** Maintaining manual operation capability prevents complete dependence on systems we don't control. Community capability provides alternatives to AI-mediated services.
-
-**Information ecosystem degradation:** Trusted local networks and information resilience help communities navigate when mainstream channels are compromised.
-
-**Loss of control:** If powerful systems misalign, resilience determines whether impacts are recoverable or catastrophic.
-
----
-
 ## What different actors can do
 
 === "Government & Public Institutions"
@@ -351,57 +338,27 @@ Resilience addresses all the threat pathways, but particularly:
 
 ## Challenges and limitations
 
-**Resilience can't do everything:**
+!!! warning "What resilience cannot solve"
 
-**Some harms are irreversible:** Resilience helps you recover, but some impacts (deaths, destroyed trust, economic collapse) can't be undone.
+    **Resilience is the last line of defence, not a solution to all problems:**
 
-**Resilience is expensive:** Redundancy and excess capacity seem wasteful until you need them. Hard to justify spending on "inefficiency."
+    **Some harms are irreversible:** Resilience helps you recover, but some impacts (deaths, destroyed trust, economic collapse, extinction-level events) cannot be undone. Resilience assumes recovery is possible — it doesn't protect against truly catastrophic outcomes.
 
-**Skills atrophy:** Manual operation capabilities degrade if never used. Testing is essential but disruptive.
+    **Resilience doesn't address power concentration:** Even if Australia maintains essential functions during AI disruption, we don't control who shapes advanced AI or how benefits are distributed globally. Resilience is adaptation, not governance.
 
-**Coordination is hard:** Cross-sector response requires relationships and practice. Can't invent during crises.
+    **Not a substitute for prevention:** Resilience is accepting that failures will happen. It doesn't reduce the probability of failure — Containment and Alignment do that. Over-relying on resilience means accepting preventable harms.
 
-**Community capability varies:** Some communities are strong and resilient. Others are fragmented and vulnerable. Can't assume uniform capability.
+    **Resilience is expensive:** Redundancy and excess capacity seem wasteful until you need them. Hard to justify spending on "inefficiency" that only pays off during crises.
 
-**Psychological limits:** There's only so much disruption and uncertainty people can cope with before exhaustion and despair set in.
+    **Skills atrophy:** Manual operation capabilities degrade if never used. Testing is essential but disruptive.
 
-**These are real constraints. But the alternative — depending entirely on containment, alignment and governance — is unacceptable risk.**
+    **Coordination is hard:** Cross-sector response requires relationships and practice. Can't invent during crises.
 
----
+    **Community capability varies:** Some communities are strong and resilient. Others are fragmented and vulnerable. Can't assume uniform capability.
 
-## The resilience mindset
+    **Psychological limits:** There's only so much disruption and uncertainty people can cope with before exhaustion and despair set in.
 
-Good resilience requires a particular mindset:
-
-**Assume failures will happen.** Not pessimism — realism. Complex systems fail. Malicious actors exist. Unknown unknowns are real.
-
-**Plan for cascades.** Single failures are manageable. Multiple simultaneous or cascading failures overwhelm response. Plan for compounding effects.
-
-**Test under stress.** Systems that work in normal times may fail under pressure. Test during busy periods, with incomplete information, with key people unavailable.
-
-**Maintain excess capacity.** Optimisation eliminates slack. Slack is what you draw on during crises. Some "inefficiency" is actually resilience.
-
-**Build relationships before crises.** Trust and coordination can't be improvised. Invest in networks and communication before you need them.
-
-**Learn from every incident.** Near-misses are warnings. Small failures are practice. Extract lessons and share them.
-
-**Balance vigilance and exhaustion.** Can't be on high alert constantly. But can't be complacent either. Find sustainable preparedness.
-
----
-
-## Key takeaways
-
-**Resilience is not optional.** Containment, alignment and governance will fail sometimes. Resilience is what prevents failures from becoming catastrophic.
-
-**Resilience is broader than security.** It includes social cohesion, community capability, psychological resilience — not just technical robustness.
-
-**Australia must build this capability.** We can't rely on others for our resilience. This is core sovereignty.
-
-**Community resilience is critical.** Government and business can only do so much. Strong communities are essential infrastructure.
-
-**Resilience enables taking risks.** Paradoxically, good resilience allows more innovation. When you know you can cope with failures, you can afford to try new things.
-
-**Start with what you can do now.** Basic preparedness, testing manual operation, building local networks — all achievable immediately.
+    **These are real constraints. But the alternative — depending entirely on containment, alignment and governance — is unacceptable risk.** Resilience is necessary precisely because other layers will fail.
 
 ---
 
@@ -423,13 +380,6 @@ These scenarios show why resilience matters and what it looks like in action:
 - [Containment](containment.md) — prevention measures that reduce what we need resilience against
 - [Alignment](alignment.md) — aligned systems that behave safely reduce resilience demands
 - [Governance](governance.md) — coordination mechanisms that enable effective resilience
-
-**Apply resilience concepts:**
-
-- [Community Preparedness](../communities-households/community-preparedness.md) — practical community resilience building
-- [National Security](../government-policy/national-security.md) — resilience in security contexts
-
-**Actor-specific guidance:**
 
 - [Government & Policy](../government-policy/) — national and institutional resilience planning
 - [Business & Industry](../business-industry/) — organisational continuity and preparedness

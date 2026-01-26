@@ -30,7 +30,7 @@ Operators try manual overrides, but the AI systems are too complex and interconn
 
 !!! warning "This is a scenario, not a prediction"
 
-    This scenario shows how optimized, interdependent AI systems could fail under stress. The specific cascade is illustrative, but the underlying vulnerability—systems optimized for efficiency rather than resilience—is already present in Australian critical infrastructure.
+    This scenario shows how optimised, interdependent AI systems could fail under stress. The specific cascade is illustrative, but the underlying vulnerability—systems optimised for efficiency rather than resilience—is already present in Australian critical infrastructure.
 
 !!! info "Threat pathways"
     This scenario tests all four C·A·G·R pillars simultaneously through cascading failures:
@@ -45,38 +45,25 @@ Operators try manual overrides, but the AI systems are too complex and interconn
 
 ---
 
-## Implications for C·A·G·R Framework
+## What Went Wrong: C·A·G·R Analysis
 
 This scenario tests **all four pillars simultaneously**—making it valuable for comprehensive preparedness exercises.
 
 === ":lucide-shield-ban: Containment"
 
-    - **AI control and shutdown methods fail under stress:** Monitoring designed for normal operations misses cascade scenarios; systems too interdependent to shut down safely; emergency overrides bypass safety controls
-    - **Pre-deployment evaluation missed failure modes:** Systems tested individually but not for cross-sector cascade scenarios
+    AI control and shutdown methods failed under stress. Monitoring designed for normal operations missed cascade scenarios. Systems were too interdependent to shut down safely. Emergency overrides bypassed safety controls. Pre-deployment evaluation missed failure modes—systems were tested individually but not for cross-sector cascade scenarios.
 
 === ":lucide-target: Alignment"
 
-    - Systems optimised for narrow metrics (efficiency, throughput) rather than resilience, safety or fairness
-    - Mis-specified objectives produce harmful behaviours under stress
-    - Optimisation for normal conditions creates fragility in edge cases
-    - Emergent behaviours from interacting systems weren't anticipated during alignment testing
+    Systems were optimised for narrow metrics (efficiency, throughput) rather than resilience, safety or fairness. Mis-specified objectives produced harmful behaviours under stress. Optimisation for normal conditions created fragility in edge cases. Emergent behaviours from interacting systems weren't anticipated during alignment testing.
 
 === ":lucide-scale: Governance"
 
-    - Complex responsibility chains (vendors, integrators, operators) obscure accountability during crisis
-    - Regulatory frameworks lag behind AI-enabled, cross-sector dependencies
-    - No clear authority to coordinate multi-sector response
-    - Testing and certification regimes struggle with emergent behaviours from interacting systems
-    - Incident reporting mechanisms overwhelmed; learning from near-misses failed to prevent crisis
+    Complex responsibility chains (vendors, integrators, operators) obscured accountability during crisis. Regulatory frameworks lagged behind AI-enabled, cross-sector dependencies. No clear authority existed to coordinate multi-sector response. Testing and certification regimes struggled with emergent behaviours from interacting systems. Incident reporting mechanisms were overwhelmed; learning from near-misses failed to prevent crisis.
 
 === ":lucide-shield: Resilience"
 
-    - **Primary pillar tested:** Can Australia maintain essential functions and recover when other pillars fail?
-    - High dependence on AI-mediated control increases vulnerability when systems fail
-    - Manual fallbacks don't work because operators lack current visibility and skills have atrophied
-    - Recovery depends on redundancy and cross-sector coordination that were eliminated for efficiency
-    - Geographic isolation makes supply chain recovery slower
-    - Just-in-time optimisation leaves little buffer for disruptions
+    High dependence on AI-mediated control increased vulnerability when systems failed. Manual fallbacks didn't work because operators lacked current visibility and skills had atrophied. Recovery depended on redundancy and cross-sector coordination that had been eliminated for efficiency. Geographic isolation made supply chain recovery slower. Just-in-time optimisation left little buffer for disruptions.
 
 ---
 
@@ -86,54 +73,27 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 === ":material-bank: Government & Public Institutions"
 
-    **Near-term (within 12 months):**
-
-    - Do you know which critical infrastructure in your jurisdiction uses AI in control systems?
-    - How would you coordinate if electricity, logistics, and communications all failed simultaneously?
-    - Do your critical infrastructure regulations adequately address AI-enabled systems and cross-sector dependencies?
+    - Do you know which critical infrastructure uses AI in control systems?
+    - How would you coordinate if electricity, logistics and communications all failed simultaneously?
+    - Do critical infrastructure regulations adequately address AI-enabled systems and cross-sector dependencies?
     - Which infrastructure should be legally required to maintain manual operation capability?
-    - How often are cross-sector dependencies tested under stress conditions?
-
-    **Strategic:**
-
     - Are evaluation, certification and audit regimes fit for purpose for AI-enabled infrastructure?
-    - How would you coordinate response if several AI-mediated systems failed simultaneously?
-    - What early warning systems exist for detecting correlated failures across sectors?
-    - **C·A·G·R questions:**
-      - **Containment:** Do licensing requirements include testing AI control methods under stress? Can systems actually be shut down safely?
-      - **Governance:** Who has authority to coordinate multi-sector AI failures? Are accountability chains clear?
-      - **Resilience:** Are manual operation capabilities maintained and tested regularly across all critical infrastructure?
+    - What early warning systems detect correlated failures across sectors?
 
 === ":material-briefcase: Business & Industry"
 
-    **Near-term (within 12 months):**
-
-    - For operators: Can you switch to manual operation within 4 hours? Have you tested this in the past year?
-    - For all: What happens at the interfaces between your AI systems and others you don't control?
-    - For vendors: How transparent and testable are your systems to customers who need to verify safety properties?
-    - For operators: Do your staff maintain the skills to operate manually? Are junior staff learning these skills?
-    - What monitoring exists to detect when AI systems are behaving unexpectedly?
-
-    **Strategic:**
-
-    - What happens if key AI systems fail, are compromised or behave unexpectedly — can you operate manually?
+    - **Operators:** Can you switch to manual operation within 4 hours? Have you tested this in the past year?
+    - **Operators:** Do staff maintain manual operation skills? Are junior staff learning them?
+    - **Vendors:** How transparent and testable are your systems to customers who need to verify safety properties?
+    - What happens at interfaces between your AI systems and others you don't control?
     - How do you balance efficiency optimisation with resilience and safety buffers?
-    - What liability and insurance arrangements exist for AI-enabled infrastructure failures?
 
 === ":material-account-group: Communities & Households"
 
-    **Near-term (within 12 months):**
-
-    - How dependent is your community on just-in-time delivery (food, fuel, medicine)?
-    - What basic preparedness measures make sense: water, food, communications, cash, first aid?
-    - How would local community organisations coordinate if normal communication channels were disrupted?
+    - How dependent is your community on just-in-time delivery?
+    - What basic preparedness makes sense: water, food, communications, cash, first aid?
+    - How would local organisations coordinate if normal communication channels were disrupted?
     - Which community resources don't depend on complex digital systems?
-
-    **Strategic:**
-
-    - How dependent are local communities on tightly optimised, just-in-time systems?
-    - What basic preparedness measures could reduce harm during infrastructure disruptions?
-    - How can communities maintain capability to function during extended service disruptions?
 
 ---
 
@@ -154,20 +114,7 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 ## Why this scenario matters for C·A·G·R
 
-This is your **"everything fails at once" scenario**—the most comprehensive test of defence-in-depth:
-
-- **Layer 1 (Prevent):** Systems that shouldn't have been deployed with these risks were deployed anyway
-- **Layer 2 (Constrain):** AI control methods and regulatory oversight prove inadequate under stress
-- **Layer 3 (Withstand):** Resilience measures are the last line of defence
-
-**Key insight:** If you can handle this scenario, your preparedness is robust. If you can't, you've identified critical gaps across multiple pillars.
-
-**Use this scenario to:**
-
-- Test whether your defence-in-depth strategy actually works when multiple layers fail
-- Identify which pillar failures are most consequential for your context
-- Reveal hidden dependencies and coordination gaps
-- Practice decision-making under cascading uncertainty
+This is your **"everything fails at once" scenario**—the most comprehensive test of defence-in-depth. Systems that shouldn't have been deployed with these risks were deployed anyway (Layer 1 fails). AI control methods and regulatory oversight prove inadequate under stress (Layer 2 fails). Resilience measures are the last line of defence (Layer 3 tested). If you can handle this scenario, your preparedness is robust. If you can't, you've identified critical gaps across multiple pillars.
 
 ---
 

@@ -45,38 +45,25 @@ The attack is contained after 48 hours, but it reveals a new reality: capabiliti
 
 ---
 
-## Implications for C·A·G·R Framework
+## What Went Wrong: C·A·G·R Analysis
 
 This scenario explores what happens when **Containment fails** at multiple layers, testing whether **Resilience** can handle the consequences.
 
 === ":lucide-shield-ban: Containment (Primary failure mode)"
 
-    - **Compute governance fails:** Export controls prove porous; black markets emerge; enforcement is weak
-    - **Model weight security fails:** Leaks through insider threats, breaches, or ideological releases
-    - **AI control methods fail:** Jailbreaking, adversarial prompting, and fine-tuning bypass safety measures
-    - **Evaluation gaps:** Dangerous capabilities deployed before risks properly assessed
-    - **Key lesson:** Once dangerous capabilities exist and spread, they cannot be "contained" retroactively
+    Export controls proved porous, black markets emerged, enforcement was weak. Model weights leaked through insider threats, breaches and ideological releases. Jailbreaking and fine-tuning bypassed safety measures. Dangerous capabilities deployed before risks were properly assessed. Once dangerous capabilities exist and spread, they cannot be contained retroactively.
 
-=== ":lucide-target: Alignment"
+=== ":lucide-target: Alignment (Undermined by containment failure)"
 
-    - Models need to reliably refuse dangerous assistance, even under adversarial prompting
-    - Alignment methods must be robust to new misuse strategies
-    - Fine-tuning and jailbreaking can bypass safety measures
-    - Even well-aligned models can be modified once weights are leaked
+    Even well-aligned models became dangerous once weights leaked—fine-tuning and jailbreaking bypassed safety measures. Alignment assumes model providers retain control; once models proliferate, adversaries can modify them. This shows alignment alone is insufficient if containment fails.
 
 === ":lucide-scale: Governance"
 
-    - International cooperation needed to reduce "safe haven" dynamics—but proving inadequate
-    - Access controls and licensing for high-risk capabilities become critical but are circumvented
-    - Detection of misuse becomes harder when capabilities are widely distributed
-    - Attribution and enforcement challenges when actors operate across jurisdictions
+    International cooperation proved inadequate to prevent "safe haven" dynamics. Access controls were circumvented. Detection becomes harder when capabilities are widely distributed. Attribution and enforcement fail when actors operate across jurisdictions.
 
 === ":lucide-shield: Resilience (Tested severely)"
 
-    - Detection, response and recovery capabilities must keep pace with AI-enabled misuse
-    - Public health, cyber defence and emergency management systems need stress-testing against AI-assisted scenarios
-    - Speed of AI-assisted attacks may outpace human decision-making processes
-    - **Key question:** Can resilience measures handle threats that shouldn't have existed?
+    Detection, response and recovery capabilities struggled to keep pace with AI-enabled misuse. AI-assisted attacks outpaced human decision-making processes. Can resilience measures handle threats that shouldn't have existed?
 
 ---
 
@@ -86,54 +73,27 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 === ":material-bank: Government & Public Institutions"
 
-    **Near-term (within 12 months):**
-
     - How would you distinguish between an AI-assisted attack and an AI system failure?
-    - Who has authority to respond? What decision-making processes exist for fast-moving threats?
-    - How do your biosecurity, cyber and emergency frameworks need to adapt when threats move at machine speed and scale?
-    - What monitoring capabilities exist to detect early signs of AI-assisted misuse?
-    - Can your incident response processes handle threats that evolve faster than human meetings?
-
-    **Strategic:**
-
-    - What international partnerships enable information sharing about AI-enabled threats?
+    - Can your incident response processes handle threats that evolve faster than human decision-making?
+    - What mechanisms track compute and model weights that could enable dangerous capabilities?
+    - What evaluation capabilities assess dangerous capability thresholds before systems are deployed?
     - How do you balance openness in AI research with preventing misuse?
-    - What evaluation capabilities exist to assess dangerous capability thresholds?
-    - **Containment questions:**
-      - What mechanisms exist to track compute and model weights that could enable dangerous capabilities?
-      - How can Australia contribute to international export control and model weight security efforts?
-      - What triggers would justify restrictions on capability development or deployment despite innovation costs?
-      - How do we verify that containment measures are actually working?
+    - What international partnerships enable information sharing about AI-enabled threats?
 
 === ":material-briefcase: Business & Industry"
 
-    **Near-term (within 12 months):**
-
-    - For AI providers: what safeguards prevent and detect misuse? How do you handle evasion attempts?
-    - For critical infrastructure: what's your incident response plan when attacks move faster than your decision-making processes?
-    - How do you model and defend against threats that adapt in real-time?
-    - What monitoring exists to detect when your systems are being used in unexpected ways?
+    - **AI providers:** What safeguards prevent and detect misuse? What's your process for evaluating dangerous capabilities before release?
+    - **Critical infrastructure:** What's your incident response plan when attacks move faster than your decision-making processes?
     - Can your security operations handle AI-assisted attacks that probe defences systematically?
-
-    **Strategic:**
-
-    - For AI providers: what's your process for evaluating dangerous capabilities before release?
-    - For infrastructure operators: how do you defend against coordinated, multi-vector attacks operating at machine speed?
+    - What monitoring detects when your systems are being used in unexpected ways?
     - What information sharing mechanisms exist with government and other operators?
 
 === ":material-account-group: Communities & Households"
 
-    **Near-term (within 12 months):**
-
-    - Which local institutions (health centres, councils, community groups) would you trust for information during a crisis?
-    - What basic preparedness reduces panic and harm during crises (regardless of cause)?
-    - How can communities maintain cohesion and resist panic when information is confusing or contradictory?
-
-    **Strategic:**
-
-    - How can basic preparedness and trust in local institutions reduce panic and secondary harms during crises?
+    - Which local institutions would you trust for information during a crisis?
+    - What basic preparedness reduces panic and harm during crises?
+    - How can communities maintain cohesion when information is confusing or contradictory?
     - What community capabilities need to exist independently of digital systems?
-    - How do communities maintain function when centralised systems are disrupted?
 
 ---
 
@@ -141,16 +101,11 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
     **Prevention is the goal—but it's extremely difficult:**
 
-    - **Economic incentives:** Frontier capabilities create competitive advantage, so incentives favor development
-    - **Dual-use nature:** Most dangerous capabilities are side effects of generally useful research
-    - **International coordination:** Prevention requires global coordination, but countries compete for AI leadership
-    - **Enforcement challenges:** Model weights copy instantly; export controls have gaps; insider threats exist
+    Frontier capabilities create competitive advantage, so incentives favour development. Most dangerous capabilities are side effects of generally useful research. Prevention requires global coordination, but countries compete for AI leadership. Model weights copy instantly, export controls have gaps, and insider threats exist.
 
     **This scenario shows what happens if prevention fails:**
 
-    - Once dangerous capabilities exist and leak, they can't be "contained" retroactively
-    - Resilience measures face threats they weren't designed to handle
-    - Defense becomes much harder than prevention would have been
+    Once dangerous capabilities exist and leak, they can't be "contained" retroactively. Resilience measures face threats they weren't designed to handle. Defence becomes much harder than prevention would have been.
 
     **The lesson:** Containment at Layer 1 (prevention) is more tractable than relying on resilience after capabilities proliferate.
 
@@ -158,33 +113,7 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 ## Why this scenario matters for Containment
 
-This scenario illustrates the **critical importance of Layer 1 (Prevention)**:
-
-**If containment succeeds:**
-
-- Dangerous capabilities never reach adversarial actors
-- Misuse scenarios remain bounded by human capabilities
-- Defence measures can handle human-scale threats
-
-**If containment fails (this scenario):**
-
-- Dangerous capabilities proliferate
-- They cannot be "un-released" or contained retroactively
-- Resilience measures face threats they may not be able to handle
-
-**Key insights:**
-
-- **Containment is asymmetric:** Defenders must succeed everywhere; attackers need only one path to succeed
-- **Model weight leaks are permanent:** Unlike physical materials, digital capabilities copy instantly and irreversibly
-- **Jurisdictional arbitrage:** Weak containment anywhere undermines containment everywhere
-- **Prevention is more tractable than response:** It's easier to prevent dangerous capabilities from existing than to defend against them once they do
-
-**Use this scenario to:**
-
-- Stress-test your containment measures: compute governance, model weight security, export controls
-- Identify single points of failure in prevention layers
-- Evaluate whether resilience measures are sufficient if containment fails
-- Inform decisions about acceptable levels of capability risk vs. innovation benefit
+This scenario illustrates the **critical importance of Layer 1 (Prevention)**: if containment succeeds, dangerous capabilities never reach adversarial actors and defence measures can handle human-scale threats. If containment fails, dangerous capabilities proliferate and cannot be "un-released" or contained retroactively. Containment is asymmetric—defenders must succeed everywhere, attackers need only one path. Model weight leaks are permanent: unlike physical materials, digital capabilities copy instantly and irreversibly. Prevention is more tractable than response.
 
 ---
 

@@ -38,36 +38,25 @@ When verification becomes impossible for most citizens and expensive for institu
 
 ---
 
-## Implications for C·A·G·R Framework
+## What Went Wrong: C·A·G·R Analysis
 
 This scenario shows how AI-generated content degrades trust in information and democratic processes. The challenge is maintaining shared understanding of reality when verification becomes difficult and manipulation becomes easy.
 
 === ":lucide-shield-ban: Containment"
 
-    - Difficult to prevent the development of persuasive content generation capabilities
-    - Once models exist, jailbreaking and fine-tuning can bypass safety measures
-    - Open-source models make content generation widely accessible
-    - No effective way to contain synthetic media creation at scale
+    Preventing the development of persuasive content generation capabilities proved difficult. Once models existed, jailbreaking and fine-tuning bypassed safety measures. Open-source models made content generation widely accessible. No effective way existed to contain synthetic media creation at scale.
 
 === ":lucide-target: Alignment"
 
-    - Models are optimised for engagement or persuasion, not for democratic health
-    - Safety mitigations may reduce obvious harms but miss aggregate, long-term effects on trust
-    - Even "aligned" systems can be fine-tuned or prompted for manipulative purposes
+    Models were optimised for engagement or persuasion, not for democratic health. Safety mitigations reduced obvious harms but missed aggregate, long-term effects on trust. Even "aligned" systems could be fine-tuned or prompted for manipulative purposes.
 
-=== ":lucide-scale: Governance"
+=== ":lucide-scale: Governance (Tested severely)"
 
-    - Existing electoral laws and media regulations are stretched by new forms of influence and campaigning
-    - Platform governance choices shape the information environment more than democratic processes
-    - Attribution and enforcement become nearly impossible at scale
-    - Regulatory frameworks struggle to keep pace with evolving manipulation techniques
+    Electoral laws designed for human-paced campaigning proved inadequate for AI-generated content at scale. Platform governance choices shaped the information environment more than democratic processes—but platforms weren't accountable through democratic mechanisms. Attribution became nearly impossible: who created a deepfake? Which jurisdiction applies? Enforcement failed because manipulation techniques evolved faster than regulatory responses.
 
-=== ":lucide-shield: Resilience"
+=== ":lucide-shield: Resilience (Primary failure mode)"
 
-    - Democracies depend on shared facts and norms of contestation
-    - Persistent manipulation and confusion weaken these foundations
-    - Communities and individuals need skills, tools and institutions to navigate an AI-saturated information environment
-    - Media literacy and verification capabilities become critical societal infrastructure
+    Democracies depend on shared facts and norms of contestation—persistent manipulation and confusion weakened these foundations. Traditional verification methods couldn't keep pace with synthetic content generation. Media literacy and trusted local networks became critical infrastructure, but building them took years while erosion happened in months. Recovery required rebuilding epistemic security that had taken generations to establish.
 
 ---
 
@@ -77,50 +66,26 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 === ":material-bank: Government & Public Institutions"
 
-    **Near-term (within 12 months):**
-
-    - What would you do if a convincing deepfake of a minister making inflammatory statements circulated 36 hours before an election?
-    - Who has authority to act? What legal powers exist? How fast could you respond?
+    - What would you do if a convincing deepfake circulated 36 hours before an election? Who has authority to act? How fast could you respond?
     - How should electoral laws adapt when anyone can generate thousands of targeted messages at near-zero cost?
-    - What verification mechanisms can you put in place for official government communications?
-    - How can you ensure citizens can distinguish real government communications from fakes?
-
-    **Strategic:**
-
-    - What standards should apply to the use of AI in political communication by domestic actors?
-    - How can public broadcasters, education systems and civic institutions support information resilience?
-    - What role should government play in verifying information during crises or elections?
+    - What verification mechanisms exist for official government communications?
+    - What standards should apply to AI use in political communication?
+    - How can public broadcasters and civic institutions support information resilience?
 
 === ":material-briefcase: Business & Industry"
 
-    **Near-term (within 12 months):**
-
-    - For all organisations: what's your crisis plan for when a deepfake CEO video circulates?
-    - For platforms: what can you detect now? What will become undetectable in 6-12 months?
-    - For platforms and media: what governance and transparency practices are appropriate for AI-generated political content?
-    - For media organisations: how do you verify content when sophisticated fakes are indistinguishable from originals?
-    - For all organisations: how do you protect brand reputation and customer trust in an environment of pervasive synthetic media?
-
-    **Strategic:**
-
+    - **All organisations:** What's your crisis plan when a deepfake CEO video circulates?
+    - **Platforms:** What can you detect now? What will become undetectable in 6-12 months?
+    - **Media organisations:** How do you verify content when sophisticated fakes are indistinguishable from originals?
     - What verification infrastructure needs to exist across the media and technology ecosystem?
     - How can platforms balance free expression with preventing manipulation at scale?
-    - What business models support quality journalism when AI can generate convincing but false content at near-zero cost?
 
 === ":material-account-group: Communities & Households"
 
-    **Near-term (within 12 months):**
-
-    - What local trusted sources and networks can you maintain that aren't mediated by social platforms?
-    - How do you currently verify information before sharing it?
-    - What simple habits can help: verify before sharing? Check multiple sources? Slow down on emotionally charged content?
-    - How can community groups create spaces for deliberation that resist manipulation?
-
-    **Strategic:**
-
-    - How can communities strengthen media literacy without creating cynicism or disengagement?
-    - What role can local trusted institutions (libraries, schools, community centres) play?
-    - How do we maintain democratic participation when the information environment is compromised?
+    - What local trusted sources can you maintain that aren't mediated by social platforms?
+    - What simple habits help: verify before sharing, check multiple sources, slow down on emotionally charged content?
+    - How can communities strengthen media literacy without creating cynicism?
+    - What role can local trusted institutions play in maintaining information quality?
 
 ---
 
@@ -146,28 +111,7 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 ## Why this scenario matters for Resilience and Governance
 
-This scenario shows **epistemic security** as critical infrastructure—democracy depends on shared reality and the ability to distinguish truth from falsehood.
-
-**The challenge:**
-
-- Containment of content generation capabilities is nearly impossible
-- Alignment of models won't prevent misuse by bad actors
-- Governance struggles when manipulation is cheap, attribution hard, and scale overwhelming
-- Resilience becomes the primary defence: can democratic processes withstand information degradation?
-
-**Key insights:**
-
-1. **Verification is infrastructure:** Societies need ways to establish shared facts
-2. **Trust is load-bearing:** When institutional trust erodes, verification becomes impossible
-3. **Local networks matter:** Trusted relationships that aren't mediated by platforms become critical
-4. **Media literacy is necessary but insufficient:** Can't expect individuals to verify everything
-
-**Use this scenario to:**
-
-- Test your information resilience: can your organisation function when public information is unreliable?
-- Identify which trusted sources and relationships to maintain
-- Design communications that remain verifiable under adversarial conditions
-- Plan for maintaining democratic participation when information is degraded
+This scenario shows **epistemic security** as critical infrastructure—democracy depends on shared reality and the ability to distinguish truth from falsehood. When institutional trust erodes, verification becomes impossible. Trusted relationships that aren't mediated by platforms become critical, because we can't expect individuals to verify everything themselves.
 
 ---
 

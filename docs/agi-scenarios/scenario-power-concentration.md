@@ -14,7 +14,7 @@ tags:
 
 ## Summary
 
-**2025-2030:** Three US tech firms come to dominate frontier AI models and infrastructure. By 2028, most Australian government departments rely on one of these providers for document analysis, policy modelling and decision support. The big four banks all license AI systems from the same two vendors for credit assessment, fraud detection and trading.
+**2025-2030:** Three US tech firms come to dominate frontier AI models and infrastructure. By 2028, most Australian government departments rely on one of these providers for document analysis, policy modelling and decision support. The big four banks all licence AI systems from the same two vendors for credit assessment, fraud detection and trading.
 
 Australian universities and research institutions lack the compute and talent to develop competitive alternatives. The National AI Centre coordinates some local capability, but budgets are 1/100th of what leading labs spend on a single training run.
 
@@ -56,39 +56,25 @@ When a security researcher discovers that a widely-used AI system has been sendi
 
 ---
 
-## Implications for C·A·G·R Framework
+## What Went Wrong: C·A·G·R Analysis
 
 This scenario shows how governance failures combine with market concentration to create dependencies that are difficult to escape. When both international coordination and domestic sovereignty weaken simultaneously, all four pillars of the framework face severe stress.
 
 === ":lucide-shield-ban: Containment"
 
-    - Limited leverage over what systems get trained or where dangerous capabilities develop
-    - Export controls and compute governance efforts fragment as countries compete for AI leadership
-    - Model weight security weakens as jurisdictions lower standards to attract investment
-    - Australia cannot effectively prevent dangerous capabilities from reaching its shores
+    Limited leverage over what systems get trained or where dangerous capabilities develop. Export controls and compute governance fragment as countries compete. Model weight security weakens as jurisdictions lower standards to attract investment.
 
 === ":lucide-target: Alignment"
 
-    - Safety and values alignment for core systems depend on external providers' choices, not Australian standards
-    - Limited local capability to independently evaluate or stress-test models
-    - Australian law and values may not be reflected in how systems are designed or optimised
-    - Alignment research itself concentrates in a few labs overseas
+    Safety and values alignment depend on external providers' choices, not Australian standards. Limited local capability to independently evaluate models. Australian law and values may not be reflected in system design.
 
-=== ":lucide-scale: Governance"
+=== ":lucide-scale: Governance (Primary failure mode)"
 
-    - **Primary failure mode**: International coordination breaks down, regulatory race to the bottom
-    - Regulatory leverage over providers becomes weak as services are delivered transnationally
-    - Risk of "policy capture"—firms become indispensable, threaten withdrawal if regulated
-    - Enforcement becomes difficult when critical infrastructure depends on foreign-controlled systems
-    - Multilateral agreements fail to form or prove unenforceable
-    - Australia faces pressure: loosen standards or lose access to frontier AI
+    International coordination breaks down—regulatory race to the bottom. Regulatory leverage weakens as services are delivered transnationally. Risk of policy capture: firms become indispensable, threaten withdrawal if regulated. Multilateral agreements fail or prove unenforceable. Australia faces pressure: loosen standards or lose access.
 
 === ":lucide-shield: Resilience"
 
-    - Dependencies on foreign-controlled AI infrastructure become potential points of failure or leverage
-    - Difficult to plan for continuity if critical services rely on opaque external models
-    - Geopolitical tensions could disrupt access to essential systems
-    - Limited ability to maintain alternative capabilities when market consolidates
+    Dependencies on foreign-controlled infrastructure become potential points of failure or leverage. Geopolitical tensions could disrupt access to essential systems. Limited ability to maintain alternatives when markets consolidate.
 
 ---
 
@@ -98,53 +84,25 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
 === ":material-bank: Government & Public Institutions"
 
-    **Near-term (within 12 months):**
-
-    - List your three most critical AI dependencies right now. For each: who provides it? What happens if they change terms or cut access? Do you have a realistic alternative?
-    - What procurement rules could you implement to reduce concentration risk?
+    - List your three most critical AI dependencies. For each: who provides it? What happens if they change terms? Do you have realistic alternatives?
+    - What procurement rules could reduce concentration risk?
     - Which systems should be legally required to be locally controllable or auditable?
-    - How much of your AI evaluation capability depends on overseas expertise?
-
-    **Strategic:**
-
-    - When, if ever, should certain systems be required to be locally controllable or auditable?
-    - What safeguards are needed against regulatory capture and over-reliance on a small number of providers?
-    - How can Australia retain meaningful control over critical AI infrastructure and services?
-    - **Governance questions:**
-      - Under what conditions would Australia accept weaker AI safety standards to maintain access to frontier technology?
-      - What multilateral partnerships are essential to maintain, even under competitive pressure?
-      - How do we avoid a race to the bottom while remaining economically competitive?
-      - What "red lines" would trigger stronger unilateral regulation regardless of economic costs?
+    - What safeguards prevent regulatory capture by dominant AI providers?
+    - Under what conditions would Australia accept weaker AI safety standards to maintain access to frontier technology?
+    - What "red lines" would trigger stronger regulation regardless of economic costs?
 
 === ":material-briefcase: Business & Industry"
 
-    **Near-term (within 12 months):**
-
-    - Do your contracts with AI providers include provisions for geopolitical disruption, provider failure, or sudden terms changes?
+    - Do your contracts include provisions for geopolitical disruption, provider failure, or sudden terms changes?
     - Could you continue essential operations for 30 days if your primary AI provider became unavailable?
-    - What proportion of your R&D budget goes to reducing dependence on any single provider or platform?
-    - Do your contracts, risk assessments and governance processes reflect the strategic nature of these dependencies?
-    - What would it cost to develop or procure alternatives to your most critical AI dependencies?
-
-    **Strategic:**
-
-    - Where are you most dependent on external AI providers for essential operations?
-    - What is your plan if a key provider changes terms, fails, or becomes geopolitically constrained?
     - How diversified are your AI dependencies across providers, architectures and jurisdictions?
+    - Do your risk assessments and governance processes reflect the strategic nature of these dependencies?
 
 === ":material-account-group: Communities & Households"
 
-    **Near-term (within 12 months):**
-
-    - Which local services (health, banking, government services, employment) depend on a small number of AI platforms?
+    - Which local services depend on a small number of AI platforms?
     - What forms of local knowledge and capability should be preserved even if AI can do it "better"?
-    - How might community organisations build redundancy against platform dependency?
-
-    **Strategic:**
-
-    - How might over-reliance on a few platforms affect local information ecosystems, employment and services?
     - What happens to local communities if access to dominant platforms is disrupted?
-    - Which capabilities should communities maintain even if AI-driven alternatives are more efficient?
 
 ---
 
@@ -152,17 +110,11 @@ Use these questions for risk assessments, strategic planning, and tabletop exerc
 
     **Market forces created the concentration—they won't fix it:**
 
-    - **Economies of scale:** Training frontier AI requires billions in capital—only a few companies can compete
-    - **Network effects:** Platforms with more users/data attract more developers, creating winner-take-all dynamics
-    - **First-mover advantages:** Early capability leads compound as leaders attract talent and capital
-    - **Lock-in effects:** Once systems are embedded, switching costs become prohibitive
+    Training frontier AI requires billions in capital—only a few companies can compete. Platforms with more users attract more developers, creating winner-take-all dynamics. Early capability leads compound as leaders attract talent and capital. Once systems are embedded, switching costs become prohibitive.
 
     **Why this matters for Australia:**
 
-    - We're too small to develop competing frontier capabilities independently
-    - Without intervention, we become dependent on foreign-controlled systems
-    - Dependence reduces sovereignty and creates geopolitical vulnerability
-    - Once dependencies deepen, negotiating power disappears
+    We're too small to develop competing frontier capabilities independently. Without intervention, we become dependent on foreign-controlled systems, reducing sovereignty and creating geopolitical vulnerability. Once dependencies deepen, negotiating power disappears.
 
     **The lesson:** Strategic sectors require active governance, not just market forces. Power concentration is a policy failure, not an inevitability.
 

@@ -37,7 +37,7 @@ AI systems that match or exceed human cognitive capabilities across virtually al
 
 **Key uncertainties:**
 
-- **When (or if):** Estimates range from 5-10 years to "never" or "not this century"
+- **When (or if):** Estimates range from 5-10 years to "never" or "not this century". Frontier AI labs actively building toward AGI expect 2026-2030 timelines (see [AGI Timelines](../agi-timelines.md) for detailed predictions from OpenAI, Anthropic, DeepMind, and Chinese labs).
 - **How rapidly:** Would capabilities advance gradually or discontinuously?
 - **Which capabilities first:** Human-level reasoning? Strategic planning? Scientific research?
 
@@ -88,19 +88,6 @@ AI systems significantly more capable than the best human minds across all domai
 ---
 
 ## Framework concepts
-
-### The four pillars: C·A·G·R
-
-SafeAI-Aus organises Australia's response around four pillars:
-
-**Containment:** Preventing dangerous AI systems from being built or deployed
-**Alignment:** Making AI systems reliably safe and compatible with human values
-**Governance:** Laws, institutions and coordination that shape AI development
-**Resilience:** Building capacity to withstand and recover from AI-related disruptions
-
-These pillars work together as a defence-in-depth strategy.
-
----
 
 ### Containment
 
@@ -182,7 +169,7 @@ The capability to detect, respond to and recover from AI-related harms while mai
 
 ### Defence in depth
 
-A strategy of layered protections where each layer assumes the ones above it may fail:
+A strategy of layered protections where each layer assumes the ones above it may fail. This proven risk management approach originates from [nuclear safety](https://www.nrc.gov/reading-rm/basic-ref/glossary/defense-in-depth) and [cybersecurity](https://csrc.nist.gov/glossary/term/defense_in_depth), where multiple independent barriers prevent catastrophic failures. C·A·G·R applies this same principle to advanced AI risks.
 
 **Layer 1: Prevent dangerous AI training**
 Stop dangerous systems from being built (compute governance, export controls, international norms)
@@ -351,19 +338,6 @@ The specific mechanisms through which advanced AI could cause harm. SafeAI-Aus e
 6. Gradual disempowerment
 
 These pathways overlap and can reinforce each other. See [Scenarios for Australia](agi-scenarios/index.md) for detailed exploration of how each could unfold in Australian context.
-
----
-
-## Defensive Home AI
-
-Practical steps households can take to maintain agency and cope with AI-related disruptions:
-
-- Basic preparedness (food, water, cash, first aid)
-- Trusted local networks that don't depend on AI systems
-- Skills that don't require automation
-- Information resilience and critical thinking
-
-**Philosophy:** Strong communities are essential infrastructure. When AI systems fail, households and communities bear practical burdens. Build capability now.
 
 ---
 

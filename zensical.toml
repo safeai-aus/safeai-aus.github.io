@@ -69,8 +69,9 @@ nav = [
     { "State & Territory AI Resources" = "business-resources/state-territory-ai-resources.md" },
     { "AI Learning & Development Directory" = "business-resources/ai-learning-development-directory.md" },
   ]},
-  { "Advanced AI & AGI" = [
-    { "Overview" = "agi-tomorrow-index.md" },
+  { "Preparing for AGI" = [
+    { "Overview" = "preparing-for-agi.md" },
+    { "AGI Timelines" = "agi-timelines.md" },
     { "AGI Scenarios" = [
       { "Overview" = "agi-scenarios/index.md" },
       { "Power Concentration & Governance Failure" = "agi-scenarios/scenario-power-concentration.md" },
@@ -86,28 +87,6 @@ nav = [
       { "Alignment" = "framework/alignment.md" },
       { "Governance" = "framework/governance.md" },
       { "Resilience" = "framework/resilience.md" },
-    ]},
-    { "Sector Guidance" = [
-      { "Overview" = "sector-guidance/index.md" },
-      { "Government" = [
-        { "Overview" = "sector-guidance/government/index.md" },
-        { "AI Safety Policy" = "sector-guidance/government/ai-safety-policy.md" },
-        { "Institutions & Capability" = "sector-guidance/government/institutions-and-capability.md" },
-        { "Coordination" = "sector-guidance/government/coordination.md" },
-        { "Supporting Alternatives" = "sector-guidance/government/supporting-alternatives.md" },
-        { "National Security" = "sector-guidance/government/national-security.md" },
-      ]},
-      { "Business" = [
-        { "Overview" = "sector-guidance/business/index.md" },
-        { "AGI Preparedness Strategy" = "sector-guidance/business/agi-preparedness-strategy.md" },
-        { "Open-Source Alternatives" = "sector-guidance/business/open-source-alternatives.md" },
-      ]},
-      { "Communities" = [
-        { "Overview" = "sector-guidance/communities/index.md" },
-        { "Community Preparedness" = "sector-guidance/communities/community-preparedness.md" },
-        { "Community AI Infrastructure" = "sector-guidance/communities/community-ai-infrastructure.md" },
-        { "Defensive Home AI" = "sector-guidance/communities/defensive-home-ai.md" },
-      ]},
     ]},
   ]},
   { "Resources & About" = [

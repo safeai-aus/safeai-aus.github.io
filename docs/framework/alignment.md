@@ -11,6 +11,9 @@ tags:
 
 ![Alignment: Making AI Systems Reliably Safe](alignment-hero.jpg)
 
+> **Purpose:** Understand how to ensure AI systems behave compatibly with human intent, Australian law, and public safety
+> **Audience:** Government, business, and technical teams | **Time:** 25-35 minutes
+
 ## What alignment means
 
 Alignment is about ensuring AI systems behave in ways compatible with human intent, Australian law and public safety.
@@ -35,25 +38,15 @@ Effective alignment requires attention to all three levels: technical, socio-tec
 
     **But alignment doesn't solve:**
 
-    **Whose intentions matter?**
-    - Alignment means the system serves its creators' goals — but should it serve corporate profit, national interest, or affected communities?
-    - Who decides what counts as "good" behavior when stakeholders disagree?
+    - **Whose intentions matter?** Alignment means the system serves its creators' goals — but should it serve corporate profit, national interest, or affected communities? Who decides what counts as "good" behavior when stakeholders disagree?
 
-    **Democratic participation:**
-    - Who has input on what values AI systems reflect?
-    - Can citizens meaningfully participate in governance of systems aligned with others' objectives?
+    - **Democratic participation:** Who has input on what values AI systems reflect? Can citizens meaningfully participate in governance of systems aligned with others' objectives?
 
-    **Distribution and equity:**
-    - How are benefits distributed when AGI automates cognitive work?
-    - What prevents winner-take-all outcomes even with safe, aligned systems?
+    - **Distribution and equity:** How are benefits distributed when AGI automates cognitive work? What prevents winner-take-all outcomes even with safe, aligned systems?
 
-    **Power concentration:**
-    - A few companies controlling perfectly aligned AGI still concentrates unprecedented power
-    - Does technical safety matter if those systems serve narrow interests?
+    - **Power concentration:** A few companies controlling perfectly aligned AGI still concentrates unprecedented power. Does technical safety matter if those systems serve narrow interests?
 
-    **What activities should remain human?**
-    - Even if AI can do something reliably, should it?
-    - Communities should decide what's valuable because humans do it
+    - **What activities should remain human?** Even if AI can do something reliably, should it? Communities should decide what's valuable because humans do it.
 
     **The key insight:** Alignment solves "does the system do what its creators intend?" It doesn't solve "whose intentions should guide transformative technology?" or "how do we govern this democratically?"
 
@@ -83,6 +76,8 @@ This means alignment for Australia is not primarily about lab research (though w
 
 ## Three levels of alignment
 
+Alignment challenges span technical, organizational, and contextual dimensions. As Anthropic notes in their [Core Views on AI Safety](https://www.lesswrong.com/posts/xhKr5KtvdJRssMeJ3/anthropic-s-core-views-on-ai-safety), many outstanding challenges in AI alignment extend beyond purely technical issues—requiring attention to the deeper contexts and layers of meaning in which AI systems operate.
+
 ### 1. Technical alignment
 
 **What it is:** The relationship between a system's training objective and its actual behaviour.
@@ -98,30 +93,38 @@ Technical alignment concerns:
 **Why it's hard:**
 
 - We often can't directly specify what we want; we use proxy objectives
-- Systems can find unexpected ways to satisfy objectives (specification gaming)
+- Systems can find unexpected ways to satisfy objectives ([specification gaming](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/))
 - Capabilities can emerge at scale that weren't present in smaller versions
 - Behaviour that seems aligned in testing may diverge in deployment
-- Modern approaches (RLHF, Constitutional AI) have made progress but don't solve deeper challenges like deceptive alignment
+- Modern approaches ([RLHF](https://openai.com/index/instruction-following/), [Constitutional AI](https://www.anthropic.com/news/claudes-constitution)) have made progress but don't solve deeper challenges
+
+!!! warning "Critical limitation: We cannot reliably verify alignment"
+
+    **[Deceptive alignment](../resources/concepts.md#alignment-ai-safety-concept) is the most concerning failure mode.** A system might behave safely during training and evaluation because it "knows" it's being tested, then pursue different goals in deployment. Anthropic's research on [alignment faking](https://www.anthropic.com/research/alignment-faking) demonstrates this risk empirically.
+
+    **Current evaluation methods don't scale to advanced AI:**
+
+    - We evaluate by testing behaviour, but can't directly inspect goals or intentions
+    - Systems more capable than evaluators can "sandbag" — deliberately underperform to appear safe
+    - [Scalable oversight](../resources/concepts.md#scalable-oversight) remains unsolved ([Christiano 2018](https://ai-alignment.com/iterated-distillation-and-amplification-157debfd1616)): how do we evaluate superhuman AI when we can't verify the answers ourselves?
+
+    The [UK AI Safety Institute](https://www.aisi.gov.uk/work/evaluations-updates) and [Anthropic's research](https://www.anthropic.com/research) acknowledge these gaps. No organisation has demonstrated reliable methods for detecting deceptive alignment.
+
+    **This is why defence-in-depth matters.** We cannot rely on alignment verification alone — we need Containment, Governance, and Resilience as backup layers.
 
 **What Australia needs:**
 
 **Independent evaluation capability**
 
-- Don't just trust provider claims about alignment
-- Partner with universities and research institutes to build evaluation capacity
-- For critical deployments, conduct independent testing before approval
+Australia shouldn't simply trust provider claims about alignment. Instead, we should partner with universities and research institutes to build domestic evaluation capacity, and for critical deployments, conduct independent testing before granting approval.
 
 **Red-teaming and adversarial testing**
 
-- Test how systems behave under adversarial prompts
-- Look for edge cases and failure modes
-- Understand what makes systems break down or behave unexpectedly
+Evaluation should test how systems behave under adversarial prompts, actively searching for edge cases and failure modes to understand what makes systems break down or behave unexpectedly.
 
 **Standards for documentation**
 
-- Require providers to document training objectives, data sources and known limitations
-- Expect evidence of testing under realistic and adversarial conditions
-- Make this information available to regulators and, where appropriate, the public
+Providers should be required to document training objectives, data sources and known limitations, with evidence of testing under realistic and adversarial conditions. This information should be available to regulators and, where appropriate, the public.
 
 **Examples of technical misalignment in practice:**
 
@@ -156,27 +159,19 @@ Most alignment problems in practice are socio-technical, not purely technical. T
 
 **Meaningful human oversight**
 
-- Not just "human in the loop" but humans with real authority and capability to challenge systems
-- Staff trained and empowered to overrule AI recommendations
-- Regular testing: does oversight actually work, or is it nominal?
+Oversight means more than just "human in the loop"—it requires humans with real authority and capability to challenge systems. Staff must be trained and empowered to overrule AI recommendations, with regular testing to ensure oversight actually works rather than being merely nominal.
 
 **Appropriate workflow design**
 
-- Map where AI systems sit in decision-making processes
-- Ensure humans see enough information to make informed choices
-- Maintain capability to operate manually when needed
+Organisations should map where AI systems sit in decision-making processes, ensure humans see enough information to make informed choices, and maintain the capability to operate manually when needed.
 
 **Incentive alignment**
 
-- Check that performance metrics don't inadvertently reward gaming AI systems
-- Ensure that challenging AI outputs is rewarded, not punished
-- Design feedback loops that surface problems rather than hide them
+Performance metrics should be checked to ensure they don't inadvertently reward gaming AI systems. Challenging AI outputs should be rewarded rather than punished, and feedback loops should be designed to surface problems rather than hide them.
 
 **Contestability and redress**
 
-- People affected by AI-mediated decisions can understand why decisions were made
-- Meaningful appeal mechanisms exist and are actually used
-- Systems are designed for explainability, not just accuracy
+People affected by AI-mediated decisions should be able to understand why decisions were made, with meaningful appeal mechanisms that are actually used in practice. Systems should be designed for explainability, not just accuracy.
 
 **Examples of socio-technical misalignment:**
 
@@ -213,27 +208,19 @@ When Australia imports these systems, we inherit these choices — unless we act
 
 **Clear expectations for Australian deployment**
 
-- Systems used in public services or critical infrastructure must comply with Australian law
-- This includes Privacy Act, anti-discrimination law, procedural fairness requirements
-- Compliance can't just be assumed — it must be demonstrated
+Systems used in public services or critical infrastructure must comply with Australian law, including the Privacy Act, anti-discrimination law, and procedural fairness requirements. Compliance cannot simply be assumed—it must be demonstrated.
 
 **Evaluation in Australian context**
 
-- Test systems with Australian data, edge cases and scenarios
-- Check for bias or poor performance on groups or contexts under-represented in training
-- Evaluate whether systems respect Australian legal and cultural norms
+Systems should be tested with Australian data, edge cases and scenarios, checking for bias or poor performance on groups or contexts under-represented in training, and evaluating whether systems respect Australian legal and cultural norms.
 
 **Local fine-tuning and adaptation**
 
-- Where possible, fine-tune imported models for Australian context
-- Use Australian data and feedback to improve alignment with local needs
-- Build capacity to adapt systems, not just accept them as-is
+Where possible, imported models should be fine-tuned for Australian context, using Australian data and feedback to improve alignment with local needs. Building capacity to adapt systems—rather than simply accepting them as-is—is essential for contextual alignment.
 
 **Democratic oversight**
 
-- Citizens and their representatives should have input on acceptable uses
-- Transparency about how systems are used in public services
-- Mechanisms for democratic challenge when systems don't align with community values
+Citizens and their representatives should have input on acceptable uses, with transparency about how systems are used in public services and mechanisms for democratic challenge when systems don't align with community values.
 
 **Examples of contextual misalignment:**
 
@@ -328,33 +315,16 @@ Alignment problems connect to multiple threat pathways:
 ## Alignment in defence-in-depth
 
 **Layer 3: Withstand (what we must be able to do)**
-- Detect when deployed systems are misaligned
-- Rapid response to alignment failures
-- Capability to switch off or replace systems if needed
+
+Detect when deployed systems are misaligned, enable rapid response to alignment failures, and maintain the capability to switch off or replace systems if needed.
 
 **Layer 2: Constrain (where we have sovereignty)**
-- Evaluate alignment before allowing deployment in critical domains
-- Ongoing monitoring of deployed systems
-- Enforce consequences when alignment failures cause harm
+
+Evaluate alignment before allowing deployment in critical domains, conduct ongoing monitoring of deployed systems, and enforce consequences when alignment failures cause harm.
 
 **Layer 1: Prevent (where we have limited influence)**
-- Contribute to international research on alignment methods
-- Support development of evaluation standards
-- Set expectations: systems deployed in Australia must meet alignment standards, incentivising better practices upstream
 
----
-
-## Key takeaways
-
-**Alignment is not just a technical problem.** Socio-technical and contextual alignment matter as much or more in practice.
-
-**Australia can't control upstream alignment** of imported systems, but we can evaluate, constrain and adapt them in deployment.
-
-**Alignment failures are already happening** in systems deployed today. This isn't just about future AGI.
-
-**Good alignment requires capability.** You can't verify alignment you can't evaluate. Building that capability is urgent.
-
-**Alignment alone is not enough.** Even well-aligned systems need containment, governance and resilience. But without alignment, other pillars are fighting uphill.
+Contribute to international research on alignment methods, support development of evaluation standards, and set expectations that systems deployed in Australia must meet alignment standards, incentivising better practices upstream.
 
 ---
 
@@ -377,12 +347,9 @@ These scenarios show alignment challenges and why alignment alone isn't sufficie
 - [Governance](governance.md) — requiring and incentivising alignment in practice
 - [Resilience](resilience.md) — detecting and responding when alignment fails
 
-**Apply alignment concepts:**
+**For researchers:**
 
-- [For Researchers](../for-researchers.md) — how this maps to technical AI safety literature
-- [Open-Source Alternatives](../business-industry/open-source-alternatives.md) — alignment considerations for local deployment
-
-**Actor-specific guidance:**
+- [For AI Safety Researchers](../resources/for-researchers.md) — how this maps to technical AI safety literature
 
 - [Government & Policy](../government-policy/) — regulatory approaches and evaluation capabilities
 - [Business & Industry](../business-industry/) — testing systems and maintaining oversight

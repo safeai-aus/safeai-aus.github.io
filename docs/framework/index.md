@@ -10,6 +10,9 @@ tags:
 
 # Containment · Alignment · Governance · Resilience Framework
 
+> **Purpose:** Practical framework for managing advanced AI risks using familiar risk management principles
+> **Audience:** Government, business, and community organisations | **Time:** 30-45 minutes
+
 ## What this page is for
 
 The **Containment · Alignment · Governance · Resilience (C·A·G·R)** framework helps Australian organisations manage advanced AI and AGI risks using familiar risk management principles.
@@ -22,6 +25,106 @@ After reading this page, you'll understand:
 - what each of the four pillars means in practice
 - how the layers of defence-in-depth work
 - where to go for detailed guidance on each pillar
+
+---
+
+## The Strategic Challenge Australia Faces
+
+**Australia is in a unique position:** we will deploy advanced AI systems we didn't build and cannot fully verify.
+
+We're a small, advanced economy that imports frontier AI from the US and China. Unlike jurisdictions with domestic AI labs, we can't inspect training processes, verify alignment claims, or understand model internals. Yet we experience full impact when these systems are deployed in our critical infrastructure, government services, and essential systems.
+
+This creates three interconnected strategic problems:
+
+### The Information Problem: We Can't Verify What We Import
+
+**The core challenge:** Australia must make high-stakes decisions about AI system safety based on claims we cannot independently verify.
+
+Frontier AI providers assure us their systems are safe and aligned. But we face fundamental information asymmetries:
+
+- **Opacity of training:** We don't observe training processes, data selection, or objective functions
+- **Black-box systems:** Even with model access, current techniques cannot reliably determine what systems are optimising for
+- **Evaluation gaps:** Systems may appear aligned in testing but pursue different goals in deployment ([deceptive alignment](../resources/concepts.md#alignment-ai-safety-concept))
+- **Proprietary methods:** Safety techniques are often trade secrets; we can't verify they were applied correctly
+- **Scale barriers:** Evaluation at the frontier requires compute and expertise that exceed most nations' capacity
+
+**This isn't a solvable problem through trust or contracts.** Even well-intentioned providers cannot guarantee their own systems are safe—the technical challenges of alignment verification remain unsolved. Australia must operate under irreducible uncertainty about systems we're being asked to deploy.
+
+!!! info "Australia's AI Safety Institute: Building evaluation capability"
+
+    The Australian Government announced a new [**AI Safety Institute**](../safety-standards/ai-australian-legislation.md#national-ai-plan-and-ai-safety-institute) (rolling out from early 2026) to monitor, test and advise on emerging AI capabilities, risks and harms. This institute is anticipated to help build domestic capability to independently evaluate advanced AI systems—addressing the information asymmetry challenge at the core of Australia's strategic position.
+
+### The Coordination Problem: Understanding the Landscape
+
+**Why international coordination matters—and why it's hard:**
+
+Many protective measures work best with international cooperation. Compute governance is more effective when chip restrictions are coordinated. Export controls have teeth when major jurisdictions align. Safety standards create a floor when adopted broadly.
+
+But coordination faces structural barriers:
+
+- **Competitive dynamics:** First-mover advantages create pressure to deploy before safety validation. If competitors don't wait, waiting alone means falling behind economically or strategically.
+- **Asymmetric interests:** Nations with frontier AI industries have different incentives than nations that primarily import and deploy.
+- **Sovereignty tensions:** No nation wants external control over technology critical to defence, economy, or national security.
+- **Verification challenges:** Even with agreements, how do you verify compliance for systems trained in secret facilities?
+- **Speed of development:** AI capabilities advance faster than international treaty processes. By the time frameworks are negotiated, the technology has moved on.
+
+Australia can influence coordination through Five Eyes partnerships, participation in multilateral forums, and setting deployment standards that others may adopt. But we cannot assume coordination will emerge in time.
+
+### Time as a Constraint: The Race We're In
+
+**The fundamental timing challenge:** AI capabilities are advancing faster than our ability to ensure they're safe.
+
+This isn't just about [AGI timelines](../agi-timelines.md)—it's about the gap between:
+
+- How quickly systems become more capable vs how quickly we learn to align them
+- How fast deployment pressures build vs how fast governance can adapt
+- How rapidly dependencies form vs how long building resilience takes
+
+Each passing year narrows the window for preventive action. Dependencies harden. Economic pressures to deploy intensify. Reversal becomes costlier.
+
+**This framework exists because these three problems demand urgent attention—and Australia cannot solve any of them alone.**
+
+---
+
+## The C·A·G·R Framework: Defence-in-Depth as Strategy
+
+Given the strategic challenges above, **our guiding policy is defence-in-depth**—and the **C·A·G·R framework operationalises this across four interconnected pillars:**
+
+**The gap we're filling:** Technical AI safety research uses specialised terminology that doesn't map to operational risk management. International frameworks assume direct oversight of frontier AI labs. Australian guidance focuses on current AI risks rather than advanced AI preparedness.
+
+**What makes C·A·G·R different:**
+
+- **Familiar foundations:** Maps directly onto prevention, safety by design, compliance, and resilience—risk management you already do
+- **Honest about Australia's position:** We don't control frontier AI development overseas, so we focus on what we can control: deployment standards, procurement, governance, and national resilience
+- **Defence-in-depth:** Assumes any single measure will fail, requiring multiple overlapping protections
+- **Addresses information asymmetry:** Focuses on what Australia can verify and control (deployment, procurement, resilience) rather than what we can't (training processes overseas)
+- **Action-oriented:** Each pillar connects to concrete guidance for government, business, and communities
+
+**Why now:** AI capabilities are advancing faster than safety research or governance. Australia has a narrow window to set deployment standards before dangerous dependencies lock in. Advanced AI risks cross organisational boundaries—we need a shared framework. Expert consensus supports this focus: [88.8% of AI safety professionals](https://www.goodancestors.org.au/our-work/ai-safety/aisi-expert-survey) surveyed by Good Ancestors believe Australia's AI Safety Institute should prioritise catastrophic risks or take a balanced approach.
+
+**How it was developed:** C·A·G·R synthesises international AI safety research ([Anthropic](https://www.anthropic.com/research), [Google DeepMind](https://www.deepmind.com/safety-and-ethics), [OpenAI](https://openai.com/safety), [UK AI Safety Institute](https://www.aisi.gov.uk/)), Australian risk management standards ([ISO 31000](https://www.iso.org/iso-31000-risk-management.html)), defence-in-depth principles from [nuclear safety](https://www.nrc.gov/reading-rm/basic-ref/glossary/defense-in-depth) and [cybersecurity](https://csrc.nist.gov/glossary/term/defense_in_depth), lessons from biosecurity, and expert consultation with researchers and practitioners.
+
+---
+
+## Current Limitations
+
+!!! warning "What we don't yet know"
+
+    **The C·A·G·R framework reflects current best practice, not complete solutions.** Key limitations include:
+
+    **Alignment verification:** We cannot yet reliably verify that advanced AI systems are truly aligned with stated goals. Systems may appear safe during evaluation but pursue different objectives in deployment ([deceptive alignment](../resources/concepts.md#alignment-ai-safety-concept)). Current evaluation methods don't scale to superhuman capabilities — the [UK AI Safety Institute](https://www.aisi.gov.uk/) and [Anthropic's Responsible Scaling Policy](https://www.anthropic.com/news/anthropics-responsible-scaling-policy) acknowledge these gaps.
+
+    **Capability thresholds:** This framework becomes critical when AI systems can autonomously pursue goals, adapt strategies, or operate across domains. The transition zone is unclear, but consider:
+
+    - **Low-risk (standard IT risk management):** Image classifiers, spell checkers, basic chatbots without internet access
+    - **Medium-risk (enhanced oversight needed):** AI agents with tool use, systems making consequential decisions, multi-step autonomous workflows
+    - **High-risk (C·A·G·R applies):** Systems that can develop novel strategies, autonomous cyber/bio capabilities, persuasive models deployed at scale, critical infrastructure automation
+
+    We cannot specify exact compute or capability thresholds — capabilities emerge unpredictably. Organisations should evaluate based on autonomy, scope of action, and consequences of failure.
+
+    **Coordination challenges:** Many protections require international cooperation we don't yet have. Containment measures work best with global [compute governance](../resources/concepts.md#compute-governance) and [model weight](../resources/concepts.md#model-weights) security — currently fragmented across jurisdictions.
+
+    We present C·A·G·R as a defence-in-depth approach precisely because no single measure is sufficient.
 
 ---
 
@@ -43,17 +146,22 @@ After reading this page, you'll understand:
 
 ---
 
-## Time as a Strategic Resource
+## How C·A·G·R Manages Time as a Strategic Resource
 
-Strategies for AGI are often evaluated on technical merit, but they should also be evaluated on how they manage **time**.
+Given the timing constraint identified above, C·A·G·R explicitly uses each pillar to buy, use, or shape time in Australia's favour:
 
-We are in a race between the pace of capability development and the pace of safety research/governance.
+*   **Containment buys time:** Deployment restrictions and safety evaluations slow adoption of dangerous systems, buying time for alignment research and governance to catch up.
+*   **Resilience uses time:** Manual fallbacks and continuity planning allow Australia to withstand failures, giving us time to recover and fix systems without total collapse.
+*   **Governance shapes time:** Standards and regulations accelerate safety adoption while braking reckless deployment.
+*   **Alignment addresses the root cause:** Better aligned systems reduce the pressure of the capability-safety gap.
 
-*   **Buying Time:** Containment measures (like compute thresholds) slow down dangerous deployments, buying time for alignment research to catch up.
-*   **Using Time:** Resilience measures (like manual fallbacks) allow society to withstand failures, giving us time to recover and fix systems without total collapse.
-*   **Shaping Time:** Governance accelerates safety adoption (through standards) while braking reckless acceleration.
+**Strategic principle:** Any policy that does not explicitly address the timing challenge—buying time, using time effectively, or shaping the pace of deployment—is likely insufficient for managing advanced AI risks.
 
-**Strategic principle:** Any policy that does not explicitly "buy," "use," or "shape" time in our favour is likely insufficient for handling exponential technologies.
+!!! info "Coordination constraints"
+
+    **These strategies work best with international coordination.** Australia acting alone can buy some time (through deployment restrictions) but cannot slow global capability development. If frontier AI labs compete in a race to deploy first, individual nations' containment measures have limited effect.
+
+    This is why C·A·G·R emphasises defence-in-depth rather than relying on any single layer—including time-buying strategies that require global coordination we don't yet have.
 
 ---
 
@@ -187,7 +295,9 @@ Effective strategy requires all four pillars, calibrated to Australia's actual p
 
 ## Defence in depth: three layers
 
-C·A·G·R implements a **defence-in-depth model** with three layers. Each layer assumes the ones above it may fail. All four pillars span across these layers.
+C·A·G·R implements a **[defence-in-depth](https://www.nrc.gov/reading-rm/basic-ref/glossary/defense-in-depth) model** with three layers. Each layer assumes the ones above it may fail. All four pillars span across these layers.
+
+Defence-in-depth is an established risk management strategy from nuclear safety and cybersecurity that uses multiple independent layers of protection. The principle: no single protective measure is exclusively relied upon, so that if one layer fails, subsequent layers provide backup protection. C·A·G·R applies this proven approach to advanced AI risks.
 
 ### Layer 1: Prevent dangerous AI training
 *Stopping dangerous systems from being created in the first place*
@@ -231,21 +341,6 @@ This is the domain of **Resilience**, supported by **Governance**:
 
 ---
 
-## How pillars and layers interact
-
-The four pillars span all three layers in different ways:
-
-|  | Layer 1: Prevent | Layer 2: Constrain | Layer 3: Withstand |
-|---|---|---|---|
-| **Containment** | Compute governance; export controls; oversight of training runs | AI control methods; monitoring; containment protocols | Rapid containment of escaped systems; shutdown procedures |
-| **Alignment** | Research on safe training methods; evaluation standards | Evaluate alignment before deployment; ongoing behavioural monitoring | Detect when deployed systems misalign; rapid response |
-| **Governance** | International coordination; compute governance treaties | Licensing, audits, use restrictions; mandatory reporting | Legal liability and enforcement after harms; learning from incidents |
-| **Resilience** | Reduce dangerous capability development through coordination | Limit exposure; maintain alternatives; reduce single points of failure | Continuity, recovery, community resilience; social cohesion |
-
-This table shows why we need all four pillars at all three layers. A strategy that focuses only on, say, Governance at Layer 2 (regulation of deployments) leaves you exposed everywhere else.
-
----
-
 ## Where this framework applies
 
 This framework is designed for **advanced AI systems** that are highly capable but where meaningful human oversight, containment and governance remain possible—the systems most likely over the next 5–15 years.
@@ -286,124 +381,45 @@ Australia's strategy should address both—building capability across all pillar
 
 ---
 
-## Who does what: roles across actors
-
-Different actors have different responsibilities:
-
-**Government & public institutions** ([detailed guidance](../government-policy/index.md))
-
-- Set regulatory frameworks and standards
-- Fund safety research and evaluation capability
-- Coordinate national resilience and emergency response
-- Lead international engagement
-
-**Business & industry** ([detailed guidance](../business-industry/index.md))
-
-- Choose and deploy systems with appropriate safety properties
-- Comply with regulations and sectoral rules
-- Maintain manual fallbacks and continuity plans
-- Participate in standards development
-
-**Communities & households** ([detailed guidance](../communities-households/index.md))
-
-- Provide democratic input on acceptable uses
-- Build local preparedness and mutual aid
-- Maintain trusted communication networks
-- Advocate for better protections
-
----
-
 ## Common misunderstandings
 
-**"Is alignment enough?"**
-No. Even perfectly aligned systems need containment (to prevent dangerous capabilities from being created), governance (to ensure appropriate use) and resilience (because perfect alignment is unlikely).
+**"Is alignment enough?"** No. Even perfectly aligned systems need containment (prevent dangerous capabilities), governance (ensure appropriate use), and resilience (handle failures).
 
-**"Can't we just regulate our way to safety?"**
-No. Governance without resilience leaves you brittle. Governance without containment and alignment means you're regulating systems whose dangerous capabilities already exist and which you don't fully understand.
+**"Can't we just regulate our way to safety?"** No. Governance without resilience is brittle. Governance without containment means regulating systems you don't control or understand.
 
-**"Isn't containment the same as governance?"**
-No. Containment includes both technical measures (AI control methods, monitoring systems) and preventive measures (compute governance, export controls). Governance is about laws, institutions and coordination. Both are needed.
+**"Isn't containment the same as governance?"** No. Containment includes technical measures ([AI control](../resources/concepts.md#ai-control-technical-concept), monitoring) and prevention ([compute governance](../resources/concepts.md#compute-governance), export controls). Governance is laws, institutions, coordination.
 
-**"Isn't this just AI ethics?"**
-No. C·A·G·R is about practical risk management across technical, regulatory and resilience domains. Ethics informs it but doesn't replace it.
+**"Is this only about AGI?"** No. C·A·G·R applies to advanced AI systems deployed today, not just hypothetical AGI.
 
-**"Is this only about AGI?"**
-No. C·A·G·R applies to advanced AI systems we already have, not just hypothetical future AGI.
-
-**"Do we need all four pillars equally?"**
-Not necessarily. Your priorities depend on your role and context. But you need to address all four — neglecting any pillar creates unacceptable vulnerabilities.
+**"Do we need all four pillars equally?"** Priorities depend on your role and context. But address all four — neglecting any pillar creates unacceptable vulnerabilities.
 
 ---
 
 ## How to use this framework
 
-### For risk assessment
-- Map your current AI dependencies against all four pillars
-- Use the defence-in-depth layers to identify where you're exposed
-- Check: are you neglecting any pillar? Over-relying on one?
+**For risk assessment:** Map current AI dependencies against all four pillars and three layers. Are you neglecting any pillar? Over-relying on one?
 
-### For strategy and planning
-- Ensure your strategy addresses containment, alignment, governance and resilience
-- Use the layer model to prioritise: start with Layer 3 (what you must be able to do), build Layer 2 (where you have control), contribute to Layer 1 (where you have influence)
+**For strategy:** Ensure your approach addresses all four pillars. Prioritise bottom-up: Layer 3 first (what you must be able to do), Layer 2 (where you have control), then Layer 1 (where you have influence).
 
-### For tabletop exercises
-- Combine this framework with scenarios from [AGI Scenarios for Australia](../agi-scenarios/index.md)
-- For each scenario, ask: what would containment, alignment, governance and resilience look like?
-- Test whether your current capabilities would actually work under stress
+**For exercises:** Combine with [AGI scenarios](../agi-scenarios/index.md). For each scenario, ask what containment, alignment, governance and resilience look like. Test whether current capabilities work under stress.
 
-### For policy development
-- Use C·A·G·R to structure policy proposals: which pillar(s) does this address?
-- Use defence-in-depth to check coverage: which layer(s) does this target?
-- Identify gaps and overlaps with other policies
-
----
-
-## Trade-offs and hard choices
-
-In practice, you'll face choices:
-
-- Invest in containment or resilience?
-- Focus on preventing dangerous training or hardening against failures?
-- Prioritise technical robustness or social cohesion?
-- Strengthen domestic governance or invest in international coordination?
-
-The C·A·G·R framework doesn't make these choices for you. But it ensures you're asking the right questions and understanding what you're trading off.
-
-Some tensions to expect:
-
-- Stronger containment and governance might slow innovation or drive activity offshore
-- Better resilience might enable complacency about containment and alignment
-- Focusing on Layer 1 (prevention) might distract from Layer 3 (resilience we control)
-- International coordination on containment might require compromises on sovereignty
-
-These tensions are real. Part of using C·A·G·R well is being explicit about trade-offs and making considered choices, not pretending tensions don't exist.
+**For policy:** Use C·A·G·R to structure proposals—which pillar(s) and layer(s) does this address? Identify gaps and overlaps.
 
 ---
 
 ## Next steps
 
-**Understand the pillars in depth:**
+**Explore each pillar:**
 
 - [Containment](containment.md) — preventing dangerous AI systems from being built or deployed
 - [Alignment](alignment.md) — making AI systems reliably safe and aligned with human values
 - [Governance](governance.md) — laws, institutions and international coordination
 - [Resilience](resilience.md) — withstanding and recovering from AI-related disruptions
 
-**Understand key concepts:**
-
-- [Concepts & Glossary](../concepts.md) — definitions of key terms like AGI, alignment, AI control, and defence in depth
-- [For Researchers](../for-researchers.md) — how this framework maps to technical AI safety literature, plus pathways for getting involved in AI safety research and practice
-
 **Apply to scenarios:**
 
-- [AGI Scenarios for Australia](../agi-scenarios/index.md) — use C·A·G·R to work through concrete scenarios
+- [AGI Scenarios for Australia](../agi-scenarios/index.md) — work through concrete scenarios using C·A·G·R
 
-**Sector-specific guidance:**
+**For researchers:**
 
-- [Government & Policy](../government-policy/)
-- [Business & Industry](../business-industry/)
-- [Communities & Households](../communities-households/)
-
-**Understand the risks:**
-
-- [Scenarios for Australia](../agi-scenarios/index.md) — scenarios showing how AGI risks could impact Australia
+- [For AI Safety Researchers](../resources/for-researchers.md) — how this maps to technical AI safety literature

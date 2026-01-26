@@ -4,6 +4,9 @@ icon: lucide/map
 
 # AGI Scenarios for Australia
 
+> **Purpose:** Explore six detailed scenarios showing how AGI and advanced AI risks could unfold in Australia
+> **Audience:** Government, business, and community leaders planning for advanced AI | **Time:** 20-30 minutes + scenario reading
+
 ## What this page is for
 
 This page provides **six detailed scenarios** showing how advanced AI and AGI risks could unfold in Australia over the next 5-15 years.
@@ -56,14 +59,12 @@ This page provides **six detailed scenarios** showing how advanced AI and AGI ri
 
 A common trap in AI strategy is getting stuck debating the definition of "AGI."
 
-**Strategic approach:** We do not need to agree on a precise definition to prepare for the risks. Instead, we focus on **capabilities**—what systems can actually *do*.
-
-As the [RAND Corporation](https://geopoliticsagi.substack.com/p/taking-agi-seriously-not-literally) notes, "the significance of AGI is that specific capabilities could come 'for free' with AGI—without needing to devote effort to developing a specialised AI."
+**We focus on capabilities—what systems can actually do—not definitions.** As the [RAND Corporation](https://geopoliticsagi.substack.com/p/taking-agi-seriously-not-literally) notes, "the significance of AGI is that specific capabilities could come 'for free' with AGI—without needing to devote effort to developing a specialised AI."
 
 This means preparing for a security environment where:
 
-*   **Capabilities arrive effectively "for free":** As general reasoning improves, systems gain specialised skills (like cyber-offense or persuasion) without anyone explicitly training them for that purpose.
-*   **Access lowers barriers:** Advanced capabilities that previously required nation-state resources become accessible to smaller actors.
+*   **Capabilities arrive effectively "for free":** As general reasoning improves, systems gain specialised skills (cyber-offense, persuasion, bioweapon design) without explicit training for those purposes
+*   **Access lowers barriers:** Advanced capabilities that previously required nation-state resources become accessible to smaller actors
 
 The scenarios below focus on these **capability shifts** and their impact on Australia, rather than predicting a specific "AGI moment."
 
@@ -139,28 +140,15 @@ The scenarios below focus on these **capability shifts** and their impact on Aus
 
 ## How scenarios connect: compounding effects
 
-Real crises rarely follow a single scenario cleanly. Multiple threat pathways often activate simultaneously, creating compounding effects:
+Real crises rarely follow a single scenario cleanly. Multiple threat pathways often activate simultaneously:
 
-**Power concentration + Information ecosystem strain**
+**Power concentration + Information ecosystem strain:** When few providers control both critical systems and information platforms, maintaining democratic accountability during crises becomes far harder.
 
-- Small number of providers control critical systems AND the platforms that mediate public information
-- During crisis, platforms make content moderation decisions that shape public response
-- Government has limited leverage because alternative infrastructure doesn't exist
-- Result: Much harder to maintain information integrity and democratic accountability
+**Gradual disempowerment + Critical infrastructure failure:** Institutions that lose manual operation skills through automation cannot revert quickly enough when systems fail, extending service disruptions.
 
-**Gradual disempowerment + Critical infrastructure failure**
+**Information ecosystem degradation + Any scenario:** Low trust in information makes coordinating response to any crisis much harder.
 
-- Institutions have lost manual operation skills over years of automation
-- Critical infrastructure systems fail or are attacked
-- Staff can't revert to manual operation quickly enough
-- Result: Extended service disruption, much slower recovery
-
-**Information ecosystem degradation + Any other scenario**
-
-- When trust in information is low, coordinating response to any other crisis becomes much harder
-- Misinformation and confusion compound every other problem
-
-**For planning:** When running exercises, deliberately combine 2-3 scenarios to explore how your responses hold up under compounding stress.
+**For planning:** When running exercises, deliberately combine 2-3 scenarios to test responses under compounding stress.
 
 ---
 
@@ -190,75 +178,19 @@ Effective strategy builds on our strengths while directly addressing our vulnera
 
 ## Why these scenarios matter regardless of timeline uncertainty
 
-### AGI timelines remain uncertain—preparation cannot wait
-
 A common objection: "If we don't know when AGI will arrive, why act now?"
 
-**The core argument:**
+**The case for preparedness doesn't depend on predicting exact timelines.** Leading AI researchers—including Nobel and Turing Prize winners—assess that transformative AI within 5-30 years is plausible enough to warrant serious preparation. Frontier AI labs are building toward AGI with timelines as soon as 2026-2030 (see our [AGI Timelines](../agi-timelines.md) page for detailed predictions). Several realities make this urgent:
 
-Leading AI researchers emphasise that **the case for preparedness doesn't depend on predicting exact timelines**. Whether advanced AI systems arrive in 5, 15, or 30 years, several things remain true:
+**Capability building takes time:** Institutional expertise, evaluation frameworks, governance structures, and response capabilities take years to develop. Waiting for certainty means being unprepared.
 
-1. **Capability building takes time:** The institutional expertise, evaluation frameworks, governance structures, and response capabilities needed to manage advanced AI risks take years to develop. Waiting for certainty means being unprepared.
+**Expert timelines have compressed dramatically:** Between 2020-2024, estimates shifted from "many decades away" to "potentially within the next few years to 20 years." This shift alone justifies policy attention, regardless of whether AGI arrives.
 
-2. **The plausibility threshold is already crossed:** Expert opinion across the AI field—including Nobel and Turing Prize winners like Geoffrey Hinton and Yoshua Bengio—assesses that transformative AI within 5-30 years is plausible enough to warrant serious preparation. As Berkeley professor Stuart Russell argues: if this outcome is plausible within roughly 30 years, "that's a huge fucking deal" requiring action now.
+**Preparation has immediate value:** Capabilities needed to manage AGI risks—evaluation expertise, AI control methods, incident response, international coordination—are valuable for managing today's advanced AI systems.
 
-3. **Expectations have already compressed significantly:** Between 2022-2024, expert estimates for advanced AI shifted from "many decades away" to "potentially within the next few years to 20 years"—a dramatic compression even without AGI actually arriving. This shift alone justifies policy attention.
+**Australia needs more lead time:** Geographic isolation, small domestic AI industry, and institutional capability gaps mean we need more preparation time than jurisdictions with established AI sectors.
 
-4. **Hype cycles don't eliminate risks:** The 2025 "AI hype correction"—triggered by slower-than-expected progress from models like GPT-5—has led some to dismiss safety concerns as overblown. But capability progress isn't linear, and safety frameworks must be resilient to both hype and backlash cycles.
-
-5. **Preparation is valuable across scenarios:** The capabilities needed to manage AGI risks—evaluation expertise, AI control methods, incident response systems, international coordination—are also valuable for managing risks from less capable systems deployed today.
-
-### What this means for scenario planning
-
-When working with these scenarios:
-
-- **Don't fixate on exact dates:** The scenarios include indicative timelines ("near-term," "medium-term," "longer-term") to help with prioritisation, but the specific pathways and vulnerabilities matter more than precise timing.
-
-- **Focus on plausibility, not probability:** You don't need high confidence that a scenario will happen to justify preparation—you need sufficient plausibility that the scenario *could* happen within policy-relevant timeframes.
-
-- **Build capabilities that scale:** The best preparedness investments are those that help with both near-term risks and longer-term scenarios.
-
-- **Plan for the time it takes:** Australia's geographic isolation, small domestic AI industry, and institutional capability gaps mean we need *more* lead time than jurisdictions with established AI sectors—another reason to start now.
-
-**Bottom line:** Uncertainty about AGI timelines is not a reason to delay preparation—it's a reason to start building robust, flexible capabilities now that will remain valuable across multiple scenarios and timelines.
-
----
-
-## Which scenario should you start with?
-
-=== ":material-bank: Government & Public Institutions"
-
-    Start with [Power Concentration](scenario-power-concentration.md) and [Critical Infrastructure](scenario-critical-infrastructure.md)
-
-=== ":material-briefcase: Business & Industry"
-
-    Start with [Gradual Disempowerment](scenario-gradual-disempowerment.md) and [Power Concentration](scenario-power-concentration.md)
-
-=== ":material-account-group: Communities & Households"
-
-    Start with [Information Ecosystems](scenario-information-ecosystems.md) and [Critical Infrastructure](scenario-critical-infrastructure.md)
-
-=== ":lucide-alert-triangle: Planning for high-impact events"
-
-    Start with [Catastrophic Misuse](scenario-catastrophic-misuse.md) and [Loss of Control](scenario-loss-of-control.md)
-
----
-
-## Next steps
-
-**Just starting?**
-Pick one scenario from the table above. Read it. Answer the questions for your actor type. That's enough to be useful.
-
-**Ready for deeper work?**
-Run a structured tabletop exercise with your team. The scenario pages include specific questions to guide discussion.
-
-**Looking for response options?**
-The [Containment · Alignment · Governance · Resilience](../framework/index.md) framework organises what government, business and communities can do.
-
-**Need sector-specific guidance?**
-- [Government & Policy](../government-policy/index.md)
-- [Business & Industry](../business-industry/index.md)
-- [Communities & Households](../communities-households/index.md)
+**Bottom line:** Uncertainty about AGI timelines is not a reason to delay preparation—it's a reason to start building robust, flexible capabilities now.
 
 ---
 
