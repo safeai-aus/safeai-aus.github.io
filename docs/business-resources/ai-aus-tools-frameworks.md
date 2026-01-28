@@ -44,7 +44,7 @@ A curated list of practical tools, frameworks, and resources to help Australian 
 ## 📋 Governance & Policy Tools
 
 - **Privacy Impact Assessments (PIAs)** – OAIC guidance on conducting PIAs. ([oaic.gov.au](https://www.oaic.gov.au/privacy/privacy-guidance-and-resources/privacy-impact-assessments))
-- **NSW Artificial Intelligence Assessment Framework** – NSW's method for assessing AI; assurance is now embedded in the Digital Assurance Framework. ([digital.nsw.gov.au](https://www.digital.nsw.gov.au/policy/artificial-intelligence/ai-assessment-framework))
+- **NSW Artificial Intelligence Assessment Framework** – Structured risk-based assessment framework for AI systems; updated to address generative AI. ([digital.nsw.gov.au](https://www.digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework))
 - **ASD Essential Eight** – baseline mitigation strategies. ([cyber.gov.au](https://www.cyber.gov.au/resources-business-and-government/essential-eight))
 - **Notifiable Data Breaches (NDB) Scheme** – reporting obligations. ([oaic.gov.au](https://www.oaic.gov.au/privacy/notifiable-data-breaches))
 - **Australian Privacy Principles (APPs)** – core privacy obligations. ([oaic.gov.au](https://www.oaic.gov.au/privacy/australian-privacy-principles))

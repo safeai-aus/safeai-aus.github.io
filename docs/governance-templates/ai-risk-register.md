@@ -119,6 +119,13 @@ The risk register process is not just a compliance exercise — it is a practica
 - 📋 [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md) — Evaluate third-party tools before adding to the register
 - 🔍 [AI Industry-Specific Risks](ai-risks-by-industry.md) — Explore context-specific risks by industry
 
+**External resources:**
+
+- 🇦🇺 [Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard) — Australian Government
+- 🇦🇺 [NSW AI Assessment Framework](https://www.digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework) — Structured risk-based assessment (NSW Government)
+- 📘 ISO/IEC 23894:2023 — AI Risk Management (available via Standards Australia)
+- 🇺🇸 [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — US National Institute of Standards and Technology
+
 ---
 
 ??? note "Disclaimer & Licence"
