@@ -239,6 +239,7 @@ This checklist is guided by:
 
 - **Australian AI Ethics Principles** (Department of Industry, Science & Resources)
 - **Australian Voluntary AI Safety Standard (2024)** – 10 Guardrails
+- **NSW AI Assessment Framework** – [Structured risk-based assessment framework](https://www.digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework) (NSW Government)
 - **Privacy Act 1988 (Cth)** – Australian Privacy Principles (APPs)
 - **ACSC Essential Eight** – Cybersecurity baseline
 - **ISO/IEC 42001:2023** – AI Management System standard
