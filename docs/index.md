@@ -163,7 +163,7 @@ Subscribe for practical tools to make AI safe — and work for your growth.
 - [About SafeAI-Aus](about.md)
 - [Contact](contact.md)
 - [Newsletter](newsletter.md)
-- [Glossary](glossary.md)
+- [Glossary](resources/glossary.md)
 
 </div>
 

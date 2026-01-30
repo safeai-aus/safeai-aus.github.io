@@ -1,4 +1,5 @@
 ---
+icon: lucide/book-text
 title: "AI Glossary (Australia)"
 description: "A practical glossary of key AI terms in the Australian context. Comprehensive definitions for AI safety, governance, and compliance in Australia."
 keywords: "AI glossary Australia, AI terms, AI definitions, AI safety glossary, AI governance terms, Australian AI terminology, AI compliance glossary"
@@ -16,7 +17,15 @@ twitter_description: "A practical glossary of key AI terms in the Australian con
 
 # AI Glossary (Australia)
 
-*A practical glossary of key AI terms in the Australian context. Provided by SafeAI Aus (safeaiaus.org) under CC BY 4.0 licence.*
+> **Purpose:** Quick reference for operational AI governance terminology in Australian context
+> **Audience:** All readers implementing AI systems, compliance teams, policymakers | **Time:** Reference material (5-10 minutes per lookup)
+
+*A practical glossary of key AI terms in the Australian context. Provided by SafeAI-Aus (safeaiaus.org) under CC BY 4.0 licence.*
+
+!!! info "Glossary scope"
+    This glossary covers **operational AI governance terms** for day-to-day AI adoption in Australian organisations.
+
+    **Planning for advanced AI or AGI?** For strategic concepts (AGI timelines, alignment, containment, defence in depth, frontier AI, transformative AI, risk pathways), see [Key Concepts & Glossary](resources/concepts.md).
 
 ---
 
@@ -153,7 +162,7 @@ The level and types of risk an organisation is willing to accept in AI adoption.
 Documented argument and evidence that an AI system is acceptably safe for its intended use. More common for higher-risk sectors.
 
 ## Sensitive Information (Australia)
-A subset of personal information (e.g., health, biometrics, racial or ethnic origin, religious beliefs, sexual orientation) that attracts higher protections under the Privacy Act.
+A specific category of personal information as defined in the **Privacy Act 1988 (Cth)**, including health information, biometrics, racial or ethnic origin, political opinions, religious beliefs, sexual orientation, and criminal records. Sensitive information is generally subject to higher collection and handling thresholds, such as explicit consent, with exceptions for legally required processing and certain permitted purposes. See [OAIC guidance on sensitive information](https://www.oaic.gov.au/privacy/your-privacy-rights/your-personal-information/sensitive-information) for detailed requirements.
 
 ## Shadow AI
 Use of unapproved AI tools by staff. Mitigate through clear policy, training, approved toolkits and monitoring.
@@ -169,18 +178,8 @@ Assessing third-party AI tools for security, privacy, reliability and compliance
 
 ---
 
-## 🔗 Related Resources
-- [Template Library](governance-templates/policy-template-library.md)
-- [AI Safety Standards (Australia & International)](safety-standards/voluntary-ai-safety-standard-10-guardrails.md)
-- [AI Project Register](governance-templates/ai-project-register.md)
-- [AI Use Policy Template](governance-templates/ai-use-policy.md)
-- [AI Risk Assessment Template](governance-templates/ai-risk-assessment-checklist.md)
-- [AI Incident Report Form](governance-templates/ai-incident-report-form.md)
-
----
-
 ## Attribution
-This glossary is published by **SafeAI Aus** under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may copy, adapt and reuse with attribution: *“Source: SafeAI Aus (safeaiaus.org)”*.
+This glossary is published by **SafeAI-Aus** under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may copy, adapt and reuse with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*.
 
 ---
 
@@ -192,7 +191,7 @@ This glossary is published by **SafeAI Aus** under [CC BY 4.0](https://creativec
   "name": "AI Glossary (Australia)",
   "inLanguage": "en-AU",
   "url": "https://safeaiaus.org/glossary",
-  "creator": { "@type": "Organization", "name": "SafeAI Aus", "url": "https://safeaiaus.org" },
+  "creator": { "@type": "Organization", "name": "SafeAI-Aus", "url": "https://safeaiaus.org" },
   "license": "https://creativecommons.org/licenses/by/4.0/"
 }
 </script>
