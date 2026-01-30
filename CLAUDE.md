@@ -12,10 +12,11 @@ SafeAI-Aus is a knowledge hub website providing practical resources, frameworks,
 
 ### Local Development
 
-**IMPORTANT:** Use the `.venv-py312` virtual environment (Python 3.12) for local development. The older `.venv` uses Python 3.9 which doesn't support the Zensical binary (requires Python 3.10+).
+**IMPORTANT:** Use the `.venv-py312` virtual environment (Python 3.12) for local development.
 
 ```bash
-# Activate the Python 3.12 virtual environment
+# Create/activate the Python 3.12 virtual environment
+python3.12 -m venv .venv-py312
 source .venv-py312/bin/activate   # Windows: .venv-py312\Scripts\activate
 
 # Install/upgrade dependencies (if needed)
@@ -30,13 +31,11 @@ zensical build
 # Output goes to site/ directory
 ```
 
-**Zensical Binary Location:** `/Users/ryank/Sites/safeai-aus.github.io/.venv-py312/bin/zensical`
-
-**Note:** Zensical is a Rust-based binary distributed as a Python wheel (version 0.0.17+). The `requirements.txt` installs the stub package, but the actual binary requires Python 3.10+ to install properly from the wheel.
+**Note:** Zensical is a Rust-based binary distributed as a Python wheel. The binary requires Python 3.10+ to install properly from the wheel.
 
 ### Content Management
 
-All content is in Markdown format within the `docs/` directory. The site has three main content areas:
+All content is in Markdown format within the `docs/` directory. The site has these main content areas:
 
 1. **AI Safety & Standards** (`docs/safety-standards/`)
    - Australian legislation and voluntary safety standards
@@ -50,6 +49,10 @@ All content is in Markdown format within the `docs/` directory. The site has thr
    - Grants and funding opportunities
    - Tools, frameworks, state/territory resources
    - Learning and development directory
+
+4. **Resources** (`docs/resources/`)
+   - Glossary
+   - Australian AI Community page
 
 ## Architecture and Key Files
 
@@ -248,19 +251,15 @@ nav = [
 - **Python Environment:**
   - **CRITICAL:** ALWAYS use `.venv-py312` (Python 3.12), NOT `.venv` (Python 3.9)
   - Zensical binary requires Python 3.10+ to install from wheel
-  - The `.venv` directory exists but is outdated and doesn't have the Zensical binary
-  - Zensical binary location: `/Users/ryank/Sites/safeai-aus.github.io/.venv-py312/bin/zensical`
-  - If `zensical: command not found` error occurs, you're using the wrong venv
+  - If `zensical: command not found` error occurs, you're using the wrong venv or need to run `pip install -r requirements.txt`
 
 - **Zensical Setup:**
   - Zensical is a Rust-based binary distributed as a Python wheel (cp310-abi3)
-  - Version in use: 0.0.17 (installed from GitHub releases)
-  - The PyPI package (`pip install zensical`) only installs a stub (v0.0.2)
-  - To get the working binary, you need Python 3.10+ and the wheel auto-downloads platform-specific binary
+  - The PyPI package (`pip install zensical`) installs the binary automatically on Python 3.10+
   - Site was migrated from MkDocs Material to Zensical - some MkDocs features may not work
 
 - **Development Workflow:**
-  - Local server runs on `http://localhost:8000` (not 127.0.0.1:8000)
+  - Local server runs on `http://localhost:8000`
   - Site auto-rebuilds on file changes when using `zensical serve`
   - Build output goes to `site/` directory (gitignored)
   - GitHub Actions uses Python 3.10 for CI/CD builds

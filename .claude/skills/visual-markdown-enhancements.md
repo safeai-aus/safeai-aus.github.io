@@ -11,7 +11,7 @@ Apply consistent visual enhancements to SafeAI-Aus markdown pages using Zensical
 
 ## Enhancement Patterns
 
-Refer to `/Users/ryank/Sites/safeai-aus.github.io/VISUAL-ENHANCEMENTS.md` for complete pattern library.
+Refer to `VISUAL-ENHANCEMENTS.md` in the repository root for complete pattern library.
 
 ### 1. Page Headers
 
@@ -247,7 +247,7 @@ chmod +x /tmp/check_formatting.sh
 ### Step 4: Build and Test
 ```bash
 # Build with Zensical
-/Users/ryank/Sites/safefutures-aus.github.io/.venv/bin/zensical build
+zensical build
 
 # Verify no errors
 # Check build time (should be ~0.04-0.06s)
