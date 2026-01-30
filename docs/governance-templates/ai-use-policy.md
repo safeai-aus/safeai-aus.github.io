@@ -1,4 +1,5 @@
 ---
+icon: lucide/shield
 title: "AI Use Policy Template"
 description: "Comprehensive AI Use Policy template for Australian businesses. Includes governance, risk management, privacy protection, and compliance with Australian AI safety standards."
 keywords: "AI use policy template, AI governance template, Australian AI policy, AI safety policy, AI compliance template, AI risk management policy, AI governance Australia"

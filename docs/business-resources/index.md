@@ -1,4 +1,5 @@
 ---
+icon: lucide/briefcase
 title: "Practical Business Resources"
 description: "Implementation guides, funding opportunities, tools, and training resources for Australian businesses adopting AI safely and effectively."
 keywords: "AI implementation, AI business resources, AI funding Australia, AI training, AI tools, AI adoption guide"

@@ -62,7 +62,7 @@ nav = [
       { "AI Incident Report Form" = "governance-templates/ai-incident-report-form.md" },
     ]},
   ]},
-  { "Practical Business Resources" = [
+  { "Business Resources" = [
     { "Overview" = "business-resources/index.md" },
     { "Safe AI Adoption - Getting Started" = "business-resources/safe-ai-adoption-getting-started.md" },
     { "AI Grants & Funding" = "business-resources/ai-grants-funding-australia.md" },
@@ -70,11 +70,6 @@ nav = [
     { "State & Territory AI Resources" = "business-resources/state-territory-ai-resources.md" },
     { "AI Learning & Development Directory" = "business-resources/ai-learning-development-directory.md" },
     { "Australian AI Community" = "resources/australian-ai-community.md" },
-  ]},
-  { "About" = [
-    { "About" = "about.md" },
-    { "Contact" = "contact.md" },
-    { "Newsletter" = "newsletter.md" },
   ]},
 ]
 
