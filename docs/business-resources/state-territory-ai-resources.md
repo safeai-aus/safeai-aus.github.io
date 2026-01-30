@@ -1,4 +1,5 @@
 ---
+icon: lucide/map-pin
 title: "State & Territory AI Resources (Government & Statutory Bodies)"
 description: "Comprehensive guide to AI resources published by Australian states and territories. Find official government AI strategies, policies, assurance frameworks, and statutory body guidance for public sector AI use."
 keywords: "Australian state AI resources, territory AI policies, government AI strategies, NSW AI policy, Victoria AI guidance, Queensland AI framework, SA AI resources, WA AI policy, Tasmania AI guidance, ACT AI policy, NT AI framework, Australian government AI"

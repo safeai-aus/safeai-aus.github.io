@@ -1,4 +1,5 @@
 ---
+icon: lucide/file-warning
 title: "AI Incident Report Form Template"
 description: "Standardised AI incident report form template for Australian businesses. Helps document, track, and respond to AI-related incidents while maintaining compliance with safety standards."
 keywords: "AI incident report form, AI incident template, AI safety incident, AI risk reporting, AI incident documentation, Australian AI safety, AI incident management"
