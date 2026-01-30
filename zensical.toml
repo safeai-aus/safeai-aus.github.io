@@ -40,6 +40,7 @@ nav = [
     { "International Context" = [
       { "International AI Legal Overview" = "safety-standards/international-ai-legal-overview.md" },
     ]},
+    { "Glossary" = "resources/glossary.md" },
   ]},
   { "Governance Templates" = [
     { "Overview" = "governance-templates/policy-template-library.md" },
@@ -61,19 +62,14 @@ nav = [
       { "AI Incident Report Form" = "governance-templates/ai-incident-report-form.md" },
     ]},
   ]},
-  { "Practical Business Resources" = [
+  { "Business Resources" = [
     { "Overview" = "business-resources/index.md" },
     { "Safe AI Adoption - Getting Started" = "business-resources/safe-ai-adoption-getting-started.md" },
     { "AI Grants & Funding" = "business-resources/ai-grants-funding-australia.md" },
     { "Tools & Frameworks" = "business-resources/ai-aus-tools-frameworks.md" },
     { "State & Territory AI Resources" = "business-resources/state-territory-ai-resources.md" },
     { "AI Learning & Development Directory" = "business-resources/ai-learning-development-directory.md" },
-  ]},
-  { "About" = [
-    { "About" = "about.md" },
-    { "Contact" = "contact.md" },
-    { "Newsletter" = "newsletter.md" },
-    { "Glossary" = "glossary.md" },
+    { "Australian AI Community" = "resources/australian-ai-community.md" },
   ]},
 ]
 

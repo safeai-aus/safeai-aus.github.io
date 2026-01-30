@@ -1,4 +1,5 @@
 ---
+icon: lucide/user-check
 title: "AI Vendor Evaluation Checklist"
 description: "Comprehensive AI vendor evaluation checklist for Australian businesses. Assess third-party AI suppliers for safety, compliance, security, and alignment with Australian AI standards."
 keywords: "AI vendor evaluation, AI supplier checklist, AI vendor assessment, AI procurement checklist, AI vendor compliance, Australian AI standards, AI vendor safety, build vs buy"

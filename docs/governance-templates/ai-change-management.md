@@ -1,4 +1,5 @@
 ---
+icon: lucide/git-branch
 title: "AI Change Management"
 description: "Practical guidance to get buy-in, address concerns, and support staff through AI adoption before, during, and after pilots."
 keywords: "AI change management, AI adoption, organisational change, AI pilot support, AI stakeholder engagement, Australian SMEs"
