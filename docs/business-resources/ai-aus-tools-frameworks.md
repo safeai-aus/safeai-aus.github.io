@@ -1,29 +1,29 @@
 ---
 icon: lucide/wrench
 title: "AI Tools & Frameworks for Australian Businesses"
-description: "Curated collection of AI tools, frameworks, and resources for Australian businesses implementing AI safely and responsibly. Includes risk management, governance, and technical testing tools."
+description: "Curated collection of AI tools, frameworks and resources for Australian businesses implementing AI safely and responsibly. Includes risk management, governance and technical testing tools."
 keywords: "AI tools Australia, AI frameworks Australia, AI risk management tools, AI governance tools, AI testing tools, Australian AI resources, AI safety tools, AI compliance tools"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Tools & Frameworks for Australian Businesses"
-og_description: "Curated collection of AI tools, frameworks, and resources for Australian businesses"
+og_description: "Curated collection of AI tools, frameworks and resources for Australian businesses"
 og_type: "article"
 og_url: "https://safeaiaus.org/business-resources/ai-aus-tools-frameworks/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Tools & Frameworks for Australian Businesses"
-twitter_description: "Curated collection of AI tools, frameworks, and resources for Australian businesses"
+twitter_description: "Curated collection of AI tools, frameworks and resources for Australian businesses"
 ---
 
 # Tools & Frameworks
 
-> **Purpose:** Curated directory of practical AI tools, frameworks, and resources for safe and responsible implementation
-> **Audience:** Technical teams, governance professionals, and implementation leads | **Time:** 20-30 minutes
+> **Purpose:** Curated directory of practical AI tools, frameworks and resources for safe and responsible implementation
+> **Audience:** Technical teams, governance professionals and implementation leads | **Time:** 20-30 minutes
 
-A curated list of practical tools, frameworks, and resources to help Australian businesses implement AI safely and responsibly.
+A curated list of practical tools, frameworks and resources to help Australian businesses implement AI safely and responsibly.
 
 !!! info "About This Directory"
-    **Scope:** Non-commercial resources only (government, standards bodies, nonprofits, and open-source).
+    **Scope:** Non-commercial resources only (government, standards bodies, nonprofits and open-source).
 
     **How to use:** Start with frameworks, set governance, then implement technical controls and monitoring.
 
@@ -56,7 +56,7 @@ A curated list of practical tools, frameworks, and resources to help Australian 
 - **Datasheets for Datasets** – dataset transparency and quality control. ([arXiv](https://arxiv.org/abs/1803.09010))
 - **Aequitas** – open-source bias/fairness audit toolkit. ([github.com](https://github.com/dssg/aequitas))
 - **Fairlearn** – open-source fairness assessment and mitigation. ([fairlearn.org](https://fairlearn.org/))
-- **NIST AI RMF Playbook (TEVV)** – testing, evaluation, verification, and validation resources. ([airc.nist.gov](https://airc.nist.gov/Playbook))
+- **NIST AI RMF Playbook (TEVV)** – testing, evaluation, verification and validation resources. ([airc.nist.gov](https://airc.nist.gov/Playbook))
 
 ## 🔒 Privacy & Security
 
@@ -120,6 +120,6 @@ A curated list of practical tools, frameworks, and resources to help Australian 
 ---
 
 ??? note "Disclaimer & Licence"
-    **Disclaimer:** This directory provides links to external tools, frameworks, and resources for Australian organisations implementing AI. SafeAI-Aus has exercised care in curation but does not guarantee accuracy, currency, availability, or fitness for purpose of external resources. Always verify tool capabilities, licensing terms, and security implications before deployment.
+    **Disclaimer:** This directory provides links to external tools, frameworks and resources for Australian organisations implementing AI. SafeAI-Aus has exercised care in curation but does not guarantee accuracy, currency, availability, or fitness for purpose of external resources. Always verify tool capabilities, licensing terms and security implications before deployment.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

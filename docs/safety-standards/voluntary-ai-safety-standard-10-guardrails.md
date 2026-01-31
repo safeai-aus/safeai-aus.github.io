@@ -18,7 +18,7 @@ twitter_description: "Comprehensive guide to Australia's Voluntary AI Safety Sta
 # Voluntary AI Safety Standard (10 Guardrails)
 
 > **Purpose:** Detailed control catalogue for implementing Australia's 10 AI safety guardrails
-> **Audience:** Governance, risk, compliance, and technical teams | **Time:** 45-60 minutes for full review
+> **Audience:** Governance, risk, compliance and technical teams | **Time:** 45-60 minutes for full review
 
 Australia's **Voluntary AI Safety Standard (VAISS)** provides ten practical guardrails organisations can adopt now to deploy and use AI safely and responsibly.  
 
@@ -38,9 +38,9 @@ Importantly, the 10 guardrails are consistent with leading international standar
 
 ## Why this matters
 
-Adopting the guardrails early helps organisations build **trust, resilience, and regulatory readiness**. By embedding these practices now, businesses can:
+Adopting the guardrails early helps organisations build **trust, resilience and regulatory readiness**. By embedding these practices now, businesses can:
 
-- 🛡️ Reduce risks from bias, errors, and misuse of AI
+- 🛡️ Reduce risks from bias, errors and misuse of AI
 - 🤝 Strengthen transparency and customer confidence
 - 🚀 Position themselves ahead of future mandatory compliance requirements
 - ⭐ Demonstrate leadership in responsible AI adoption  
@@ -48,7 +48,7 @@ Adopting the guardrails early helps organisations build **trust, resilience, and
 ## The 10 Guardrails
 1. Establish, implement and publish an accountability process
 2. Establish and implement a risk management process
-3. Protect AI systems, and implement data governance measures
+3. Protect AI systems and implement data governance measures
 4. Test AI models and systems
 5. Enable human control or intervention
 6. Inform end-users regarding AI-enabled decisions
@@ -59,7 +59,7 @@ Adopting the guardrails early helps organisations build **trust, resilience, and
 
 !!! success "What the guardrails do"
     - ✅ Encourage **transparency and accountability** for AI systems
-    - ✅ Require **risk assessment, testing, and human oversight** before and after deployment
+    - ✅ Require **risk assessment, testing and human oversight** before and after deployment
     - ✅ Promote **record-keeping** and **supplier due-diligence** across the AI supply chain
     - ✅ Emphasise **stakeholder engagement** and ongoing monitoring as systems evolve
 
@@ -87,7 +87,7 @@ The Guidance for AI Adoption condenses the 10 VAISS guardrails into 6 essential 
 !!! tip "How to use this in your business"
     1. ✅ Adopt the 10 guardrails as acceptance criteria for any AI initiative
     2. 📝 Update policies and procurement to reflect supplier alignment with the guardrails
-    3. 🔄 Integrate testing, documentation, and oversight into your normal change-management
+    3. 🔄 Integrate testing, documentation and oversight into your normal change-management
     4. 📅 Review systems at least annually or on material change
 
 ---
@@ -108,7 +108,7 @@ While the 10 guardrails apply to all organisations, SMEs can adopt them at diffe
 - *Better:* Quarterly risk reviews  
 - *Best:* Integrated risk management system  
 
-**Guardrail 3: Protect AI systems, and implement data governance measures** 
+**Guardrail 3: Protect AI systems and implement data governance measures** 
 
 - *Minimum:* Follow existing cybersecurity practices  
 - *Better:* AI-specific data controls  
@@ -212,7 +212,7 @@ Risk was to be assessed based on context, severity and scale, rather than a stat
 
 ### Illustrative examples from public commentary
 
-The following examples are not part of any official legal definition. They are drawn from media, legal analyses, and the 2024 Senate inquiry into AI, which suggested that some systems and general-purpose models might warrant stronger oversight:
+The following examples are not part of any official legal definition. They are drawn from media, legal analyses and the 2024 Senate inquiry into AI, which suggested that some systems and general-purpose models might warrant stronger oversight:
 
 - healthcare diagnosis or treatment
 - employment decisions (hiring, firing, promotion)

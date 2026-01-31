@@ -1,31 +1,31 @@
 ---
 icon: lucide/book-open
 title: "AI & Emerging Tech Learning Directory for SMEs"
-description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability and stay competitive."
+description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses and open-source training to build AI capability and stay competitive."
 keywords: "AI learning, SME training, AI resources Australia, safe AI adoption, government AI courses, open source AI learning"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI & Emerging Tech Learning Directory for SMEs"
-og_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
+og_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses and open-source training to build AI capability."
 og_type: "article"
 og_url: "https://safeaiaus.org/business-resources/ai-learning-development-directory/"
 og_image: "https://safeaiaus.org/assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI & Emerging Tech Learning Directory for SMEs"
-twitter_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses, and open-source training to build AI capability."
+twitter_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses and open-source training to build AI capability."
 ---
 
 # AI & Emerging Tech Learning Directory for SMEs
 
 > **Purpose:** Curated directory of free and low-cost AI learning resources for Australian businesses
-> **Audience:** SME owners, HR/L&D teams, AI champions, and technical staff | **Time:** 30-45 minutes
+> **Audience:** SME owners, HR/L&D teams, AI champions and technical staff | **Time:** 30-45 minutes
 
 !!! info "About This Directory"
-    Australian businesses often face barriers to adopting AI and other emerging technologies due to limited skills, budget, and time.
+    Australian businesses often face barriers to adopting AI and other emerging technologies due to limited skills, budget and time.
 
     This directory brings together the most relevant government-backed and open-source / Creative Commons licensed resources that businesses can freely embed into their learning and development programs.
 
-    Each resource includes details on **format, eligibility, cost, and difficulty level**, along with guidance for how business can integrate them.
+    Each resource includes details on **format, eligibility, cost and difficulty level**, along with guidance for how business can integrate them.
 
 ---
 
@@ -63,7 +63,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 *Advanced Robotics Manufacturing Hub & partners*
 
-- **Description:** Sector-focused advisory addressing AI-driven workflow optimisation, robotics integration, and governance for manufacturing, energy, or agri SMEs.
+- **Description:** Sector-focused advisory addressing AI-driven workflow optimisation, robotics integration and governance for manufacturing, energy, or agri SMEs.
 - **Format:** One-on-one advisory and hub-based support.
 - **Eligibility:** Manufacturing, energy, agriculture SMEs.
 - **Cost:** **Subsidised** (often free).
@@ -76,7 +76,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 *SA Government + TAFE NSW, Microsoft, UTS, Macquarie University*
 
-- **Description:** Stackable microcredentials in AI, cybersecurity, data, software, and cloud—designed with industry partners for practical skill-building.
+- **Description:** Stackable microcredentials in AI, cybersecurity, data, software and cloud—designed with industry partners for practical skill-building.
 - **Format:** Blended and online.
 - **Eligibility:** SME staff in SA; some availability nationally subject to scholarship.
 - **Cost:** **Fee-free** if funded; otherwise ~$300–$600 per unit.
@@ -87,7 +87,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 #### 5. 🌟 [TAFE NSW + National AI Centre "Introduction to AI" Microskill](https://www.nsw.gov.au/media-releases/one-million-introduction-to-ai-scholarships-available-to-australians)
 
-- **Description:** A concise, non-technical introduction to AI, covering basics, benefits, limitations, and ethical considerations.
+- **Description:** A concise, non-technical introduction to AI, covering basics, benefits, limitations and ethical considerations.
 - **Format:** 2–3 hour online module.
 - **Eligibility:** All Australians.
 - **Cost:** **Free**.
@@ -98,7 +98,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 #### 6. 🏛️ [APS Academy – "AI in Government Fundamentals"](https://www.apsacademy.gov.au/course-sessions/ai-government-fundamentals)
 
-- **Description:** Covers ethical, governance, and risk aspects of AI deployment in brief, accessible form.
+- **Description:** Covers ethical, governance and risk aspects of AI deployment in brief, accessible form.
 - **Format:** 20–30 minute self-paced module.
 - **Eligibility:** Public servants (open access to all).
 - **Cost:** **Free**.
@@ -115,7 +115,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 - **Description:** $28 million AI initiative (2025-2029) with $7 million annually for proof-of-value trials
 - **Format:** Government-funded programs and trials
-- **Eligibility:** Healthcare, policing, allied health, social work, and legal/financial services
+- **Eligibility:** Healthcare, policing, allied health, social work and legal/financial services
 - **Cost:** **Free** (government-funded)
 - **Difficulty:** Intermediate–Advanced
 - **Integration:** Ideal for public sector AI adoption and job protection initiatives
@@ -130,7 +130,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 *MIT*
 
-- **Description:** Search results listing MIT OCW courses tagged with artificial intelligence and machine learning, including lectures, notes, and problem sets, with filters for course level and department.
+- **Description:** Search results listing MIT OCW courses tagged with artificial intelligence and machine learning, including lectures, notes and problem sets, with filters for course level and department.
 - **Format:** Full university course materials.
 - **License:** CC BY-NC-SA.
 - **Cost:** **Free**.
@@ -141,8 +141,8 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 #### 9. 💡 [AI Pedagogy Project](https://aipedagogy.org/using-our-content/)
 
-- **Description:** Curated assignments and tutorials promoting critical thinking about AI's ethics, limitations, and societal impact.
-- **Format:** Adaptable classroom exercises, prompts, and tutorials.
+- **Description:** Curated assignments and tutorials promoting critical thinking about AI's ethics, limitations and societal impact.
+- **Format:** Adaptable classroom exercises, prompts and tutorials.
 - **License:** CC BY-NC-SA 4.0.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner–Intermediate
@@ -152,8 +152,8 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 #### 10. 🎨 [MIT "How to AI (Almost) Anything"](https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/)
 
-- **Description:** Explores multimodal AI applications across vision, sound, sensors, and creativity—building intuition for AI's broader capabilities.
-- **Format:** Lectures, readings, and research projects.
+- **Description:** Explores multimodal AI applications across vision, sound, sensors and creativity—building intuition for AI's broader capabilities.
+- **Format:** Lectures, readings and research projects.
 - **License:** CC BY.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner–Intermediate
@@ -163,7 +163,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 #### 11. 🔬 [Dive into Deep Learning](https://d2l.ai/)
 
-- **Description:** Hands-on, open-source textbook with runnable code, blending theory, math, and implementation in Jupyter notebooks.
+- **Description:** Hands-on, open-source textbook with runnable code, blending theory, math and implementation in Jupyter notebooks.
 - **Format:** Interactive book using PyTorch, TensorFlow, JAX, with live examples.
 - **License:** Open source (Apache 2.0).
 - **Cost:** **Free**.
@@ -212,6 +212,6 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 ---
 
 ??? note "Disclaimer & Licence"
-    **Disclaimer:** This directory provides links to external learning resources for Australian organisations. SafeAI-Aus has exercised care in curation but does not guarantee accuracy, currency, availability, or eligibility for any program. Organisations should confirm program details, eligibility requirements, funding conditions, and licensing terms directly with each provider before committing resources.
+    **Disclaimer:** This directory provides links to external learning resources for Australian organisations. SafeAI-Aus has exercised care in curation but does not guarantee accuracy, currency, availability, or eligibility for any program. Organisations should confirm program details, eligibility requirements, funding conditions and licensing terms directly with each provider before committing resources.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

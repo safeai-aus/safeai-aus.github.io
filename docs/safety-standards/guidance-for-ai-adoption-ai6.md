@@ -18,7 +18,7 @@ twitter_description: "How Australian organisations can implement the National AI
 # Guidance for AI Adoption (AI6) – 6 Essential Practices
 
 > **Purpose:** Primary framework for implementing responsible AI governance in Australia
-> **Audience:** Executive, governance, risk, and compliance teams | **Time:** 30-45 minutes
+> **Audience:** Executive, governance, risk and compliance teams | **Time:** 30-45 minutes
 
 !!! info "Status"
     Federal government guidance in effect from 21 October 2025. Non-binding, but now the primary reference for responsible AI adoption in Australia.
@@ -93,7 +93,7 @@ Be open about how you use AI and what it means for people.
 - Tell people when they are interacting with, or significantly affected by, an AI system
 - Provide **plain-language explanations** of what the system does and its limitations
 - Maintain an **AI system register** covering purpose, data sources, key risks, controls and owners
-- Be transparent with **suppliers and partners** about expectations, and seek equivalent transparency in return
+- Be transparent with **suppliers and partners** about expectations and seek equivalent transparency in return
 
 !!! tip "For SMEs"
     A simple AI register and standard wording in privacy notices, contracts and internal policies will go a long way.
@@ -124,7 +124,7 @@ People remain responsible for decisions and outcomes.
 - Make it easy for customers and staff to **challenge or appeal** outcomes influenced by AI
 
 !!! tip "For SMEs"
-    Be explicit about which decisions AI can never make on its own, and build that into processes and systems.
+    Be explicit about which decisions AI can never make on its own and build that into processes and systems.
 
 ---
 
@@ -151,7 +151,7 @@ If your organisation has already aligned to the 10 guardrails, you **do not need
 
 ## Where AI6 sits in the broader Australian landscape
 
-AI6 is designed to align with:
+AI6 aligns with:
 
 - The Australian Government's **AI Ethics Principles**
 - Existing **technology-neutral laws and regulators** (privacy, consumer law, workplace, safety, anti-discrimination, financial services, etc.)
@@ -167,4 +167,4 @@ The **National AI Plan** released in December 2025 confirms that Australia will,
     1. 📊 **Adopt AI6 as your top-level framework** for AI governance and risk management
     2. 📋 **Use the SafeAI-Aus toolkit** (AI use policy, AI risk register, vendor checklist and project intake templates) to **operationalise the 6 practices**
     3. 🔗 **Refer to the 10 guardrails** when you need more granular control statements or when external documents still reference VAISS
-    4. 🔄 **Review annually** against future updates from NAIC, sector regulators, privacy and consumer regulators, and the AI Safety Institute
+    4. 🔄 **Review annually** against future updates from NAIC, sector regulators, privacy and consumer regulators and the AI Safety Institute

@@ -1,7 +1,7 @@
 ---
 icon: lucide/scale
 title: "AI Standards & Legislation"
-description: "Australian and international AI standards, legislation, and regulatory frameworks for safe and compliant AI adoption."
+description: "Australian and international AI standards, legislation and regulatory frameworks for safe and compliant AI adoption."
 keywords: "AI standards Australia, AI legislation, Voluntary AI Safety Standard, AI regulation, AI compliance, Australian AI law"
 author: "SafeAI-Aus"
 robots: "index, follow"
@@ -9,10 +9,10 @@ robots: "index, follow"
 
 # AI Standards & Legislation
 
-> **Purpose:** Navigate AI regulations, standards, and compliance requirements for Australian organisations
-> **Audience:** Legal, compliance, risk, and governance teams | **Time:** 30-45 minutes to review section
+> **Purpose:** Navigate AI regulations, standards and compliance requirements for Australian organisations
+> **Audience:** Legal, compliance, risk and governance teams | **Time:** 30-45 minutes to review section
 
-Stay informed about the regulatory landscape for AI in Australia and internationally. This section provides practical guidance on compliance requirements, voluntary standards, and emerging legislation affecting AI adoption.
+Stay informed about the regulatory landscape for AI in Australia and internationally. This section provides practical guidance on compliance requirements, voluntary standards and emerging legislation affecting AI adoption.
 
 !!! info "Why Standards & Legislation Matter"
     As AI becomes more widely deployed across Australian organisations, understanding the regulatory and standards landscape is essential for:
@@ -32,7 +32,7 @@ Stay informed about the regulatory landscape for AI in Australia and internation
 Australia's approach to AI regulation combines existing legislation with new voluntary frameworks:
 
 - **[Relevant Australian Legislation](ai-australian-legislation.md)**
-  Overview of Privacy Act, consumer law, discrimination law, and other existing regulations that apply to AI systems in Australia.
+  Overview of Privacy Act, consumer law, discrimination law and other existing regulations that apply to AI systems in Australia.
 
 - **[Voluntary AI Safety Standard (VAISS) - 10 Guardrails](voluntary-ai-safety-standard-10-guardrails.md)**
   Australia's voluntary framework for safe AI development and deployment, with practical guidance on implementing each of the 10 guardrails.
@@ -43,7 +43,7 @@ Australia's approach to AI regulation combines existing legislation with new vol
 ### International Context
 
 - **[International AI Legal Overview](international-ai-legal-overview.md)**
-  How major jurisdictions (EU, US, UK, Singapore) are regulating AI, and what this means for Australian organisations with international operations.
+  How major jurisdictions (EU, US, UK, Singapore) are regulating AI and what this means for Australian organisations with international operations.
 
 ---
 
@@ -89,4 +89,4 @@ AI regulation is evolving rapidly. Key developments to watch:
 - ⚖️ Potential mandatory regulation for high-risk AI systems
 - 🌐 International regulatory harmonisation efforts
 
-Check the [Australian Government's AI page](https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence) for official updates.
+The [Australian Government's AI page](https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence) has official updates.

@@ -18,7 +18,7 @@ twitter_description: "Comprehensive overview of international AI regulations and
 # International AI Legal Landscape (2025) — What Australian Businesses Should Know
 
 > **Purpose:** Navigate international AI regulations affecting Australian organisations operating globally
-> **Audience:** Legal, compliance, international business, and governance teams | **Time:** 60-90 minutes
+> **Audience:** Legal, compliance, international business and governance teams | **Time:** 60-90 minutes
 
 *Last updated: 20 October 2025 (AUS/Adelaide). This page is informational and not legal advice.*
 
@@ -49,7 +49,7 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 
 !!! success "Why This Matters for Australian Businesses"
     - 🌏 **Export exposure:** Selling AI products/services into the EU, UK or Korea may trigger local **provider/deployer** duties even if you're based in Australia
-    - 📋 **Procurement pressure:** Multinationals will increasingly require **AI risk assessments, bias testing, and documentation** aligned to EU/US frameworks (EU AI Act, NIST AI RMF, ISO/IEC 42001)
+    - 📋 **Procurement pressure:** Multinationals will increasingly require **AI risk assessments, bias testing and documentation** aligned to EU/US frameworks (EU AI Act, NIST AI RMF, ISO/IEC 42001)
     - 🔄 **Interoperability benefits:** Adopting **risk-based** governance now reduces later retrofit costs and smooths compliance across markets
 
 ---
@@ -58,11 +58,11 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 
 ### European Union (EU)
 
-**Status & scope:** The **EU AI Act (Regulation (EU) 2024/1689)** is live with a **risk-tiered** regime (prohibited, high, limited, minimal), dedicated **GPAI** obligations, and strong enforcement (up to 7% global turnover). Key dates: **2 Feb 2025** (prohibitions), **2 Aug 2025** (GPAI, governance/penalties), **from Aug 2026–27** (most high-risk rules).
+**Status & scope:** The **EU AI Act (Regulation (EU) 2024/1689)** is live with a **risk-tiered** regime (prohibited, high, limited, minimal), dedicated **GPAI** obligations and strong enforcement (up to 7% global turnover). Key dates: **2 Feb 2025** (prohibitions), **2 Aug 2025** (GPAI, governance/penalties), **from Aug 2026–27** (most high-risk rules).
 
 !!! warning "What to Do"
     - ✅ Map any **EU-facing** AI systems to risk categories; identify if you're a **provider**, **deployer**, **importer** or **distributor**
-    - ✅ For **GPAI/models**, prepare **training-data summaries**, technical documentation, and risk-mitigation processes (red-teaming, incident reporting)
+    - ✅ For **GPAI/models**, prepare **training-data summaries**, technical documentation and risk-mitigation processes (red-teaming, incident reporting)
 
 ### United States (US)
 
@@ -97,7 +97,7 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 
 ### Republic of Korea (South Korea)
 
-**Status & scope:** **AI Basic/Framework Act** passed **26 Dec 2024**, **promulgated 21 Jan 2025**, **effective Jan 2026**. Creates national governance (AI committee, safety institute), a trustworthiness baseline, and foundation for detailed rules; **extra-territorial reach** is anticipated in some areas.
+**Status & scope:** **AI Basic/Framework Act** passed **26 Dec 2024**, **promulgated 21 Jan 2025**, **effective Jan 2026**. Creates national governance (AI committee, safety institute), a trustworthiness baseline and foundation for detailed rules; **extra-territorial reach** is anticipated in some areas.
 
 !!! warning "What to Do"
     - ✅ If offering AI into Korea, prepare for **registration/notice**, **risk management**, and **safety/trust** controls as implementing measures roll out
@@ -127,7 +127,7 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 ---
 
 !!! tip "Global Reference Frameworks (useful everywhere)"
-    - 🌐 **NIST AI Risk Management Framework 1.0** — broad, practical, and widely referenced (US and beyond)
+    - 🌐 **NIST AI Risk Management Framework 1.0** — broad, practical and widely referenced (US and beyond)
     - 📋 **ISO/IEC 42001:2023** — AI management system standard (AIMS) for organisations building/using AI
     - 🤝 **OECD AI Principles** — internationally endorsed principles aligned with human-centred, trustworthy AI
 
@@ -160,4 +160,4 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This guide provides general information about international AI regulations and is not legal advice. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. International AI laws change rapidly. Organisations should adapt to their specific context and seek advice from legal professionals with expertise in relevant jurisdictions before making decisions based on this information.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

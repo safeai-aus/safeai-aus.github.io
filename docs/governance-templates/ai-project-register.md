@@ -1,7 +1,7 @@
 ---
 icon: lucide/folder-kanban
 title: "AI Project Register Template"
-description: "Comprehensive AI project register template for Australian businesses. Centralised tracking of AI initiatives, compliance status, and governance oversight aligned with safety standards."
+description: "Comprehensive AI project register template for Australian businesses. Centralised tracking of AI initiatives, compliance status and governance oversight aligned with safety standards."
 keywords: "AI project register template, AI project tracking, AI governance tracking, AI compliance register, AI project management, Australian AI safety, AI project oversight"
 author: "SafeAI-Aus"
 robots: "index, follow"
@@ -20,10 +20,10 @@ twitter_description: "Comprehensive AI project register template for Australian 
 > **Purpose:** Central record of all AI initiatives within your organisation for governance oversight
 > **Audience:** PMO, ICT, risk and governance teams | **Time:** 30 minutes setup, ongoing updates
 
-This register provides a structured way to maintain a central record of all AI initiatives within your organisation. It is designed to:
+This register helps you maintain a central record of all AI initiatives. It:
 
 - Ensure visibility across all AI-related projects
-- Provide a single source of truth for governance, risk, and compliance monitoring
+- Provide a single source of truth for governance, risk and compliance monitoring
 - Support decision-making through consistent project documentation and guardrail alignment
 
 !!! info "When to Use"
@@ -78,7 +78,7 @@ This register provides a structured way to maintain a central record of all AI i
 
 - **Ownership:** The AI Project Register should be owned by the PMO, ICT, or Risk/Governance function.  
 - **Frequency of Updates:** At minimum, quarterly updates, or more frequently for high-risk/high-impact projects.  
-- **Integration:** Link the register with project governance forums, risk registers, and compliance reporting.  
+- **Integration:** Link the register with project governance forums, risk registers and compliance reporting.  
 - **Audit & Oversight:** The register can be used as part of routine compliance checks to ensure responsible AI deployment.  
 
 ---
@@ -120,7 +120,7 @@ This register provides a structured way to maintain a central record of all AI i
 
         ✓ **Guardrail 10 – Stakeholder engagement, safety, diversity, fairness** — "Ethics" section (Ethics Review, Bias Testing) verifies fairness and safety
 
-        ✓ **Guardrail 9 – Record-keeping** — Register implements record-keeping by maintaining history of all AI projects, status, and key decisions
+        ✓ **Guardrail 9 – Record-keeping** — Register implements record-keeping by maintaining history of all AI projects, status and key decisions
 
         ✓ **Guardrail 2 – Risk management** — "Risk Assessment" fields (Risk Level, Mitigations) integrate risk management into project lifecycle
 
@@ -138,4 +138,4 @@ This register provides a structured way to maintain a central record of all AI i
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*  
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*  

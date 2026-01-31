@@ -1,30 +1,30 @@
 ---
 icon: lucide/map
 title: "AI Implementation Roadmap"
-description: "Step-by-step guidance for running AI pilots, scaling what works, and building ongoing assurance into your AI adoption."
+description: "Step-by-step guidance for running AI pilots, scaling what works and building ongoing assurance into your AI adoption."
 keywords: "AI implementation roadmap, AI pilot guidance, AI scaling, AI assurance, AI governance, Australian business AI"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Implementation Roadmap"
-og_description: "A practical roadmap for planning pilots, scaling successful AI use cases, and embedding assurance into business-as-usual."
+og_description: "A practical roadmap for planning pilots, scaling successful AI use cases and embedding assurance into business-as-usual."
 og_type: "article"
 og_url: "https://safeaiaus.org/business-resources/ai-implementation-roadmap/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Implementation Roadmap"
-twitter_description: "A practical roadmap for planning pilots, scaling successful AI use cases, and embedding assurance into business-as-usual."
+twitter_description: "A practical roadmap for planning pilots, scaling successful AI use cases and embedding assurance into business-as-usual."
 ---
 
 # AI Implementation Roadmap
 
-> **Purpose:** Practical roadmap for running pilots, scaling successful use cases, and building ongoing assurance
+> **Purpose:** Practical roadmap for running pilots, scaling successful use cases and building ongoing assurance
 > **Audience:** Project managers, transformation teams, business owners | **Time:** 20-25 minutes
 
 You've identified good first use cases. You understand the importance of change management. You've evaluated vendors carefully.
 
-Now you need a practical roadmap for actually implementing AI: running pilots that generate real learning, making sound scale decisions, and building assurance practices that become business-as-usual.
+Now you need a practical roadmap for actually implementing AI: running pilots that generate real learning, making sound scale decisions and building assurance practices that become business-as-usual.
 
-This page provides that roadmap with specific guidance on sizing, timeframes, success criteria, and what "done" looks like at each stage.
+This page provides that roadmap with specific guidance on sizing, timeframes, success criteria and what "done" looks like at each stage.
 
 ---
 
@@ -34,7 +34,7 @@ This page provides that roadmap with specific guidance on sizing, timeframes, su
     - 📋 Project managers running AI pilots
     - 🔄 Transformation teams planning AI rollouts
     - 👨‍💼 Business owners moving from pilot to production
-    - ❓ Anyone asking "what do we actually do, and in what order?"
+    - ❓ Anyone asking "what do we actually do and in what order?"
 
     **If you're ready to move from planning to doing, this is for you.**
 
@@ -50,7 +50,7 @@ Each stage has clear objectives, typical timeframes, and "what done looks like" 
 
 1️⃣ **Explore and pilot** (2-4 months) – Learn what works in your environment
 
-2️⃣ **Standardise and embed guardrails** (3-6 months) – Make safety and governance routine
+2️⃣ **Standardise and embed guardrails** (three to six months) – Make safety and governance routine
 
 3️⃣ **Scale what works** (6-12 months) – Expand successful patterns
 
@@ -75,7 +75,7 @@ Each stage has clear objectives, typical timeframes, and "what done looks like" 
     - Key fields: use case, owner, risk rating, status, decisions made
 
 - **Run small pilots with clear parameters:**
-    - **Pilot group size:** 5-15 people (large enough for meaningful data, small enough to support intensively)
+    - **Pilot group size:** five to 15 people (large enough for meaningful data, small enough to support intensively)
     - **Pilot duration:** 4-8 weeks (setup/training → regular use/feedback → evaluation; 8-12 weeks for defensive/security use cases)
     - **Success criteria examples:**
         - "Reduces document drafting time by 20% while maintaining quality"
@@ -135,7 +135,7 @@ At the end of Stage 1, you should have:
 
 ---
 
-## 2️⃣ Stage 2: Standardise and Embed Guardrails (3-6 months)
+## 2️⃣ Stage 2: Standardise and Embed Guardrails (three to six months)
 
 **Objective:** Make AI governance and safety part of business-as-usual, not special projects.
 
@@ -155,7 +155,7 @@ At the end of Stage 1, you should have:
     - Deploy [AI Incident Report Form](../governance-templates/ai-incident-report-form.md)
     - Make it clear this is learning-focused, not blame-focused
     - Review incidents quarterly to identify patterns and improvement opportunities
-    - Feed lessons back into training, documentation, and tool configuration
+    - Feed lessons back into training, documentation and tool configuration
 
 - **Publish AI use guidelines for staff:**
     - Use the [AI Use Policy template](../governance-templates/ai-use-policy.md) as a starting point
@@ -271,7 +271,7 @@ At the end of Stage 3, you should have:
     - What controls are working well? What's pure overhead?
     - Where are gaps emerging?
     - What have incidents taught you?
-    - Update guidelines, checklists, and processes accordingly
+    - Update guidelines, checklists and processes accordingly
 
 - **Adjust roadmap as context evolves:**
     - New regulations (track Australian AI legislation development)
@@ -299,7 +299,7 @@ In the continuous improvement stage, you should have:
 
 ## Your next steps
 
-**Haven't started pilots?** Review [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md), complete [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md), set up [AI System Register](../governance-templates/ai-project-register.md), and evaluate vendors using [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md).
+**Haven't started pilots?** Review [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md), complete [AI Readiness Checklist](../governance-templates/ai-readiness-checklist.md), set up [AI System Register](../governance-templates/ai-project-register.md) and evaluate vendors using [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md).
 
 **Running pilots now?** Confirm clear success criteria and exit conditions. Collect feedback weekly. Review [AI Change Management](ai-change-management.md). Update your system register.
 
@@ -312,13 +312,13 @@ In the continuous improvement stage, you should have:
 !!! success "Implementation Principles"
     **Four stages:** Explore → Standardise → Scale → Assure. Each has clear objectives and "done" criteria. Don't skip stages.
 
-    **Pilot design:** 5-15 people, 4-8 weeks. Clear success criteria and exit conditions. Be prepared to stop what isn't working.
+    **Pilot design:** five to 15 people, four to eight weeks. Clear success criteria and exit conditions. Be prepared to stop what isn't working.
 
     **Scaling:** Scale based on evidence, not enthusiasm. Plan for 2-3x more support. Expand gradually.
 
     **Ongoing:** Regular reviews (quarterly for high-risk, annual for low-risk). Learn from incidents. Adjust to regulatory changes.
 
-    **Remember:** Perfect is the enemy of good. Start small, learn fast, scale what works, and build assurance into your routine.
+    **Remember:** Perfect is the enemy of good. Start small, learn fast, scale what works and build assurance into your routine.
 
 ---
 
@@ -337,4 +337,4 @@ In the continuous improvement stage, you should have:
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

@@ -1,18 +1,18 @@
 ---
 icon: lucide/git-branch
 title: "AI Change Management"
-description: "Practical guidance to get buy-in, address concerns, and support staff through AI adoption before, during, and after pilots."
+description: "Practical guidance to get buy-in, address concerns and support staff through AI adoption before, during and after pilots."
 keywords: "AI change management, AI adoption, organisational change, AI pilot support, AI stakeholder engagement, Australian SMEs"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Change Management"
-og_description: "Step-by-step guidance to secure buy-in, address concerns, and support teams through AI pilots and scaling."
+og_description: "Step-by-step guidance to secure buy-in, address concerns and support teams through AI pilots and scaling."
 og_type: "article"
 og_url: "https://safeaiaus.org/business-resources/ai-change-management/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Change Management"
-twitter_description: "Step-by-step guidance to secure buy-in, address concerns, and support teams through AI pilots and scaling."
+twitter_description: "Step-by-step guidance to secure buy-in, address concerns and support teams through AI pilots and scaling."
 ---
 
 # AI Change Management
@@ -43,7 +43,7 @@ This page provides practical guidance on managing the people and process aspects
 
 ## Why Change Management Matters
 
-AI adoption fails when staff don't understand the "why," concerns about job security go unaddressed, training focuses on clicking buttons rather than workflow changes, or feedback disappears into a void. The result: Low adoption, workarounds, and abandoned tools despite significant investment.
+AI adoption fails when staff don't understand the "why," concerns about job security go unaddressed, training focuses on clicking buttons rather than workflow changes, or feedback disappears into a void. The result: Low adoption, workarounds and abandoned tools despite significant investment.
 
 !!! success "Research Shows"
     **Organisations with effective change management are 7× more likely to meet AI project objectives**
@@ -77,7 +77,7 @@ Announcing "we're piloting AI tool X starting next month" in an email and expect
 **Practical approach:**  
 Before announcing any pilot, hold informal conversations with 5-10 potential pilot participants. Ask: "What takes too much time in your day?" and "What concerns do you have about AI tools?" Use these insights to shape your pilot design and communication.
 
-### Address concerns proactively
+### Address concerns early
 
 Don't wait for concerns to surface as resistance. Address them upfront:
 
@@ -88,13 +88,13 @@ Don't wait for concerns to surface as resistance. Address them upfront:
 → "You won't work any differently at first – you'll review everything the AI produces. We're learning together what AI is good and bad at. You're the expert; the AI is just a first-draft tool."
 
 **"What if it makes mistakes?"**  
-→ "It will make mistakes. That's guaranteed. That's why humans review everything, and why we're starting small. We need your expertise to catch those mistakes and help us improve the system."
+→ "It will make mistakes. That's guaranteed. That's why humans review everything and why we're starting small. We need your expertise to catch those mistakes and help us improve the system."
 
 **"This feels like more work, not less"**  
-→ "It might feel that way at first during the learning phase. We expect it to take 2-3 weeks before you see time savings. If you're not seeing benefits after [specific timeframe], tell us and we'll adjust or stop."
+→ "It might feel that way at first during the learning phase. We expect it to take two to three weeks before you see time savings. If you're not seeing benefits after [specific timeframe], tell us and we'll adjust or stop."
 
 **"What about privacy and security?"**  
-→ Be specific about data handling, where information is stored, and what controls are in place. Link to your vendor evaluation work and risk assessment.
+→ Be specific about data handling, where information is stored and what controls are in place. Link to your vendor evaluation work and risk assessment.
 
 ### Set clear expectations
 
@@ -205,13 +205,13 @@ Focus on "what's in it for me" and "how does my day change"
 - "Training takes 1 hour, support is available daily"
 
 **Middle managers:**  
-Focus on team productivity, quality improvements, and how to support their teams
+Focus on team productivity, quality improvements and how to support their teams
 - "Expected productivity gain: 15-20% on routine tasks"
 - "Your team will need support in weeks 2-4 as they learn"
 - "Here's how to spot when someone is struggling and what to do"
 
 **Executives:**  
-Focus on strategic benefits, risk mitigation, and organisational learning
+Focus on strategic benefits, risk mitigation and organisational learning
 - "Successfully piloted with 15 people, scaling to 80"
 - "ROI expected in 6-9 months based on pilot data"
 - "Governance and monitoring processes in place"
@@ -237,9 +237,9 @@ Monitor:
 
 ## Regional and connectivity considerations
 
-**For regional Australian businesses**, test AI tools with your actual infrastructure before committing – cloud tools may perform poorly with limited bandwidth. Consider hybrid solutions with local processing. Video training across time zones, recorded sessions, and strong written documentation work better than relying on in-person support.
+**For regional Australian businesses**, test AI tools with your actual infrastructure before committing – cloud tools may perform poorly with limited bandwidth. Consider hybrid solutions with local processing. Video training across time zones, recorded sessions and strong written documentation work better than relying on in-person support.
 
-**Support challenges:** Regional areas may have limited AI expertise. Remote support, online training, and peer networks through business chambers can fill gaps. Regional advantages include tighter teams, stronger supplier relationships, and creative problem-solving cultures.
+**Support challenges:** Regional areas may have limited AI expertise. Remote support, online training and peer networks through business chambers can fill gaps. Regional advantages include tighter teams, stronger supplier relationships and creative problem-solving cultures.
 
 ---
 
@@ -254,22 +254,22 @@ Review [Safe AI Adoption - Getting Started](safe-ai-adoption-getting-started.md)
 See [AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md) – vendor support quality matters enormously for change management success.
 
 **Pilot planning and scaling:**  
-See [AI Implementation Roadmap](ai-implementation-roadmap.md) for practical guidance on pilot sizing, timeframes, success criteria, and when to scale.
+See [AI Implementation Roadmap](ai-implementation-roadmap.md) for practical guidance on pilot sizing, timeframes, success criteria and when to scale.
 
 ---
 
 ## Key Takeaways
 
 !!! success "Essential Principles"
-    **Before pilots:** Get buy-in through conversation, not announcement. Address concerns proactively. Set clear expectations.
+    **Before pilots:** Get buy-in through conversation, not announcement. Address concerns early. Set clear expectations.
 
     **During pilots:** Communicate weekly. Act on feedback visibly. Support different learning styles.
 
     **When scaling:** Plan for 2-3x more support. Tailor messages by stakeholder group. Track adoption, not just deployment.
 
-    **Regional context:** Test with actual infrastructure. Build strong documentation. Leverage peer networks.
+    **Regional context:** Test with actual infrastructure. Build strong documentation. Use peer networks.
 
-    **Remember:** Organisations with effective change management are 7× more likely to meet objectives. Time invested delivers returns through higher adoption, faster value, and fewer problems.
+    **Remember:** Organisations with effective change management are 7× more likely to meet objectives. Time invested delivers returns through higher adoption, faster value and fewer problems.
 
 ---
 
@@ -286,4 +286,4 @@ See [AI Implementation Roadmap](ai-implementation-roadmap.md) for practical guid
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

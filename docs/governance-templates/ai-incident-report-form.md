@@ -1,7 +1,7 @@
 ---
 icon: lucide/file-warning
 title: "AI Incident Report Form Template"
-description: "Standardised AI incident report form template for Australian businesses. Helps document, track, and respond to AI-related incidents while maintaining compliance with safety standards."
+description: "Standardised AI incident report form template for Australian businesses. Helps document, track and respond to AI-related incidents while maintaining compliance with safety standards."
 keywords: "AI incident report form, AI incident template, AI safety incident, AI risk reporting, AI incident documentation, Australian AI safety, AI incident management"
 author: "SafeAI-Aus"
 robots: "index, follow"
@@ -17,18 +17,18 @@ twitter_description: "Standardised AI incident report form template for Australi
 
 # AI Incident Report Form
 
-> **Purpose:** Standardised form to document, track, and respond to AI-related incidents
+> **Purpose:** Standardised form to document, track and respond to AI-related incidents
 > **Audience:** All staff, IT teams, security officers, risk managers | **Time:** 10-30 minutes per incident
 
 AI systems can create new opportunities for businesses, but they also introduce risks — from unexpected errors and harmful outputs to privacy breaches and security incidents.
 
-Having a clear process for recording and reporting AI incidents is an essential part of your organisation's risk and security management practices. This ensures that issues are identified quickly, lessons are learned, and safeguards are improved.
+Having a clear process for recording and reporting AI incidents is an essential part of your organisation's risk and security management practices. This ensures that issues are identified quickly, lessons are learned and safeguards are improved.
 
 !!! info "When to Use This Form"
     Use this form whenever an AI-related incident occurs in your business. The information you capture will help:
 
     - ⚡ Contain and mitigate risks early
-    - 🛡️ Protect staff, customers, and your organisation's reputation
+    - 🛡️ Protect staff, customers and your organisation's reputation
     - ⚖️ Meet your obligations under Australian law and AI guardrails
     - ✅ Build trust by showing responsible use of AI  
 
@@ -61,15 +61,15 @@ Reporting Timeline:
 [ ] Within 72 hours (Medium/Low)  
 
 ### 2. Reporter Details
-Name, role, and contact information of person reporting the incident  
+Name, role and contact information of person reporting the incident  
 ☐ Evidence attached
 
 ### 3. AI System Details
-System name, version, vendor, and deployment environment  
+System name, version, vendor and deployment environment  
 ☐ Evidence attached
 
 ### 4. Incident Description
-Description of what happened, including inputs, outputs, and observed issues  
+Description of what happened, including inputs, outputs and observed issues  
 ☐ Evidence attached
 
 ### 5. Impact Assessment
@@ -98,7 +98,7 @@ Steps to prevent recurrence or improve safeguards.
 ☐ Evidence attached
 
 ### 10. Review & Approval
-Reviewer/approver name, role, and signature  
+Reviewer/approver name, role and signature  
 ☐ Evidence attached
 
 ### 11. Lessons Learned
@@ -122,7 +122,7 @@ This form aligns with:
 - Notify regulators if required (e.g., OAIC for privacy breaches).
 
 ### Escalation Matrix
-- Critical: Immediate notification to CEO, Board, and regulators as required  
+- Critical: Immediate notification to CEO, Board and regulators as required  
 - High: Notification to CIO/CTO and Risk Committee within 4 hours  
 - Medium: Notification to Department Head within 24 hours  
 - Low: Logged and reviewed in weekly operations meeting  
@@ -163,4 +163,4 @@ This form aligns with:
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*  
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*  

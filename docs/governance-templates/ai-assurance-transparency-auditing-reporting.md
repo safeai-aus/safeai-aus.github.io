@@ -1,23 +1,23 @@
 ---
 icon: lucide/search-check
 title: "AI Assurance – Transparency, Auditing & Reporting"
-description: "Practical guide for Australian organisations to build AI assurance through transparency, auditing, and reporting patterns."
+description: "Practical guide for Australian organisations to build AI assurance through transparency, auditing and reporting patterns."
 keywords: "AI assurance, AI transparency, AI auditing, AI reporting, Australian AI governance, AI risk management, AI incident reporting"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Assurance – Transparency, Auditing & Reporting"
-og_description: "Simple patterns Australian teams can use to make AI systems transparent, auditable, and well reported."
+og_description: "Simple patterns Australian teams can use to make AI systems transparent, auditable and well reported."
 og_type: "article"
 og_url: "https://safeaiaus.org/governance-templates/ai-assurance-transparency-auditing-reporting/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Assurance – Transparency, Auditing & Reporting"
-twitter_description: "Simple patterns Australian teams can use to make AI systems transparent, auditable, and well reported."
+twitter_description: "Simple patterns Australian teams can use to make AI systems transparent, auditable and well reported."
 ---
 
 # AI Assurance – Transparency, Auditing & Reporting
 
-> **Purpose:** Build assurance practices to make AI systems transparent, auditable, and well-reported
+> **Purpose:** Build assurance practices to make AI systems transparent, auditable and well-reported
 > **Audience:** Risk teams, compliance officers, internal audit, CIOs, governance leaders | **Time:** 25-30 minutes
 
 Most Australian organisations will never train a frontier model. But almost every organisation will **use** AI – through SaaS tools, internal projects, or vendor platforms.
@@ -82,16 +82,16 @@ Most of this arrives quietly, bundled into platforms your staff already use. Tha
 
 1. **Hidden AI** – You're making decisions with AI in the loop, without a clear view of where or how
 2. **Unclear accountability** – It's not obvious who "owns" the outcome when an AI-assisted decision goes wrong
-3. **Thin evidence** – Boards and regulators ask "How do you know it's safe?", and teams have little to show
+3. **Thin evidence** – Boards and regulators ask "How do you know it's safe?" and teams have little to show
 
-The Australian Voluntary AI Safety Standard and international frameworks (ISO/IEC 42001, NIST AI RMF) all point in the same direction: be transparent about your AI, subject it to independent checks, and report honestly on how it behaves in the real world.
+The Australian Voluntary AI Safety Standard and international frameworks (ISO/IEC 42001, NIST AI RMF) all point in the same direction: be transparent about your AI, subject it to independent checks and report honestly on how it behaves in the real world.
 
 !!! success "The Practice Gap"
     Recent research shows a significant gap between aspiration and practice: **while 78% of Australian organisations believe they align with AI safety principles, only 29% have implemented the necessary practices.**
 
     AI assurance helps close this gap by making your safety work visible and verifiable.
 
-The regulatory landscape is evolving. Version 2 of the Voluntary AI Safety Standard is in development (expected late 2025) with enhanced developer guidance, and the government is considering mandatory guardrails for high-risk AI uses. Building good assurance practices now means you're ready when regulations arrive.
+The regulatory landscape is evolving. Version 2 of the Voluntary AI Safety Standard is in development (expected late 2025) with enhanced developer guidance and the government is considering mandatory guardrails for high-risk AI uses. Building good assurance practices now means you're ready when regulations arrive.
 
 SafeAI-Aus turns these principles into practical patterns any organisation can use.
 
@@ -99,7 +99,7 @@ SafeAI-Aus turns these principles into practical patterns any organisation can u
 
 ## 1. Transparency – know where AI is and how it behaves
 
-You can't assure what you can't see. Transparency starts with a clear picture of **where AI is used, what it does, and what its limits are**.
+You can't assure what you can't see. Transparency starts with a clear picture of **where AI is used, what it does and what its limits are**.
 
 ### 1.1 AI system register
 
@@ -203,7 +203,7 @@ The checklist below isn't exhaustive, but it covers the critical questions most 
 #### Controls and monitoring
 
 - Are there meaningful human checks where needed?  
-- Are logs kept, and are they actually reviewed?  
+- Are logs kept and are they actually reviewed?  
 - Are there guardrails to prevent obvious misuse?  
 - Are configuration and prompt changes controlled and traceable?
 
@@ -238,7 +238,7 @@ Then:
   - Impact or potential impact  
   - Contributing factors and context  
   - Immediate response and follow-up actions  
-- Make sure staff know they can raise concerns about AI output, and that it's treated seriously
+- Make sure staff know they can raise concerns about AI output and that it's treated seriously
 
 Connect this to existing whistleblower / speak-up channels so people feel safe reporting issues.
 
@@ -254,7 +254,7 @@ Boards don't need every detail. They do need a **clear, repeatable view** of AI 
 - **Incidents** – number and severity of AI-related incidents / near misses  
 - **Forward look** – upcoming projects and planned assurance work
 
-> **SafeAI-Aus resource:** The [AI Project Register Template](ai-project-register.md) captures the inventory, risk levels, and change history you can summarise for executives.
+> **SafeAI-Aus resource:** The [AI Project Register Template](ai-project-register.md) captures the inventory, risk levels and change history you can summarise for executives.
 
 ### 3.3 Learning and iteration
 
@@ -265,7 +265,7 @@ Assurance isn't a one-time exercise. As you collect findings from audits, incide
 - **Refresh your register** – As systems change or new ones arrive, keep your register current. Stale documentation is worse than no documentation.
 - **Share lessons** – When safe to do so, consider sharing your experience with the SafeAI-Aus community. Other Australian organisations face the same challenges.
 
-Good assurance creates a feedback loop: transparency reveals risks, auditing finds gaps, reporting drives action, and the cycle repeats with better information each time.
+Good assurance creates a feedback loop: transparency reveals risks, auditing finds gaps, reporting drives action and the cycle repeats with better information each time.
 
 ---
 
@@ -279,7 +279,7 @@ The templates SafeAI-Aus provides are designed for small teams. You don't need a
 
 Your vendor may have excellent AI governance. But **you** are accountable for how you use their system. If your vendor's chatbot gives harmful advice to a customer, or your vendor's screening tool discriminates, it's your organisation that faces the consequences.
 
-Vendor transparency (section 1.3) helps you ask the right questions. But you still need your own view of what the system does, what could go wrong, and what controls you've put in place.
+Vendor transparency (section 1.3) helps you ask the right questions. But you still need your own view of what the system does, what could go wrong and what controls you've put in place.
 
 ---
 
@@ -333,4 +333,4 @@ You can adapt these artefacts to your own context, policy stack and risk appetit
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

@@ -22,7 +22,7 @@ twitter_description: "Use these sector-specific AI risk examples to strengthen y
 
 This page provides example AI-related risks tailored to fourteen major Australian industries, with particular emphasis on sectors with significant SME representation.
 
-These examples help businesses identify context-specific risks before adapting them into their own AI risk registers. Each table includes example risks, brief descriptions, and potential impacts. Organisations can extend these tables with columns for control measures, likelihood, residual risk, and ownership to match the main [AI Risk Register Template](ai-risk-register.md).
+These examples help businesses identify context-specific risks before adapting them into their own AI risk registers. Each table includes example risks, brief descriptions and potential impacts. Organisations can extend these tables with columns for control measures, likelihood, residual risk and ownership to match the main [AI Risk Register Template](ai-risk-register.md).
 
 !!! info "Industry Selection"
     The industries featured represent a mix of large enterprise sectors (mining, finance, energy) and SME-dominant sectors (retail, hospitality, professional services, construction) to reflect the diverse Australian business landscape. Priority has been given to sectors with active AI adoption and clear regulatory considerations.
@@ -191,4 +191,4 @@ These examples help businesses identify context-specific risks before adapting t
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

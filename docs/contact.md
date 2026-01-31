@@ -20,7 +20,7 @@ permalink: /contact/
 
 SafeAI-Aus is an open-source, community-driven initiative.  
 
-We share resources to help Australian organisations adopt AI safely, responsibly, and in line with global best practice.  
+We share resources to help Australian organisations adopt AI safely and in line with global standards.  
 
 We're not a company — just a group of contributors who believe in practical, open resources for AI governance. 
 
