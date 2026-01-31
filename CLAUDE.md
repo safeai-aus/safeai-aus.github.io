@@ -84,7 +84,7 @@ All content is in Markdown format within the `docs/` directory. The site has the
 - Dark mode overrides
 
 **`docs/assets/extra.js`** - Custom JavaScript
-- Umami analytics integration (website ID: f228fe92-e13d-456d-92f8-018fac9d587c)
+- Umami analytics integration
 - Canonical URL helpers
 - Prevents multiple analytics script injections
 
@@ -94,16 +94,10 @@ All content is in Markdown format within the `docs/` directory. The site has the
 
 **SafeAI-Aus Knowledge Assistant**
 
-The site includes an AI-powered chat widget using [Airia](https://airia.ai/) to help visitors find resources and answer questions about Australian AI governance. The integration is configured in `overrides/main.html` (content block):
-
-- **API URL:** `https://prodaus.embed-api.airia.ai`
-- **Pipeline ID:** `082a8566-0662-4ce1-83fb-42503ac7fb64`
-- **API Key:** `ak-MTk2NTI1MjYwNnwxNzY3MzUxOTcwNzczfHRpLWMybHRjR3hsWm5rdVlXa3R8MXw5MTE4ODgyMTQg`
-- **Root Element:** `<div id="airia-chat-root"></div>`
-- **Module Import:** `https://prodaus.embed-api.airia.ai/get-chat-embed.js`
+The site includes an AI-powered chat widget using [Airia](https://airia.ai/) to help visitors find resources and answer questions about Australian AI governance. The integration is configured in `overrides/main.html` (content block).
 
 Chat widget configuration:
-- **Greeting:** "Hi! I can help you find AI safety resources and answer questions about Australian AI governance. What would you like to know?"
+- **Greeting:** Welcomes users and offers to help find AI safety resources
 - **Logo:** Uses compressed SafeAI-Aus chat logo (`assets/safeai-aus-chat-logo-compressed.png`)
   - Optimized to 200x200px, 58KB (compressed from original 2048x2048px, 5.9MB)
   - **Important:** Chat widget logos should be small (under 100KB) for performance
@@ -112,7 +106,7 @@ Chat widget configuration:
 
 The chatbot is powered by Airia's pipeline system and provides context-aware responses based on the site's content.
 
-**Do not modify** the pipeline ID, API key, or API URL without coordination with the Airia administrator.
+**Do not modify** the Airia configuration without coordination with the Airia administrator.
 
 **Image Optimization Note:** When adding new logos or images for the chat widget, always compress them significantly. Use Python Pillow to resize and optimize:
 ```python
@@ -272,9 +266,9 @@ nav = [
   - Use Python Pillow for image resizing/compression
 
 - **Critical Integrations (Do Not Modify Without Authorization):**
-  - **Analytics:** Umami Cloud (website ID: f228fe92-e13d-456d-92f8-018fac9d587c)
+  - **Analytics:** Umami Cloud
   - **Newsletter:** Listmonk self-hosted (lists.safeaiaus.org)
-  - **AI Chat Widget:** Airia chatbot (pipeline ID, API key, API URL are fixed)
+  - **AI Chat Widget:** Airia chatbot (configuration in `overrides/main.html`)
 
 - **SEO & Content:**
   - OpenGraph images MUST use absolute URLs: `https://safeaiaus.org/assets/image.png`
@@ -287,3 +281,8 @@ nav = [
   - `.venv-py312/` - Python virtual environment
   - `.claude/settings.local.json` - Claude Code local settings
   - All above are in `.gitignore` and should never be committed
+
+- **Documentation Best Practices:**
+  - **NEVER document API keys, credentials, or secrets in this file** - even if they are public/browser-side credentials, they don't belong in developer documentation
+  - Reference where credentials are configured (e.g., "in `overrides/main.html`") rather than listing actual values
+  - If you need to understand integration credentials, read the source files directly
