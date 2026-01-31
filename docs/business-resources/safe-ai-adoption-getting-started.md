@@ -1,32 +1,58 @@
 ---
 icon: lucide/rocket
 title: "Safe AI Adoption - Getting Started"
-description: "Where to start with AI in your organisation, what to avoid, and how to build resilience while managing risk."
-keywords: "safe AI adoption, AI adoption roadmap, AI risk management, AI resilience, Australian business AI, AI implementation tips"
+description: "Where to start with AI in your organisation, what to avoid and how to build resilience while managing risk."
+keywords: "safe AI adoption, AI adoption roadmap, AI risk management, AI resilience, Australian business AI, AI implementation tips, how to implement AI safely, AI for small business Australia, AI governance for SMEs, responsible AI Australia"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "Safe AI Adoption - Getting Started"
-og_description: "Practical guidance on safe AI adoption: where to start, what to avoid, and how to build organisational resilience."
+og_description: "Practical guidance on safe AI adoption: where to start, what to avoid and how to build organisational resilience."
 og_type: "article"
 og_url: "https://safeaiaus.org/business-resources/safe-ai-adoption-getting-started/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Safe AI Adoption - Getting Started"
-twitter_description: "Practical guidance on safe AI adoption: where to start, what to avoid, and how to build organisational resilience."
+twitter_description: "Practical guidance on safe AI adoption: where to start, what to avoid and how to build organisational resilience."
+faq:
+  - question: "Where should we start with AI in our organisation?"
+    answer: "Start with low-risk, reversible use cases like drafting documents, summarising reports, or internal FAQ assistants. These create quick learning without significant risk exposure."
+  - question: "What AI projects should we avoid as a first step?"
+    answer: "Avoid fully automated decisions about people (hiring, credit), safety-critical systems, and complex customer-facing chatbots as first projects. Build capabilities on easier use cases first."
+  - question: "How long does AI implementation take?"
+    answer: "Pilot phases typically take 4-8 weeks. Scale decisions come 3-6 months after pilot start. Expect 6-12 months for measurable ROI on productivity benefits."
+  - question: "What are the biggest mistakes in AI adoption?"
+    answer: "Common mistakes include skipping change management, piloting with too large a group, having no clear success criteria, choosing complex problems first, and rushing vendor selection."
+howto:
+  name: "How to Adopt AI Safely in Your Organisation"
+  description: "Step-by-step guide for Australian organisations beginning safe AI adoption"
+  totalTime: "PT4H"
+  steps:
+    - name: "Assess your AI readiness"
+      text: "Complete the AI Readiness Checklist to understand your current capabilities, governance and gaps."
+    - name: "Choose a low-risk first use case"
+      text: "Select a reversible, low-stakes use case like document drafting or internal support tools."
+    - name: "Establish governance"
+      text: "Create or adapt an AI Use Policy using our template library before deployment."
+    - name: "Run a small pilot"
+      text: "Start with 5-15 engaged users who can give detailed feedback. Set clear success metrics upfront."
+    - name: "Evaluate and iterate"
+      text: "Review results against success criteria. Decide whether to scale, adjust or stop."
+    - name: "Scale with guardrails"
+      text: "Expand gradually with proper monitoring, incident reporting and regular reviews in place."
 ---
 
 # Safe AI Adoption - Getting Started
 
-> **Purpose:** Practical guidance on where to start with AI, what to avoid, and how to build organisational resilience
+> **Purpose:** Practical guidance on where to start with AI, what to avoid and how to build organisational resilience
 > **Audience:** Executives, boards, strategy teams, business owners, and AI champions | **Time:** 45-60 minutes
 
 AI will only deliver real value when it's used across day-to-day work – in clinics and warehouses, offices and councils, shops and service centres.
 
-That spread of AI – economists call it *diffusion* – is generally good. It brings productivity gains and helps us learn what AI is actually good at (and bad at) in the real world.
+That spread (economists call it *diffusion*) is generally good. It brings productivity gains and helps us learn what AI is actually good at and bad at, in practice.
 
 The risk is when organisations deploy AI indiscriminately without guardrails, chasing short-term efficiency while quietly increasing fragility.
 
-This page focuses on **safe AI adoption**: where to start, what to avoid, and how to make your organisation more resilient in the process.
+This page focuses on **safe AI adoption**: where to start, what to avoid and how to make your organisation more resilient in the process.
 
 ---
 
@@ -37,7 +63,7 @@ This page focuses on **safe AI adoption**: where to start, what to avoid, and ho
     - 🎯 **Strategy and transformation teams**
     - 💡 **Business owners and "AI champions"** looking for good first steps
 
-    If you're asking "Where should we start with AI, and how do we avoid creating unnecessary risks?", this is for you.
+    If you're asking "Where should we start with AI and how do we avoid creating unnecessary risks?", this is for you.
 
 ---
 
@@ -57,7 +83,7 @@ At the same time, AI can be used to:
 
 SafeAI-Aus takes a simple position:
 
-> AI adoption is generally good – **when you start in the right places, move in small steps, and prioritise resilience as much as efficiency.**
+> AI adoption is generally good – **when you start in the right places, move in small steps and prioritise resilience as much as efficiency.**
 
 ---
 
@@ -65,7 +91,7 @@ SafeAI-Aus takes a simple position:
 
 Every sector is different, but some patterns generalise well. These examples are sector-neutral; you can adapt them for health, manufacturing, local government and beyond.
 
-These are usually **reversible**, low-stakes, and create quick learning.
+These are usually **reversible**, low-stakes and create quick learning.
 
 ### Knowledge work support
 
@@ -78,7 +104,7 @@ These are usually **reversible**, low-stakes, and create quick learning.
 
     - **Time savings:** ~30 minutes per document
     - **Implementation cost:** Existing Microsoft 365 subscription
-    - **Time to value:** 2-3 weeks
+    - **Time to value:** two to three weeks
 
 ### Internal service improvements
 
@@ -99,7 +125,7 @@ These are usually **reversible**, low-stakes, and create quick learning.
 **Typical costs and timeframes:**
 
 - **Pilot phase:** 4-8 weeks, $500-5,000 depending on tool complexity
-- **Scale decision point:** 3-6 months after pilot start
+- **Scale decision point:** three to six months after pilot start
 - **Expected ROI timeframe:** 6-12 months for productivity benefits
 
 ---
@@ -111,7 +137,7 @@ These are usually **reversible**, low-stakes, and create quick learning.
     - ❌ Safety-critical control systems (clinical decisions, physical safety systems)
     - ❌ Complex customer-facing chatbots with direct authority to commit the organisation
 
-    These may still be valid later – but they should come **after** you've built capabilities, guardrails, and assurance patterns on easier use cases.
+    These may still be valid later – but they should come **after** you've built capabilities, guardrails and assurance patterns on easier use cases.
 
 ---
 
@@ -221,7 +247,7 @@ In all these cases, design systems so **humans remain the decision-makers**, and
 
     **3. What are the limits?**
 
-    - Do staff know what the system is allowed to do, and what it is *not* allowed to do?
+    - Do staff know what the system is allowed to do and what it is *not* allowed to do?
 
     **4. How is it monitored?**
 
@@ -235,7 +261,7 @@ In all these cases, design systems so **humans remain the decision-makers**, and
 
     ---
 
-    **Connection to VAISS:** The Australian Government's Voluntary AI Safety Standard (VAISS) emphasises transparency, fairness, and accountability. Your guardrails should demonstrate how you're meeting these principles:
+    **Connection to VAISS:** The Australian Government's Voluntary AI Safety Standard (VAISS) emphasises transparency, fairness and accountability. Your guardrails should demonstrate how you're meeting these principles:
 
     - ✅ **Transparency** — Clear documentation in your system register
     - ✅ **Fairness** — Risk assessment processes that consider bias and discrimination
@@ -248,15 +274,15 @@ In all these cases, design systems so **humans remain the decision-makers**, and
 
     **🔄 Making it work with people:**
 
-    See [AI Change Management](../governance-templates/ai-change-management.md) for detailed guidance on getting buy-in, addressing concerns, and supporting staff through AI adoption. This is critical – organisations with effective change management are seven times more likely to meet AI objectives.
+    See [AI Change Management](../governance-templates/ai-change-management.md) for detailed guidance on getting buy-in, addressing concerns and supporting staff through AI adoption. This is critical – organisations with effective change management are seven times more likely to meet AI objectives.
 
     **✅ Choosing the right tools:**
 
-    See [AI Vendor Evaluation Checklist](../governance-templates/ai-vendor-evaluation-checklist.md) for red flags to watch for, key questions to ask vendors, and how to evaluate tools systematically.
+    See [AI Vendor Evaluation Checklist](../governance-templates/ai-vendor-evaluation-checklist.md) for red flags to watch for, key questions to ask vendors and how to evaluate tools systematically.
 
     **🗺️ Running pilots and scaling:**
 
-    See [AI Implementation Roadmap](../governance-templates/ai-implementation-roadmap.md) for step-by-step guidance on pilot sizing, success criteria, when to scale (or stop), and ongoing assurance activities.
+    See [AI Implementation Roadmap](../governance-templates/ai-implementation-roadmap.md) for step-by-step guidance on pilot sizing, success criteria, when to scale (or stop) and ongoing assurance activities.
 
 ---
 
@@ -286,4 +312,4 @@ In all these cases, design systems so **humans remain the decision-makers**, and
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This guide provides best practice guidance for Australian organisations considering AI adoption. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, technical, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

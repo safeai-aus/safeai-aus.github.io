@@ -1,26 +1,26 @@
 ---
 icon: lucide/file-text
 title: "Safe AI Policy & Template Library"
-description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, vendor evaluations, and project management tools. Start implementing safe AI practices today."
-keywords: "AI policy templates, AI governance templates, AI safety templates, Australian AI templates, AI policy library, AI governance tools, AI compliance templates"
+description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, vendor evaluations and project management tools. Start implementing safe AI practices today."
+keywords: "AI policy templates, AI governance templates, AI safety templates, Australian AI templates, AI policy library, AI governance tools, AI compliance templates, free AI templates, AI policy template free, AI governance framework Australia, responsible AI templates"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "Safe AI Policy & Template Library"
-og_description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, and project management tools."
+og_description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports and project management tools."
 og_type: "article"
 og_url: "https://safeaiaus.org/governance-templates/policy-template-library/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "Safe AI Policy & Template Library"
-twitter_description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports, and project management tools."
+twitter_description: "Download free AI governance templates for Australian businesses. Get instant access to risk assessments, incident reports and project management tools."
 ---
 
 # Governance Templates
 
 > **Purpose:** Practical, ready-to-use templates for safe AI adoption in Australian organisations
-> **Audience:** Leadership, governance, compliance, and technical teams | **Status:** Free & open-source
+> **Audience:** Leadership, governance, compliance and technical teams | **Status:** Free & open-source
 
-Practical, open-source templates to help Australian businesses implement safe, responsible, and effective AI.
+Practical, open-source templates to help Australian businesses implement safe, responsible and effective AI.
 
 These documents are designed as a **baseline AI governance toolkit**: they provide a set of lightweight, practical policies and forms that can be adapted to your organisation's context.
 
@@ -37,7 +37,7 @@ These documents are designed as a **baseline AI governance toolkit**: they provi
     - ✅ **Consistency** — A common set of documents reduces gaps and overlaps across projects
     - ✅ **Risk reduction** — Guardrail alignment ensures that risks (data, security, accountability, bias) are addressed
     - ✅ **Efficiency** — SMEs and larger organisations alike can use these without building frameworks from scratch
-    - ✅ **Transparency** — Provides evidence of responsible AI practices to customers, partners, and regulators
+    - ✅ **Transparency** — Provides evidence of responsible AI practices to customers, partners and regulators
 
 ---
 
@@ -47,7 +47,7 @@ These documents are designed as a **baseline AI governance toolkit**: they provi
 
 **[AI Readiness Checklist](ai-readiness-checklist.md)**
 
-Assesses your organisation's readiness to adopt AI safely. Covers governance, technical capability, risk management, and stakeholder engagement.
+Assesses your organisation's readiness to adopt AI safely. Covers governance, technical capability, risk management and stakeholder engagement.
 
 - **Time:** 30-60 minutes
 - **Format:** Self-assessment checklist
@@ -59,7 +59,7 @@ Assesses your organisation's readiness to adopt AI safely. Covers governance, te
 
 **[AI Change Management](ai-change-management.md)**
 
-Comprehensive guide to managing the organisational and cultural changes that come with AI adoption. Covers stakeholder engagement, communication, workforce planning, and resistance management.
+Comprehensive guide to managing the organisational and cultural changes that come with AI adoption. Covers stakeholder engagement, communication, workforce planning and resistance management.
 
 - **Time:** 2-4 weeks to implement
 - **Format:** Step-by-step guide + templates
@@ -67,7 +67,7 @@ Comprehensive guide to managing the organisational and cultural changes that com
 
 **[AI Implementation Roadmap](ai-implementation-roadmap.md)**
 
-Step-by-step guide to planning and executing AI projects from pilot to production deployment. Includes pilot sizing, success criteria, scaling decisions, and ongoing monitoring.
+Step-by-step guide to planning and executing AI projects from pilot to production deployment. Includes pilot sizing, success criteria, scaling decisions and ongoing monitoring.
 
 - **Time:** 3-6 month implementation timeline
 - **Format:** Phased roadmap + decision framework
@@ -87,7 +87,7 @@ Structured way to evaluate risks before adoption.
 
 **[AI Risk Register](ai-risk-register.md)**
 
-Comprehensive register for identifying, assessing, and managing AI-related risks. Integrates with broader GRC processes.
+Comprehensive register for identifying, assessing and managing AI-related risks. Integrates with broader GRC processes.
 
 - **Time:** 30 mins per risk entry
 - **Format:** Living document / database
@@ -103,7 +103,7 @@ Provides context-specific AI risk examples for ten major Australian industries t
 
 **[AI Assurance – Transparency, Auditing & Reporting](ai-assurance-transparency-auditing-reporting.md)**
 
-Framework for demonstrating responsible AI practices through transparency, independent audits, and structured reporting.
+Framework for demonstrating responsible AI practices through transparency, independent audits and structured reporting.
 
 - **Time:** Ongoing reporting cadence
 - **Format:** Reporting framework + templates
@@ -131,7 +131,7 @@ Maintains a central record of all AI initiatives.
 
 **[AI Vendor Evaluation Checklist](ai-vendor-evaluation-checklist.md)**
 
-Comprehensive framework for evaluating AI vendors including Build vs Buy guidance, critical red flags, and structured evaluation across compliance, security, data governance, and Australian context.
+Comprehensive framework for evaluating AI vendors including Build vs Buy guidance, critical red flags and structured evaluation across compliance, security, data governance, and Australian context.
 
 - **Time:** 2-4 hours per vendor
 - **Format:** Evaluation matrix + decision framework
@@ -139,7 +139,7 @@ Comprehensive framework for evaluating AI vendors including Build vs Buy guidanc
 
 **[AI Incident Report Form](ai-incident-report-form.md)**
 
-Mechanism to capture, respond, and learn from AI-related issues.
+Mechanism to capture, respond and learn from AI-related issues.
 
 - **Time:** 15-30 mins per incident
 - **Format:** Incident report form
@@ -151,13 +151,13 @@ Mechanism to capture, respond, and learn from AI-related issues.
 
 !!! info "Roadmap"
     **Data Management & Quality Checklist**
-    To ensure data used in AI systems is high-quality, traceable, and bias-tested (Guardrail 4).
+    To ensure data used in AI systems is high-quality, traceable and bias-tested (Guardrail 4).
 
     **Human Oversight Plan**
     Defines when and how human decision-making is required, including escalation paths (Guardrails 2 and 8).
 
     **AI Model Monitoring Log**
-    Template for tracking performance, fairness, drift, and retraining across deployed models (Guardrail 10).
+    Template for tracking performance, fairness, drift and retraining across deployed models (Guardrail 10).
 
 ---
 
@@ -181,9 +181,9 @@ Mechanism to capture, respond, and learn from AI-related issues.
 ## How to Use These Templates
 
 !!! tip "Implementation Best Practices"
-    **Adapt locally** — These are starting points. Tailor them to your organisation's size, industry, and regulatory obligations.
+    **Adapt locally** — These are starting points. Tailor them to your organisation's size, industry and regulatory obligations.
 
-    **Integrate** — Templates should sit within existing governance, risk, and compliance processes (e.g. risk registers, change management).
+    **Integrate** — Templates should sit within existing governance, risk and compliance processes (e.g. risk registers, change management).
 
     **Iterate** — AI is fast-moving. Review and update these documents regularly as your AI maturity grows.
 
@@ -249,6 +249,85 @@ Mechanism to capture, respond, and learn from AI-related issues.
 }
 </script>
 
+<!-- JSON-LD: ItemList schema for template collection -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "AI Governance Templates for Australian Businesses",
+  "description": "Free, open-source templates for safe AI adoption aligned with VAISS and ISO/IEC 42001",
+  "numberOfItems": 11,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "AI Readiness Checklist",
+      "url": "https://safeaiaus.org/governance-templates/ai-readiness-checklist/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "AI Use Policy",
+      "url": "https://safeaiaus.org/governance-templates/ai-use-policy/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "AI Risk Assessment Checklist",
+      "url": "https://safeaiaus.org/governance-templates/ai-risk-assessment-checklist/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "AI Risk Register",
+      "url": "https://safeaiaus.org/governance-templates/ai-risk-register/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "AI Change Management",
+      "url": "https://safeaiaus.org/governance-templates/ai-change-management/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "AI Implementation Roadmap",
+      "url": "https://safeaiaus.org/governance-templates/ai-implementation-roadmap/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "AI Vendor Evaluation Checklist",
+      "url": "https://safeaiaus.org/governance-templates/ai-vendor-evaluation-checklist/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "AI Project Register",
+      "url": "https://safeaiaus.org/governance-templates/ai-project-register/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "AI Incident Report Form",
+      "url": "https://safeaiaus.org/governance-templates/ai-incident-report-form/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "name": "AI Industry-Specific Risks",
+      "url": "https://safeaiaus.org/governance-templates/ai-risks-by-industry/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "name": "AI Assurance Framework",
+      "url": "https://safeaiaus.org/governance-templates/ai-assurance-transparency-auditing-reporting/"
+    }
+  ]
+}
+</script>
+
 <!-- JSON-LD: Article schema for crawlers and LLMs -->
 <script type="application/ld+json">
 {
@@ -307,6 +386,6 @@ Mechanism to capture, respond, and learn from AI-related issues.
 ---
 
 ??? note "Licence & Disclaimer"
-    **Licence:** All templates are published under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to use, adapt, and share them with attribution to SafeAI-Aus (safeaiaus.org).
+    **Licence:** All templates are published under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to use, adapt and share them with attribution to SafeAI-Aus (safeaiaus.org).
 
     **Disclaimer:** These templates provide best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.

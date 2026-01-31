@@ -1,10 +1,12 @@
 ---
 icon: lucide/map-pin
 title: "State & Territory AI Resources (Government & Statutory Bodies)"
-description: "Comprehensive guide to AI resources published by Australian states and territories. Find official government AI strategies, policies, assurance frameworks, and statutory body guidance for public sector AI use."
+description: "Comprehensive guide to AI resources published by Australian states and territories. Find official government AI strategies, policies, assurance frameworks and statutory body guidance for public sector AI use."
 keywords: "Australian state AI resources, territory AI policies, government AI strategies, NSW AI policy, Victoria AI guidance, Queensland AI framework, SA AI resources, WA AI policy, Tasmania AI guidance, ACT AI policy, NT AI framework, Australian government AI"
 author: "SafeAI-Aus"
 robots: "index, follow"
+last-reviewed: "2026-01-31"
+review-cycle: "quarterly"
 og_title: "State & Territory AI Resources (Government & Statutory Bodies)"
 og_description: "Comprehensive guide to AI resources published by Australian states and territories"
 og_type: "article"
@@ -17,17 +19,17 @@ twitter_description: "Comprehensive guide to AI resources published by Australia
 
 # State & Territory AI Resources (Government & Statutory Bodies)
 
-> **Purpose:** Directory of official state and territory AI policies, strategies, and assurance frameworks
-> **Audience:** Public sector organisations, cross-jurisdictional projects, and government vendors | **Time:** 30-45 minutes
+> **Purpose:** Directory of official state and territory AI policies, strategies and assurance frameworks
+> **Audience:** Public sector organisations, cross-jurisdictional projects and government vendors | **Time:** 30-45 minutes
 
-This page curates official, state/territory-level resources on AI for public sector use in Australia. It focuses on whole-of-government strategies and policies, AI assurance frameworks, information/privacy guidance from statutory bodies (e.g., information commissioners, ombudsmen), and records management directives. Where education-specific positions exist, they're included because they are often the most mature sector guidance.
+This page curates official, state/territory-level resources on AI for public sector use in Australia. It focuses on whole-of-government strategies and policies, AI assurance frameworks, information/privacy guidance from statutory bodies (e.g., information commissioners, ombudsmen) and records management directives. Where education-specific positions exist, they're included because they are often the most mature sector guidance.
 
 > **Last verified:** 2025-08-18 (ACST). Links point only to official government or statutory sources.
 
 ---
 
 !!! info "General Guidance"
-    State and territory resources are designed to work within each jurisdiction's legislative and policy settings. If you operate across multiple jurisdictions—or consume services from another state—start with the **local** requirements and then map to national artefacts (see **Alignment** below). Treat AI projects as **socio-technical**: combine policy, risk, privacy, security, procurement, records management, and assurance practices from the outset.
+    State and territory resources are designed to work within each jurisdiction's legislative and policy settings. If you operate across multiple jurisdictions—or consume services from another state—start with the **local** requirements and then map to national artefacts (see **Alignment** below). Treat AI projects as **socio-technical**: combine policy, risk, privacy, security, procurement, records management and assurance practices from the outset.
 
     **Note:** Policies and guidance change rapidly (especially around generative AI). Always check for the latest version and any departmental circulars or implementation notes before relying on a specific document.
 
@@ -127,17 +129,17 @@ This page curates official, state/territory-level resources on AI for public sec
     - ✅ Use the **local** state/territory policy and assurance artefacts to determine mandatory steps.
     - ✅ Map to the **national framework** to ensure consistent governance, documentation and transparency across borders.
     - ✅ Reconcile differences in privacy law, administrative law practice, procurement rules and records obligations by documenting **equivalences** and any **additional local controls**.
-    - ✅ For agencies consuming services or models hosted in another jurisdiction, require suppliers to provide evidence of **AI assurance** against both the provider's and customer's frameworks, plus **PIA/DPIA**, security risk assessment and records/disposal mapping, and a clear **ADM accountability model** (human oversight, contestability, redress).
+    - ✅ For agencies consuming services or models hosted in another jurisdiction, require suppliers to provide evidence of **AI assurance** against both the provider's and customer's frameworks, plus **PIA/DPIA**, security risk assessment and records/disposal mapping and a clear **ADM accountability model** (human oversight, contestability, redress).
 
 ---
 
 !!! info "Maintenance & Contributions"
     - Keep this page updated with the latest versions and add sector-specific positions (health, justice, education) when central agencies or statutory bodies publish them.
-    - Prefer **official** sources (government and statutory bodies). Include the document title, issuing body, version/date, and whether it is mandatory or guidance.
+    - Prefer **official** sources (government and statutory bodies). Include the document title, issuing body, version/date and whether it is mandatory or guidance.
 
 ---
 
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This directory provides links to official state and territory government AI resources. SafeAI-Aus has exercised care in curation but does not guarantee accuracy, currency, or completeness of external government resources. Policies change frequently. Always verify the latest version and applicability with the relevant government agency before relying on specific documents.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

@@ -1,0 +1,93 @@
+# SafeAI-Aus Knowledge Base Summary
+# For AI systems seeking to understand this site's content
+# Full specification: see /llms.txt for usage policies
+
+## About SafeAI-Aus
+
+SafeAI-Aus is Australia's open-source resource for safe AI adoption in business. We provide practical tools, open standards and trusted guidance for responsible AI governance.
+
+- **Website:** https://safeaiaus.org
+- **License:** CC BY 4.0 (attribution required)
+- **Focus:** Australian context, aligned with VAISS and AI6 frameworks
+- **Audience:** Australian businesses of all sizes adopting AI
+
+## Key Frameworks Referenced
+
+1. **Voluntary AI Safety Standard (VAISS)** - 10 Guardrails
+   - Australian Government's voluntary framework for safe AI
+   - Covers: Transparency, Accountability, Risk Assessment, Data Governance, Incident Response, Security, Supply Chain, Human Oversight, Governance, Lifecycle Management
+
+2. **Guidance for AI Adoption (AI6)** - 6 Essential Practices
+   - Released October 2025, updates VAISS
+   - Practices: Decide accountability, Understand impacts, Measure/manage risks, Share information, Test/monitor, Maintain human control
+
+3. **ISO/IEC 42001:2023** - AI Management System standard
+4. **NIST AI Risk Management Framework**
+5. **Australian Privacy Act 1988** - Privacy Principles
+
+## Content Sections
+
+### 1. Governance Templates (11 templates)
+Free, adaptable templates for AI governance:
+
+- **AI Use Policy** - Organisational AI governance framework
+- **AI Risk Assessment Checklist** - Pre-deployment risk evaluation
+- **AI Risk Register** - Ongoing risk tracking
+- **AI Readiness Checklist** - Organisational preparedness assessment
+- **AI Implementation Roadmap** - Phased deployment guide
+- **AI Change Management** - Stakeholder engagement and rollout
+- **AI Vendor Evaluation Checklist** - Third-party assessment
+- **AI Project Register** - Central AI initiative tracking
+- **AI Incident Report Form** - Issue capture and learning
+- **AI Industry-Specific Risks** - Sector risk examples
+- **AI Assurance Framework** - Transparency, auditing, reporting
+
+### 2. Safety Standards
+Australian and international AI regulatory guidance:
+
+- **Australian AI Legislation** - Privacy Act, Consumer Law, Discrimination Law
+- **VAISS 10 Guardrails** - Detailed implementation guidance
+- **AI6 Essential Practices** - Current government framework
+- **International AI Legal Overview** - EU AI Act, US, UK, Singapore
+
+### 3. Business Resources
+Practical adoption support:
+
+- **Safe AI Adoption Guide** - Where to start, what to avoid
+- **AI Grants & Funding** - Australian government opportunities
+- **Tools & Frameworks** - Recommended AI tools
+- **State & Territory Resources** - Local government programs
+- **Learning Directory** - Training and education resources
+
+### 4. Resources
+- **Glossary** - AI terminology definitions
+- **Australian AI Community** - Groups, networks, research institutions
+
+## Common Use Cases This Content Supports
+
+1. Drafting AI governance policies for Australian organisations
+2. Conducting AI risk assessments
+3. Understanding Australian AI regulatory landscape
+4. Evaluating AI vendors and tools
+5. Planning AI implementation with appropriate guardrails
+6. Training staff on responsible AI practices
+
+## Important Disclaimers (Must Include When Using)
+
+1. SafeAI-Aus content is general information, not legal or professional advice
+2. Australian AI laws change frequently; verify currency against primary sources
+3. Templates require adaptation to each organisation's context
+4. SafeAI-Aus is independent, not an Australian Government agency
+
+## Attribution Requirement
+
+When using this content, attribute as:
+"Source: SafeAI-Aus (safeaiaus.org), licensed CC BY 4.0"
+
+## Contact
+
+- Email: contact@safeaiaus.org
+- GitHub: github.com/safeai-aus/safeai-aus.github.io
+
+---
+Last updated: 2026-01-31

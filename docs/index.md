@@ -1,15 +1,15 @@
 ---
 icon: lucide/home
-title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
-description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely and responsibly. Free AI governance templates, risk assessments, and compliance checklists."
-keywords: "AI safety, Australian AI standards, AI governance, AI risk assessment, AI compliance, AI safety templates, Australian business AI, AI safety Australia, AI governance templates, AI risk management"
+title: "SafeAI-Aus: Australia's AI Safety Resource"
+description: "Practical tools, open standards and trusted guidance for Australian businesses adopting AI safely. Free governance templates, risk assessments and compliance checklists."
+keywords: "AI safety, Australian AI standards, AI governance, AI risk assessment, AI compliance, AI safety templates, Australian business AI, AI safety Australia, AI governance templates, AI risk management, free AI templates, responsible AI Australia, AI policy Australia, AI for small business"
 author: "SafeAI-Aus"
-og_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
-og_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
+og_title: "SafeAI-Aus: Australia's AI Safety Resource"
+og_description: "Practical tools, open standards and trusted guidance for Australian businesses adopting AI safely"
 og_url: "https://safeaiaus.org/"
 og_image: "assets/safeaiaus-logo-600px.png"
-twitter_title: "SafeAI-Aus: Australia's AI Safety Knowledge Hub"
-twitter_description: "Practical tools, open standards, and trusted guidance for Australian businesses to adopt AI safely"
+twitter_title: "SafeAI-Aus: Australia's AI Safety Resource"
+twitter_description: "Practical tools, open standards and trusted guidance for Australian businesses adopting AI safely"
 hide:
   - navigation
   - toc
@@ -19,7 +19,7 @@ hide:
 
 # Safe AI. Stronger Australia.
 
-### Australia's trusted resource for safe and responsible AI adoption
+### Australia's trusted resource for safe AI adoption
 
 <div class="hero-buttons" markdown>
 [Get Started :material-arrow-right:](business-resources/safe-ai-adoption-getting-started.md){ .md-button .md-button--primary }
@@ -38,7 +38,7 @@ hide:
 
     ---
 
-    Practical guide for organisations beginning their AI journey
+    Practical guide for organisations beginning AI adoption
 
     [:octicons-arrow-right-24: Getting Started Guide](business-resources/safe-ai-adoption-getting-started.md)
 
@@ -76,17 +76,17 @@ hide:
 
 <div class="value-prop" markdown>
 ### :material-check-decagram: Guidelines & Standards
-Best practices aligned with the Australian Voluntary AI Safety Standard and Guidance for AI Adoption (AI6)
+Aligned with VAISS and AI6 guidance
 </div>
 
 <div class="value-prop" markdown>
 ### :material-clipboard-check: Governance Templates
-AI use policies, risk assessments, incident forms, vendor evaluation tools, and readiness checklists
+AI use policies, risk assessments, incident forms, vendor evaluation tools and readiness checklists
 </div>
 
 <div class="value-prop" markdown>
 ### :material-library: Curated Resources
-Reports, frameworks, tools, and learning materials relevant to AI adoption in Australia
+Reports, frameworks, tools and learning materials relevant to AI adoption in Australia
 </div>
 
 </div>
@@ -178,7 +178,7 @@ Subscribe for practical tools to make AI safe — and work for your growth.
 
 This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-All content is freely available, adaptable, and community-contributed.
+All content is freely available, adaptable and community-contributed.
 
 [Learn More About Our Mission :material-arrow-right:](about.md){ .md-button }
 
@@ -192,7 +192,7 @@ All content is freely available, adaptable, and community-contributed.
   "name": "SafeAI-Aus",
   "alternateName": "SafeAI Australia",
   "url": "https://safeaiaus.org/",
-  "description": "Australian AI Safety Knowledge Hub — practical tools, open standards, and trusted guidance for responsible AI adoption.",
+  "description": "Australia's AI safety resource — practical tools, open standards and trusted guidance for responsible AI adoption.",
   "inLanguage": "en-AU",
   "publisher": {
     "@type": "Organization",

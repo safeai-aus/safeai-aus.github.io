@@ -1,20 +1,35 @@
 ---
 icon: lucide/external-link
+title: "Australian AI Community - Networks, Groups & Resources"
+description: "Connect with Australian AI safety groups, digital rights advocates, research institutions and international AI governance resources. Curated directory for AI professionals."
+keywords: "Australian AI community, AI safety Australia, AI research groups, digital rights Australia, AI networks, Australian tech community, AI meetups Australia, AI governance resources"
+author: "SafeAI-Aus"
+robots: "index, follow"
+og_title: "Australian AI Community - Networks & Resources"
+og_description: "Connect with Australian AI safety groups, research institutions and international resources"
+og_type: "article"
+og_url: "https://safeaiaus.org/resources/australian-ai-community/"
+og_image: "assets/safeaiaus-logo-600px.png"
+twitter_card: "summary_large_image"
+twitter_title: "Australian AI Community - Networks & Resources"
+twitter_description: "Connect with Australian AI safety groups, research institutions and international resources"
+last-reviewed: "2026-01-31"
+review-cycle: "quarterly"
 tags:
   - Resources
 ---
 
 # Australian AI Community
 
-> **Purpose:** Connect with Australian AI safety groups, research institutions, and international resources
+> **Purpose:** Connect with Australian AI safety groups, research institutions and international resources
 > **Audience:** Researchers, community members, professionals seeking AI safety networks | **Time:** 15-20 minutes browsing
 
-This page provides curated Australian and international resources for AI safety, governance, and community engagement. SafeAI-Aus focuses on Australian context while pointing you to relevant global expertise.
+This page provides curated Australian and international resources for AI safety, governance and community engagement. SafeAI-Aus focuses on Australian context while pointing you to relevant global expertise.
 
 !!! note "About this resource list"
 
     **Last reviewed:** January 2026
-    **Focus:** Australian AI community groups, digital rights organisations, and relevant international AI safety resources
+    **Focus:** Australian AI community groups, digital rights organisations and relevant international AI safety resources
     **Maintenance:** Resources are periodically reviewed for accuracy. If you find broken links or outdated information, please let us know.
     **Not endorsements:** Inclusion doesn't constitute endorsement of all positions. These are starting points for your own investigation.
 
@@ -39,7 +54,7 @@ This page provides curated Australian and international resources for AI safety,
 ### University and Research Groups
 
 - [CSIRO's Data61](https://data61.csiro.au/) — Australia's data and digital research network, including AI research
-- [ANU Integrated AI Network](https://ai.anu.edu.au/) — Interdisciplinary AI research across computing, science, and social domains
+- [ANU Integrated AI Network](https://ai.anu.edu.au/) — Interdisciplinary AI research across computing, science and social domains
 - [University of Melbourne](https://www.unimelb.edu.au/) — AI research and education programs across engineering and computing
 - [UNSW Sydney](https://www.unsw.edu.au/) — AI research through School of Computer Science and Engineering
 
@@ -186,7 +201,7 @@ For comprehensive, current grant opportunities, see the [Business Resources: AI 
 
 !!! note "About this list"
 
-    **Australian focus:** This list prioritizes Australian AI community groups, local research institutions, and resources with Australian context.
+    **Australian focus:** This list prioritizes Australian AI community groups, local research institutions and resources with Australian context.
 
     **Periodic review:** Resources are reviewed and updated as the landscape evolves. **Last reviewed:** January 2026.
 
@@ -200,12 +215,12 @@ For comprehensive, current grant opportunities, see the [Business Resources: AI 
 
 !!! tip "Getting the Most from This List"
 
-    **Start with Australian organisations** — Local groups like AI Safety Australia, Melbourne AI Safety, and university research centers understand Australian context, regulations, and community needs.
+    **Start with Australian organisations** — Local groups like AI Safety Australia, Melbourne AI Safety and university research centers understand Australian context, regulations and community needs.
 
     **Connect with local AI safety communities** — Attend meetups in Melbourne, Sydney, or your city. Online communities are valuable but local connections matter for practical collaboration.
 
     **Government resources are authoritative** — For Australian AI policy and standards, prioritize official sources (DISR, Australian AI Safety Institute, state government frameworks).
 
-    **International research informs local action** — Global AI safety research from Anthropic, DeepMind, and research institutes provides technical foundations, but implementation requires Australian adaptation.
+    **International research informs local action** — Global AI safety research from Anthropic, DeepMind and research institutes provides technical foundations, but implementation requires Australian adaptation.
 
-    **Combine technical and policy perspectives** — Effective AI governance integrates technical AI safety knowledge with local policy, legal requirements, and community engagement.
+    **Combine technical and policy perspectives** — Effective AI governance integrates technical AI safety knowledge with local policy, legal requirements and community engagement.

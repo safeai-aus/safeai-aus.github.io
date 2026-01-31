@@ -1,26 +1,28 @@
 ---
 icon: lucide/dollar-sign
 title: "AI Grants and Funding Opportunities for Australian Businesses"
-description: "Comprehensive guide to AI grants, funding programs, and financial support available for Australian businesses implementing AI responsibly. Includes federal, state, and industry programs."
+description: "Comprehensive guide to AI grants, funding programs and financial support available for Australian businesses implementing AI responsibly. Includes federal, state and industry programs."
 keywords: "AI grants Australia, AI funding Australia, AI business grants, Australian AI funding, AI government grants, AI business support, AI investment Australia, AI startup funding"
 author: "SafeAI-Aus"
 robots: "index, follow"
+last-reviewed: "2026-01-31"
+review-cycle: "quarterly"
 og_title: "AI Grants and Funding Opportunities for Australian Businesses"
-og_description: "Comprehensive guide to AI grants, funding programs, and financial support for Australian businesses"
+og_description: "Comprehensive guide to AI grants, funding programs and financial support for Australian businesses"
 og_type: "article"
 og_url: "https://safeaiaus.org/business-resources/ai-grants-funding-australia/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Grants and Funding Opportunities for Australian Businesses"
-twitter_description: "Comprehensive guide to AI grants, funding programs, and financial support for Australian businesses"
+twitter_description: "Comprehensive guide to AI grants, funding programs and financial support for Australian businesses"
 ---
 
 # AI Grants and Funding Opportunities for Australian Businesses
 
-> **Purpose:** Comprehensive directory of AI grants, funding programs, and financial support for Australian organisations
-> **Audience:** Business owners, CFOs, project managers, and grant applicants | **Time:** 30-45 minutes
+> **Purpose:** Comprehensive directory of AI grants, funding programs and financial support for Australian organisations
+> **Audience:** Business owners, CFOs, project managers and grant applicants | **Time:** 30-45 minutes
 
-AI is reshaping industries across Australia. To support businesses in responsibly adopting and scaling AI, a mix of government grants, research programs, and industry‑backed accelerators are available. This article provides a consolidated overview of the most relevant opportunities for Australian businesses today.
+AI is reshaping industries across Australia. To support businesses in responsibly adopting and scaling AI, a mix of government grants, research programs and industry‑backed accelerators are available. This article provides a consolidated overview of the most relevant opportunities for Australian businesses today.
 
 ---
 
@@ -36,14 +38,14 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 ### AI and Digital Capability Centres
 
 - The Australian Government allocated **$44 million** to establish four AI and Digital Capability Centres.
-- Grants of up to **$11 million** each, designed to help SMEs access AI training, services, and commercialisation pathways.
+- Grants of up to **$11 million** each, designed to help SMEs access AI training, services and commercialisation pathways.
 - Program **concluded**, but may return in future iterations.
 - ➡️ [Source](https://www.industry.gov.au/news/funding-available-ai-and-digital-capability-centres)
 
 ### Catalysing the AI Opportunity in Our Regions
 
 - Competitive grants between **$250,000 and $500,000** for regional businesses to develop and demonstrate AI solutions.
-- Required matched co‑funding, and ran across three rounds.
+- Required matched co‑funding and ran across three rounds.
 - Program **concluded**.
 - ➡️ [Program details](https://business.gov.au/grants-and-programs/catalysing-the-artificial-intelligence-opportunity-in-our-regions-round-1?)
 
@@ -102,7 +104,7 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 ### South Australia: $28 Million AI Initiative (2025-2029)
 
 - **$7 million annually** for proof‑of‑value trials.
-- Focused on **healthcare, policing, allied health, social work, and legal/financial services**.
+- Focused on **healthcare, policing, allied health, social work and legal/financial services**.
 - Supports public sector AI adoption while safeguarding jobs.
 - Program is **active** with funding profiled **from 2025–26 to 2028–29**, as set out in the **2024–25 South Australian State Budget** (Budget Paper 4: Agency Statements – Department of the Premier and Cabinet, released 6 May 2024).
 - ➡️ [Budget Paper 4: Agency Statements (2024–25 SA State Budget)](https://www.treasury.sa.gov.au/statebudget/2024-25/budget-papers)
@@ -176,14 +178,14 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 
 ### Innovation Collaboration Centre (ICC, Adelaide)
 
-- Incubator at UniSA, supporting startups with mentoring, space, and growth programs since 2015.
+- Incubator at UniSA, supporting startups with mentoring, space and growth programs since 2015.
 - Program is **active**.
 - ➡️ [About ICC](https://icc.unisa.edu.au/)
 
 ### Australian Cyber Collaboration Centre (Aus3C, Adelaide)
 
 - Not‑for‑profit based at Lot Fourteen, opened in 2020.
-- SA Government‑funded, supporting industry with cybersecurity training, standards, and collaboration.
+- SA Government‑funded, supporting industry with cybersecurity training, standards and collaboration.
 - Program is **active**.
 - ➡️ [Aus3C](https://www.cybercollaboration.org.au/a3c-launch1/)
 
@@ -357,4 +359,4 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This directory provides information about AI grants and funding opportunities for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, currency, or completeness of program details, eligibility criteria, or funding amounts. Programs change frequently. Always verify current status, eligibility and application requirements with the relevant funding body before applying.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

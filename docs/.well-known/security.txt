@@ -1,4 +1,11 @@
-Contact: mailto:security@safeaiaus.org
-Expires: 2026-12-31T23:59:59.000Z
+# SafeAI-Aus Security Contact
+# This file follows the security.txt specification: https://securitytxt.org/
+
+Contact: mailto:contact@safeaiaus.org
+Expires: 2027-01-31T00:00:00.000Z
 Preferred-Languages: en
 Canonical: https://safeaiaus.org/.well-known/security.txt
+
+# SafeAI-Aus is an open-source community project.
+# For security concerns related to the website or content, please email us.
+# For AI safety concerns, see our resources at https://safeaiaus.org/

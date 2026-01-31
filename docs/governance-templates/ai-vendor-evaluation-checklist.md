@@ -1,8 +1,8 @@
 ---
 icon: lucide/user-check
 title: "AI Vendor Evaluation Checklist"
-description: "Comprehensive AI vendor evaluation checklist for Australian businesses. Assess third-party AI suppliers for safety, compliance, security, and alignment with Australian AI standards."
-keywords: "AI vendor evaluation, AI supplier checklist, AI vendor assessment, AI procurement checklist, AI vendor compliance, Australian AI standards, AI vendor safety, build vs buy"
+description: "Comprehensive AI vendor evaluation checklist for Australian businesses. Assess third-party AI suppliers for safety, compliance, security and alignment with Australian AI standards."
+keywords: "AI vendor evaluation, AI supplier checklist, AI vendor assessment, AI procurement checklist, AI vendor compliance, Australian AI standards, AI vendor safety, build vs buy AI, AI procurement Australia, free AI vendor checklist"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Vendor Evaluation Checklist"
@@ -13,27 +13,34 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Vendor Evaluation Checklist"
 twitter_description: "Comprehensive AI vendor evaluation checklist for Australian businesses"
+faq:
+  - question: "What should I look for when evaluating an AI vendor?"
+    answer: "Key areas include: compliance with Australian privacy laws, data handling and security practices, model transparency and explainability, support and SLAs, alignment with VAISS guardrails, and whether data stays in Australia."
+  - question: "Should we build or buy AI solutions?"
+    answer: "Consider buying when you need proven, low-risk solutions with vendor support. Consider building when you need deep customisation, competitive advantage, or have specific data security requirements."
+  - question: "How long does an AI vendor evaluation take?"
+    answer: "A thorough evaluation typically takes 1-2 hours per vendor using this checklist, plus time for reference checks and proof of concept testing for shortlisted vendors."
 ---
 
 # AI Vendor Evaluation Checklist
 
-> **Purpose:** Assess third-party AI suppliers for safety, compliance, security, and standards alignment
+> **Purpose:** Assess third-party AI suppliers for safety, compliance, security and standards alignment
 > **Audience:** Procurement teams, IT leaders, risk managers, compliance officers | **Time:** 1-2 hours per vendor
 
-Selecting the right AI vendor is critical for managing risk and ensuring safe, ethical, and productive use of AI in your business. This checklist helps Australian organisations assess potential AI vendors against industry standards, legal requirements, and best practices.
+Selecting the right AI vendor is critical for managing risk and ensuring safe, productive AI use. This checklist helps Australian organisations assess AI vendors against industry standards and legal requirements.
 
 Using this evaluation process supports stronger AI governance by:
 
 - Reducing risks from unverified or non-compliant AI products
-- Ensuring transparency, accountability, and security in AI procurement
-- Building trust with customers, regulators, and partners
+- Ensuring transparency, accountability and security in AI procurement
+- Building trust with customers, regulators and partners
 
 !!! info "When to Use This Checklist"
     - 🆕 **Onboarding a new AI vendor**
     - 🔄 **Renewing or extending existing vendor contracts**
     - ⬆️ **Reviewing AI products that have undergone significant updates**
 
-    Work through each section, seek evidence from the vendor, and record your findings. Where needed, consult legal, risk, or IT experts before approving an AI vendor.
+    Work through each section, seek evidence from the vendor and record your findings. Where needed, consult legal, risk, or IT experts before approving an AI vendor.
 
 ---
 
@@ -59,7 +66,7 @@ For Australian SMEs, buying pre-built AI solutions is usually the right choice:
 - You're past the pilot stage with clear, proven requirements from successful vendor tools
 - You have budget for both initial development and ongoing maintenance
 
-**Reality check:** Even large organisations with substantial tech teams often buy rather than build for AI tools. The technology is evolving too quickly, and maintaining custom AI systems requires significant ongoing effort.
+**Reality check:** Even large organisations with substantial tech teams often buy rather than build for AI tools. The technology is evolving too quickly and maintaining custom AI systems requires significant ongoing effort.
 
 ---
 
@@ -88,13 +95,13 @@ For Australian SMEs, buying pre-built AI solutions is usually the right choice:
 
     Cannot provide Australian customers, especially in your sector. Only offers international references.
 
-    **Why it matters:** Australian regulatory environment, business practices, and language nuances matter. Vendors without Australian experience may not understand local compliance requirements.
+    **Why it matters:** Australian regulatory environment, business practices and language nuances matter. Vendors without Australian experience may not understand local compliance requirements.
 
     **5. Is unclear about data handling**
 
     Vague about data storage location, can't explain who accesses your data, unclear about data usage (training models? sharing?), or has no clear data export/deletion process.
 
-    **Why it matters:** Data sovereignty, privacy compliance, and vendor lock-in risks all depend on clear data handling terms.
+    **Why it matters:** Data sovereignty, privacy compliance and vendor lock-in risks all depend on clear data handling terms.
 
     **6. Demands heavy lock-in with no trial**
 
@@ -156,7 +163,7 @@ For Australian SMEs, buying pre-built AI solutions is usually the right choice:
 ## Detailed Evaluation Sections
 
 ### 1. Vendor Information
-Record vendor details including name, ABN/ACN, headquarters, key contacts, and years in operation.
+Record vendor details including name, ABN/ACN, headquarters, key contacts and years in operation.
 
 **Key questions:**
 
@@ -171,8 +178,8 @@ Outline the AI products or services provided, including version numbers and inte
 
 **Key questions:**
 
-- What exactly does the AI do, and what are its limitations?
-- What decisions does it make, and which require human review?
+- What exactly does the AI do and what are its limitations?
+- What decisions does it make and which require human review?
 - What happens when it's uncertain or makes an error?
 - Can you show us a realistic demo with our type of data?
 
@@ -191,7 +198,7 @@ List certifications (ISO/IEC 23894, ISO/IEC 42001, SOC 2) and confirm regulatory
 *Sources: Guardrail 7; ISO/IEC 42001*
 
 ### 4. Data Governance
-Check vendor policies on data handling, privacy protection, IP safeguards, and data provenance.
+Check vendor policies on data handling, privacy protection, IP safeguards and data provenance.
 
 **Key questions:**
 
@@ -204,7 +211,7 @@ Check vendor policies on data handling, privacy protection, IP safeguards, and d
 *Sources: Privacy Act 1988 (APPs); Guardrails 4 & 7*
 
 ### 5. Security Practices
-Assess cybersecurity measures, vulnerability management, and penetration testing frequency.
+Assess cybersecurity measures, vulnerability management and penetration testing frequency.
 
 **Key questions:**
 
@@ -216,19 +223,19 @@ Assess cybersecurity measures, vulnerability management, and penetration testing
 *Sources: Guardrail 5; ACSC Essential Eight*
 
 ### 6. Model Development & Testing
-Request information on training data, bias mitigation, validation, and explainability features.
+Request information on training data, bias mitigation, validation and explainability features.
 
 **Key questions:**
 
 - How was the AI model trained and on what data?
-- What testing have you done for bias, accuracy, and reliability?
+- What testing have you done for bias, accuracy and reliability?
 - Can we audit the AI's decisions or see how it reached a conclusion?
 - How do you handle model updates? (Testing before production)
 
 *Sources: Guardrails 6 & 9; NIST AI RMF*
 
 ### 7. Human Oversight & Support
-Review the level of human oversight in operations, escalation paths, and customer support availability.
+Review the level of human oversight in operations, escalation paths and customer support availability.
 
 **Key questions:**
 
@@ -240,7 +247,7 @@ Review the level of human oversight in operations, escalation paths, and custome
 *Sources: Guardrail 8; Australian AI Ethics Principle: Accountability*
 
 ### 8. Incident Management
-Confirm the vendor's process for incident reporting, investigation, and resolution timelines.
+Confirm the vendor's process for incident reporting, investigation and resolution timelines.
 
 **Key questions:**
 
@@ -252,11 +259,11 @@ Confirm the vendor's process for incident reporting, investigation, and resoluti
 *Sources: Guardrail 10; ISO/IEC 27035*
 
 ### 9. Contractual Safeguards
-Review liability clauses, service-level agreements, IP ownership terms, and termination rights.
+Review liability clauses, service-level agreements, IP ownership terms and termination rights.
 
 **Key questions:**
 
-- What's the total cost including setup, training, and ongoing fees?
+- What's the total cost including setup, training and ongoing fees?
 - What's the minimum contract term? Is there a trial period?
 - Can we pilot before committing to a long contract?
 - What are the exit costs or data export fees?
@@ -265,7 +272,7 @@ Review liability clauses, service-level agreements, IP ownership terms, and term
 *Sources: Australian Consumer Law; Contract Law*
 
 ### 10. References & Track Record
-Check customer references, case studies, and the vendor's history of regulatory compliance.
+Check customer references, case studies and the vendor's history of regulatory compliance.
 
 **Key questions:**
 
@@ -361,7 +368,7 @@ Maintain an audit trail and governance record for all vendor evaluation decision
 
         ✓ **Guardrail 3 – Data protection & security** — Sections 4-5 ("Data Governance" and "Security Practices") verify vendors have appropriate data and security controls
 
-        ✓ **Guardrail 6 – Testing & assurance** — Section 6 checks vendors have adequately tested models for bias, robustness, and accuracy
+        ✓ **Guardrail 6 – Testing & assurance** — Section 6 checks vendors have adequately tested models for bias, robustness and accuracy
 
         ✓ **Guardrail 1 – Accountability** — Section 9 ("Contractual Safeguards") ensures legal and operational accountability is defined in vendor contracts
 
@@ -381,4 +388,4 @@ Maintain an audit trail and governance record for all vendor evaluation decision
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

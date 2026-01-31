@@ -147,6 +147,7 @@
         "@type": "HowTo",
         "name": {{ howto_name | tojson }},
         "description": {{ howto_description | tojson }},
+        {% if meta.howto.totalTime %}"totalTime": {{ meta.howto.totalTime | tojson }},{% endif %}
         "step": [
           {% for step in howto_steps %}
           {
@@ -160,6 +161,7 @@
       </script>
     {% endif %}
   {% endif %}
+
 {% endblock %}
 
 {% block content %}

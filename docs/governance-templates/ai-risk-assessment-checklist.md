@@ -1,18 +1,44 @@
 ---
 icon: lucide/alert-triangle
 title: "AI Risk Assessment Checklist"
-description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment. Ensure compliance with safety standards and reduce legal risks."
-keywords: "AI risk assessment, AI risk checklist, AI risk management, AI safety assessment, AI risk mitigation, Australian AI safety, AI risk evaluation"
+description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate and mitigate AI risks before deployment. Ensure compliance with safety standards and reduce legal risks."
+keywords: "AI risk assessment, AI risk checklist, AI risk management, AI safety assessment, AI risk mitigation, Australian AI safety, AI risk evaluation, free AI risk assessment template, AI compliance checklist, AI risk framework"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Risk Assessment Checklist"
-og_description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment."
+og_description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate and mitigate AI risks before deployment."
 og_type: "article"
 og_url: "https://safeaiaus.org/governance-templates/ai-risk-assessment-checklist/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Risk Assessment Checklist"
-twitter_description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate, and mitigate AI risks before deployment."
+twitter_description: "Download our free AI risk assessment checklist for Australian businesses. Step-by-step guide to identify, evaluate and mitigate AI risks before deployment."
+faq:
+  - question: "What is AI risk assessment?"
+    answer: "AI risk assessment is a structured process to identify, evaluate and mitigate potential risks from AI systems before and during deployment. It covers data governance, security, human oversight, testing and ongoing monitoring."
+  - question: "When should we conduct an AI risk assessment?"
+    answer: "Conduct risk assessments before deploying any AI system, when making significant changes, and periodically during operation. Higher-risk AI (e.g. automated decisions about people) requires more frequent assessment."
+  - question: "What risks should we assess for AI systems?"
+    answer: "Key risk categories include: data quality and bias, privacy and security, safety and reliability, transparency and explainability, legal and regulatory compliance, and supply chain dependencies."
+  - question: "Is this checklist free to use?"
+    answer: "Yes. This checklist is licensed under CC BY 4.0. You may copy, adapt and use it commercially with attribution to SafeAI-Aus."
+howto:
+  name: "How to Conduct an AI Risk Assessment"
+  description: "Step-by-step guide to systematically evaluate AI risks before deployment"
+  totalTime: "PT2H"
+  steps:
+    - name: "Assemble your team"
+      text: "Gather a cross-functional team including technical, legal and compliance representatives for medium to high-risk systems."
+    - name: "Define the AI system"
+      text: "Clearly document what the AI system will do, its intended benefits and alignment with organisational goals."
+    - name: "Classify the risk level"
+      text: "Evaluate potential harm if the AI fails and classify as Low, Medium or High impact."
+    - name: "Assess each risk domain"
+      text: "Work through data governance, security, human oversight, testing and monitoring sections sequentially."
+    - name: "Calculate risk scores"
+      text: "Use the quantitative scoring framework to calculate probability × impact for each identified risk."
+    - name: "Develop mitigations"
+      text: "Create a mitigation plan for high-risk items and obtain appropriate sign-off before deployment."
 ---
 
 # AI Risk Assessment Checklist
@@ -224,7 +250,7 @@ This checklist implements key requirements from Australian AI frameworks:
         ✓ **Maintain human control** — Section 5 checks for human-in-the-loop mechanisms
 
     === "Voluntary AI Safety Standard (10 Guardrails)"
-        ✓ **Guardrail 2 – Risk management** — Primary implementation tool for identifying, assessing, and mitigating risks
+        ✓ **Guardrail 2 – Risk management** — Primary implementation tool for identifying, assessing and mitigating risks
 
         ✓ **Guardrail 5 – Human control** — Section 5 addresses oversight and intervention requirements
 
@@ -268,7 +294,7 @@ This checklist is guided by:
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
 
 ---
 

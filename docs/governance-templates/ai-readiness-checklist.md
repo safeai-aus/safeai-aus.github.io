@@ -1,8 +1,8 @@
 ---
 icon: lucide/clipboard-check
 title: "AI Readiness Checklist for Australian Businesses"
-description: "Comprehensive AI readiness checklist for Australian businesses. Assess your organisation's preparedness for safe, responsible, and effective AI adoption with our step-by-step evaluation tool."
-keywords: "AI readiness checklist, Australian business AI, AI adoption checklist, AI governance checklist, AI safety checklist, AI risk assessment, AI readiness assessment, Australian AI standards, AI implementation checklist"
+description: "Comprehensive AI readiness checklist for Australian businesses. Assess your organisation's preparedness for safe, responsible and effective AI adoption with our step-by-step evaluation tool."
+keywords: "AI readiness checklist, Australian business AI, AI adoption checklist, AI governance checklist, AI safety checklist, AI risk assessment, AI readiness assessment, Australian AI standards, AI implementation checklist, free AI checklist"
 author: "SafeAI-Aus"
 robots: "index, follow"
 og_title: "AI Readiness Checklist for Australian Businesses"
@@ -13,12 +13,21 @@ og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
 twitter_title: "AI Readiness Checklist for Australian Businesses"
 twitter_description: "Comprehensive AI readiness checklist for Australian businesses"
+faq:
+  - question: "What is an AI readiness assessment?"
+    answer: "An AI readiness assessment evaluates whether your organisation has the governance, data, technical capabilities and culture needed to adopt AI safely and effectively."
+  - question: "How long does an AI readiness assessment take?"
+    answer: "This checklist takes 15-30 minutes to complete. For a thorough team discussion, allow 1-2 hours to work through all sections together."
+  - question: "What score indicates we're ready for AI?"
+    answer: "Organisations scoring 70% or higher are generally well-positioned to begin AI adoption. Those below 50% should focus on building foundational capabilities first."
+  - question: "Is this checklist free to use?"
+    answer: "Yes. This checklist is licensed under CC BY 4.0. You may copy, adapt and use it commercially with attribution to SafeAI-Aus."
 ---
 
 # AI Readiness Checklist
 
 > **Purpose:** Assess your organisation's preparedness for safe AI adoption
-> **Audience:** Leadership, governance, and technical teams | **Time:** 15-30 minutes
+> **Audience:** Leadership, governance and technical teams | **Time:** 15-30 minutes
 
 !!! tip "How to Use This Checklist"
     1. Print or share this checklist with stakeholders
@@ -29,7 +38,7 @@ twitter_description: "Comprehensive AI readiness checklist for Australian busine
     6. Identify priority gaps to address
     7. Create an action plan for unchecked items with owners and timeframes
 
-This checklist helps Australian businesses decide if they are ready to adopt AI safely, responsibly, and effectively.
+This checklist helps Australian businesses decide if they are ready to adopt AI safely, responsibly and effectively.
 
 This checklist reflects the **AI6 Essential Practices** released by the Australian Government and aligns with international frameworks such as **ISO/IEC 42001:2023** and the **NIST AI Risk Management Framework**.
 
@@ -65,12 +74,12 @@ Tick the boxes that apply to your organisation. A higher score means greater rea
 
 ### 5️⃣ Testing & Monitoring
 - [ ] Pre-deployment testing (performance, fairness, robustness)
-- [ ] Ongoing monitoring for errors, drift, and safety
-- [ ] Records kept of models, prompts, and key decisions
+- [ ] Ongoing monitoring for errors, drift and safety
+- [ ] Records kept of models, prompts and key decisions
 
 ### 6️⃣ Suppliers & Partners
 - [ ] Vendors align with Australia's 10 Guardrails
-- [ ] Contracts cover privacy, IP, and security requirements
+- [ ] Contracts cover privacy, IP and security requirements
 - [ ] Regular review of vendor practices and updates
 
 ### 7️⃣ Financial & Resource Readiness
@@ -163,4 +172,4 @@ This checklist helps you verify compliance with key Australian AI frameworks:
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This template provides best practice guidance for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. Organisations should adapt to their specific context and may wish to seek advice from legal, governance, or compliance professionals before formal adoption.
 
-    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
+    **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

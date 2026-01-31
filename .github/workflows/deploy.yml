@@ -24,7 +24,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -34,7 +34,8 @@ jobs:
       - name: Generate sitemap.xml
         run: |
           python - << 'PY'
-          import os, re
+          import os
+          from datetime import datetime
           import tomllib
           import xml.etree.ElementTree as ET
 
@@ -52,9 +53,12 @@ jobs:
               for name in files:
                   if not name.endswith('.html'):
                       continue
-                  rel_path = os.path.relpath(os.path.join(root, name), site_dir)
+                  file_path = os.path.join(root, name)
+                  rel_path = os.path.relpath(file_path, site_dir)
                   if rel_path == '404.html':
                       continue
+
+                  # Build URL
                   loc = base_url
                   if rel_path == 'index.html':
                       pass
@@ -63,11 +67,43 @@ jobs:
                       if rel_url.endswith('/index.html'):
                           rel_url = rel_url[:-10]
                       loc += rel_url
+
                   url = ET.SubElement(urlset, 'url')
                   ET.SubElement(url, 'loc').text = loc
 
+                  # Add lastmod from file modification time
+                  mtime = os.path.getmtime(file_path)
+                  lastmod = datetime.fromtimestamp(mtime).strftime('%Y-%m-%d')
+                  ET.SubElement(url, 'lastmod').text = lastmod
+
+                  # Add priority based on path
+                  if rel_path == 'index.html':
+                      priority = '1.0'
+                  elif 'governance-templates' in rel_path or 'safety-standards' in rel_path:
+                      priority = '0.8'
+                  elif 'business-resources' in rel_path:
+                      priority = '0.7'
+                  else:
+                      priority = '0.5'
+                  ET.SubElement(url, 'priority').text = priority
+
+                  # Add changefreq
+                  ET.SubElement(url, 'changefreq').text = 'monthly'
+
           ET.ElementTree(urlset).write(os.path.join(site_dir, 'sitemap.xml'), encoding='utf-8', xml_declaration=True)
           PY
+      - name: Copy root-level files
+        run: |
+          cp robots.txt site/
+          cp llms.txt site/
+          cp llms-full.txt site/
+      - name: Verify build
+        run: |
+          test -f site/index.html || { echo "Error: site/index.html not found"; exit 1; }
+          test -f site/sitemap.xml || { echo "Error: site/sitemap.xml not found"; exit 1; }
+          test -f site/robots.txt || { echo "Error: site/robots.txt not found"; exit 1; }
+          test -f site/llms.txt || { echo "Error: site/llms.txt not found"; exit 1; }
+          echo "Build verification passed"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

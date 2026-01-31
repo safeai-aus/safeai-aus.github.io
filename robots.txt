@@ -9,3 +9,30 @@ Sitemap: https://safeaiaus.org/sitemap.xml
 
 # Crawl delay (optional, helps with server load)
 Crawl-delay: 1
+
+# AI crawlers - explicitly allow
+# See /llms.txt for AI model training policies and attribution requirements
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
