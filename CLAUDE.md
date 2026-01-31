@@ -280,3 +280,10 @@ nav = [
   - OpenGraph images MUST use absolute URLs: `https://safeaiaus.org/assets/image.png`
   - Pages with time-sensitive info (grants, legislation) need periodic review
   - Navigation structure is in `zensical.toml`, not file structure
+
+- **Local Working Directories (Not Tracked in Git):**
+  - `working/` - Local working files, drafts, planning documents
+  - `tmp/` - Temporary files (screenshots, build artifacts)
+  - `.venv-py312/` - Python virtual environment
+  - `.claude/settings.local.json` - Claude Code local settings
+  - All above are in `.gitignore` and should never be committed
