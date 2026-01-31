@@ -26,6 +26,9 @@ While Australia doesn't yet have AI-specific legislation, AI use is already gove
 
 In 2024 the Government released proposals for mandatory guardrails for high-risk AI applications alongside a Voluntary AI Safety Standard. In October 2025 the National AI Centre (NAIC) published updated **Guidance for AI Adoption**, which sets out six essential practices (AI6) and is now the primary government guidance for responsible AI governance and adoption. In December 2025 the **National AI Plan** confirmed that, for now, Australia will rely on **existing laws and sector regulators, supported by voluntary guidance and a new AI Safety Institute**, rather than introducing a standalone AI Act or immediate mandatory guardrails.
 
+!!! note "Policy is evolving"
+    The Australian AI policy landscape is changing rapidly. The information below reflects the position as of January 2026. Monitor [industry.gov.au/ai](https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence) and the AI Safety Institute for updates.
+
 !!! info "Why This Matters"
     Understanding the current legal landscape helps organisations:
 

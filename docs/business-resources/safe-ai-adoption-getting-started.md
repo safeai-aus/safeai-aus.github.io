@@ -93,6 +93,9 @@ Every sector is different, but some patterns generalise well. These examples are
 
 These are usually **reversible**, low-stakes and create quick learning.
 
+!!! note "About costs and timeframes"
+    The costs, timeframes and savings quoted below are **illustrative examples** based on typical market ranges. Actual figures vary significantly by organisation size, sector, tool choice and implementation approach. Verify with your vendors and context.
+
 ### Knowledge work support
 
 - Drafting and editing routine documents
@@ -148,7 +151,7 @@ Learning from others' missteps can save you time and money:
 !!! warning "1. Skipping the change management"
     **The mistake:** Leadership announces an AI tool and expects staff to use it enthusiastically. Instead, adoption stalls or people find workarounds.
 
-    **Why it matters:** Organisations with effective change management are seven times more likely to meet AI project objectives.
+    **Why it matters:** Research consistently shows that effective change management significantly improves project success rates — yet it's often deprioritised in technology rollouts.
 
     **What to do instead:** See our dedicated [AI Change Management](../governance-templates/ai-change-management.md) page for comprehensive guidance.
 
@@ -193,7 +196,7 @@ AI can help security and fraud teams by:
 
     **Connection to Australian guidance:** When implementing AI for security purposes, align with Australian Cyber Security Centre (ACSC) guidance on threat detection and response. Tools should complement, not replace, your existing security monitoring.
 
-**Typical costs:** $500-3,000/month for SME-scale security and fraud tools. Pilot duration: 8-12 weeks (longer than productivity pilots due to complexity). ROI expectation: Risk reduction rather than direct cost savings; look for faster incident response times (30-50% improvement) or reduced false positive rates.
+**Typical costs (illustrative):** $500-3,000/month for SME-scale security and fraud tools. Pilot duration: 8-12 weeks (longer than productivity pilots due to complexity). ROI expectation: Risk reduction rather than direct cost savings; improvements in incident response times and reduced false positive rates vary by implementation.
 
 ### Operational risk and safety
 
@@ -274,7 +277,7 @@ In all these cases, design systems so **humans remain the decision-makers**, and
 
     **🔄 Making it work with people:**
 
-    See [AI Change Management](../governance-templates/ai-change-management.md) for detailed guidance on getting buy-in, addressing concerns and supporting staff through AI adoption. This is critical – organisations with effective change management are seven times more likely to meet AI objectives.
+    See [AI Change Management](../governance-templates/ai-change-management.md) for detailed guidance on getting buy-in, addressing concerns and supporting staff through AI adoption. This is critical — effective change management significantly improves AI project success rates.
 
     **✅ Choosing the right tools:**
 

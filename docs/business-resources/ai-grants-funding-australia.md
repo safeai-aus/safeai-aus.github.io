@@ -24,6 +24,9 @@ twitter_description: "Comprehensive guide to AI grants, funding programs and fin
 
 AI is reshaping industries across Australia. To support businesses in responsibly adopting and scaling AI, a mix of government grants, research programs and industry‑backed accelerators are available. This article provides a consolidated overview of the most relevant opportunities for Australian businesses today.
 
+!!! warning "Program status changes frequently"
+    Government programs open, close and change eligibility regularly. **Always verify current status** with the relevant funding body before investing time in an application. Last reviewed: January 2026.
+
 ---
 
 ## 🏛️ Federal Government Programs
@@ -106,7 +109,7 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 - **$7 million annually** for proof‑of‑value trials.
 - Focused on **healthcare, policing, allied health, social work and legal/financial services**.
 - Supports public sector AI adoption while safeguarding jobs.
-- Program is **active** with funding profiled **from 2025–26 to 2028–29**, as set out in the **2024–25 South Australian State Budget** (Budget Paper 4: Agency Statements – Department of the Premier and Cabinet, released 6 May 2024).
+- Program is **active** with funding profiled **from 2025–26 to 2028–29**, as set out in the **2024–25 South Australian State Budget** (Budget Paper 4: Agency Statements – Department of the Premier and Cabinet, released 6 May 2024). *Subject to ongoing state budget appropriation.*
 - ➡️ [Budget Paper 4: Agency Statements (2024–25 SA State Budget)](https://www.treasury.sa.gov.au/statebudget/2024-25/budget-papers)
 
 ### AIML (Australian Institute for Machine Learning) Programs
@@ -156,8 +159,8 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 
 ### AWS Generative AI Accelerator
 
-- Backed by **US$230m (~AU$346m)** investment.
-- Supports **80 early‑stage Australian startups**.
+- Backed by **US$230m** investment (approximately AU$350m at current rates).
+- Supports early‑stage startups globally, including Australian participants.
 - Offers **up to US$1m in AWS credits** plus 10 weeks of mentorship.
 - Program is **active** (global cohort includes Australian startups).
 - ➡️ [Details](https://www.theaustralian.com.au/business/technology/aussie-startups-called-as-awss-global-ai-accelerator-receives-346m-injection/news-story/0b1fcc7ee9da3e848f048faf6e50e38a)

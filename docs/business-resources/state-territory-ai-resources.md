@@ -24,7 +24,7 @@ twitter_description: "Comprehensive guide to AI resources published by Australia
 
 This page curates official, state/territory-level resources on AI for public sector use in Australia. It focuses on whole-of-government strategies and policies, AI assurance frameworks, information/privacy guidance from statutory bodies (e.g., information commissioners, ombudsmen) and records management directives. Where education-specific positions exist, they're included because they are often the most mature sector guidance.
 
-> **Last verified:** 2025-08-18 (ACST). Links point only to official government or statutory sources.
+> **Last verified:** January 2026. Links point only to official government or statutory sources.
 
 ---
 
