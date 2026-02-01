@@ -1,21 +1,24 @@
 # Content Hardening, Accuracy & Style Alignment
 
-<skill-invocation-trigger>
-Run this skill when the user asks for:
-- "defensibility hardening", "harden content", "defensibility pass"
-- "style guide alignment", "economist style", "apply style guide"
-- "content review", "content audit", "accuracy check"
-- "sourcing audit", "citation check", "fact check"
-- Any combination of the above
-</skill-invocation-trigger>
+Run this skill when the user asks for: "defensibility hardening", "harden content", "defensibility pass", "style guide alignment", "economist style", "apply style guide", "content review", "content audit", "accuracy check", "sourcing audit", "citation check", "fact check", or any combination of the above.
+
+## Why This Matters
+
+SafeAI-Aus's mission is to enable safe, ethical and growth-oriented AI adoption through open standards, practical tools and collaborative knowledge-sharing. Our core values include:
+
+- **Transparency & Accountability** — fostering trust through openness
+- **Safety & Responsibility** — protecting people and organisations
+- **Alignment with Standards** — promoting compliance with Australian regulations
+
+Content quality directly supports these values. Inaccurate claims, overstated capabilities or outdated references undermine trust and could lead organisations to make poor decisions. Defensible, well-sourced, clearly written content helps Australian businesses adopt AI confidently and safely.
 
 ## Overview
 
 This skill performs a comprehensive content quality review:
 
-1. **Defensibility Hardening** - Softens absolute claims to be legally and factually defensible
-2. **Sourcing & Accuracy Audit** - Flags claims needing citations, outdated references, predictions
-3. **Economist Style Guide Alignment** - Applies consistent editorial style
+1. **Defensibility Hardening** — Softens absolute claims to be legally and factually defensible
+2. **Sourcing & Accuracy Audit** — Flags claims needing citations, outdated references, predictions
+3. **Economist Style Guide Alignment** — Applies consistent editorial style with Australian English and plain language
 
 ---
 
@@ -117,20 +120,29 @@ will be|will become|will happen|will require|by 2030|by 2027|in the future|soon|
 #### 3. Outdated Organisational References
 
 **High-risk items to check:**
-- Government programs (grants, initiatives) - status changes frequently
-- Regulatory bodies - may be renamed, restructured, or abolished
-- Legislation - may be amended, replaced, or repealed
-- Policies and standards - may be updated or superseded
-- Technology products/services - may be discontinued
+- Government programs (grants, initiatives) — status changes frequently
+- Regulatory bodies — may be renamed, restructured or abolished
+- Legislation — may be amended, replaced or repealed
+- Policies and standards — may be updated or superseded
+- Technology products/services — may be discontinued
+
+**Australian-specific references (high priority):**
+- Australian Government department names and programs
+- State/territory programs (NSW, VIC, QLD, SA, WA, TAS, ACT, NT)
+- Regulators: OAIC, ACCC, ASIC, APRA, TGA, Fair Work Commission
+- Standards: Privacy Act 1988, Australian Consumer Law, VAISS, AI6
+- Funding bodies: business.gov.au programs, state innovation funds, CSIRO
+- Industry bodies: AIIA, Tech Council of Australia
 
 **Search for:**
 - Program names with dates
 - "announced", "launched", "established" + year
-- References to specific funding amounts
+- References to specific funding amounts (especially in AUD)
 - Government department names
+- State/territory government references
 
 **Fix options:**
-- Verify current status via web search
+- Verify current status via web search (prefer .gov.au sources)
 - Add "last verified: [date]" or "as of [date]"
 - Add warning note about status changes
 - Update or remove if obsolete
@@ -169,6 +181,46 @@ For each issue, document:
 ---
 
 ## Pass 3: Economist Style Guide Alignment
+
+### Australian English Spelling
+
+Use Australian English spelling throughout:
+
+| US Spelling | Australian Spelling |
+|-------------|---------------------|
+| organize, organization | organise, organisation |
+| recognize, recognized | recognise, recognised |
+| analyze, analyzed | analyse, analysed |
+| customize | customise |
+| minimize, maximize | minimise, maximise |
+| optimize | optimise |
+| prioritize | prioritise |
+| utilize | utilise (but prefer "use") |
+| center | centre |
+| meter (measurement) | metre |
+| fiber | fibre |
+| labor | labour |
+| favor, favorable | favour, favourable |
+| behavior | behaviour |
+| color | colour |
+| honor | honour |
+| neighbor | neighbourhood |
+| program (computer) | program (keep as-is for software) |
+| program (scheme/plan) | programme |
+| license (noun) | licence |
+| license (verb) | license |
+| practice (noun) | practice |
+| practice (verb) | practise |
+| defense | defence |
+| offense | offence |
+| catalog | catalogue |
+| dialog | dialogue |
+| traveler | traveller |
+| modeling | modelling |
+| canceled | cancelled |
+| focused | focussed (or focused - both acceptable) |
+
+**Note:** Some technical terms retain US spelling when they are proper nouns or industry-standard terms (e.g., "NIST AI Risk Management Framework", "Google Cloud").
 
 ### Oxford Comma
 
@@ -227,12 +279,20 @@ For each issue, document:
 - Avoid exclamation marks in body text
 - Use en-dashes (–) for ranges, em-dashes (—) sparingly for parenthetical statements
 
-### Tone
+### Tone & Plain Language
 
+SafeAI-Aus content should be accessible to businesses of all sizes, including those without dedicated legal or technical teams.
+
+**Plain language principles:**
 - Prefer active voice over passive
 - Be direct and concise
 - Avoid jargon where plain English works
 - Write with confidence but not arrogance
+- Explain technical terms on first use, or link to the glossary
+- Use short sentences and paragraphs
+- Prefer concrete examples over abstract descriptions
+
+**Audience check:** Would a small business owner without AI expertise understand this? If not, simplify or add context.
 
 ---
 

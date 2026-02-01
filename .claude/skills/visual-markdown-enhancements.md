@@ -1,12 +1,22 @@
 # Visual Markdown Enhancements Skill
 
-Apply consistent visual enhancements to SafeAI-Aus markdown pages using Zensical/Material-compatible markdown syntax.
+Run this skill when the user asks for: "visual enhancements", "markdown formatting", "enhance page", "format markdown", "add admonitions", "visual structure", "standardise formatting", or similar requests about improving the visual presentation of markdown pages.
+
+## Why This Matters
+
+SafeAI-Aus's mission is to enable safe, ethical and growth-oriented AI adoption through practical tools and collaborative knowledge-sharing. Our content should be:
+
+- **Accessible** — Clear visual structure helps businesses of all sizes navigate complex governance topics
+- **Trustworthy** — Consistent, professional formatting builds confidence in our resources
+- **Actionable** — Well-organised content with clear steps helps organisations implement AI safely
+
+Visual enhancements aren't just cosmetic — they make the difference between content that gets used and content that gets ignored.
 
 ## When to Use This Skill
 
 - Enhancing existing content pages for better readability
 - Adding visual structure to template pages
-- Standardizing formatting across the site
+- Standardising formatting across the site
 - Converting plain markdown to visually enhanced pages
 
 ## Enhancement Patterns
@@ -121,7 +131,7 @@ Use tabs only for genuinely different perspectives or contexts (e.g., comparing 
 - Beginner vs advanced (write for all levels)
 - Different durations (pick one recommended approach)
 
-### 6. License Footer (Standard Format)
+### 6. Licence Footer (Standard Format)
 
 Always use collapsible note admonition:
 
@@ -144,35 +154,56 @@ For checklists and step-by-step content:
 
 ### 8. Risk Level Tables
 
-Use color-coded icons for risk levels:
+Use colour-coded icons for risk levels:
 
 ```markdown
 | Risk Level | Example Use Cases |
 |------------|-------------------|
-| 🟢 **Low** | Website chatbot, content summarization |
+| 🟢 **Low** | Website chatbot, content summarisation |
 | 🟡 **Medium** | Staff rostering, marketing automation |
 | 🔴 **High** | Automated loan approvals, hiring decisions |
 ```
 
 ## Australian English Requirements
 
-**Always convert American to Australian English:**
+SafeAI-Aus content is written for an Australian audience. Always use Australian English spelling.
 
-| American | Australian |
-|----------|------------|
-| customize | customise |
-| organize | organise |
-| organization | organisation |
-| organizational | organisational |
-| optimize | optimise |
-| analyze | analyse |
+**Common conversions:**
+
+| US Spelling | Australian Spelling |
+|-------------|---------------------|
+| organize, organization | organise, organisation |
+| customize, customization | customise, customisation |
+| recognize, recognized | recognise, recognised |
+| analyze, analyzed | analyse, analysed |
+| minimize, maximize | minimise, maximise |
+| optimize, optimized | optimise, optimised |
+| prioritize | prioritise |
 | center | centre |
+| meter (measurement) | metre |
+| color | colour |
+| favor, favorable | favour, favourable |
+| behavior | behaviour |
+| labor | labour |
+| defense | defence |
+| license (noun) | licence |
+| practice (verb) | practise |
+| program (scheme/plan) | programme |
+| modeling | modelling |
+| canceled | cancelled |
+| catalog | catalogue |
+| dialog | dialogue |
 
-**Exception:** Leave schema.org vocabulary unchanged (`"@type": "Organization"`)
+**Exceptions:**
+- Leave schema.org vocabulary unchanged (`"@type": "Organization"`)
+- Keep US spelling for proper nouns and product names (e.g., "NIST AI Risk Management Framework")
+- Keep "program" for software/computer contexts
+
+**Audience check:** Content should be accessible to Australian businesses of all sizes, including those without dedicated legal or technical teams. Explain jargon on first use or link to the glossary.
 
 ## Enhancement Workflow
 
-### Step 1: Read and Analyze
+### Step 1: Read and Analyse
 ```bash
 # Read the target file
 Read the markdown file
@@ -193,7 +224,7 @@ Read the markdown file
 4. Add icons to lists
 5. Ensure proper blank lines before list items in admonitions
 6. Convert to Australian English
-7. Add/fix license footer
+7. Add/fix licence footer
 8. Add Standards Compliance tabs (if applicable)
 
 ### Step 3: Verify Formatting
@@ -242,7 +273,7 @@ chmod +x /tmp/check_formatting.sh
 - [ ] No tabs in "How to Use" sections
 - [ ] Australian English throughout
 - [ ] Icons are relevant and not excessive
-- [ ] Collapsible `???` used only for license/disclaimer/FAQs
+- [ ] Collapsible `???` used only for licence/disclaimer/FAQs
 
 ### Step 4: Build and Test
 ```bash
