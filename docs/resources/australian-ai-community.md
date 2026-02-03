@@ -41,9 +41,6 @@ This page provides curated Australian and international resources for AI safety,
 
 - [AI Safety ANZ](https://aisafetyanz.com.au/) — Australia and New Zealand AI safety community with regional groups in Sydney, Melbourne, Brisbane, Wellington, Canberra and Auckland
 - [AI Safety Australia](https://www.aisafety.org.au/) — Australian AI safety research and community initiatives
-- [Sydney AI Safety](https://www.facebook.com/groups/sydneyaisafety/) — Sydney AI safety discussion and meetups
-- [Effective Altruism Australia](https://effectivealtruism.org.au/) — Includes AI safety focus groups and community building
-- [Australian AI Safety Institute](https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-science) — Government AI safety evaluation and research (operational early 2026)
 
 ### Digital Rights and Technology Ethics
 
@@ -58,15 +55,6 @@ This page provides curated Australian and international resources for AI safety,
 - [ARC Centre for Automated Decision-Making and Society (ADM+S)](https://www.admscentre.org.au/) — Cross-disciplinary research on responsible AI decision-making (RMIT-hosted, multi-university)
 - [Gradient Institute](https://www.gradientinstitute.org/) — Independent not-for-profit advancing safe and responsible AI through research and advisory
 - [ANU Integrated AI Network](https://ai.anu.edu.au/) — Interdisciplinary AI research across computing, science and social domains
-- [University of Melbourne](https://www.unimelb.edu.au/) — AI research and education programs across engineering and computing
-- [UNSW Sydney](https://www.unsw.edu.au/) — AI research through School of Computer Science and Engineering
-
-### Industry and Professional Networks
-
-- [AI Group Australia](https://www.aigroup.com.au/) — Manufacturing and tech industry body with AI focus
-- [Tech Council of Australia](https://techcouncil.com.au/) — Peak body for Australian tech sector
-- [Australian Computer Society](https://www.acs.org.au/) — Professional computing body (note: some pages may require login)
-- [Women in AI Ethics](https://www.womeninaiethics.org/) — Australian chapter promoting diverse perspectives
 
 ---
 
