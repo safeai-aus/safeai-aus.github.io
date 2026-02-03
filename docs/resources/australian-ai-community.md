@@ -39,6 +39,7 @@ This page provides curated Australian and international resources for AI safety,
 
 ### AI Safety and Alignment
 
+- [AI Safety ANZ](https://aisafetyanz.com.au/) — Australia and New Zealand AI safety community with regional groups in Sydney, Melbourne, Brisbane, Wellington, Canberra and Auckland
 - [AI Safety Australia](https://www.aisafety.org.au/) — Australian AI safety research and community initiatives
 - [Sydney AI Safety](https://www.facebook.com/groups/sydneyaisafety/) — Sydney AI safety discussion and meetups
 - [Effective Altruism Australia](https://effectivealtruism.org.au/) — Includes AI safety focus groups and community building
