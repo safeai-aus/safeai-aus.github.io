@@ -19,6 +19,7 @@ This skill performs a comprehensive content quality review:
 1. **Defensibility Hardening** — Softens absolute claims to be legally and factually defensible
 2. **Sourcing & Accuracy Audit** — Flags claims needing citations, outdated references, predictions
 3. **Economist Style Guide Alignment** — Applies consistent editorial style with Australian English and plain language
+4. **Reader Engagement** — Makes content more engaging through direct address, question-led openings and actionable framing
 
 ---
 
@@ -382,8 +383,139 @@ SafeAI-Aus content should be accessible to businesses of all sizes, including th
 
 ---
 
+---
+
+## Pass 4: Reader Engagement
+
+This pass makes content more engaging and actionable for readers, particularly business audiences. Apply selectively based on content type—framework and reference pages benefit most; narrative content (scenarios, case studies) typically needs less work.
+
+### 4.1 Bold Audit
+
+**Problem:** Inline bold applied to entire sentences reads as shouting and reduces impact of legitimate emphasis.
+
+**Search for:** Bold patterns that span full sentences or long phrases:
+```
+\*\*[^*]{40,}\*\*
+```
+
+**Appropriate bold uses:**
+- Key terms on first use: "**AI alignment** is about..."
+- Structural labels: "**Core question:**", "**Key test:**"
+- Table headers and definition list headers
+- Short emphatic phrases (2-5 words): "**This is critical.**"
+
+**Inappropriate bold uses (fix these):**
+- Full sentences bolded for emphasis
+- Entire paragraphs or bullet points bolded
+- Rhetorical questions bolded
+
+**Fix:** Remove bold from full sentences. If emphasis is needed, restructure as a callout, use a shorter bold phrase, or rely on sentence position (opening/closing) for emphasis.
+
+### 4.2 Opening Check
+
+**Problem:** Pages that open with definitions or abstractions feel academic. Question-led openings ground readers in recognisable situations.
+
+**Search for pages that open with:**
+- Definition patterns: "[Term] is...", "[Term] refers to...", "[Term] encompasses..."
+- Abstract nouns as subjects: "Containment means...", "Governance includes..."
+
+**Fix:** Add a grounding question before the definition:
+
+| Before | After |
+|--------|-------|
+| "**AI containment** is about stopping dangerous AI systems before they cause harm." | "If a dangerous AI system is deployed in your organisation, can you shut it down?<br><br>**AI containment** is about stopping dangerous AI systems before they cause harm." |
+| "**AI governance** encompasses the laws, institutions, standards and coordination mechanisms..." | "When your organisation deploys an AI system, who's responsible if something goes wrong?<br><br>**AI governance** encompasses the laws, institutions, standards and coordination mechanisms..." |
+
+**Exception:** Glossary/reference pages where users expect definitions first.
+
+### 4.3 Callout Conversion
+
+**Problem:** Generic "Australian context" or "Context" callouts don't help readers find relevance. Reader-directed framing is more actionable.
+
+**Search for:**
+```
+Australian context|**Context:**|**Note:**
+```
+
+**Fix:** Convert to "What this means for you" with role-specific guidance where appropriate:
+
+| Before | After |
+|--------|-------|
+| "**Australian context:**<br>Australia hosts some significant data centres but isn't a major chip manufacturer." | "**What this means for you:**<br>Australia hosts some significant data centres but isn't a major chip manufacturer. If you're in government or critical infrastructure, your leverage comes through..." |
+
+**Role-specific phrases to include:**
+- "If you're in government procurement..."
+- "For business..."
+- "If you're deploying AI in public services..."
+- "For policy makers..."
+- "If your organisation operates across borders..."
+
+### 4.4 Direct Address
+
+**Problem:** Policy writing defaults to third person ("organisations should...") when second person ("you should...") is more engaging.
+
+**Search for third-person patterns in action-oriented sections:**
+```
+organisations should|organisations must|organisations need to|businesses should|companies should
+```
+
+**Fix:** Convert to second person where appropriate:
+
+| Before | After |
+|--------|-------|
+| "Organisations should map their AI dependencies..." | "Map your AI dependencies..." |
+| "Organisations should adapt thresholds to their risk tolerance." | "You should adapt these thresholds to your organisation's risk tolerance." |
+| "Staff must be trained and empowered..." | "Your staff must be trained and empowered..." |
+
+**Where to apply:**
+- Action-oriented sections ("What to do", "Implementation", "How to use")
+- Questions sections
+- Recommendations and guidance
+
+**Where to preserve third person:**
+- Formal policy statements
+- When discussing organisations in general (not the reader's organisation)
+- Legal or regulatory descriptions
+
+### 4.5 Hedging Preservation
+
+**Critical:** When converting passive to active voice or making other engagement improvements, preserve uncertainty language.
+
+**Hedging words to preserve:**
+- Temporal: "becoming", "emerging", "developing", "increasingly"
+- Possibility: "may", "might", "could", "can"
+- Likelihood: "likely", "probably", "potentially", "possibly"
+- Scope: "some", "many", "often", "typically"
+
+**Bad transformation (loses hedging):**
+| Before | After (WRONG) |
+|--------|---------------|
+| "AI systems are becoming embedded in critical infrastructure." | "AI runs critical infrastructure." |
+
+**Good transformation (preserves hedging):**
+| Before | After (CORRECT) |
+|--------|-----------------|
+| "AI systems are becoming embedded in critical infrastructure." | "AI systems are becoming embedded in your critical infrastructure." |
+
+### 4.6 Content Type Awareness
+
+Different content types need different levels of reader engagement work:
+
+| Content Type | Engagement Work Needed | Focus Areas |
+|--------------|------------------------|-------------|
+| Framework/pillar pages | High | Opening questions, callout conversion, direct address |
+| Reference/glossary pages | Low | Preserve definition-first structure; minimal changes |
+| Scenario/narrative pages | Low | Already engaging through storytelling; check for typos only |
+| How-to/implementation guides | Medium | Direct address, action-oriented language |
+| Index/landing pages | Medium | Question-led framing, clear navigation |
+
+**Quick test:** If the page tells a story with concrete examples, it probably doesn't need engagement work. If it opens with definitions and uses third-person throughout, it's a candidate for this pass.
+
+---
+
 ## Maintenance Notes
 
 - Review this skill quarterly to update examples and patterns
 - Add new problematic patterns as they're discovered
 - Keep word substitution list aligned with current Economist style guide
+- Update Pass 4 examples as new reader engagement patterns are discovered
