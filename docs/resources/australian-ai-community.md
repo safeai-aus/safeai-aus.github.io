@@ -54,6 +54,8 @@ This page provides curated Australian and international resources for AI safety,
 ### University and Research Groups
 
 - [CSIRO's Data61](https://data61.csiro.au/) — Australia's data and digital research network, including AI research
+- [ARC Centre for Automated Decision-Making and Society (ADM+S)](https://www.admscentre.org.au/) — Cross-disciplinary research on responsible AI decision-making (RMIT-hosted, multi-university)
+- [Gradient Institute](https://www.gradientinstitute.org/) — Independent not-for-profit advancing safe and responsible AI through research and advisory
 - [ANU Integrated AI Network](https://ai.anu.edu.au/) — Interdisciplinary AI research across computing, science and social domains
 - [University of Melbourne](https://www.unimelb.edu.au/) — AI research and education programs across engineering and computing
 - [UNSW Sydney](https://www.unsw.edu.au/) — AI research through School of Computer Science and Engineering
@@ -84,7 +86,6 @@ Leading global AI safety organizations with relevant research and resources for 
 - [Centre for the Governance of AI (GovAI)](https://www.governance.ai/) — AI governance research and policy
 - [Centre for Security and Emerging Technology (CSET)](https://cset.georgetown.edu/) — AI policy and national security
 - [AI Now Institute](https://ainowinstitute.org/) — Social implications of AI, accountability
-- [Future of Humanity Institute](https://www.fhi.ox.ac.uk/) — Existential risk research (Oxford)
 
 ---
 
@@ -121,7 +122,6 @@ The tools below enable local AI deployment and open-source development, providin
 
 - [AGI Safety Fundamentals](https://www.agisafetyfundamentals.com/) — Free AI safety course by BlueDot Impact
 - [ML Safety Course](https://course.mlsafety.org/) — Technical AI safety fundamentals
-- [AI Alignment Forum](https://www.alignmentforum.org/) — Technical AI safety discussions
 - [LessWrong](https://www.lesswrong.com/) — Rationality and AI safety community
 
 ### AI and Technology
@@ -148,7 +148,6 @@ For comprehensive, current grant opportunities, see the [Business Resources: AI 
 
 - [Open Philanthropy](https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/) — AI safety grants
 - [Survival and Flourishing Fund](https://survivalandflourishing.fund/) — Existential risk reduction
-- [Future Fund (FTX regrants)](https://ftxfuturefund.org/) — Note: Currently on hold
 
 ---
 
@@ -158,7 +157,6 @@ For comprehensive, current grant opportunities, see the [Business Resources: AI 
 
 - [CSIRO Data61 AI Research](https://data61.csiro.au/en/Our-Research/Focus-Areas/AI-and-Machine-Learning) — National AI research priorities
 - [Australian Council of Learned Academies (ACOLA)](https://acola.org/) — Evidence-based AI policy advice
-- [Gradient Institute](https://gradientinstitute.org/) — Responsible AI research and tools (Australia-based)
 
 ---
 

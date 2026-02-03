@@ -226,7 +226,7 @@ Mechanism to capture, respond and learn from AI-related issues.
       "name": "How should I attribute SafeAI Aus when I reuse a template?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Include a short notice such as: "Source: SafeAI Aus (safeaiaus.org), licensed CC BY 4.0." For PDFs or docs, place it in the header or footer; for web pages, add it near the template text."
+        "text": "Include a short notice such as: \"Source: SafeAI Aus (safeaiaus.org), licensed CC BY 4.0.\" For PDFs or docs, place it in the header or footer; for web pages, add it near the template text."
       }
     },
     {
