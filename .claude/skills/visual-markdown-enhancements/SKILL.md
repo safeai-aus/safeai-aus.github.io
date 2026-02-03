@@ -1,3 +1,6 @@
+name: Visual Markdown Enhancements
+description: Enhance markdown pages with admonitions, grids, tabs and consistent visual structure
+
 # Visual Markdown Enhancements Skill
 
 Run this skill when the user asks for: "visual enhancements", "markdown formatting", "enhance page", "format markdown", "add admonitions", "visual structure", "standardise formatting", or similar requests about improving the visual presentation of markdown pages.
@@ -20,8 +23,6 @@ Visual enhancements aren't just cosmetic — they make the difference between co
 - Converting plain markdown to visually enhanced pages
 
 ## Enhancement Patterns
-
-Refer to `VISUAL-ENHANCEMENTS.md` in the repository root for complete pattern library.
 
 ### 1. Page Headers
 
@@ -164,42 +165,11 @@ Use colour-coded icons for risk levels:
 | 🔴 **High** | Automated loan approvals, hiring decisions |
 ```
 
-## Australian English Requirements
+## Australian English
 
-SafeAI-Aus content is written for an Australian audience. Always use Australian English spelling.
+SafeAI-Aus content uses Australian English spelling. See `content-hardening.md` for the complete reference including spelling tables, date formats, currency and measurements.
 
-**Common conversions:**
-
-| US Spelling | Australian Spelling |
-|-------------|---------------------|
-| organize, organization | organise, organisation |
-| customize, customization | customise, customisation |
-| recognize, recognized | recognise, recognised |
-| analyze, analyzed | analyse, analysed |
-| minimize, maximize | minimise, maximise |
-| optimize, optimized | optimise, optimised |
-| prioritize | prioritise |
-| center | centre |
-| meter (measurement) | metre |
-| color | colour |
-| favor, favorable | favour, favourable |
-| behavior | behaviour |
-| labor | labour |
-| defense | defence |
-| license (noun) | licence |
-| practice (verb) | practise |
-| program (scheme/plan) | programme |
-| modeling | modelling |
-| canceled | cancelled |
-| catalog | catalogue |
-| dialog | dialogue |
-
-**Exceptions:**
-- Leave schema.org vocabulary unchanged (`"@type": "Organization"`)
-- Keep US spelling for proper nouns and product names (e.g., "NIST AI Risk Management Framework")
-- Keep "program" for software/computer contexts
-
-**Audience check:** Content should be accessible to Australian businesses of all sizes, including those without dedicated legal or technical teams. Explain jargon on first use or link to the glossary.
+**Quick rule:** Use -ise, -our, -re endings (organise, colour, centre). Use "licence" as noun, "license" as verb.
 
 ## Enhancement Workflow
 
@@ -419,49 +389,11 @@ How to use:
 - [ ] Does it provide a clear benefit (e.g. efficiency, customer service, staff support)?
 ```
 
-## Files Enhanced So Far
+---
 
-✅ **Governance Templates (4/12):**
-- policy-template-library.md
-- ai-use-policy.md
-- ai-readiness-checklist.md
-- ai-risk-assessment-checklist.md
+## Maintenance Notes
 
-⏳ **Remaining Governance Templates (8):**
-- ai-change-management.md
-- ai-implementation-roadmap.md
-- ai-risk-register.md
-- ai-risks-by-industry.md
-- ai-assurance-transparency-auditing-reporting.md
-- ai-project-register.md
-- ai-vendor-evaluation-checklist.md
-- ai-incident-report-form.md
-
-⏳ **Business Resources (7):**
-- index.md
-- safe-ai-adoption-getting-started.md
-- ai-grants-funding-australia.md
-- ai-aus-tools-frameworks.md
-- state-territory-ai-resources.md
-- ai-learning-development-directory.md
-
-⏳ **Safety Standards (5):**
-- index.md
-- voluntary-ai-safety-standard-10-guardrails.md
-- guidance-for-ai-adoption-ai6.md
-- ai-australian-legislation.md
-- international-ai-legal-overview.md
-
-⏳ **Core Pages:**
-- index.md (homepage)
-- about.md
-- contact.md
-- glossary.md
-
-## Next Steps
-
-After running this skill on a file:
-1. Review the enhanced markdown
-2. Build and verify no errors
-3. Commit with descriptive message
-4. Move to next file in priority order
+- Review this skill quarterly to update patterns and examples
+- Add new Zensical formatting quirks as they're discovered
+- Keep Australian English spelling table aligned with current usage
+- Update admonition types if Zensical adds new options

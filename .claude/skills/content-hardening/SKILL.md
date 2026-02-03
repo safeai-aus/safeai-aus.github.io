@@ -1,3 +1,6 @@
+name: Content Hardening
+description: Defensibility hardening, sourcing audit and Economist Style Guide alignment for content quality
+
 # Content Hardening, Accuracy & Style Alignment
 
 Run this skill when the user asks for: "defensibility hardening", "harden content", "defensibility pass", "style guide alignment", "economist style", "apply style guide", "content review", "content audit", "accuracy check", "sourcing audit", "citation check", "fact check", or any combination of the above.
@@ -223,6 +226,51 @@ Use Australian English spelling throughout:
 
 **Note:** Some technical terms retain US spelling when they are proper nouns or industry-standard terms (e.g., "NIST AI Risk Management Framework", "Google Cloud").
 
+### Date Formatting
+
+**Australian standard:** DD/MM/YYYY or written dates
+
+| Format | Example | Use When |
+|--------|---------|----------|
+| Written (preferred) | 2 January 2026 | Prose, documents |
+| Numeric AU | 02/01/2026 | Tables, forms |
+| ISO 8601 | 2026-01-02 | Technical docs, frontmatter |
+
+**Avoid:** MM/DD/YYYY (US format) — causes confusion.
+
+### Currency
+
+- **Australian dollars:** $1,000 or A$1,000 (when clarity needed)
+- **International:** US$1,000, €1,000, £1,000 (prefix with currency code)
+- **Format:** Use comma for thousands separator
+
+### Measurements
+
+Australia uses metric exclusively:
+
+| Category | Use | Avoid |
+|----------|-----|-------|
+| Distance | kilometres (km), metres (m) | miles, feet |
+| Weight | kilograms (kg), grams (g) | pounds, ounces |
+| Temperature | Celsius (°C) | Fahrenheit |
+| Volume | litres (L) | gallons |
+
+### Australian Terminology
+
+| Term | Meaning | Example |
+|------|---------|---------|
+| Mobile/mobile phone | Cell phone | "Access on your mobile" |
+| Fortnight | Two weeks | "Updated fortnightly" |
+| Programme | Events/schemes | "Government programme" |
+| Program | Software | "Computer program" |
+
+### Government & Regulatory Terms
+
+- **Commonwealth** — Federal government
+- **State/Territory** — Regional government (NSW, VIC, QLD, SA, WA, TAS, ACT, NT)
+- **Department** — Government ministry
+- **Act** — Legislation (e.g., Privacy Act 1988)
+
 ### Oxford Comma
 
 **Remove Oxford commas** (serial commas before "and"/"or" in lists):
@@ -380,8 +428,6 @@ SafeAI-Aus content should be accessible to businesses of all sizes, including th
 
 **After:**
 > We use sound methods to draw on important insights, helping to deliver meaningful outcomes for employees, customers and partners.
-
----
 
 ---
 
