@@ -137,7 +137,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 - **Description:** Search results listing MIT OCW courses tagged with artificial intelligence and machine learning, including lectures, notes and problem sets, with filters for course level and department.
 - **Format:** Full university course materials.
-- **License:** CC BY-NC-SA.
+- **Licence:** CC BY-NC-SA.
 - **Cost:** **Free**.
 - **Difficulty:** Intermediate–Advanced
 - **Integration:** Ideal for upskilling tech-savvy staff; use as structured internal learning modules.
@@ -148,7 +148,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 - **Description:** Curated assignments and tutorials promoting critical thinking about AI's ethics, limitations and societal impact.
 - **Format:** Adaptable classroom exercises, prompts and tutorials.
-- **License:** CC BY-NC-SA 4.0.
+- **Licence:** CC BY-NC-SA 4.0.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner–Intermediate
 - **Integration:** Remix into internal training on AI literacy and responsible use; great for leadership/HR sessions.
@@ -159,7 +159,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 - **Description:** Explores multimodal AI applications across vision, sound, sensors and creativity—building intuition for AI's broader capabilities.
 - **Format:** Lectures, readings and research projects.
-- **License:** CC BY.
+- **Licence:** CC BY.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner–Intermediate
 - **Integration:** Use for ideation workshops or innovation sprints; inspires cross-functional understanding.
@@ -170,7 +170,7 @@ twitter_description: "Discover 11+ free AI learning resources for Australian SME
 
 - **Description:** Hands-on, open-source textbook with runnable code, blending theory, math and implementation in Jupyter notebooks.
 - **Format:** Interactive book using PyTorch, TensorFlow, JAX, with live examples.
-- **License:** Open source (Apache 2.0).
+- **Licence:** Open source (Apache 2.0).
 - **Cost:** **Free**.
 - **Difficulty:** Advanced
 - **Integration:** Ideal for developers or data teams; use as core resource for self-learning cohorts.
