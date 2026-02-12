@@ -1,35 +1,35 @@
 ---
 icon: lucide/map-pin
-title: "State & Territory AI Resources (Government & Statutory Bodies)"
-description: "Comprehensive guide to AI resources published by Australian states and territories. Find official government AI strategies, policies, assurance frameworks and statutory body guidance for public sector AI use."
-keywords: "Australian state AI resources, territory AI policies, government AI strategies, NSW AI policy, Victoria AI guidance, Queensland AI framework, SA AI resources, WA AI policy, Tasmania AI guidance, ACT AI policy, NT AI framework, Australian government AI"
+title: "Australian Government AI Resources (Federal, State & Territory)"
+description: "Comprehensive guide to AI resources published by Australian federal, state and territory governments. Find official AI strategies, policies, assurance frameworks and statutory body guidance for public sector AI use."
+keywords: "Australian government AI resources, federal AI policy, state AI policies, territory AI policies, government AI strategies, NAIC, OAIC, DTA, NSW AI policy, Victoria AI guidance, Queensland AI framework, SA AI resources, WA AI policy, Tasmania AI guidance, ACT AI policy, NT AI framework"
 author: "SafeAI-Aus"
 robots: "index, follow"
-last-reviewed: "2026-01-31"
+last-reviewed: "2026-02-11"
 review-cycle: "quarterly"
-og_title: "State & Territory AI Resources (Government & Statutory Bodies)"
-og_description: "Comprehensive guide to AI resources published by Australian states and territories"
+og_title: "Australian Government AI Resources (Federal, State & Territory)"
+og_description: "Comprehensive guide to AI resources published by Australian federal, state and territory governments"
 og_type: "article"
 og_url: "https://safeaiaus.org/business-resources/state-territory-ai-resources/"
 og_image: "assets/safeaiaus-logo-600px.png"
 twitter_card: "summary_large_image"
-twitter_title: "State & Territory AI Resources (Government & Statutory Bodies)"
-twitter_description: "Comprehensive guide to AI resources published by Australian states and territories"
+twitter_title: "Australian Government AI Resources (Federal, State & Territory)"
+twitter_description: "Comprehensive guide to AI resources published by Australian federal, state and territory governments"
 ---
 
-# State & Territory AI Resources (Government & Statutory Bodies)
+# Australian Government AI Resources (Federal, State & Territory)
 
-> **Purpose:** Directory of official state and territory AI policies, strategies and assurance frameworks
+> **Purpose:** Directory of official federal, state and territory AI policies, strategies and assurance frameworks
 > **Audience:** Public sector organisations, cross-jurisdictional projects and government vendors | **Time:** 30-45 minutes
 
-This page curates official, state/territory-level resources on AI for public sector use in Australia. It focuses on whole-of-government strategies and policies, AI assurance frameworks, information/privacy guidance from statutory bodies (e.g., information commissioners, ombudsmen) and records management directives. Where education-specific positions exist, they're included because they are often the most mature sector guidance.
+This page curates official Australian government resources on AI for public sector use, covering federal agencies and all states and territories. It focuses on whole-of-government strategies and policies, AI assurance frameworks, information/privacy guidance from statutory bodies (e.g., information commissioners, ombudsmen) and records management directives. Where education-specific positions exist, they're included because they are often the most mature sector guidance.
 
-> **Last verified:** January 2026. Links point only to official government or statutory sources.
+> **Last verified:** February 2026. Links point only to official government or statutory sources.
 
 ---
 
 !!! info "General Guidance"
-    State and territory resources are designed to work within each jurisdiction's legislative and policy settings. If you operate across multiple jurisdictions—or consume services from another state—start with the **local** requirements and then map to national artefacts (see **Alignment** below). Treat AI projects as **socio-technical**: combine policy, risk, privacy, security, procurement, records management and assurance practices from the outset.
+    Federal, state and territory resources are designed to work within each jurisdiction's legislative and policy settings. If you operate across multiple jurisdictions—or consume services from another state—start with the **local** requirements and then map to national artefacts (see **Alignment** below). Treat AI projects as **socio-technical**: combine policy, risk, privacy, security, procurement, records management and assurance practices from the outset.
 
     **Note:** Policies and guidance change rapidly (especially around generative AI). Always check for the latest version and any departmental circulars or implementation notes before relying on a specific document.
 
@@ -45,8 +45,22 @@ This page curates official, state/territory-level resources on AI for public sec
 
 ---
 
+## Federal (Australian Government)
+
+- **[National AI Centre (NAIC)](https://www.industry.gov.au/national-artificial-intelligence-centre)** — within the Department of Industry, Science and Resources; drives AI adoption and coordinates the Responsible AI Network. See also our guide to the [Guidance for AI Adoption (AI6)](/safety-standards/guidance-for-ai-adoption-ai6/).
+- **[Guidance for AI Adoption — six essential practices (NAIC)](https://consult.industry.gov.au/guidance-for-ai-adoption)** — updated guidance replacing the Voluntary AI Safety Standard; sets out six essential practices for responsible AI governance.
+- **[National Framework for the Assurance of AI in Government](https://www.finance.gov.au/government/public-data/data-and-digital-ministers-meeting/national-framework-assurance-artificial-intelligence-government)** — endorsed by Data & Digital Ministers (June 2024); the national baseline that most state/territory frameworks align to.
+- **[Digital Transformation Agency — AI guidance](https://architecture.digital.gov.au/artificial-intelligence)** — whole-of-government architecture and guidance for AI in Australian Government agencies.
+- **[OAIC — Artificial Intelligence and Privacy](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations/artificial-intelligence-and-privacy)** — guidance from the Office of the Australian Information Commissioner on privacy obligations when developing or using AI.
+- **[OAIC — Privacy Impact Assessment guide](https://www.oaic.gov.au/privacy/privacy-guidance-and-resources/privacy-impact-assessments)** — how to conduct PIAs, applicable to AI systems handling personal information.
+
+For a detailed overview of Australian AI legislation, see our [AI & Australian Legislation](/safety-standards/ai-australian-legislation/) page.
+
+---
+
 ## New South Wales (NSW)
 
+- **[NSW Office for Artificial Intelligence (Digital NSW)](https://www.digital.nsw.gov.au/policy/artificial-intelligence)** — dedicated AI office (est. Sept 2025) driving safe, strategic AI adoption across NSW Government.
 - **[NSW AI Strategy (Digital NSW)](https://www.digital.nsw.gov.au/policy/artificial-intelligence/artificial-intelligence-strategy)** — whole-of-government direction for safe, outcomes-focused AI.
 - **[AI Ethics Policy](https://www.digital.nsw.gov.au/policy/artificial-intelligence/artificial-intelligence-ethics-policy)** — mandatory principles (trust, transparency, customer benefit, fairness, privacy, accountability).
 - **[NSW AI Assessment/Assurance Framework (AIAF)](https://www.digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework)** — structured, risk-based assessment; updated to address generative AI.
@@ -63,6 +77,8 @@ This page curates official, state/territory-level resources on AI for public sec
 
 ## Victoria (VIC)
 
+- **[Administrative Guideline — Safe & Responsible Use of GenAI in VPS](https://www.vic.gov.au/administrative-guideline-safe-responsible-use-gen-ai-vps)** — mandatory minimum standards endorsed by Victoria's Secretaries Board (Sept 2024); covers accountability, risk management and data safeguards for all public service bodies.
+- **[Guidance — Safe & Responsible Use of GenAI in VPS](https://www.vic.gov.au/guidance-safe-responsible-use-gen-ai-vps)** — practical companion to the administrative guideline; covers dos and don'ts, privacy obligations, scenario examples and alignment with Australia's AI Ethics Principles.
 - **[OVIC — Use of personal information with publicly available GenAI tools (VPS)](https://ovic.vic.gov.au/privacy/resources-for-organisations/use-of-personal-information-with-publicly-available-generative-ai-tools-in-the-victorian-public-sector/)** — privacy expectations when staff use public GenAI tools.
 - **[OVIC — Use of enterprise GenAI tools (VPS minimum expectations)](https://ovic.vic.gov.au/privacy/resources-for-organisations/use-of-enterprise-generative-ai-tools-in-the-victorian-public-sector/)** — baseline controls for enterprise GenAI deployments.
 - **[Public Record Office Victoria — AI Technologies & Recordkeeping Policy](https://prov.vic.gov.au/recordkeeping-government/document-library/ai-technologies-policy-ai-technologies-and-recordkeeping)** — mandatory recordkeeping directives for AI.
@@ -73,6 +89,7 @@ This page curates official, state/territory-level resources on AI for public sec
 
 ## Queensland (QLD)
 
+- **[Queensland AI Hub](https://www.qldaihub.com/)** — government-funded hub connecting Queensland businesses, industry and universities to local AI talent and technologies; programs include Launch AI Pre-Accelerator and regional chapters.
 - **[QGEA — Use of Generative AI](https://www.forgov.qld.gov.au/information-technology/queensland-government-enterprise-architecture-qgea/qgea-directions-and-guidance/qgea-policies-standards-and-guidelines/use-of-generative-ai-in-queensland-government)** — policy intent, roles, procurement/technical considerations, risk management.
 - **[QGEA — Artificial intelligence (category landing)](https://www.forgov.qld.gov.au/information-technology/queensland-government-enterprise-architecture-qgea/qgea-directions-and-guidance/artificial-intelligence)** — entry point to governance policy and guidance.
 - **[QGEA — Foundation principles](https://www.forgov.qld.gov.au/information-technology/queensland-government-enterprise-architecture-qgea/qgea-directions-and-guidance/qgea-policies-standards-and-guidelines/qgea-foundation-principles)** — cross-cutting architecture principles relevant to AI solution design and governance.
@@ -84,6 +101,8 @@ This page curates official, state/territory-level resources on AI for public sec
 
 ## South Australia (SA)
 
+- **[Office for AI (ai.sa.gov.au)](https://www.ai.sa.gov.au/)** — Australia's first dedicated state-level Office for AI; coordinates AI strategy, pilot projects and policy across SA Government.
+- **[AI Knowledge Centre](https://www.ai.sa.gov.au/ai-knowledge-centre)** — curated resources and guidance from the Office for AI.
 - **[Guideline 13.1 — Use of Generative AI & Large Language Models (DPC)](https://www.dpc.sa.gov.au/__data/assets/pdf_file/0007/936745/Guideline-13.1-Use-of-Large-Language-Model-AI-Tools-Utilities.pdf)** — whole-of-government guidance aligned to the national AI assurance approach.
 - **[DTF ICT/Digital/Cyber — AI landing](https://www.treasury.sa.gov.au/Our-services/ict-digital-cyber-security/policies-and-guidelines/artificial-intelligence)** — central pointer to SA Government AI policy artefacts (incl. G13.1).
 - **[State Records SA — Artificial Intelligence & Information Management](https://www.archives.sa.gov.au/managing-information/Information-management/artificial-intelligence-and-information-management)** — recordkeeping obligations when developing/using AI.
@@ -140,6 +159,6 @@ This page curates official, state/territory-level resources on AI for public sec
 ---
 
 ??? note "Disclaimer & Licence"
-    **Disclaimer:** This directory provides links to official state and territory government AI resources. SafeAI-Aus has exercised care in curation but does not guarantee accuracy, currency, or completeness of external government resources. Policies change frequently. Always verify the latest version and applicability with the relevant government agency before relying on specific documents.
+    **Disclaimer:** This directory provides links to official Australian federal, state and territory government AI resources. SafeAI-Aus has exercised care in curation but does not guarantee accuracy, currency, or completeness of external government resources. Policies change frequently. Always verify the latest version and applicability with the relevant government agency before relying on specific documents.
 
     **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*

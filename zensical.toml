@@ -67,7 +67,7 @@ nav = [
     { "Safe AI Adoption - Getting Started" = "business-resources/safe-ai-adoption-getting-started.md" },
     { "AI Grants & Funding" = "business-resources/ai-grants-funding-australia.md" },
     { "Tools & Frameworks" = "business-resources/ai-aus-tools-frameworks.md" },
-    { "State & Territory AI Resources" = "business-resources/state-territory-ai-resources.md" },
+    { "Government AI Resources" = "business-resources/state-territory-ai-resources.md" },
     { "AI Learning & Development Directory" = "business-resources/ai-learning-development-directory.md" },
     { "Australian AI Community" = "resources/australian-ai-community.md" },
   ]},

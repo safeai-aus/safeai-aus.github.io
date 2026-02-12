@@ -41,6 +41,7 @@ This page provides curated Australian and international resources for AI safety,
 
 - [AI Safety ANZ](https://aisafetyanz.com.au/) — Australia and New Zealand AI safety community with regional groups in Sydney, Melbourne, Brisbane, Wellington, Canberra and Auckland
 - [AI Safety Australia](https://www.aisafety.org.au/) — Australian AI safety research and community initiatives
+- [Good Ancestors](https://www.goodancestors.org.au/) — Australian policy organisation advocating for safe and well-governed AI, pandemic prevention and long-term government decision-making
 
 ### Digital Rights and Technology Ethics
 
