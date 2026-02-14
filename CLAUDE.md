@@ -167,13 +167,21 @@ The custom template in `overrides/main.html` reads these frontmatter values to g
 **GitHub Actions Workflow:** `.github/workflows/deploy.yml`
 
 - Triggers on push to `main` branch or manual workflow dispatch
-- Installs Python 3.10 and dependencies from `requirements.txt`
+- Installs Python 3.12 and dependencies from `requirements.txt`
 - Runs `zensical build` to generate static site
 - Generates `sitemap.xml` using Python script (inline in workflow)
+- Copies `robots.txt`, `llms.txt`, and `llms-full.txt` to build output
 - Uploads to GitHub Pages via Actions artifact
 - GitHub Pages configured to deploy from GitHub Actions (not branch)
 
 **No manual deployment needed** - pushing to `main` triggers automatic build and deploy.
+
+### LLM Context Files
+
+The repo includes two files for AI crawlers and LLM systems:
+
+- **`llms.txt`** - Machine-readable policy declaring how LLMs may use this site's content (CC BY 4.0 with attribution)
+- **`llms-full.txt`** - Human-readable summary of the site's content, frameworks, and sections for LLM context
 
 ## Content Guidelines
 
@@ -249,14 +257,14 @@ nav = [
 
 - **Zensical Setup:**
   - Zensical is a Rust-based binary distributed as a Python wheel (cp310-abi3)
-  - The PyPI package (`pip install zensical`) installs the binary automatically on Python 3.10+
+  - Install via `pip install zensical` (requires Python 3.10+)
   - Site was migrated from MkDocs Material to Zensical - some MkDocs features may not work
 
 - **Development Workflow:**
   - Local server runs on `http://localhost:8000`
   - Site auto-rebuilds on file changes when using `zensical serve`
   - Build output goes to `site/` directory (gitignored)
-  - GitHub Actions uses Python 3.10 for CI/CD builds
+  - GitHub Actions uses Python 3.12 for CI/CD builds
 
 - **Asset Management:**
   - Custom CSS in `docs/stylesheets/`
