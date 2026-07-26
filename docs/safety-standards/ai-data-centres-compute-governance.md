@@ -7,6 +7,7 @@ last-reviewed: "2026-07-23"
 review-cycle: "quarterly"
 og_description: "A source-led guide to Australian data centre policy, state approaches, compute governance and trusted facility directories"
 og_type: "article"
+robots: "index, follow"
 ---
 
 # AI Data Centres and Compute Governance in Australia

@@ -7,6 +7,7 @@ last-reviewed: "2026-07-21"
 review-cycle: "quarterly"
 og_type: "website"
 permalink: /contact/
+robots: "index, follow"
 ---
 
 # Connect with SafeAI-Aus  

@@ -8,6 +8,7 @@ review-status: "pending"
 review-cycle: "quarterly"
 og_description: "A practical glossary of key AI terms in the Australian context"
 og_type: "article"
+robots: "index, follow"
 ---
 
 # AI Glossary (Australia)

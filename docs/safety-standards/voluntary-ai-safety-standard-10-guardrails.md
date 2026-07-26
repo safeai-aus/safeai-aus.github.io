@@ -7,6 +7,7 @@ last-reviewed: "2026-07-22"
 review-cycle: "quarterly"
 og_description: "Comprehensive guide to Australia's Voluntary AI Safety Standard with 10 practical guardrails"
 og_type: "article"
+robots: "index, follow"
 ---
 
 # Voluntary AI Safety Standard (10 Guardrails)
