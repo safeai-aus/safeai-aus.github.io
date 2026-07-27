@@ -3,7 +3,7 @@ icon: lucide/map-pin
 title: "Australian Government AI Resources"
 description: "Official AI strategies, policies, assurance frameworks and statutory guidance from Australian federal, state and territory governments."
 keywords: "Australian government AI resources, federal AI policy, state AI policies, territory AI policies, government AI strategies, NAIC, OAIC, DTA, NSW AI policy, Victoria AI guidance, Queensland AI framework, SA AI resources, WA AI policy, Tasmania AI guidance, ACT AI policy, NT AI framework"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-07-27"
 review-cycle: "quarterly"
 og_description: "Comprehensive guide to AI resources published by Australian federal, state and territory governments"
 og_type: "article"
@@ -101,6 +101,28 @@ For a detailed overview of Australian AI legislation, see our [AI & Australian L
     A featured program is **VICTOR:AI** — an eight-week cohort for AI-native startups offering access to AI tools, co-working space and milestone-based grants. This initiative is consistent with Victoria's **AI Mission Statement** (announced 30 January 2026), positioning Victoria as a national AI leader.
 
     Provider intake arrangements and timing vary. The announcement did not specify which programs were accepting applications or confirm that funding had been disbursed. See [djsir.vic.gov.au](https://djsir.vic.gov.au/news-and-articles/victoria-backs-the-next-generation-of-ai-and-deeptech-startups) for the provider list and announced program details (accessed 21 June 2026).
+
+!!! info "Victoria — Workplace Surveillance and AI Laws Announced (July 2026, pre-legislative)"
+    The Federal Government and the Victorian Government jointly announced plans for workplace surveillance legislation addressing AI-enabled monitoring. Neither bill had been introduced to parliament as of 26 July 2026. Victoria's state election is scheduled for November 2026.
+
+    **Proposed protections (Victorian legislation; federal scope to be confirmed):**
+
+    - Workers' right to know when they are being monitored
+    - Employer consultation obligations before introducing any surveillance or AI management tools
+    - Biometric data collection permitted only where no less intrusive option is available
+    - Prohibition on using biometrics to assess employees' emotions without a legitimate operational reason
+    - Prohibition on AI tracking personal characteristics including bathroom breaks, pregnancy, disability and physical conditions
+    - Protection against surveillance data being used for discrimination (race, gender, sexuality, religion)
+
+    Organisations using AI scheduling, biometric monitoring or algorithmic management tools should monitor Victorian and federal parliament for bill introduction. (Sources: ohsrep.org.au, ia.acs.org.au, smbtech.au, ohsalert.com.au, accessed 26 July 2026)
+
+!!! info "Victoria — Online Safety and AI Platform Laws Announced (19 July 2026, pre-legislative)"
+    The Victorian Government announced plans for new laws targeting online anonymity and AI platform harms. Laws are not yet drafted; targeted consultation with VCAT and the courts is planned. Key proposed elements:
+
+    - **"Demasking" powers:** The Victorian Civil and Administrative Tribunal (VCAT) would be granted powers to order social media and AI platforms to reveal the identity of anonymous accounts accused of online vilification.
+    - **Lower harm threshold for minors:** The current 10% permanent psychiatric impairment threshold for negligence claims against AI or social media platforms will be removed for claims brought on behalf of minors. Extension to adults is under consideration during drafting.
+
+    Monitor the Victorian Parliament for bill introduction. (Sources: capitalbrief.com, theindiansun.com.au, theconversation.com, accessed 26 July 2026)
 
 ---
 

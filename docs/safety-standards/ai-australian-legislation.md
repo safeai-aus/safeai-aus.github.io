@@ -3,7 +3,7 @@ icon: lucide/flag
 title: "Current Legal Landscape for AI in Australia"
 description: "Overview of Australian laws relevant to AI adoption, including privacy, consumer protection, anti-discrimination and intellectual property."
 keywords: "AI legislation Australia, Australian AI law, AI privacy law, AI consumer law, AI discrimination law, AI intellectual property, AI legal compliance, Australian AI regulations, AI legal framework"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-07-27"
 review-cycle: "quarterly"
 og_description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business"
 og_type: "article"
@@ -169,6 +169,12 @@ Australia's **IP laws**—covering copyright, patents, trademarks and design rig
 
 - ⚖️ **Consumer law — Competition and Consumer Amendment (Unfair Trading Practices) Act 2026 (assented 6 July 2026; commences 1 July 2027)**
   The Act received Royal Assent on 6 July 2026. Its technology-neutral prohibition may capture AI-enabled dark patterns and algorithmic manipulation where the statutory test is met. See the Australian Consumer Law section above for details. The Treasury review also found the existing ACL "fit for purpose" for AI; no broader dedicated AI consumer legislation is expected in the near term.
+
+- 🏢 **Federal and Victorian workplace surveillance and AI laws — announced July 2026 (pre-legislative)**
+  The Federal Government and the Victorian Government jointly announced plans for workplace surveillance legislation that addresses AI-enabled monitoring. Neither bill had been introduced to parliament as of 26 July 2026. Victoria's state election is scheduled for November 2026, creating a timing constraint. Proposed protections (Victorian legislation; federal scope to be confirmed) include: the right to know when being monitored; employer consultation obligations before introducing surveillance or AI management tools; biometric data collection only where no less intrusive option exists; prohibition on using biometrics to assess employees' emotions without a legitimate operational reason (e.g. fatigue monitoring); prohibition on AI tracking personal characteristics including bathroom breaks, pregnancy, disability and physical conditions; and protection against surveillance data being used for discrimination (race, gender, sexuality, religion). Organisations using AI scheduling, biometric monitoring or algorithmic management tools should monitor Victorian and federal parliament for bill introduction. (Sources: ohsrep.org.au, ia.acs.org.au, smbtech.au, ohsalert.com.au, accessed 26 July 2026)
+
+- 🏛️ **Victoria — Online safety and AI platform laws — announced 19 July 2026 (pre-legislative)**
+  The Victorian Government separately announced plans for laws targeting online anonymity and AI platform harms. Key proposed elements: "demasking" powers for the Victorian Civil and Administrative Tribunal (VCAT) to order social media and AI platforms to reveal the identity of anonymous accounts accused of online vilification; removal of the 10% permanent psychiatric impairment threshold for negligence claims brought on behalf of minors against AI or social media platforms (extension to adults is under consideration during drafting). Laws are not yet drafted; targeted consultation with VCAT, the courts and other stakeholders is planned. Timeline to introduction to parliament has not been confirmed. Monitor the Victorian Parliament for bill introduction. (Sources: capitalbrief.com, theindiansun.com.au, theconversation.com, startupdaily.net, accessed 26 July 2026)
 
 !!! info "Government Policy and Guidance"
     For coverage of the National AI Plan, AI Safety Institute, DTA mandatory requirements, Senate Committee response and other government policy developments, see [Australian Government AI Policy and Frameworks](ai-government-policy-frameworks.md).
