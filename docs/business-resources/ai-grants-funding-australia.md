@@ -3,7 +3,7 @@ icon: lucide/dollar-sign
 title: "AI Grants & Funding for Australian Businesses"
 description: "Australian AI grants, funding programs and financial support for businesses adopting AI responsibly, including federal, state and industry opportunities."
 keywords: "AI grants Australia, AI funding Australia, AI business grants, Australian AI funding, AI government grants, AI business support, AI investment Australia, AI startup funding"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-08-03"
 review-cycle: "quarterly"
 og_description: "Comprehensive guide to AI grants, funding programs and financial support for Australian businesses"
 og_type: "article"
@@ -166,6 +166,14 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 - Programs are active.
 - ➡️ [Grant recipients](https://science.desi.qld.gov.au/industry/quantum/programs/grant-recipients)
 
+### Queensland: Small and Family Business AI Adoption Program
+
+- Approximately **$10 million** committed to support small and family businesses adopting AI, included in the Queensland 2026–27 State Budget.
+- Exact program name, application window and eligibility criteria have not yet been published in detail — this entry will be expanded once program guidelines are released.
+- ➡️ [Queensland Government statement](https://statements.qld.gov.au/statements/105371) (accessed 3 August 2026)
+
+<!-- TODO: Human verification required before publication: confirm exact budget-announcement date, official program name and opening date via a direct check of statements.qld.gov.au (returned HTTP 403 to automated fetch). -->
+
 ### Victoria: AI and Deeptech Pre-Accelerators (LaunchVic, $3.5M)
 
 - The Victorian Government announced **$3.5 million** to fund nine AI and deeptech pre-accelerator programs on **17 June 2026**.
@@ -237,6 +245,7 @@ AI is reshaping industries across Australia. To support businesses in responsibl
 | AIML Industrial AI SME Grant | SME Grant | Expert access | Industrial AI adoption | Active (to 2028) |
 | NSW Early Adopter Program | State Grant | $2.7m+ (2024) | Planning system AI trials | Active (2024) |
 | QLD Quantum & Advanced Tech | State Program | $53m | Quantum/AI infrastructure | Active |
+| QLD Small & Family Business AI Adoption | State Program | ~$10m | Small/family business AI adoption | Announced (2026–27 State Budget); details pending |
 | VIC AI and Deeptech Pre-Accelerators (LaunchVic, $3.5M) | State Program | $3.5m announced (up to $400k/provider) | AI and deeptech startup pre-acceleration | Operators announced 17 Jun 2026; provider intake varies |
 | MRFF AI in Health | Federal Grant | $30m | Healthcare AI transformation | Active |
 | CSIRO Next Gen Graduates | Federal Program | Varies | AI workforce development | Active |
