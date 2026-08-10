@@ -3,7 +3,7 @@ icon: lucide/globe
 title: "International AI Legal Landscape (2026)"
 description: "Comprehensive overview of international AI regulations and legal frameworks that Australian businesses need to understand for global operations and compliance."
 keywords: "international AI law, EU AI Act, US AI regulation, global AI compliance, AI legal landscape, Australian businesses abroad, AI regulation 2026"
-last-reviewed: "2026-07-06"
+last-reviewed: "2026-08-10"
 review-cycle: "quarterly"
 og_description: "Comprehensive overview of international AI regulations and legal frameworks for Australian businesses"
 og_type: "article"
@@ -72,9 +72,21 @@ Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Sin
 
     Australian businesses supplying AI into the EU should prepare for the adopted dates while monitoring Official Journal publication and the exact entry-into-force date. (Updated: 6 July 2026; sources: [Council of the EU, 29 June 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/); [European Parliament, 16 June 2026](https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban))
 
+!!! info "Update — Article 50 transparency obligations confirmed in force (2 August 2026)"
+    The European Commission has confirmed that **Article 50 transparency obligations** took effect as scheduled on **2 August 2026** — the first Digital Omnibus-era deadline to move from "scheduled" to actually in force. Duties effective now:
+
+    - Disclosing to users that they are interacting with an AI system
+    - Labelling deepfakes and other AI-generated or manipulated synthetic content
+    - Notifying individuals when subject to emotion-recognition or biometric-categorisation systems
+
+    The only exception is **machine-readable watermarking** under Article 50(2): for AI systems already on the market before 2 August 2026, this specific sub-obligation has a grace period to **2 December 2026**. Every other Article 50 duty applies immediately, with no further grace period. Annex III high-risk obligations remain deferred to 2 December 2027 and Annex I embedded-product obligations to 2 August 2028 — those dates have not moved.
+
+    **Australian relevance:** any Australian business offering chatbots, AI agents, synthetic media tools, or biometric/emotion-recognition features to EU-based users or customers is now in scope for these disclosure duties, independent of the separately-delayed high-risk obligations. No enforcement actions have been reported yet. (Source: [European Commission press release, 2 August 2026](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714), accessed 9 August 2026)
+
 !!! warning "What to Do"
     - ✅ Map any **EU-facing** AI systems to risk categories; identify if you're a **provider**, **deployer**, **importer** or **distributor**
     - ✅ For **GPAI/models**, prepare **training-data summaries**, technical documentation and risk-mitigation processes (red-teaming, incident reporting)
+    - ✅ If offering chatbots, synthetic media tools, or biometric/emotion-recognition features to EU users, confirm you are meeting the **Article 50 disclosure and labelling duties now in force**
     - ✅ Prepare for the **adopted Omnibus dates** (2 December 2027 for Annex III; 2 August 2028 for Annex I), while monitoring Official Journal publication and entry into force before treating them as legally effective.
 
 ### United States (US)
@@ -198,6 +210,7 @@ Australia has now signed bilateral AI safety cooperation instruments with Canada
 - [EU AI Act - Official Text (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
 - [EU AI Act Implementation Timeline](https://artificialintelligenceact.eu/implementation-timeline/)
 - [Guidelines for GPAI Providers (European Commission)](https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers)
+- [Article 50 Transparency Obligations Now in Force (European Commission press release, 2 August 2026)](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714)
 
 **United States**
 
