@@ -3,7 +3,7 @@ icon: lucide/server
 title: "AI Data Centres and Compute Governance"
 description: "Australian AI data centre policy, state strategies and trusted directories, covering energy, water, planning, security and sovereignty."
 keywords: "AI data centres Australia, Australian data centre directory, data centre regulation Australia, compute governance Australia, Australian Standards for AI, Data Centre Expectations, Victoria Sustainable Data Centre Action Plan, NSW Data Centre Consultation Paper, South Australia Data Centre Strategy, AI infrastructure policy, data centre energy water"
-last-reviewed: "2026-07-23"
+last-reviewed: "2026-08-10"
 review-cycle: "quarterly"
 og_description: "A source-led guide to Australian data centre policy, state approaches, compute governance and trusted facility directories"
 og_type: "article"
@@ -55,7 +55,9 @@ The outcome depends on location, design, contracts, operating behaviour and tran
 | **March 2026** | NSW published a **Data Centre Consultation Paper** to develop principles for sustainable and equitable investment. | Consultation paper rather than a final strategy; the consultation has closed and the policy position remains under development. |
 | **23 March 2026** | The Department of Industry, Science and Resources published five national **Expectations of data centres and AI infrastructure developers**. | Non-binding expectations used to inform Commonwealth prioritisation and coordination. Existing laws continue to apply. |
 | **June 2026** | South Australia published its **Data Centre Strategy** and committed to consult on a proposed Data Centre and AI Infrastructure Act. | Strategy and policy commitment; the proposed Act has not been enacted. |
+| **13 May 2026** | The Senate referred the **Artificial Intelligence and Data Centres** inquiry to the Environment and Communications References Committee. | Parliamentary inquiry; not a source of legal duties. Reporting date 16 November 2026. |
 | **15 July 2026** | The Prime Minister announced planned **Australian Standards for AI** for large data centres and AI training. The Office of AI was established in PM&C. | Policy announcement only; no new statutory duties commenced. |
+| **1 September 2026** | Submissions close for the Senate's Artificial Intelligence and Data Centres inquiry. | Parliamentary process; committee reports by 16 November 2026. |
 | **August 2026** | National Cabinet is expected to consider the national approach. | Future milestone; outcome not yet known. |
 | **Early 2027** | The Government expects the standards to be legislated. | Target only; subject to design, intergovernmental agreement and Parliament. |
 
@@ -168,6 +170,17 @@ See the [South Australian Government Data Centre Strategy (June 2026)](https://w
 
 ---
 
+## Parliamentary scrutiny: Senate inquiry into AI and data centres
+
+The Senate's **Environment and Communications References Committee** is conducting an inquiry into **"Artificial Intelligence and Data Centres"**. The Senate referred the inquiry on **13 May 2026**; the committee is due to report by **16 November 2026**, and submissions close **1 September 2026**.
+
+The terms of reference cover the effectiveness of existing regulatory frameworks for data-centre growth, government-to-AI-company deals, and the environmental and energy/water impacts of AI infrastructure — overlapping directly with the National Cabinet Australian Standards for AI work described above. This is a separate process from the earlier Senate Select Committee on Adopting AI, whose government response is covered on [Australian Government AI Policy and Frameworks](ai-government-policy-frameworks.md).
+
+!!! info "Confidence note"
+    Direct access to aph.gov.au was intermittently unavailable when this closing date was researched; it has been triangulated across multiple independent sources, including law-firm trackers, and is treated as authoritative. Organisations wanting to make a submission should confirm current details directly at [aph.gov.au](https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P) before the 1 September 2026 closing date.
+
+---
+
 ## The governance questions that matter
 
 | Area | Questions for decision-makers |
@@ -213,6 +226,7 @@ No single public directory provides a definitive count of Australian data centre
 ## What to watch next
 
 - The outcome of **National Cabinet consideration in August 2026**
+- Submissions and eventual findings from the **Senate Environment and Communications References Committee inquiry into AI and data centres** (submissions close 1 September 2026; committee reports by 16 November 2026)
 - Draft legislation, consultation papers or impact analysis for the Australian Standards for AI
 - Definitions and thresholds for a **large AI data centre**, AI training facility or expanded development
 - Which regulators and approval bodies will verify energy, water, security and community requirements
@@ -239,6 +253,7 @@ This page will be reviewed after material government announcements. Until detail
 - [NSW Data Centre Consultation Paper](https://www.infrastructure.nsw.gov.au/expert-advice/nsw-data-centre-consultation-paper/) — NSW Government, March 2026
 - [State significant development: warehouses and data centres](https://www.planning.nsw.gov.au/the-planning-system/planning-reforms/ssd-warehouses-and-data-centres) — NSW Planning
 - [South Australian Government Data Centre Strategy](https://www.dpc.sa.gov.au/__data/assets/pdf_file/0010/1424737/SA-Data-Centre-Strategy.pdf) — June 2026
+- [Senate inquiry: Artificial Intelligence and Data Centres](https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P) — Senate Environment and Communications References Committee, referred 13 May 2026
 
 ??? note "Disclaimer & Licence"
     **Disclaimer:** This page provides general information and is not legal, planning, engineering or investment advice. Requirements differ by project and jurisdiction. Verify current obligations with the relevant regulator, network, utility and professional advisers.

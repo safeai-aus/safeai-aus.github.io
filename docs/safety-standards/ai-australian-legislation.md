@@ -3,7 +3,7 @@ icon: lucide/flag
 title: "Current Legal Landscape for AI in Australia"
 description: "Overview of Australian laws relevant to AI adoption, including privacy, consumer protection, anti-discrimination and intellectual property."
 keywords: "AI legislation Australia, Australian AI law, AI privacy law, AI consumer law, AI discrimination law, AI intellectual property, AI legal compliance, Australian AI regulations, AI legal framework"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-08-10"
 review-cycle: "quarterly"
 og_description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business"
 og_type: "article"
@@ -157,6 +157,9 @@ Australia's **IP laws**—covering copyright, patents, trademarks and design rig
 
 - 🏛️ **Australian Standards for AI — planned legislation in early 2027**
   Prime Minister Albanese announced on 15 July 2026 that the Government plans to legislate an Australian Standards for AI framework. Official material describes a regulatory framework for large data centres and AI training, with mandatory requirements proposed for large AI data centres covering new power supply, connection costs, grid support and water efficiency. The **Office of AI** has been established within the Department of the Prime Minister and Cabinet to coordinate design of the standards across government. National Cabinet is expected to consider the approach in **August 2026**, with standards expected to be legislated in **early 2027**. The final scope, duties and commencement arrangements remain subject to design, intergovernmental consideration and Parliament. ([Prime Minister of Australia](https://www.pm.gov.au/media/ai-australias-interests); [PM&C Office of AI](https://www.pmc.gov.au/domestic-policy/office-ai), accessed 22 July 2026)
+
+- 🏛️ **Senate inquiry into AI and data centres — submissions close 1 September 2026**
+  The Senate Environment and Communications References Committee is inquiring into **"Artificial Intelligence and Data Centres"** (referred 13 May 2026; reporting date 16 November 2026). Terms of reference cover the effectiveness of existing regulatory frameworks for data-centre growth, government-to-AI-company deals, and environmental/energy/water impacts of AI infrastructure — overlapping with the Australian Standards for AI work above. See [AI Data Centres and Compute Governance](ai-data-centres-compute-governance.md) for full detail. ([Parliament of Australia](https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P), accessed 9 August 2026)
 
 - 🏛️ **DTA mandatory AI requirements — first requirement in effect 15 June 2026; CAIO appointments due July 2026**
   The first mandatory obligation under the DTA's Policy for the Responsible Use of AI in Government (Version 2.0) came into effect on 15 June 2026: all non-corporate Commonwealth entities must maintain an internal register of in-scope AI use cases with an accountable owner for each. All 94 mandatory agencies published public AI transparency statements ahead of this date — 15 June 2026 marks the first concrete enforcement date in the DTA's AI policy framework. Mandatory foundational AI training for all APS staff also becomes a policy requirement from this date. The Department of Finance said agencies had until **July 2026** to appoint a Chief AI Officer; its announcement does not report completion across entities ([Department of Finance](https://www.finance.gov.au/about-us/news/2025/establishing-chief-ai-officers-aps)). Remaining DTA obligations commence December 2026: completing an AI Impact Assessment prior to deployment; implementing processes to assess, approve and oversee AI use cases; and reporting on AI incidents.
