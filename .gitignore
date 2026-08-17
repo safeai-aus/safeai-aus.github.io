@@ -15,5 +15,4 @@ sitemap.xml
 
 # Local agent configuration and skills (not tracked)
 /.agents/
-.claude/airia-agents/
 /tmp/
