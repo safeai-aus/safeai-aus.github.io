@@ -3,7 +3,7 @@ icon: lucide/map-pin
 title: "Australian Government AI Resources"
 description: "Official AI strategies, policies, assurance frameworks and statutory guidance from Australian federal, state and territory governments."
 keywords: "Australian government AI resources, federal AI policy, state AI policies, territory AI policies, government AI strategies, NAIC, OAIC, DTA, NSW AI policy, Victoria AI guidance, Queensland AI framework, SA AI resources, WA AI policy, Tasmania AI guidance, ACT AI policy, NT AI framework"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-08-17"
 review-cycle: "quarterly"
 og_description: "Comprehensive guide to AI resources published by Australian federal, state and territory governments"
 og_type: "article"
@@ -125,6 +125,15 @@ For a detailed overview of Australian AI legislation, see our [AI & Australian L
 - **[State Records SA — Artificial Intelligence & Information Management](https://www.archives.sa.gov.au/managing-information/Information-management/artificial-intelligence-and-information-management)** — recordkeeping obligations when developing/using AI.
 - **[Department for Education — EdChat (GenAI chatbot) overview](https://www.education.sa.gov.au/parents-and-families/curriculum-and-learning/ai/edchat)** — agency adoption example and usage guidance in schools.
 - **[State Budget — Digital Investment Fund: AI program](https://www.statebudget.sa.gov.au/our-budget/digital-capabilities)** — funding context to grow AI use in services.
+
+!!! info "South Australia — Royal Commission into Artificial Intelligence announced (10 August 2026)"
+    Premier Peter Malinauskas announced South Australia will establish a Royal Commission into Artificial Intelligence — described consistently across sources as the first Australian royal commission into AI — following his return from a US trip that included meetings at OpenAI, Anthropic and Apple. Terms of reference are pending.
+
+    The Commission is intended to examine AI's effects on work, the creative industries, education, public services and society, with the explicit goal of informing proactive state and national AI regulation rather than a retrospective/judicial inquiry. Three commissioners are expected to be appointed, reportedly with international expertise, at an estimated cost of around $3 million.
+
+    Terms of reference are expected within roughly six weeks of the announcement (by approximately late September 2026), with the Commission expected to commence 1 October 2026 and report to government by 1 July 2027. SA Opposition Leader Ashton Hurn has publicly questioned the cost and necessity, pointing to a prior parliamentary committee that produced 15 recommendations including a call for SA to work with the Commonwealth on nationally consistent AI laws. The SA Government has said implementation of any new SA AI regulations will not be delayed pending the Commission's findings.
+
+    SafeAI-Aus will update this entry once terms of reference and any public submissions process are confirmed. (Sources: [SBS News](https://www.sbs.com.au/news/article/australia-is-getting-its-first-major-inquiry-into-ai-its-starting-in-south-australia/xmpt3koiy), [InDaily](https://www.indailysa.com.au/news/just-in/2026/08/11/sa-govt-spearheads-ai-royal-commission-as-opposition-questions-cost), [Cyber Daily](https://www.cyberdaily.au/government/14025-artificial-intelligence-south-australian-premier-announces-royal-commission-into-ai); accessed 16 August 2026)
 
 !!! info "South Australia — Data Centre and AI Infrastructure Act proposed (June 2026)"
     The South Australian Government's June 2026 **Data Centre Strategy** commits to consulting on a proposed Act covering development approvals, energy, water, security and local benefits. The Act remains proposed; existing planning mechanisms and the proposed future legislation have different legal status.

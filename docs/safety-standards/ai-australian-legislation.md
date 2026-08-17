@@ -3,7 +3,7 @@ icon: lucide/flag
 title: "Current Legal Landscape for AI in Australia"
 description: "Overview of Australian laws relevant to AI adoption, including privacy, consumer protection, anti-discrimination and intellectual property."
 keywords: "AI legislation Australia, Australian AI law, AI privacy law, AI consumer law, AI discrimination law, AI intellectual property, AI legal compliance, Australian AI regulations, AI legal framework"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-08-17"
 review-cycle: "quarterly"
 og_description: "Comprehensive overview of current legislation applicable to AI adoption in Australian business"
 og_type: "article"
@@ -169,6 +169,9 @@ Australia's **IP laws**—covering copyright, patents, trademarks and design rig
 
 - ⚖️ **Consumer law — Competition and Consumer Amendment (Unfair Trading Practices) Act 2026 (assented 6 July 2026; commences 1 July 2027)**
   The Act received Royal Assent on 6 July 2026. Its technology-neutral prohibition may capture AI-enabled dark patterns and algorithmic manipulation where the statutory test is met. See the Australian Consumer Law section above for details. The Treasury review also found the existing ACL "fit for purpose" for AI; no broader dedicated AI consumer legislation is expected in the near term.
+
+- 🏛️ **South Australia — Royal Commission into Artificial Intelligence announced (10 August 2026)**
+  South Australia will establish Australia's first Royal Commission into AI — a state-level inquiry distinct from the federal Australian Standards for AI process above, examining AI's effects on work, education, public services and society. Terms of reference are expected by approximately late September 2026, with the Commission expected to commence 1 October 2026 and report to government by 1 July 2027. See the [South Australia section of state/territory resources](/business-resources/state-territory-ai-resources/#south-australia-sa) for full detail.
 
 !!! info "Government Policy and Guidance"
     For coverage of the National AI Plan, AI Safety Institute, DTA mandatory requirements, Senate Committee response and other government policy developments, see [Australian Government AI Policy and Frameworks](ai-government-policy-frameworks.md).
