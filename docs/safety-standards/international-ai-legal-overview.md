@@ -1,251 +1,140 @@
 ---
 icon: lucide/globe
 title: "International AI Legal Landscape (2026)"
-description: "Comprehensive overview of international AI regulations and legal frameworks that Australian businesses need to understand for global operations and compliance."
+description: "Overview of international AI laws and governance frameworks relevant to Australian organisations operating or supplying AI overseas."
 keywords: "international AI law, EU AI Act, US AI regulation, global AI compliance, AI legal landscape, Australian businesses abroad, AI regulation 2026"
-last-reviewed: "2026-07-06"
+last-reviewed: "2026-08-22"
 review-cycle: "quarterly"
-og_description: "Comprehensive overview of international AI regulations and legal frameworks for Australian businesses"
+og_description: "International AI laws and governance frameworks relevant to Australian organisations"
 og_type: "article"
 ---
 
 # International AI Legal Landscape (2026) — What Australian Businesses Should Know
 
-> **Purpose:** Navigate international AI regulations affecting Australian organisations operating globally
-> **Audience:** Legal, compliance, international business and governance teams | **Time:** 60-90 minutes
+> **Purpose:** Identify international AI rules that may affect Australian organisations
+> **Audience:** Legal, compliance, international business and governance teams | **Time:** 30-45 minutes
 
-*This page is informational and not legal advice.*
+*This page is general information, not legal advice. It was checked against the linked official sources on 22 August 2026.*
 
-!!! note "Rapidly evolving landscape"
-    International AI regulations are changing fast. The European Parliament adopted the **Digital Omnibus on AI** on **16 June 2026** (423 to 57, 174 abstentions), followed by the Council of the EU on **29 June 2026**. Official Journal publication and entry into force remain pending; the revised high-risk AI dates have been adopted but are not yet legally effective. South Korea's AI Basic Act took effect in January 2026 with implementing rules still emerging. Canada's AIDA died on the Order Paper and any replacement may differ substantially. Always verify current status with official sources before making compliance decisions.
+!!! warning "Confirm scope before relying on this summary"
+    AI laws can apply because of where a provider, customer, user, output or affected person is located. Product, privacy, consumer, employment and sector laws may apply in addition to the AI-specific material below. Obtain jurisdiction-specific advice for consequential decisions.
 
-As AI regulation accelerates globally, many jurisdictions already impose binding requirements or have near-term obligations that will affect Australian organisations exporting, operating, or handling data linked to those regions.
+## Executive snapshot
 
-Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Singapore and recent bilateral agreements, plus the global frameworks most often referenced by regulators.
+| Jurisdiction | Position at 22 August 2026 | Practical point for Australian organisations |
+|---|---|---|
+| **European Union** | Binding AI Act with staged duties; Regulation (EU) 2026/1744 is in force | Article 50 transparency duties apply from 2 August 2026, subject to a narrow transition for Article 50(2) marking of pre-existing systems |
+| **United States** | No single federal private-sector AI Act; federal guidance plus state and city laws | Check every state and city in which a system is offered or used; Colorado's AI Act took effect on 30 June 2026 |
+| **Canada** | Former AIDA proposal did not become law | Continue to apply privacy, human rights, consumer and sector laws; do not describe AIDA as current legislation |
+| **United Kingdom** | Regulator-led model; Data (Use and Access) Act 2025 changed automated-decision rules and requires AI/copyright reporting | Identify the relevant sector regulator and apply UK data-protection safeguards to significant automated decisions |
+| **Japan** | Promotion-focused AI Act fully effective from 1 September 2025, supported by voluntary guidance | Monitor government guidance and continue to apply privacy, consumer and sector laws |
+| **South Korea** | AI Basic Act effective from 22 January 2026 | Providers of high-impact or generative AI may face transparency, risk-management and local-representative duties |
+| **Singapore** | Voluntary governance frameworks and testing tools | Use the frameworks as implementation guidance; AI Verify does not itself test generative AI or LLMs |
 
----
+## Jurisdiction guides
 
-## Executive Snapshot
+### European Union
 
-!!! info "Key Jurisdictions at a Glance"
-    - 🇪🇺 **EU** — The **EU AI Act** is in force with staged obligations. Bans on "unacceptable risk" uses started **2 Feb 2025**; **general-purpose AI (GPAI)** duties started **2 Aug 2025**. Parliament adopted the **EU Digital Omnibus on AI** on **16 June 2026** (423–57, 174 abstentions), followed by the Council on **29 June 2026**. Official Journal publication and entry into force remain pending. Once the Omnibus enters into force, the scheduled dates include **2 December 2027** for high-risk standalone AI (Annex III), **2 August 2028** for high-risk AI embedded in products (Annex I), **2 December 2026** for watermarking and a new NCII/CSAM prohibition, and **2 August 2027** for sandboxes.
+The **EU AI Act (Regulation (EU) 2024/1689)** is a binding, risk-based regime. **Regulation (EU) 2026/1744**, commonly called the Digital Omnibus on AI, was published in the Official Journal on **24 July 2026** and entered into force on **27 July 2026**.
 
-    - 🇺🇸 **US** — No single federal AI law. Federal direction runs through **NIST AI RMF 1.0** and public-sector guidance (**OMB M-24-10**). States are moving: **Colorado's AI Act** (effective **30 June 2026**) requires risk programs, impact assessments and notices for "high-risk" AI. NYC mandates bias audits for automated hiring tools.
+Key dates now include:
 
-    - 🇨🇦 **Canada** — The federal **Artificial Intelligence and Data Act (AIDA)** (within Bill C-27) **died on the Order Paper** in January 2025 when Parliament was prorogued. Any future legislation may differ substantially; no timeline for re-introduction.
+- **2 February 2025:** prohibited-practice and AI-literacy provisions began applying.
+- **2 August 2025:** governance, penalty and general-purpose AI provisions began applying.
+- **2 August 2026:** Article 50 transparency duties began applying.
+- **2 December 2026:** providers of systems placed on the market before 2 August 2026 must comply with the Article 50(2) machine-readable marking and detection duty; new prohibitions concerning non-consensual intimate imagery and child sexual abuse material also begin applying.
+- **2 December 2027:** high-risk systems listed in Annex III are scheduled to comply.
+- **2 August 2028:** high-risk systems connected with Annex I regulated products are scheduled to comply.
 
-    - 🇬🇧 **UK** — No single AI Act; **regulator-led, "pro-innovation"** model with central government coordination and the **AI Security Institute** (rebranded Feb 2025). Regulators are issuing sector guidance and pilots (assurance, sandboxes). The **Data (Use and Access) Act** (mid-2025) marks the UK's first statutory step toward AI-relevant obligations.
+Article 50 is not a single watermarking rule. Depending on role and use case, it covers disclosure when people interact with AI, machine-readable marking and detection of synthetic outputs, notification when emotion-recognition or biometric-categorisation systems are used, and disclosure of deepfakes or certain AI-generated public-interest text. The transition to 2 December 2026 is limited to **Article 50(2)** systems already placed on the market before 2 August 2026; it does not postpone every Article 50 duty.
 
-    - 🇯🇵 **Japan** — On **28 May 2025** Parliament approved the **AI Promotion Act** (Japan's first AI law, effective 4 June 2025), establishing the AI Strategy Headquarters. Compliance remains guideline-driven via the **AI Guidelines for Business** (2024) and existing laws (privacy, consumer).
+The Act can reach providers established outside the EU where an AI system's output is used in the EU. Australian organisations should map their role—provider, deployer, importer or distributor—and the location of intended users and outputs.
 
-    - 🇰🇷 **South Korea** — Passed the **AI Basic Act** (**promulgated 21 Jan 2025; effective 22 Jan 2026**). Establishes national governance, trustworthiness requirements and enables future rules; extra-territorial effects likely for some activities.
+Official sources: [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744), [European Commission Article 50 guidelines](https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems), [European Commission Article 50 Q&A](https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act).
 
-    - 🇸🇬 **Singapore** — Leading with **Model AI Governance Framework (GenAI)** and the open-source **AI Verify** testing toolkit. Often used as a practical implementation benchmark, interoperable with NIST AI RMF.
+<!-- TODO: Human-verify the EU dates, scope and Article 50 interpretation against EUR-Lex and current Commission guidance before publication. -->
 
----
+### United States
 
-!!! success "Why This Matters for Australian Businesses"
-    - 🌏 **Export exposure:** Selling AI products/services into the EU, UK or Korea may trigger local **provider/deployer** duties even if you're based in Australia
-    - 📋 **Procurement pressure:** Multinationals will increasingly require **AI risk assessments, bias testing and documentation** aligned to EU/US frameworks (EU AI Act, NIST AI RMF, ISO/IEC 42001)
-    - 🔄 **Interoperability benefits:** Adopting **risk-based** governance now reduces later retrofit costs and smooths compliance across markets
+The United States has no single federal law regulating all private-sector AI. Relevant requirements come from federal laws and regulators, state and city laws, and contractual or procurement obligations.
 
----
+For US federal agencies, **OMB M-25-21** and **M-25-22** replaced the earlier 2024 direction for agency AI use and procurement. They do not create a general private-sector AI compliance regime. **NIST AI RMF 1.0** remains voluntary and is being revised; NIST is also developing a critical-infrastructure profile.
 
-## Jurisdiction Guides
+At state level, Colorado's **SB24-205**, as delayed by **SB25B-004**, took effect on **30 June 2026**. It addresses algorithmic discrimination and imposes duties concerning high-risk AI systems. New York City's Local Law 144 separately regulates automated employment decision tools, including bias-audit and notice requirements.
 
-### European Union (EU)
+Official sources: [OMB memoranda](https://www.whitehouse.gov/omb/information-resources/guidance/memoranda/), [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [Colorado SB25B-004](https://leg.colorado.gov/bills/sb25b-004), [NYC automated employment decision tools](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page).
 
-**Status & scope:** The **EU AI Act (Regulation (EU) 2024/1689)** is live with a **risk-tiered** regime (prohibited, high, limited, minimal), dedicated **GPAI** obligations and strong enforcement (up to 7% global turnover). Key dates under the **original Act** include **2 Feb 2025** (prohibitions), **2 Aug 2025** (GPAI, governance/penalties) and **2 Aug 2026** (the original high-risk AI deadline). Parliament adopted the **Digital Omnibus on AI** on 16 June 2026, followed by the Council on 29 June 2026. The Omnibus schedules the Annex III deadline for **2 December 2027** and the Article 50 watermarking date for **2 December 2026**, but these amendments are not legally effective until the regulation is published in the Official Journal and enters into force.
-
-!!! info "EU Digital Omnibus on AI — Adopted; entry into force pending"
-    The European Parliament adopted the **EU Digital Omnibus on AI** on **16 June 2026** (423 to 57, 174 abstentions), followed by formal adoption by the Council of the EU on **29 June 2026**. Publication in the Official Journal remains pending. The Omnibus will enter into force three days after publication; until then, its amended dates are adopted and scheduled rather than legally effective.
-
-    Adopted amendments scheduled to apply after entry into force include:
-
-    - **High-risk AI standalone systems (Annex III):** new compliance deadline **2 December 2027** (deferred from 2 August 2026)
-    - **High-risk AI embedded in regulated products (Annex I):** new compliance deadline **2 August 2028**
-    - **Article 50 watermarking obligations:** now apply from **2 December 2026** (extended from 2 August 2026)
-    - **New Article 5 prohibition:** AI systems generating non-consensual intimate imagery (NCII) and child sexual abuse material (CSAM), including "nudifier" tools — compliance required by **2 December 2026**
-    - **AI regulatory sandboxes (national-level):** now **2 August 2027**
-    - **Machinery Regulation:** moved to Annex I Section B — AI in machinery-regulated products falls primarily under the Machinery Regulation rather than direct AI Act high-risk requirements
-    - **SME exemption** extended to small mid-cap companies (SMCs)
-
-    Australian businesses supplying AI into the EU should prepare for the adopted dates while monitoring Official Journal publication and the exact entry-into-force date. (Updated: 6 July 2026; sources: [Council of the EU, 29 June 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/); [European Parliament, 16 June 2026](https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban))
-
-!!! warning "What to Do"
-    - ✅ Map any **EU-facing** AI systems to risk categories; identify if you're a **provider**, **deployer**, **importer** or **distributor**
-    - ✅ For **GPAI/models**, prepare **training-data summaries**, technical documentation and risk-mitigation processes (red-teaming, incident reporting)
-    - ✅ Prepare for the **adopted Omnibus dates** (2 December 2027 for Annex III; 2 August 2028 for Annex I), while monitoring Official Journal publication and entry into force before treating them as legally effective.
-
-### United States (US)
-
-**Status & scope:** No omnibus federal AI law. Federal levers include **NIST AI RMF 1.0** (widely adopted) and **OMB M-24-10** (governance for US federal agencies). Two NIST publications during 2026 extend the framework:
-
-- **NIST IR 8596 — Cybersecurity Framework Profile for AI (preliminary draft, February 2026):** voluntary framework extending NIST CSF 2.0 to AI-specific cybersecurity risks. Organised around three focus areas (Secure, Defend, Thwart) and the six CSF 2.0 core functions. Open for public comment ([NIST IR 8596 publication page](https://csrc.nist.gov/pubs/ir/8596/ipd), accessed 19 May 2026).
-- **AI RMF Critical Infrastructure Profile (concept note, 7 April 2026):** new profile under development to guide critical infrastructure operators on AI risk management practices. Full profile in development ([NIST AI RMF homepage](https://www.nist.gov/itl/ai-risk-management-framework), accessed 19 May 2026).
-
-States and cities are active: **Colorado SB24-205** (effective **30 June 2026**, delayed from the original February 2026 date via SB 25B-004) mandates **risk management programs, impact assessments, consumer notices and appeal/human review** for "high-risk" AI; **NYC Local Law 144** requires **bias audits and notices** for automated hiring tools.
-
-!!! warning "What to Do"
-    - ✅ Align your program to **NIST AI RMF** (often accepted as a **defence/interoperability** baseline, including in Colorado's framework)
-    - ✅ If serving US customers/employers, build **impact assessment** and **bias-audit** capability into your lifecycle
+<!-- TODO: Human-verify applicable federal, state and local US requirements for the organisation's locations and use cases before publication. -->
 
 ### Canada
 
-**Status & scope:** Bill C-27 (which included the federal Artificial Intelligence and Data Act, AIDA) died on the Order Paper on 6 January 2025 when Parliament was prorogued. The bill would need to be completely re-introduced in a future parliamentary session. Any future AI legislation is expected to take a different approach; status remains highly uncertain. Note: Ontario's **Bill 194** (passed November 2024) regulates public sector AI use provincially.
+The proposed **Artificial Intelligence and Data Act (AIDA)** formed part of Bill C-27 in the 44th Parliament. That parliamentary session ended on 6 January 2025 and the bill did not become law. A new bill with the same number in the 45th Parliament is unrelated.
 
-!!! warning "What to Do"
-    No federal AI-specific law is imminent. Continue monitoring for potential re-introduction under a new government. Organisations can still reference AIDA's former companion guidance for voluntary best practices (risk-based duties for "high-impact" systems, impact assessments, incident reporting), but recognise any future legislation may differ substantially.
+Canadian privacy, human-rights, consumer, employment and sector laws continue to apply to AI. Provincial public-sector rules may also apply. Organisations may use the former AIDA material as historical policy context, but should not describe it as an enacted or current bill.
 
-### United Kingdom (UK)
+Official source: [Parliament of Canada, Bill C-27 (44th Parliament)](https://www.parl.ca/legisinfo/en/bill/44-1/c-27).
 
-**Status & scope:** **No single AI Act**; the UK follows a **contextual, regulator-led** approach under the **Government Response (Feb 2024)** to its AI White Paper. Central functions coordinate regulators; the **AI Security Institute** (rebranded from "AI Safety Institute" in February 2025) evaluates advanced systems and supports guidance/testing. The **Data (Use and Access) Act** (mid-2025) introduced provisions affecting AI training datasets and algorithmic accountability.
+<!-- TODO: Human-verify whether replacement federal AI legislation has been introduced after 22 August 2026 before publication. -->
 
-!!! warning "What to Do"
-    - ✅ Track sector regulators (ICO, CMA, FCA, MHRA etc.)
-    - ✅ Expect **assurance**, **transparency**, and **evaluation** asks for frontier/GPAI uses
-    - ✅ Monitor the **Data (Use and Access) Act** for AI training data and algorithmic accountability requirements
+### United Kingdom
+
+The UK continues to use a regulator-led approach rather than a single cross-sector AI Act. Organisations should identify the regulators and existing laws relevant to their sector and use case.
+
+The **Data (Use and Access) Act 2025** amended the UK data-protection framework for solely automated decisions with legal or similarly significant effects. It permits a wider range of such decisions using non-special-category personal data but requires safeguards including information, representations, challenge and human intervention. The Act also requires government reporting and impact assessment on copyright works used to develop AI; it did not itself settle a new copyright exception for AI training.
+
+Official sources: [Data (Use and Access) Act 2025](https://www.legislation.gov.uk/ukpga/2025/18/contents), [UK Government data-protection summary](https://www.gov.uk/guidance/data-use-and-access-act-2025-data-protection-and-privacy-changes), [AI Security Institute](https://www.gov.uk/government/organisations/ai-security-institute).
+
+<!-- TODO: Human-verify commencement of the relevant Data (Use and Access) Act provisions and sector-regulator guidance before publication. -->
 
 ### Japan
 
-**Status & scope:** Japan emphasises **soft-law** via the **AI Guidelines for Business (2024, METI/MIC)**, updated subsequently. On **28 May 2025** Parliament approved the **AI Promotion Act** (Japan's first AI law), with most provisions taking effect **4 June 2025**. The Act establishes the AI Strategy Headquarters under the Prime Minister's Office and focuses on R&D promotion and voluntary guidelines rather than hard restrictions.
+Japan's **Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology** (Act No. 53 of 2025) is promotion-focused. It was established on **28 May 2025**, partially commenced on **4 June 2025**, and became fully effective on **1 September 2025**. It created an AI Strategic Headquarters and provides for an AI Basic Plan, research and infrastructure support, guidance and investigation of harmful cases.
 
-!!! warning "What to Do"
-    - ✅ Apply the **Guidelines** lifecycle controls (risk identification, governance, transparency)
-    - ✅ Ensure compliance with **APPI** and sector rules
+Government guidance remains important. The January 2026 provisional English translation of Japan's appropriateness guideline describes voluntary, risk-proportionate efforts for organisations and other stakeholders. Existing privacy, consumer, competition and sector laws continue to apply.
 
-### Republic of Korea (South Korea)
+Official sources: [Cabinet Office outline of the AI Act](https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou_en.pdf), [official English translation](https://www.japaneselawtranslation.go.jp/en/laws/view/5066/en), [2026 guideline](https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf).
 
-**Status & scope:** **AI Basic Act** (officially "Basic Act on the Development of AI and the Establishment of a Foundation for Trustworthiness") passed **26 Dec 2024**, **promulgated 21 Jan 2025**, **effective 22 Jan 2026**. Creates national governance (AI committee, safety institute), a trustworthiness baseline and foundation for detailed rules; **extra-territorial reach** is anticipated in some areas. Fines up to KRW 30 million (~$20,870) and potential imprisonment for violations.
+<!-- TODO: Human-verify Japan's current AI Basic Plan, guidelines and sector rules before publication. -->
 
-!!! warning "What to Do"
-    - ✅ If offering AI into Korea, prepare for **registration/notice**, **risk management**, and **safety/trust** controls as implementing measures roll out
+### South Korea
+
+South Korea's **Framework Act on the Development of Artificial Intelligence and the Creation of a Foundation for Trust** was promulgated on **21 January 2025** and took effect on **22 January 2026**.
+
+The Act establishes national governance and duties relevant to high-impact and generative AI, including specified transparency obligations, safety measures and—in some circumstances—a domestic representative. Administrative fines of up to KRW 30 million can apply to specified failures such as notification, domestic-representative or corrective-order breaches. The Act's imprisonment provision concerns unauthorised disclosure or use of confidential information learned through committee duties; it should not be presented as the ordinary penalty for provider non-compliance.
+
+Official source: [Korean Law Information Center, English text](https://www.law.go.kr/LSW/lsInfoP.do?chrClsCd=010203&lsiSeq=268543&urlMode=engLsInfoR&viewCls=engLsInfoR).
+
+<!-- TODO: Human-verify implementing decrees, thresholds and extra-territorial application before publication. -->
 
 ### Singapore
 
-**Status & scope:** **Model AI Governance Framework (GenAI)** and the **AI Verify** testing toolkit provide **practical, testable** governance guidance; mapped to **NIST AI RMF** for interoperability. Frequently used by multinationals for **assurance**.
+Singapore's **Model AI Governance Framework**, the **Model AI Governance Framework for Generative AI** and **AI Verify** are voluntary governance and assurance resources rather than a general AI Act.
 
-!!! warning "What to Do"
-    - ✅ Use **AI Verify** (or equivalent) for **bias, robustness, transparency** testing
-    - ✅ Publish **assurance artefacts** for enterprise buyers
+AI Verify supports technical tests and process checks for certain supervised-learning classification and regression models. Singapore's official description states that it **cannot test generative AI or large language models**, does not set ethical standards and does not guarantee that a tested system is safe or free from risk or bias. Organisations using generative AI should use the GenAI framework and suitable evaluation methods rather than claiming AI Verify certification or complete assurance.
 
-### Bilateral: Australia–Canada AI Safety Cooperation
+Official sources: [Singapore's AI governance approach](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework), [GenAI framework](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2024/public-consult-model-ai-governance-framework-genai), [AI Verify Foundation](https://aiverifyfoundation.sg/).
 
-**Status & scope:** In early 2026, Australia and Canada signed an **AI Safety Cooperation Agreement** to strengthen bilateral cooperation on AI safety through the **International Network of AI Safety Institutes**. The agreement covers joint research, information sharing and coordinated approaches to evaluating advanced AI systems ([industry.gov.au](https://www.industry.gov.au/), accessed 15 April 2026).
+<!-- TODO: Human-verify the current versions and capabilities of Singapore's frameworks and tools before publication. -->
 
-!!! warning "What to Do"
-    - ✅ Monitor outcomes from the International Network of AI Safety Institutes — shared evaluation frameworks and safety benchmarks may influence future Australian regulatory expectations
+## Australian bilateral AI-safety cooperation
 
-### Bilateral: Australia–UK AI Safety MoU (Signed Late May 2026)
+Australia signed AI-safety cooperation memoranda with **Canada on 5 March 2026** and the **United Kingdom on 25 May 2026**. These establish frameworks for technical cooperation, information exchange, evaluation and research; they do not create direct compliance duties for Australian businesses.
 
-**Status & scope:** Australia and the UK signed a **Memorandum of Understanding** in late May 2026 deepening cooperation on the responsible development, deployment, governance and use of safe and trustworthy AI. The MoU was signed during a visit to Australia by the UK Minister for AI and Online Safety. Under the MoU, the Australian AI Safety Institute (currently being established) and the UK **AI Security Institute** will collaborate on:
+The Australian Government also signed a non-legally-binding AI collaboration memorandum with **Anthropic on 1 April 2026**. Its stated areas include safety, research, economic impacts, infrastructure and skills. It is not a law, grant or procurement preference.
 
-- Sharing information and expertise on emerging AI capabilities and risks
-- Best practices for testing AI systems
-- Conducting joint research, including novel approaches to measure, test and manage risks
-- Supporting the **International Network for Advanced AI Measurement, Evaluation and Science**
+Official sources: [Australia–Canada cooperation](https://www.industry.gov.au/news/australia-and-canada-agree-strengthen-cooperation-ai-safety), [Australia–UK cooperation](https://www.industry.gov.au/news/australia-and-uk-strengthen-partnership-safe-and-secure-ai), [Australia–Anthropic memorandum](https://www.industry.gov.au/publications/memorandum-understanding-between-australian-government-and-anthropic-collaboration-ai-opportunities).
 
-Australia has now signed bilateral AI safety cooperation instruments with Canada (early 2026) and the UK (late May 2026), in addition to an industry MoU with Anthropic. This network of agreements is shaping the AISI's international partnerships even as its formal operational launch remains pending.
+<!-- TODO: Human-verify the status and any published outputs of these memoranda before publication. -->
 
-*Note: Confirm the exact date of signing at [industry.gov.au](https://www.industry.gov.au/news/australia-and-uk-strengthen-partnership-safe-and-secure-ai) before citing a specific date.*
+## Practical cross-border checklist
 
-!!! warning "What to Do"
-    - ✅ Monitor outcomes from Australia's bilateral AI safety agreements. Joint evaluation frameworks and safety benchmarks from these partnerships may influence future Australian regulatory expectations and guidance
-
-!!! info "Australia–Anthropic MoU (1 April 2026)"
-    On 1 April 2026, the Australian Government and Anthropic signed an MoU described as the first formal arrangement executed under the **National AI Plan**. The agreement is a statement of intent (not legally binding) covering AI safety, research collaboration and workforce development. Key elements include Anthropic extending its **AI for Science program** to Australia, with an investment of AUD $3 million in Claude API credits to four institutions (ANU, Murdoch Children's Research Institute, Garvan Institute of Medical Research and Curtin University), and Anthropic planning to open a **Sydney office in 2026**. The MoU was formalised during a meeting between Anthropic CEO Dario Amodei and Prime Minister Albanese. ([industry.gov.au](https://www.industry.gov.au/news/australian-government-has-signed-memorandum-understanding-mou-global-ai-innovator-anthropic), accessed 31 May 2026; [anthropic.com](https://www.anthropic.com/news/australia-MOU), accessed 31 May 2026)
-
----
-
-## Side-by-Side Summary
-
-| Jurisdiction | Legal posture (July 2026) | Primary instruments | Key dates | Headline obligations (examples) |
-|---|---|---|---|---|
-| **EU** | Binding, phased | EU AI Act; EU Digital Omnibus (adopted by Parliament 16 Jun 2026 and Council 29 Jun 2026; entry into force pending) | Feb 2025 (bans); Aug 2025 (GPAI); adopted Omnibus schedule: **Dec 2027** (Annex III high-risk), **Aug 2028** (Annex I embedded), watermarking and NCII prohibition Dec 2026; OJ publication pending | Risk-tiered duties, GPAI transparency/docs, post-market monitoring, penalties up to 7% turnover |
-| **US** | Patchwork + federal guidance | NIST AI RMF; OMB M-24-10; **Colorado AI Act**; NYC AEDT law | **CO:** 30 June 2026; **NYC AEDT:** in force | Risk programs, **impact assessments**, notices, bias audits (hiring), consumer appeal/human review |
-| **Canada** | Dead (died Jan 2025) | **AIDA (Bill C-27)** – terminated | No timeline; re-introduction uncertain | Bill C-27 died on Order Paper; any future legislation may differ substantially from original AIDA proposal |
-| **UK** | Regulator-led framework | Gov't Response (Feb 2024); **AI Security Institute**; Data (Use and Access) Act | Data Act mid-2025; AI legislation expected 2025–26 | Sector regulators issue guidance; evaluation & assurance focus (frontier/GPAI); data/algorithmic accountability |
-| **Japan** | Soft-law + promotion act | **AI Guidelines for Business**; **AI Promotion Act** | Act effective **4 June 2025**; AI Strategy HQ operational Sept 2025 | Lifecycle governance guidance; R&D promotion; voluntary compliance (no direct penalties) |
-| **Korea** | Binding (framework) | **AI Basic Act** | **Effective 22 Jan 2026** | National governance; trust/safety foundations; fines up to KRW 30M; further rules expected |
-| **Singapore** | Voluntary but influential | **Model AI Governance (GenAI)**; **AI Verify** | Framework updated 2024–25; OECD/GPAI alignment 2025 | Testing toolkit + governance guidance; NIST RMF cross-walk; red-teaming benchmarks |
-| **AU–CA** | Bilateral cooperation | **AI Safety Cooperation Agreement** | Signed early 2026 | Joint research and evaluation via International Network of AI Safety Institutes |
-| **AU–UK** | Bilateral cooperation | **Australia–UK AI Safety MoU** | Signed late May 2026 | Joint research and evaluation on AI safety; cooperation between AISI and UK AI Security Institute |
-
----
-
-!!! tip "Global Reference Frameworks (useful everywhere)"
-    - 🌐 **NIST AI Risk Management Framework 1.0** — broad, practical and widely referenced (US and beyond)
-    - 📋 **ISO/IEC 42001:2023** — AI management system standard (AIMS) for organisations building/using AI
-    - 🤝 **OECD AI Principles** — internationally endorsed principles aligned with human-centred, trustworthy AI
-
----
-
-!!! success "Related SafeAI-Aus Tools"
-    This page should be read together with our governance tools:
-
-    - 📋 [AI Use Policy Template](../governance-templates/ai-use-policy.md)
-    - 🎯 [AI Risk Assessment Checklist](../governance-templates/ai-risk-assessment-checklist.md)
-    - 📝 [AI Incident Report Form](../governance-templates/ai-incident-report-form.md)
-    - 📊 [AI Project Register Template](../governance-templates/ai-project-register.md)
-    - ✅ [AI Vendor Evaluation Checklist](../governance-templates/ai-vendor-evaluation-checklist.md)
-
----
-
-### Key References
-
-**European Union**
-
-- [EU AI Act - Official Text (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
-- [EU AI Act Implementation Timeline](https://artificialintelligenceact.eu/implementation-timeline/)
-- [Guidelines for GPAI Providers (European Commission)](https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers)
-
-**United States**
-
-- [NIST AI Risk Management Framework 1.0](https://www.nist.gov/itl/ai-risk-management-framework)
-- [OMB M-24-10 - AI Governance (White House)](https://www.whitehouse.gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-Innovation-and-Risk-Management-for-Agency-Use-of-Artificial-Intelligence.pdf)
-- [Colorado SB24-205 (Colorado General Assembly)](https://leg.colorado.gov/bills/sb24-205)
-- [NYC Local Law 144 - AEDT (NYC DCWP)](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page)
-- [NIST Concept Note — Trustworthy AI in Critical Infrastructure (Apr 2026)](https://www.nist.gov/itl/ai-risk-management-framework)
-
-**Canada**
-
-- [Bill C-27 Status (Parliament of Canada)](https://www.parl.ca/legisinfo/en/bill/44-1/c-27)
-- [AIDA Companion Document (ISED)](https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act-aida-companion-document)
-
-**United Kingdom**
-
-- [AI Regulation White Paper Response (GOV.UK)](https://www.gov.uk/government/consultations/ai-regulation-a-pro-innovation-approach-policy-proposals/outcome/a-pro-innovation-approach-to-ai-regulation-government-response)
-- [AI Security Institute (GOV.UK)](https://www.gov.uk/government/organisations/ai-security-institute)
-- [Data (Use and Access) Act (Parliament)](https://bills.parliament.uk/bills/3825)
-
-**Japan**
-
-- [AI Promotion Act Overview (ZeLo)](https://zelojapan.com/en/lawsquare/56899)
-- [AI Guidelines for Business (METI)](https://www.meti.go.jp/english/) — *Note: METI's English AI policy page may be intermittently unavailable; search "AI guidelines" on the METI English portal*
-
-**South Korea**
-
-- [AI Basic Act - MSIT Announcement](https://www.law.go.kr/engLsSc.do?menuId=1&subMenuId=21&tabMenuId=117&query=artificial+intelligence)
-- [AI Basic Act Analysis (Cooley)](https://www.cooley.com/news/insight/2026/2026-01-27-south-koreas-ai-basic-act-overview-and-key-takeaways)
-- [Framework Act English Translation (CSET Georgetown)](https://cset.georgetown.edu/wp-content/uploads/t0625_south_korea_ai_law_EN.pdf)
-
-**Singapore**
-
-- [Model AI Governance Framework for GenAI (IMDA)](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2024/public-consult-model-ai-governance-framework-genai)
-- [AI Verify Foundation](https://aiverifyfoundation.sg/)
-
-**Australia–Canada Bilateral**
-
-- [Australia–Canada AI Safety Cooperation Agreement (industry.gov.au)](https://www.industry.gov.au/)
-
-**Global Standards**
-
-- [ISO/IEC 42001:2023 - AI Management Systems](https://www.iso.org/standard/81230.html)
-- [OECD AI Principles](https://oecd.ai/en/ai-principles)
-
----
+1. Map where providers, deployers, customers, users, affected people and system outputs are located.
+2. Classify each system and organisational role under the relevant jurisdiction's definitions.
+3. Check privacy, consumer, employment, product-safety and sector rules in addition to AI-specific rules.
+4. Record the official source, version, effective date and next review date for every compliance conclusion.
+5. Build disclosure, documentation, testing, human-review, incident and supplier-evidence controls that can be adapted across jurisdictions.
 
 ??? note "Disclaimer & Licence"
-    **Disclaimer:** This guide provides general information about international AI regulations and is not legal advice. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, reliability, or completeness. International AI laws change rapidly. Organisations should adapt to their specific context and seek advice from legal professionals with expertise in relevant jurisdictions before making decisions based on this information.
+    **Disclaimer:** This page provides general information, not legal advice. Laws, guidance and commencement arrangements change. Verify the current official text and seek qualified advice for your circumstances.
 
     **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
