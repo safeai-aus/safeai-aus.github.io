@@ -3,7 +3,7 @@ icon: lucide/map-pin
 title: "Australian Government AI Resources"
 description: "Official AI strategies, policies, assurance frameworks and statutory guidance from Australian federal, state and territory governments."
 keywords: "Australian government AI resources, federal AI policy, state AI policies, territory AI policies, government AI strategies, NAIC, OAIC, DTA, NSW AI policy, Victoria AI guidance, Queensland AI framework, SA AI resources, WA AI policy, Tasmania AI guidance, ACT AI policy, NT AI framework"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-08-22"
 review-cycle: "quarterly"
 og_description: "Comprehensive guide to AI resources published by Australian federal, state and territory governments"
 og_type: "article"
@@ -102,6 +102,32 @@ For a detailed overview of Australian AI legislation, see our [AI & Australian L
 
     Provider intake arrangements and timing vary. The announcement did not specify which programs were accepting applications or confirm that funding had been disbursed. See [djsir.vic.gov.au](https://djsir.vic.gov.au/news-and-articles/victoria-backs-the-next-generation-of-ai-and-deeptech-startups) for the provider list and announced program details (accessed 21 June 2026).
 
+!!! info "Victoria — workplace-surveillance proposal (20 July 2026; pre-legislative)"
+    The Victorian Government announced that Labor would introduce workplace-surveillance protections addressing AI-enabled monitoring. This is a Victorian proposal, not a joint Commonwealth–Victoria bill. No corresponding bill was identified on the Victorian legislation register at **22 August 2026**.
+
+    The announcement describes proposed protections including:
+
+    - Workers' right to know when they are being monitored
+    - Employer consultation obligations before introducing any surveillance or AI management tools
+    - Biometric data collection permitted only where no less intrusive option is available
+    - Prohibition on using biometrics to assess employees' emotions without a legitimate operational reason
+    - Prohibition on AI tracking personal characteristics including bathroom breaks, pregnancy, disability and physical conditions
+    - Protection against surveillance data being used for discrimination (race, gender, sexuality, religion)
+
+    Organisations using AI scheduling, biometric monitoring or algorithmic management tools should monitor the Victorian Parliament for a bill and final scope. See the [official Victorian announcement](https://www.premier.vic.gov.au/big-tech-must-stop-spying-workers-work) and [government response to the workplace-surveillance inquiry](https://www.vic.gov.au/workplace-surveillance).
+
+    <!-- TODO: Human-verify whether a bill has been introduced or the proposal changed after 22 August 2026 before publication. -->
+
+!!! info "Victoria — online-platform proposal (19 July 2026; pre-legislative)"
+    The Victorian Government announced proposed laws concerning online anonymity and claims against social-media or AI platforms. The announcement said targeted consultation with VCAT and the courts would occur. No corresponding bill was identified on the Victorian legislation register at **22 August 2026**. Proposed elements include:
+
+    - **"Demasking" powers:** The Victorian Civil and Administrative Tribunal (VCAT) would be granted powers to order social media and AI platforms to reveal the identity of anonymous accounts accused of online vilification.
+    - **Lower harm threshold for minors:** The current 10% permanent psychiatric impairment threshold for negligence claims against AI or social media platforms will be removed for claims brought on behalf of minors. Extension to adults is under consideration during drafting.
+
+    Monitor the Victorian Parliament for bill introduction and final scope. See the [official Victorian announcement](https://www.premier.vic.gov.au/big-tech-must-prevent-hate-and-keep-kids-safe).
+
+    <!-- TODO: Human-verify bill status, consultation and final legal scope before publication. -->
+
 ---
 
 ## Queensland (QLD)
@@ -126,12 +152,21 @@ For a detailed overview of Australian AI legislation, see our [AI & Australian L
 - **[Department for Education — EdChat (GenAI chatbot) overview](https://www.education.sa.gov.au/parents-and-families/curriculum-and-learning/ai/edchat)** — agency adoption example and usage guidance in schools.
 - **[State Budget — Digital Investment Fund: AI program](https://www.statebudget.sa.gov.au/our-budget/digital-capabilities)** — funding context to grow AI use in services.
 
+!!! info "South Australia — Royal Commission into Artificial Intelligence announced (11 August 2026)"
+    The South Australian Government announced that it would establish a Royal Commission into Artificial Intelligence. The intended terms of reference cover economic and social opportunities and challenges, including policy and regulation, essential services and infrastructure, work, education, creative industries and community wellbeing.
+
+    The official announcement says a **panel of commissioners** is intended, commencement is intended for **1 October 2026**, and a final report is intended no later than **1 July 2027**. Terms of reference were still to be developed at **22 August 2026**. The announcement does not state that exactly three commissioners will be appointed and does not specify a $3 million cost.
+
+    See the [official Department of the Premier and Cabinet announcement](https://www.dpc.sa.gov.au/news/royal-commission-into-artificial-intelligence-announced).
+
+    <!-- TODO: Human-verify the final terms of reference, appointments, commencement and public-submission process before publication. -->
+
 !!! info "South Australia — Data Centre and AI Infrastructure Act proposed (June 2026)"
     The South Australian Government's June 2026 **Data Centre Strategy** commits to consulting on a proposed Act covering development approvals, energy, water, security and local benefits. The Act remains proposed; existing planning mechanisms and the proposed future legislation have different legal status.
 
     <!-- TODO: Human-verify the June 2026 strategy and proposed Act status against the latest South Australian Government material. -->
 
-    See [AI Data Centres and Compute Governance in Australia](../safety-standards/ai-data-centres-compute-governance.md#south-australia-a-detailed-state-strategy) for a detailed, source-led summary and the [official South Australian strategy](https://www.dpc.sa.gov.au/__data/assets/pdf_file/0010/1424737/SA-Data-Centre-Strategy.pdf).
+    See [AI Data Centres and Compute Governance in Australia](/safety-standards/ai-data-centres-compute-governance/#south-australia-a-detailed-state-strategy) for a detailed, source-led summary and the [official South Australian strategy](https://www.dpc.sa.gov.au/__data/assets/pdf_file/0010/1424737/SA-Data-Centre-Strategy.pdf).
 
 ---
 
