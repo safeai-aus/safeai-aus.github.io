@@ -24,7 +24,7 @@ If you'd like to contribute, suggest ideas, or just say hello, here's how you ca
 ## Email
 Community inbox: [contact@safeaiaus.org](mailto:contact@safeaiaus.org)
 
-You can also use this address to report a correction or outdated source. Our review and correction process is explained in the [editorial methodology](../about/#editorial-methodology).
+You can also use this address to report a correction or outdated source. Our review and correction process is explained in the [editorial methodology](/about/#editorial-methodology).
 
 ## Join the community
 - Contribute on GitHub: [SafeAI-Aus Repository](https://github.com/safeai-aus/safeai-aus.github.io)

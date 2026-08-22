@@ -44,7 +44,7 @@ A substantive review checks the page's accuracy, currency, sources and risk word
 
 The review cycle states the intended interval for reassessment; it is not a guarantee that a page is current at every moment. Time-sensitive regulatory, standards and program information should be verified against the latest primary source before it is relied upon. Regulatory claims are qualified where the available evidence does not support a definitive statement.
 
-To report an error, outdated source or other correction, [contact SafeAI-Aus](../contact/) or [open an issue](https://github.com/safeai-aus/safeai-aus.github.io/issues). Corrections that materially change the guidance follow the same substantive review and dating process.
+To report an error, outdated source or other correction, [contact SafeAI-Aus](/contact/) or [open an issue](https://github.com/safeai-aus/safeai-aus.github.io/issues). Corrections that materially change the guidance follow the same substantive review and dating process.
 
 ---
 

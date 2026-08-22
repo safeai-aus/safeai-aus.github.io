@@ -48,8 +48,10 @@ Free, adaptable templates for AI governance:
 Australian and international AI regulatory guidance:
 
 - **Australian AI Legislation** - Privacy Act, Consumer Law, Discrimination Law
+- **Australian Government AI Policy and Frameworks** - National AI Plan, AI Safety Institute, DTA requirements
 - **VAISS 10 Guardrails** - Detailed implementation guidance
 - **AI6 Essential Practices** - Current government framework
+- **AI Data Centres and Compute Governance** - State strategies, trusted directories, energy, water, planning and sovereignty
 - **International AI Legal Overview** - EU AI Act, US, UK, Singapore
 
 ### 3. Business Resources
@@ -139,4 +141,4 @@ Agents can poll `/updates.json` to discover what has changed since their last vi
 - GitHub: github.com/safeai-aus/safeai-aus.github.io
 
 ---
-Last updated: 2026-07-21
+Last updated: 2026-08-22
