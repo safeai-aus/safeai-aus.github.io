@@ -1,255 +1,141 @@
 ---
 icon: lucide/dollar-sign
 title: "AI Grants & Funding for Australian Businesses"
-description: "Australian AI grants, funding programs and financial support for businesses adopting AI responsibly, including federal, state and industry opportunities."
-keywords: "AI grants Australia, AI funding Australia, AI business grants, Australian AI funding, AI government grants, AI business support, AI investment Australia, AI startup funding"
-last-reviewed: "2026-07-22"
+description: "Verified Australian funding and support relevant to AI adoption and research, with current application status and official sources."
+keywords: "AI grants Australia, AI funding Australia, AI business grants, Australian AI funding, AI government grants, AI research funding"
+last-reviewed: "2026-08-22"
 review-cycle: "quarterly"
-og_description: "Comprehensive guide to AI grants, funding programs and financial support for Australian businesses"
+og_description: "Verified Australian funding and support relevant to AI adoption and research"
 og_type: "article"
 ---
 
-# AI Grants and Funding Opportunities for Australian Businesses
+# AI Grants and Funding for Australian Organisations
 
-> **Purpose:** Comprehensive directory of AI grants, funding programs and financial support for Australian organisations
-> **Audience:** Business owners, CFOs, project managers and grant applicants | **Time:** 30-45 minutes
+> **Purpose:** Distinguish currently actionable support from closed, invitation-only and announced programs
+> **Audience:** Business owners, research partners, CFOs and grant applicants | **Time:** 15-20 minutes
 
-!!! info "Recent closures and open rounds"
-    - **CRC Program Round 27** Stage 1 closed 29 April 2026. **Stage 2 is under way from July to September 2026 for invited applicants only**. Stage 2 outcomes are expected in early 2027.
-    - **CRC-P Round 19 (AI Accelerator stream, $20M)** closed 12 May 2026 at 5:00 PM AEST. Outcomes now expected October 2026 (delayed from August due to high application volume).
+*Program status was checked against the linked official sources on 22 August 2026.*
 
-    The next AI Accelerator full CRC opportunity (Round 28) is expected in 2027.
+!!! warning "Check the official page immediately before applying"
+    Funding bodies can change dates, eligibility and available funding without this page updating at the same time. Treat this directory as a starting point. The official grant opportunity guidelines and application portal control.
 
-<!-- TODO: Human verification required before publication: confirm CRC Round 27 Stage 2 dates and invitation-only status on business.gov.au. -->
+## Status at a glance
 
-AI is reshaping industries across Australia. To support businesses in responsibly adopting and scaling AI, a mix of government grants, research programs and industry‑backed accelerators are available. This article provides a consolidated overview of the most relevant opportunities for Australian businesses today.
+| Program or service | Status at 22 August 2026 | Who can act now? |
+|---|---|---|
+| **R&D Tax Incentive** | Open and ongoing under current rules | Eligible R&D entities; registration deadlines depend on the income year |
+| **AI Adopt Centres** | Services available; original centre-establishment grant closed | Eligible SMEs in stated National Reconstruction Fund priority sectors |
+| **ARC Discovery Indigenous 2027** | Open; closes 25 August 2026 at 5:00 pm AEST | Eligible administering organisations and research teams |
+| **CRC Round 27, Stage 2** | Open to invited Stage 1 applicants; closes 17 September 2026 | Invited consortia only |
+| **CRC-P Round 19 AI stream** | Closed; outcomes expected October 2026 | Existing applicants only |
+| **CRC Round 28 AI Accelerator** | Announced; expected to open in 2027 | Consortia can prepare, but cannot yet apply |
+| **Queensland small and family business AI support** | $10 million program announced; guidelines and opening date not identified | No application action yet |
+| **Victorian AI and deeptech pre-accelerators** | Operators funded; intake varies by operator | Check each operator rather than treating the state announcement as a direct grant |
 
-!!! warning "Program status changes frequently"
-    Government programs open, close and change eligibility regularly. **Always verify current status** with the relevant funding body before investing time in an application.
-
----
-
-## 🏛️ Federal Government Programs
-
-### AI Adopt Program
-
-- Provided **$3–5 million over four years** for up to 50% of project costs.
-- **AI Adopt Centres** are now operational across Australia through 2026/27, providing free specialist services to eligible SMEs including AI readiness assessments, implementation support and training.
-- The competitive grant round has **concluded**, but centre services are accessible to eligible businesses.
-- ➡️ [SME services](https://business.gov.au/expertise-and-advice/ai-adopt-centres) | [Program overview](https://business.gov.au/grants-and-programs/artificial-intelligence-ai-adopt-program)
-
-### AI and Digital Capability Centres
-
-- The Australian Government allocated **$44 million** to establish four AI and Digital Capability Centres.
-- Grants of up to **$11 million** each, designed to help SMEs access AI training, services and commercialisation pathways.
-- Program **concluded**, but may return in future iterations.
-- ➡️ [Source](https://www.industry.gov.au/news/funding-available-ai-and-digital-capability-centres)
-
-### Catalysing the AI Opportunity in Our Regions
-
-- Competitive grants between **$250,000 and $500,000** for regional businesses to develop and demonstrate AI solutions.
-- Required matched co‑funding and ran across three rounds.
-- Program **concluded**. Round 1 listing remains on business.gov.au — verify eligibility and deadline directly.
-- ➡️ [Program details](https://business.gov.au/grants-and-programs/catalysing-the-artificial-intelligence-opportunity-in-our-regions-round-1?)
+## Currently actionable support
 
 ### R&D Tax Incentive
 
-- Provides **tax offsets to encourage companies to conduct eligible R&D activities that might not otherwise happen**.
-    - **Refundable offset of 18.5% above the company tax rate** (e.g., 43.5% for companies paying 25% tax) for R&D entities with aggregated turnover under $20m (not controlled by exempt entities).
-    - **Non‑refundable R&D intensity‑based offset** for larger companies (company tax rate plus a premium tied to R&D intensity).
-- Program is **active and ongoing**; the business.gov.au page does not state a last updated date.
-- ➡️ [Program overview](https://business.gov.au/grants-and-programs/research-and-development-tax-incentive)
+The **Research and Development Tax Incentive (R&DTI)** is an ongoing tax-offset program for eligible R&D entities and activities. It is not AI-specific; AI work must satisfy the same statutory eligibility tests as other R&D.
 
-### Australian Research Council (ARC) Programs
+Under the current rules:
 
-- Competitive grants supporting research between universities and businesses.
-- **Discovery Projects**: $30k–$500k annually for up to 5 years.
-- **Linkage Projects**: Promote industry–academic partnerships; in 2024 Round 2, $46.6m was awarded to 75 projects. The 2026 Linkage Projects round closed 18 March 2026.
-- Program is **active and ongoing**.
-- ➡️ [Discovery Projects](https://www.arc.gov.au/funding-research/discovery-linkage/discovery-program/discovery-projects) | [Linkage Projects](https://www.arc.gov.au/funding-research/funding-schemes/linkage-program/linkage-projects)
+- companies with aggregated turnover below $20 million may receive a refundable offset equal to the corporate tax rate plus an 18.5% premium
+- companies with aggregated turnover of $20 million or more may receive a non-refundable offset equal to the corporate tax rate plus an intensity-based premium
+- the current expenditure cap is $150 million
+- registration is generally required within 10 months after the end of the relevant income year
 
-!!! info "ARC Discovery Indigenous 2027 — Now Open (closes 25 August 2026)"
-    The ARC Discovery Indigenous 2027 scheme opened 2 June 2026 and closes **25 August 2026 at 5:00 pm AEST**. The scheme supports research projects led by Aboriginal and/or Torres Strait Islander researchers (as Chief Investigator) across all disciplines; non-Indigenous researchers may participate as Partner Investigators. The scheme is not AI-specific but is relevant to AI research grant pipelines at institutions with eligible researchers.
+The 2026–27 Budget announced changes from 1 July 2028. Until then, the official program page says the current rules continue.
 
-    ➡️ [ARC Discovery Indigenous 2027](https://www.arc.gov.au/news-and-publications/media/now-open-applications-discovery-indigenous-2027) (accessed 21 June 2026)
+Official sources: [R&DTI program](https://business.gov.au/grants-and-programs/research-and-development-tax-incentive), [current offset overview](https://business.gov.au/grants-and-programs/research-and-development-tax-incentive/overview-of-rd-tax-incentive), [application guidance](https://business.gov.au/grants-and-programs/research-and-development-tax-incentive/apply-for-the-randd-tax-incentive).
 
-!!! info "ARC Generative AI Policy — effective 28 April 2026"
-    The Australian Research Council (jointly with the NHMRC) released an updated **Policy on Use of Generative Artificial Intelligence in the ARC's Grants Programs** in April 2026. The policy applies to all applications and assessments for ARC scheme rounds opening from **28 April 2026**.
+<!-- TODO: Human-verify tax rates, thresholds, expenditure cap, registration deadline and announced 2028 reforms before publication. -->
 
-    - **Applicants** may use generative AI as a support tool when preparing applications but retain full responsibility for authorship and intellectual content
-    - **Assessors** may use generative AI **only to assist with grammar, spelling, formatting and readability** — AI must not be used to generate substantive assessment content
-    - Joint statement with NHMRC aligns both funders' positions on Gen AI use in research grant processes
+### AI Adopt Centres
 
-    Sources: [arc.gov.au — policy statement](https://www.arc.gov.au/news-and-publications/media/arc-releases-updated-policy-use-generative-artificial-intelligence-grant-assessment), [arc.gov.au — full policy document](https://www.arc.gov.au/publications/policy-use-generative-artificial-intelligence-arcs-grants-programs-2026)
+The grant round that established **AI Adopt Centres** is closed. The resulting centres now provide free specialist services to eligible SMEs that trade interstate or internationally and operate in stated National Reconstruction Fund priority sectors. Services can include training, consultations, adoption roadmaps, demonstrations and AI-safety guidance.
 
-### Medical Research Future Fund (MRFF) – AI in Health
+This is a service pathway, not a current cash grant to an SME. Some centre offerings or additional implementation services may have their own conditions or fees.
 
-- $30 million for AI-driven healthcare research transforming Australian healthcare.
-- National Critical Research Infrastructure initiative supporting AI applications in health.
-- Multiple streams including digitisation of healthcare and AI-enabled health interventions.
-- Program is active with various grant rounds.
-- ➡️ [MRFF overview](https://www.health.gov.au/our-work/mrff)
+Official sources: [AI Adopt Centres](https://business.gov.au/expertise-and-advice/ai-adopt-centres), [closed AI Adopt Program grant](https://business.gov.au/grants-and-programs/artificial-intelligence-ai-adopt-program).
 
-### CSIRO Next Generation Graduates Program
+<!-- TODO: Human-verify participating centres, service eligibility and any fees before publication. -->
 
-- Supports businesses partnering with universities to bring AI/emerging tech graduate students into their teams.
-- Focus on building AI workforce capability through PhD, Masters and Honours students.
-- Industry-driven, multi-disciplinary program with regional focus in recent rounds.
-- Program is active with periodic rounds.
-- ➡️ [Program details](https://www.csiro.au/en/work-with-us/funding-programs/funding/next-generation-graduates-programs)
+### ARC Discovery Indigenous 2027
 
-### CSIRO-NSF (US) AI Research Collaboration
+The Australian Research Council states that **Discovery Indigenous 2027** opened on 2 June 2026 and closes on **25 August 2026 at 5:00 pm AEST**. It supports research led by Aboriginal and/or Torres Strait Islander researchers across disciplines. It is not AI-specific, but eligible AI research may fit where the scheme and application requirements are met.
 
-- Joint Australia-US program for Responsible and Equitable AI research.
-- Combined AUD$9.6 million invested in six projects in 2023.
-- Focus on transformative AI research with societal impact.
-- Program is active.
-- ➡️ [More information](https://www.csiro.au/en/research/technology-space/ai/nsf-ai-research)
+Official source: [ARC Discovery Indigenous 2027 announcement](https://www.arc.gov.au/news-and-publications/media/now-open-applications-discovery-indigenous-2027).
 
-### Cooperative Research Centres Projects (CRC-P) – Round 19 AI Stream
+<!-- TODO: Human-verify the closing time, current grant guidelines and administering-organisation requirements immediately before publication. -->
 
-- Grants between **$100,000 and $3 million** for collaborative AI research projects, up to 3 years.
-- Round 19 included a dedicated **$20 million funding stream** for projects that develop or enhance AI systems. Grants of $100,000–$3 million, up to 3 years, with 50% co-contribution required.
-- **Status:** Round 19 **closed 12 May 2026** at 5:00 PM AEST. Outcomes now expected **October 2026** (delayed from August due to high application volume; funding commencement expected October–November 2026).
-- The CRC-P program runs annual rounds; next AI Accelerator opportunity is expected via CRC Round 28 in 2027.
-- ➡️ [CRC-P details](https://business.gov.au/grants-and-programs/cooperative-research-centres-projects-crcp-grants)
+### CRC Round 27, Stage 2 — invited applicants only
 
-### Cooperative Research Centres (CRC) Program — Round 27
+Stage 1 closed on 29 April 2026. The official timetable states that Stage 2 opened on **31 July 2026** and closes on **17 September 2026**. Only applicants invited after Stage 1 can submit a Stage 2 application. Outcomes are expected in early 2027, with funding expected to start in July 2027.
 
-- Industry-research consortia grants, typically **$2–5 million** over 3–10 years.
-- Supports large-scale collaborative research partnerships between industry and research organisations.
-- General research collaboration (not AI-specific) but AI components are eligible.
-- **Status:** Stage 1 **closed 29 April 2026**. The published timetable lists Stage 2 from **July to September 2026**, with outcomes expected in early 2027. Stage 2 is invitation-only: the Minister invites selected Stage 1 applicants to submit a Stage 2 application and attend an interview.
-- ➡️ [CRC Program details](https://business.gov.au/grants-and-programs/cooperative-research-centres-crc-grants)
+Official source: [CRC Grants Round 27](https://business.gov.au/grants-and-programs/cooperative-research-centres-crc-grants).
 
-### AI Accelerator CRC (Future)
+<!-- TODO: Human-verify the Stage 2 closing date, invitation status and outcome timetable before publication. -->
 
-- Approximately **$50 million** planned for a dedicated AI Cooperative Research Centre.
-- Part of the broader AI Accelerator initiative to drive industry-led AI research at scale.
-- CRC Round 28 expected to open in **2027**.
-- ➡️ [AI Accelerator initiative](https://www.industry.gov.au/news/ai-accelerator-initiative-kicks-funding-industry-led-research)
+## Closed or future AI-focused opportunities
 
----
+### CRC-P Round 19 AI Accelerator stream — closed
 
-## 🗺️ State-Level Opportunities
+CRC Projects Round 19 closed on **12 May 2026 at 5:00 pm AEST**. It included up to $20 million for projects developing or enhancing AI systems and technologies. Grants were matched funding of $100,000 to $3 million for up to three years. The official page says outcomes are expected in October 2026 and funding in October–November 2026.
 
-### South Australia: $28 Million AI Initiative (2025-2029)
+Official source: [CRC-P grants](https://business.gov.au/grants-and-programs/cooperative-research-centres-projects-crcp-grants).
 
-- **$7 million annually** for proof‑of‑value trials.
-- Focused on **healthcare, policing, allied health, social work and legal/financial services**.
-- Supports public sector AI adoption while safeguarding jobs.
-- Program is **active** with funding profiled **from 2025–26 to 2028–29**, as set out in the **2024–25 South Australian State Budget** (Budget Paper 4: Agency Statements – Department of the Premier and Cabinet, released 6 May 2024). *Subject to ongoing state budget appropriation.*
-- ➡️ [Budget Paper 4: Agency Statements (2024–25 SA State Budget)](https://www.treasury.sa.gov.au/statebudget/2024-25/budget-papers)
+<!-- TODO: Human-verify whether Round 19 outcomes have been published and update this entry before publication after October 2026. -->
 
-### AIML (Australian Institute for Machine Learning) Programs
+### CRC Round 28 AI Accelerator — expected in 2027
 
-- **Centre for Augmented Reasoning**: $20m federal funding.
-- **Industrial AI SME Grant Program**: Helps South Australian SMEs adopt AI, running until 2028.
-- **RAIR (Responsible AI Research Centre)**: $20m investment in ethical AI.
-- Partnerships with industry (e.g., **CommBank Centre for Foundational AI Research**, $6m).
-- Programs are **active**.
-- ➡️ [More information](https://www.adelaide.edu.au/aiml/our-key-initiatives/industrial-ai-program/program-3-industrial-ai-sme-grant-program)
+CRC Round 28 is designated an **AI Accelerator** funding round. Approximately $50 million is expected to support at least one new AI-focused Cooperative Research Centre, while the round remains open to other sectors and disciplines. The official page says the round will open in **2027**; no exact opening or closing date was identified at 22 August 2026.
 
-### NSW: Early Adopter Grant Program
+The published AI priorities are:
 
-- Part of the AI in NSW Planning project.
-- In 2024, **16 councils received a collective $2.7 million+** to trial AI in planning systems, backed by a $5.6m commitment.
-- Program **active in 2024**, future rounds uncertain.
-- ➡️ [Source](https://www.nsw.gov.au/grants-and-funding/early-adopter-grant-program)
+1. broad, application-agnostic AI capability
+2. AI applied to healthcare, agriculture, resources and energy, and advanced manufacturing
+3. Australian AI businesses and bespoke Australian models
+4. research, development and commercialisation partnerships aligned with the National AI Plan
 
-### Queensland: Quantum and Advanced Technologies Programs
+CRC applications require an industry-led consortium and matched funding. The current program page specifies at least three Australian industry organisations and two Australian research organisations, but Round 28 applicants must use the final Round 28 guidelines when released.
 
-- $53 million awarded under the Queensland Quantum and Advanced Technologies Strategy.
-- $28.1 million for Commercialisation Infrastructure Program.
-- $10 million for Quantum Decarbonisation Mission.
-- $3.8 million for student scholarships across six universities.
-- Programs are active.
-- ➡️ [Grant recipients](https://science.desi.qld.gov.au/industry/quantum/programs/grant-recipients)
+Official sources: [CRC Grants and Round 28 outline](https://business.gov.au/grants-and-programs/cooperative-research-centres-crc-grants), [AI Accelerator announcement](https://www.industry.gov.au/news/ai-accelerator-round-drive-commercialisation-across-australia).
 
-### Victoria: AI and Deeptech Pre-Accelerators (LaunchVic, $3.5M)
+<!-- TODO: Human-verify the Round 28 opening date, funding pool, priorities and final eligibility guidelines before publication. -->
 
-- The Victorian Government announced **$3.5 million** to fund nine AI and deeptech pre-accelerator programs on **17 June 2026**.
-- The announced funding is for program operators rather than direct startup grants. The announcement says each provider may receive up to $400,000. Providers include Boab AI, Boson Ventures, Cicada Innovations, CoLabs Australia, HEX, Illume Ventures, Jumpstart Studio, MedTech Actuator and RMIT DiscoveryHUB.
-- A featured program is **VICTOR:AI** — an eight-week cohort for AI-native startups offering AI tools, co-working space and milestone-based grants.
-- Provider intake arrangements and timing vary. The Victorian Government announcement did not specify which programs were accepting applications or confirm that funding had been disbursed.
-- ➡️ [Victorian Government announcement](https://djsir.vic.gov.au/news-and-articles/victoria-backs-the-next-generation-of-ai-and-deeptech-startups) | [LaunchVic programs](https://launchvic.org/programs/)
+### Queensland small and family business AI program — announced, not open
 
----
+On **23 June 2026**, the Queensland Government announced a **$10 million** program to support small and family businesses across sectors to integrate AI. At 22 August 2026, SafeAI-Aus had not identified an official program name, grant guidelines, application portal, opening date or detailed eligibility rules.
 
-## 🏢 Industry and Private Sector Programs
+Do not present this as an open grant or advise businesses to prepare an application against assumed criteria. Monitor Business Queensland and the official announcement for program details.
 
-### National Reconstruction Fund Corporation (NRFC)
+Official source: [Queensland Government announcement](https://statements.qld.gov.au/statements/105371).
 
-- Government‑owned but industry‑driven co‑investment fund.
-- Committed **$32m to Harrison.ai** and targeting **$550m by end of FY25**.
-- Expanding to **$1b in FY26** and **$3b by 2028**.
-- Program is **active**.
-- ➡️ [Read more](https://www.theaustralian.com.au/business/national-reconstruction-fund-on-track-for-550m-investment-goal/news-story/e896a5b025672ec394e8e68a09da7f33)
+<!-- TODO: Human-verify the program name, delivery model, guidelines, eligibility and opening date before publication. -->
 
-### AWS Generative AI Accelerator
+### Victorian AI and deeptech pre-accelerators — operator delivery
 
-- Backed by **US$230m** investment (approximately AU$350m at current rates).
-- Supports early‑stage startups globally, including Australian participants.
-- Offers **up to US$1m in AWS credits** plus 10 weeks of mentorship.
-- Program is **active** (global cohort includes Australian startups).
-- ➡️ [Details](https://www.theaustralian.com.au/business/technology/aussie-startups-called-as-awss-global-ai-accelerator-receives-346m-injection/news-story/0b1fcc7ee9da3e848f048faf6e50e38a)
+On **17 June 2026**, the Victorian Government announced $3.5 million for nine AI and deeptech pre-accelerator operators, with up to $400,000 for each provider. The announcement funds operators rather than creating a single direct state grant application for startups. Program intake, benefits and timing vary by operator.
 
-### Fearless Innovator Grant Program (South Australia)
+Official sources: [Victorian Government announcement](https://djsir.vic.gov.au/news-and-articles/victoria-backs-the-next-generation-of-ai-and-deeptech-startups), [LaunchVic programs](https://launchvic.org/programs/).
 
-- $100,000 in grants for **female entrepreneurs**.
-- Finalists include AI‑powered startups such as Tutbob (education AI).
-- Program ran in **2024**, future rounds uncertain.
-- ➡️ [Announcement](https://www.adelaidenow.com.au/business/inaugural-fearless-innovator-grant-program-finalists-announced/news-story/724f3c785785393c96c57fad461fcaf9)
+<!-- TODO: Human-verify current provider intakes, participant benefits and closing dates before publication. -->
 
-### H2 Ventures Accelerator (Sydney)
+## What was removed from the previous directory
 
-- VC‑backed accelerator focusing on **fintech, data, and AI startups**, based at the Sydney Startup Hub.
-- Backed by a **$4m facility from Investec**, with a **$2m loan guarantee** from NSW Government.
-- Program is **active**.
-- ➡️ [More info](https://en.wikipedia.org/wiki/H2_Ventures)
+This review removed entries that were historical, not AI-specific, supported only by secondary or paywalled sources, or described as “active” without a current application pathway. Examples included old private accelerators, completed micro-grants, a 2024 NSW council program and broad institutional initiatives that were not current grants.
 
-### Innovation Collaboration Centre (ICC, Adelaide)
+That material may still be useful as ecosystem history, but it should not appear in a current funding directory unless an official source confirms a live application or service pathway.
 
-- Incubator at UniSA, supporting startups with mentoring, space and growth programs since 2015.
-- Program is **active**.
-- ➡️ [About ICC](https://icc.unisa.edu.au/)
+## Before investing in an application
 
-### Australian Cyber Collaboration Centre (Aus3C, Adelaide)
-
-- Not‑for‑profit based at Lot Fourteen, opened in 2020.
-- SA Government‑funded, supporting industry with cybersecurity training, standards and collaboration.
-- Program is **active**.
-- ➡️ [Aus3C](https://www.cybercollaboration.org.au/a3c-launch1/)
-
----
-
-## Summary Table
-
-| Program / Initiative | Type | Value | Key Focus | Status |
-|----------------------|------|-------|-----------|--------|
-| AI Adopt Program | Federal Grant | $3–5m | SME AI adoption | Centres operational |
-| AI & Digital Capability Centres | Federal Grant | $44m (total) | SME training, commercialisation | Concluded |
-| Catalysing AI in Regions | Federal Grant | $250k–$500k | Regional AI solutions | Concluded |
-| R&D Tax Incentive | Tax Offset | 38.5–43.5% | AI R&D projects | Active |
-| ARC Discovery & Linkage | Competitive grants | $30k–$500k annually | University–industry research | Active |
-| ARC Discovery Indigenous 2027 | Competitive grant | Varies per project | Research led by Aboriginal/Torres Strait Islander researchers | Open — closes 25 Aug 2026 |
-| SA AI Initiative | State Program | $28m over 4 years | Healthcare, policing, services | Active (2025-2029) |
-| AIML Industrial AI SME Grant | SME Grant | Expert access | Industrial AI adoption | Active (to 2028) |
-| NSW Early Adopter Program | State Grant | $2.7m+ (2024) | Planning system AI trials | Active (2024) |
-| QLD Quantum & Advanced Tech | State Program | $53m | Quantum/AI infrastructure | Active |
-| VIC AI and Deeptech Pre-Accelerators (LaunchVic, $3.5M) | State Program | $3.5m announced (up to $400k/provider) | AI and deeptech startup pre-acceleration | Operators announced 17 Jun 2026; provider intake varies |
-| MRFF AI in Health | Federal Grant | $30m | Healthcare AI transformation | Active |
-| CSIRO Next Gen Graduates | Federal Program | Varies | AI workforce development | Active |
-| CSIRO-NSF AI Collaboration | International Grant | $9.6m (2023) | Responsible AI research | Active |
-| CRC-P Round 19 (AI Stream) | Federal Grant | $100k–$3m ($20m pool) | Collaborative AI research | Closed 12 May 2026; outcomes expected Oct 2026 |
-| CRC Program Round 27 | Federal Grant | $2–5m | Industry-research consortia | Stage 2 under way Jul–Sep 2026 (invited applicants only); outcomes expected early 2027 |
-| AI Accelerator CRC | Federal (Future) | ~$50m | Dedicated AI CRC | Expected 2027 |
-| AWS AI Accelerator | Corporate | US$230m pool | Generative AI startups | Active |
-| NRFC | Co‑investment fund | $550m+ | Large-scale ventures | Active |
-| Fearless Innovator Grant | Micro‑grant | $100k | Female founders in AI | Completed (2024) |
-| H2 Ventures Accelerator | VC-backed | $4m+ facility | Fintech & AI | Active |
-| ICC (Adelaide) | Incubator | Varies | Startup incubation | Active |
-| Aus3C (Adelaide) | Cyber Hub | Varies | Cybersecurity & AI | Active |
+1. Open the official opportunity page and download the current guidelines.
+2. Confirm the opportunity is open to your entity type and that the deadline uses your expected time zone.
+3. Check cash and in-kind co-contribution rules, eligible expenditure and project start restrictions.
+4. Identify all consortium, research-partner, Indigenous-leadership or sector requirements.
+5. Document privacy, security, safety, IP, data and responsible-AI controls relevant to the proposed project.
+6. Keep evidence of the exact guideline version relied on.
 
 <script type="application/ld+json">
 {
@@ -258,86 +144,33 @@ AI is reshaping industries across Australia. To support businesses in responsibl
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Which AI grants are currently available to Australian SMEs?",
+      "name": "Which AI funding options can Australian organisations act on now?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Availability changes through the year. We maintain a curated list of federal, state and industry grants relevant to AI adoption and R&D. Check the live directory for open rounds, deadlines, and eligibility notes specific to Australian businesses."
+        "text": "At 22 August 2026, actionable pathways included the R&D Tax Incentive, services from AI Adopt Centres, ARC Discovery Indigenous 2027 before its closing date, and CRC Round 27 Stage 2 for invited applicants. Eligibility and status must be confirmed on the official program page."
       }
     },
     {
       "@type": "Question",
-      "name": "What eligibility criteria do AI grants typically require?",
+      "name": "Is CRC Round 28 open for AI applications?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Common requirements include being an Australian-registered business (ABN), meeting SME size thresholds, having an eligible project scope (e.g., adoption, pilots, R&D), matched funding, and basic governance such as risk management and privacy safeguards."
+        "text": "No. CRC Round 28 has been announced as an AI Accelerator round expected to open in 2027, but no exact opening date or final grant guidelines had been published at 22 August 2026."
       }
     },
     {
       "@type": "Question",
-      "name": "Do I need AI risk and governance policies to apply for funding?",
+      "name": "Is Queensland's $10 million AI adoption program open?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Many programs ask how you will manage AI risk and data privacy. Using an AI Use Policy, Risk Assessment, and Vendor Due Diligence checklist strengthens your application and reduces compliance risk."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What costs are usually eligible under AI grants?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Typically: software licences, vendor services, implementation and integration, staff training, and sometimes hardware or data work. Ineligible costs often include ongoing BAU expenses and retrospective spending. Always confirm with the specific grant guidelines."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I make a competitive AI grant application?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Define a clear problem and outcomes, provide a realistic plan and budget, show organisational readiness (governance, skills, partners), include measures of impact, and reference relevant Australian standards or guardrails for responsible AI."
+        "text": "Not on the official information identified at 22 August 2026. The Queensland Government announced the program, but SafeAI-Aus had not identified final guidelines, an application portal or an opening date."
       }
     }
   ]
 }
 </script>
 
----
-
-!!! success "Making a Competitive Application"
-    For Australian businesses, the AI funding landscape is broad and diverse. To maximise your chances:
-
-    **SMEs** can tap into:
-
-    - 💰 R&D Tax Incentive for eligible AI development
-    - 🎓 AIML's SME grant program for South Australian businesses
-    - ☁️ AWS accelerator credits for early-stage startups
-
-    **Larger ventures and scale‑ups** may find opportunities in:
-
-    - 🏦 NRFC co‑investment for substantial projects
-    - 🎓 ARC research partnerships with universities
-    - 🤝 CRC-P collaborative projects with research institutions
-
-    **State-specific opportunities** provide targeted support:
-
-    - Queensland: Quantum and advanced technologies focus
-    - South Australia: Public sector AI applications
-    - NSW: Council planning systems and civic applications
-    - Victoria: AI and deeptech pre-accelerators (nine operators announced June 2026; provider intake varies)
-
-    **Strengthen your application** by:
-
-    - 📋 Defining clear problems and measurable outcomes
-    - 🗺️ Providing realistic plans and budgets
-    - 🛡️ Demonstrating AI governance and risk management readiness
-    - 🤝 Showing strong partnerships (academic, industry, or community)
-    - 🇦🇺 Referencing Australian AI standards and responsible AI practices
-
----
-
-
----
-
 ??? note "Disclaimer & Licence"
-    **Disclaimer:** This directory provides information about AI grants and funding opportunities for Australian organisations. SafeAI-Aus has exercised care in preparation but does not guarantee accuracy, currency, or completeness of program details, eligibility criteria, or funding amounts. Programs change frequently. Always verify current status, eligibility and application requirements with the relevant funding body before applying.
+    **Disclaimer:** This directory provides general information, not grant, tax, legal or financial advice. Program status and rules change. Verify the current official guidelines and obtain professional advice where appropriate.
 
     **Licence:** Licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt and redistribute with attribution: *"Source: SafeAI-Aus (safeaiaus.org)"*
