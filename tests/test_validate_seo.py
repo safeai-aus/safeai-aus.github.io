@@ -215,6 +215,22 @@ class SeoValidationTests(unittest.TestCase):
             _normalise_non_substantive_body(new),
         )
 
+    def test_custom_404_is_outside_ranking_and_canonical_contracts(self) -> None:
+        self.write_fixture()
+        self.docs.joinpath("404.md").write_text(
+            "---\npermalink: /404.html\n---\n# Page not found\n",
+            encoding="utf-8",
+        )
+        self.site.joinpath("404.html").write_text(
+            "<html><body><h1>Page not found</h1></body></html>",
+            encoding="utf-8",
+        )
+
+        result = validate_project(self.docs, self.site, self.sitemap, today=date(2026, 7, 21))
+
+        self.assertEqual(result.errors, [])
+        self.assertEqual(result.ranking_pages, 1)
+
 
 if __name__ == "__main__":
     unittest.main()

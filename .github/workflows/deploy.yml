@@ -37,6 +37,11 @@ jobs:
         run: python scripts/validate_headings.py
       - name: Build site
         run: zensical build --strict
+      - name: Prepare GitHub Pages 404
+        run: |
+          test -f site/404/index.html || { echo "Error: rendered 404 source not found"; exit 1; }
+          mv -f site/404/index.html site/404.html
+          rmdir site/404
       - name: Enrich breadcrumb schema
         run: python scripts/enrich_breadcrumb_schema.py --site site
       - name: Generate sitemap.xml
@@ -50,9 +55,13 @@ jobs:
           cp llms-full.txt site/
       - name: Validate SEO contract
         run: python scripts/validate_seo.py --docs docs --site site --sitemap site/sitemap.xml
+      - name: Validate agent-readiness contract
+        run: python scripts/validate_agent_readiness.py --site site --llms llms.txt
       - name: Verify build
         run: |
           test -f site/index.html || { echo "Error: site/index.html not found"; exit 1; }
+          test -f site/404.html || { echo "Error: site/404.html not found"; exit 1; }
+          test -f site/privacy/index.html || { echo "Error: site/privacy/index.html not found"; exit 1; }
           test -f site/sitemap.xml || { echo "Error: site/sitemap.xml not found"; exit 1; }
           test -f site/robots.txt || { echo "Error: site/robots.txt not found"; exit 1; }
           test -f site/llms.txt || { echo "Error: site/llms.txt not found"; exit 1; }

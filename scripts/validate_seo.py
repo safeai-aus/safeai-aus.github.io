@@ -215,6 +215,8 @@ def _load_sources(docs: Path, result: ValidationResult) -> dict[str, SourcePage]
     pages: dict[str, SourcePage] = {}
     for path in sorted(docs.rglob("*.md")):
         relative = path.relative_to(docs)
+        if relative.as_posix() == "404.md":
+            continue
         if relative.parts and relative.parts[0] in {"plans", "brainstorms", "templates"}:
             continue
         try:
