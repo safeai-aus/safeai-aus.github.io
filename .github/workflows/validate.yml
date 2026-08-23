@@ -28,6 +28,11 @@ jobs:
         run: python scripts/validate_headings.py
       - name: Build site
         run: zensical build --strict
+      - name: Prepare GitHub Pages 404
+        run: |
+          test -f site/404/index.html || { echo "Error: rendered 404 source not found"; exit 1; }
+          mv -f site/404/index.html site/404.html
+          rmdir site/404
       - name: Enrich breadcrumb schema
         run: python scripts/enrich_breadcrumb_schema.py --site site
       - name: Generate sitemap.xml
@@ -46,9 +51,13 @@ jobs:
           --site site
           --sitemap site/sitemap.xml
           --base-ref ${{ github.event.pull_request.base.sha }}
+      - name: Validate agent-readiness contract
+        run: python scripts/validate_agent_readiness.py --site site --llms llms.txt
       - name: Verify required files
         run: |
           test -f site/index.html
+          test -f site/404.html
+          test -f site/privacy/index.html
           test -f site/sitemap.xml
           test -f site/robots.txt
           test -f site/llms.txt
