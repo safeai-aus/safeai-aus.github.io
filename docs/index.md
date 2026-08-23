@@ -15,7 +15,7 @@ hide:
 
 <div class="hero-section" markdown>
 
-# SafeAI-Aus: Safe AI. Stronger Australia.
+# Safe AI. Stronger Australia.
 
 ## Australia's trusted resource for safe AI adoption
 
