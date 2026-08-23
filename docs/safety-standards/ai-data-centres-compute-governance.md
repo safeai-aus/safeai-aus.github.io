@@ -54,11 +54,11 @@ The outcome depends on location, design, contracts, operating behaviour and tran
 | **27 November 2025** | Victoria announced its **Sustainable Data Centre Action Plan**, subsequently published under the state's AI Mission Statement. | State coordination and investment framework; it does not itself create a new statutory approval regime. |
 | **March 2026** | NSW published a **Data Centre Consultation Paper** to develop principles for sustainable and equitable investment. | Consultation paper rather than a final strategy; the consultation has closed and the policy position remains under development. |
 | **23 March 2026** | The Department of Industry, Science and Resources published five national **Expectations of data centres and AI infrastructure developers**. | Non-binding expectations used to inform Commonwealth prioritisation and coordination. Existing laws continue to apply. |
-| **June 2026** | South Australia published its **Data Centre Strategy** and committed to consult on a proposed Data Centre and AI Infrastructure Act. | Strategy and policy commitment; the proposed Act has not been enacted. |
 | **13 May 2026** | The Senate referred the **Artificial Intelligence and Data Centres** inquiry to the Environment and Communications References Committee. | Parliamentary inquiry; not a source of legal duties. Reporting date 16 November 2026. |
+| **June 2026** | South Australia published its **Data Centre Strategy** and committed to consult on a proposed Data Centre and AI Infrastructure Act. | Strategy and policy commitment; the proposed Act has not been enacted. |
 | **15 July 2026** | The Prime Minister announced planned **Australian Standards for AI** for large data centres and AI training. The Office of AI was established in PM&C. | Policy announcement only; no new statutory duties commenced. |
-| **1 September 2026** | Submissions close for the Senate's Artificial Intelligence and Data Centres inquiry. | Parliamentary process; committee reports by 16 November 2026. |
 | **August 2026** | The July announcement said National Cabinet would consider the national approach. | No published outcome was identified by 22 August 2026. |
+| **1 September 2026** | Submissions close for the Senate's Artificial Intelligence and Data Centres inquiry. | Parliamentary process; committee reports by 16 November 2026. |
 | **Early 2027** | The Government expects the standards to be legislated. | Target only; subject to design, intergovernmental agreement and Parliament. |
 
 ---
@@ -166,7 +166,7 @@ South Australia has already activated planning mechanisms under existing state l
 
 <!-- TODO: Human verification required: confirm the strategy commitments, current planning mechanisms and proposed Act status against the latest South Australian Government material. -->
 
-See the [South Australian Government Data Centre Strategy (June 2026)](https://www.dpc.sa.gov.au/__data/assets/pdf_file/0010/1424737/SA-Data-Centre-Strategy.pdf) and our broader [state and territory AI resources](/business-resources/state-territory-ai-resources/#south-australia-sa).
+See the [South Australian Government Data Centre Strategy (June 2026)](https://www.dpc.sa.gov.au/__data/assets/pdf_file/0010/1424737/SA-Data-Centre-Strategy.pdf) and our broader [state and territory AI resources](../business-resources/state-territory-ai-resources.md#south-australia-sa).
 
 ---
 
