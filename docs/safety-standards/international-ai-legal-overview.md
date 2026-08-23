@@ -19,8 +19,6 @@ og_type: "article"
 !!! note "Rapidly evolving landscape"
     International AI regulations are changing fast. The **Digital Omnibus on AI (Regulation (EU) 2026/1744)** was published in the Official Journal on **24 July 2026** and entered into force on **27 July 2026**, making its revised dates legally effective. Article 50 transparency duties generally began applying on **2 August 2026**; the **2 December 2026** transition is limited to Article 50(2) marking and detection obligations for systems placed on the market before 2 August 2026. South Korea's AI Basic Act and Enforcement Decree took effect in January 2026, with an enforcement grace period of at least one year. Canada's AIDA died on the Order Paper and any replacement may differ substantially. Always verify current status with official sources before making compliance decisions.
 
-<!-- TODO(human-review): Re-verify the corrected EU, US, UK, Japan and South Korea status claims against the linked official sources before publication. -->
-
 As AI regulation accelerates globally, many jurisdictions already impose binding requirements or have near-term obligations that will affect Australian organisations exporting, operating, or handling data linked to those regions.
 
 Below is a practical snapshot of the US, Canada, EU, UK, Japan, South Korea, Singapore and recent bilateral agreements, plus the global frameworks most often referenced by regulators.
