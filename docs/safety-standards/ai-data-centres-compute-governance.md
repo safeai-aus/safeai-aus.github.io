@@ -3,7 +3,7 @@ icon: lucide/server
 title: "AI Data Centres and Compute Governance"
 description: "Australian AI data centre policy, state strategies and trusted directories, covering energy, water, planning, security and sovereignty."
 keywords: "AI data centres Australia, Australian data centre directory, data centre regulation Australia, compute governance Australia, Australian Standards for AI, Data Centre Expectations, Victoria Sustainable Data Centre Action Plan, NSW Data Centre Consultation Paper, South Australia Data Centre Strategy, AI infrastructure policy, data centre energy water"
-last-reviewed: "2026-08-22"
+last-reviewed: "2026-08-31"
 review-cycle: "quarterly"
 og_description: "A source-led guide to Australian data centre policy, state approaches, compute governance and trusted facility directories"
 og_type: "article"
@@ -14,12 +14,12 @@ og_type: "article"
 > **Purpose:** Track Australia's emerging policy for large data centres and AI compute infrastructure
 > **Audience:** Government, infrastructure, energy, technology, risk and community leaders | **Time:** 20-25 minutes
 
-!!! warning "Current status — 22 August 2026"
+!!! warning "Current status — 31 August 2026"
     Australia does **not yet have a legislated national AI data centre standard**. The Australian Government published voluntary **Data Centre Expectations** on 23 March 2026 and announced on 15 July 2026 that it intends to legislate Australian Standards for AI covering large data centres and AI training.
 
-    The July announcement said National Cabinet would consider the approach in **August 2026**, with legislation expected in **early 2027**. SafeAI-Aus did not identify a published National Cabinet outcome, bill or consultation paper by **22 August 2026**. The final coverage, thresholds, duties, regulators and commencement arrangements therefore remain unknown. The announcement does not itself create new legal obligations.
+    **National Cabinet met on 26 August 2026** and endorsed developing nationally consistent **mandatory** standards for large data centres — covering energy, water, land-use and skills/training — building on the March 2026 Data Centre Expectations. The Commonwealth has committed to work with states and territories to legislate the standards in **early 2027**. This outcome is corroborated across independent secondary sources (see the note below) but had not been confirmed against a primary government communique by 30 August 2026. The final coverage, thresholds, duties, regulators and commencement arrangements remain unknown, and the announcement does not itself create new legal obligations.
 
-<!-- TODO: Human-verify whether National Cabinet has considered the approach and whether any bill or consultation paper was published after 22 August 2026. -->
+<!-- TODO: Human-verify the 26 August 2026 National Cabinet outcome against the primary pm.gov.au communique once direct access is available, and check for any bill or consultation paper published since 30 August 2026. -->
 
 Data centres are the physical infrastructure behind cloud services and modern AI. Large AI facilities can concentrate substantial demand for electricity, grid connections, cooling water, land and specialist equipment. They can also support domestic computing capacity, research, skilled employment and investment in new energy infrastructure.
 
@@ -57,9 +57,9 @@ The outcome depends on location, design, contracts, operating behaviour and tran
 | **13 May 2026** | The Senate referred the **Artificial Intelligence and Data Centres** inquiry to the Environment and Communications References Committee. | Parliamentary inquiry; not a source of legal duties. Reporting date 16 November 2026. |
 | **June 2026** | South Australia published its **Data Centre Strategy** and committed to consult on a proposed Data Centre and AI Infrastructure Act. | Strategy and policy commitment; the proposed Act has not been enacted. |
 | **15 July 2026** | The Prime Minister announced planned **Australian Standards for AI** for large data centres and AI training. The Office of AI was established in PM&C. | Policy announcement only; no new statutory duties commenced. |
-| **August 2026** | The July announcement said National Cabinet would consider the national approach. | No published outcome was identified by 22 August 2026. |
+| **26 August 2026** | National Cabinet endorsed developing mandatory national data centre standards (energy, water, land-use, skills/training). | Intergovernmental commitment to legislate; not itself a legal instrument. Corroborated via secondary sources, pending primary-source confirmation. |
 | **1 September 2026** | Submissions close for the Senate's Artificial Intelligence and Data Centres inquiry. | Parliamentary process; committee reports by 16 November 2026. |
-| **Early 2027** | The Government expects the standards to be legislated. | Target only; subject to design, intergovernmental agreement and Parliament. |
+| **Early 2027** | The Commonwealth has committed, following National Cabinet's 26 August endorsement, to legislate the standards. | Target only; subject to design, intergovernmental agreement and Parliament. |
 
 ---
 
@@ -96,6 +96,19 @@ The Office of AI within the Department of the Prime Minister and Cabinet is coor
 
 !!! info "Do not confuse infrastructure standards with general AI guidance"
     The proposed standards do not make the [Guidance for AI Adoption (AI6)](guidance-for-ai-adoption-ai6.md) or the [Voluntary AI Safety Standard](voluntary-ai-safety-standard-10-guardrails.md) mandatory for every organisation using AI. AI6 remains general, non-binding governance guidance, while the announced framework is directed principally at large data centres and AI training.
+
+---
+
+## National Cabinet endorses mandatory standards (26 August 2026)
+
+National Cabinet met on 26 August 2026 and agreed that large data centres have material impacts on energy, water and land use. It endorsed developing nationally consistent **mandatory** standards covering those areas, plus skills and training requirements, and committed the Commonwealth to work with states and territories to legislate the standards in **early 2027**.
+
+The endorsed standards are expected to build on the March 2026 Data Centre Expectations (above) and to apply to large-scale, co-location, hyperscale and large-scale AI compute facilities — not small edge or on-site enterprise data centres. This scopes the framework to data-centre infrastructure; it does not itself extend to the economy-wide [Guidance for AI Adoption (AI6)](guidance-for-ai-adoption-ai6.md) or introduce mandatory guardrails for general AI use.
+
+!!! note "Pending primary-source confirmation"
+    SafeAI-Aus's usual direct sources — including pm.gov.au and industry.gov.au — were not reachable this research cycle. This summary is corroborated across independent secondary sources: [Clayton Utz](https://www.claytonutz.com/insights/2026/august/nine-governments-one-rulebook-national-cabinet-backs-mandatory-ai-and-data-centre-standards), [The ABJ](https://theabj.com.au/2026/08/27/australia-ai-data-centre-rules-national-cabinet/) and [GTLaw](https://www.gtlaw.com.au/insights/australian-government-announces-mandatory-ai-standards-for-large-scale-data-centres-and-new-office-of-ai) (all accessed 30 August 2026). Treat as high-confidence pending confirmation against the official National Cabinet communique.
+
+<!-- TODO: Human-verify against the primary pm.gov.au National Cabinet communique when direct access is available. -->
 
 ---
 
@@ -226,7 +239,7 @@ No single public directory provides a definitive count of Australian data centre
 
 ## What to watch next
 
-- Any published outcome of the **National Cabinet consideration announced for August 2026**
+- Primary-source confirmation of the **26 August 2026 National Cabinet outcome** against the official communique, and any consultation paper or bill giving it legal effect
 - Submissions and eventual findings from the **Senate Environment and Communications References Committee inquiry into AI and data centres** (submissions close 1 September 2026; committee reports by 16 November 2026)
 - Draft legislation, consultation papers or impact analysis for the Australian Standards for AI
 - Definitions and thresholds for a **large AI data centre**, AI training facility or expanded development
