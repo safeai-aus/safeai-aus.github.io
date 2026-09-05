@@ -3,7 +3,7 @@ icon: lucide/wrench
 title: "AI Tools & Frameworks for Australian Businesses"
 description: "Curated AI tools and frameworks for Australian businesses implementing AI safely, including resources for governance, risk management and technical testing."
 keywords: "AI tools Australia, AI frameworks Australia, AI risk management tools, AI governance tools, AI testing tools, Australian AI resources, AI safety tools, AI compliance tools"
-last-reviewed: "2026-07-19"
+last-reviewed: "2026-08-23"
 review-cycle: "quarterly"
 og_description: "Curated collection of AI tools, frameworks and resources for Australian businesses"
 og_type: "article"
@@ -62,6 +62,7 @@ As part of the **APS AI Plan 2025**, the Australian Government's **GovAI Chat** 
 - **ISO/IEC 42001** – AI management system (AIMS) requirements. ([iso.org](https://www.iso.org/standard/81230.html))
 - **OECD AI Principles** – intergovernmental principles for trustworthy AI. ([oecd.ai](https://oecd.ai/en/ai-principles))
 - **Singapore Model AI Governance Framework** – practical implementation guidance. ([pdpc.gov.sg](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework))
+- **AISI – Risks and controls for multi-agent systems (August 2026)** – Australian AI Safety Institute framework, commissioned from the Gradient Institute, mapping risks, failure types and controls for AI agents interacting across organisational boundaries (e.g. a business's agent transacting with a customer's or supplier's agent). Relevant to organisations deploying agentic AI that interacts with third-party systems. ([industry.gov.au](https://www.industry.gov.au/publications/risks-and-controls-multi-agent-systems))
 
 ## 📋 Governance & Policy Tools
 
