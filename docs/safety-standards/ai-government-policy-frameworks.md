@@ -3,7 +3,7 @@ icon: lucide/landmark
 title: "Australian Government AI Policy and Frameworks"
 description: "Australian Government AI policy and guidance, including the National AI Plan, AI Safety Institute, DTA requirements, AI6 and VAISS."
 keywords: "Australian AI policy, National AI Plan, AI Safety Institute, DTA AI policy, AI6 guidance, VAISS, AI governance Australia, mandatory AI requirements, Senate AI Committee"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-08-23"
 review-cycle: "quarterly"
 og_description: "Overview of Australian Government AI policy, guidance and institutional developments"
 og_type: "article"
@@ -94,8 +94,9 @@ The **Australian AI Safety Institute (AISI)** was formally established in early 
     - With the **Gradient Institute**: assessing the risk of AI agents acting autonomously on behalf of humans
     - With **CSIRO**: investigating human oversight and verification of capable AI systems at scale (supported by UK partners)
 - The AISI signed a Memorandum of Understanding with **Anthropic** on 1 April 2026 — the first formal industry collaboration under the National AI Plan. The MOU covers AI safety evaluation, infrastructure alignment and capability building. It is non-binding and does not confer preferential treatment in procurement
+- On **9 August 2026**, the AISI published its first substantive report, **"Risks and controls for multi-agent systems"**, commissioned from the Gradient Institute — the output of the research project noted above. It sets out a technical framework mapping risks, failure types and controls across three deployment tiers (singular governance, federated governance and open environments) for situations where AI agents from different organisations interact, such as a business's agent transacting with a customer's or supplier's agent. Coverage describes it as the first government publication to treat cross-organisational AI agent risk as a distinct governance problem
 
-(Sources: [minister.industry.gov.au](https://www.minister.industry.gov.au/charlton/media/ai-safety-forum), [innovationaus.com](https://www.innovationaus.com/ai-safety-institute-teams-with-asd-to-test-unreleased-models/), [startupdaily.net](https://www.startupdaily.net/topic/artificial-intelligence-machine-learning/hacking-blackmail-and-deception-australian-government-minister-sounds-alarm-on-ai-as-new-safety-institute-takes-a-closer-look/), accessed 12 July 2026)
+(Sources: [minister.industry.gov.au](https://www.minister.industry.gov.au/charlton/media/ai-safety-forum), [innovationaus.com](https://www.innovationaus.com/ai-safety-institute-teams-with-asd-to-test-unreleased-models/), [startupdaily.net](https://www.startupdaily.net/topic/artificial-intelligence-machine-learning/hacking-blackmail-and-deception-australian-government-minister-sounds-alarm-on-ai-as-new-safety-institute-takes-a-closer-look/), accessed 12 July 2026; [industry.gov.au](https://www.industry.gov.au/publications/risks-and-controls-multi-agent-systems), [gradientinstitute.org](https://www.gradientinstitute.org/posts/multiagent-risks-report/), accessed 23 August 2026)
 
 The AISI advises; portfolio agencies and sector regulators retain enforcement responsibility.
 
@@ -196,6 +197,7 @@ The ACCC published its own AI transparency statement in February 2026 and has fl
 | 1 April 2026 | Senate Committee response tabled; Anthropic MOU signed; Copyright reform passed |
 | **15 June 2026** | **DTA first mandatory requirements** |
 | **15 July 2026** | **Australian Standards for AI announced; Office of AI established in PM&C** |
+| 9 August 2026 | AISI publishes first substantive report, "Risks and controls for multi-agent systems" (with Gradient Institute) |
 | **20 July 2026** | **Whole-of-government AI consumer safety priorities announced** |
 | **August 2026** | **National Cabinet to consider Australian Standards for AI** |
 | **10 December 2026** | **Privacy Act ADM obligations commence; DTA full compliance** |
@@ -209,6 +211,7 @@ The ACCC published its own AI transparency statement in February 2026 and has fl
 - [Office of AI](https://www.pmc.gov.au/domestic-policy/office-ai) — pmc.gov.au
 - [AI consumer safety priorities](https://www.minister.industry.gov.au/charlton/media/ai-consumer-safety-priorities) — minister.industry.gov.au
 - [AI Safety Institute](https://www.industry.gov.au/news/australia-establish-new-institute-strengthen-ai-safety) — industry.gov.au
+- [Risks and controls for multi-agent systems](https://www.industry.gov.au/publications/risks-and-controls-multi-agent-systems) — industry.gov.au
 - [DTA AI Policy Update](https://www.dta.gov.au/articles/ai-policy-update-strengthening-responsible-use-across-government) — dta.gov.au
 - [AI Impact Assessment Tool](https://www.digital.gov.au/ai/impact-assessment-tool/introduction) — digital.gov.au
 - [Government Response to Senate Select Committee on AI](https://www.industry.gov.au/publications/australian-government-response-senate-select-committee-adopting-artificial-intelligence-ai-report) — industry.gov.au
