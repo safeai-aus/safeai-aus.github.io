@@ -3,7 +3,7 @@ icon: lucide/map-pin
 title: "Australian Government AI Resources"
 description: "Official AI strategies, policies, assurance frameworks and statutory guidance from Australian federal, state and territory governments."
 keywords: "Australian government AI resources, federal AI policy, state AI policies, territory AI policies, government AI strategies, NAIC, OAIC, DTA, NSW AI policy, Victoria AI guidance, Queensland AI framework, SA AI resources, WA AI policy, Tasmania AI guidance, ACT AI policy, NT AI framework"
-last-reviewed: "2026-07-22"
+last-reviewed: "2026-09-07"
 review-cycle: "quarterly"
 og_description: "Comprehensive guide to AI resources published by Australian federal, state and territory governments"
 og_type: "article"
@@ -158,6 +158,7 @@ For a detailed overview of Australian AI legislation, see our [AI & Australian L
 - **[ACTPS Acceptable Use of ICT Resources Policy](https://www.cmtedd.act.gov.au/__data/assets/pdf_file/0006/818034/Acceptable_ICT_Use_Policy.pdf)** — includes specific conditions for generative AI (appropriateness, confidentiality, security).
 - **[Education Directorate — Position on use of AI in ACT public schools](https://www.act.gov.au/__data/assets/pdf_file/0009/2824146/Position-on-use-of-AI-in-ACT-public-schools.pdf)** — classroom and teacher guidance for safe use.
 - **[ACT Government Technology Directions](https://www.act.gov.au/open/act-government-technology-directions)** — strategic context for digital/AI capability across ACT Government (PDF available on page).
+- **[ACT Government Data Centre Framework (announced 26 August 2026)](https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr/2026/providing-a-clear-framework-for-data-centres-in-the-act)** — restricts future data centre development to land already zoned for commercial, industrial, transport/services or certain non-urban use. See [AI Data Centres and Compute Governance](../safety-standards/ai-data-centres-compute-governance.md#australian-capital-territory-data-centre-framework-announced-26-august-2026) for full detail.
 
 ---
 
