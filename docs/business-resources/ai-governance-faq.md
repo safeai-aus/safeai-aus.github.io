@@ -29,7 +29,7 @@ faq:
   - question: "What is the AI Safety Institute?"
     answer: "The Australian AI Safety Institute was established in early 2026 with $29.9 million in funding. It conducts technical assessments of advanced AI systems, engages internationally through the Network of AI Safety Institutes, and publishes research. It advises government but does not have enforcement powers."
   - question: "Are there mandatory AI requirements for government agencies?"
-    answer: "Yes. The Digital Transformation Agency's Policy for the Responsible Use of AI in Government (Version 2.0) sets mandatory requirements for non-corporate Commonwealth entities. The first wave took effect on 15 June 2026: an internal register of in-scope AI use cases with an accountable owner for each, and foundational AI training for staff. The remaining obligations — including AI impact assessments before deployment, approval and oversight processes, and AI incident reporting — commence in December 2026."
+    answer: "Yes. The Digital Transformation Agency's Policy for the responsible use of AI in government (Version 2.0) sets mandatory requirements for non-corporate Commonwealth entities. The policy states its obligations as windows from the 15 December 2025 effective date rather than as fixed calendar dates. Within 6 months (15 June 2026), agencies must develop a strategic position on AI adoption. Within 12 months (15 December 2026), they must designate an accountable use case owner for each in-scope AI use case and maintain a register of those owners, establish an approach to embed responsible AI practices, implement mandatory training for all staff on responsible AI use, and begin AI use case assessments, alongside AI impact assessments before deployment, approval and oversight processes and AI incident reporting. Existing use cases not yet assessed must be brought into line by 30 April 2027."
   - question: "How does Australian AI regulation compare internationally?"
     answer: "Australia takes a voluntary, principles-based approach — unlike the EU's binding AI Act or China's specific AI regulations. Australia relies on existing technology-neutral laws supported by guidance frameworks. The EU's Digital Omnibus on AI (Regulation (EU) 2026/1744) entered into force on 27 July 2026 and moved the high-risk compliance dates to 2 December 2027 for Annex III systems and 2 August 2028 for Annex I systems. Article 50 transparency duties generally applied from 2 August 2026. Australian businesses supplying AI into the EU should work to the dates now in force."
 ---
@@ -56,9 +56,9 @@ Australia does not yet have a standalone AI Act. Instead, existing laws apply to
 The government relies on voluntary guidance ([AI6](../safety-standards/guidance-for-ai-adoption-ai6.md), [VAISS](../safety-standards/voluntary-ai-safety-standard-10-guardrails.md)) and a new [AI Safety Institute](../safety-standards/ai-government-policy-frameworks.md), rather than mandatory AI-specific regulation — for now.
 
 !!! warning "Mandatory requirements now commencing"
-    The first of the DTA's mandatory AI requirements for Commonwealth agencies took effect on **15 June 2026**; the remaining obligations commence in **December 2026**. Privacy Act automated decision-making obligations commence **10 December 2026**. See [Government AI Policy & Frameworks](../safety-standards/ai-government-policy-frameworks.md) for details.
+    The DTA's mandatory AI requirements for Commonwealth agencies are staged as windows from the policy's **15 December 2025** effective date. The 6-month milestone (**15 June 2026**) required a strategic position on AI adoption. The bulk of the obligations, including the register of accountable use case owners and mandatory staff training, fall at 12 months (**15 December 2026**), and existing unassessed use cases must be brought into line by **30 April 2027**. Privacy Act automated decision-making obligations commence **10 December 2026**. See [Government AI Policy & Frameworks](../safety-standards/ai-government-policy-frameworks.md) for details.
 
-<!-- TODO: Human-verify the 15 June 2026 and December 2026 DTA commencement dates and the 10 December 2026 Privacy Act ADM date against digital.gov.au and the Privacy and Other Legislation Amendment Act 2024. -->
+<!-- TODO: The DTA implementation windows above were verified against digital.gov.au on 8 September 2026 (Policy for the responsible use of AI in government v2.0, effective 15 December 2025). Still to verify: the 10 December 2026 Privacy Act ADM date against the Privacy and Other Legislation Amendment Act 2024. -->
 
 ### Does the Privacy Act apply to AI?
 
@@ -145,14 +145,15 @@ All SafeAI-Aus templates are free and designed to be adapted to organisations of
 
 ### Are there mandatory AI requirements for government agencies?
 
-Yes. The DTA's Policy for the Responsible Use of AI in Government (Version 2.0) sets mandatory requirements for non-corporate Commonwealth entities:
+Yes. The DTA's Policy for the responsible use of AI in government (Version 2.0) sets mandatory requirements for non-corporate Commonwealth entities. The policy took effect on **15 December 2025** and states its obligations as windows from that date rather than as fixed calendar dates:
 
-- **15 June 2026** (now in effect) — an internal register of in-scope AI use cases with an accountable owner for each, plus foundational AI training for staff
-- **December 2026** — the remaining requirements, including AI impact assessments before deployment, processes to assess, approve and oversee AI use cases, and AI incident reporting
+- **Within 6 months** (15 June 2026, now passed) — develop a strategic position on AI adoption
+- **Within 12 months** (15 December 2026) — designate an accountable use case owner for each in-scope AI use case and maintain a register of those owners; establish an approach to embed responsible AI practices; implement mandatory training for all staff on responsible AI use; and begin AI use case assessments. AI impact assessments before deployment, processes to assess, approve and oversee AI use cases, and AI incident reporting fall in the same window
+- **By 30 April 2027** — for existing use cases not yet assessed, determine whether they are in scope and apply all relevant policy actions
 
 While mandatory only for Commonwealth agencies, they signal the direction for all Australian organisations.
 
-<!-- TODO: Human-verify the split of DTA requirements between the 15 June 2026 and December 2026 commencement dates against the Policy for the Responsible Use of AI in Government v2.0. -->
+<!-- TODO: The split of DTA requirements between the 6-month and 12-month windows and the 30 April 2027 deadline were verified on 8 September 2026 against the Policy for the responsible use of AI in government v2.0 on digital.gov.au (strategy-and-oversight, preparedness-and-operations and ai-use-case-impact-assessment pages). Recheck if the DTA publishes a revised version of the policy. -->
 
 → [Government AI Policy & Frameworks](../safety-standards/ai-government-policy-frameworks.md)
 
