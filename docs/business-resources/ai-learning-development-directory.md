@@ -3,9 +3,9 @@ icon: lucide/book-open
 title: "AI & Emerging Tech Learning Directory for SMEs"
 description: "Free AI learning resources for Australian SMEs, including government programs, university courses and open-source training to build capability."
 keywords: "AI learning, SME training, AI resources Australia, safe AI adoption, government AI courses, open source AI learning"
-last-reviewed: "2026-01-31"
+last-reviewed: "2026-09-08"
 review-cycle: "quarterly"
-og_description: "Discover 11+ free AI learning resources for Australian SMEs. Access government programs, university courses and open-source training to build AI capability."
+og_description: "Discover 11 free AI learning resources for Australian SMEs. Access government programs, university courses and open-source training to build AI capability."
 og_type: "article"
 ---
 
@@ -30,16 +30,16 @@ og_type: "article"
 
 ### Federal Programs
 
-#### 1. 🎓 [AI 101 Course for Small & Medium Businesses](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-education-small-and-medium-businesses)
+#### 1. 🎓 [AI.gov.au — Training and Practical Guides](https://www.ai.gov.au/practical-guides-and-learning/training)
 
-*Department of Industry, Science and Resources (DISR)*
+*National AI Centre, Department of Industry, Science and Resources*
 
-- **Description:** Builds foundational understanding of AI concepts and real-world productivity use cases tailored for SMEs.
-- **Format:** Online, self-paced short course.
+- **Description:** The Australian Government's single entry point for free AI training and practical guidance. Lists the current free TAFE NSW AI microskills, the Digital Solutions Program AI and emerging technologies modules, and an AI safety and cyber security risks course for small business.
+- **Format:** Directory of online, self-paced courses and guides.
 - **Eligibility:** Open to all SME owners and employees.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner
-- **Integration:** Serve as baseline training to align staff vocabulary and identify practical AI opportunities.  
+- **Integration:** Use as the starting point for baseline training, and check it first because the course list changes as new microskills are released.
 
 ---
 
@@ -47,47 +47,47 @@ og_type: "article"
 
 *Business.gov.au – National Network*
 
-- **Description:** Provides tailored diagnostics, hands-on piloting, and AI adoption roadmapping through expert guidance.
-- **Format:** Workshops, consultations, demonstrations.
-- **Eligibility:** SMEs in trade-exposed or NRF priority sectors.
+- **Description:** Four centres funded under the $17 million AI Adopt Program provide tailored diagnostics, hands-on piloting and AI adoption roadmapping. The centres now operate under their own brands: **SMEC AI** (medical science, agriculture, enabling technologies, renewables and low emissions), the **ARM Hub AI Adopt Centre** (manufacturing and robotics), **SAAM** — the Safe AI Adoption Model (governance and workflow tools), and **ARAIN** — the Australian Regional AI Network (regional, forestry, agriculture, fisheries and renewables).
+- **Format:** Workshops, consultations, demonstrations, online tools.
+- **Eligibility:** SMEs in [National Reconstruction Fund priority sectors](https://www.nrf.gov.au/what-we-do/our-priority-areas).
 - **Cost:** **Free** (government-funded).
 - **Difficulty:** Intermediate
 - **Integration:** Ideal for translating awareness into strategy; embed findings into SME operations or digital plans.
 
 ---
 
-#### 3. 🏭 [Digital Transformation – Manufacturing AI Support](https://www.minister.industry.gov.au/ministers/husic/media-releases/free-ai-training-and-advice-small-medium-businesses)
+#### 3. 🏭 [ARM Hub AI Adopt Centre](https://aiadopt.ai/)
 
-*Advanced Robotics Manufacturing Hub & partners*
+*Advanced Robotics Manufacturing (ARM) Hub, operating as Digital Transformation Australia, with 28 partner organisations*
 
-- **Description:** Sector-focused advisory addressing AI-driven workflow optimisation, robotics integration and governance for manufacturing, energy, or agri SMEs.
-- **Format:** One-on-one advisory and hub-based support.
-- **Eligibility:** Manufacturing, energy, agriculture SMEs.
-- **Cost:** **Subsidised** (often free).
+- **Description:** Sector-focused advisory addressing AI-driven workflow optimisation, robotics integration and governance, with a manufacturing focus.
+- **Format:** Training, technology demonstrations, and a customised AI adoption roadmap; one-on-one and hub-based support.
+- **Eligibility:** Manufacturing and other SMEs in National Reconstruction Fund priority sectors.
+- **Cost:** **Free** for training, demonstrations and the adoption roadmap. The centre's separate AI-as-a-service data integration offering is **fee-based**.
 - **Difficulty:** Intermediate–Advanced
 - **Integration:** Embed as capability uplift tied to process improvement or Lean transformation efforts.
 
 ---
 
-#### 4. 📜 [IATD Fee-Free Courses (Microcredentials)](https://statedevelopment.sa.gov.au/news/free-ai-education-for-smes)
+#### 4. 📜 [IATD Microskills (Institute of Applied Technology – Digital)](https://store.training.tafensw.edu.au/product-category/iat/iat-digital/)
 
-*SA Government + TAFE NSW, Microsoft, UTS, Macquarie University*
+*TAFE NSW Institute of Applied Technology – Digital, with Microsoft, the University of Technology Sydney and Macquarie University*
 
-- **Description:** Stackable microcredentials in AI, cybersecurity, data, software and cloud—designed with industry partners for practical skill-building.
-- **Format:** Blended and online.
-- **Eligibility:** SME staff in SA; some availability nationally subject to scholarship.
-- **Cost:** **Fee-free** if funded; otherwise ~$300–$600 per unit.
+- **Description:** Stackable microskills in AI, cyber security, data, software and cloud, designed with industry partners for practical skill-building. AI-related titles currently listed include *Introduction to Artificial Intelligence*, *Generative AI and its Business Applications*, *Responsible Artificial Intelligence* and *Introduction to Agentic AI*, plus an all-courses and an AI-only bundle.
+- **Format:** Online, self-paced.
+- **Eligibility:** Open to anyone nationally; enrolment is through the TAFE NSW course store. The South Australian Government [promoted the same courses to SA businesses](https://statedevelopment.sa.gov.au/news/free-ai-education-for-smes).
+- **Cost:** Listed at **$140 per microskill** and currently discounted to **$0.00 (inc GST)** on the TAFE NSW store. Verify the price at checkout before committing staff time.
 - **Difficulty:** Intermediate
-- **Integration:** Develop internal "digital upskill pathway" for key staff or AI champions.
+- **Integration:** Develop an internal "digital upskill pathway" for key staff or AI champions.
 
 ---
 
-#### 5. 🌟 [TAFE NSW + National AI Centre "Introduction to AI" Microskill](https://www.nsw.gov.au/media-releases/one-million-introduction-to-ai-scholarships-available-to-australians)
+#### 5. 🌟 [TAFE NSW + National AI Centre "Introduction to Artificial Intelligence" Microskill](https://store.training.tafensw.edu.au/product/introduction-to-artificial-intelligence/)
 
-- **Description:** A concise, non-technical introduction to AI, covering basics, benefits, limitations and ethical considerations.
-- **Format:** 2–3 hour online module.
+- **Description:** A concise, non-technical introduction to AI, covering basics, benefits, limitations and ethical considerations. Announced in early 2024 with up to one million scholarships ([NSW Government media release, 5 March 2024](https://www.nsw.gov.au/media-releases/one-million-introduction-to-ai-scholarships-available-to-australians)).
+- **Format:** 2.5 hour online module, self-paced, with four months of access from enrolment.
 - **Eligibility:** All Australians.
-- **Cost:** **Free**.
+- **Cost:** Listed at **$140** and currently discounted to **$0.00 (inc GST)**.
 - **Difficulty:** Beginner
 - **Integration:** Use as induction or pre-engagement prep before deeper programs like AI Adopt Centres.
 
@@ -95,27 +95,29 @@ og_type: "article"
 
 #### 6. 🏛️ [APS Academy – "AI in Government Fundamentals"](https://www.apsacademy.gov.au/course-sessions/ai-government-fundamentals)
 
-- **Description:** Covers ethical, governance and risk aspects of AI deployment in brief, accessible form.
-- **Format:** 20–30 minute self-paced module.
-- **Eligibility:** Public servants (open access to all).
+- **Description:** Covers ethical, governance and risk aspects of AI deployment in brief, accessible form. Provided by the Digital Transformation Agency and aligned to *Working in Government* at the Foundation level.
+- **Format:** Virtual self-directed module, approximately 20 minutes, available at any time.
+- **Eligibility:** APS staff — enrolment requires a valid APSLearn profile. Not available to the general public.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner
-- **Integration:** Embed to establish responsible AI awareness as training baseline before operational adoption.  
+- **Integration:** Embed to establish responsible AI awareness as a training baseline before operational adoption. Private-sector teams should use the *Responsible Artificial Intelligence* microskill at item 4 instead.
 
 ---
 
 ### State-Level Programs
 
-#### 7. 🗺️ [South Australia AI Initiative](https://www.news.com.au/technology/innovation/south-australian-treasurer-stephen-mullighan-announces-new-28m-ai-program-in-state-budget/news-story/97fe39eeff3224d0eb3857c7169ce8c2)
+#### 7. 🗺️ [South Australia AI Initiative](ai-grants-funding-australia.md#south-australia-28-million-ai-initiative-2025-2029)
 
 *SA Government*
 
-- **Description:** $28 million AI initiative (2025-2029) with $7 million annually for proof-of-value trials
+- **Description:** $28 million AI initiative (2025-2029) with $7 million annually for proof-of-value trials. Funding is profiled from 2025-26 to 2028-29 in the 2024-25 South Australian State Budget (Budget Paper 4: Agency Statements), and remains subject to ongoing state budget appropriation.
 - **Format:** Government-funded programs and trials
 - **Eligibility:** Healthcare, policing, allied health, social work and legal/financial services
 - **Cost:** **Free** (government-funded)
 - **Difficulty:** Intermediate–Advanced
-- **Integration:** Ideal for public sector AI adoption and job protection initiatives
+- **Integration:** Ideal for public sector AI adoption and job protection initiatives. This is a funding and trial program rather than a training course, so pair it with the courses above.
+
+<!-- TODO: Human-verify the $28 million figure, the 2025-2029 profile and current program status against the South Australian State Budget papers; treasury.sa.gov.au returned HTTP 403 to automated requests on 8 September 2026. -->
 
 ---
 
@@ -151,7 +153,7 @@ og_type: "article"
 
 - **Description:** Explores multimodal AI applications across vision, sound, sensors and creativity—building intuition for AI's broader capabilities.
 - **Format:** Lectures, readings and research projects.
-- **Licence:** CC BY.
+- **Licence:** CC BY-NC-SA 4.0.
 - **Cost:** **Free**.
 - **Difficulty:** Beginner–Intermediate
 - **Integration:** Use for ideation workshops or innovation sprints; inspires cross-functional understanding.
@@ -162,7 +164,7 @@ og_type: "article"
 
 - **Description:** Hands-on, open-source textbook with runnable code, blending theory, math and implementation in Jupyter notebooks.
 - **Format:** Interactive book using PyTorch, TensorFlow, JAX, with live examples.
-- **Licence:** Open source (Apache 2.0).
+- **Licence:** Book text under CC BY-SA 4.0; sample and reference code under a modified MIT licence.
 - **Cost:** **Free**.
 - **Difficulty:** Advanced
 - **Integration:** Ideal for developers or data teams; use as core resource for self-learning cohorts.
@@ -173,28 +175,31 @@ og_type: "article"
 
 | Resource / Provider                                | Cost        | Difficulty          | Learning Outcome Summary                                  |
 |---------------------------------------------------|-------------|---------------------|-----------------------------------------------------------|
-| **AI 101 (DISR)**                                | Free        | Beginner            | Understand AI basics and productivity use cases           |
+| **AI.gov.au training hub (NAIC)**                | Free        | Beginner            | Find the current free government-backed AI courses        |
 | **AI Adopt Centres**                             | Free        | Intermediate        | Develop bespoke AI adoption strategies                    |
-| **Digital Transformation – Manufacturing AI**    | Subsidised  | Intermediate–Advanced | Apply AI to optimise real-world processes               |
-| **IATD Microcredentials**                         | Free/paid   | Intermediate        | Gain industry-relevant AI, cyber, or data skills          |
-| **TAFE NSW Microskill**                          | Free        | Beginner            | Build foundational AI literacy and context                |
-| **APS Academy – AI Fundamentals**                | Free        | Beginner            | Grasp AI governance and ethical considerations            |
+| **ARM Hub AI Adopt Centre**                      | Free¹      | Intermediate–Advanced | Apply AI to optimise real-world processes               |
+| **IATD Microskills**                              | $0 (from $140) | Intermediate     | Gain industry-relevant AI, cyber, or data skills          |
+| **TAFE NSW Microskill**                          | $0 (from $140) | Beginner         | Build foundational AI literacy and context                |
+| **APS Academy – AI Fundamentals**                | Free²      | Beginner            | Grasp AI governance and ethical considerations            |
 | **MIT OCW AI/ML**                                | Free        | Intermediate–Advanced | Gain in-depth technical knowledge and frameworks         |
 | **AI Pedagogy Project**                          | Free        | Beginner–Intermediate | Foster responsible AI understanding in workforce        |
 | **MIT “How to AI (Almost) Anything”**            | Free        | Beginner–Intermediate | Understand multimodal and creative AI potentials        |
 | **Dive into Deep Learning**                      | Free        | Advanced            | Build hands-on deep learning proficiency                  |
+
+¹ Training, demonstrations and the adoption roadmap are free; the centre's AI-as-a-service offering is fee-based.
+² APS staff only — enrolment requires an APSLearn profile.
 
 ---
 
 !!! success "Business Learning Pathway Recommendations"
     **1. 🌱 Begin with Awareness (Beginner):**
 
-    - Start all staff with *AI 101*, *TAFE Microskill*, and *APS Fundamentals* to build a common understanding and responsible mindset.
+    - Start all staff with the *TAFE NSW Introduction to Artificial Intelligence* microskill, then the *Responsible Artificial Intelligence* microskill, to build a common understanding and responsible mindset. APS teams can add *AI in Government Fundamentals*.
 
     **2. 🎯 Next, Explore & Strategise (Intermediate):**
 
     - Engage with *AI Adopt Centres* for tailored planning.
-    - Empower team members towards *IATD microcredentials* to build internal AI capacity.
+    - Empower team members towards *IATD microskills* to build internal AI capacity.
 
     **3. 🔬 Dig Deeper (Advanced):**
 
