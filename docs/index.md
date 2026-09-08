@@ -28,6 +28,14 @@ hide:
 
 ---
 
+## Practical guidance for responsible AI adoption
+
+SafeAI-Aus ([safeaiaus.org](https://safeaiaus.org/)) is an independent Australian knowledge hub for organisations adopting and governing AI. It publishes practical, openly licensed guidance for executives, boards, risk teams, technology leaders and practitioners. Use the site to understand the Australian policy and standards landscape, establish proportionate governance, assess AI risks and prepare for changes in AI capability.
+
+The resources work as a connected toolkit. Organisations can start with the adoption guide and readiness checklist, adapt the policy and register templates, then use the risk assessments, assurance guidance and sector resources as their needs mature. Material about advanced AI and AGI supports scenario planning under uncertainty; it is not a prediction or a substitute for current legal, regulatory, security or professional advice.
+
+---
+
 ## Start Here
 
 <div class="grid cards" markdown>
@@ -176,6 +184,7 @@ Subscribe for practical tools to make AI safe — and work for your growth.
 
 - [About SafeAI-Aus](about.md)
 - [Contact](contact.md)
+- [Privacy](privacy.md)
 - [Newsletter](newsletter.md)
 - [Glossary](resources/glossary.md)
 
