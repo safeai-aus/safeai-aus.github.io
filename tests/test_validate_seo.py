@@ -6,7 +6,11 @@ from datetime import date
 from pathlib import Path
 
 from scripts.generate_sitemap import SITEMAP_NAMESPACE
-from scripts.validate_seo import _normalise_non_substantive_body, validate_project
+from scripts.validate_seo import (
+    _normalise_non_substantive_body,
+    _substantive_edit_needs_new_review_date,
+    validate_project,
+)
 
 
 ORG_ID = "https://safeaiaus.org/#organization"
@@ -205,6 +209,32 @@ class SeoValidationTests(unittest.TestCase):
 
         self.assertTrue(any("last-reviewed" in error for error in result.errors))
         self.assertTrue(any("title" in error.lower() and "60" in error for error in result.errors))
+
+    def test_same_day_correction_does_not_owe_a_new_review_date(self) -> None:
+        today = date(2026, 9, 8)
+
+        self.assertFalse(
+            _substantive_edit_needs_new_review_date("2026-09-08", "2026-09-08", today)
+        )
+
+    def test_stale_review_date_still_owes_an_advance(self) -> None:
+        today = date(2026, 9, 8)
+
+        self.assertTrue(
+            _substantive_edit_needs_new_review_date("2026-07-22", "2026-07-22", today)
+        )
+
+    def test_advanced_review_date_is_accepted(self) -> None:
+        today = date(2026, 9, 8)
+
+        self.assertFalse(
+            _substantive_edit_needs_new_review_date("2026-07-22", "2026-09-08", today)
+        )
+
+    def test_missing_review_date_on_both_sides_owes_an_advance(self) -> None:
+        today = date(2026, 9, 8)
+
+        self.assertTrue(_substantive_edit_needs_new_review_date(None, None, today))
 
     def test_review_label_cleanup_is_not_treated_as_substantive(self) -> None:
         old = "Always verify current status. Last reviewed: April 2026.\n*Last updated: 6 July 2026. This is not legal advice.*\n**Last reviewed:** January 2026\n**Focus:** Australia"
