@@ -425,7 +425,28 @@ def _normalise_non_substantive_body(body: str) -> str:
     return " ".join(body.split())
 
 
-def _validate_substantive_edits(base_ref: str, docs: Path, sources: dict[str, SourcePage], result: ValidationResult) -> None:
+def _substantive_edit_needs_new_review_date(
+    old_reviewed: str | None, new_reviewed: str | None, today: date
+) -> bool:
+    """Whether a substantive edit still owes an advanced ``last-reviewed`` date.
+
+    An unchanged date normally means the edit slipped through without a fresh
+    review. The exception is a page whose review date is already today: it was
+    reviewed today, and because a future date is rejected elsewhere, no value
+    could satisfy both rules. Same-day corrections are therefore allowed.
+    """
+    if old_reviewed != new_reviewed:
+        return False
+    return new_reviewed != today.isoformat()
+
+
+def _validate_substantive_edits(
+    base_ref: str,
+    docs: Path,
+    sources: dict[str, SourcePage],
+    result: ValidationResult,
+    today: date,
+) -> None:
     process = subprocess.run(
         ["git", "diff", "--name-only", f"{base_ref}...HEAD", "--", str(docs)],
         capture_output=True,
@@ -451,7 +472,9 @@ def _validate_substantive_edits(base_ref: str, docs: Path, sources: dict[str, So
         except ValueError:
             continue
         if _normalise_non_substantive_body(old_body) != _normalise_non_substantive_body(current.body):
-            if old_meta.get("last-reviewed") == current.metadata.get("last-reviewed"):
+            if _substantive_edit_needs_new_review_date(
+                old_meta.get("last-reviewed"), current.metadata.get("last-reviewed"), today
+            ):
                 result.errors.append(f"{changed}: substantive content changed without advancing last-reviewed")
 
 
@@ -549,7 +572,7 @@ def validate_project(
         _validate_graph(source, page, expected_review, result)
 
     if base_ref:
-        _validate_substantive_edits(base_ref, docs, sources, result)
+        _validate_substantive_edits(base_ref, docs, sources, result, today)
     return result
 
 
